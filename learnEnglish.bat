@@ -1,6 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
-REM color f2
+color 29
+title Learning English
 mode con cols=81 lines=25
 set /a correct=0
 set /a error=0
@@ -13,8 +14,8 @@ REM set /p db=Input library file(Press "Enter" key if you haven't):
 if exist test.h del /f /q test.h
 set /a lines=0
 if "%db%" == "" (
-echo 1,¿ÚÓï 2,ËÄ¼¶´Ê×é 3,ËÄ¼¶µ¥´Ê
-set /p sel=ÇëÑ¡Ôñ£º
+echo 1,å£è¯­ 2,å››çº§è¯ç»„ 3,å››çº§å•è¯
+set /p sel=è¯·é€‰æ‹©ï¼š
 set db=test.h
 	if "!sel!" == "1" (
 		set /a cnt=238
@@ -154,7 +155,7 @@ set %3=3
 ) else if /i "%input%" == "change" (
 set %3=2
 ) else (
-if /i "%input%" == %2 echo Wonderful£¡£¡£¡£¡£¡£¡Great£¡£¡£¡£¡£¡£¡Wonderful£¡£¡£¡£¡£¡£¡Great£¡£¡£¡£¡£¡£¡
+if /i "%input%" == %2 echo Wonderfulï¼ï¼ï¼ï¼ï¼ï¼Greatï¼ï¼ï¼ï¼ï¼ï¼Wonderfulï¼ï¼ï¼ï¼ï¼ï¼Greatï¼ï¼ï¼ï¼ï¼ï¼
 set %3=4
 )
 goto :eof
@@ -301,483 +302,483 @@ goto :eof
 
 
 
-;¿ÚÓï228
+;å£è¯­228
 1. It's up to you.
-ÓÉÄã¾ö¶¨¡£
+ç”±ä½ å†³å®šã€‚
 2. I envy you.
-ÎÒÏÛÄ½Äã¡£
+æˆ‘ç¾¡æ…•ä½ ã€‚
 3. How can I get in touch with you?
-ÎÒÔõÃ´ÁªÏµÉÏÄã£¿
+æˆ‘æ€ä¹ˆè”ç³»ä¸Šä½ ï¼Ÿ
 4. Where can I wash my hands?
-ÇëÎÊÏ´ÊÖ¼äÔÚÄÄÀï£¿
+è¯·é—®æ´—æ‰‹é—´åœ¨å“ªé‡Œï¼Ÿ
 5. What's the weather like today?
-½ñÌìÌìÆøÈçºÎ£¿
+ä»Šå¤©å¤©æ°”å¦‚ä½•ï¼Ÿ
 6. Where are you headed?
-ÄãÒªµ½ÄÄÀïÈ¥£¿
+ä½ è¦åˆ°å“ªé‡Œå»ï¼Ÿ
 7. I wasn't born yesterday.
-ÎÒÓÖ²»ÊÇÈıËêĞ¡º¢¡£
+æˆ‘åˆä¸æ˜¯ä¸‰å²å°å­©ã€‚
 8. What do you do for relaxation?
-Äã×öÊ²Ã´ÏûÇ²£¿
-9. It¡¯s a small world.
-ÊÀ½çÕæĞ¡!
-10. It¡¯s my treat this time.
-Õâ´ÎÎÒÇë¿Í£¡
+ä½ åšä»€ä¹ˆæ¶ˆé£ï¼Ÿ
+9. Itâ€™s a small world.
+ä¸–ç•ŒçœŸå°!
+10. Itâ€™s my treat this time.
+è¿™æ¬¡æˆ‘è¯·å®¢ï¼
 11. The sooner the better.
-Ô½¿ìÔ½ºÃ¡£
+è¶Šå¿«è¶Šå¥½ã€‚
 12. When is the most convenient time for you?
-ÄãÊ²Ã´Ê±¼ä×î·½±ã£¿
+ä½ ä»€ä¹ˆæ—¶é—´æœ€æ–¹ä¾¿ï¼Ÿ
 13. Take your time.
-ÂıÂıÀ´/±ğ×Å¼±¡£
+æ…¢æ…¢æ¥/åˆ«ç€æ€¥ã€‚
 14. I'm mad about Bruce Lee.
-ÎÒÃÔËÀÀîĞ¡ÁúÁË¡£
+æˆ‘è¿·æ­»æå°é¾™äº†ã€‚
 229. I'm crazy about rock music.
-ÎÒ¶ÔÒ¡¹öÀÖºÜ×ÅÃÔ¡£
+æˆ‘å¯¹æ‘‡æ»šä¹å¾ˆç€è¿·ã€‚
 15. How do I address you?
-ÎÒÔõÃ´³ÆºôÄã£¿
+æˆ‘æ€ä¹ˆç§°å‘¼ä½ ï¼Ÿ
 16. What was your name again?
-ÇëÔÙËµÒ»´ÎÃû×ÖºÃÂğ£¿
+è¯·å†è¯´ä¸€æ¬¡åå­—å¥½å—ï¼Ÿ
 17. Would you care for a cop of coffee?
-Òª±»¿§·ÈÂğ£¿
+è¦è¢«å’–å•¡å—ï¼Ÿ
 18. She turns me off.
-ËıÊ¹ÎÒÑá·³¡£
+å¥¹ä½¿æˆ‘åŒçƒ¦ã€‚
 19. So far so good.
-Ä¿Ç°ÎªÖ¹£¬Ò»ÇĞ¶¼ºÃ¡£
+ç›®å‰ä¸ºæ­¢ï¼Œä¸€åˆ‡éƒ½å¥½ã€‚
 20. It drives me crazy.
-Ëü°ÑÎÕ±Æ·èÁË¡£
+å®ƒæŠŠæ¡é€¼ç–¯äº†ã€‚
 21. She never showed up.
-ËıÒ»Ö±Ã»ÓĞ³öÏÖ¡£
+å¥¹ä¸€ç›´æ²¡æœ‰å‡ºç°ã€‚
 22. That's not like him.
-ÄÇ²»ÏóÊÇËûµÄ·ç¸ñ¡£
+é‚£ä¸è±¡æ˜¯ä»–çš„é£æ ¼ã€‚
 23. I couldn't get through.
-µç»°´ò²»Í¨¡£
+ç”µè¯æ‰“ä¸é€šã€‚
 24. I got sick and tired of hotels.
-ÎÒÌÖÑáÂÃ¹İ¡£
+æˆ‘è®¨åŒæ—…é¦†ã€‚
 25. Be my guest.
-Çë±ã¡¢±ğ¿ÍÆø
+è¯·ä¾¿ã€åˆ«å®¢æ°”
 26. Can you keep an eye on my bag?
-°ïÎÒ¿´Ò»ÏÂ°üºÃÂğ£¿
+å¸®æˆ‘çœ‹ä¸€ä¸‹åŒ…å¥½å—ï¼Ÿ
 27. Let's keep in touch.
-ÈÃÎÒÃÇ±£³ÖÁªÏµ¡£
+è®©æˆ‘ä»¬ä¿æŒè”ç³»ã€‚
 28. Let's call it a day.
-½ñÌì¾Íµ½´ËÎªÖ¹°É¡£
+ä»Šå¤©å°±åˆ°æ­¤ä¸ºæ­¢å§ã€‚
 29. I couldn't help it.
-ÎÒÃ»°ì·¨¡£
+æˆ‘æ²¡åŠæ³•ã€‚
 30. Something's come up.
-ÓĞµãÊÂ/³öÊÂÁË
+æœ‰ç‚¹äº‹/å‡ºäº‹äº†
 31. Let's get to the point.
-ÈÃÎÒÃÇÀ´Ì¸Òªµã¡£
+è®©æˆ‘ä»¬æ¥è°ˆè¦ç‚¹ã€‚
 32. Keep that in mind.
-¼Ç×¡ÄÇ¼şÊÂ¡£
+è®°ä½é‚£ä»¶äº‹ã€‚
 33. That was a close call.
-Ì«Î£ÏÕÁË/Ç§¾ûÒ»·¢
+å¤ªå±é™©äº†/åƒé’§ä¸€å‘
 34. I'll be looking forward to it.
-ÎÒ½«ÆÚ´ıÕâÒ»Ìì¡£
+æˆ‘å°†æœŸå¾…è¿™ä¸€å¤©ã€‚
 35. Chances are slim.
-»ú»áºÜĞ¡¡£
+æœºä¼šå¾ˆå°ã€‚
 36. Far from it.
-Ò»µãÒ²²»¡£
+ä¸€ç‚¹ä¹Ÿä¸ã€‚
 37. I'm behind in my work.
-ÎÒ¹¤×÷½ø¶ÈÂäºóÁË¡£
+æˆ‘å·¥ä½œè¿›åº¦è½åäº†ã€‚
 38. It's a pain in the neck.
-ÄÇÕæÊÇ¼şÂé·³ÊÂ£¡
+é‚£çœŸæ˜¯ä»¶éº»çƒ¦äº‹ï¼
 39. We're in the same boat.
-ÎÒÃÇ´¦¾³ÏàÍ¬¡£
+æˆ‘ä»¬å¤„å¢ƒç›¸åŒã€‚
 40. My mouth is watering.
-ÎÒÔÚÁ÷¿ÚË®ÁË¡£
+æˆ‘åœ¨æµå£æ°´äº†ã€‚
 41. What do you recommend?
-ÄãÍÆ¼öÊ²Ã´£¿
+ä½ æ¨èä»€ä¹ˆï¼Ÿ
 42. I ache all over.
-ÎÒ»ëÉíËáÍ´¡£
+æˆ‘æµ‘èº«é…¸ç—›ã€‚
 43. I have a runny nose.
-ÎÒÁ÷±ÇÌé¡£
+æˆ‘æµé¼»æ¶•ã€‚
 44. It's out of the question.
-ÕâÊÇ²»¿ÉÄÜµÄ¡£
+è¿™æ˜¯ä¸å¯èƒ½çš„ã€‚
 45. Do you have any openings?
-ÄãÃÇÓĞ¿ÕÈ±Âğ£¿
+ä½ ä»¬æœ‰ç©ºç¼ºå—ï¼Ÿ
 46. It doesn't make any difference.
-Ã»Ê²Ã´²î±ğ/ÎŞËùÎ½¡£
+æ²¡ä»€ä¹ˆå·®åˆ«/æ— æ‰€è°“ã€‚
 47. I'm fed up with him.
-ÎÒÊÜ¹»ËûÁË¡£
+æˆ‘å—å¤Ÿä»–äº†ã€‚
 48. You can count on us.
-Äã¿ÉÒÔĞÅÀµÎÒÃÇ¡£
+ä½ å¯ä»¥ä¿¡èµ–æˆ‘ä»¬ã€‚
 49. It doesn't work.
-»µÁË£»²»¶¯ÁË¡£
+åäº†ï¼›ä¸åŠ¨äº†ã€‚
 50. It's better than nothing.
-×Ü±ÈÊ²Ã´¶¼Ã»ÓĞºÃ¡£
+æ€»æ¯”ä»€ä¹ˆéƒ½æ²¡æœ‰å¥½ã€‚
 51. Think nothing of it.
-±ğ·ÅÔÚĞÄÉÏ¡£
+åˆ«æ”¾åœ¨å¿ƒä¸Šã€‚
 52. I'm not myself today.
-ÎÒ½ñÌìĞÄÉñ²»Äş¡£
+æˆ‘ä»Šå¤©å¿ƒç¥ä¸å®ã€‚
 53. I have a sweet tooth.
-ÎÒÏ²»¶³ÔÌğÊ³¡£
+æˆ‘å–œæ¬¢åƒç”œé£Ÿã€‚
 54. I can't express myself very well in English.
-ÎÒ²»ÄÜºÜºÃµØÓÃÓ¢Óï±í´ï×Ô¼º¡£
+æˆ‘ä¸èƒ½å¾ˆå¥½åœ°ç”¨è‹±è¯­è¡¨è¾¾è‡ªå·±ã€‚
 55. For the time being.
-ÔİÊ±£»ÔİÇÒ£»Ä¿Ç°
+æš‚æ—¶ï¼›æš‚ä¸”ï¼›ç›®å‰
 56. This milk has gone bad.
-ÕâÅ£ÄÌ±äÖÊÁË¡£
+è¿™ç‰›å¥¶å˜è´¨äº†ã€‚
 57. Don't beat around the bush.
-±ğ¹ÕÍäÄ¨½ÇÁË¡£
+åˆ«æ‹å¼¯æŠ¹è§’äº†ã€‚
 58. It's up in the air.
-ÉĞÎ´È·¶¨¡£
+å°šæœªç¡®å®šã€‚
 59. Math is beyond me.
-ÎÒ¶ÔÊıÑ§ÎŞÄÜÎªÁ¦¡£
+æˆ‘å¯¹æ•°å­¦æ— èƒ½ä¸ºåŠ›ã€‚
 60. It slipped my mind.
-ÎÒÍüÁË¡£
+æˆ‘å¿˜äº†ã€‚
 61. You can't please everyone.
-Äã²»¿ÉÄÜÌÖºÃÃ¿Ò»¸öÈË¡£
+ä½ ä¸å¯èƒ½è®¨å¥½æ¯ä¸€ä¸ªäººã€‚
 62. I'm working on it.
-ÎÒÕıÔÚÅ¬Á¦¡£
+æˆ‘æ­£åœ¨åŠªåŠ›ã€‚
 63. You bet!
-µ±È»£¡
+å½“ç„¶ï¼
 64. Drop me a line.
-Ğ´·âĞÅ¸øÎÒ
+å†™å°ä¿¡ç»™æˆ‘
 65. Are you pulling my leg?
-ÄãÔÚ¿ªÎÒÍæĞ¦Âğ£¿
+ä½ åœ¨å¼€æˆ‘ç©ç¬‘å—ï¼Ÿ
 66. Sooner or later.
-³ÙÔç»áµÄ¡£
+è¿Ÿæ—©ä¼šçš„ã€‚
 67. I'll keep my ears open.
-ÎÒ»áÁôÒâµÄ¡£
+æˆ‘ä¼šç•™æ„çš„ã€‚
 68. It isn't much.
-ÄÇÊÇÎ¢²»×ãµÀµÄ¡£
+é‚£æ˜¯å¾®ä¸è¶³é“çš„ã€‚
 69. Neck and neck.
-²»·ÖÉÏÏÂ¡£
+ä¸åˆ†ä¸Šä¸‹ã€‚
 70. I'm feeling under the weather.
-ÎÒ¾õµÃ²»Êæ·ş/¾«Éñ²»ºÃ/ÇéĞ÷µÍÂä¡£
+æˆ‘è§‰å¾—ä¸èˆ’æœ/ç²¾ç¥ä¸å¥½/æƒ…ç»ªä½è½ã€‚
 71. Don't get me wrong.
-²»ÒªÎó»áÎÒ¡£
+ä¸è¦è¯¯ä¼šæˆ‘ã€‚
 72. I'm under a lot of pressure.
-ÎÒÑ¹Á¦ºÜ´ó¡£
+æˆ‘å‹åŠ›å¾ˆå¤§ã€‚
 73. You're the boss.
-ÌıÄãµÄ¡£
+å¬ä½ çš„ã€‚
 74. It doesn't make any sense.
-ºÁÎŞÒâÒå£¡
+æ¯«æ— æ„ä¹‰ï¼
 75. If I were in your shoes.
-Èç¹ûÎÒÊÇÄãµÄ»°¡£
+å¦‚æœæˆ‘æ˜¯ä½ çš„è¯ã€‚
 76. What's this regarding?
-ÕâÊÇ¹ØÓÚÄÄ·½ÃæµÄ£¿
+è¿™æ˜¯å…³äºå“ªæ–¹é¢çš„ï¼Ÿ
 77. Over my dead body!
-ĞİÏë£¡
+ä¼‘æƒ³ï¼
 78. Can you give me a hand?
-ÄãÄÜ°ï¸öÃ¦Âğ£¿
+ä½ èƒ½å¸®ä¸ªå¿™å—ï¼Ÿ
 79. We have thirty minutes to kill.
-ÎÒÃÇÓĞÈıÊ®·ÖÖÓ¿ÕÏĞÊ±¼ä¡£
+æˆ‘ä»¬æœ‰ä¸‰ååˆ†é’Ÿç©ºé—²æ—¶é—´ã€‚
 80. Whatever you say.
-Ëæ±ãÄã¡£
+éšä¾¿ä½ ã€‚
 81. It'll come to me.
-ÎÒ»áÏëÆğÀ´µÄ¡£
+æˆ‘ä¼šæƒ³èµ·æ¥çš„ã€‚
 82. You name it.
-ÄãËµ³öÀ´¡£
+ä½ è¯´å‡ºæ¥ã€‚
 83. Time will tell.
-Ê±¼ä»áÖ¤Ã÷µÄ¡£
+æ—¶é—´ä¼šè¯æ˜çš„ã€‚
 84. I will play it by ear.
-ÎÒ»á¼û»úĞĞÊÂµÄ£»µ½Ê±ºòÔÙËµ¡£
+æˆ‘ä¼šè§æœºè¡Œäº‹çš„ï¼›åˆ°æ—¶å€™å†è¯´ã€‚
 85. You should take advantage of it.
-ÄãÓ¦¸ÃºÃºÃÀûÓÃÕâ¸ö»ú»á¡£
+ä½ åº”è¯¥å¥½å¥½åˆ©ç”¨è¿™ä¸ªæœºä¼šã€‚
 86. Let's talk over coffee.
-ÎÒÃÇ±ßºÈ±ßÌ¸¡£
+æˆ‘ä»¬è¾¹å–è¾¹è°ˆã€‚
 87. Take it easy.
-ÇáËÉÒ»µã£»±ğ½ôÕÅ£»·ÅËÉ·ÅËÉ£»ÔÙ¼û¡£[ÕâÊÇÃÀ¹úÈË×îÏ²»¶ËµµÄ»°£¬Ò²¿É×÷Àë±ğÓÃÓï¡£]
+è½»æ¾ä¸€ç‚¹ï¼›åˆ«ç´§å¼ ï¼›æ”¾æ¾æ”¾æ¾ï¼›å†è§ã€‚[è¿™æ˜¯ç¾å›½äººæœ€å–œæ¬¢è¯´çš„è¯ï¼Œä¹Ÿå¯ä½œç¦»åˆ«ç”¨è¯­ã€‚]
 88. I'm easy to please.
-ÎÒºÜÈİÒ×È¡ÔÃ/Ïà´¦¡£
+æˆ‘å¾ˆå®¹æ˜“å–æ‚¦/ç›¸å¤„ã€‚
 89. Let's give him a big hand.
-ÈÃÎÒÃÇÈÈÁÒ¹ÄÕÆ¡£
+è®©æˆ‘ä»¬çƒ­çƒˆé¼“æŒã€‚
 90. As far as I'm concerned.
-¾ÍÎÒ¶øÑÔ¡£
+å°±æˆ‘è€Œè¨€ã€‚
 91. I'm all mixed up.
-ÎÒÈ«¸ã»ìÁË¡£
+æˆ‘å…¨ææ··äº†ã€‚
 92. Let's get together one of these days.
-ÕÒÒ»Ìì¾Û¾Û¡£
+æ‰¾ä¸€å¤©èšèšã€‚
 93. He's behind the times.
-ËûÂäÎéÁË/¸ú²»ÉÏÊ±´úÁË¡£
+ä»–è½ä¼äº†/è·Ÿä¸ä¸Šæ—¶ä»£äº†ã€‚
 94. I'm pressed for time.
-ÎÒÊ±¼ä½ôÆÈ¡£
+æˆ‘æ—¶é—´ç´§è¿«ã€‚
 95. I'm up to my ears in work.
-ÎÒÃ¦ËÀÁË¡£
+æˆ‘å¿™æ­»äº†ã€‚
 96. You can't do this to me.
-Äã²»ÄÜÕâÃ´¶ÔÎÒ¡£
+ä½ ä¸èƒ½è¿™ä¹ˆå¯¹æˆ‘ã€‚
 97. Just to be on the safe side.
-ÎªÁË°²È«Æğ¼û¡£
+ä¸ºäº†å®‰å…¨èµ·è§ã€‚
 98. I hope I didn't offend you.
-Ï£ÍûÃ»ÓĞÃ°·¸Äã¡£
+å¸Œæœ›æ²¡æœ‰å†’çŠ¯ä½ ã€‚
 99. It won't take much time.
-²»»á»¨ºÜ³¤Ê±¼äµÄ¡£
+ä¸ä¼šèŠ±å¾ˆé•¿æ—¶é—´çš„ã€‚
 100. It's been a long time.
-ºÃ¾Ã²»¼ûÁË¡£
-101. It¡¯s nothing.
-Ğ¡ÊÂÇé£»²»×ã¹Ò³İ¡£
+å¥½ä¹…ä¸è§äº†ã€‚
+101. Itâ€™s nothing.
+å°äº‹æƒ…ï¼›ä¸è¶³æŒ‚é½¿ã€‚
 102. It's a long story.
-ËµÀ´»°³¤¡£
+è¯´æ¥è¯é•¿ã€‚
 103. It's about time.
-Ê±¼ä²î²»¶àÁË¡£
+æ—¶é—´å·®ä¸å¤šäº†ã€‚
 104. It's incredible.
-ÄÑÒÔÖÃĞÅ£¡
+éš¾ä»¥ç½®ä¿¡ï¼
 105. It's hard to say.
-ÄÑËµ¡£
+éš¾è¯´ã€‚
 106. I can't imagine why.
-ÎÒÏë²»Í¨ÎªÊ²Ã´¡£
+æˆ‘æƒ³ä¸é€šä¸ºä»€ä¹ˆã€‚
 107. That can't be.
-²»¿ÉÄÜ¡£
+ä¸å¯èƒ½ã€‚
 108. That's really something.
-ÕæÁË²»Æğ¡£
+çœŸäº†ä¸èµ·ã€‚
 109. Are you sure?
-ÄãÈ·ĞÅÂğ£¿
+ä½ ç¡®ä¿¡å—ï¼Ÿ
 110. Are you crazy?
-Äã·èÁËÂğ£¿
+ä½ ç–¯äº†å—ï¼Ÿ
 111. Excuse me for a moment.
-Ê§ÅãÒ»»á¶ù¡£
+å¤±é™ªä¸€ä¼šå„¿ã€‚
 112. I mean it. I'm serious. I'm no kidding.
-ÎÒÊÇÈÏÕæµÄ¡£
+æˆ‘æ˜¯è®¤çœŸçš„ã€‚
 113. I'll consider this matter.
-ÎÒ»á¿¼ÂÇÕâ¼şÊÂµÄ¡£
+æˆ‘ä¼šè€ƒè™‘è¿™ä»¶äº‹çš„ã€‚
 114. I'll do something about it.
-ÎÒ»áÏë°ì·¨µÄ¡£
+æˆ‘ä¼šæƒ³åŠæ³•çš„ã€‚
 115. What are you talking about?
-ÄãÔÚËµĞ©Ê²Ã´£¿
+ä½ åœ¨è¯´äº›ä»€ä¹ˆï¼Ÿ
 116. I'm afraid I can't.
-¿ÖÅÂÎÒ²»ĞĞ¡£
+ææ€•æˆ‘ä¸è¡Œã€‚
 117. I'm dying to see you.
-ÎÒÕæÏë¼ûÄã¡£
+æˆ‘çœŸæƒ³è§ä½ ã€‚
 118. I'm flattered.
-¹ı½±ÁË¡£
+è¿‡å¥–äº†ã€‚
 119. I'm not in the mood.
-ÎÒÃ»ĞÄÇé¡£
+æˆ‘æ²¡å¿ƒæƒ…ã€‚
 120. I'm so scared.
-ÎÒÅÂ¼«ÁË¡£
+æˆ‘æ€•æäº†ã€‚
 121. I can't make it.
-ÎÒÈ¥²»ÁË/ÎÒ¸Ï²»ÉÏ¡£
+æˆ‘å»ä¸äº†/æˆ‘èµ¶ä¸ä¸Šã€‚
 122. You can never tell.
-²»ÖªµÀ/Ë­Ò²Ã»°ÑÎÕ¡£
+ä¸çŸ¥é“/è°ä¹Ÿæ²¡æŠŠæ¡ã€‚
 123. I won't buy you story.
-ÎÒ²»ĞÅÄãÄÇÒ»Ì×¡£
+æˆ‘ä¸ä¿¡ä½ é‚£ä¸€å¥—ã€‚
 124. It hurts like hell.
-ÌÛËÀÀ²£¡
+ç–¼æ­»å•¦ï¼
 125. It can't be helped.
-ÎŞÄÜÎªÁ¦¡£
+æ— èƒ½ä¸ºåŠ›ã€‚
 126. Sorry to bother you.
-±§Ç¸´òÈÅÄã¡£[ÊÂÇ°]
+æŠ±æ­‰æ‰“æ‰°ä½ ã€‚[äº‹å‰]
 230. Sorry to have bothered you.
-±§Ç¸´òÈÅÄã¡£[ÊÂºó]
+æŠ±æ­‰æ‰“æ‰°ä½ ã€‚[äº‹å]
 127. I'm always punctual.
-ÎÒ×ÜÊÇºÜ×¼Ê±¡£
+æˆ‘æ€»æ˜¯å¾ˆå‡†æ—¶ã€‚
 128. You may leave it to me.
-½»¸øÎÒÀ´°ì¡£
+äº¤ç»™æˆ‘æ¥åŠã€‚
 129. I wish I could.
-²»ĞĞ¡£[Î¯Íñ±í´ï·¨]
+ä¸è¡Œã€‚[å§”å©‰è¡¨è¾¾æ³•]
 130. What's the rush?
-Ê²Ã´ÊÂÄÇÃ´´ÒÃ¦£¿
+ä»€ä¹ˆäº‹é‚£ä¹ˆåŒ†å¿™ï¼Ÿ
 131. What's so funny/
-ÓĞÊ²Ã´ºÃĞ¦µÄ£¿
+æœ‰ä»€ä¹ˆå¥½ç¬‘çš„ï¼Ÿ
 132. I couldn't agree more.
-ÎÒÍêÈ«Í¬Òâ¡£
+æˆ‘å®Œå…¨åŒæ„ã€‚
 133. Stay out of this matter. please.
-Çë±ğ¹ÜÕâÊÂ¡£
+è¯·åˆ«ç®¡è¿™äº‹ã€‚
 134. Don't just shake you head.
-±ğ¹âÒ¡Í·£¬ÏëÏë°ì·¨£¡
+åˆ«å…‰æ‘‡å¤´ï¼Œæƒ³æƒ³åŠæ³•ï¼
 135. Don't jump to conclusions.
-±ğ²Ö´Ù/¹ıÔçÏÂ½áÂÛ¡£
+åˆ«ä»“ä¿ƒ/è¿‡æ—©ä¸‹ç»“è®ºã€‚
 136. That was a lousy movie.
-ÄÇµçÓ°ÔãÍ¸ÁË£¡
+é‚£ç”µå½±ç³Ÿé€äº†ï¼
 137. Have you thought about staying home?
-ÊÇ·ñ¿¼ÂÇÔÚ¼Ò´ô×Å£¿
+æ˜¯å¦è€ƒè™‘åœ¨å®¶å‘†ç€ï¼Ÿ
 138. I'll come. I give you my word.
-ÎÒ»áÀ´µÄ¡£ÎÒÏòÄã±£Ö¤¡£
+æˆ‘ä¼šæ¥çš„ã€‚æˆ‘å‘ä½ ä¿è¯ã€‚
 139. I swear I'll never tell anyone.
-ÎÒ·¢ÊÄ²»¸æËßÈÎºÎÈË¡£
+æˆ‘å‘èª“ä¸å‘Šè¯‰ä»»ä½•äººã€‚
 140. I'll make it up to you.
-ÎÒ»áÅâ³¥µÄ¡£
+æˆ‘ä¼šèµ”å¿çš„ã€‚
 141. I'm very / really / terribly / awfully / extremely sorry.
-Ê®·Ö±§Ç¸£¡
+ååˆ†æŠ±æ­‰ï¼
 142. Forgive me for breaking my promise.
-Ô­ÁÂÎÒÊ³ÑÔ¡£
+åŸè°…æˆ‘é£Ÿè¨€ã€‚
 143. Let's forgive and forget.
-ÈÃÎÒÃÇ±÷ÆúÇ°ÏÓ¡£
+è®©æˆ‘ä»¬æ‘ˆå¼ƒå‰å«Œã€‚
 144. I've heard so much about you.
-¾ÃÑö´óÃû£¡
+ä¹…ä»°å¤§åï¼
 145. Don't underestimate me.
-±ğĞ¡¿´ÎÒ¡£
+åˆ«å°çœ‹æˆ‘ã€‚
 146. She gives me a headache.
-ËıÈÃÎÒÍ·ÌÛ¡£
+å¥¹è®©æˆ‘å¤´ç–¼ã€‚
 147. It's very annoying.
-Õæ·³ÈË¡£
+çœŸçƒ¦äººã€‚
 148. He often fails to keep his word.
-Ëû³£³£²»×ñÊØÅµÑÔ¡£
+ä»–å¸¸å¸¸ä¸éµå®ˆè¯ºè¨€ã€‚
 149. You made me feel ashamed of myself.
-ÄãÈÃÎÒ¸Ğµ½ĞßÀ¢¡£
+ä½ è®©æˆ‘æ„Ÿåˆ°ç¾æ„§ã€‚
 150. I hope it turns out all right.
-ÎÒÏ£Íû½á¹ûºÜºÃ¡£
+æˆ‘å¸Œæœ›ç»“æœå¾ˆå¥½ã€‚
 151. I can't handle this alone.
-ÎÒÎŞ·¨µ¥¶À´¦ÀíÕâÊÂ¡£
+æˆ‘æ— æ³•å•ç‹¬å¤„ç†è¿™äº‹ã€‚
 152. How long will it take to have this radio fixed?
-ĞŞÀíÕâÊÕÒô»úÒª¶à¾Ã£¿
+ä¿®ç†è¿™æ”¶éŸ³æœºè¦å¤šä¹…ï¼Ÿ
 153. Come to me if you're in any difficulty.
-ÓĞÀ§ÄÑÀ´ÕÒÎÒ¡£
+æœ‰å›°éš¾æ¥æ‰¾æˆ‘ã€‚
 154. Who do you think you are?
-ÄãÒÔÎªÄãÊÇË­£¿
+ä½ ä»¥ä¸ºä½ æ˜¯è°ï¼Ÿ
 155. You're wasting you breath.
-ÄãÔÚ°×·Ñ¿ÚÉà¡£
+ä½ åœ¨ç™½è´¹å£èˆŒã€‚
 156. It doesn't seem like that.
-ËÆºõ²»ÏóÊÇÄÇÑù¡£
+ä¼¼ä¹ä¸è±¡æ˜¯é‚£æ ·ã€‚
 157. Don't get on my nerves.
-²»Òª½ÁµÃÎÒĞÄ·³¡£
+ä¸è¦æ…å¾—æˆ‘å¿ƒçƒ¦ã€‚
 158. Everything will be fine.
-Ò»ÇĞ¶¼»áºÜºÃ¡£
+ä¸€åˆ‡éƒ½ä¼šå¾ˆå¥½ã€‚
 159. I'll be ready in a few minutes.
-ÔÙ¹ı¼¸·ÖÖÓ¾ÍºÃÁË¡£
+å†è¿‡å‡ åˆ†é’Ÿå°±å¥½äº†ã€‚
 160. I wonder what happened to him.
-ÎÒ²»ÖªµÀËû³öÊ²Ã´ÊÂÁË¡£
+æˆ‘ä¸çŸ¥é“ä»–å‡ºä»€ä¹ˆäº‹äº†ã€‚
 161. You are just trying to save face.
-ÄãÖ»ÊÇÏëÍì»ØÃæ×Ó¡£
+ä½ åªæ˜¯æƒ³æŒ½å›é¢å­ã€‚
 162. His argument doesn't hold water.
-ËûµÄÂÛµãÕ¾²»×¡½Å¡£
+ä»–çš„è®ºç‚¹ç«™ä¸ä½è„šã€‚
 163. Your face tells it all.
-ÄãµÄ±íÇéÍ¸Â¶ÁËÒ»ÇĞ¡£
+ä½ çš„è¡¨æƒ…é€éœ²äº†ä¸€åˆ‡ã€‚
 164. The days are getting longer.
-°×ÌìÔ½À´Ô½³¤ÁË¡£
+ç™½å¤©è¶Šæ¥è¶Šé•¿äº†ã€‚
 165. You've got to do something.
-ÄãÒ»¶¨ÒªÏë°ì·¨¡£ 
+ä½ ä¸€å®šè¦æƒ³åŠæ³•ã€‚ 
 166. I hope this will teach you a lesson.
-Ï£ÍûÕâ»á¸øÄãÒ»¸ö½ÌÑµ¡£
+å¸Œæœ›è¿™ä¼šç»™ä½ ä¸€ä¸ªæ•™è®­ã€‚
 167. I feel younger than ever.
-ÎÒ¾õµÃ±ÈÒÔÇ°ÄêÇá¡£
+æˆ‘è§‰å¾—æ¯”ä»¥å‰å¹´è½»ã€‚
 168. It's a hard job. but I hope he can make it.
-Õâ²»ÊÇ¼şÈİÒ×µÄ²îÊÂ£¬µ«ÎÒÏ£ÍûËûÄÜ×öµ½¡£
+è¿™ä¸æ˜¯ä»¶å®¹æ˜“çš„å·®äº‹ï¼Œä½†æˆ‘å¸Œæœ›ä»–èƒ½åšåˆ°ã€‚
 169. Don't look wise.
-±ğ×Ô×÷´ÏÃ÷¡£
+åˆ«è‡ªä½œèªæ˜ã€‚
 170. I'm afraid all my efforts were in vain.
-ÎÒµ£ĞÄÎÒµÄÅ¬Á¦È«°×·ÑÁË¡£
+æˆ‘æ‹…å¿ƒæˆ‘çš„åŠªåŠ›å…¨ç™½è´¹äº†ã€‚
 171. What happened to you memory?
-ÄãµÄ¼ÇĞÔÊÇÔõÃ´¸ãµÄ£¿
+ä½ çš„è®°æ€§æ˜¯æ€ä¹ˆæçš„ï¼Ÿ
 172. You're going too far.
-ÄãÌ«¹ı·ÖÁË£¡
+ä½ å¤ªè¿‡åˆ†äº†ï¼
 173. Don't bury your head in the sand.
-²»ÒªÌÓ±ÜÏÖÊµ¡£
+ä¸è¦é€ƒé¿ç°å®ã€‚
 174. I have no other choice.
-ÎÒ±ğÎŞÑ¡Ôñ¡£
+æˆ‘åˆ«æ— é€‰æ‹©ã€‚
 175. I don't have the nerve to do it.
-ÎÒÃ»µ¨/ÓÂÆøÈ¥×ö¡£
+æˆ‘æ²¡èƒ†/å‹‡æ°”å»åšã€‚
 176. It's a matter of life and death.
-ÊÂ¹ØÉúËÀ¡£
+äº‹å…³ç”Ÿæ­»ã€‚
 177. Nothing works.
-Ê²Ã´¶¼²»¶Ô¾¢¶ù¡£
+ä»€ä¹ˆéƒ½ä¸å¯¹åŠ²å„¿ã€‚
 178. Money will come and go.
-Ç®ÄËÉíÍâÖ®Îï¡£
+é’±ä¹ƒèº«å¤–ä¹‹ç‰©ã€‚
 179. He's been behind bars for almost 30 years.
-Ëû×øÁË½«½üÈıÊ®ÄêÀÎ¡£
+ä»–åäº†å°†è¿‘ä¸‰åå¹´ç‰¢ã€‚
 180. If I had known that. I could have helped you.
-¼ÙÈçÎÒÔçÖªµÀ£¬ÎÒ¾ÍÄÜ°ïÄãÁË¡£[×îÊµÓÃµÄĞéÄâÓïÆø]
+å‡å¦‚æˆ‘æ—©çŸ¥é“ï¼Œæˆ‘å°±èƒ½å¸®ä½ äº†ã€‚[æœ€å®ç”¨çš„è™šæ‹Ÿè¯­æ°”]
 181. I couldn't care less.
-ÎÒ²»ÔÚºõ¡£
+æˆ‘ä¸åœ¨ä¹ã€‚
 182. You have my word.
-ÎÒ±£Ö¤¡£
+æˆ‘ä¿è¯ã€‚
 183. He hit the ceiling at the news.
-ËûÌıµ½ÄÇÏûÏ¢±©ÌøÈçÀ×/´ó·¢À×öª¡£
+ä»–å¬åˆ°é‚£æ¶ˆæ¯æš´è·³å¦‚é›·/å¤§å‘é›·éœ†ã€‚
 184. I don't mind staying up late.
-ÎÒ²»ÔÚºõ°¾Ò¹¡£
+æˆ‘ä¸åœ¨ä¹ç†¬å¤œã€‚
 185. You're too outspoken.
-ÄãÌ«Ö±ÂÊÁË¡£
+ä½ å¤ªç›´ç‡äº†ã€‚
 186. I can't afford it.
-ÎÒ³Ğµ£/Âò²»Æğ¡£
+æˆ‘æ‰¿æ‹…/ä¹°ä¸èµ·ã€‚
 187. I think it's a reasonable price.
-ÎÒ¾õµÃÕâÊÇ¸öºÏÀíµÄ¼ÛÇ®¡£
+æˆ‘è§‰å¾—è¿™æ˜¯ä¸ªåˆç†çš„ä»·é’±ã€‚
 188. I'd like to try on these hats.
-ÎÒÏëÊÔÊÔÕâĞ©Ã±×Ó¡£
+æˆ‘æƒ³è¯•è¯•è¿™äº›å¸½å­ã€‚
 189. He puts me to shame.
-ËûÊ¹ÎÒÃÉĞß¡£
+ä»–ä½¿æˆ‘è’™ç¾ã€‚
 190. Every dog has his day.
-·²ÈË½ÔÓĞµÃÒâÊ±¡£
+å‡¡äººçš†æœ‰å¾—æ„æ—¶ã€‚
 191. Don't give me any excuses.
-²»Òª¸øÎÒÈÎºÎÀíÓÉ¡£
+ä¸è¦ç»™æˆ‘ä»»ä½•ç†ç”±ã€‚
 192. Are you out of you mind?
-Äã·èÁËÂğ£¿
+ä½ ç–¯äº†å—ï¼Ÿ
 193. He's been everywhere.
-Ëûµ½´¦¶¼È¥¹ıÁË¡£
+ä»–åˆ°å¤„éƒ½å»è¿‡äº†ã€‚
 194. What's bothering you?
-Ê²Ã´ÔÚÀ§ÈÅÄã£¿
+ä»€ä¹ˆåœ¨å›°æ‰°ä½ ï¼Ÿ
 195. Who is to blame?
-¸Ã¹ÖË­£¿
+è¯¥æ€ªè°ï¼Ÿ
 196. There're a lot of rumors going around.
-ºÜ¶àÁ÷ÑÔÁ÷´«×Å¡£
+å¾ˆå¤šæµè¨€æµä¼ ç€ã€‚
 197. I don't feel up to that.
-ÎÒ¾õµÃ²»ÄÜÊ¤ÈÎÄÇ¹¤×÷¡£
+æˆ‘è§‰å¾—ä¸èƒ½èƒœä»»é‚£å·¥ä½œã€‚
 198. I'm mad at myself.
-ÎÒÉú×Ô¼ºµÄÆø¡£
+æˆ‘ç”Ÿè‡ªå·±çš„æ°”ã€‚
 199. It's raining cats and dogs.
-ÏÂ×ÅÇãÅè´óÓê¡£
+ä¸‹ç€å€¾ç›†å¤§é›¨ã€‚
 200. The sky is getting very cloudy.
-Ìì¿ÕµÄÔÆÔ½À´Ô½¶àÁË¡£
+å¤©ç©ºçš„äº‘è¶Šæ¥è¶Šå¤šäº†ã€‚
 201. You won't get away with this.
-ÄãÌÓ²»µô³Í·£µÄ¡£
+ä½ é€ƒä¸æ‰æƒ©ç½šçš„ã€‚
 202. I'm tired of going to school day after day.
-ÎÒÑá¾ëÃ¿ÌìÉÏÑ§¡£
+æˆ‘åŒå€¦æ¯å¤©ä¸Šå­¦ã€‚
 203. Who am I supposed to see?
-ÎÒÓ¦¸ÃÈ¥¼ûË­£¿
+æˆ‘åº”è¯¥å»è§è°ï¼Ÿ
 204. His idea is childish.
-ËûµÄÏë·¨ºÜÓ×ÖÉ¡£
+ä»–çš„æƒ³æ³•å¾ˆå¹¼ç¨šã€‚
 205. I need small change.
-ÎÒĞèÒªÁãÇ®¡£
+æˆ‘éœ€è¦é›¶é’±ã€‚
 206. Don't try to brainwash me.
-±ğÏë¸øÎÒÏ´ÄÔ¡£
+åˆ«æƒ³ç»™æˆ‘æ´—è„‘ã€‚
 207. I don't seem to have any luck today.
-ÎÒ½ñÌìÔËÆø²»ºÃ¡£
+æˆ‘ä»Šå¤©è¿æ°”ä¸å¥½ã€‚
 208. That reminds me.
-ÄÇÌáĞÑÁËÎÒ¡£
+é‚£æé†’äº†æˆ‘ã€‚
 209. What the hell are you doing?
-Äãµ½µ×ÔÚ×öÊ²Ã´£¿
+ä½ åˆ°åº•åœ¨åšä»€ä¹ˆï¼Ÿ
 210. I can't seem to get to sleep.
-ÎÒºÃÏóË¯²»×Å¡£
+æˆ‘å¥½è±¡ç¡ä¸ç€ã€‚
 211. You look very serious about something.
-ÄãËÆºõÓĞºÜÑÏÖØµÄÊÂ¡£
+ä½ ä¼¼ä¹æœ‰å¾ˆä¸¥é‡çš„äº‹ã€‚
 212. I hope I'm not in the way.
-ÎÒÏ£ÍûÃ»ÓĞÔì³É·Á°­¡£
+æˆ‘å¸Œæœ›æ²¡æœ‰é€ æˆå¦¨ç¢ã€‚
 213. What are you so excited about?
-Ê²Ã´ÊÂÈÃÄãÈç´ËĞË·Ü£¿
+ä»€ä¹ˆäº‹è®©ä½ å¦‚æ­¤å…´å¥‹ï¼Ÿ
 214. Tell me about you trouble.
-°ÑÄãµÄ·³ÄÕ¸æËßÎÒ¡£
+æŠŠä½ çš„çƒ¦æ¼å‘Šè¯‰æˆ‘ã€‚
 215. I feel much better now.
-ÎÒ¸Ğ¾õºÃ¶àÁË¡£
+æˆ‘æ„Ÿè§‰å¥½å¤šäº†ã€‚
 216. I hope you will get well soon.
-Ï£ÍûÄãºÜ¿ì»á»Ö¸´¡£
+å¸Œæœ›ä½ å¾ˆå¿«ä¼šæ¢å¤ã€‚
 217. She is sick in bed.
-ËıÎÔ²¡ÔÚ´²¡£
+å¥¹å§ç—…åœ¨åºŠã€‚
 218. I have a slight fever.
-ÎÒÇáÎ¢·¢ÉÕ¡£
+æˆ‘è½»å¾®å‘çƒ§ã€‚
 219. A fool never learns.
-Éµ¹ÏÓÀÔ¶Ñ§²»»á¡£
+å‚»ç“œæ°¸è¿œå­¦ä¸ä¼šã€‚
 220. This is the schedule for tomorrow.
-ÕâÊÇÃ÷ÌìµÄÈÕ³Ì°²ÅÅ¡£
+è¿™æ˜¯æ˜å¤©çš„æ—¥ç¨‹å®‰æ’ã€‚
 221. How late are you open?
-ÄãÃÇÓªÒµµ½¶àÍí£¿
+ä½ ä»¬è¥ä¸šåˆ°å¤šæ™šï¼Ÿ
 222. I'm here on business.
-ÎÒÀ´ÕâÀï³ö²î¡£
+æˆ‘æ¥è¿™é‡Œå‡ºå·®ã€‚
 223. What's Hong Kong famous for?
-Ïã¸ÛÒÔÊ²Ã´ÎÅÃû£¿
+é¦™æ¸¯ä»¥ä»€ä¹ˆé—»åï¼Ÿ
 224. What brings you to Beijing?
-Ê²Ã´·ç°ÑÄã´µµ½±±¾©À´µÄ£¿
+ä»€ä¹ˆé£æŠŠä½ å¹åˆ°åŒ—äº¬æ¥çš„ï¼Ÿ
 225. She looks blue.
-ËıÂúÃæÓÇÉË¡£
+å¥¹æ»¡é¢å¿§ä¼¤ã€‚
 226. I just don't know what to say.
-ÎÒ¾ÍÊÇ²»ÖªµÀËµÊ²Ã´¡£
+æˆ‘å°±æ˜¯ä¸çŸ¥é“è¯´ä»€ä¹ˆã€‚
 227. Let's have fun tonight.
-½ñÍíÈÃÎÒÃÇÀÖÒ»ÀÖ¡£
+ä»Šæ™šè®©æˆ‘ä»¬ä¹ä¸€ä¹ã€‚
 228. Thank you for coming to see me off.
-Ğ»Ğ»ÄãÀ´ÎªÎÒËÍĞĞ¡£
+è°¢è°¢ä½ æ¥ä¸ºæˆ‘é€è¡Œã€‚
 231. Don't trouble trouble until trouble troubles you.
-±ğ×ÔÕÒÂé·³ÁË£¬Ë³Æä×ÔÈ»°É¡£
+åˆ«è‡ªæ‰¾éº»çƒ¦äº†ï¼Œé¡ºå…¶è‡ªç„¶å§ã€‚
 232. Some of us like to have our future mapped out. others like to go with the flow.
-ÓĞĞ©ÈËÏ²»¶¹æ»®Î´À´£¬ÓĞĞ©ÈËÏ²»¶Ë³Æä×ÔÈ»¡£
+æœ‰äº›äººå–œæ¬¢è§„åˆ’æœªæ¥ï¼Œæœ‰äº›äººå–œæ¬¢é¡ºå…¶è‡ªç„¶ã€‚
 233. It's best to take the world as you find it. then you won't be disappointed.
-»¹ÊÇË³Æä×ÔÈ»×îºÃ£¬ÕâÑù£¬Äã¾Í²»»áÊ§ÍûÁË¡£
+è¿˜æ˜¯é¡ºå…¶è‡ªç„¶æœ€å¥½ï¼Œè¿™æ ·ï¼Œä½ å°±ä¸ä¼šå¤±æœ›äº†ã€‚
 234. Be that as it may. I'll leave it as it is.
-ÎŞÂÛÈçºÎÎÒÃÇÒ²Ö»ÄÜÌıÆä×ÔÈ»¡£
+æ— è®ºå¦‚ä½•æˆ‘ä»¬ä¹Ÿåªèƒ½å¬å…¶è‡ªç„¶ã€‚
 235. Since there is nothing we can do. why not let nature take its course?
-¼ÈÈ»ÎÒÃÇÎŞÄÜÎªÁ¦£¬ºÎ²»Ë³Æä×ÔÈ»ÄØ£¿
+æ—¢ç„¶æˆ‘ä»¬æ— èƒ½ä¸ºåŠ›ï¼Œä½•ä¸é¡ºå…¶è‡ªç„¶å‘¢ï¼Ÿ
 236. Your opposition won't make any difference. just let it be.
-Äã·´¶ÔÒ²²»ÄÜÆğÊ²Ã´×÷ÓÃ£¬Ë³Æä×ÔÈ»°É¡£
+ä½ åå¯¹ä¹Ÿä¸èƒ½èµ·ä»€ä¹ˆä½œç”¨ï¼Œé¡ºå…¶è‡ªç„¶å§ã€‚
 237. We will cross the bridge until we come to it.
-×ßÒ»²½¿´Ò»²½°É£¬Ë³Æä×ÔÈ»¡£
+èµ°ä¸€æ­¥çœ‹ä¸€æ­¥å§ï¼Œé¡ºå…¶è‡ªç„¶ã€‚
 238. Whatever will be. will be.
-ÍòÊÂ²»±Ø¿ÁÇó£¬Ë³Æä×ÔÈ»¡£
+ä¸‡äº‹ä¸å¿…è‹›æ±‚ï¼Œé¡ºå…¶è‡ªç„¶ã€‚
 
 
 
@@ -801,1665 +802,1665 @@ goto :eof
 
 
 
-;ËÄ¼¶´Ê×é
+;å››çº§è¯ç»„
 1. be able to do
-ÄÜ¹»£¬»á
+èƒ½å¤Ÿï¼Œä¼š
 2. be about to do
-¸ÕÒª£¬¼´½«
+åˆšè¦ï¼Œå³å°†
 3. above all
-Ê×ÏÈ£¬Ê×Òª£¬ÓÈÆäÊÇ
+é¦–å…ˆï¼Œé¦–è¦ï¼Œå°¤å…¶æ˜¯
 4. be absorbed in sth.
-×¨ĞÄÖÂÁ¦ÓÚ¡­
+ä¸“å¿ƒè‡´åŠ›äºâ€¦
 5. be absorbed in doing sth.
-×¨ĞÄÖÂÁ¦ÓÚ¡­
+ä¸“å¿ƒè‡´åŠ›äºâ€¦
 6. be abundant in
-¡­¸»ÓÚ£¬¡­·á¸»
+â€¦å¯Œäºï¼Œâ€¦ä¸°å¯Œ
 7. by accident(=by chance)
-Å¼È»£¬ÅöÇÉ 
+å¶ç„¶ï¼Œç¢°å·§ 
 8. in accordance with
-ÒÀÕÕ£¬¸ù¾İ£¬Óë¡­Ò»ÖÂ
+ä¾ç…§ï¼Œæ ¹æ®ï¼Œä¸â€¦ä¸€è‡´
 9. according toprep.
-¾İ/ÕÕ¡­(ËùËµ¡¢ËùĞ´)£»°´¡­£¬ÊÓ¡­
+æ®/ç…§â€¦(æ‰€è¯´ã€æ‰€å†™)ï¼›æŒ‰â€¦ï¼Œè§†â€¦
 10. accuse sb. of sth.
-¿Ø¸æ(Ä³ÈËÄ³ÊÂ)
+æ§å‘Š(æŸäººæŸäº‹)
 11. be accustomed to
-Ï°¹ßÓÚ£¬¹ß³£µÄ
+ä¹ æƒ¯äºï¼Œæƒ¯å¸¸çš„
 12. act as
-(ÁÙÊ±)µ£ÈÎ£¬³äµ±£¬Æğ¡­×÷ÓÃ
+(ä¸´æ—¶)æ‹…ä»»ï¼Œå……å½“ï¼Œèµ·â€¦ä½œç”¨
 13. act on
-×ñÕÕ¡­ĞĞ¶¯£¬·îĞĞ£»×÷ÓÃÓÚ£¬Ó°Ïì
+éµç…§â€¦è¡ŒåŠ¨ï¼Œå¥‰è¡Œï¼›ä½œç”¨äºï¼Œå½±å“
 14. put sth. into action
-¸¶ÖîÊµÊ©
+ä»˜è¯¸å®æ–½
 15. put sth. out of action
-Ê¹¡­¡­Í£Ö¹¹¤×÷»ò»î¶¯
+ä½¿â€¦â€¦åœæ­¢å·¥ä½œæˆ–æ´»åŠ¨
 16. take action
-²ÉÈ¡ĞĞ¶¯£»¿ªÊ¼¹¤×÷
+é‡‡å–è¡ŒåŠ¨ï¼›å¼€å§‹å·¥ä½œ
 17. adapt to
-ÊÊÓ¦
+é€‚åº”
 18. add up
-¼ÓÆğÀ´£»ËµµÃÍ¨
+åŠ èµ·æ¥ï¼›è¯´å¾—é€š
 19. in additionconj.
-ÁíÍâ£¬¼ÓÖ®
+å¦å¤–ï¼ŒåŠ ä¹‹
 20. in addition to
-¼ÓÖ®£»ÓÖ£»³ı¡­Ö®Íâ£»²¢ÇÒ
+åŠ ä¹‹ï¼›åˆï¼›é™¤â€¦ä¹‹å¤–ï¼›å¹¶ä¸”
 21. admit of
-ÈİĞíÓĞ£¬ÓĞ¡­ÓàµØ
+å®¹è®¸æœ‰ï¼Œæœ‰â€¦ä½™åœ°
 22. be on the advance
-(Îï¼Û)ÔÚÉÏÕÇÖĞ
+(ç‰©ä»·)åœ¨ä¸Šæ¶¨ä¸­
 23. in advance
-Ô¤ÏÈ£¬ÊÂÏÈ£»ÔÚÇ°Ãæ
+é¢„å…ˆï¼Œäº‹å…ˆï¼›åœ¨å‰é¢
 24. in advance of
-ÔÚ¡­µÄÇ°Ãæ£»³¬¹ı
+åœ¨â€¦çš„å‰é¢ï¼›è¶…è¿‡
 25. gain an advantage over
-Ê¤¹ı£¬ÓÅÓÚ
+èƒœè¿‡ï¼Œä¼˜äº
 26. have an advantage over
-±È...¸üÓĞÀû
+æ¯”...æ›´æœ‰åˆ©
 27. take advantage of sth.
-ÀûÓÃ£¨Ê±»ú¡¢ËûÈËµÄÈõµãµÈ£©
+åˆ©ç”¨ï¼ˆæ—¶æœºã€ä»–äººçš„å¼±ç‚¹ç­‰ï¼‰
 28. afford to
-(Âò)µÃÆğ(Ä³Îï)
+(ä¹°)å¾—èµ·(æŸç‰©)
 29. agree with
-Í¬Òâ£»ÔŞ³É£»£¨ÓëÄ³ÈË£©Òâ¼ûÒ»ÖÂ
+åŒæ„ï¼›èµæˆï¼›ï¼ˆä¸æŸäººï¼‰æ„è§ä¸€è‡´
 30. agree to sth.
-Í¬ÒâÄ³ÊÂ
+åŒæ„æŸäº‹
 31. ahead of
-ÔÚ¡­Ç°Ãæ£¬ÏÈÓÚ£»Ê¤¹ı
+åœ¨â€¦å‰é¢ï¼Œå…ˆäºï¼›èƒœè¿‡
 32. go ahead
-Ëµ°É£¬×ß°É£¬×ö°É(¿ÚÓï)£¬×ßÔÚÇ°Ãæ
+è¯´å§ï¼Œèµ°å§ï¼Œåšå§(å£è¯­)ï¼Œèµ°åœ¨å‰é¢
 33. aim for
-Ãé×¼£»ÒÔ¡­ÎªÄ¿±ê
+ç„å‡†ï¼›ä»¥â€¦ä¸ºç›®æ ‡
 34. aim at
-Ãé×¼£¬Õë¶Ô£»ÔÚ£¬Ö¼ÔÚ
+ç„å‡†ï¼Œé’ˆå¯¹ï¼›åœ¨ï¼Œæ—¨åœ¨
 35. by air
-Í¨¹ıº½¿ÕÍ¾¾¶£»ÓÃÎŞÏßµç
+é€šè¿‡èˆªç©ºé€”å¾„ï¼›ç”¨æ— çº¿ç”µ
 36. in the air
-ÔÚ¿ÕÖĞ£¬ÔÚÁ÷ĞĞÖĞ£¬Ğü¶øÎ´¾ö
+åœ¨ç©ºä¸­ï¼Œåœ¨æµè¡Œä¸­ï¼Œæ‚¬è€Œæœªå†³
 37. on the air
-(ÓÃÎŞÏßµç£¬µçÊÓ)²¥ËÍ
+(ç”¨æ— çº¿ç”µï¼Œç”µè§†)æ’­é€
 38. after all
-±Ï¾¹£¬ÖÕ¾¿£»ËäÈ»ÕâÑù
+æ¯•ç«Ÿï¼Œç»ˆç©¶ï¼›è™½ç„¶è¿™æ ·
 39. at all
-(ÓÃÓÚ·ñ¶¨¾ä)Ë¿ºÁ(²»)£¬Ò»µã(²»)
+(ç”¨äºå¦å®šå¥)ä¸æ¯«(ä¸)ï¼Œä¸€ç‚¹(ä¸)
 40. in all
-×Ü¹²£¬Ò»¹²£¬ºÏ¼Æ
+æ€»å…±ï¼Œä¸€å…±ï¼Œåˆè®¡
 41. all out
-È«Á¦ÒÔ¸°£¬½ß¾¡È«Á¦
+å…¨åŠ›ä»¥èµ´ï¼Œç«­å°½å…¨åŠ›
 42. all over
-µ½´¦£¬±é¼°£»½áÊø£»(ÏàÃ²)·Ç³£Ïñ
+åˆ°å¤„ï¼ŒéåŠï¼›ç»“æŸï¼›(ç›¸è²Œ)éå¸¸åƒ
 43. all but
-¼¸ºõ£¬²îÒ»µã£»³ı¡­Ö®ÍâÆäÓà¶¼
+å‡ ä¹ï¼Œå·®ä¸€ç‚¹ï¼›é™¤â€¦ä¹‹å¤–å…¶ä½™éƒ½
 44. all right
-ÁîÈËÂúÒâµÄ£¬²»´íµÄ£»(½¡¿µ)Á¼ºÃµÄ/ĞĞ/¿ÉÒÔ
+ä»¤äººæ»¡æ„çš„ï¼Œä¸é”™çš„ï¼›(å¥åº·)è‰¯å¥½çš„/è¡Œ/å¯ä»¥
 45. not at all
-(ÓÃÀ´¼ÓÇ¿ not µÄÓïÆø)Ò»µãÒ²²»£»¸ù±¾²»
+(ç”¨æ¥åŠ å¼º not çš„è¯­æ°”)ä¸€ç‚¹ä¹Ÿä¸ï¼›æ ¹æœ¬ä¸
 46. all along
-Ò»Ö±£¬Ê¼ÖÕ£»´ÓÒ»¿ªÊ¼¾Í
+ä¸€ç›´ï¼Œå§‹ç»ˆï¼›ä»ä¸€å¼€å§‹å°±
 47. amount to
-´ïµ½£¬×Ü¼Æ£»Ïàµ±ÓÚ£¬µÈÓÚ
+è¾¾åˆ°ï¼Œæ€»è®¡ï¼›ç›¸å½“äºï¼Œç­‰äº
 48. in large amounts
-´óÁ¿µØ
+å¤§é‡åœ°
 49. and so on(=and so forth)
-µÈµÈ 
+ç­‰ç­‰ 
 50. and so forth
-µÈµÈ£¬Èç´ËµÈµÈ
+ç­‰ç­‰ï¼Œå¦‚æ­¤ç­‰ç­‰
 51. and the like
-µÈµÈ£¬ÒÔ¼°ÖîÈç´ËÀà
+ç­‰ç­‰ï¼Œä»¥åŠè¯¸å¦‚æ­¤ç±»
 52. and that
-¶øÇÒ
+è€Œä¸”
 53. and then
-¶øÇÒ£¬Æä´Î£¬ÓÚÊÇ£¬È»ºó
+è€Œä¸”ï¼Œå…¶æ¬¡ï¼Œäºæ˜¯ï¼Œç„¶å
 54. and yet
-¿ÉÊÇ£¬È»¶ø
+å¯æ˜¯ï¼Œç„¶è€Œ
 55. one after another
-Ò»¸ö½ÓÒ»¸öµØ£¬½ÓÁ¬µØ
+ä¸€ä¸ªæ¥ä¸€ä¸ªåœ°ï¼Œæ¥è¿åœ°
 56. one another
-±Ë´Ë(Ö¸ÈıÕß»òÈıÕßÒÔÉÏ)
+å½¼æ­¤(æŒ‡ä¸‰è€…æˆ–ä¸‰è€…ä»¥ä¸Š)
 57. answer for
-¶Ô¡­¸ºÔğ£»³ĞÊÜ¡­Ö®ºó¹û
+å¯¹â€¦è´Ÿè´£ï¼›æ‰¿å—â€¦ä¹‹åæœ
 58. answer back
-Ó¦´ğ
+åº”ç­”
 59. not any longer
-²»ÔÙ
+ä¸å†
 60. not any more(=no more)
-²»ÔÙ
+ä¸å†
 61. nothing but
-³ıÁË¡­ÒÔÍâÃ»ÓĞÊ²Ã´£»½ö½ö£¬Ö»²»¹ı
+é™¤äº†â€¦ä»¥å¤–æ²¡æœ‰ä»€ä¹ˆï¼›ä»…ä»…ï¼Œåªä¸è¿‡
 62. apart from
-³ı...Ö®Íâ(±ğÎŞ)£»³ı¡­Ö®Íâ(ÉĞÓĞ)
+é™¤...ä¹‹å¤–(åˆ«æ— )ï¼›é™¤â€¦ä¹‹å¤–(å°šæœ‰)
 63. apologize to sb. for sth.
-ÎªÄ³ÊÂÏòÄ³ÈËµÀÇ¸
+ä¸ºæŸäº‹å‘æŸäººé“æ­‰
 64. appeal to sb. to do sth.
-¿ÒÇó¡­¡­×ö¡­¡­
+æ³æ±‚â€¦â€¦åšâ€¦â€¦
 65. apply for
-Ìá³öÉêÇë(»òÒªÇóµÈ)
+æå‡ºç”³è¯·(æˆ–è¦æ±‚ç­‰)
 66. apply...to
-°Ñ¡­Ó¦ÓÃÓÚ£»Í¿£¬Ä¨
+æŠŠâ€¦åº”ç”¨äºï¼›æ¶‚ï¼ŒæŠ¹
 67. apply oneself to
-ÖÂÁ¦ÓÚ
+è‡´åŠ›äº
 68. approve of
-ÔŞÉÍ£¬Í¬Òâ£»Åú×¼£¬Í¨¹ı
+èµèµï¼ŒåŒæ„ï¼›æ‰¹å‡†ï¼Œé€šè¿‡
 69. arm in arm
-±ÛÍì×Å±Û£»Ğ­Í¬
+è‡‚æŒ½ç€è‡‚ï¼›ååŒ
 70. under arms
-³ÖÓĞÎäÆ÷£¬Îä×°ÆğÀ´µÄ
+æŒæœ‰æ­¦å™¨ï¼Œæ­¦è£…èµ·æ¥çš„
 71. all around
-ËÄ´¦£¬µ½´¦
+å››å¤„ï¼Œåˆ°å¤„
 72. arrive at
-µÃ³ö£¬×ö³ö£¬´ïµ½
+å¾—å‡ºï¼Œåšå‡ºï¼Œè¾¾åˆ°
 73. arrive in
-µ½´ï£»µÖ´ï
+åˆ°è¾¾ï¼›æŠµè¾¾
 74. as...as
-Ïñ...Ò»Ñù
+åƒ...ä¸€æ ·
 75. not so...as
-²»Èç¡­ÄÇÑù
+ä¸å¦‚â€¦é‚£æ ·
 76. such...as
-ÖîÈç...Ö®ÀàµÄ
+è¯¸å¦‚...ä¹‹ç±»çš„
 77. so far as
-(±íÊ¾³Ì¶È¡¢·¶Î§)¾Í¡­£»¾¡¡­
+(è¡¨ç¤ºç¨‹åº¦ã€èŒƒå›´)å°±â€¦ï¼›å°½â€¦
 78. as good as
-ºÍ...¼¸ºõÒ»Ñù£¬Êµ¼ÊÉÏµÈÓÚ
+å’Œ...å‡ ä¹ä¸€æ ·ï¼Œå®é™…ä¸Šç­‰äº
 79. as if
-Í¬ÒåÓÚas thoughºÃÏó£¬·Â·ğ
+åŒä¹‰äºas thoughå¥½è±¡ï¼Œä»¿ä½›
 80. as though
-ºÃÏñ£¬ËÆºõ£¬·Â·ğ
+å¥½åƒï¼Œä¼¼ä¹ï¼Œä»¿ä½›
 81. as it is
-ÊÂÊµÉÏ£¬¼ÈÈ»Èç´Ë
+äº‹å®ä¸Šï¼Œæ—¢ç„¶å¦‚æ­¤
 82. as long as(=so long as)
-Ö»Òª£¬Èç¹û£»¼ÈÈ»£¬ÓÉÓÚ 
+åªè¦ï¼Œå¦‚æœï¼›æ—¢ç„¶ï¼Œç”±äº 
 83. as much
-Ò²;Í¬Ñù¶àµÄ
+ä¹Ÿ;åŒæ ·å¤šçš„
 84. as suchin itself or in themselves
-Í¬ÑùµÄ£¬Í¬Á¿µÄ
+åŒæ ·çš„ï¼ŒåŒé‡çš„
 85. as toprep.
-ÖÁÓÚ¡­£»¹ØÓÚ¡­
+è‡³äºâ€¦ï¼›å…³äºâ€¦
 86. as well
-Ò²£¬ÓÖ£¬ÒÔ¼°£¬ºÍ...Ò»Ñù£¬³ı...Ö®Íâ
+ä¹Ÿï¼Œåˆï¼Œä»¥åŠï¼Œå’Œ...ä¸€æ ·ï¼Œé™¤...ä¹‹å¤–
 87. so as to
-ÒÔ±ã£»Îª¡­(Ä¿µÄ)
+ä»¥ä¾¿ï¼›ä¸ºâ€¦(ç›®çš„)
 88. as well as
-Ò²£¬ÓÖ£¬ÒÔ¼°£¬ºÍ¡­Ò»Ñù£¬³ı¡­Ö®Íâ
+ä¹Ÿï¼Œåˆï¼Œä»¥åŠï¼Œå’Œâ€¦ä¸€æ ·ï¼Œé™¤â€¦ä¹‹å¤–
 89. aside from
-³ı¡­Ö®Íâ(±ğÎŞ)£»³ı¡­Ö®Íâ(ÉĞÓĞ)
+é™¤â€¦ä¹‹å¤–(åˆ«æ— )ï¼›é™¤â€¦ä¹‹å¤–(å°šæœ‰)
 90. ask after
-Ì½ÎÊ£¬ÎÊºò
+æ¢é—®ï¼Œé—®å€™
 91. ask for
-ÇëÇó£¬Ïò¡­Òª£»Ñ°ÕÒ
+è¯·æ±‚ï¼Œå‘â€¦è¦ï¼›å¯»æ‰¾
 92. assist in
-°ïÖú(×öÄ³ÊÂ)
+å¸®åŠ©(åšæŸäº‹)
 93. assist sb. with sth.
-°ïÖúÄ³ÈË×öÄ³ÊÂ
+å¸®åŠ©æŸäººåšæŸäº‹
 94. attach to
-Ê¹ÊôÓÚ£¬Ê¹²Î¼Ó£»ÈÏÎªÓĞ(ÔğÈÎµÈ)
+ä½¿å±äºï¼Œä½¿å‚åŠ ï¼›è®¤ä¸ºæœ‰(è´£ä»»ç­‰)
 95. attach oneself to
-ÒÀ¸½£»²Î¼Óµ³ÅÉ
+ä¾é™„ï¼›å‚åŠ å…šæ´¾
 96. be attached to
-(±äµÃ)Ï²»¶£¬ÒÀÁµ£¬¶Ô...ÓĞ¸ĞÇé
+(å˜å¾—)å–œæ¬¢ï¼Œä¾æ‹ï¼Œå¯¹...æœ‰æ„Ÿæƒ…
 97. attend to one's work
-×¨ĞÄ¹¤×÷
+ä¸“å¿ƒå·¥ä½œ
 98. pay attention to
-×¢Òâ£»ÁôĞÄ£»¹ØĞÄ
+æ³¨æ„ï¼›ç•™å¿ƒï¼›å…³å¿ƒ
 99. be available for
-ÓĞĞ§
+æœ‰æ•ˆ
 100. on an average
-Æ½¾ùÆğÀ´£¬Ò»°ãËµÀ´
+å¹³å‡èµ·æ¥ï¼Œä¸€èˆ¬è¯´æ¥
 101. up to the average
-´ïµ½Ò»°ãË®Æ½
+è¾¾åˆ°ä¸€èˆ¬æ°´å¹³
 102. be aware of
-ÖªµÀ£¬ÒâÊ¶µ½£¬ÈÏÊ¶µ½
+çŸ¥é“ï¼Œæ„è¯†åˆ°ï¼Œè®¤è¯†åˆ°
 103. right away
-Á¢¼´£¬ÂíÉÏ£¬Á¢¿Ì
+ç«‹å³ï¼Œé©¬ä¸Šï¼Œç«‹åˆ»
 104. be at the back of sb.
-Ö§³ÖÄ³ÈË
+æ”¯æŒæŸäºº
 105. behind sb's back
-°µÖĞ
+æš—ä¸­
 106. put one's back into sth.
-×¨ĞÄÖÂÖ¾ÓÚÄ³ÊÂ
+ä¸“å¿ƒè‡´å¿—äºæŸäº‹
 107. be back
-»ØÀ´
+å›æ¥
 108. back and forth
-À´»Ø£¬Íù·µ£¬À´À´ÍùÍùµØ
+æ¥å›ï¼Œå¾€è¿”ï¼Œæ¥æ¥å¾€å¾€åœ°
 109. keep one's balance
-±£³ÖÆ½ºâ£¬±£³ÖÀä¾²
+ä¿æŒå¹³è¡¡ï¼Œä¿æŒå†·é™
 110. lose one's balance
-Ê§È¥Æ½ºâ£¬µøµ¹
+å¤±å»å¹³è¡¡ï¼Œè·Œå€’
 111. base oneself on
-¸ù¾İ£¬»ùÓÚ
+æ ¹æ®ï¼ŒåŸºäº
 112. be based on
-ÒÔ...Îª»ù´¡£¬ÒÔ...Îª¸ù¾İ
+ä»¥...ä¸ºåŸºç¡€ï¼Œä»¥...ä¸ºæ ¹æ®
 113. bear away
-¶áµÃ£»Ó®µÃ(½±Æ·µÈ)
+å¤ºå¾—ï¼›èµ¢å¾—(å¥–å“ç­‰)
 114. bear off
-Ó®µÃ£»Ê¹Àë¿ª£»Ê»Àë
+èµ¢å¾—ï¼›ä½¿ç¦»å¼€ï¼›é©¶ç¦»
 115. bear down
-½ß¾¡È«Á¦£»(on)Ñ¹µ¹£¬»÷°Ü
+ç«­å°½å…¨åŠ›ï¼›(on)å‹å€’ï¼Œå‡»è´¥
 116. bear upon
-¶Ô¡­¡­Ê©¼ÓÑ¹Á¦£¬ÓĞ¹Ø£¬Ãé×¼
+å¯¹â€¦â€¦æ–½åŠ å‹åŠ›ï¼Œæœ‰å…³ï¼Œç„å‡†
 117. bear up
-Ö§³Ö£¬Óµ»¤£»´òÆğ¾«Éñ
+æ”¯æŒï¼Œæ‹¥æŠ¤ï¼›æ‰“èµ·ç²¾ç¥
 118. bear with
-¿íÈİ£»ÄÍĞÄµÈ´ı
+å®½å®¹ï¼›è€å¿ƒç­‰å¾…
 119. beat about
-ËÄ´¦ÏĞ¹ä£¬£Ûº½º££İÓ­·çĞ±Ê»
+å››å¤„é—²é€›ï¼Œï¼»èˆªæµ·ï¼½è¿é£æ–œé©¶
 120. beat down
-(Ì«ÑôµÈ)Ç¿ÁÒµØÕÕÉäÏÂÀ´£»´òµ¹£¬Æ½Ï¢
+(å¤ªé˜³ç­‰)å¼ºçƒˆåœ°ç…§å°„ä¸‹æ¥ï¼›æ‰“å€’ï¼Œå¹³æ¯
 121. beat off
-»÷ÍË£¬´òÍË(½ø¹¥)
+å‡»é€€ï¼Œæ‰“é€€(è¿›æ”»)
 122. beat up
-Í´´ò£¬ºİ×á
+ç—›æ‰“ï¼Œç‹ æ
 123. begin at
-´Ó¡­¡­¿ªÊ¼
+ä»â€¦â€¦å¼€å§‹
 124. begin with
-ÒÔ¡­¿ªÊ¼£¬ÒÔ¡­ÎªÆğµã
+ä»¥â€¦å¼€å§‹ï¼Œä»¥â€¦ä¸ºèµ·ç‚¹
 125. to begin with
-Ê×ÏÈ£¬µÚÒ»£»Æğ³õ£¬±¾À´
+é¦–å…ˆï¼Œç¬¬ä¸€ï¼›èµ·åˆï¼Œæœ¬æ¥
 126. in behalf of
-´ú±í...Ò»·½£¬×÷Îª...µÄ·¢ÑÔÈË
+ä»£è¡¨...ä¸€æ–¹ï¼Œä½œä¸º...çš„å‘è¨€äºº
 127. on behalf of sb.
-´ú±íÄ³ÈË
+ä»£è¡¨æŸäºº
 128. believe in
-ÏàĞÅ¡­µÄ´æÔÚ£¬ÏàĞÅ¡­µÄÕæÊµĞÔ
+ç›¸ä¿¡â€¦çš„å­˜åœ¨ï¼Œç›¸ä¿¡â€¦çš„çœŸå®æ€§
 129. belong to
-¹é¡­¡­ËùÓĞ£¬ÊôÓÚ£¬ÊÇ¡­¡­µÄÒ»Ô±
+å½’â€¦â€¦æ‰€æœ‰ï¼Œå±äºï¼Œæ˜¯â€¦â€¦çš„ä¸€å‘˜
 130. at best
-¾Í×îÀÖ¹ÛµÄÒ»·½Ãæ¿´£¬³äÆäÁ¿
+å°±æœ€ä¹è§‚çš„ä¸€æ–¹é¢çœ‹ï¼Œå……å…¶é‡
 131. be at one's best
-È«Ê¢Ê±ÆÚ£¬×îºÃ×´Ì¬
+å…¨ç››æ—¶æœŸï¼Œæœ€å¥½çŠ¶æ€
 132. do one's best
-½ß¾¡È«Á¦£»¾¡Ä³ÈË×î´óµÄÅ¬Á¦
+ç«­å°½å…¨åŠ›ï¼›å°½æŸäººæœ€å¤§çš„åŠªåŠ›
 133. try one's best
-¾¡Á¦£¬Å¬Á¦
+å°½åŠ›ï¼ŒåŠªåŠ›
 134. make the best of
-³ä·ÖÀûÓÃ£¬¾¡Á¿ÀûÓÃ£¬ÉÆÓÚ´¦Àí(²»ĞÒµÈ)
+å……åˆ†åˆ©ç”¨ï¼Œå°½é‡åˆ©ç”¨ï¼Œå–„äºå¤„ç†(ä¸å¹¸ç­‰)
 135. all the better
-·´¶ø¸ü£¨ºÃ£©£¬È´¸ü
+åè€Œæ›´ï¼ˆå¥½ï¼‰ï¼Œå´æ›´
 136. had better
-Ó¦¸Ã×öÄ³ÊÂ£»×îºÃ×öÄ³ÊÂ
+åº”è¯¥åšæŸäº‹ï¼›æœ€å¥½åšæŸäº‹
 137. get the better of
-Õ½Ê¤£¬ÔÚ...ÖĞÕ¼ÉÏ·ç
+æˆ˜èƒœï¼Œåœ¨...ä¸­å ä¸Šé£
 138. have the better of
-Õ½Ê¤¡­¡­£¬³¬¹ı¡­¡­
+æˆ˜èƒœâ€¦â€¦ï¼Œè¶…è¿‡â€¦â€¦
 139. bill of fare
-²Ëµ¥
+èœå•
 140. a bit
-(×÷×´ÓïÓÃ)ÉÙĞí£»Ò»µã
+(ä½œçŠ¶è¯­ç”¨)å°‘è®¸ï¼›ä¸€ç‚¹
 141. do one's bit
-¾¡×Ô¼ºµÄÒ»·İÁ¦Á¿
+å°½è‡ªå·±çš„ä¸€ä»½åŠ›é‡
 142. not a bit
-Ò»µãÒ²²»
+ä¸€ç‚¹ä¹Ÿä¸
 143. black and blue
-(±»´òµÃ)±éÌåÁÛÉË
+(è¢«æ‰“å¾—)éä½“é³ä¼¤
 144. black out
-ÓÃÄ«Í¿µô£»·âËø(ĞÂÎÅ)
+ç”¨å¢¨æ¶‚æ‰ï¼›å°é”(æ–°é—»)
 145. be to blame
-¸ÃÊÜÔğ±¸µÄ£¬Ó¦³Ğµ£ÔğÈÎµÄ
+è¯¥å—è´£å¤‡çš„ï¼Œåº”æ‰¿æ‹…è´£ä»»çš„
 146. blow off
-´µµô£¬½«(ÈÈË®µÈ)·Å³ö
+å¹æ‰ï¼Œå°†(çƒ­æ°´ç­‰)æ”¾å‡º
 147. blow out
-´µÏ¨(µÆ»ğµÈ)
+å¹ç†„(ç¯ç«ç­‰)
 148. blow over
-(ÔÆµÈ)ÏûÉ¢£»£¨·ç±©µÈ£©Æ½Ï¢
+(äº‘ç­‰)æ¶ˆæ•£ï¼›ï¼ˆé£æš´ç­‰ï¼‰å¹³æ¯
 149. blow up
-±¬Õ¨£¬(±»)Õ¨·É£»³äÆø£»´ó·¢Æ¢Æø£¬´óÅ­
+çˆ†ç‚¸ï¼Œ(è¢«)ç‚¸é£ï¼›å……æ°”ï¼›å¤§å‘è„¾æ°”ï¼Œå¤§æ€’
 150. be on board
-ÔÚ´¬ÉÏ
+åœ¨èˆ¹ä¸Š
 151. border on
-½Ó½ç£¬½ÓÈÀ£»½üËÆ£¬½Ó½ü
+æ¥ç•Œï¼Œæ¥å£¤ï¼›è¿‘ä¼¼ï¼Œæ¥è¿‘
 152. both...and
-²»½ö¡­¶øÇÒ£¬¡­ºÍ¡­(Á½Õß)¶¼
+ä¸ä»…â€¦è€Œä¸”ï¼Œâ€¦å’Œâ€¦(ä¸¤è€…)éƒ½
 153. from the bottom of one's heart
-´ÓĞÄµ×
+ä»å¿ƒåº•
 154. at the bottom
-ÔÚµ×¶Ë
+åœ¨åº•ç«¯
 155. be bound up in
-Ã¦ÓÚ£¬¶Ô...ÓĞĞËÈ¤
+å¿™äºï¼Œå¯¹...æœ‰å…´è¶£
 156. be bound up with
-ÓĞÀµÓÚ£»Óë¡­ÓĞ¹ØÏµ
+æœ‰èµ–äºï¼›ä¸â€¦æœ‰å…³ç³»
 157. break away
-Í»È»Àë¿ª£»ÌÓÅÜ£¬ÍÑÉí
+çªç„¶ç¦»å¼€ï¼›é€ƒè·‘ï¼Œè„±èº«
 158. break down
-»úÆ÷»µÁË=go wrong ÉíÌå¿åÁË/ÖÕÖ¹Ì¸»°
+æœºå™¨åäº†=go wrong èº«ä½“å®äº†/ç»ˆæ­¢è°ˆè¯
 159. break into
-´ò¶Ï£¬Í»È»¿ªÊ¼£»´³Èë
+æ‰“æ–­ï¼Œçªç„¶å¼€å§‹ï¼›é—¯å…¥
 160. break in
-´ò¶ÏÌ¸»°;ÑµÁ·;Ê¹Ñ±·ş£»Í¨¹ıÊ¹ÓÃÊ¹Öğ½¥ÊÊÓÃ
+æ‰“æ–­è°ˆè¯;è®­ç»ƒ;ä½¿é©¯æœï¼›é€šè¿‡ä½¿ç”¨ä½¿é€æ¸é€‚ç”¨
 161. break off
-ºöÈ»Í£Ö¹½²»°/¶Ï¾ø£¬½áÊø/ÔİÍ£¹¤×÷£¬ĞİÏ¢
+å¿½ç„¶åœæ­¢è®²è¯/æ–­ç»ï¼Œç»“æŸ/æš‚åœå·¥ä½œï¼Œä¼‘æ¯
 162. break out
-(Õ½ÕùµÈ)±¬·¢£»Ê¹ÌÓÍÑ£¬Ê¹ÌÓÉú
+(æˆ˜äº‰ç­‰)çˆ†å‘ï¼›ä½¿é€ƒè„±ï¼Œä½¿é€ƒç”Ÿ
 163. break up
-´òËé£¬·ÛËé£»É¢¿ª£¬ÇıÉ¢£»ÖÕÖ¹£¬½áÊø
+æ‰“ç¢ï¼Œç²‰ç¢ï¼›æ•£å¼€ï¼Œé©±æ•£ï¼›ç»ˆæ­¢ï¼Œç»“æŸ
 164. catch one's breath
-(Òò¾ª¿Ö»ò¼¤¶¯)Ò»Ê±ÆÁ×¡ºôÎü£»Ğª¿ÚÆø
+(å› æƒŠææˆ–æ¿€åŠ¨)ä¸€æ—¶å±ä½å‘¼å¸ï¼›æ­‡å£æ°”
 165. hold one's breath
-(ÓÉÓÚ¼¤¶¯¡¢º¦ÅÂµÈ)²»³öÆø£»ÆÁ×¡ºôÎü
+(ç”±äºæ¿€åŠ¨ã€å®³æ€•ç­‰)ä¸å‡ºæ°”ï¼›å±ä½å‘¼å¸
 166. lose one's breath
-´­²»¹ıÆøÀ´£¬ºôÎüÀ§ÄÑ
+å–˜ä¸è¿‡æ°”æ¥ï¼Œå‘¼å¸å›°éš¾
 167. out of breath
-´­²»¹ıÆøÀ´£¬ÉÏÆø²»½ÓÏÂÆø
+å–˜ä¸è¿‡æ°”æ¥ï¼Œä¸Šæ°”ä¸æ¥ä¸‹æ°”
 168. in brief(in short;to sum up)
- ¼òÑÔÖ®£»ÒÔ¼ò½àµÄĞÎÊ½
+ ç®€è¨€ä¹‹ï¼›ä»¥ç®€æ´çš„å½¢å¼
 169. bring down
-Ê¹µ¹ÏÂ£»Ê¹ÏÂ½µ£»Ê¹ÊÜ´ìÕÛ
+ä½¿å€’ä¸‹ï¼›ä½¿ä¸‹é™ï¼›ä½¿å—æŒ«æŠ˜
 170. bring forward
-Ìá³ö½¨Òé=put forward/ÌáÇ°
+æå‡ºå»ºè®®=put forward/æå‰
 171. brush up
-²ÁÁÁ£»ÖØĞÂÑ§Ï°£»¸´Ï°
+æ“¦äº®ï¼›é‡æ–°å­¦ä¹ ï¼›å¤ä¹ 
 172. blow bubbles
-´µÅİÅİ£¬Ëµ¿Õ»°
+å¹æ³¡æ³¡ï¼Œè¯´ç©ºè¯
 173. in bud
-·¢Ñ¿
+å‘èŠ½
 174. build up
-Öğ²½½¨Á¢£»Ôö½ø£»Öğ½¥»ı¾Û£¬¼¯½á
+é€æ­¥å»ºç«‹ï¼›å¢è¿›ï¼›é€æ¸ç§¯èšï¼Œé›†ç»“
 175. the bulk of
-¡­¡­µÄ´ó²¿·Ö
+â€¦â€¦çš„å¤§éƒ¨åˆ†
 176. be a burden to
-¶Ô¡­¡­ÊÇÒ»¸ö¸ºµ£
+å¯¹â€¦â€¦æ˜¯ä¸€ä¸ªè´Ÿæ‹…
 177. burn away
-ÉÕ×Å£¬È¼Íê£¬ÉÕµô
+çƒ§ç€ï¼Œç‡ƒå®Œï¼Œçƒ§æ‰
 178. burn down
-·Ù»Ù(½¨ÖşÎï)£¬°Ñ¡­ÉÕ³ÉÆ½µØ
+ç„šæ¯(å»ºç­‘ç‰©)ï¼ŒæŠŠâ€¦çƒ§æˆå¹³åœ°
 179. burn out
-ÉÕ¹â£¬ÉÕ»Ù¡­µÄÄÚ²¿£»Ï¨Ãğ
+çƒ§å…‰ï¼Œçƒ§æ¯â€¦çš„å†…éƒ¨ï¼›ç†„ç­
 180. burn up
-ÉÕµô£¬ÉÕ»Ù£»ÉÕÆğÀ´£¬ÍúÆğÀ´£»(Ê¹)·¢Å­
+çƒ§æ‰ï¼Œçƒ§æ¯ï¼›çƒ§èµ·æ¥ï¼Œæ—ºèµ·æ¥ï¼›(ä½¿)å‘æ€’
 181. burst into
-Í»È»¿ªÊ¼£»´³Èë£¬·Ç·¨½øÈë
+çªç„¶å¼€å§‹ï¼›é—¯å…¥ï¼Œéæ³•è¿›å…¥
 182. burst out laughing
-Í»È»Ğ¦ÁËÆğÀ´
+çªç„¶ç¬‘äº†èµ·æ¥
 183. burst out
-Í»·¢£¬Í»È»·¢×÷£»º°³öÀ´
+çªå‘ï¼Œçªç„¶å‘ä½œï¼›å–Šå‡ºæ¥
 184. on business
-°ìÊÂ£¬Òò¹«³ö²î
+åŠäº‹ï¼Œå› å…¬å‡ºå·®
 185. but for
-³ı¡­ÒÔÍâ£¬ÌÈÃ»ÓĞ£¬³ı·Ç
+é™¤â€¦ä»¥å¤–ï¼Œå€˜æ²¡æœ‰ï¼Œé™¤é
 186. cannot but
-²»µÃ²»£¬²»»á²»
+ä¸å¾—ä¸ï¼Œä¸ä¼šä¸
 187. by oneself
-Ë³±ãµØ£»ÔÚÍ¾ÖĞ£¬ÔÚÂ·ÉÏ
+é¡ºä¾¿åœ°ï¼›åœ¨é€”ä¸­ï¼Œåœ¨è·¯ä¸Š
 188. by the way
-£¨ÓÃÓÚ×ªÈëĞÂ»°Ìâ£©Ë³±ãÎÊÒ»ÏÂ£¬Ë³±ãËµ
+ï¼ˆç”¨äºè½¬å…¥æ–°è¯é¢˜ï¼‰é¡ºä¾¿é—®ä¸€ä¸‹ï¼Œé¡ºä¾¿è¯´
 189. by and by
-²»¾Ã£»ÒÔºó£»ºóÀ´
+ä¸ä¹…ï¼›ä»¥åï¼›åæ¥
 190. call for
-È¥È¡(Ä³Îï)£»È¥½Ó(Ä³ÈË)£»ÒªÇó£»ºÅÕÙ
+å»å–(æŸç‰©)ï¼›å»æ¥(æŸäºº)ï¼›è¦æ±‚ï¼›å·å¬
 191. call on(=call upon)
-·ÃÎÊ£¬°İ·Ã£»ºÅÕÙ£¬ºôÓõ 
+è®¿é—®ï¼Œæ‹œè®¿ï¼›å·å¬ï¼Œå‘¼å 
 192. call upon
-Ì½·Ã£»ÇëÇó(Ä³ÈË)×öÄ³ÊÂ£¬ºÅÕÙ
+æ¢è®¿ï¼›è¯·æ±‚(æŸäºº)åšæŸäº‹ï¼Œå·å¬
 193. cannot help
-²»µÃ²»£»ÈÌ²»×¡
+ä¸å¾—ä¸ï¼›å¿ä¸ä½
 194. capable of
-ÄÜ¡­µÄ£¬¿É¡­µÄ£»ÓĞ¡­ÄÜÁ¦(»ò¼¼ÄÜ)µÄ
+èƒ½â€¦çš„ï¼Œå¯â€¦çš„ï¼›æœ‰â€¦èƒ½åŠ›(æˆ–æŠ€èƒ½)çš„
 195. take care
-Ğ¡ĞÄ£»ÕÕÁÏ£»±£¹Ü
+å°å¿ƒï¼›ç…§æ–™ï¼›ä¿ç®¡
 196. in the care of
-ÓÉ¡­¡­ÕÕÓ¦
+ç”±â€¦â€¦ç…§åº”
 197. take care of (everything)
-ºÃºÃÕÕÁÏ(Ò»ÇĞ)
+å¥½å¥½ç…§æ–™(ä¸€åˆ‡)
 198. care for
-Ï²»¶£¬¶Ô¡­ÖĞÒâ£»¶Ô¡­µ£ĞÄ£»ÕÕ¹Ë£¬ÕÕÁÏ
+å–œæ¬¢ï¼Œå¯¹â€¦ä¸­æ„ï¼›å¯¹â€¦æ‹…å¿ƒï¼›ç…§é¡¾ï¼Œç…§æ–™
 199. carry away
-Ê¹Ä³ÈË³å¶¯¶øÊ§È¥×ÔÖÆÁ¦£»³å»è...µÄÍ·ÄÔ
+ä½¿æŸäººå†²åŠ¨è€Œå¤±å»è‡ªåˆ¶åŠ›ï¼›å†²æ˜...çš„å¤´è„‘
 200. carry off
-³É¹¦µØ´¦Àí»òÓ¦¸¶£»ÄÃ×ß£¬¶á×ß
+æˆåŠŸåœ°å¤„ç†æˆ–åº”ä»˜ï¼›æ‹¿èµ°ï¼Œå¤ºèµ°
 201. carry on
-¼ÌĞø£¬¼á³ÖÏÂÈ¥£»´ÓÊÂ£¬¾­Óª
+ç»§ç»­ï¼ŒåšæŒä¸‹å»ï¼›ä»äº‹ï¼Œç»è¥
 202. carry out
-½øĞĞ£»¿ªÕ¹£»Ö´ĞĞ(¼Æ»®£¬ÃüÁî)£»ÊµÏÖ
+è¿›è¡Œï¼›å¼€å±•ï¼›æ‰§è¡Œ(è®¡åˆ’ï¼Œå‘½ä»¤)ï¼›å®ç°
 203. in case
-ÍòÒ»£»ÔÚ¡­Çé¿öÏÂ£» ÒÔ·À
+ä¸‡ä¸€ï¼›åœ¨â€¦æƒ…å†µä¸‹ï¼› ä»¥é˜²
 204. in case of
-¼ÙÈç£¬Èç¹û·¢Éú£»·À±¸
+å‡å¦‚ï¼Œå¦‚æœå‘ç”Ÿï¼›é˜²å¤‡
 205. in no case
-¾ö²»£¬ÎŞÂÛÈçºÎ²»
+å†³ä¸ï¼Œæ— è®ºå¦‚ä½•ä¸
 206. catch up
-¸ÏÉÏ£»¸ÏÉÏÄ³ÈË»òÄ³ÊÂ
+èµ¶ä¸Šï¼›èµ¶ä¸ŠæŸäººæˆ–æŸäº‹
 207. catch up with
-¸ÏÉÏ£»Ö¸³ö¡­³öÁË²î´í
+èµ¶ä¸Šï¼›æŒ‡å‡ºâ€¦å‡ºäº†å·®é”™
 208. stand on ceremony
-¿ÍÆø£¬½²¿ÍÌ×
+å®¢æ°”ï¼Œè®²å®¢å¥—
 209. stand upon ceremony
-½²¾¿Àñ½Ú
+è®²ç©¶ç¤¼èŠ‚
 210. by chance
-Å¼È»£¬ÅöÇÉ£¬ÎŞÒâÖĞ
+å¶ç„¶ï¼Œç¢°å·§ï¼Œæ— æ„ä¸­
 211. change hands
-×ªÊÖ£¬×ª»»ËùÓĞÕß
+è½¬æ‰‹ï¼Œè½¬æ¢æ‰€æœ‰è€…
 212. in charge of
-Ö÷¹Ü£¬ÕÆ¹Ü£¬ÕÕ¹Ü
+ä¸»ç®¡ï¼ŒæŒç®¡ï¼Œç…§ç®¡
 213. take charge of
-¸ºÔğ(±»)¿´£»½Ó¹Ü
+è´Ÿè´£(è¢«)çœ‹ï¼›æ¥ç®¡
 214. give chase
-×·¸Ï,×·Öğ(in chase of)
+è¿½èµ¶,è¿½é€(in chase of)
 215. check up
-Ğ£¶Ô£¬¼ìÑé£¬¼ì²é (check on)
+æ ¡å¯¹ï¼Œæ£€éªŒï¼Œæ£€æŸ¥ (check on)
 216. check in
-(×¡±ö¹İÊ±)°ìÀíµÇ¼ÇÊÖĞø£¬Èë×¡
+(ä½å®¾é¦†æ—¶)åŠç†ç™»è®°æ‰‹ç»­ï¼Œå…¥ä½
 217. check out
-(×¡±ö¹İÊ±)°ìÀíÍË·¿ÊÖĞø£¬½áÕÊÀë¿ª
+(ä½å®¾é¦†æ—¶)åŠç†é€€æˆ¿æ‰‹ç»­ï¼Œç»“å¸ç¦»å¼€
 218. cheer up
-Ê¹¸ßĞË£¬Ê¹Õñ·Ü£»¸ßĞËÆğÀ´£¬Õñ×÷ÆğÀ´
+ä½¿é«˜å…´ï¼Œä½¿æŒ¯å¥‹ï¼›é«˜å…´èµ·æ¥ï¼ŒæŒ¯ä½œèµ·æ¥
 219. cheer sb. up
-Ê¹Ä³ÈË¸ßĞË
+ä½¿æŸäººé«˜å…´
 220. chew over
-ÉîË¼£¬Ï¸Ïë£»×ĞÏ¸ÉÌÁ¿
+æ·±æ€ï¼Œç»†æƒ³ï¼›ä»”ç»†å•†é‡
 221. take one's choice
-ËæÒâÑ¡Ôñ
+éšæ„é€‰æ‹©
 222. under the circumstances
-ÔÚÕâÖÖÇé¿öÏÂ£¬(Çé¿ö)¼ÈÈ»Èç´Ë
+åœ¨è¿™ç§æƒ…å†µä¸‹ï¼Œ(æƒ…å†µ)æ—¢ç„¶å¦‚æ­¤
 223. in the circumstances
-ÔÚÕâÖÖÇé¿öÏÂ£¬(Çé¿ö)¼ÈÈ»Èç´Ë
+åœ¨è¿™ç§æƒ…å†µä¸‹ï¼Œ(æƒ…å†µ)æ—¢ç„¶å¦‚æ­¤
 224. under no circumstances
-¾ö²»£»ÎŞÂÛÔÚÈÎºÎÇéĞÎÏÂ¶¼²»
+å†³ä¸ï¼›æ— è®ºåœ¨ä»»ä½•æƒ…å½¢ä¸‹éƒ½ä¸
 225. in no circumstances
-¾ö²»£»ÎŞÂÛÔÚÈÎºÎÇéĞÎÏÂ¶¼²»¡­
+å†³ä¸ï¼›æ— è®ºåœ¨ä»»ä½•æƒ…å½¢ä¸‹éƒ½ä¸â€¦
 226. clean out
-°Ñ¡­´òÉ¨¸É¾»
+æŠŠâ€¦æ‰“æ‰«å¹²å‡€
 227. clean up
-(°Ñ¡­)ÊÕÊ°¸É¾»£»ÇåÀí£¬Çå³ı(·¸×ïÏÖÏóµÈ)
+(æŠŠâ€¦)æ”¶æ‹¾å¹²å‡€ï¼›æ¸…ç†ï¼Œæ¸…é™¤(çŠ¯ç½ªç°è±¡ç­‰)
 228. keep clear of
-²»½Ó´¥£»±Ü¿ª
+ä¸æ¥è§¦ï¼›é¿å¼€
 229. clear away
-°Ñ¡­Çå³ıµô£»(ÔÆ)ÏûÊ§
+æŠŠâ€¦æ¸…é™¤æ‰ï¼›(äº‘)æ¶ˆå¤±
 230. clear off
-Ïû³ı(»ıÑ©)µÈÕÏ°­£¬°Ñ...²ğµô£¬²Áµô£¬Çå³ı
+æ¶ˆé™¤(ç§¯é›ª)ç­‰éšœç¢ï¼ŒæŠŠ...æ‹†æ‰ï¼Œæ“¦æ‰ï¼Œæ¸…é™¤
 231. clear up
-ÕûÀí£¬ÊÕÊ°£»½âÊÍ£¬Çå³ı(Îó»áµÈ)£»ÌìÆø·Å¾¦
+æ•´ç†ï¼Œæ”¶æ‹¾ï¼›è§£é‡Šï¼Œæ¸…é™¤(è¯¯ä¼šç­‰)ï¼›å¤©æ°”æ”¾ç›
 232. climb down
-ÅÀÏÂ£¬ÈÃ²½£¬³·»Ø
+çˆ¬ä¸‹ï¼Œè®©æ­¥ï¼Œæ’¤å›
 233. close down
-(¹¤³§µÈ)¹Ø±Õ£¬µ¹±Õ
+(å·¥å‚ç­‰)å…³é—­ï¼Œå€’é—­
 234. close up
-ÈûÂú£»·â±Õ£»Í£Ö¹»òÔİÍ£ÓªÒµ
+å¡æ»¡ï¼›å°é—­ï¼›åœæ­¢æˆ–æš‚åœè¥ä¸š
 235. catch a cold
-ÉË·ç£¬¸ĞÃ°
+ä¼¤é£ï¼Œæ„Ÿå†’
 236. have a cold
-»¼×Å¸ĞÃ°
+æ‚£ç€æ„Ÿå†’
 237. come about
-·¢Éú£»(·çµÈ)¸Ä±ä·½Ïò
+å‘ç”Ÿï¼›(é£ç­‰)æ”¹å˜æ–¹å‘
 238. come of
-³öÉíÓÚ£»ÓÉ¡­ÒıÆğ£¬ÊÇ¡­µÄ½á¹û
+å‡ºèº«äºï¼›ç”±â€¦å¼•èµ·ï¼Œæ˜¯â€¦çš„ç»“æœ
 239. come off
-·¢Éú£¬¾ÙĞĞ£»³É¹¦£»ÍÑÂä£»³ÉÎª£»±íÏÖ
+å‘ç”Ÿï¼Œä¸¾è¡Œï¼›æˆåŠŸï¼›è„±è½ï¼›æˆä¸ºï¼›è¡¨ç°
 240. come on
-¿ìµã(¿Ú)£¬¿ªÊ¼£¬µ½À´£¬¾ÙĞĞ£¬×ß°É£¬Ò»ÆğÈ¥
+å¿«ç‚¹(å£)ï¼Œå¼€å§‹ï¼Œåˆ°æ¥ï¼Œä¸¾è¡Œï¼Œèµ°å§ï¼Œä¸€èµ·å»
 241. come out
-(ÈÕ¡¢ÔÂ¡¢ĞÇµÈ)³öÏÖ£»(»¨)¿ª·Å£»³ö°æ£»·¢±í
+(æ—¥ã€æœˆã€æ˜Ÿç­‰)å‡ºç°ï¼›(èŠ±)å¼€æ”¾ï¼›å‡ºç‰ˆï¼›å‘è¡¨
 242. come round
-(·ÇÕıÊ½µÄ)ÈÆµÀ¶øÀ´£»¹ı·Ã£»ÖØÓÖÀ´µ½£»ËÕĞÑ
+(éæ­£å¼çš„)ç»•é“è€Œæ¥ï¼›è¿‡è®¿ï¼›é‡åˆæ¥åˆ°ï¼›è‹é†’
 243. in common
-¹²ÓÃ£¬¹²Í¬´¦£¬¹«ÓĞ
+å…±ç”¨ï¼Œå…±åŒå¤„ï¼Œå…¬æœ‰
 244. in company with
-(ºÍ...)Ò»µÀ
+(å’Œ...)ä¸€é“
 245. be composed of
-ÓÉ...×é³É
+ç”±...ç»„æˆ
 246. concern oneself with
-ÑĞ¾¿µÄ¶ÔÏóÊÇ¡­
+ç ”ç©¶çš„å¯¹è±¡æ˜¯â€¦
 247. concern oneself in
-¹ØĞÄ£¬Ã¦ÓÚ
+å…³å¿ƒï¼Œå¿™äº
 248. concern oneself about
-¹ØĞÄ£¬Ã¦ÓÚ
+å…³å¿ƒï¼Œå¿™äº
 249. in concert with sb.
-Óë¡­¡­Ò»ÖÂ
+ä¸â€¦â€¦ä¸€è‡´
 250. in conclusion
-×îºó(ÓÃÔÚ½áÊøÓïÖĞ)
+æœ€å(ç”¨åœ¨ç»“æŸè¯­ä¸­)
 251. on this condition
-ÔÚ´ËÌõ¼şÏÂ
+åœ¨æ­¤æ¡ä»¶ä¸‹
 252. on condition that
-ÔÚ...Ìõ¼şÏÂ£¬Èç¹û...
+åœ¨...æ¡ä»¶ä¸‹ï¼Œå¦‚æœ...
 253. to be in condition
-½¡¿µ
+å¥åº·
 254. to be out of condition
-²»½¡¿µ
+ä¸å¥åº·
 255. in conflict with
-(ºÍ...)ÓĞÃ¬¶Ü£¬²»Ò»ÖÂ
+(å’Œ...)æœ‰çŸ›ç›¾ï¼Œä¸ä¸€è‡´
 256. in connection with
-¹ØÓÚ£¬Óë¡­ÓĞ¹Ø
+å…³äºï¼Œä¸â€¦æœ‰å…³
 257. come in contact with
-½Ó´¥£¬ÅöÉÏ
+æ¥è§¦ï¼Œç¢°ä¸Š
 258. out of contact
-ÍÆ¶¯ÁªÏµ£¬Ã»ÓĞ½Ó´¥
+æ¨åŠ¨è”ç³»ï¼Œæ²¡æœ‰æ¥è§¦
 259. on the contrary
-Óë´ËÏà·´£¬ÕıÏà·´
+ä¸æ­¤ç›¸åï¼Œæ­£ç›¸å
 260. out of control
-Ê§È¥¿ØÖÆ
+å¤±å»æ§åˆ¶
 261. get under control
-·´¡­¡­¿ØÖÆ×¡
+åâ€¦â€¦æ§åˆ¶ä½
 262. turn the corner
-ÓĞÁË×ª»ú£¬ºÃ×ª£»¹ÕÍä
+æœ‰äº†è½¬æœºï¼Œå¥½è½¬ï¼›æ‹å¼¯
 263. at the cost of
-ÒÔ¡­Îª´ú¼Û£¬ÓÃ...»»À´µÄ
+ä»¥â€¦ä¸ºä»£ä»·ï¼Œç”¨...æ¢æ¥çš„
 264. count on
-ÒÀ¿¿£¬ÁÏÏë£¬Ö¸Íû
+ä¾é ï¼Œæ–™æƒ³ï¼ŒæŒ‡æœ›
 265. count upon
-Ö¸Íû£»ÁÏÏë£»ÒÀ¿¿
+æŒ‡æœ›ï¼›æ–™æƒ³ï¼›ä¾é 
 266. count up
-Ëã³ö¡­×ÜÊı£¬¹²¼Æ£¬°Ñ¡­Ïà¼Ó
+ç®—å‡ºâ€¦æ€»æ•°ï¼Œå…±è®¡ï¼ŒæŠŠâ€¦ç›¸åŠ 
 267. in course of
-ÕıÔÚ¡­ÖĞ
+æ­£åœ¨â€¦ä¸­
 268. in the course of
-ÔÚ¡­ÆÚ¼ä£¬ÔÚ¡­µÄ¹ı³ÌÖĞ
+åœ¨â€¦æœŸé—´ï¼Œåœ¨â€¦çš„è¿‡ç¨‹ä¸­
 269. of course
-µ±È»£»×ÔÈ»£»ÎŞÒÉ
+å½“ç„¶ï¼›è‡ªç„¶ï¼›æ— ç–‘
 270. under cover of
-ÔÚ¡­¡­Ö®ÑÚ»¤Ö®ÏÂ
+åœ¨â€¦â€¦ä¹‹æ©æŠ¤ä¹‹ä¸‹
 271. cut across
-ÈÆ½üµÀ´©¹ı£¬¶ÔÖ±Í¨¹ı£»³¬Ô½£»ÕÚ×¡
+ç»•è¿‘é“ç©¿è¿‡ï¼Œå¯¹ç›´é€šè¿‡ï¼›è¶…è¶Šï¼›é®ä½
 272. cut off
-ÇĞ¶Ï£»ÇĞµô£»(Í»È»)ÖĞ¶Ï£»×è¸ô£¬¸ô¾ø£»É¾µô
+åˆ‡æ–­ï¼›åˆ‡æ‰ï¼›(çªç„¶)ä¸­æ–­ï¼›é˜»éš”ï¼Œéš”ç»ï¼›åˆ æ‰
 273. cut out
-ÇĞÈ¥£¬É¾È¥£»½ä³ı£¬Í£Ö¹·şÓÃ
+åˆ‡å»ï¼Œåˆ å»ï¼›æˆ’é™¤ï¼Œåœæ­¢æœç”¨
 274. cut up
-(Éü¿ÚµÈ)Ô×ºóµÃÈâ
+(ç‰²å£ç­‰)å®°åå¾—è‚‰
 275. be in danger of
-ÓĞÎ£ÏÕ
+æœ‰å±é™©
 276. be out of danger
-ÍÑÀëÎ£ÏÕ
+è„±ç¦»å±é™©
 277. keep sth. dark
-±£ÊØÃØÃÜ
+ä¿å®ˆç§˜å¯†
 278. keep sb. in the dark
-°ÑÄ³ÈËÃÉÔÚ¹ÄÀï
+æŠŠæŸäººè’™åœ¨é¼“é‡Œ
 279. dash off
-Ñ¸ËÙÀëÈ¥£»Ñ¸ËÙĞ´(»ò»­)
+è¿…é€Ÿç¦»å»ï¼›è¿…é€Ÿå†™(æˆ–ç”»)
 280. out of date
-¹ıÊ±µÄ£¬¹ıÆÚµÄ£¬Ê§Ğ§µÄ£»³Â¾ÉµÄ
+è¿‡æ—¶çš„ï¼Œè¿‡æœŸçš„ï¼Œå¤±æ•ˆçš„ï¼›é™ˆæ—§çš„
 281. all the day
-ÕûÌìµØ
+æ•´å¤©åœ°
 282. one day
-(¹ıÈ¥»ò½«À´)ÓĞÒ»Ìì£»Ä³Ò»Ìì
+(è¿‡å»æˆ–å°†æ¥)æœ‰ä¸€å¤©ï¼›æŸä¸€å¤©
 283. some day
-(½«À´)×ÜÓĞÒ»Ìì£¬(ÈÕºó)Ä³Ìì
+(å°†æ¥)æ€»æœ‰ä¸€å¤©ï¼Œ(æ—¥å)æŸå¤©
 284. at the present day
-Ä¿Ç°£¬ÔÚÏÖ´ú
+ç›®å‰ï¼Œåœ¨ç°ä»£
 285. in these days
-µ±Ç°
+å½“å‰
 286. in those days
-ÄÇÊ±ºò
+é‚£æ—¶å€™
 287. in the daytime
-ÔÚ°×Ìì£¬ÔÚ°×Öç
+åœ¨ç™½å¤©ï¼Œåœ¨ç™½æ˜¼
 288. a good deal of
-´óÁ¿(µÄ)£¬Ğí¶à(µÄ)
+å¤§é‡(çš„)ï¼Œè®¸å¤š(çš„)
 289. a great deal of
-Ğí¶à(ºó½Ó²»±£ÊıÃû´Ê)
+è®¸å¤š(åæ¥ä¸ä¿æ•°åè¯)
 290. deal with
-¶Ô¸¶£¬´¦Àí£¬°²ÅÅ£»ÂÛÊö£¬Éæ¼°£»×öÉúÒâ
+å¯¹ä»˜ï¼Œå¤„ç†ï¼Œå®‰æ’ï¼›è®ºè¿°ï¼Œæ¶‰åŠï¼›åšç”Ÿæ„
 291. in debt
-¸ºÕ®£»Ç·ÕÊ
+è´Ÿå€ºï¼›æ¬ å¸
 292. out of debt
-²»Ç·Õ®
+ä¸æ¬ å€º
 293. declare for
-±íÃ÷ÔŞ³É£¨Óµ»¤£©
+è¡¨æ˜èµæˆï¼ˆæ‹¥æŠ¤ï¼‰
 294. declare against
-±íÌ¬·´¶Ô
+è¡¨æ€åå¯¹
 295. be in great demand
-ĞèÒªºÜ´ó£¬ÏúÂ·ºÜºÃ
+éœ€è¦å¾ˆå¤§ï¼Œé”€è·¯å¾ˆå¥½
 296. deserve well of
-Ó¦ÊÜµ½Ä³ÈËºÃµÄ¶Ô´ı
+åº”å—åˆ°æŸäººå¥½çš„å¯¹å¾…
 297. go into details
-ÏêÏ¸ĞğÊö£¬ÖğÒ»ËµÃ÷
+è¯¦ç»†å™è¿°ï¼Œé€ä¸€è¯´æ˜
 298. in detail
-ÏêÏ¸µØ
+è¯¦ç»†åœ°
 299. die away
-ÉùÒô±äÈõ£¬½¥½¥ÏûÊ§/Í£Ï¢£¬ÏûÊ§
+å£°éŸ³å˜å¼±ï¼Œæ¸æ¸æ¶ˆå¤±/åœæ¯ï¼Œæ¶ˆå¤±
 300. die down
-Öğ½¥¼õÈõ£¬Öğ½¥ÏûÊ§£¬Æ½Ï¢
+é€æ¸å‡å¼±ï¼Œé€æ¸æ¶ˆå¤±ï¼Œå¹³æ¯
 301. die out (become extinct)
-ÏûÊ§£¬Ãğ¾ø£¬²»¸´´æÔÚ
+æ¶ˆå¤±ï¼Œç­ç»ï¼Œä¸å¤å­˜åœ¨
 302. never say die
-²»Òª»ÒĞÄ
+ä¸è¦ç°å¿ƒ
 303. make a difference
-Çø±ğ¶Ô´ı£»Æğ(ÖØÒª)×÷ÓÃ£»ÓĞÓ°Ïì
+åŒºåˆ«å¯¹å¾…ï¼›èµ·(é‡è¦)ä½œç”¨ï¼›æœ‰å½±å“
 304. make no difference
-Ã»ÓĞ...×÷ÓÃ»òÓ°Ïì
+æ²¡æœ‰...ä½œç”¨æˆ–å½±å“
 305. be in difficulty
-´¦¾³À§ÄÑ
+å¤„å¢ƒå›°éš¾
 306. dig up
-¿ª¿Ñ(»ÄµØµÈ)£»²é³ö£¬·¢ÏÖ
+å¼€å¦(è’åœ°ç­‰)ï¼›æŸ¥å‡ºï¼Œå‘ç°
 307. in the distance
-ÔÚÔ¶´¦£¬Ô¶·½µÄ
+åœ¨è¿œå¤„ï¼Œè¿œæ–¹çš„
 308. do away with
-=get rid of ·Ï³ı£¬È¥µô£¬È¡Ïû
+=get rid of åºŸé™¤ï¼Œå»æ‰ï¼Œå–æ¶ˆ
 309. do without
-Ã»ÓĞ¡­Ò²ĞĞ£¬ÓÃ²»×Å£¬½«¾Í
+æ²¡æœ‰â€¦ä¹Ÿè¡Œï¼Œç”¨ä¸ç€ï¼Œå°†å°±
 310. have something to do with
-ºÍ¡­ÓĞ(µã)¹ØÏµ
+å’Œâ€¦æœ‰(ç‚¹)å…³ç³»
 311. have nothing to do with
-ºÍ...ºÁÎŞ¹ØÏµ
+å’Œ...æ¯«æ— å…³ç³»
 312. out of doors
-ÔÚ»§Íâ
+åœ¨æˆ·å¤–
 313. double up
-Íä×ÅÉí×Ó£»°Ñ¡­¶ÔÕÛ
+å¼¯ç€èº«å­ï¼›æŠŠâ€¦å¯¹æŠ˜
 314. in doubt
-²»ÄÜ¿Ï¶¨µÄ£¬¿É»³ÒÉµÄ
+ä¸èƒ½è‚¯å®šçš„ï¼Œå¯æ€€ç–‘çš„
 315. without doubt
-ÎŞÒÉµØ£¬ºÜ¿ÉÄÜ
+æ— ç–‘åœ°ï¼Œå¾ˆå¯èƒ½
 316. no doubt (without doubt;certainly)
-ÎŞÒÉµØ£¬±Ø¶¨
+æ— ç–‘åœ°ï¼Œå¿…å®š
 317. up and down
-À´»Ø£¬ÉÏÉÏÏÂÏÂ£»Ç°Ç°ºóºó£»µ½´¦
+æ¥å›ï¼Œä¸Šä¸Šä¸‹ä¸‹ï¼›å‰å‰ååï¼›åˆ°å¤„
 318. draw in
-(»ğ³µ¡¢Æû³µ)µ½´ï£¬µ½Õ¾£»ÎüÊÕ£»½ôËõ¿ªÖ§
+(ç«è½¦ã€æ±½è½¦)åˆ°è¾¾ï¼Œåˆ°ç«™ï¼›å¸æ”¶ï¼›ç´§ç¼©å¼€æ”¯
 319. draw out
-À­³¤£»ÌÍ³ö(ÊÖÅÁµÈ)
+æ‹‰é•¿ï¼›æå‡º(æ‰‹å¸•ç­‰)
 320. draw up
-»­³ö£¬²İÄâ³ö£»(Ê¹)Í£×¡£¬±Æ½ü
+ç”»å‡ºï¼Œè‰æ‹Ÿå‡ºï¼›(ä½¿)åœä½ï¼Œé€¼è¿‘
 321. drop in
-Ë³±ãÀ´·Ã£¬·ÇÕıÊ½·ÃÎÊ
+é¡ºä¾¿æ¥è®¿ï¼Œéæ­£å¼è®¿é—®
 322. drop on
-Ñµ³â£¬³Í·£
+è®­æ–¥ï¼Œæƒ©ç½š
 323. drop off
-ÈëË¯£»(ÈÃ¡­)ÏÂ³µ£¬°Ñ¡­·ÅÏÂ£»ÏÂ½µ£¬¼õÉÙ
+å…¥ç¡ï¼›(è®©â€¦)ä¸‹è½¦ï¼ŒæŠŠâ€¦æ”¾ä¸‹ï¼›ä¸‹é™ï¼Œå‡å°‘
 324. dry up
-(Ê¹)¸ÉºÔ£¬(Ê¹)¸ÉÍ¸£»(Ê¹)¿İ½ß
+(ä½¿)å¹²æ¶¸ï¼Œ(ä½¿)å¹²é€ï¼›(ä½¿)æ¯ç«­
 325. due to
-ÒòÎª£»ÓÉ¡­ÒıÆğ£¬ÓÉÓÚ
+å› ä¸ºï¼›ç”±â€¦å¼•èµ·ï¼Œç”±äº
 326. be on duty
-Öµ°à£¬µ±°à
+å€¼ç­ï¼Œå½“ç­
 327. be off duty
-ÏÂ°à
+ä¸‹ç­
 328. do one's duty
-¾¡Ö°£¬¾¡±¾·Ö
+å°½èŒï¼Œå°½æœ¬åˆ†
 329. each other
-±Ë´Ë(Ö¸Á½ÕßÖ®¼ä)
+å½¼æ­¤(æŒ‡ä¸¤è€…ä¹‹é—´)
 330. take it easy
-²»»Å²»Ã¦£¬±ğ½ôÕÅ£¬·ÅËÉ
+ä¸æ…Œä¸å¿™ï¼Œåˆ«ç´§å¼ ï¼Œæ”¾æ¾
 331. come into effect
-¿ªÊ¼ÉúĞ§£¬¿ªÊ¼ÊµĞĞ
+å¼€å§‹ç”Ÿæ•ˆï¼Œå¼€å§‹å®è¡Œ
 332. go into effect
-Ê¹ÉúĞ§£»Æğ×÷ÓÃ
+ä½¿ç”Ÿæ•ˆï¼›èµ·ä½œç”¨
 333. take effect
-ÉúĞ§£¬Æğ×÷ÓÃ
+ç”Ÿæ•ˆï¼Œèµ·ä½œç”¨
 334. in effect
-ÊµÖÊÉÏ£¬Êµ¼ÊÉÏ£»ÕıÔÚÊµĞĞ£¬ÓĞĞ§
+å®è´¨ä¸Šï¼Œå®é™…ä¸Šï¼›æ­£åœ¨å®è¡Œï¼Œæœ‰æ•ˆ
 335. in the employ of
-ÊÜ¡­¡­µÄ¹ÍÓ¶
+å—â€¦â€¦çš„é›‡ä½£
 336. pull away
-(°Ñ¡­)¿ª×ß£¬(Ê¹)Àë¿ª
+(æŠŠâ€¦)å¼€èµ°ï¼Œ(ä½¿)ç¦»å¼€
 337. be regarded as
-±»ÈÏÎª
+è¢«è®¤ä¸º
 338. be attributable to
-¹éÓÚ£¬¹é¹¦ÓÚ
+å½’äºï¼Œå½’åŠŸäº
 339. shut out
-ÕÚ×¡£»°Ñ¡­µ²ÔÚÍâÃæ. ÅÅ³â
+é®ä½ï¼›æŠŠâ€¦æŒ¡åœ¨å¤–é¢. æ’æ–¥
 340. by means of
-Í¨¹ı...ÊÖ¶Î£»½èÓÃÁ¦ÓÚ£¬ÓÃ
+é€šè¿‡...æ‰‹æ®µï¼›å€Ÿç”¨åŠ›äºï¼Œç”¨
 341. set one's sights on sth.
-Ö¾ÔÚ¡­¡­£»Á¦Çó
+å¿—åœ¨â€¦â€¦ï¼›åŠ›æ±‚
 342. make a beeline for
-¾¶Ö±×ßÏò
+å¾„ç›´èµ°å‘
 343. take pride in
-ÒÔ¡­×ÔºÀ£»¶Ô¡­¸Ğµ½µÃÒâ
+ä»¥â€¦è‡ªè±ªï¼›å¯¹â€¦æ„Ÿåˆ°å¾—æ„
 344. put emphasis on
-Ç¿µ÷£»°ÑÖØµã·ÅÔÚ£¬×ÅÖØÓÚ
+å¼ºè°ƒï¼›æŠŠé‡ç‚¹æ”¾åœ¨ï¼Œç€é‡äº
 345. make up for
-²¹³¥£¬ÃÖ²¹
+è¡¥å¿ï¼Œå¼¥è¡¥
 346. take into account
-¿¼ÂÇ½øÈ¥£¬¿¼ÂÇµ½
+è€ƒè™‘è¿›å»ï¼Œè€ƒè™‘åˆ°
 347. pump up
-£¨¸ø×ÔĞĞ³µµÈ£©´òÆø
+ï¼ˆç»™è‡ªè¡Œè½¦ç­‰ï¼‰æ‰“æ°”
 348. in view of
-¼øÓÚ¡­£¬¿¼ÂÇµ½¡­£»ÓÉÓÚ
+é‰´äºâ€¦ï¼Œè€ƒè™‘åˆ°â€¦ï¼›ç”±äº
 349. on the verge of
-½Ó½üÓÚ£¬±ôÁÙÓÚ
+æ¥è¿‘äºï¼Œæ¿’ä¸´äº
 350. for the sake of
-Îª¡­¡­Æğ¼û
+ä¸ºâ€¦â€¦èµ·è§
 351. in the end
-ÖÕÓÚ£¬×îºó
+ç»ˆäºï¼Œæœ€å
 352. enter into
-²Î¼Ó£¬¿ªÊ¼´ÓÊÂ£¬½øÈë£»³ÉÎª¡­µÄÒ»¸öÒòËØ
+å‚åŠ ï¼Œå¼€å§‹ä»äº‹ï¼Œè¿›å…¥ï¼›æˆä¸ºâ€¦çš„ä¸€ä¸ªå› ç´ 
 353. enter upon
-¿ªÊ¼£¬×ÅÊÖ
+å¼€å§‹ï¼Œç€æ‰‹
 354. even if(=even though)
-¼´Ê¹£¬×İÈ» 
+å³ä½¿ï¼Œçºµç„¶ 
 355. even though
-¼´Ê¹£¬ËäÈ»
+å³ä½¿ï¼Œè™½ç„¶
 356. even so
-ËäÈ»Èç´Ë£¬¼´Ê¹ÊÇÕâÑù
+è™½ç„¶å¦‚æ­¤ï¼Œå³ä½¿æ˜¯è¿™æ ·
 357. in the event of
-Èç¹û¡­·¢Éú£¬ÍòÒ»
+å¦‚æœâ€¦å‘ç”Ÿï¼Œä¸‡ä¸€
 358. at all events
-²»¹ÜÔõÑù£¬ÎŞÂÛÈçºÎ
+ä¸ç®¡æ€æ ·ï¼Œæ— è®ºå¦‚ä½•
 359. every now and then
-Ê±³££¬²»Ê±£¬¼ä»ò
+æ—¶å¸¸ï¼Œä¸æ—¶ï¼Œé—´æˆ–
 360. for example(=for instance)
-ÀıÈç£¬±ÈÈç£»¾ÙÀıËµ
+ä¾‹å¦‚ï¼Œæ¯”å¦‚ï¼›ä¸¾ä¾‹è¯´
 361. follow sb's example
-ÒÔÄ³ÈËÎª°ñÑù
+ä»¥æŸäººä¸ºæ¦œæ ·
 362. set an example to
-¸ø¡­¡­×ö³ö°ñÑù
+ç»™â€¦â€¦åšå‡ºæ¦œæ ·
 363. give an example to
-¸ø¡­¡­×ö³ö°ñÑù
+ç»™â€¦â€¦åšå‡ºæ¦œæ ·
 364. except for
-³ı¡­Íâ£¬³ıÈ¥£»Òª²»ÊÇÓÉÓÚ
+é™¤â€¦å¤–ï¼Œé™¤å»ï¼›è¦ä¸æ˜¯ç”±äº
 365. with the exception of
-³ı...Ö®Íâ
+é™¤...ä¹‹å¤–
 366. without excuse
-ÎŞ¹Ê
+æ— æ•…
 367. come into existence
-¿ªÊ¼³ÉÁ¢£¬³ÉÁ¢
+å¼€å§‹æˆç«‹ï¼Œæˆç«‹
 368. to a certain extent
-ÔÚÒ»¶¨³Ì¶ÈÉÏ
+åœ¨ä¸€å®šç¨‹åº¦ä¸Š
 369. to a great extent
-ÔÚºÜ´ó³Ì¶ÈÉÏ
+åœ¨å¾ˆå¤§ç¨‹åº¦ä¸Š
 370. catch one's eye
-ÒıÆğ...µÄ×¢Òâ
+å¼•èµ·...çš„æ³¨æ„
 371. keep an eye on
-ÕÕ¿´£¬ÁôÉñ£¬ÃÜÇĞ×¢Òâ
+ç…§çœ‹ï¼Œç•™ç¥ï¼Œå¯†åˆ‡æ³¨æ„
 372. in the face of
-Ãæ¶Ô£¬ÔÚ¡­ÃæÇ°£»²»¹Ë£¬¼´Ê¹
+é¢å¯¹ï¼Œåœ¨â€¦é¢å‰ï¼›ä¸é¡¾ï¼Œå³ä½¿
 373. lose one's face
-¶ªÁ³
+ä¸¢è„¸
 374. make faces
-×ö¹íÁ³£»×ö¿àÁ³
+åšé¬¼è„¸ï¼›åšè‹¦è„¸
 375. as a matter of fact
-ÊÂÊµÉÏ£¬ÆäÊµ£»ÊÂÊµÇ¡Ç¡Ïà·´
+äº‹å®ä¸Šï¼Œå…¶å®ï¼›äº‹å®æ°æ°ç›¸å
 376. in fact
-ÆäÊµ£¬ÊÂÊµÉÏ£¬Êµ¼ÊÉÏ£»ËµµÃ×¼È·Ğ©
+å…¶å®ï¼Œäº‹å®ä¸Šï¼Œå®é™…ä¸Šï¼›è¯´å¾—å‡†ç¡®äº›
 377. in point of fact
-Êµ¼ÊÉÏ£¬ÊÂÊµÉÏ
+å®é™…ä¸Šï¼Œäº‹å®ä¸Š
 378. keep faith with sb.
-¶Ô¡­¡­ÊØĞÅ
+å¯¹â€¦â€¦å®ˆä¿¡
 379. fall back
-³·ÍË£¬ºóÍË
+æ’¤é€€ï¼Œåé€€
 380. fall back on
-ÇóÖúÓÚ£¬×ª¶øÒÀ¿¿£¬»ØÍ·ÔÙËµ
+æ±‚åŠ©äºï¼Œè½¬è€Œä¾é ï¼Œå›å¤´å†è¯´
 381. by far
-(ºÍĞÎÈİ´Ê×î¸ß¼¶Á¬ÓÃ)×î×î
+(å’Œå½¢å®¹è¯æœ€é«˜çº§è¿ç”¨)æœ€æœ€
 382. far from
-Ô¶Àë£¬¾ö²»£¬ÍêÈ«²»
+è¿œç¦»ï¼Œå†³ä¸ï¼Œå®Œå…¨ä¸
 383. make one's farewells
-¸æ±ğ
+å‘Šåˆ«
 384. find fault with
-ÌôÌŞ£¬ÕÒ(¡­µÄ)²í×Ó£¬ÅúÆÀ
+æŒ‘å‰”ï¼Œæ‰¾(â€¦çš„)å²”å­ï¼Œæ‰¹è¯„
 385. be at fault
-ÓĞ´í£¬²»ÖªËù´ë
+æœ‰é”™ï¼Œä¸çŸ¥æ‰€æª
 386. for fear offor fear that
-Î©¿Ö£¬ÒÔÃâ
+æƒŸæï¼Œä»¥å…
 387. feel like doing
-¾õµÃÏë×ö¡­
+è§‰å¾—æƒ³åšâ€¦
 388. a few
-£¨±íÊ¾¿Ï¶¨£©ÉÙÊı£¬¼¸¸ö
+ï¼ˆè¡¨ç¤ºè‚¯å®šï¼‰å°‘æ•°ï¼Œå‡ ä¸ª
 389. a good few
-Ïàµ±¶à£¬²»ÉÙ
+ç›¸å½“å¤šï¼Œä¸å°‘
 390. quite a few
-»¹²»ÉÙ£¬ÓĞÏàµ±ÊıÄ¿µÄ
+è¿˜ä¸å°‘ï¼Œæœ‰ç›¸å½“æ•°ç›®çš„
 391. the few
-ÉÙÊı
+å°‘æ•°
 392. fill in
-ÌîÂú£»ÌîĞ´£»(for)Ìæ´ú
+å¡«æ»¡ï¼›å¡«å†™ï¼›(for)æ›¿ä»£
 393. fill out
-ÌîºÃ£¬ÌîĞ´£»Ê¹³¤´ó
+å¡«å¥½ï¼Œå¡«å†™ï¼›ä½¿é•¿å¤§
 394. fill up
-Ìî²¹£»×°Âú
+å¡«è¡¥ï¼›è£…æ»¡
 395. find outv.
-ÕÒ³ö£»·¢ÏÖ£»²éÃ÷
+æ‰¾å‡ºï¼›å‘ç°ï¼›æŸ¥æ˜
 396. catch fire
-×Å»ğ(¶¯×÷)
+ç€ç«(åŠ¨ä½œ)
 397. take fire
-×Å»ğ£¬¿ªÊ¼È¼ÉÕ¡¡
+ç€ç«ï¼Œå¼€å§‹ç‡ƒçƒ§ã€€
 398. make a fire
-Éú»ğ
+ç”Ÿç«
 399. in the first place
-Æğ³õ£¬±¾À´£»µÚÒ»
+èµ·åˆï¼Œæœ¬æ¥ï¼›ç¬¬ä¸€
 400. at first
-Æğ³õ(×÷×´ÓïÓÃ£¬Í¨³£ÖÃÓÚ¾äÊ×)
+èµ·åˆ(ä½œçŠ¶è¯­ç”¨ï¼Œé€šå¸¸ç½®äºå¥é¦–)
 401. from first to last
-×ÔÊ¼ÖÁÖÕ
+è‡ªå§‹è‡³ç»ˆ
 402. fit in
-ÈÚÈë£¨ÈºÌå£©£»×°ÅäºÃ
+èå…¥ï¼ˆç¾¤ä½“ï¼‰ï¼›è£…é…å¥½
 403. fit sth. on
-ÊÔ´©£¨´óÒÂµÈ£©£¬·ÅºÃ£¨¸Ç×Ó£©
+è¯•ç©¿ï¼ˆå¤§è¡£ç­‰ï¼‰ï¼Œæ”¾å¥½ï¼ˆç›–å­ï¼‰
 404. fix up
-ĞŞ²¹£¬ĞŞÀíºÃ£»½â¾ö
+ä¿®è¡¥ï¼Œä¿®ç†å¥½ï¼›è§£å†³
 405. one's own flesh and blood
-Ç×ÈË£¬Ç×¹ÇÈâ
+äº²äººï¼Œäº²éª¨è‚‰
 406. in flower
-¿ª×Å»¨
+å¼€ç€èŠ±
 407. fold up
-Ê§°Ü£¬µ¹±Õ
+å¤±è´¥ï¼Œå€’é—­
 408. free from
-ÎŞ¡­µÄ£¬²»ÊÜ¡­µÄÓ°Ïì
+æ— â€¦çš„ï¼Œä¸å—â€¦çš„å½±å“
 409. free of
-ÎŞ¡­µÄ£»°ÚÍÑÁË¡­µÄ
+æ— â€¦çš„ï¼›æ‘†è„±äº†â€¦çš„
 410. make free
-ÊÍ·Å
+é‡Šæ”¾
 411. set free
-ÊÍ·Å£¬Ê¹»ñµÃ×ÔÓÉ
+é‡Šæ”¾ï¼Œä½¿è·å¾—è‡ªç”±
 412. make friends with
-(Óë¡­)½»ÅóÓÑ
+(ä¸â€¦)äº¤æœ‹å‹
 413. be friends with
-¶Ô¡­ÓÑºÃ£¬Óë¡­½»ÉÏÅóÓÑ
+å¯¹â€¦å‹å¥½ï¼Œä¸â€¦äº¤ä¸Šæœ‹å‹
 414. in front of
-ÔÚ¡­Ç°Ãæ£¬ÔÚ¡­ÃæÇ°
+åœ¨â€¦å‰é¢ï¼Œåœ¨â€¦é¢å‰
 415. in the front of
-ÔÚ¡­¡­µÄÇ°²¿
+åœ¨â€¦â€¦çš„å‰éƒ¨
 416. full ofa.
-³äÂú¡­
+å……æ»¡â€¦
 417. make fun of
-È¡Ğ¦(Ä³ÈË)£»¿ª¡­µÄÍæĞ¦
+å–ç¬‘(æŸäºº)ï¼›å¼€â€¦çš„ç©ç¬‘
 418. for the future
-´Ó½ñÒÔºó£¬ÔÚ½ñºó
+ä»ä»Šä»¥åï¼Œåœ¨ä»Šå
 419. in future
-´Ó½ñÒÔºó£¬½ñºó
+ä»ä»Šä»¥åï¼Œä»Šå
 420. in general
-´óÌåÉÏ£¬Í¨³££¬Ò»°ãËµÀ´
+å¤§ä½“ä¸Šï¼Œé€šå¸¸ï¼Œä¸€èˆ¬è¯´æ¥
 421. get to
-µ½´ï£¬×¥×¡ÎÊÌâµÄÒªº¦£¬±¾ÖÊ
+åˆ°è¾¾ï¼ŒæŠ“ä½é—®é¢˜çš„è¦å®³ï¼Œæœ¬è´¨
 422. have got
-ÓĞ(ÓÃÓÚµÚÒ»¡¢¶şÈË³Æµ¥¸´ÊıºÍµÚÈıÈË³Æ¸´Êı)
+æœ‰(ç”¨äºç¬¬ä¸€ã€äºŒäººç§°å•å¤æ•°å’Œç¬¬ä¸‰äººç§°å¤æ•°)
 423. get away
-×ß¿ª£»ÌÓÍÑ£»(with)×öÁË»µÊÂ¶øÌÓÍÑÔğ·£
+èµ°å¼€ï¼›é€ƒè„±ï¼›(with)åšäº†åäº‹è€Œé€ƒè„±è´£ç½š
 424. get in
-½øÈë£¬²Î¼Ó£»ÊÕ(»ñ)£»ÊÕ»Ø£»²åÈë(»°)
+è¿›å…¥ï¼Œå‚åŠ ï¼›æ”¶(è·)ï¼›æ”¶å›ï¼›æ’å…¥(è¯)
 425. get off
-(´Ó¡­)ÏÂÀ´£»³ö·¢£»ÏÂ°à£»ÌÓÍÑ³Í·£
+(ä»â€¦)ä¸‹æ¥ï¼›å‡ºå‘ï¼›ä¸‹ç­ï¼›é€ƒè„±æƒ©ç½š
 426. get on
-ÆïÉÏ(Âí¡¢×ÔĞĞ³µµÈ)£»µÇÉÏ(³µ´¬µÈ)£»ÓĞ½øÕ¹
+éª‘ä¸Š(é©¬ã€è‡ªè¡Œè½¦ç­‰)ï¼›ç™»ä¸Š(è½¦èˆ¹ç­‰)ï¼›æœ‰è¿›å±•
 427. get out
-(Ê¹)Àë¿ª£¬³öÈ¥£»(ÏûÏ¢µÈ)Ğ¹Â¶£»È¡³ö
+(ä½¿)ç¦»å¼€ï¼Œå‡ºå»ï¼›(æ¶ˆæ¯ç­‰)æ³„éœ²ï¼›å–å‡º
 428. get over
-¿Ë·ş(À§ÄÑµÈ)£»´Ó(¼²²¡¡¢Ê§ÍûµÈ)ÖĞ»Ö¸´¹ıÀ´
+å…‹æœ(å›°éš¾ç­‰)ï¼›ä»(ç–¾ç—…ã€å¤±æœ›ç­‰)ä¸­æ¢å¤è¿‡æ¥
 429. get through
-Íê³É£¬Í¨¹ı£¬ÓÃÍê£¬´ÓÈËÈºÖĞÍ¨¹ı£¬½ÓÍ¨µç»°
+å®Œæˆï¼Œé€šè¿‡ï¼Œç”¨å®Œï¼Œä»äººç¾¤ä¸­é€šè¿‡ï¼Œæ¥é€šç”µè¯
 430. get up
-Æğ´²£»ÅÀÉÏ£»´ïµ½
+èµ·åºŠï¼›çˆ¬ä¸Šï¼›è¾¾åˆ°
 431. give away
-·Ö·¢£¬ÔùËÍ£¬°ä·¢£¬±³ÅÑ£¬³öÂô£¬±©Â¶
+åˆ†å‘ï¼Œèµ é€ï¼Œé¢å‘ï¼ŒèƒŒå›ï¼Œå‡ºå–ï¼Œæš´éœ²
 432. give out
-·Ö·¢£»ÓÃÍê£¬ÏûºÄ¾¡£»·¢³ö(¹â¡¢ÉùÒôµÈ)
+åˆ†å‘ï¼›ç”¨å®Œï¼Œæ¶ˆè€—å°½ï¼›å‘å‡º(å…‰ã€å£°éŸ³ç­‰)
 433. go about
-×ÅÊÖ×ö£¬´¦Àí£¬Ã¦ÓÚ£»(with)³£Óë¡­½»Íù
+ç€æ‰‹åšï¼Œå¤„ç†ï¼Œå¿™äºï¼›(with)å¸¸ä¸â€¦äº¤å¾€
 434. go after (chase;try to get or win)
-×·Çó£»Éè·¨µÃµ½
+è¿½æ±‚ï¼›è®¾æ³•å¾—åˆ°
 435. go ahead
-Ëµ°É£¬×ß°É£¬×ö°É(¿ÚÓï)£¬×ßÔÚÇ°Ãæ
+è¯´å§ï¼Œèµ°å§ï¼Œåšå§(å£è¯­)ï¼Œèµ°åœ¨å‰é¢
 436. go along with
-Åã¡­Ò»ÆğĞĞ¶¯£»ÔŞÍ¬£¬Ö§³Ö
+é™ªâ€¦ä¸€èµ·è¡ŒåŠ¨ï¼›èµåŒï¼Œæ”¯æŒ
 437. go back on
-²»×ñÊØ£»²»ÂÄĞĞ£»±³ÅÑ
+ä¸éµå®ˆï¼›ä¸å±¥è¡Œï¼›èƒŒå›
 438. go back upon
-Î¥±³£¬±³ÅÑ
+è¿èƒŒï¼ŒèƒŒå›
 439. go down
-(´¬)ÏÂ³Á£¬(Ì«Ñô¡¢ÔÂÁÁ)ÂäÏÂ£»(¼Û¸ñ)ÏÂ½µ
+(èˆ¹)ä¸‹æ²‰ï¼Œ(å¤ªé˜³ã€æœˆäº®)è½ä¸‹ï¼›(ä»·æ ¼)ä¸‹é™
 440. go into
-½øÈë£¬²Î¼Ó£»¿ªÊ¼´ÓÊÂ£»µ÷²é£¬ÑĞ¾¿
+è¿›å…¥ï¼Œå‚åŠ ï¼›å¼€å§‹ä»äº‹ï¼›è°ƒæŸ¥ï¼Œç ”ç©¶
 441. go on
-¼ÌĞø£»½øĞĞ£»¹ıÈ¥£»(µÆ)ÁÁ£¬¿ªÊ¼ÔËĞĞ
+ç»§ç»­ï¼›è¿›è¡Œï¼›è¿‡å»ï¼›(ç¯)äº®ï¼Œå¼€å§‹è¿è¡Œ
 442. go out
-Àë¼ÒÍâ³ö£»²Î¼ÓÉç½»»î¶¯£»Ï¨Ãğ£»(ÒÂ·ş)¹ıÊ±
+ç¦»å®¶å¤–å‡ºï¼›å‚åŠ ç¤¾äº¤æ´»åŠ¨ï¼›ç†„ç­ï¼›(è¡£æœ)è¿‡æ—¶
 443. go over
-¸Ä±ä£»ºË¶Ô£»¼ìÑé£»²ì¿´£»ËÑ²é£»ÖØ¸´£»ÖØÎÂ
+æ”¹å˜ï¼›æ ¸å¯¹ï¼›æ£€éªŒï¼›å¯Ÿçœ‹ï¼›æœæŸ¥ï¼›é‡å¤ï¼›é‡æ¸©
 444. go through
-×ĞÏ¸¼ì²é£¬ÏêÏ¸ÌÖÂÛ£»¾­Àú£»Í¨¹ı£¬±»Åú×¼
+ä»”ç»†æ£€æŸ¥ï¼Œè¯¦ç»†è®¨è®ºï¼›ç»å†ï¼›é€šè¿‡ï¼Œè¢«æ‰¹å‡†
 445. go up
-ÉÏÉı£¬ÉÏÕÇ£¬Ôö³¤£»ÕıÔÚ½¨ÉèÖĞ£»ÉÕ(Õ¨)»Ù
+ä¸Šå‡ï¼Œä¸Šæ¶¨ï¼Œå¢é•¿ï¼›æ­£åœ¨å»ºè®¾ä¸­ï¼›çƒ§(ç‚¸)æ¯
 446. go without
-Ã»ÓĞ£¬È±·¦£¬½«¾Í£»ÎŞĞè£¬Ã»ÓĞ¡­Ò²ĞĞ
+æ²¡æœ‰ï¼Œç¼ºä¹ï¼Œå°†å°±ï¼›æ— éœ€ï¼Œæ²¡æœ‰â€¦ä¹Ÿè¡Œ
 447. on the ground of
-ÒÔ¡­ÎªÀíÓÉ
+ä»¥â€¦ä¸ºç†ç”±
 448. grow up
-³¤´ó£¬³ÉÊì£»ĞÎ³É£¬·¢Õ¹
+é•¿å¤§ï¼Œæˆç†Ÿï¼›å½¢æˆï¼Œå‘å±•
 449. at first hand
-Ö±½Ó
+ç›´æ¥
 450. hand in hand
-ÊÖÀ­ÊÖ£»Í¬Ê±²¢½øµØ£¬ÃÜÇĞ¹ØÁªµØ
+æ‰‹æ‹‰æ‰‹ï¼›åŒæ—¶å¹¶è¿›åœ°ï¼Œå¯†åˆ‡å…³è”åœ°
 451. on the one hand
-ÔÚÒ»·½Ãæ
+åœ¨ä¸€æ–¹é¢
 452. on the other hand
-Í¬ÒåÓÚ on the otherÁíÒ»·½Ãæ
+åŒä¹‰äº on the otherå¦ä¸€æ–¹é¢
 453. hand down
-Áô´«ÏÂÀ´£¬´«¸ø£¬ÍùÏÂ´«
+ç•™ä¼ ä¸‹æ¥ï¼Œä¼ ç»™ï¼Œå¾€ä¸‹ä¼ 
 454. hand in
-½»ÉÏ£»µİÉÏ£¬½»½ø
+äº¤ä¸Šï¼›é€’ä¸Šï¼Œäº¤è¿›
 455. hand over
-½»³ö£¬ÒÆ½»£¬ÈÃ¸ø
+äº¤å‡ºï¼Œç§»äº¤ï¼Œè®©ç»™
 456. hang about (hang round)
-ÅÇ»²£¬ÏĞµ´
+å¾˜å¾Šï¼Œé—²è¡
 457. hang up
-°Ñ¡­¹ÒÆğÀ´£»¹Ò¶Ï(µç»°)£»ÑÓ³Ù£¬ÍÏÑÓ
+æŠŠâ€¦æŒ‚èµ·æ¥ï¼›æŒ‚æ–­(ç”µè¯)ï¼›å»¶è¿Ÿï¼Œæ‹–å»¶
 458. head for
-Ïò...·½ÏòÇ°½ø£»Ê»Ïò
+å‘...æ–¹å‘å‰è¿›ï¼›é©¶å‘
 459. head off
-ÈÆµ½Ç°ÃæÈ¥£»À¹×¡
+ç»•åˆ°å‰é¢å»ï¼›æ‹¦ä½
 460. hear of
-»ñÖª...ÏûÏ¢£¬Ìıµ½...ÏûÏ¢
+è·çŸ¥...æ¶ˆæ¯ï¼Œå¬åˆ°...æ¶ˆæ¯
 461. learn by heart
-¼Ç×¡£¬±³ËĞ
+è®°ä½ï¼ŒèƒŒè¯µ
 462. get by heart
-¼Ç×¡£¬±³ËĞ
+è®°ä½ï¼ŒèƒŒè¯µ
 463. help oneself
-(Ê³ÎïµÈ)×ÔÖú£¬×ÔÈ¡
+(é£Ÿç‰©ç­‰)è‡ªåŠ©ï¼Œè‡ªå–
 464. here and there
-µ½´¦£¬¸÷´¦£»Å¼È»
+åˆ°å¤„ï¼Œå„å¤„ï¼›å¶ç„¶
 465. hire out
-×â³öÈ¥£»ÊÜ¹Í
+ç§Ÿå‡ºå»ï¼›å—é›‡
 466. catch hold of
-×¥×¡Ä³Îï»òÄ³ÈË
+æŠ“ä½æŸç‰©æˆ–æŸäºº
 467. get hold of
-×¥×¡£»ÕÆÎÕ£»»ñµÃ£»ÕÒµ½
+æŠ“ä½ï¼›æŒæ¡ï¼›è·å¾—ï¼›æ‰¾åˆ°
 468. lay hold of
-ÎÕ×¡£»¿ØÖÆ×¡£»Õ¼ÓĞ
+æ¡ä½ï¼›æ§åˆ¶ä½ï¼›å æœ‰
 469. take hold of
-ÎÕ×¡£¬×¥×¡
+æ¡ä½ï¼ŒæŠ“ä½
 470. at home
-ÔÚ¼Ò(Ïç)£¬ÔÚ¹úÄÚ£»ÊæÊÊ£»¾«Í¨£¬ÊìÏ¤
+åœ¨å®¶(ä¹¡)ï¼Œåœ¨å›½å†…ï¼›èˆ’é€‚ï¼›ç²¾é€šï¼Œç†Ÿæ‚‰
 471. in a hurry
-´ÒÃ¦£»Á¢¼´£¬ºÜ¿ìµØ
+åŒ†å¿™ï¼›ç«‹å³ï¼Œå¾ˆå¿«åœ°
 472. be taken ill
-Éú²¡
+ç”Ÿç—…
 473. fall ill
-È¾²¡£»²¡Àı
+æŸ“ç—…ï¼›ç—…ä¾‹
 474. in a minute
-Ò»»á¶ù£¬Á¢¿Ì
+ä¸€ä¼šå„¿ï¼Œç«‹åˆ»
 475. inform against sb.
-¸æ·¢Ä³ÈË
+å‘Šå‘æŸäºº
 476. inquire for
-Ñ¯ÎÊ(ÉÌµê¡¢µØµãµÈ)
+è¯¢é—®(å•†åº—ã€åœ°ç‚¹ç­‰)
 477. for instance
-ÀıÈç£¬±ÈÈç£¬¾ÙÀıËµ
+ä¾‹å¦‚ï¼Œæ¯”å¦‚ï¼Œä¸¾ä¾‹è¯´
 478. instead of
-´úÌæ£¬¶ø²»ÊÇ£»²»ÊÇ¡­(¶øÊÇ)
+ä»£æ›¿ï¼Œè€Œä¸æ˜¯ï¼›ä¸æ˜¯â€¦(è€Œæ˜¯)
 479. out of a job
-Ê§Òµ
+å¤±ä¸š
 480. out of joint
-ÍÑ¾Ê£»³öÁËÎÊÌâ£¬´¦ÓÚ»ìÂÒ×´Ì¬
+è„±è‡¼ï¼›å‡ºäº†é—®é¢˜ï¼Œå¤„äºæ··ä¹±çŠ¶æ€
 481. just now
-²Å²»¾Ã£»ÏÖÔÚ£¬ÑÛÏÂ£»¸Õ²Å
+æ‰ä¸ä¹…ï¼›ç°åœ¨ï¼Œçœ¼ä¸‹ï¼›åˆšæ‰
 482. just then
-Õıµ±ÄÇÊ±
+æ­£å½“é‚£æ—¶
 483. keep fromKeep you from
-×èÖ¹£¬·Á°­(Äã)
+é˜»æ­¢ï¼Œå¦¨ç¢(ä½ )
 484. keep off
-(Ê¹)ÈÃ¿ª£¬(Ê¹)²»½Ó½ü
+(ä½¿)è®©å¼€ï¼Œ(ä½¿)ä¸æ¥è¿‘
 485. keep on
-¼ÌĞø(×öÄ³ÊÂ)£»·´¸´
+ç»§ç»­(åšæŸäº‹)ï¼›åå¤
 486. keep to
-¼á³ÖÄ³ÖÖÏ°¹ß£¬×ñÑ­£¬¿¿(×óÓÒ)
+åšæŒæŸç§ä¹ æƒ¯ï¼Œéµå¾ªï¼Œé (å·¦å³)
 487. keep up
-(Ê¹)¼ÌĞøÏÂÈ¥£¬±£³Ö£»Ê¹¾Ó¸ß²»ÏÂ
+(ä½¿)ç»§ç»­ä¸‹å»ï¼Œä¿æŒï¼›ä½¿å±…é«˜ä¸ä¸‹
 488. keep up with
-¸ÏÉÏ...µÄËÙ¶È£¬²»ÂäÓÚ...Ö®ºó
+èµ¶ä¸Š...çš„é€Ÿåº¦ï¼Œä¸è½äº...ä¹‹å
 489. knock down
-»÷µ¹£¬×²µ¹£»É±(¼Û)£¬½µ(¼Û)£»²ğ³ı
+å‡»å€’ï¼Œæ’å€’ï¼›æ€(ä»·)ï¼Œé™(ä»·)ï¼›æ‹†é™¤
 490. knock out
-°Ñ¡­´ò»èÃÔ£»(±ÈÈüÖĞ)ÌÔÌ­
+æŠŠâ€¦æ‰“æ˜è¿·ï¼›(æ¯”èµ›ä¸­)æ·˜æ±°
 491. be known as
-ÒÔ...Éí·İÖªÃû£¬ÊÇÖÚËùÖÜÖªµÄ...
+ä»¥...èº«ä»½çŸ¥åï¼Œæ˜¯ä¼—æ‰€å‘¨çŸ¥çš„...
 492. at last
-ÖÕÓÚ£¬×îºó
+ç»ˆäºï¼Œæœ€å
 493. to the last
-Ö±µ½×îºó
+ç›´åˆ°æœ€å
 494. later on
-ÒÔºó£¬ÏÂ´Î(»Ø)£¬ºóÀ´
+ä»¥åï¼Œä¸‹æ¬¡(å›)ï¼Œåæ¥
 495. sooner or later
-³ÙÔç£¬ÔçÍí£¬»ò³Ù»òÔç
+è¿Ÿæ—©ï¼Œæ—©æ™šï¼Œæˆ–è¿Ÿæˆ–æ—©
 496. laugh at
-³°Ğ¦£»Ò»Ìıµ½¡­±ã´óĞ¦
+å˜²ç¬‘ï¼›ä¸€å¬åˆ°â€¦ä¾¿å¤§ç¬‘
 497. lay aside
-°Ñ¡­·ÅÔÚÒ»±ß£¬°Ñ¡­¸éÖÃÒ»ÅÔ£»Áô´æ
+æŠŠâ€¦æ”¾åœ¨ä¸€è¾¹ï¼ŒæŠŠâ€¦æç½®ä¸€æ—ï¼›ç•™å­˜
 498. lay down
-·ÅÏÂ£»ÆÌÉè(ÌúÂ·)£»Äâ¶¨(¼Æ»®µÈ)
+æ”¾ä¸‹ï¼›é“ºè®¾(é“è·¯)ï¼›æ‹Ÿå®š(è®¡åˆ’ç­‰)
 499. lay off
-(ÁÙÊ±)½â¹Í£»Í£ÓÃ£¬½ä
+(ä¸´æ—¶)è§£é›‡ï¼›åœç”¨ï¼Œæˆ’
 500. lay out
-°²ÅÅ£¬²¼ÖÃ£¬Éè¼Æ£»°Ú¿ª£¬³ÂÁĞ£¬Õ¹Ê¾
+å®‰æ’ï¼Œå¸ƒç½®ï¼Œè®¾è®¡ï¼›æ‘†å¼€ï¼Œé™ˆåˆ—ï¼Œå±•ç¤º
 501. leave sb. alone
-²»¸ÉÉæÄ³ÈË
+ä¸å¹²æ¶‰æŸäºº
 502. leave off
-(Ê¹)Í£Ö¹£»Í£ÏÂÀ´
+(ä½¿)åœæ­¢ï¼›åœä¸‹æ¥
 503. leave outleave anyone out
-²»°üÀ¨£¬ÅÅ³ı(Ä³ÈË)
+ä¸åŒ…æ‹¬ï¼Œæ’é™¤(æŸäºº)
 504. at length
-Ïê¾¡µØ£»×îºó£¬ÖÕÓÚ
+è¯¦å°½åœ°ï¼›æœ€åï¼Œç»ˆäº
 505. let alone
-ÌıÆä×ÔÈ»£¬²»ÓèÀí²Ç£»ÈÃÆä¶À´¦£»¸ü²»ÓÃËµ
+å¬å…¶è‡ªç„¶ï¼Œä¸äºˆç†ç¬ï¼›è®©å…¶ç‹¬å¤„ï¼›æ›´ä¸ç”¨è¯´
 506. let down
-Ê¹Ê§Íû£»¹¼¸º...µÄÆÚÍû
+ä½¿å¤±æœ›ï¼›è¾œè´Ÿ...çš„æœŸæœ›
 507. let go(stop holding sth)
-·Å¿ª£»·ÅËÉ
+æ”¾å¼€ï¼›æ”¾æ¾
 508. let off
-·Å¹ı£¬¿íË¡£»¿ª(Ç¹)£¬·Å(ÅÚµÈ)£¬ÅÅ·Å
+æ”¾è¿‡ï¼Œå®½æ•ï¼›å¼€(æª)ï¼Œæ”¾(ç‚®ç­‰)ï¼Œæ’æ”¾
 509. let out
-·Å×ß£¬ÊÍ·Å£»·¢³ö(ÉùÒô)£»Ğ¹Â©
+æ”¾èµ°ï¼Œé‡Šæ”¾ï¼›å‘å‡º(å£°éŸ³)ï¼›æ³„æ¼
 510. bring sb. to life
-ÆğËÀ»ØÉú£¬ºĞËÕĞÑ
+èµ·æ­»å›ç”Ÿï¼Œç›’è‹é†’
 511. come to life
-ËÕĞÑ¹ıÀ´£¬¿ªÊ¼ÓĞÉúÆø
+è‹é†’è¿‡æ¥ï¼Œå¼€å§‹æœ‰ç”Ÿæ°”
 512. look like
-¿´ÉÏÈ¥Ïñ£»ºÃÏñÒª
+çœ‹ä¸Šå»åƒï¼›å¥½åƒè¦
 513. as you like
-Ëæ±ã
+éšä¾¿
 514. in line with
-ºÍ¡­³ÉÖ±Ïß£¬Óë¡­Ò»ÖÂ£¬°´ÕÕ
+å’Œâ€¦æˆç›´çº¿ï¼Œä¸â€¦ä¸€è‡´ï¼ŒæŒ‰ç…§
 515. a little
-ÉÙĞí(ÓÃÓÚ²»¿ÉÊıÃû´ÊÖ®Ç°)
+å°‘è®¸(ç”¨äºä¸å¯æ•°åè¯ä¹‹å‰)
 516. little by little
-Ò»µãÒ»µãµØ£¬Öğ½¥µØ
+ä¸€ç‚¹ä¸€ç‚¹åœ°ï¼Œé€æ¸åœ°
 517. before long
-²»¾ÃÒÔºó£¬ºÜ¿ì
+ä¸ä¹…ä»¥åï¼Œå¾ˆå¿«
 518. long before
-ÔÚ¡­ÒÔÇ°ºÜ¾Ã
+åœ¨â€¦ä»¥å‰å¾ˆä¹…
 519. long after
-ºÜ¾ÃÒÔºó
+å¾ˆä¹…ä»¥å
 520. no longer
-²»ÔÙ£¬ÔÙÒ²²»
+ä¸å†ï¼Œå†ä¹Ÿä¸
 521. look after
-ÕÕÁÏ£¬ÕÕ¹Ë£¬ÕÕ¹Ü£»×¢Òâ£¬¹ØĞÄ
+ç…§æ–™ï¼Œç…§é¡¾ï¼Œç…§ç®¡ï¼›æ³¨æ„ï¼Œå…³å¿ƒ
 522. look down on(=look down upon)
-ÇáÊÓ£¬¿´²»Æğ
+è½»è§†ï¼Œçœ‹ä¸èµ·
 523. look for
-Ñ°ÕÒ£¬Ñ°Çó£»ÈÇÀ´£¬ÕĞÀ´
+å¯»æ‰¾ï¼Œå¯»æ±‚ï¼›æƒ¹æ¥ï¼Œæ‹›æ¥
 524. look forward to
-ÅÎÍû£¬ÆÚ´ı£»Ô¤ÆÚ£¬Ô¤ÁÏ
+ç›¼æœ›ï¼ŒæœŸå¾…ï¼›é¢„æœŸï¼Œé¢„æ–™
 525. look over
-°Ñ¡­¿´Ò»±é£¬°Ñ¡­¹ıÄ¿£»²ì¿´£¬²Î¹Û
+æŠŠâ€¦çœ‹ä¸€éï¼ŒæŠŠâ€¦è¿‡ç›®ï¼›å¯Ÿçœ‹ï¼Œå‚è§‚
 526. look up
-(´Ó´ÊµäÖĞ)ÕÒ³ö£¬ÌìÆø×ª±ä£¬Îï¼ÛÉÏÕÇ£¬ÑöÊÓ
+(ä»è¯å…¸ä¸­)æ‰¾å‡ºï¼Œå¤©æ°”è½¬å˜ï¼Œç‰©ä»·ä¸Šæ¶¨ï¼Œä»°è§†
 527. lose face
-¶ªÃæ×Ó
+ä¸¢é¢å­
 528. a lot
-´óÁ¿£¬Ğí¶à£»·Ç³££¬Ïàµ±=a lot of/lots of
+å¤§é‡ï¼Œè®¸å¤šï¼›éå¸¸ï¼Œç›¸å½“=a lot of/lots of
 529. a lot of
-´óÁ¿µÄ£¬Ğí¶àµÄ [=lots of]
+å¤§é‡çš„ï¼Œè®¸å¤šçš„ [=lots of]
 530. lots of
-´óÁ¿µÄ£¬Ğí¶àµÄ
+å¤§é‡çš„ï¼Œè®¸å¤šçš„
 531. in love with
-Óë¡­¡­Áµ°®
+ä¸â€¦â€¦æ‹çˆ±
 532. fall in love
-(Óë¡­)Ïà°®£¬°®ÉÏ
+(ä¸â€¦)ç›¸çˆ±ï¼Œçˆ±ä¸Š
 533. make away with
-Ğ¯¡­¶øÌÓ£»´İ»Ù£»ÀË·Ñ
+æºâ€¦è€Œé€ƒï¼›æ‘§æ¯ï¼›æµªè´¹
 534. make for
-×ßÏò£¬³¯¡­Ç°½ø£»´Ù³É£¬ÓĞÖúÓÚ
+èµ°å‘ï¼Œæœâ€¦å‰è¿›ï¼›ä¿ƒæˆï¼Œæœ‰åŠ©äº
 535. make out
-¿ªÁĞ£»ÊéĞ´£»¿´³ö£¬±çÈÏ³ö£»Àí½â£¬ÁË½â
+å¼€åˆ—ï¼›ä¹¦å†™ï¼›çœ‹å‡ºï¼Œè¾©è®¤å‡ºï¼›ç†è§£ï¼Œäº†è§£
 536. make up
-²¹³ä(²»×ã)£»²¹³¥£»Ğé¹¹£»±àÔì£»×é³É£»ÅäÖÆ
+è¡¥å……(ä¸è¶³)ï¼›è¡¥å¿ï¼›è™šæ„ï¼›ç¼–é€ ï¼›ç»„æˆï¼›é…åˆ¶
 537. a good many(=a great many)
-ºÜ¶à£¬Ïàµ±¶à
+å¾ˆå¤šï¼Œç›¸å½“å¤š
 538. a great many
-´óÁ¿µÄ£¬Ğí¶àµÄ(½Ó¿ÉÊıÃû´Ê)
+å¤§é‡çš„ï¼Œè®¸å¤šçš„(æ¥å¯æ•°åè¯)
 539. mark down
-¼ÇÏÂ£»½µµÍ¡­µÄ¼Û¸ñ£¬½µµÍ¡­µÄ·ÖÊı
+è®°ä¸‹ï¼›é™ä½â€¦çš„ä»·æ ¼ï¼Œé™ä½â€¦çš„åˆ†æ•°
 540. mark up
-Ìá¸ß¡­µÄ¼Û¸ñ£¬Ìá¸ß¡­µÄ·ÖÊı
+æé«˜â€¦çš„ä»·æ ¼ï¼Œæé«˜â€¦çš„åˆ†æ•°
 541. by some means
-ÓÃÄ³ÖÖ·½·¨
+ç”¨æŸç§æ–¹æ³•
 542. by all means
-ÏëÒ»ÇĞ°ì·¨£¬Ò»¶¨Òª£¬µ±È»¿ÉÒÔ
+æƒ³ä¸€åˆ‡åŠæ³•ï¼Œä¸€å®šè¦ï¼Œå½“ç„¶å¯ä»¥
 543. by no means
-¸ù±¾Ã»ÓĞ£¬Ò»µãÒ²²»
+æ ¹æœ¬æ²¡æœ‰ï¼Œä¸€ç‚¹ä¹Ÿä¸
 544. in the meantime
-½ìÊ±£¬Í¬Ê±£¬ÔÚ´ËÆÚ¼ä
+å±Šæ—¶ï¼ŒåŒæ—¶ï¼Œåœ¨æ­¤æœŸé—´
 545. make up one's mind
-¶Ô...ÏÂ¾öĞÄ£¬ÏÂ¾öĞÄ×ö...
+å¯¹...ä¸‹å†³å¿ƒï¼Œä¸‹å†³å¿ƒåš...
 546. mix up
-»ìºÏ£¬»ìÏı£»¸ãÂÒ£»¸ãºıÍ¿
+æ··åˆï¼Œæ··æ·†ï¼›æä¹±ï¼›æç³Šæ¶‚
 547. for a moment
-Æ¬¿Ì£¬Ò»»á¶ù
+ç‰‡åˆ»ï¼Œä¸€ä¼šå„¿
 548. in a moment
-ÂíÉÏ£¬Á¢¿Ì£»Ò»»á¶ù
+é©¬ä¸Šï¼Œç«‹åˆ»ï¼›ä¸€ä¼šå„¿
 549. more and more
-Ô½À´Ô½(¶à)
+è¶Šæ¥è¶Š(å¤š)
 550. more than
-¶à¹ı£»...ÒÔÉÏ£»±È...¸ü
+å¤šè¿‡ï¼›...ä»¥ä¸Šï¼›æ¯”...æ›´
 551. at most
-×î¶à£¬ÖÁ¶à£¬²»³¬¹ı
+æœ€å¤šï¼Œè‡³å¤šï¼Œä¸è¶…è¿‡
 552. make the most of
-³ä·ÖÀûÓÃ£¬¾¡Á¿ÀûÓÃ
+å……åˆ†åˆ©ç”¨ï¼Œå°½é‡åˆ©ç”¨
 553. move about
-×ßÀ´×ßÈ¥£¬×ÜÊÇ°á¼Ò
+èµ°æ¥èµ°å»ï¼Œæ€»æ˜¯æ¬å®¶
 554. move on
-¼ÌĞøÇ°½ø£»(to)¸ü»»¹¤×÷µÈ£»Ê¹×ß¿ª(²»Í£)
+ç»§ç»­å‰è¿›ï¼›(to)æ›´æ¢å·¥ä½œç­‰ï¼›ä½¿èµ°å¼€(ä¸åœ)
 555. in nature
-±¾ÖÊÉÏ£»Êµ¼ÊÉÏ
+æœ¬è´¨ä¸Šï¼›å®é™…ä¸Š
 556. in the course of nature
-Õı³£µØ
+æ­£å¸¸åœ°
 557. far and near
-Ô¶½ü£¬µ½´¦£¬ËÄÃæ°Ë·½
+è¿œè¿‘ï¼Œåˆ°å¤„ï¼Œå››é¢å…«æ–¹
 558. near by
-ÔÚ¸½½ü
+åœ¨é™„è¿‘
 559. neither...nor
-(¼È)²»¡­Ò²²»£¬(¼È)·Ç¡­Ò²·Ç
+(æ—¢)ä¸â€¦ä¹Ÿä¸ï¼Œ(æ—¢)éâ€¦ä¹Ÿé
 560. all night long
-ÕûÒ¹µØ
+æ•´å¤œåœ°
 561. at night
-ÌìºÚÊ±£»ÔÚÒ¹Àï
+å¤©é»‘æ—¶ï¼›åœ¨å¤œé‡Œ
 562. in the night
-ÔÚÒ¹¼ä
+åœ¨å¤œé—´
 563. night and day
-ÈÕÒÔ¼ÌÒ¹µØ
+æ—¥ä»¥ç»§å¤œåœ°
 564. a large number of
-Ğí¶àµÄ
+è®¸å¤šçš„
 565. a good number of
-ĞíĞí¶à¶à
+è®¸è®¸å¤šå¤š
 566. on occasion(=on occasions)
-¼ä»òµØ£¬ÓĞÊ±
+é—´æˆ–åœ°ï¼Œæœ‰æ—¶
 567. once again
-(»òmore£¬over)ÔÙÒ»´Î
+(æˆ–moreï¼Œover)å†ä¸€æ¬¡
 568. once more
-ÔÙÒ»´Î£¬ÓÖÒ»´Î
+å†ä¸€æ¬¡ï¼Œåˆä¸€æ¬¡
 569. once upon a time
-´ÓÇ°(¹ÊÊÂ¿ªÍ·ÓÃÓï)
+ä»å‰(æ•…äº‹å¼€å¤´ç”¨è¯­)
 570. at once
-Á¢¿Ì£¬ÂíÉÏ£»Í¬Ê±£¬Ò»Æğ
+ç«‹åˆ»ï¼Œé©¬ä¸Šï¼›åŒæ—¶ï¼Œä¸€èµ·
 571. one by one
-Ò»¸ö½ÓÒ»¸öµØ£»Ò»´ÎÒ»¸öµØ
+ä¸€ä¸ªæ¥ä¸€ä¸ªåœ°ï¼›ä¸€æ¬¡ä¸€ä¸ªåœ°
 572. not only...but also
-²»µ«¡­¶øÇÒ¡­
+ä¸ä½†â€¦è€Œä¸”â€¦
 573. only just
-¸Õ¸Õ²Å
+åˆšåˆšæ‰
 574. in the open air
-ÔÚ»§Íâ£»ÔÚÒ°Íâ
+åœ¨æˆ·å¤–ï¼›åœ¨é‡å¤–
 575. either...or
-»òÕß¡­»òÕß(Á½¸öÖĞµÄÒ»¸ö)£»²»ÂÛ¡­»¹ÊÇ¡­
+æˆ–è€…â€¦æˆ–è€…(ä¸¤ä¸ªä¸­çš„ä¸€ä¸ª)ï¼›ä¸è®ºâ€¦è¿˜æ˜¯â€¦
 576. whether...or
-ÊÇ¡­»¹ÊÇ¡­£¬²»¹Ü¡­»¹ÊÇ¡­
+æ˜¯â€¦è¿˜æ˜¯â€¦ï¼Œä¸ç®¡â€¦è¿˜æ˜¯â€¦
 577. or so
-(±íÊ¾Ô¼Êı)×óÓÒ£¬ÉÏÏÂ
+(è¡¨ç¤ºçº¦æ•°)å·¦å³ï¼Œä¸Šä¸‹
 578. in order
-°´Ë³Ğò£»ÕûÆë£¬¾®È»ÓĞĞò£¬´¦ÓÚÁ¼ºÃ×´Ì¬
+æŒ‰é¡ºåºï¼›æ•´é½ï¼Œäº•ç„¶æœ‰åºï¼Œå¤„äºè‰¯å¥½çŠ¶æ€
 579. in order to
-ÎªÁË£»ÒÔ¡­ÎªÄ¿±ê
+ä¸ºäº†ï¼›ä»¥â€¦ä¸ºç›®æ ‡
 580. in order that
-ÒÔ±ã£¬ÒÔÖÁÓÚ£»½á¹û
+ä»¥ä¾¿ï¼Œä»¥è‡³äºï¼›ç»“æœ
 581. no other than
-³ı¡­ÍâÃ»ÓĞ£»Ö»ÓĞ
+é™¤â€¦å¤–æ²¡æœ‰ï¼›åªæœ‰
 582. out and out
-³¹µ×µØ£¬²»ÕÛ²»¿ÛµØ
+å½»åº•åœ°ï¼Œä¸æŠ˜ä¸æ‰£åœ°
 583. out of
-Ô½³ö¡­Ö®Íâ£»´Ó¡­ÀïÃæ£»Àë¿ª£»ÓÉÓÚ£»Ã»ÓĞ
+è¶Šå‡ºâ€¦ä¹‹å¤–ï¼›ä»â€¦é‡Œé¢ï¼›ç¦»å¼€ï¼›ç”±äºï¼›æ²¡æœ‰
 584. on one's own
-¶ÀÁ¢µØ£¬¶À×ÔµØ
+ç‹¬ç«‹åœ°ï¼Œç‹¬è‡ªåœ°
 585. keep pace with
-(Óë¡­)Æë²½Ç°½ø£¬(Óë¡­)²¢¼İÆëÇı
+(ä¸â€¦)é½æ­¥å‰è¿›ï¼Œ(ä¸â€¦)å¹¶é©¾é½é©±
 586. hold pace with
-¸úÉÏ£¬Óë¡­Í¬²½
+è·Ÿä¸Šï¼Œä¸â€¦åŒæ­¥
 587. in part
-²¿·ÖµØ£¬ÔÚÄ³ÖÖ³Ì¶ÈÉÏ
+éƒ¨åˆ†åœ°ï¼Œåœ¨æŸç§ç¨‹åº¦ä¸Š
 588. take part in
-²Î¼Ó¡­£¬²ÎÓë¡­
+å‚åŠ â€¦ï¼Œå‚ä¸â€¦
 589. pass away
-ÏûÊ§£»È¥ÊÀ£»ÖÕÖ¹
+æ¶ˆå¤±ï¼›å»ä¸–ï¼›ç»ˆæ­¢
 590. pass on
-´«µİ£»¼ÌĞø£»È¥ÊÀ
+ä¼ é€’ï¼›ç»§ç»­ï¼›å»ä¸–
 591. have patience with
-¶Ô¡­¡­ÓĞÄÍĞÄ
+å¯¹â€¦â€¦æœ‰è€å¿ƒ
 592. pay out
-¸¶³ö(Ç®)£¬³öÇ®
+ä»˜å‡º(é’±)ï¼Œå‡ºé’±
 593. pay off
-»¹ÇåÕ®£¬¸øÇå¹¤×ÊºóÇ²É¢£»Ê¹¡­µÃÒæ£»ÓĞ±¨³¥
+è¿˜æ¸…å€ºï¼Œç»™æ¸…å·¥èµ„åé£æ•£ï¼›ä½¿â€¦å¾—ç›Šï¼›æœ‰æŠ¥å¿
 594. pick on
-Ñ¡Ôñ(Ä³ÈË»òÄ³Îï)×÷ÊÜ·£(ÊÜÔğ±¸)µÄ¶ÔÏó
+é€‰æ‹©(æŸäººæˆ–æŸç‰©)ä½œå—ç½š(å—è´£å¤‡)çš„å¯¹è±¡
 595. pick out
-Ñ¡³ö£¬¼ğ³ö
+é€‰å‡ºï¼Œæ‹£å‡º
 596. pick up
-¼ğÆğ£»»ñµÃ£»ÕÒµ½£»Ñ§µ½(ÓÈÖ¸Å¼È»µØ»òÎŞÒâ)
+æ‹£èµ·ï¼›è·å¾—ï¼›æ‰¾åˆ°ï¼›å­¦åˆ°(å°¤æŒ‡å¶ç„¶åœ°æˆ–æ— æ„)
 597. in pieces
-ÆÆËé
+ç ´ç¢
 598. break sth. to pieces
-ÔÒµÃ·ÛËé
+ç ¸å¾—ç²‰ç¢
 599. have pity on sb.
-Á¯ÃõÄ³ÈË
+æ€œæ‚¯æŸäºº
 600. take pity on sb.
-Á¯ÃõÄ³ÈË
+æ€œæ‚¯æŸäºº
 601. out of place
-²»ÔÚÓ¦ÔÚ(ÊÊµ±)µÄÎ»ÖÃ£¬²»ÊÊºÏµÄ£¬²»ÊÊµ±µÄ
+ä¸åœ¨åº”åœ¨(é€‚å½“)çš„ä½ç½®ï¼Œä¸é€‚åˆçš„ï¼Œä¸é€‚å½“çš„
 602. in place of
-´úÌæ£¬È¡´ú£¬½»»»
+ä»£æ›¿ï¼Œå–ä»£ï¼Œäº¤æ¢
 603. take place
-·¢Éú£¬²úÉú£»½øĞĞ£¬¾ÙĞĞ
+å‘ç”Ÿï¼Œäº§ç”Ÿï¼›è¿›è¡Œï¼Œä¸¾è¡Œ
 604. take the place of
-´úÌæ£¬È¡´ú
+ä»£æ›¿ï¼Œå–ä»£
 605. in plenty
-·á¸»£¬³ä×ã
+ä¸°å¯Œï¼Œå……è¶³
 606. to the point
-ÖĞ¿Ï£»¶óÒª£»ÇĞÖĞÒªº¦
+ä¸­è‚¯ï¼›æ‰¼è¦ï¼›åˆ‡ä¸­è¦å®³
 607. point out
-Ö¸³ö£¬Ö¸Ã÷£»½âÊÍ
+æŒ‡å‡ºï¼ŒæŒ‡æ˜ï¼›è§£é‡Š
 608. in position
-ÔÚÊÊµ±µÄÎ»ÖÃ£»ÔÚÔ­Î»
+åœ¨é€‚å½“çš„ä½ç½®ï¼›åœ¨åŸä½
 609. out of position
-²»ÔÚÊÊµ±µÄÎ»ÖÃ
+ä¸åœ¨é€‚å½“çš„ä½ç½®
 610. possess oneself of
-»ñµÃ£¬Õ¼ÎªÒÑÓĞ
+è·å¾—ï¼Œå ä¸ºå·²æœ‰
 611. prevent...from
-·Á°­£»·ÀÖ¹£»Ô¤·À
+å¦¨ç¢ï¼›é˜²æ­¢ï¼›é¢„é˜²
 612. in public
-¹«¿ª£¬ÔÚ¹«¿ª³¡ºÏ
+å…¬å¼€ï¼Œåœ¨å…¬å¼€åœºåˆ
 613. pull down
-²ğµô£¬ÍÆµô£¬Ê¹ÉíÌåĞéÈõ£¬Ê¹¼Û¸ñ½µµÍ
+æ‹†æ‰ï¼Œæ¨æ‰ï¼Œä½¿èº«ä½“è™šå¼±ï¼Œä½¿ä»·æ ¼é™ä½
 614. pull in (arrive;stop;move in)
-(³µ)½øÕ¾£»(´¬)µ½°¶
+(è½¦)è¿›ç«™ï¼›(èˆ¹)åˆ°å²¸
 615. pull off
-(³É¹¦µØ)Íê³É£»³¶ÏÂ£¬ÍÑÈ¥
+(æˆåŠŸåœ°)å®Œæˆï¼›æ‰¯ä¸‹ï¼Œè„±å»
 616. pull out
-°Î³ö£¬È¡³ö£»(³µ¡¢´¬µÈ)Ê»³ö£»(³µÁ¾)¼õËÙ
+æ‹”å‡ºï¼Œå–å‡ºï¼›(è½¦ã€èˆ¹ç­‰)é©¶å‡ºï¼›(è½¦è¾†)å‡é€Ÿ
 617. on purpose
-¹ÊÒâµØ£¬ÓĞÒâµØ
+æ•…æ„åœ°ï¼Œæœ‰æ„åœ°
 618. put down
-Ğ´ÏÂ£»¸¶£¨¶¨½ğ£©£»ÕòÑ¹£¬È¡µŞ£»ŞÉÂä
+å†™ä¸‹ï¼›ä»˜ï¼ˆå®šé‡‘ï¼‰ï¼›é•‡å‹ï¼Œå–ç¼”ï¼›å¥šè½
 619. put in
-»¨·Ñ£¬¸¶³ö(Ê±¼äµÈ)£»ÕıÊ½Ìá³ö£¬ÉêÇë
+èŠ±è´¹ï¼Œä»˜å‡º(æ—¶é—´ç­‰)ï¼›æ­£å¼æå‡ºï¼Œç”³è¯·
 620. put off
-ÍÆ³Ù£¬ÑÓÆÚ£»¹Øµô£»×èÖ¹£¬·Á°­
+æ¨è¿Ÿï¼Œå»¶æœŸï¼›å…³æ‰ï¼›é˜»æ­¢ï¼Œå¦¨ç¢
 621. put out
-Ï¨Ãğ£¬ÏûÃğ£¬¹Ø(µÆ)£»³ö°æ£¬·¢²¼£»Éú²ú
+ç†„ç­ï¼Œæ¶ˆç­ï¼Œå…³(ç¯)ï¼›å‡ºç‰ˆï¼Œå‘å¸ƒï¼›ç”Ÿäº§
 622. put up
-¾Ù/ÉıÆğ£¬Ìá(¼Û)£»½¨Ôì£¬´î/Ö§Æğ£»ÕÅÌù
+ä¸¾/å‡èµ·ï¼Œæ(ä»·)ï¼›å»ºé€ ï¼Œæ­/æ”¯èµ·ï¼›å¼ è´´
 623. put up with
-ÈÌÊÜ£¬ÈİÈÌ(ÌÖÑáµÄÈË)
+å¿å—ï¼Œå®¹å¿(è®¨åŒçš„äºº)
 624. beyond question
-ºÁÎŞÒÉÎÊ£¬È·¶¨ÎŞÒÉ
+æ¯«æ— ç–‘é—®ï¼Œç¡®å®šæ— ç–‘
 625. out of question
-ºÁÎŞÒÉÎÊ
+æ¯«æ— ç–‘é—®
 626. at any rate
-ÎŞÂÛÈçºÎ£¬¶øÇÒ£¬ÖÁÉÙ
+æ— è®ºå¦‚ä½•ï¼Œè€Œä¸”ï¼Œè‡³å°‘
 627. at this rate
-ÕÕÕâÖÖÇéĞÎ£¬¼ÈÈ»ÕâÑù
+ç…§è¿™ç§æƒ…å½¢ï¼Œæ—¢ç„¶è¿™æ ·
 628. rather...than
-ÄşÔ¸¡­¡­¶ø²»
+å®æ„¿â€¦â€¦è€Œä¸
 629. be reason of
-ÓÉÓÚ
+ç”±äº
 630. as regards
-¹ØÓÚ£¬ÖÁÓÚ
+å…³äºï¼Œè‡³äº
 631. in this regard
-ÔÚÕâµãÉÏ
+åœ¨è¿™ç‚¹ä¸Š
 632. in regard to
-¶ÔÓÚ£»¾Í¡­¶øÂÛ
+å¯¹äºï¼›å°±â€¦è€Œè®º
 633. with regard to
-¶ÔÓÚ£»¾Í¡­¶øÂÛ
+å¯¹äºï¼›å°±â€¦è€Œè®º
 634. with relation to
-ÓĞ¹Ø£¬Éæ¼°£»Óë¡­Ïà±È
+æœ‰å…³ï¼Œæ¶‰åŠï¼›ä¸â€¦ç›¸æ¯”
 635. with respect to
-¾Í¡­¶øÑÔ£»ÔÚ¡­·½Ãæ
+å°±â€¦è€Œè¨€ï¼›åœ¨â€¦æ–¹é¢
 636. pay one's respect to sb.
-ÏòÄ³ÈËÖÂ¾´
+å‘æŸäººè‡´æ•¬
 637. as a result of
-ÓÉÓÚ£»×÷Îª¡­µÄ½á¹û
+ç”±äºï¼›ä½œä¸ºâ€¦çš„ç»“æœ
 638. in return for
-×÷Îª(¶Ô¡­µÄ)±¨´ğ(»ò»Ø±¨¡¢½»»»)
+ä½œä¸º(å¯¹â€¦çš„)æŠ¥ç­”(æˆ–å›æŠ¥ã€äº¤æ¢)
 639. ring sb. up
-´òµç»°¸øÄ³ÈË
+æ‰“ç”µè¯ç»™æŸäºº
 640. ring off
-¹Ò¶Ïµç»°£»Í£Ö¹½²»°
+æŒ‚æ–­ç”µè¯ï¼›åœæ­¢è®²è¯
 641. give rise to
-²úÉú£»Ê¹·¢Éú£»ÒıÆğ£¬µ¼ÖÂ
+äº§ç”Ÿï¼›ä½¿å‘ç”Ÿï¼›å¼•èµ·ï¼Œå¯¼è‡´
 642. take risks
-Ã°ÏÕ
+å†’é™©
 643. run risks
-Ã°ÏÕ
+å†’é™©
 644. roll in
-¹ö¹ö¶øÀ´£¬´óÁ¿Ó¿À´
+æ»šæ»šè€Œæ¥ï¼Œå¤§é‡æ¶Œæ¥
 645. roll up
-(ÓÈÖ¸æ©æ©À´³ÙµØ»òÒÔÄ³ÖÖ²»µ±µÄ·½Ê½)µÖ´ï
+(å°¤æŒ‡å§—å§—æ¥è¿Ÿåœ°æˆ–ä»¥æŸç§ä¸å½“çš„æ–¹å¼)æŠµè¾¾
 646. show sb. around
-ÁìÄ³ÈË²Î¹Û
+é¢†æŸäººå‚è§‚
 647. by rules
-ÒÀÕÕ¹æÔò
+ä¾ç…§è§„åˆ™
 648. as a rule
-Í¨³££¬Ò»°ã(ËµÀ´)
+é€šå¸¸ï¼Œä¸€èˆ¬(è¯´æ¥)
 649. run outbe finished
-,exhausted ½áÊø£»±äµÃÈ±·¦
+,exhausted ç»“æŸï¼›å˜å¾—ç¼ºä¹
 650. run over
-ÔÚ¡­ÉÏÊ»¹ı£¬Äë¹ı£»°Ñ¡­ºÜ¿ìµØ¹ıÒ»±é
+åœ¨â€¦ä¸Šé©¶è¿‡ï¼Œç¢¾è¿‡ï¼›æŠŠâ€¦å¾ˆå¿«åœ°è¿‡ä¸€é
 651. run through
-¹á´©£»´Ò´ÒÔÄ¶Á£»ÅÅÁ·£»»Ó»ô(½ğÇ®)
+è´¯ç©¿ï¼›åŒ†åŒ†é˜…è¯»ï¼›æ’ç»ƒï¼›æŒ¥éœ(é‡‘é’±)
 652. safe and sound
-°²È»ÎŞí¦
+å®‰ç„¶æ— æ™
 653. in safety
-°²È«
+å®‰å…¨
 654. with safety
-°²È«µØ
+å®‰å…¨åœ°
 655. at the same time
-Í¬Ê±£»È»¶ø£¬²»¹ı£¬µ«ÊÇ
+åŒæ—¶ï¼›ç„¶è€Œï¼Œä¸è¿‡ï¼Œä½†æ˜¯
 656. the same as
-Óë¡­Ò»ÖÂ£¬Óë¡­ÏàÍ¬µÄ
+ä¸â€¦ä¸€è‡´ï¼Œä¸â€¦ç›¸åŒçš„
 657. all the same
-¶¼Ò»Ñù£¬ÎŞËùÎ½£»¾¡¹ÜÈç´Ë£¬ÈÔÈ»
+éƒ½ä¸€æ ·ï¼Œæ— æ‰€è°“ï¼›å°½ç®¡å¦‚æ­¤ï¼Œä»ç„¶
 658. just the same
-=all the same ÈÔÈ»£¬»¹ÊÇ
+=all the same ä»ç„¶ï¼Œè¿˜æ˜¯
 659. that is to say
-»»¾ä»°Ëµ£¬Õâ¾ÍÊÇËµ
+æ¢å¥è¯è¯´ï¼Œè¿™å°±æ˜¯è¯´
 660. scratch one's head
-É¦Í·
+æ”å¤´
 661. search out
-Ñ°ÕÒ£¬ÕÒµ½
+å¯»æ‰¾ï¼Œæ‰¾åˆ°
 662. search into
-µ÷²é
+è°ƒæŸ¥
 663. make a search for
-ËÑ²é£¬Ñ°ÃÙ
+æœæŸ¥ï¼Œå¯»è§…
 664. keep a secret
-±£ÊØÃØÃÜ
+ä¿å®ˆç§˜å¯†
 665. see about
-¸ºÔğ´¦Àí(Ä³ÊÂ)£»²é¿´
+è´Ÿè´£å¤„ç†(æŸäº‹)ï¼›æŸ¥çœ‹
 666. see through
-½«...¸Éµ½µ×£»×öÍê£»¿´´©£»Ê¶ÆÆ
+å°†...å¹²åˆ°åº•ï¼›åšå®Œï¼›çœ‹ç©¿ï¼›è¯†ç ´
 667. sell out
-Âô¹â£¬È«²¿Âô³ö£»(ÓÈÖ¸ÎªÇ®²Æ¶ø)±³ÅÑ£¬³öÂô
+å–å…‰ï¼Œå…¨éƒ¨å–å‡ºï¼›(å°¤æŒ‡ä¸ºé’±è´¢è€Œ)èƒŒå›ï¼Œå‡ºå–
 668. send away
-Äì×ß£»¿ª³ı£»½â¹Í
+æ’µèµ°ï¼›å¼€é™¤ï¼›è§£é›‡
 669. send for
-ÅÉÈËÈ¥Çë¡­£»ÅÉÈËÈ¥Òª(»òÈ¡)¡­
+æ´¾äººå»è¯·â€¦ï¼›æ´¾äººå»è¦(æˆ–å–)â€¦
 670. send in
-³Ê±¨£»ËÍ¡­²Î¼Ó±ÈÈü
+å‘ˆæŠ¥ï¼›é€â€¦å‚åŠ æ¯”èµ›
 671. send off
-¼Ä³ö£»Îª¡­ËÍĞĞ£»½â¹Í
+å¯„å‡ºï¼›ä¸ºâ€¦é€è¡Œï¼›è§£é›‡
 672. set aboutbegin to do
-(sth). start (doing sth)¿ªÊ¼
+(sth). start (doing sth)å¼€å§‹
 673. set on
-Ï®»÷£»ËôÊ¹
+è¢­å‡»ï¼›å”†ä½¿
 674. set out
-³ÂÁĞ£»¶¯Éí£¬Æô³Ì£»¿ªÊ¼£¬×ÅÊÖ£»ÖÆ¶¨£¬ÏêÊö
+é™ˆåˆ—ï¼›åŠ¨èº«ï¼Œå¯ç¨‹ï¼›å¼€å§‹ï¼Œç€æ‰‹ï¼›åˆ¶å®šï¼Œè¯¦è¿°
 675. set upset up an appointment
-°²ÅÅ(Ô¼¼û¡¢»á¼û)
+å®‰æ’(çº¦è§ã€ä¼šè§)
 676. settle in
-ÔÚĞÂ¾Ó°²¶ÙÏÂÀ´£»ÊÊÓ¦ĞÂ»·¾³(»òĞÂ¹¤×÷)
+åœ¨æ–°å±…å®‰é¡¿ä¸‹æ¥ï¼›é€‚åº”æ–°ç¯å¢ƒ(æˆ–æ–°å·¥ä½œ)
 677. shake down
-ÇÃÕ©£¬ÀÕË÷£»³¹µ×ËÑ²é
+æ•²è¯ˆï¼Œå‹’ç´¢ï¼›å½»åº•æœæŸ¥
 678. shake off
-Äì×ß£¬°ÚÍÑ£»¶¶Âä
+æ’µèµ°ï¼Œæ‘†è„±ï¼›æŠ–è½
 679. in shape
-´¦ÓÚÁ¼ºÃ(»ò¹ÌÓĞ)×´Ì¬
+å¤„äºè‰¯å¥½(æˆ–å›ºæœ‰)çŠ¶æ€
 680. in the shape of
-³Ê¡­µÄĞÎ×´
+å‘ˆâ€¦çš„å½¢çŠ¶
 681. shoot down
-»÷Âä£¬»÷±Ğ£»²µµ¹
+å‡»è½ï¼Œå‡»æ¯™ï¼›é©³å€’
 682. be short of
-È±·¦£¬²»×ã£»´ï²»µ½
+ç¼ºä¹ï¼Œä¸è¶³ï¼›è¾¾ä¸åˆ°
 683. in shortin a word
-. in summary ×ÜÖ®£¬×Ü¶øÑÔÖ®
+. in summary æ€»ä¹‹ï¼Œæ€»è€Œè¨€ä¹‹
 684. shoulder to shoulder
-¼ç²¢¼çµØ£¬ÆëĞÄĞ­Á¦µØ
+è‚©å¹¶è‚©åœ°ï¼Œé½å¿ƒååŠ›åœ°
 685. show off
-ìÅÒ«×Ô¼ºµÄÄÜÁ¦¡¢²Æ¸»¡¢ÖÇ»ÛµÈ
+ç‚«è€€è‡ªå·±çš„èƒ½åŠ›ã€è´¢å¯Œã€æ™ºæ…§ç­‰
 686. show up
-Ê¹³ÊÏÖ£¬Ê¹ĞÑÄ¿£»³öÏ¯£¬µ½³¡
+ä½¿å‘ˆç°ï¼Œä½¿é†’ç›®ï¼›å‡ºå¸­ï¼Œåˆ°åœº
 687. be shut in
-¹Ø½ø£¬Î§×¡
+å…³è¿›ï¼Œå›´ä½
 688. shut off
-ÇĞ¶Ï(Ë®µÈ)£¬¹Øµô£¬(Ê¹)Í£Ö¹ÔË×ª
+åˆ‡æ–­(æ°´ç­‰)ï¼Œå…³æ‰ï¼Œ(ä½¿)åœæ­¢è¿è½¬
 689. shut up
-Ê¹×¡¿Ú£»×¡¿Ú£»Í£Ö¹Ğ´
+ä½¿ä½å£ï¼›ä½å£ï¼›åœæ­¢å†™
 690. side by side
-¼ç²¢¼ç£»Ò»Æğ£»Ïà»¥Ö§³Ö
+è‚©å¹¶è‚©ï¼›ä¸€èµ·ï¼›ç›¸äº’æ”¯æŒ
 691. lose one's sight
-É¥Ê§ÊÓÁ¦
+ä¸§å¤±è§†åŠ›
 692. at first sight
-Õ§Ò»¿´Ö®ÏÂ£»µÚÒ»ÑÛ¾Í
+ä¹ä¸€çœ‹ä¹‹ä¸‹ï¼›ç¬¬ä¸€çœ¼å°±
 693. catch a sight
-¿´¼û
+çœ‹è§
 694. in sight of
-¿´µÃ¼û
+çœ‹å¾—è§
 695. out of sight of
-ÔÚ²»ÄÜ¿´¼û¡­¡­µÄµØ·½
+åœ¨ä¸èƒ½çœ‹è§â€¦â€¦çš„åœ°æ–¹
 696. ever since
-´ËºóÒ»Ö±£¬´ÓÄÇÊ±ÆğÒ»Ö±
+æ­¤åä¸€ç›´ï¼Œä»é‚£æ—¶èµ·ä¸€ç›´
 697. long since
-ºÜ¾ÃÒÔÇ°£»ºÜ¾ÃÒÔÀ´
+å¾ˆä¹…ä»¥å‰ï¼›å¾ˆä¹…ä»¥æ¥
 698. sit up
-²»Ë¯¾õ£¬¿ªÒ¹³µ£»×øÖ±£¬×øÆğÀ´
+ä¸ç¡è§‰ï¼Œå¼€å¤œè½¦ï¼›åç›´ï¼Œåèµ·æ¥
 699. smell out
-Ğá³ö£¬Æ¾Ğá¾õ·¢ÏÖ¡­
+å—…å‡ºï¼Œå‡­å—…è§‰å‘ç°â€¦
 700. as soon asconj.
-Ò»¡­¾Í¡­£¬¸Õ...±ã
+ä¸€â€¦å°±â€¦ï¼Œåˆš...ä¾¿
 701. as soon as possible
-¾¡¿ÉÄÜÔçµØ£»¾¡¿ì
+å°½å¯èƒ½æ—©åœ°ï¼›å°½å¿«
 702. speak for
-´ú±í¡­½²»°£¬Îª¡­±ç»¤£»Ö¤Ã÷£¬±íÃ÷
+ä»£è¡¨â€¦è®²è¯ï¼Œä¸ºâ€¦è¾©æŠ¤ï¼›è¯æ˜ï¼Œè¡¨æ˜
 703. speak out
-´óµ¨µØ½²£¬²»ÊÜÔ¼ÊøµØ½²
+å¤§èƒ†åœ°è®²ï¼Œä¸å—çº¦æŸåœ°è®²
 704. speak up
-´óÉùËµ»°£»¿ª¿ÚËµ³öÀ´
+å¤§å£°è¯´è¯ï¼›å¼€å£è¯´å‡ºæ¥
 705. in spite of
-²»¹Ü£¬²»¹Ë£¬¾¡¹Ü£¬ËäÈ»
+ä¸ç®¡ï¼Œä¸é¡¾ï¼Œå°½ç®¡ï¼Œè™½ç„¶
 706. spring back
-µ¯»Ø£¬Ìø»Ø
+å¼¹å›ï¼Œè·³å›
 707. spring from
-³öÓÚ£¬ÓÉ...¶øÀ´£¬ÓÉ...Ôì³É
+å‡ºäºï¼Œç”±...è€Œæ¥ï¼Œç”±...é€ æˆ
 708. spring up
-Ó¿ÏÖ£»·¢Éú£»Ñ¸ËÙ³¤³ö
+æ¶Œç°ï¼›å‘ç”Ÿï¼›è¿…é€Ÿé•¿å‡º
 709. stand by
-Õ¾ÔÚÅÔ±ß£¬ĞäÊÖÅÔ¹Û£»Õ¾ÔÚÒ»Æğ£¬Ö§³Ö¡¢°ïÖú
+ç«™åœ¨æ—è¾¹ï¼Œè¢–æ‰‹æ—è§‚ï¼›ç«™åœ¨ä¸€èµ·ï¼Œæ”¯æŒã€å¸®åŠ©
 710. stand for
-ÊÇ...µÄËõĞ´£¬´ú±í£¬ÒâÎ¶×Å£»Ö÷ÕÅ£¬Ö§³Ö
+æ˜¯...çš„ç¼©å†™ï¼Œä»£è¡¨ï¼Œæ„å‘³ç€ï¼›ä¸»å¼ ï¼Œæ”¯æŒ
 711. stand up
-Õ¾Æğ£»Õ¾×Å£»¾­¾ÃÄÍÓÃ£»Ê¹ÈËĞÅ·ş
+ç«™èµ·ï¼›ç«™ç€ï¼›ç»ä¹…è€ç”¨ï¼›ä½¿äººä¿¡æœ
 712. stand up for
-Îª¡­±ç»¤£»Î¬»¤£»¼á³Ö
+ä¸ºâ€¦è¾©æŠ¤ï¼›ç»´æŠ¤ï¼›åšæŒ
 713. start in
-¿ªÊ¼
+å¼€å§‹
 714. start out
-³ö·¢£¬¶¯Éí£»¿ªÊ¼Ê±´òËã£¬±¾À´ÏëÒª
+å‡ºå‘ï¼ŒåŠ¨èº«ï¼›å¼€å§‹æ—¶æ‰“ç®—ï¼Œæœ¬æ¥æƒ³è¦
 715. start off
-¿ªÊ¼/Õ¹¿ª(Ö®ºó½Ó²»½Ó±öÓï¾ù¿É)
+å¼€å§‹/å±•å¼€(ä¹‹åæ¥ä¸æ¥å®¾è¯­å‡å¯)
 716. stay away
-²»ÔÚ¼Ò£¬Àë¿ª
+ä¸åœ¨å®¶ï¼Œç¦»å¼€
 717. stay in
-²»³öÃÅ
+ä¸å‡ºé—¨
 718. stay out
-µ¢×Å²»×ß¿ª
+è€½ç€ä¸èµ°å¼€
 719. stay up
-¿ªÒ¹³µ£¬ºÜÍí²»Ë¯¾õ; °¾Ò¹
+å¼€å¤œè½¦ï¼Œå¾ˆæ™šä¸ç¡è§‰; ç†¬å¤œ
 720. step by step
-Öğ²½µØ£¬Ò»²½Ò»²½µØ
+é€æ­¥åœ°ï¼Œä¸€æ­¥ä¸€æ­¥åœ°
 721. in step
-ºÏÅÄ£¬Í¬²½£»Óë(¡­)Ò»ÖÂ
+åˆæ‹ï¼ŒåŒæ­¥ï¼›ä¸(â€¦)ä¸€è‡´
 722. out of step
-²½µ÷²»Ò»ÖÂ£¬²»Ğ­µ÷
+æ­¥è°ƒä¸ä¸€è‡´ï¼Œä¸åè°ƒ
 723. stick to
-Õ³ÌùÔÚ..ÉÏ£¬½ô¸ú£¬½ôËæ£»¼á³Ö£»ÖÒÓÚ£»ĞÅÊØ
+ç²˜è´´åœ¨..ä¸Šï¼Œç´§è·Ÿï¼Œç´§éšï¼›åšæŒï¼›å¿ äºï¼›ä¿¡å®ˆ
 724. such as
-Ïñ¡­ÄÇÑùµÄ£¬ÖîÈç£¬ÀıÈç
+åƒâ€¦é‚£æ ·çš„ï¼Œè¯¸å¦‚ï¼Œä¾‹å¦‚
 725. be suited for
-ÊÊºÏÓÚ£¬ÓĞ×Ê¸ñ
+é€‚åˆäºï¼Œæœ‰èµ„æ ¼
 726. be suited to(=be suited for)
-ÊÊºÏÓÚ£¬ÓĞ×Ê¸ñ
+é€‚åˆäºï¼Œæœ‰èµ„æ ¼
 727. in support of
-Ö§Ô®£»Ö§³Ö£»Óµ»¤
+æ”¯æ´ï¼›æ”¯æŒï¼›æ‹¥æŠ¤
 728. be sure of oneself
-ÓĞ×ÔĞÅĞÄ
+æœ‰è‡ªä¿¡å¿ƒ
 729. feel sure of oneself
-×ÔĞÅ£¬ÓĞ×ÔĞÅĞÄ
+è‡ªä¿¡ï¼Œæœ‰è‡ªä¿¡å¿ƒ
 730. make sure
-ÅªÈ·Êµ£¬Åª¿Ï¶¨£¬²éÃ÷
+å¼„ç¡®å®ï¼Œå¼„è‚¯å®šï¼ŒæŸ¥æ˜
 731. to one's surprise
-³öºõÒâÁÏµØ£»Ê¹Ä³ÈË³Ô¾ªµÄÊÇ
+å‡ºä¹æ„æ–™åœ°ï¼›ä½¿æŸäººåƒæƒŠçš„æ˜¯
 732. take in
-½ÓÊÜ£¬ÎüÊÕ£»°üÀ¨£»Áì»á£¬Àí½â£»ÆÛÆ­
+æ¥å—ï¼Œå¸æ”¶ï¼›åŒ…æ‹¬ï¼›é¢†ä¼šï¼Œç†è§£ï¼›æ¬ºéª—
 733. take on
-³ÊÏÖ£¬¾ßÓĞ£¬×°³ö£»½ÓÄÉ£¬½ÓÊÜ£»³Ğµ££¬´ÓÊÂ
+å‘ˆç°ï¼Œå…·æœ‰ï¼Œè£…å‡ºï¼›æ¥çº³ï¼Œæ¥å—ï¼›æ‰¿æ‹…ï¼Œä»äº‹
 734. take up
-¿ªÊ¼´ÓÊÂ£»°Ñ¡­¼ÌĞøÏÂÈ¥£»×ÅÊÖ´¦Àí£»Õ¼È¥
+å¼€å§‹ä»äº‹ï¼›æŠŠâ€¦ç»§ç»­ä¸‹å»ï¼›ç€æ‰‹å¤„ç†ï¼›å å»
 735. in tears
-Á÷×ÅÀá£¬º¬×ÅÀá£¬ÔÚ¿Ş×Å
+æµç€æ³ªï¼Œå«ç€æ³ªï¼Œåœ¨å“­ç€
 736. think about
-ÏëÆğ£¬Ïëµ½£»¿¼ÂÇ£¬·´¸´Ë¼¿¼
+æƒ³èµ·ï¼Œæƒ³åˆ°ï¼›è€ƒè™‘ï¼Œåå¤æ€è€ƒ
 737. think of
-Ïëµ½£¬¼ÇµÃ£»ÏëÒ»Ïë£»¿¼ÂÇ£»¹ØĞÄ
+æƒ³åˆ°ï¼Œè®°å¾—ï¼›æƒ³ä¸€æƒ³ï¼›è€ƒè™‘ï¼›å…³å¿ƒ
 738. through and through
-ÍêÈ«£¬³¹µ×
+å®Œå…¨ï¼Œå½»åº•
 739. throw away
-ÈÓµô£¬Å×Æú£»´í¹ı(»ú»á)£¬ÀË·Ñ(½ğÇ®µÈ)
+æ‰”æ‰ï¼ŒæŠ›å¼ƒï¼›é”™è¿‡(æœºä¼š)ï¼Œæµªè´¹(é‡‘é’±ç­‰)
 740. throw off
-ÈÓµô£»Å×Æú£»Ëæ±ã×÷³ö£»¼´Ï¯×÷³É
+æ‰”æ‰ï¼›æŠ›å¼ƒï¼›éšä¾¿ä½œå‡ºï¼›å³å¸­ä½œæˆ
 741. throw up
-·ÅÆú£»Å»ÍÂ£»Ê¹ÒıÈË×¢Òâ£¬½ÒÊ¾³ö
+æ”¾å¼ƒï¼›å‘•åï¼›ä½¿å¼•äººæ³¨æ„ï¼Œæ­ç¤ºå‡º
 742. at a time
-Ã¿´Î£»ÔÚÄ³¸öÊ±¿Ì
+æ¯æ¬¡ï¼›åœ¨æŸä¸ªæ—¶åˆ»
 743. at one time
-Í¬Ê±£¬Ôø¾­£¬´ÓÇ°Ôø
+åŒæ—¶ï¼Œæ›¾ç»ï¼Œä»å‰æ›¾
 744. at times
-ÓĞÊ±£¬¼ä»ò sometimes
+æœ‰æ—¶ï¼Œé—´æˆ– sometimes
 745. from time to time
-Ê±³££¬ÓĞÊ±£¬²»Ê±
+æ—¶å¸¸ï¼Œæœ‰æ—¶ï¼Œä¸æ—¶
 746. in time
-¾­¹ıÒ»¶ÎÊ±¼ä£»×îÖÕ£»¼°Ê±
+ç»è¿‡ä¸€æ®µæ—¶é—´ï¼›æœ€ç»ˆï¼›åŠæ—¶
 747. on time
-×¼Ê±£»²»Ôç²»Íí
+å‡†æ—¶ï¼›ä¸æ—©ä¸æ™š
 748. together with
-ºÍ£»¼ÓÖ®£»Á¬Í¬
+å’Œï¼›åŠ ä¹‹ï¼›è¿åŒ
 749. on top of
-ÔÚ¡­ÉÏÃæ£»³ı¡­Ö®Íâ
+åœ¨â€¦ä¸Šé¢ï¼›é™¤â€¦ä¹‹å¤–
 750. try on
-ÊÔ´©(ÒÂ·ş¡¢Ğ¬)£»ÊÔ´÷(Ã±×Ó)
+è¯•ç©¿(è¡£æœã€é‹)ï¼›è¯•æˆ´(å¸½å­)
 751. try outtry out for sth
-ÊÔÒ»ÊÔ¿´ÄÜ·ñÑ¡ÉÏ(×öÄ³ÊÂ)
+è¯•ä¸€è¯•çœ‹èƒ½å¦é€‰ä¸Š(åšæŸäº‹)
 752. turn down
-¾Ü¾ø(Ä³ÈË»òÆäÇëÇó¡¢ÖÒ¸æµÈ)
+æ‹’ç»(æŸäººæˆ–å…¶è¯·æ±‚ã€å¿ å‘Šç­‰)
 753. turn in
-½»ÉÏ£¬ÉÏ½É£»½»(×÷Òµ¡¢Ğ´ºÃµÄÎÄ×Ö²ÄÁÏ)
+äº¤ä¸Šï¼Œä¸Šç¼´ï¼›äº¤(ä½œä¸šã€å†™å¥½çš„æ–‡å­—ææ–™)
 754. turn off
-¹ØÉÏ(µçµÆ¡¢×ÔÀ´Ë®µÈ)£»×ªÍä£»½â¹Í£»Éú²ú
+å…³ä¸Š(ç”µç¯ã€è‡ªæ¥æ°´ç­‰)ï¼›è½¬å¼¯ï¼›è§£é›‡ï¼›ç”Ÿäº§
 755. turn on
-´ò¿ª(µçÊÓ¡¢ÊÕÒô»ú¡¢µÆ¡¢ÃºÆø¡¢×ÔÀ´Ë®µÈ)
+æ‰“å¼€(ç”µè§†ã€æ”¶éŸ³æœºã€ç¯ã€ç…¤æ°”ã€è‡ªæ¥æ°´ç­‰)
 756. turn out
-¹Øµô(ÊÕÒô»úµÈ)£»Éú²ú£»ÖÆÔì£»ÇıÖğ£»½á¹ûÊÇ
+å…³æ‰(æ”¶éŸ³æœºç­‰)ï¼›ç”Ÿäº§ï¼›åˆ¶é€ ï¼›é©±é€ï¼›ç»“æœæ˜¯
 757. turn toask for help or support
-ÇóÖúÓÚ£»½èÖúÓÚ
+æ±‚åŠ©äºï¼›å€ŸåŠ©äº
 758. by turns
-ÂÖÁ÷£¬Ò»Õó...Ò»Õó...
+è½®æµï¼Œä¸€é˜µ...ä¸€é˜µ...
 759. in turn
-ÒÀ´ÎµØ£¬ÂÖÁ÷µÄ£»×ª¶ø£»·´¹ıÀ´
+ä¾æ¬¡åœ°ï¼Œè½®æµçš„ï¼›è½¬è€Œï¼›åè¿‡æ¥
 760. up to
-ÆğÀ´£¬´ÓÊÂÓÚ£»Ö±µ½£»ÂÖµ½£¬Ê¤ÈÎ£¬ÊÊÓÚ
+èµ·æ¥ï¼Œä»äº‹äºï¼›ç›´åˆ°ï¼›è½®åˆ°ï¼Œèƒœä»»ï¼Œé€‚äº
 761. up to date
-ÏÖ´ú»¯µÄ£¬×îĞÂµÄ£¬Ê±ĞËµÄ£¬·ûºÏ×îĞÂ·¢Õ¹µÄ
+ç°ä»£åŒ–çš„ï¼Œæœ€æ–°çš„ï¼Œæ—¶å…´çš„ï¼Œç¬¦åˆæœ€æ–°å‘å±•çš„
 762. make use of
-ÀûÓÃ£¬Ê¹ÓÃas usual¸úÍù³£Ò»Ñù£»ÏñÆ½³£Ò»Ñù
+åˆ©ç”¨ï¼Œä½¿ç”¨as usualè·Ÿå¾€å¸¸ä¸€æ ·ï¼›åƒå¹³å¸¸ä¸€æ ·
 763. take a vote on
-±í¾ö
+è¡¨å†³
 764. vote through
-±í¾öÍ¨¹ı£»Í¶Æ±Í¬Òâ
+è¡¨å†³é€šè¿‡ï¼›æŠ•ç¥¨åŒæ„
 765. wait on sb.
-ËÅºò
+ä¼ºå€™
 766. wait upon sb.
-ËÅºò
+ä¼ºå€™
 767. wash up
-Ï´£¬Ï´²Í¾ß£»Ï´ÊÖÏ´Á³£»½«¡­³åÉÏ°¶
+æ´—ï¼Œæ´—é¤å…·ï¼›æ´—æ‰‹æ´—è„¸ï¼›å°†â€¦å†²ä¸Šå²¸
 768. watch out
-µ±ĞÄ£»Ìá·À
+å½“å¿ƒï¼›æé˜²
 769. watch over
-¿´ÊØ£¬ÕÕ¹Ü£¬¼àÊÓ
+çœ‹å®ˆï¼Œç…§ç®¡ï¼Œç›‘è§†
 770. keep watch
-ÊØÍû£»Öµ°à£»·ÅÉÚ
+å®ˆæœ›ï¼›å€¼ç­ï¼›æ”¾å“¨
 771. be in the way
-µ²×¡È¥Â·£¬°­ÊÂ
+æŒ¡ä½å»è·¯ï¼Œç¢äº‹
 772. by way of
-Í¨¹ı¡­µÄ·½·¨(»òĞÎÊ½µÈ)£»¾­ÓÉ
+é€šè¿‡â€¦çš„æ–¹æ³•(æˆ–å½¢å¼ç­‰)ï¼›ç»ç”±
 773. give way
-ÈÃÂ·£¬ÈÃ²½£»ÈÃÎ»£»(Çé¸ĞµÈ)Ê§¿Ø
+è®©è·¯ï¼Œè®©æ­¥ï¼›è®©ä½ï¼›(æƒ…æ„Ÿç­‰)å¤±æ§
 774. in one way or another
-ÎŞÂÛÈçºÎ
+æ— è®ºå¦‚ä½•
 775. in a way
-ÔÚÄ³ÖÖ³Ì¶ÈÉÏ£¬ÓĞµã£¬ÔÚÄ³Ò»·½Ãæ
+åœ¨æŸç§ç¨‹åº¦ä¸Šï¼Œæœ‰ç‚¹ï¼Œåœ¨æŸä¸€æ–¹é¢
 776. wear away
-Ä¥Ëğ£¬Ä¥È¥£»ÏûÄ¥£¬Á÷ÊÅ
+ç£¨æŸï¼Œç£¨å»ï¼›æ¶ˆç£¨ï¼Œæµé€
 777. wear off
-Ä¥Ëğ£»½¥½¥¼õÈõ£¬ÏûÊ§
+ç£¨æŸï¼›æ¸æ¸å‡å¼±ï¼Œæ¶ˆå¤±
 778. wear out
-ÓÃ»µ£»´©»µ£»Ê¹¾«Æ£Á¦½ß£»ºÄ¾¡£»ÏûÄ¥(Ê±¼ä)
+ç”¨åï¼›ç©¿åï¼›ä½¿ç²¾ç–²åŠ›ç«­ï¼›è€—å°½ï¼›æ¶ˆç£¨(æ—¶é—´)
 779. and...as well...
-Ò²£¬ºÍ
+ä¹Ÿï¼Œå’Œ
 780. what about
-[Õ÷ÇóÒâ¼ûÊ±ÓÃµÄ]ÔõÃ´Ñù
+[å¾æ±‚æ„è§æ—¶ç”¨çš„]æ€ä¹ˆæ ·
 781. wipe away
-²ÁÈ¥£¨ÑÛÀáµÈ£©
+æ“¦å»ï¼ˆçœ¼æ³ªç­‰ï¼‰
 782. wipe off
-²ÁÈ¥
+æ“¦å»
 783. wipe out
-²Áµô£¬²Á¾»£»³¹µ×´İ»Ù£¬ÏûÃğ
+æ“¦æ‰ï¼Œæ“¦å‡€ï¼›å½»åº•æ‘§æ¯ï¼Œæ¶ˆç­
 784. in a word
-¼òÑÔÖ®£¬×ÜÖ®£¬Ò»¾ä»°
+ç®€è¨€ä¹‹ï¼Œæ€»ä¹‹ï¼Œä¸€å¥è¯
 785. in other words
-»»¾ä»°Ëµ£¬Ò²¾ÍÊÇËµ
+æ¢å¥è¯è¯´ï¼Œä¹Ÿå°±æ˜¯è¯´
 786. be at work
-ÔÚ¹¤×÷×Å
+åœ¨å·¥ä½œç€
 787. be out of work
-Ê§Òµ
+å¤±ä¸š
 788. go to work
-È¥¹¤×÷£¬ÉÏ°à
+å»å·¥ä½œï¼Œä¸Šç­
 789. work atput effort into
-´ÓÊÂÓÚ£¬ÖÂÁ¦ÓÚ
+ä»äº‹äºï¼Œè‡´åŠ›äº
 790. work out
-Éè¼Æ£»ÖÆ¶©£»°²ÅÅ£»½â¾ö£»Àí½â(Ä³ÈË)µÄĞÔ¸ñ
+è®¾è®¡ï¼›åˆ¶è®¢ï¼›å®‰æ’ï¼›è§£å†³ï¼›ç†è§£(æŸäºº)çš„æ€§æ ¼
 791. work up
-ÒÀ¿¿Å¬Á¦¡¢ÇÚ·ÜµÈÖğ²½½¨Á¢£»³¹µ×ÑĞ¾¿£»µ÷²é
+ä¾é åŠªåŠ›ã€å‹¤å¥‹ç­‰é€æ­¥å»ºç«‹ï¼›å½»åº•ç ”ç©¶ï¼›è°ƒæŸ¥
 792. write down
-Ğ´ÏÂ£»°Ñ¡­ÃèĞ´³É
+å†™ä¸‹ï¼›æŠŠâ€¦æå†™æˆ
 793. write off
-×¢Ïú£»¹´Ïú£»Ğ´ĞÅ¼Ä³ö
+æ³¨é”€ï¼›å‹¾é”€ï¼›å†™ä¿¡å¯„å‡º
 794. go wrong
-³ö´í£¬·¸´íÎó£»·¢Éú¹ÊÕÏ£¬³öÃ«²¡
+å‡ºé”™ï¼ŒçŠ¯é”™è¯¯ï¼›å‘ç”Ÿæ•…éšœï¼Œå‡ºæ¯›ç—…
 795. not yet
-»¹Ã»ÓĞ. ÉĞÎ´
+è¿˜æ²¡æœ‰. å°šæœª
 796. but yet
-¿ÉÊÇ£¬È»¶ø
+å¯æ˜¯ï¼Œç„¶è€Œ
 797. rush out
-Í»È»³öÏÖ
+çªç„¶å‡ºç°
 798. connect with
-Á¬½Ó£»ÏàÍ¨£¬ÏÎ½Ó
+è¿æ¥ï¼›ç›¸é€šï¼Œè¡”æ¥
 799. glance at
-ä¯ÀÀ£¬(´ÖÂÔµØ)¿´Ò»ÏÂ
+æµè§ˆï¼Œ(ç²—ç•¥åœ°)çœ‹ä¸€ä¸‹
 800. know of
-ÌıËµ£¬ÖªµÀÎªÊ²Ã´
+å¬è¯´ï¼ŒçŸ¥é“ä¸ºä»€ä¹ˆ
 801. come by
-´ÓÅÔ±ß×ß¹ıÀ´£»µÃµ½£¬»ñµÃ
+ä»æ—è¾¹èµ°è¿‡æ¥ï¼›å¾—åˆ°ï¼Œè·å¾—
 802. open up
-´ò¿ª£»¿ª°ì£¬¿ª±Ù£¬¿ª·¢£»Ì¹³ÏµØÌ¸»°
+æ‰“å¼€ï¼›å¼€åŠï¼Œå¼€è¾Ÿï¼Œå¼€å‘ï¼›å¦è¯šåœ°è°ˆè¯
 803. be likely to
-Òª·¢ÉúµÄ£»ÓĞÇãÏòµÄ£»¿ÉÄÜµÄ
+è¦å‘ç”Ÿçš„ï¼›æœ‰å€¾å‘çš„ï¼›å¯èƒ½çš„
 804. look at
-³¯¡­¿´£»¿´Íû£¬×¢ÊÓ£»¿´´ı£¬ÈÏÎª
+æœâ€¦çœ‹ï¼›çœ‹æœ›ï¼Œæ³¨è§†ï¼›çœ‹å¾…ï¼Œè®¤ä¸º
 805. tend to
-ÍùÍù»á...£»Ò×ÓÚ¡­£»ÓĞ...ÇãÏò
+å¾€å¾€ä¼š...ï¼›æ˜“äºâ€¦ï¼›æœ‰...å€¾å‘
 806. remember of
-¼ÇµÃ¡­¡­£¬ÏëÆğ¡­¡­
+è®°å¾—â€¦â€¦ï¼Œæƒ³èµ·â€¦â€¦
 807. in the midst of
-ÔÚ¡­µ±ÖĞ£»Õıµ±¡­µÄÊ±ºò
+åœ¨â€¦å½“ä¸­ï¼›æ­£å½“â€¦çš„æ—¶å€™
 808. break one's heart
-ÁîÈËÉËĞÄ£»Ê¹ÈËÍ´ĞÄ
+ä»¤äººä¼¤å¿ƒï¼›ä½¿äººç—›å¿ƒ
 809. open one's eyes
-Ê¹Ä³ÈËÈÏÇå£¬ÁË½â¡­¡­£¬³¤¼ûÊ¶
+ä½¿æŸäººè®¤æ¸…ï¼Œäº†è§£â€¦â€¦ï¼Œé•¿è§è¯†
 810. open one's eyes to sth.
-Ê¹Ä³ÈËÈÏÇå£¬ÁË½â¡­¡­£¬³¤¼ûÊ¶
+ä½¿æŸäººè®¤æ¸…ï¼Œäº†è§£â€¦â€¦ï¼Œé•¿è§è¯†
 811. in no time
-Á¢¼´£¬Á¢¿Ì£»ÂíÉÏ
+ç«‹å³ï¼Œç«‹åˆ»ï¼›é©¬ä¸Š
 812. reckon on
-ÒÀ¿¿£¬Ö¸Íû
+ä¾é ï¼ŒæŒ‡æœ›
 813. settle into
-°áÈëĞÂ×¡Ëù
+æ¬å…¥æ–°ä½æ‰€
 814. pat sb. on the back
-¶ÔÄ³ÈË±íÊ¾ÔŞĞí
+å¯¹æŸäººè¡¨ç¤ºèµè®¸
 815. cut back on
-¼õÉÙ
+å‡å°‘
 816. regardless of
-²»Àí»á£¬²»¹Ü...ÈçºÎ
+ä¸ç†ä¼šï¼Œä¸ç®¡...å¦‚ä½•
 817. equal to
-µÈÓÚ£¬ºÍ...ÏàµÈ£¬Ïàµ±ÓÚ
+ç­‰äºï¼Œå’Œ...ç›¸ç­‰ï¼Œç›¸å½“äº
 818. in the case of
-¾Í¡­À´Ëµ£¬ÖÁÓÚ
+å°±â€¦æ¥è¯´ï¼Œè‡³äº
 819. strip...of...
-°ş¶á
+å‰¥å¤º
 820. in contrast
-Óë...ĞÎ³É¶Ô±È£¬Óë...Ïà·´
+ä¸...å½¢æˆå¯¹æ¯”ï¼Œä¸...ç›¸å
 821. rather than
-¶ø²»£¬¶ø²»ÊÇ£»ÓëÆäËµÊÇ...²»ÈçËµÊÇ
+è€Œä¸ï¼Œè€Œä¸æ˜¯ï¼›ä¸å…¶è¯´æ˜¯...ä¸å¦‚è¯´æ˜¯
 822. psych sb. up
-Ê¹Ä³ÈË×öºÃĞÄÀí×¼±¸
+ä½¿æŸäººåšå¥½å¿ƒç†å‡†å¤‡
 823. feel important about oneself
-¿´ÖØ×Ô¼º
+çœ‹é‡è‡ªå·±
 824. compete with
-ºÍ...¾ºÕù£¬¾ºÈü
+å’Œ...ç«äº‰ï¼Œç«èµ›
 825. be connected with
-Óë¡­ÓĞ¹ØÏµ
+ä¸â€¦æœ‰å…³ç³»
 826. depend on
-ÏàĞÅ£¬ĞÅÀµ£»ÒÀ¿¿£¬ÒÀÀµ£»ÊÓ¡­¶ø¶¨£¬È¡¾öÓÚ
+ç›¸ä¿¡ï¼Œä¿¡èµ–ï¼›ä¾é ï¼Œä¾èµ–ï¼›è§†â€¦è€Œå®šï¼Œå–å†³äº
 827. equip...with
-×°±¸ÓĞ
+è£…å¤‡æœ‰
 828. focus on
-¾Û¼¯ÓÚ£»¼¯ÖĞ(×¢ÒâÁ¦)ÓÚ£»ÖĞĞÄ£»Ö÷ÌâÎª
+èšé›†äºï¼›é›†ä¸­(æ³¨æ„åŠ›)äºï¼›ä¸­å¿ƒï¼›ä¸»é¢˜ä¸º
 829. be capable of
-(Ö¸ÈË)ÓĞÄ³ÖÖÄÜÁ¦»òÇãÏòµÄ
+(æŒ‡äºº)æœ‰æŸç§èƒ½åŠ›æˆ–å€¾å‘çš„
 
 
 
@@ -2502,9233 +2503,9233 @@ goto :eof
 
 
 
-;ËÄ¼¶µ¥´Ê
+;å››çº§å•è¯
 1. abandon[2'b9nd2n]
-vt.¶ªÆú£»·ÅÆú£¬Å×Æú
+vt.ä¸¢å¼ƒï¼›æ”¾å¼ƒï¼ŒæŠ›å¼ƒ
 2. ability[2'biliti]
-n.ÄÜÁ¦£»ÄÜÄÍ£¬±¾Áì
+n.èƒ½åŠ›ï¼›èƒ½è€ï¼Œæœ¬é¢†
 3. able['eibl]
-a.ÓĞÄÜÁ¦µÄ£»³öÉ«µÄ
+a.æœ‰èƒ½åŠ›çš„ï¼›å‡ºè‰²çš„
 4. abnormal[9b'n0:m2l]
-a.²»Õı³£µÄ£»±äÌ¬µÄ
+a.ä¸æ­£å¸¸çš„ï¼›å˜æ€çš„
 5. aboard[2'b0:d]
-ad.ÔÚ´¬(³µ)ÉÏ£»ÉÏ´¬
+ad.åœ¨èˆ¹(è½¦)ä¸Šï¼›ä¸Šèˆ¹
 6. about[2'baut]
-prep.¹ØÓÚ£»ÔÚ¡­ÖÜÎ§
+prep.å…³äºï¼›åœ¨â€¦å‘¨å›´
 7. above[2'b3v]
-prep.ÔÚ¡­ÉÏÃæ£»¸ßÓÚ
+prep.åœ¨â€¦ä¸Šé¢ï¼›é«˜äº
 8. abroad[2'br0:d]
-ad.(ÔÚ)¹úÍâ£»µ½´¦
+ad.(åœ¨)å›½å¤–ï¼›åˆ°å¤„
 9. absence['9bs2ns]
-n.È±Ï¯£¬²»ÔÚ³¡£»È±·¦
+n.ç¼ºå¸­ï¼Œä¸åœ¨åœºï¼›ç¼ºä¹
 10. absent['9bs2nt. 2b'sent]
-a.²»ÔÚ³¡µÄ£»È±·¦µÄ
+a.ä¸åœ¨åœºçš„ï¼›ç¼ºä¹çš„
 11. absolute['9bs2lu:t]
-a.¾ø¶ÔµÄ£»´¿´âµÄ
+a.ç»å¯¹çš„ï¼›çº¯ç²¹çš„
 12. absolutely['9bs2lu:tli]
-ad.ÍêÈ«µØ£»¾ø¶ÔµØ
+ad.å®Œå…¨åœ°ï¼›ç»å¯¹åœ°
 13. absorb[2b's0:b]
-vt.ÎüÊÕ£»Ê¹×¨ĞÄ
+vt.å¸æ”¶ï¼›ä½¿ä¸“å¿ƒ
 14. abstract['9bstr9kt]
-a.³éÏóµÄ n.ÕªÒª
+a.æŠ½è±¡çš„ n.æ‘˜è¦
 15. abundant[2'b3nd2nt]
-a.·á¸»µÄ£»´óÁ¿µÄ
+a.ä¸°å¯Œçš„ï¼›å¤§é‡çš„
 16. abuse[2'bju:z. 2'bju:s]
-vt.ÀÄÓÃ£»Å°´ı n.ÀÄÓÃ
+vt.æ»¥ç”¨ï¼›è™å¾… n.æ»¥ç”¨
 17. academic[9k2'demik]
-a.Ñ§ÔºµÄ£»Ñ§ÊõµÄ
+a.å­¦é™¢çš„ï¼›å­¦æœ¯çš„
 18. academy[2'k9d2mi]
-n.Ë½Á¢ÖĞÑ§£»×¨¿ÆÔºĞ£
+n.ç§ç«‹ä¸­å­¦ï¼›ä¸“ç§‘é™¢æ ¡
 19. accelerate[9k'sel2reit]
-vt.(Ê¹)¼Ó¿ì£»´Ù½ø
+vt.(ä½¿)åŠ å¿«ï¼›ä¿ƒè¿›
 20. acceleration[9ksel2'rei62n]
-n.¼ÓËÙ£»¼ÓËÙ¶È
+n.åŠ é€Ÿï¼›åŠ é€Ÿåº¦
 21. accent['9ks2nt. 9k'sent]
-n.¿ÚÒô£¬Ç»µ÷£»ÖØÒô
+n.å£éŸ³ï¼Œè…”è°ƒï¼›é‡éŸ³
 22. accept[2k'sept]
-vt.vi.½ÓÊÜ£»Í¬Òâ
+vt.vi.æ¥å—ï¼›åŒæ„
 23. acceptable[2k'sept2bl]
-a.¿É½ÓÊÜµÄ£¬ºÏÒâµÄ
+a.å¯æ¥å—çš„ï¼Œåˆæ„çš„
 24. acceptance[2k'sept2ns]
-n.½ÓÊÜ£¬ÑéÊÕ£»³ĞÈÏ
+n.æ¥å—ï¼ŒéªŒæ”¶ï¼›æ‰¿è®¤
 25. access['9kses]
-n.½Ó½ü£»Í¨µÀ£¬Èë¿Ú
+n.æ¥è¿‘ï¼›é€šé“ï¼Œå…¥å£
 26. accessory[9k'ses2ri]
-n.Í¬Ä±£¬´Ó·¸£»¸½¼ş
+n.åŒè°‹ï¼Œä»çŠ¯ï¼›é™„ä»¶
 27. accident['9ksid2nt]
-n.ÒâÍâµÄ£»ÊÂ¹Ê
+n.æ„å¤–çš„ï¼›äº‹æ•…
 28. accidental[9ksi'dentl]
-a.Å¼È»µÄ£»·Ç±¾ÖÊµÄ
+a.å¶ç„¶çš„ï¼›éæœ¬è´¨çš„
 29. accommodate[2'k0m2deit]
-vt.ÈİÄÉ£»¹©Ó¦£¬¹©¸ø
+vt.å®¹çº³ï¼›ä¾›åº”ï¼Œä¾›ç»™
 30. accommodation[2,k0m2'dei62n]
-n.ÕĞ´ıÉè±¸£»Ô¤¶¨ÆÌÎ»
+n.æ‹›å¾…è®¾å¤‡ï¼›é¢„å®šé“ºä½
 31. accompany[2'k3mp2ni]
-vt.Åã°é£¬ÅãÍ¬£»°éËæ
+vt.é™ªä¼´ï¼Œé™ªåŒï¼›ä¼´éš
 32. accomplish[2'k0mpli6]
-vt.´ïµ½(Ä¿µÄ)£»Íê³É
+vt.è¾¾åˆ°(ç›®çš„)ï¼›å®Œæˆ
 33. accord[2'k0:d]
-vt.Ê¹Ò»ÖÂ£»¸øÓè
+vt.ä½¿ä¸€è‡´ï¼›ç»™äºˆ
 34. accordance[2'k0:d2ns]
-n.Ò»ÖÂ£»ºÍĞ³£»ÊÚÓè
+n.ä¸€è‡´ï¼›å’Œè°ï¼›æˆäºˆ
 35. accordingly[2'k0:di8li]
-ad.Òò´Ë£¬ËùÒÔ£»ÕÕ×Å
+ad.å› æ­¤ï¼Œæ‰€ä»¥ï¼›ç…§ç€
 36. account[2'kaunt]
-n.¼ÇÊö£»½âÊÍ£»ÕÊÄ¿
+n.è®°è¿°ï¼›è§£é‡Šï¼›å¸ç›®
 37. accumulate[2'kju:mjuleit]
-vt.»ıÀÛ vi.¶Ñ»ı
+vt.ç§¯ç´¯ vi.å †ç§¯
 38. accuracy['9kjur2si]
-n.×¼È·(ĞÔ)£»×¼È·¶È
+n.å‡†ç¡®(æ€§)ï¼›å‡†ç¡®åº¦
 39. accurate['9kjurit]
-a.×¼È·µÄ£¬ÕıÈ·ÎŞÎóµÄ
+a.å‡†ç¡®çš„ï¼Œæ­£ç¡®æ— è¯¯çš„
 40. accuse[2'kju:z]
-vt.Ö¸Ôğ£»¹é¾ÌÓÚ
+vt.æŒ‡è´£ï¼›å½’å’äº
 41. accustom[2'k3st2m]
-vt.Ê¹Ï°¹ß
+vt.ä½¿ä¹ æƒ¯
 42. accustomed[2'k3st2md]
-a.¹ß³£µÄ£»Ï°¹ßµÄ
+a.æƒ¯å¸¸çš„ï¼›ä¹ æƒ¯çš„
 43. ache[eik]
-vi.Í´£»ÏëÄî n.ÌÛÍ´
+vi.ç—›ï¼›æƒ³å¿µ n.ç–¼ç—›
 44. achieve[2't6i:v]
-vt.Íê³É£¬ÊµÏÖ£»´ïµ½
+vt.å®Œæˆï¼Œå®ç°ï¼›è¾¾åˆ°
 45. achievement[2't6i:vm2nt]
-n.Íê³É£»³É¾Í£¬³É¼¨
+n.å®Œæˆï¼›æˆå°±ï¼Œæˆç»©
 46. acid['9sid]
-n.Ëá£»ËáµÄ£¬ËáĞÔµÄ
+n.é…¸ï¼›é…¸çš„ï¼Œé…¸æ€§çš„
 47. acquaintance[2'kweint2ns]
-n.ÈÏÊ¶£»ÁË½â£»ÊìÈË
+n.è®¤è¯†ï¼›äº†è§£ï¼›ç†Ÿäºº
 48. acquire[2'kwai2]
-vt.È¡µÃ£»»ñµÃ£»Ñ§µ½
+vt.å–å¾—ï¼›è·å¾—ï¼›å­¦åˆ°
 49. acre['eik2]
-n.Ó¢Ä¶(=6.07Ä¶)
+n.è‹±äº©(=6.07äº©)
 50. across[2'kr0s]
-prep.ºá¹ı£»ÔÚ¡­¶ÔÃæ
+prep.æ¨ªè¿‡ï¼›åœ¨â€¦å¯¹é¢
 51. act[9kt]
-vi.ĞĞ¶¯£»¼ûĞ§ n.ĞĞÎª
+vi.è¡ŒåŠ¨ï¼›è§æ•ˆ n.è¡Œä¸º
 52. action['9k62n]
-n.ĞĞ¶¯£»×÷ÓÃ£»¹¦ÄÜ
+n.è¡ŒåŠ¨ï¼›ä½œç”¨ï¼›åŠŸèƒ½
 53. active['9ktiv]
-a.»îÔ¾µÄ£»»ı¼«µÄ
+a.æ´»è·ƒçš„ï¼›ç§¯æçš„
 54. activity[9k'tiviti]
-n.»î¶¯£»»îÁ¦£»ĞĞ¶¯
+n.æ´»åŠ¨ï¼›æ´»åŠ›ï¼›è¡ŒåŠ¨
 55. actor['9kt2]
-n.ÄĞÑİÔ±£»Ñİ¾çµÄÈË
+n.ç”·æ¼”å‘˜ï¼›æ¼”å‰§çš„äºº
 56. actress['9ktris]
-n.Å®ÑİÔ±
+n.å¥³æ¼”å‘˜
 57. actual['9ktju2l]
-a.Êµ¼ÊµÄ£»ÏÖĞĞµÄ
+a.å®é™…çš„ï¼›ç°è¡Œçš„
 58. actually['9ktju2li]
-ad.Êµ¼ÊÉÏ£»¾¹È»
+ad.å®é™…ä¸Šï¼›ç«Ÿç„¶
 59. acute[2'kju:t]
-a.¼âµÄ£¬ÈñµÄ£»ÃôÈñµÄ
+a.å°–çš„ï¼Œé”çš„ï¼›æ•é”çš„
 60. ad[9d]
-n.¹ã¸æ
+n.å¹¿å‘Š
 61. adapt[2'd9pt]
-vt.Ê¹ÊÊÓ¦£»¸Ä±à
+vt.ä½¿é€‚åº”ï¼›æ”¹ç¼–
 62. add[9d]
-vt.Ìí¼Ó£¬¸½¼Ó£¬²ô¼Ó
+vt.æ·»åŠ ï¼Œé™„åŠ ï¼ŒæºåŠ 
 63. addition[2'di62n]
-n.¼Ó£¬¼Ó·¨£»¸½¼ÓÎï
+n.åŠ ï¼ŒåŠ æ³•ï¼›é™„åŠ ç‰©
 64. additional[2'di62nl]
-a.¸½¼ÓµÄ£¬×·¼ÓµÄ
+a.é™„åŠ çš„ï¼Œè¿½åŠ çš„
 65. address[2'dres]
-n.µØÖ·£»ÑİËµ£»Ì¸ÍÂ
+n.åœ°å€ï¼›æ¼”è¯´ï¼›è°ˆå
 66. adequate['9dikwit]
-a.×ã¹»µÄ£»¿ÉÒÔÊ¤ÈÎµÄ
+a.è¶³å¤Ÿçš„ï¼›å¯ä»¥èƒœä»»çš„
 67. adjective['9d7iktiv]
-n.ĞÎÈİ´Ê a.ĞÎÈİ´ÊµÄ
+n.å½¢å®¹è¯ a.å½¢å®¹è¯çš„
 68. adjust[2'd73st]
-vt.µ÷Õû£¬µ÷½Ú£»Ğ£Õı
+vt.è°ƒæ•´ï¼Œè°ƒèŠ‚ï¼›æ ¡æ­£
 69. administration[2dminis'trei62n]
-n.¹ÜÀí£»¹ÜÀí²¿ÃÅ
+n.ç®¡ç†ï¼›ç®¡ç†éƒ¨é—¨
 70. admire[2d'mai2]
-vt.ÇÕÅå£¬ÏÛÄ½£¬ÔŞÉÍ
+vt.é’¦ä½©ï¼Œç¾¡æ…•ï¼Œèµèµ
 71. admission[2d'mi62n]
-n.ÔÊĞí½øÈë£»³ĞÈÏ
+n.å…è®¸è¿›å…¥ï¼›æ‰¿è®¤
 72. admit[2d'mit]
-vt.³ĞÈÏ£»×¼Ğí¡­½øÈë
+vt.æ‰¿è®¤ï¼›å‡†è®¸â€¦è¿›å…¥
 73. adopt[2'd0pt]
-vt.ÊÕÑø£»²ÉÓÃ£»²ÉÈ¡
+vt.æ”¶å…»ï¼›é‡‡ç”¨ï¼›é‡‡å–
 74. adult['9d3lt]
-n.³ÉÄêÈË a.³ÉÄêµÄ
+n.æˆå¹´äºº a.æˆå¹´çš„
 75. advance[2d'va:ns]
-vi.Ç°½ø£»Ìá¸ß n.½øÕ¹
+vi.å‰è¿›ï¼›æé«˜ n.è¿›å±•
 76. advanced[2d'va:nst]
-a.ÏÈ½øµÄ£»¸ß¼¶µÄ
+a.å…ˆè¿›çš„ï¼›é«˜çº§çš„
 77. advantage[2d'va:ntid7]
-n.ÓÅµã£¬ÓÅÊÆ£»ºÃ´¦
+n.ä¼˜ç‚¹ï¼Œä¼˜åŠ¿ï¼›å¥½å¤„
 78. adventure[2d'vent62]
-n.Ã°ÏÕ£»¾ªÏÕ»î¶¯
+n.å†’é™©ï¼›æƒŠé™©æ´»åŠ¨
 79. adverb['9dv2:b]
-n.¸±´Ê
+n.å‰¯è¯
 80. advertisement[2d'v2:tism2nt]
-n.¹ã¸æ£»¹«¸æ£»µÇ¹ã¸æ
+n.å¹¿å‘Šï¼›å…¬å‘Šï¼›ç™»å¹¿å‘Š
 81. advice[2d'vais]
-n.È°¸æ£»ÖÒ¸æ£»Òâ¼û
+n.åŠå‘Šï¼›å¿ å‘Šï¼›æ„è§
 82. advisable[2d'vaiz2bl]
-n.Ã÷ÖÇµÄ£»¿ÉÈ¡µÄ
+n.æ˜æ™ºçš„ï¼›å¯å–çš„
 83. advise[2d'vaiz]
-vt.È°¸æ£»½¨Òé£»Í¨Öª
+vt.åŠå‘Šï¼›å»ºè®®ï¼›é€šçŸ¥
 84. aeroplane['/2r2plein]
-n.·É»ú
+n.é£æœº
 85. affair[2'f/2]
-n.ÊÂÇé£¬ÊÂ¼ş£»ÊÂÎñ
+n.äº‹æƒ…ï¼Œäº‹ä»¶ï¼›äº‹åŠ¡
 86. affect[2'fekt]
-vt.Ó°Ïì£»¸Ğ¶¯
+vt.å½±å“ï¼›æ„ŸåŠ¨
 87. affection[2'fek62n]
-n.´È°®£¬°®£»°®Ä½
+n.æ…ˆçˆ±ï¼Œçˆ±ï¼›çˆ±æ…•
 88. afford[2'f0:d]
-vt.µ£¸ºµÃÆğ¡­£»Ìá¹©
+vt.æ‹…è´Ÿå¾—èµ·â€¦ï¼›æä¾›
 89. afraid[2'freid]
-a.º¦ÅÂµÄ£»µ£ĞÄµÄ
+a.å®³æ€•çš„ï¼›æ‹…å¿ƒçš„
 90. Africa['9frik2]
-n.·ÇÖŞ
+n.éæ´²
 91. African['9frik2n]
-a.·ÇÖŞµÄ n.·ÇÖŞÈË
+a.éæ´²çš„ n.éæ´²äºº
 92. after['a:ft2]
-prep.ÔÚ¡­ÒÔºó£»´ÎÓÚ
+prep.åœ¨â€¦ä»¥åï¼›æ¬¡äº
 93. afternoon['a:ft2'nu:n]
-n.ÏÂÎç£¬Îçºó
+n.ä¸‹åˆï¼Œåˆå
 94. afterward['a:ft2w2d(z)]
-ad.ºóÀ´£¬ÒÔºó
+ad.åæ¥ï¼Œä»¥å
 95. again[2'gein. 2'gen]
-ad.ÓÖÒ»´Î£»¶øÇÒ
+ad.åˆä¸€æ¬¡ï¼›è€Œä¸”
 96. against[2'geinst. 2'genst]
-prep.ÒĞÔÚ£»Äæ£¬¶Ô×Å
+prep.å€šåœ¨ï¼›é€†ï¼Œå¯¹ç€
 97. age[eid7]
-n.ÄêÁä£»Ê±´ú vt.±äÀÏ
+n.å¹´é¾„ï¼›æ—¶ä»£ vt.å˜è€
 98. agency['eid72nsi]
-n.¾­°ì£»´úÀí£»´úÀí´¦
+n.ç»åŠï¼›ä»£ç†ï¼›ä»£ç†å¤„
 99. agent['eid72nt]
-n.´úÀíÈË£¬´úÀíÉÌ
+n.ä»£ç†äººï¼Œä»£ç†å•†
 100. aggressive[2'gresiv]
-a.ÇÖÂÔµÄ£»ºÃ¶·µÄ
+a.ä¾µç•¥çš„ï¼›å¥½æ–—çš„
 101. ago[2'g2u]
-ad.ÒÔÇ°
+ad.ä»¥å‰
 102. agony['9g2ni]
-n.¼«¶ÈÍ´¿à
+n.æåº¦ç—›è‹¦
 103. agree[2'gri:]
-vi.Í¬Òâ£»³ÖÏàÍ¬Òâ¼û
+vi.åŒæ„ï¼›æŒç›¸åŒæ„è§
 104. agreement[2'gri:m2nt]
-n.Ğ­¶¨£¬Ğ­Òé£»Í¬Òâ
+n.åå®šï¼Œåè®®ï¼›åŒæ„
 105. agriculture['9grik3lt62]
-n.Å©Òµ£¬Å©ÒÕ£»Å©Ñ§
+n.å†œä¸šï¼Œå†œè‰ºï¼›å†œå­¦
 106. ahead[2'hed]
-ad.ÔÚÇ°£»ÏòÇ°£»ÌáÇ°
+ad.åœ¨å‰ï¼›å‘å‰ï¼›æå‰
 107. aid[eid]
-n.°ïÖú£¬¾È»¤£»ÖúÊÖ
+n.å¸®åŠ©ï¼Œæ•‘æŠ¤ï¼›åŠ©æ‰‹
 108. aim[eim]
-vi.Ãé×¼£¬Õë¶Ô£»ÖÂÁ¦
+vi.ç„å‡†ï¼Œé’ˆå¯¹ï¼›è‡´åŠ›
 109. air[/2]
-n.¿ÕÆø£»¿ÕÖĞ£»Íâ¹Û
+n.ç©ºæ°”ï¼›ç©ºä¸­ï¼›å¤–è§‚
 110. aircraft['/2kra:ft]
-n.·É»ú£¬·ÉĞĞÆ÷
+n.é£æœºï¼Œé£è¡Œå™¨
 111. airline['/2lain]
-n.º½¿Õ¹«Ë¾£»º½Ïß
+n.èˆªç©ºå…¬å¸ï¼›èˆªçº¿
 112. airplane['/2plein]
-n.·É»ú
+n.é£æœº
 113. airport['/2p0:t]
-n.»ú³¡£¬º½¿ÕÕ¾
+n.æœºåœºï¼Œèˆªç©ºç«™
 114. alarm[2'la:m]
-n.¾ª¿Ö£¬ÓÇÂÇ£»¾¯±¨
+n.æƒŠæï¼Œå¿§è™‘ï¼›è­¦æŠ¥
 115. alcohol['9lk2h0l]
-n.¾Æ¾«£¬ÒÒ´¼
+n.é…’ç²¾ï¼Œä¹™é†‡
 116. alike[2'laik]
-a.Í¬ÑùµÄ£¬ÏàÍ¬µÄ
+a.åŒæ ·çš„ï¼Œç›¸åŒçš„
 117. alive[2'laiv]
-a.»î×ÅµÄ£»»îÔ¾µÄ
+a.æ´»ç€çš„ï¼›æ´»è·ƒçš„
 118. all[0:l]
-a.È«²¿µÄ prep.È«²¿
+a.å…¨éƒ¨çš„ prep.å…¨éƒ¨
 119. allow[2'lau]
-vt.ÔÊĞí£¬×¼Ğí£»ÈÎ
+vt.å…è®¸ï¼Œå‡†è®¸ï¼›ä»»
 120. alloy['9l0i. 2'l0i]
-n.ºÏ½ğ£»(½ğÊôµÄ)³ÉÉ«
+n.åˆé‡‘ï¼›(é‡‘å±çš„)æˆè‰²
 121. almost['0:lm2ust]
-ad.¼¸ºõ£¬²î²»¶à
+ad.å‡ ä¹ï¼Œå·®ä¸å¤š
 122. alone[2'l2un]
-a.µ¥¶ÀµÄ ad.µ¥¶ÀµØ
+a.å•ç‹¬çš„ ad.å•ç‹¬åœ°
 123. along[2'l08]
-prep.ÑØ×Å ad.ÏòÇ°
+prep.æ²¿ç€ ad.å‘å‰
 124. aloud[2'laud]
-ad.³öÉùµØ£¬´óÉùµØ
+ad.å‡ºå£°åœ°ï¼Œå¤§å£°åœ°
 125. alphabet['9lf2bit]
-n.×ÖÄ¸±í£¬×ÖÄ¸ÏµÍ³
+n.å­—æ¯è¡¨ï¼Œå­—æ¯ç³»ç»Ÿ
 126. already[0:l'redi]
-ad.ÔçÒÑ£¬ÒÑ¾­
+ad.æ—©å·²ï¼Œå·²ç»
 127. also['0:ls2u]
-ad.Òà£¬Ò²£»¶øÇÒ£¬»¹
+ad.äº¦ï¼Œä¹Ÿï¼›è€Œä¸”ï¼Œè¿˜
 128. alter['0:lt2]
-vt.¸Ä±ä£¬±ä¸ü£»¸Ä×ö
+vt.æ”¹å˜ï¼Œå˜æ›´ï¼›æ”¹åš
 129. alternative[0:l't2:n2tiv]
-n.Ìæ»»Îï£»È¡Éá£¬¾ñÔñ
+n.æ›¿æ¢ç‰©ï¼›å–èˆï¼ŒæŠ‰æ‹©
 130. although[0:l'52u]
-conj.¾¡¹Ü£¬ËäÈ»
+conj.å°½ç®¡ï¼Œè™½ç„¶
 131. altitude['9ltitju:d]
-n.¸ß£¬¸ß¶È£»¸ß´¦
+n.é«˜ï¼Œé«˜åº¦ï¼›é«˜å¤„
 132. altogether[0:lt2'ge52]
-ad.ÍêÈ«£»×Ü¶øÑÔÖ®
+ad.å®Œå…¨ï¼›æ€»è€Œè¨€ä¹‹
 133. aluminium[9lju'minj2m]
-n.ÂÁ
+n.é“
 134. always['0:lweiz. '0:lw2z]
-ad.×ÜÊÇ£¬Ò»Ö±£»ÓÀÔ¶
+ad.æ€»æ˜¯ï¼Œä¸€ç›´ï¼›æ°¸è¿œ
 135. a.m[]
-(Ëõ)ÉÏÎç£¬ÎçÇ°
+(ç¼©)ä¸Šåˆï¼Œåˆå‰
 136. amaze[2'meiz]
-vt.Ê¹¾ªÆæ£¬Ê¹¾ªãµ
+vt.ä½¿æƒŠå¥‡ï¼Œä½¿æƒŠæ„•
 137. ambition[9m'bi62n]
-n.ĞÛĞÄ£¬±§¸º£¬Ò°ĞÄ
+n.é›„å¿ƒï¼ŒæŠ±è´Ÿï¼Œé‡å¿ƒ
 138. ambulance['9mbjul2ns]
-n.¾È»¤³µ£»Ò°Õ½Ò½Ôº
+n.æ•‘æŠ¤è½¦ï¼›é‡æˆ˜åŒ»é™¢
 139. America[2'merik2]
-n.ÃÀÖŞ£»ÃÀ¹ú
+n.ç¾æ´²ï¼›ç¾å›½
 140. American[2'merik2n]
-a.ÃÀÖŞµÄ n.ÃÀ¹úÈË
+a.ç¾æ´²çš„ n.ç¾å›½äºº
 141. among[2'm38]
-prep.ÔÚ¡­Ö®ÖĞ
+prep.åœ¨â€¦ä¹‹ä¸­
 142. amongst[2'm38st]
-prepÔÚ¡­Ö®ÖĞ(=among)
+prepåœ¨â€¦ä¹‹ä¸­(=among)
 143. amount[2'maunt]
-n.×ÜÊı£»ÊıÁ¿£»ºÍ
+n.æ€»æ•°ï¼›æ•°é‡ï¼›å’Œ
 144. ampere['9mp/2]
-n.°²Åà
+n.å®‰åŸ¹
 145. amplify['9mplifai]
-vt.·Å´ó£¬ÔöÇ¿£»À©´ó
+vt.æ”¾å¤§ï¼Œå¢å¼ºï¼›æ‰©å¤§
 146. amuse[2'mju:z]
-vt.¶º¡­ÀÖ£»¸ø¡­ÓéÀÖ
+vt.é€—â€¦ä¹ï¼›ç»™â€¦å¨±ä¹
 147. analyse['9n2laiz]
-vt.·ÖÎö£¬·Ö½â£¬½âÎö
+vt.åˆ†æï¼Œåˆ†è§£ï¼Œè§£æ
 148. analysis[2'n9l2sis]
-n.·ÖÎö£¬·Ö½â£¬½âÎö
+n.åˆ†æï¼Œåˆ†è§£ï¼Œè§£æ
 149. ancestor['9nsist2]
-n.×æ×Ú£¬×æÏÈ
+n.ç¥–å®—ï¼Œç¥–å…ˆ
 150. anchor['98k2]
-n.Ãª vi.Å×Ãª£¬Í£²´
+n.é”š vi.æŠ›é”šï¼Œåœæ³Š
 151. ancient['ein62nt]
-a.¹Å´úµÄ£¬¹ÅÀÏµÄ
+a.å¤ä»£çš„ï¼Œå¤è€çš„
 152. and[9nd. 2nd]
-conj.ºÍ£¬ÓÖ£¬²¢£¬Ôò
+conj.å’Œï¼Œåˆï¼Œå¹¶ï¼Œåˆ™
 153. angel['eind72l]
-n.ÌìÊ¹£¬Éñ²î£¬°²ç÷¶ù
+n.å¤©ä½¿ï¼Œç¥å·®ï¼Œå®‰çªå„¿
 154. anger['98g2]
-n.Å­£¬·ßÅ­ vt.Ê¹·¢Å­
+n.æ€’ï¼Œæ„¤æ€’ vt.ä½¿å‘æ€’
 155. angle['98gl]
-n.½Ç£¬½Ç¶È
+n.è§’ï¼Œè§’åº¦
 156. angry['98gri]
-a.·ßÅ­µÄ£¬ÉúÆøµÄ
+a.æ„¤æ€’çš„ï¼Œç”Ÿæ°”çš„
 157. animal['9nim2l]
-n.¶¯Îï£¬ÊŞ a.¶¯ÎïµÄ
+n.åŠ¨ç‰©ï¼Œå…½ a.åŠ¨ç‰©çš„
 158. ankle['98kl]
-n.õ×£¬õ×½Ú²¿
+n.è¸ï¼Œè¸èŠ‚éƒ¨
 159. announce[2'nauns]
-vt.Ğû²¼£¬Ğû¸æ£¬·¢±í
+vt.å®£å¸ƒï¼Œå®£å‘Šï¼Œå‘è¡¨
 160. announcer[2'nauns2]
-n.Ğû¸æÕß£»²¥ÒôÔ±
+n.å®£å‘Šè€…ï¼›æ’­éŸ³å‘˜
 161. annoy[2'n0i]
-vt.Ê¹ÄÕÅ­£»´ò½Á
+vt.ä½¿æ¼æ€’ï¼›æ‰“æ…
 162. annual['9nju2l]
-a.Ã¿ÄêµÄ n.Äê±¨
+a.æ¯å¹´çš„ n.å¹´æŠ¥
 163. another[2'n352]
-a.ÔÙÒ»¸öµÄ£»±ğµÄ
+a.å†ä¸€ä¸ªçš„ï¼›åˆ«çš„
 164. answer['a:ns2]
-vt.»Ø´ğ£»ÏìÓ¦£»ÊÊÓ¦
+vt.å›ç­”ï¼›å“åº”ï¼›é€‚åº”
 165. ant[9nt]
-n.ÂìÒÏ
+n.èš‚èš
 166. anticipate[9n'tisipeit]
-vt.Ô¤ÁÏ£¬Ô¤ÆÚ£¬ÆÚÍû
+vt.é¢„æ–™ï¼Œé¢„æœŸï¼ŒæœŸæœ›
 167. anxiety[98g'zai2ti]
-n.½¹ÂÇ£¬ÓÇÂÇ£»¿ÊÍû
+n.ç„¦è™‘ï¼Œå¿§è™‘ï¼›æ¸´æœ›
 168. anxious['98k62s]
-a.ÓÇÂÇµÄ£»¿ÊÍûµÄ
+a.å¿§è™‘çš„ï¼›æ¸´æœ›çš„
 169. any['eni]
-a.Ê²Ã´£¬Ò»Ğ©£»ÈÎºÎµÄ
+a.ä»€ä¹ˆï¼Œä¸€äº›ï¼›ä»»ä½•çš„
 170. anybody['enib0di]
-prep.ÈÎºÎÈË
+prep.ä»»ä½•äºº
 171. anyhow['enihau]
-ad.ÎŞÂÛÈçºÎ
+ad.æ— è®ºå¦‚ä½•
 172. anyone['eniw3n]
-pron.ÈÎºÎÈË
+pron.ä»»ä½•äºº
 173. anything['eni4i8]
-pron.ÈÎºÎÊÂÎï£»Ò»ÇĞ
+pron.ä»»ä½•äº‹ç‰©ï¼›ä¸€åˆ‡
 174. anyway['eniwei]
-ad.ÎŞÂÛÈçºÎ
+ad.æ— è®ºå¦‚ä½•
 175. anywhere['eniw/2]
-ad.ÔÚÊ²Ã´µØ·½
+ad.åœ¨ä»€ä¹ˆåœ°æ–¹
 176. apart[2'pa:t]
-ad.Ïà¸ô£»·Ö¿ª£»³ıÈ¥
+ad.ç›¸éš”ï¼›åˆ†å¼€ï¼›é™¤å»
 177. apartment[2'pa:tm2nt]
-n.Ò»Ì×¹«Ô¢·¿¼ä
+n.ä¸€å¥—å…¬å¯“æˆ¿é—´
 178. apologize[2'p0l2d7aiz]
-vi.µÀÇ¸£¬Ğ»×ï£¬ÈÏ´í
+vi.é“æ­‰ï¼Œè°¢ç½ªï¼Œè®¤é”™
 179. apology[2'p0l2d7i]
-n.µÀÇ¸£¬ÈÏ´í£¬Ğ»×ï
+n.é“æ­‰ï¼Œè®¤é”™ï¼Œè°¢ç½ª
 180. apparatus[,9p2'reit2s]
-n.Æ÷Ğµ£¬ÒÇÆ÷£»Æ÷¹Ù
+n.å™¨æ¢°ï¼Œä»ªå™¨ï¼›å™¨å®˜
 181. apparent[2'p9r2nt]
-a.±íÃæÉÏµÄ£»Ã÷ÏÔµÄ
+a.è¡¨é¢ä¸Šçš„ï¼›æ˜æ˜¾çš„
 182. appeal[2'pi:l]
-vi.&n.ºôÓõ£»ÉêÊö
+vi.&n.å‘¼åï¼›ç”³è¿°
 183. appear[2'pi2]
-vi.³öÏÖ£»À´µ½£»ËÆºõ
+vi.å‡ºç°ï¼›æ¥åˆ°ï¼›ä¼¼ä¹
 184. appearance[2'pi2r2ns]
-n.³öÏÖ£¬À´µ½£»Íâ¹Û
+n.å‡ºç°ï¼Œæ¥åˆ°ï¼›å¤–è§‚
 185. appetite['9pitait]
-n.Ê³Óû£¬Î¸¿Ú£»ÓûÍû
+n.é£Ÿæ¬²ï¼Œèƒƒå£ï¼›æ¬²æœ›
 186. apple['9pl]
-n.Æ»¹û£¬Æ»¹ûÊ÷
+n.è‹¹æœï¼Œè‹¹æœæ ‘
 187. appliance[2'plai2ns]
-n.ÓÃ¾ß£¬Æ÷¾ß£¬Æ÷Ğµ
+n.ç”¨å…·ï¼Œå™¨å…·ï¼Œå™¨æ¢°
 188. applicable['9plik2bl]
-a.ÄÜÓ¦ÓÃµÄ£»ÊÊµ±µÄ
+a.èƒ½åº”ç”¨çš„ï¼›é€‚å½“çš„
 189. application[9pli'kei62n]
-n.ÇëÇó£¬ÉêÇë£»Ê©ÓÃ
+n.è¯·æ±‚ï¼Œç”³è¯·ï¼›æ–½ç”¨
 190. apply[2'plai]
-vt.Ó¦ÓÃ£¬ÊµÊ©£¬Ê¹ÓÃ
+vt.åº”ç”¨ï¼Œå®æ–½ï¼Œä½¿ç”¨
 191. appoint[2'p0int]
-vt.ÈÎÃü£¬Î¯ÈÎ£»Ô¼¶¨
+vt.ä»»å‘½ï¼Œå§”ä»»ï¼›çº¦å®š
 192. appointment[2'p0intm2nt]
-n.ÈÎÃü£»Ô¼¶¨£¬Ô¼»á
+n.ä»»å‘½ï¼›çº¦å®šï¼Œçº¦ä¼š
 193. appreciate[2'pri:6ieit]
-vt.ĞÀÉÍ£»Áì»á£»¸ĞĞ»
+vt.æ¬£èµï¼›é¢†ä¼šï¼›æ„Ÿè°¢
 194. approach[2'pr2ut6]
-vt.Ïò¡­¿¿½ü n.¿¿½ü
+vt.å‘â€¦é è¿‘ n.é è¿‘
 195. appropriate[2'pr2upriit]
-a.ÊÊµ±µÄ£¬Ç¡µ±µÄ
+a.é€‚å½“çš„ï¼Œæ°å½“çš„
 196. approval[2'pru:v2l]
-n.ÔŞ³É£¬Í¬Òâ£»Åú×¼
+n.èµæˆï¼ŒåŒæ„ï¼›æ‰¹å‡†
 197. approve[2'pru:v]
-vt.ÔŞ³É£¬³ÆĞí£»Åú×¼
+vt.èµæˆï¼Œç§°è®¸ï¼›æ‰¹å‡†
 198. approximate[2'pr0ksimit]
-a.½üËÆµÄ vt.½üËÆ
+a.è¿‘ä¼¼çš„ vt.è¿‘ä¼¼
 199. approximately[2'pr0ksimitli]
-ad.½üËÆµØ£¬´óÔ¼
+ad.è¿‘ä¼¼åœ°ï¼Œå¤§çº¦
 200. April['eipr2l]
-n.ËÄÔÂ
+n.å››æœˆ
 201. Arabian[2'reibj2n]
-a.°¢À­²®µÄ
+a.é˜¿æ‹‰ä¼¯çš„
 202. arbitrary['a:bitr2ri]
-a.ËæĞÄËùÓûµÄ£»×¨¶ÏµÄ
+a.éšå¿ƒæ‰€æ¬²çš„ï¼›ä¸“æ–­çš„
 203. architecture['a:kitekt62]
-n.½¨ÖşÑ§£»½¨ÖşÊ½Ñù
+n.å»ºç­‘å­¦ï¼›å»ºç­‘å¼æ ·
 204. area['/2ri2]
-n.Ãæ»ı£»µØÇø£»ÁìÓò
+n.é¢ç§¯ï¼›åœ°åŒºï¼›é¢†åŸŸ
 205. argue['a:gju:]
-vi.ÕùÂÛ£¬Õù±ç£¬±çÂÛ
+vi.äº‰è®ºï¼Œäº‰è¾©ï¼Œè¾©è®º
 206. argument['a:gju:m2nt]
-n.ÕùÂÛ£¬±çÂÛ£»ÀíÓÉ
+n.äº‰è®ºï¼Œè¾©è®ºï¼›ç†ç”±
 207. arise[2'raiz]
-vi.³öÏÖ£»ÓÉ¡­ÒıÆğ
+vi.å‡ºç°ï¼›ç”±â€¦å¼•èµ·
 208. arithmetic[2'ri4m2tik]
-n.ËãÊõ£¬ËÄÔòÔËËã
+n.ç®—æœ¯ï¼Œå››åˆ™è¿ç®—
 209. arm[a:m]
-n.±Û£»±Û×´Îï£»ÎäÆ÷
+n.è‡‚ï¼›è‡‚çŠ¶ç‰©ï¼›æ­¦å™¨
 210. army['a:mi]
-n.¾ü¶Ó£»Â½¾ü
+n.å†›é˜Ÿï¼›é™†å†›
 211. around[2'raund]
-prep.ÔÚ¡­ÖÜÎ§
+prep.åœ¨â€¦å‘¨å›´
 212. arouse[2'rauz]
-vt.ÒıÆğ£¬»½Æğ£»»½ĞÑ
+vt.å¼•èµ·ï¼Œå”¤èµ·ï¼›å”¤é†’
 213. arrange[2'reind7]
-vt.³ï±¸£»ÕûÀí£»µ÷½â
+vt.ç­¹å¤‡ï¼›æ•´ç†ï¼›è°ƒè§£
 214. arrangement[2'reind7m2nt]
-n.ÕûÀí£¬ÅÅÁĞ£»°²ÅÅ
+n.æ•´ç†ï¼Œæ’åˆ—ï¼›å®‰æ’
 215. arrest[2'rest]
-vt.´ş²¶£¬¾ĞÁô£»×èÖ¹
+vt.é€®æ•ï¼Œæ‹˜ç•™ï¼›é˜»æ­¢
 216. arrival[2'raiv2l]
-n.µ½´ï£»µ½À´£»µ½´ïÕß
+n.åˆ°è¾¾ï¼›åˆ°æ¥ï¼›åˆ°è¾¾è€…
 217. arrive[2'raiv]
-vi.µ½´ï£»À´ÁÙ£»´ïµ½
+vi.åˆ°è¾¾ï¼›æ¥ä¸´ï¼›è¾¾åˆ°
 218. arrow['9r2u]
-n.¼ı£»¼ı×´Îï
+n.ç®­ï¼›ç®­çŠ¶ç‰©
 219. art[a:t]
-n.ÒÕÊõ£¬ÃÀÊõ£»¼¼Êõ
+n.è‰ºæœ¯ï¼Œç¾æœ¯ï¼›æŠ€æœ¯
 220. article['a:tikl]
-n.ÎÄÕÂ£»Ìõ¿î£»ÎïÆ·
+n.æ–‡ç« ï¼›æ¡æ¬¾ï¼›ç‰©å“
 221. artificial[a:ti'fi62l]
-a.ÈË¹¤µÄ£»½¿ÈàÔì×÷µÄ
+a.äººå·¥çš„ï¼›å¨‡æ‰é€ ä½œçš„
 222. artist['a:tist]
-n.ÒÕÊõ¼Ò£¬ÃÀÊõ¼Ò
+n.è‰ºæœ¯å®¶ï¼Œç¾æœ¯å®¶
 223. artistic[a:'tistik]
-a.ÒÕÊõµÄ£»ÒÕÊõ¼ÒµÄ
+a.è‰ºæœ¯çš„ï¼›è‰ºæœ¯å®¶çš„
 224. as[9z. 2z]
-conj.µ±¡­µÄÊ±ºò
+conj.å½“â€¦çš„æ—¶å€™
 225. ash[96]
-n.»Ò£¬»ÒÄ©£»¹Ç»Ò
+n.ç°ï¼Œç°æœ«ï¼›éª¨ç°
 226. ashamed[2'6eimd]
-a.²ÑÀ¢(µÄ)£»Ğß³Ü(µÄ)
+a.æƒ­æ„§(çš„)ï¼›ç¾è€»(çš„)
 227. Asia['ei62]
-n.ÑÇÖŞ
+n.äºšæ´²
 228. Asian['ei62n]
-a.ÑÇÖŞµÄ n.ÑÇÖŞÈË
+a.äºšæ´²çš„ n.äºšæ´²äºº
 229. aside[2'said]
-ad.ÔÚÅÔ±ß£¬µ½ÅÔ±ß
+ad.åœ¨æ—è¾¹ï¼Œåˆ°æ—è¾¹
 230. ask[a:sk]
-vt.ÎÊ£»ÒªÇó£»ÑûÇë
+vt.é—®ï¼›è¦æ±‚ï¼›é‚€è¯·
 231. asleep[2'sli:p]
-a.Ë¯×ÅµÄ£¬Ë¯ÊìµÄ
+a.ç¡ç€çš„ï¼Œç¡ç†Ÿçš„
 232. aspect['9spekt]
-n.·½Ãæ£»Ñù×Ó£¬Íâ±í
+n.æ–¹é¢ï¼›æ ·å­ï¼Œå¤–è¡¨
 233. assemble[2'sembl]
-vt.¼¯ºÏ£¬ÕÙ¼¯£»×°Åä
+vt.é›†åˆï¼Œå¬é›†ï¼›è£…é…
 234. assembly[2'sembli]
-n.¼¯ºÏ£»¼¯»á£»×°Åä
+n.é›†åˆï¼›é›†ä¼šï¼›è£…é…
 235. assess[2'ses]
-vt.¶Ô(²Æ²úµÈ)¹À¼Û
+vt.å¯¹(è´¢äº§ç­‰)ä¼°ä»·
 236. assign[2'sain]
-vt.Ö¸ÅÉ£»·ÖÅä£»Ö¸¶¨
+vt.æŒ‡æ´¾ï¼›åˆ†é…ï¼›æŒ‡å®š
 237. assignment[2'sainm2nt]
-n.ÈÎÎñ£¬Ö¸¶¨µÄ×÷Òµ
+n.ä»»åŠ¡ï¼ŒæŒ‡å®šçš„ä½œä¸š
 238. assist[2'sist]
-vt.Ô®Öú£¬°ïÖú£»²ó·ö
+vt.æ´åŠ©ï¼Œå¸®åŠ©ï¼›æ€æ‰¶
 239. assistant[2'sist2nt]
-n.ÖúÊÖ£¬ÖúÀí£»Öú½Ì
+n.åŠ©æ‰‹ï¼ŒåŠ©ç†ï¼›åŠ©æ•™
 240. associate[2's2u6ieit]
-vi.½»Íù n.»ï°é£¬Í¬ÊÂ
+vi.äº¤å¾€ n.ä¼™ä¼´ï¼ŒåŒäº‹
 241. association[2s2usi'ei62n]
-n.Ğ­»á£¬ÍÅÌå£»ÁªºÏ
+n.åä¼šï¼Œå›¢ä½“ï¼›è”åˆ
 242. assume[2'sju:m]
-vt.¼Ù¶¨£»³Ğµ££»³ÊÏÖ
+vt.å‡å®šï¼›æ‰¿æ‹…ï¼›å‘ˆç°
 243. assure[2'6u2]
-vt.Ê¹È·ĞÅ£»Ïò¡­±£Ö¤
+vt.ä½¿ç¡®ä¿¡ï¼›å‘â€¦ä¿è¯
 244. astonish[2s't0ni6]
-vt.Ê¹¾ªÑÈ£¬Ê¹³Ô¾ª
+vt.ä½¿æƒŠè®¶ï¼Œä½¿åƒæƒŠ
 245. astronaut['9st62un0:t]
-n.ÓîÖæº½ĞĞÔ±£¬Óîº½Ô±
+n.å®‡å®™èˆªè¡Œå‘˜ï¼Œå®‡èˆªå‘˜
 246. at[9t. 2t]
-prep.ÔÚ¡­Àï£»ÔÚ¡­Ê±
+prep.åœ¨â€¦é‡Œï¼›åœ¨â€¦æ—¶
 247. athlete['94li:t]
-n.ÔË¶¯Ô±£»Ìï¾¶ÔË¶¯Ô±
+n.è¿åŠ¨å‘˜ï¼›ç”°å¾„è¿åŠ¨å‘˜
 248. Atlantic[2t'l9ntik]
-a.´óÎ÷ÑóµÄ n.´óÎ÷Ñó
+a.å¤§è¥¿æ´‹çš„ n.å¤§è¥¿æ´‹
 249. atmosphere['9tm2sfi2]
-n.´óÆø£»¿ÕÆø£»Æø·Õ
+n.å¤§æ°”ï¼›ç©ºæ°”ï¼›æ°”æ°›
 250. atmospheric[9tm2s'ferik]
-a.´óÆøµÄ£»´óÆø²ãµÄ
+a.å¤§æ°”çš„ï¼›å¤§æ°”å±‚çš„
 251. atom['9t2m]
-n.Ô­×Ó£»Î¢Á££»Î¢Á¿
+n.åŸå­ï¼›å¾®ç²’ï¼›å¾®é‡
 252. atomic[2't0mik]
-a.Ô­×ÓµÄ£»Ô­×ÓÄÜµÄ
+a.åŸå­çš„ï¼›åŸå­èƒ½çš„
 253. attach[2't9t6]
-vt.¸¿£¬Ïµ£¬Ìù£»¸½¼Ó
+vt.ç¼šï¼Œç³»ï¼Œè´´ï¼›é™„åŠ 
 254. attack[2't9k]
-vt.&vi.&n.¹¥»÷£¬½ø¹¥
+vt.&vi.&n.æ”»å‡»ï¼Œè¿›æ”»
 255. attain[2'tein]
-vt.´ïµ½£¬»ñµÃ£¬Íê³É
+vt.è¾¾åˆ°ï¼Œè·å¾—ï¼Œå®Œæˆ
 256. attempt[2'tempt]
-vt.³¢ÊÔ£¬ÊÔÍ¼ n.ÆóÍ¼
+vt.å°è¯•ï¼Œè¯•å›¾ n.ä¼å›¾
 257. attend[2'tend]
-vt.³öÏ¯£»ÕÕ¹Ë£¬»¤Àí
+vt.å‡ºå¸­ï¼›ç…§é¡¾ï¼ŒæŠ¤ç†
 258. attention[2'ten62n]
-n.×¢Òâ£¬ÁôĞÄ£»×¢ÒâÁ¦
+n.æ³¨æ„ï¼Œç•™å¿ƒï¼›æ³¨æ„åŠ›
 259. attentive[2'tentiv]
-a.×¢ÒâµÄ£»ÓĞÀñÃ²µÄ
+a.æ³¨æ„çš„ï¼›æœ‰ç¤¼è²Œçš„
 260. attitude['9titju:d]
-n.Ì¬¶È£¬¿´·¨£»×ËÊÆ
+n.æ€åº¦ï¼Œçœ‹æ³•ï¼›å§¿åŠ¿
 261. attract[2'tr9kt]
-vt.ÎüÒı£»ÒıÆğ£¬ÓÕ»ó
+vt.å¸å¼•ï¼›å¼•èµ·ï¼Œè¯±æƒ‘
 262. attraction[2'tre9k62n]
-n.ÎüÒı£»ÎüÒıÁ¦£»ÒıÁ¦
+n.å¸å¼•ï¼›å¸å¼•åŠ›ï¼›å¼•åŠ›
 263. attractive[2'tr9ktiv]
-a.ÓĞÎüÒıÁ¦µÄ
+a.æœ‰å¸å¼•åŠ›çš„
 264. attribute['9tribju:t]
-vt.°Ñ¡­¹éÒòÓÚ n.ÊôĞÔ
+vt.æŠŠâ€¦å½’å› äº n.å±æ€§
 265. audience['0:dj2ns]
-n.ÌıÖÚ£¬¹ÛÖÚ£¬¶ÁÕß
+n.å¬ä¼—ï¼Œè§‚ä¼—ï¼Œè¯»è€…
 266. August[0:'g3st]
-n.°ËÔÂ
+n.å…«æœˆ
 267. aunt[a:nt]
-n.²®Ä¸£¬ÉôÄ¸£¬¹ÃÄ¸
+n.ä¼¯æ¯ï¼Œå©¶æ¯ï¼Œå§‘æ¯
 268. aural['0r2l]
-a.¶úµÄ£¬Ìı¾õµÄ
+a.è€³çš„ï¼Œå¬è§‰çš„
 269. Australia[0s'treilj2]
-n.°Ä´óÀûÑÇ
+n.æ¾³å¤§åˆ©äºš
 270. Australian[0s'treilj2n]
-a.°Ä´óÀûÑÇµÄ
+a.æ¾³å¤§åˆ©äºšçš„
 271. author['0:42]
-n.×÷Õß£¬×÷¼Ò
+n.ä½œè€…ï¼Œä½œå®¶
 272. authority[0:'40riti]
-n.µ±¾Ö£¬¹Ù·½£»È¨Á¦
+n.å½“å±€ï¼Œå®˜æ–¹ï¼›æƒåŠ›
 273. auto['0:t2u]
-n.(¿ÚÓï)Æû³µ
+n.(å£è¯­)æ±½è½¦
 274. automatic[0:t2'm9tik]
-a.×Ô¶¯µÄ£»»úĞµµÄ
+a.è‡ªåŠ¨çš„ï¼›æœºæ¢°çš„
 275. automation[0:t2'mei62n]
-n.×Ô¶¯£¬×Ô¶¯»¯
+n.è‡ªåŠ¨ï¼Œè‡ªåŠ¨åŒ–
 276. automobile['0:t2m2bi:l]
-n.Æû³µ£¬»ú¶¯³µ
+n.æ±½è½¦ï¼ŒæœºåŠ¨è½¦
 277. autumn['0:t2m]
-n.Çï£¬Çï¼¾
+n.ç§‹ï¼Œç§‹å­£
 278. auxiliary[0:g'zilj2ri]
-a.¸¨ÖúµÄ£»¸½ÊôµÄ
+a.è¾…åŠ©çš„ï¼›é™„å±çš„
 279. available[2'veil2bl]
-a.¿ÉÀûÓÃµÄ£»Í¨ÓÃµÄ
+a.å¯åˆ©ç”¨çš„ï¼›é€šç”¨çš„
 280. avenue['9vinju:]
-n.ÁÖÒñµÀ£¬µÀÂ·£»´ó½Ö
+n.æ—è«é“ï¼Œé“è·¯ï¼›å¤§è¡—
 281. average['9v2rid7]
-n.Æ½¾ùÊı a.Æ½¾ùµÄ
+n.å¹³å‡æ•° a.å¹³å‡çš„
 282. aviation[eivi'ei62n]
-n.º½¿Õ£¬º½¿ÕÑ§
+n.èˆªç©ºï¼Œèˆªç©ºå­¦
 283. avoid[2'v0id]
-vt.±ÜÃâ£¬¶ã¿ª£»³·Ïû
+vt.é¿å…ï¼Œèº²å¼€ï¼›æ’¤æ¶ˆ
 284. await[2'weit]
-vt.µÈºò£¬ÆÚ´ı
+vt.ç­‰å€™ï¼ŒæœŸå¾…
 285. awake[2'weik]
-a.ĞÑ×ÅµÄ vt.»½ĞÑ
+a.é†’ç€çš„ vt.å”¤é†’
 286. award[2'w0:d]
-n.½±£¬½±Æ·£»ÅĞ¶¨
+n.å¥–ï¼Œå¥–å“ï¼›åˆ¤å®š
 287. aware[2'w/2]
-a.ÖªµÀµÄ£¬ÒâÊ¶µ½µÄ
+a.çŸ¥é“çš„ï¼Œæ„è¯†åˆ°çš„
 288. away[2'wei]
-ad.Àë¿ª£¬Ô¶Àë£»¡­È¥
+ad.ç¦»å¼€ï¼Œè¿œç¦»ï¼›â€¦å»
 289. awful['0:ful]
-a.ÁîÈË²»Óä¿ìµÄ
+a.ä»¤äººä¸æ„‰å¿«çš„
 290. awfully['0:fuli]
-ad.ÁîÈËÎ·¾åµÄ£»ºÜ
+ad.ä»¤äººç•æƒ§çš„ï¼›å¾ˆ
 291. awkward['0:kw2d]
-a.±¿×¾µÄ£»ŞÏŞÎµÄ
+a.ç¬¨æ‹™çš„ï¼›å°´å°¬çš„
 292. ax[9ks]
-n.¸«×Ó
+n.æ–§å­
 293. axis['9ksis]
-n.Öá£¬ÖáÏß£»ÖĞĞÄÏß
+n.è½´ï¼Œè½´çº¿ï¼›ä¸­å¿ƒçº¿
 294. baby['beibi]
-n.Ó¤¶ù£»º¢×ÓÆøµÄÈË
+n.å©´å„¿ï¼›å­©å­æ°”çš„äºº
 295. back[b9k]
-ad.ÔÚºó£»»ØÔ­´¦£»»Ø
+ad.åœ¨åï¼›å›åŸå¤„ï¼›å›
 296. background['b9kgraund]
-n.±³¾°£¬ºó¾°£¬¾­Àú
+n.èƒŒæ™¯ï¼Œåæ™¯ï¼Œç»å†
 297. backward['b9kw2d]
-a.ÏòºóµÄ£»µ¹µÄ ad.µ¹
+a.å‘åçš„ï¼›å€’çš„ ad.å€’
 298. bacteria[b9k'ti2ri2]
-n.Ï¸¾ú
+n.ç»†èŒ
 299. bad[b9d]
-a.»µµÄ£¬¶ñµÄ£»ÑÏÖØµÄ
+a.åçš„ï¼Œæ¶çš„ï¼›ä¸¥é‡çš„
 300. badly['b9dli]
-ad.»µ£¬²î£»ÑÏÖØµØ
+ad.åï¼Œå·®ï¼›ä¸¥é‡åœ°
 301. badminton['b9dmint2n]
-n.ÓğÃ«Çò
+n.ç¾½æ¯›çƒ
 302. bag[b9g]
-n.´ü£¬°ü£¬Ç®°ü£¬±³°ü
+n.è¢‹ï¼ŒåŒ…ï¼Œé’±åŒ…ï¼ŒèƒŒåŒ…
 303. baggage['b9gid7]
-n.ĞĞÀî
+n.è¡Œæ
 304. bake[beik]
-vt.¿¾£¬ºæ£¬±º£»ÉÕÓ²
+vt.çƒ¤ï¼Œçƒ˜ï¼Œç„™ï¼›çƒ§ç¡¬
 305. balance['b9l2ns]
-vt.Ê¹Æ½ºâ£»³Æ n.ÌìÆ½
+vt.ä½¿å¹³è¡¡ï¼›ç§° n.å¤©å¹³
 306. ball[b0:l]
-n.Çò£¬Çò×´Îï£»Îè»á
+n.çƒï¼ŒçƒçŠ¶ç‰©ï¼›èˆä¼š
 307. balloon[b2'lu:n]
-n.ÆøÇò£¬Íæ¾ßÆøÇò
+n.æ°”çƒï¼Œç©å…·æ°”çƒ
 308. banana[b2'na:n2]
-n.Ïã½¶£»°Å½¶ÊôÖ²Îï
+n.é¦™è•‰ï¼›èŠ­è•‰å±æ¤ç‰©
 309. band[b9nd]
-n.ÀÖ¶Ó£»´ø£»²¨¶Î
+n.ä¹é˜Ÿï¼›å¸¦ï¼›æ³¢æ®µ
 310. bang[b98]
-n.¾ŞÏì£¬Ç¹Éù£»ÃÍ»÷
+n.å·¨å“ï¼Œæªå£°ï¼›çŒ›å‡»
 311. bank[b98k]
-n.ÒøĞĞ£»¿â£»ÑÒ£¬µÌ
+n.é“¶è¡Œï¼›åº“ï¼›å²©ï¼Œå ¤
 312. banner['b9n2]
-n.Æì£¬ÆìÖÄ£¬ºá·ù
+n.æ——ï¼Œæ——å¸œï¼Œæ¨ªå¹…
 313. bar[ba:]
-n.¾Æ°É¼ä£»Ìõ£¬¸Ë£»Õ¤
+n.é…’å§é—´ï¼›æ¡ï¼Œæ†ï¼›æ …
 314. barber['ba:b2]
-n.Àí·¢Ê¦
+n.ç†å‘å¸ˆ
 315. bare[b/2]
-a.³àÂãµÄ£»½ö½öµÄ
+a.èµ¤è£¸çš„ï¼›ä»…ä»…çš„
 316. bargain['ba:gin]
-n.½»Ò× vi.Òé¼Û£»³É½»
+n.äº¤æ˜“ vi.è®®ä»·ï¼›æˆäº¤
 317. bark[ba:k]
-n.·Í½ĞÉù vi.·Í£¬½Ğ
+n.å å«å£° vi.å ï¼Œå«
 318. barn[ba:n]
-n.¹È²Ö£»Éü¿ÚÅï
+n.è°·ä»“ï¼›ç‰²å£æ£š
 319. barrel['b9r2l]
-n.Í°£»Ô²Í²£»Ç¹¹Ü
+n.æ¡¶ï¼›åœ†ç­’ï¼›æªç®¡
 320. barrier['b9ri2]
-n.Õ¤À¸£¬ÆÁÕÏ£»ÕÏ°­
+n.æ …æ ï¼Œå±éšœï¼›éšœç¢
 321. base[beis]
-n.»ù´¡£¬µ×²ã£»»ùµØ
+n.åŸºç¡€ï¼Œåº•å±‚ï¼›åŸºåœ°
 322. basic['beisik]
-a.»ù±¾µÄ£¬»ù´¡µÄ
+a.åŸºæœ¬çš„ï¼ŒåŸºç¡€çš„
 323. basically['beisik2li]
-ad.»ù±¾ÉÏ
+ad.åŸºæœ¬ä¸Š
 324. basin['beisn]
-n.Åè£¬Ï´Á³Åè£»ÅèµØ
+n.ç›†ï¼Œæ´—è„¸ç›†ï¼›ç›†åœ°
 325. basis['beisis]
-n.»ù´¡£¬¸ù¾İ
+n.åŸºç¡€ï¼Œæ ¹æ®
 326. basket['ba:skit]
-n.Àº£¬Â¨£¬¿ğ
+n.ç¯®ï¼Œç¯“ï¼Œç­
 327. basketball['ba:skitb0:l]
-n.ÀºÇò£»ÀºÇòÔË¶¯
+n.ç¯®çƒï¼›ç¯®çƒè¿åŠ¨
 328. bat[b9t]
-n.ÇòÅÄ£»¶Ì¹÷£»òùòğ
+n.çƒæ‹ï¼›çŸ­æ£ï¼›è™è 
 329. bath[ba:4]
-n.Ô¡£¬Ï´Ôè£»Ô¡¸×
+n.æµ´ï¼Œæ´—æ¾¡ï¼›æµ´ç¼¸
 330. bathe[bei5]
-vt.¸ø¡­Ï´Ôè£»ÅªÊª
+vt.ç»™â€¦æ´—æ¾¡ï¼›å¼„æ¹¿
 331. bathroom['ba:4rum]
-n.Ô¡ÊÒ£»îÂÏ´ÊÒ
+n.æµ´å®¤ï¼›ç›¥æ´—å®¤
 332. battery['b9t2ri]
-n.µç³Ø£»Ò»Ì×£¬Ò»×é
+n.ç”µæ± ï¼›ä¸€å¥—ï¼Œä¸€ç»„
 333. battle['b9tl]
-n.Õ½ÒÛ£»¶·Õù vi.×÷Õ½
+n.æˆ˜å½¹ï¼›æ–—äº‰ vi.ä½œæˆ˜
 334. bay[bei]
-n.Íå£»É½ÂöÖĞµÄ°¼´¦
+n.æ¹¾ï¼›å±±è„‰ä¸­çš„å‡¹å¤„
 335. B.C.['bi: si:]
-(Ëõ)¹«ÔªÇ°
+(ç¼©)å…¬å…ƒå‰
 336. be[bi:]
-aux.v.&vi.ÊÇ£¬ÔÚ£¬×ö
+aux.v.&vi.æ˜¯ï¼Œåœ¨ï¼Œåš
 337. beach[bi:t6]
-n.º£Ì²£¬ºşÌ²£¬ºÓÌ²
+n.æµ·æ»©ï¼Œæ¹–æ»©ï¼Œæ²³æ»©
 338. beam[bi:m]
-n.Áº£»ºáÁº£»Êø£¬Öù
+n.æ¢ï¼›æ¨ªæ¢ï¼›æŸï¼ŒæŸ±
 339. bean[bi:n]
-n.¶¹£¬²Ï¶¹
+n.è±†ï¼Œèš•è±†
 340. bear[b/2]
-n.ĞÜ£»´ÖÂ³µÄÈË
+n.ç†Šï¼›ç²—é²çš„äºº
 341. bear[b/2]
-vt.ÈİÈÌ£»¸ºµ££»ÉúÓı
+vt.å®¹å¿ï¼›è´Ÿæ‹…ï¼›ç”Ÿè‚²
 342. beard[bi2d]
-n.ºúĞë£¬ÂçÈùºú×Ó
+n.èƒ¡é¡»ï¼Œç»œè…®èƒ¡å­
 343. beast[bi:st]
-n.ÊŞ£¬Ò°ÊŞ£»ÉüĞó
+n.å…½ï¼Œé‡å…½ï¼›ç‰²ç•œ
 344. beat[bi:t]
-vt.&vi.´ò£¬ÇÃ£»´ò°Ü
+vt.&vi.æ‰“ï¼Œæ•²ï¼›æ‰“è´¥
 345. beautiful['bju:tiful]
-a.ÃÀµÄ£¬ÃÀÀöµÄ
+a.ç¾çš„ï¼Œç¾ä¸½çš„
 346. beauty['bju:ti]
-n.ÃÀ£¬ÃÀÀö£»ÃÀÈË
+n.ç¾ï¼Œç¾ä¸½ï¼›ç¾äºº
 347. because[bi'k0z]
-conj.ÓÉÓÚ£¬ÒòÎª
+conj.ç”±äºï¼Œå› ä¸º
 348. become[bi'k3m]
-vi.±ä³É£»³ÉÎª£¬±äµÃ
+vi.å˜æˆï¼›æˆä¸ºï¼Œå˜å¾—
 349. bed[bed]
-n.´²£¬´²Î»£»ÆÔ£»ºÓ´²
+n.åºŠï¼ŒåºŠä½ï¼›åœƒï¼›æ²³åºŠ
 350. bee[bi:]
-n.·ä£¬ÃÜ·ä£»Ã¦ÂµµÄÈË
+n.èœ‚ï¼Œå¯†èœ‚ï¼›å¿™ç¢Œçš„äºº
 351. beef[bi:f]
-n.Å£Èâ£»²ËÅ£
+n.ç‰›è‚‰ï¼›èœç‰›
 352. beer[bi2]
-n.Æ¡¾Æ
+n.å•¤é…’
 353. before[bi'f0:]
-prep.ÔÚ¡­ÒÔÇ°£»Ïò¡­
+prep.åœ¨â€¦ä»¥å‰ï¼›å‘â€¦
 354. beg[beg]
-vt.&vi.ÆòÇó£»ÇëÇó
+vt.&vi.ä¹æ±‚ï¼›è¯·æ±‚
 355. beggar['beg2]
-n.ÆòØ¤£¬ÇîÈË
+n.ä¹ä¸ï¼Œç©·äºº
 356. begin[bi'gin]
-vi.¿ªÊ¼ vt.¿ªÊ¼
+vi.å¼€å§‹ vt.å¼€å§‹
 357. beginner[bi'gin2]
-n.³õÑ§Õß£¬ÉúÊÖ
+n.åˆå­¦è€…ï¼Œç”Ÿæ‰‹
 358. beginning[bi'gini8]
-n.¿ªÊ¼£¬¿ª¶Ë£»ÆğÔ´
+n.å¼€å§‹ï¼Œå¼€ç«¯ï¼›èµ·æº
 359. behalf[bi'ha:f]
-n.ÀûÒæ£¬Î¬»¤£¬Ö§³Ö
+n.åˆ©ç›Šï¼Œç»´æŠ¤ï¼Œæ”¯æŒ
 360. behave[bi'heiv]
-vi.±íÏÖ£¬¾ÙÖ¹£»ÔË×ª
+vi.è¡¨ç°ï¼Œä¸¾æ­¢ï¼›è¿è½¬
 361. behavior[bi'heivj2]
-n.ĞĞÎª£¬¾ÙÖ¹£¬Ì¬¶È
+n.è¡Œä¸ºï¼Œä¸¾æ­¢ï¼Œæ€åº¦
 362. behind[bi'haind]
-prep.ÔÚ¡­ºóÃæ
+prep.åœ¨â€¦åé¢
 363. being['bi:i8]
-n.´æÔÚ£»ÉúÎï£»ÉúÃü
+n.å­˜åœ¨ï¼›ç”Ÿç‰©ï¼›ç”Ÿå‘½
 364. belief[bi'li:f]
-n.ĞÅÈÎ£¬ÏàĞÅ£»ĞÅÄî
+n.ä¿¡ä»»ï¼Œç›¸ä¿¡ï¼›ä¿¡å¿µ
 365. believe[bi'li:v]
-vt.ÏàĞÅ£»ÈÏÎª
+vt.ç›¸ä¿¡ï¼›è®¤ä¸º
 366. bell[bel]
-n.ÖÓ£¬Áå£¬ÃÅÁå£»ÖÓÉù
+n.é’Ÿï¼Œé“ƒï¼Œé—¨é“ƒï¼›é’Ÿå£°
 367. belong[bi'l08]
-vi.ÊôÓÚ£¬¸½Êô
+vi.å±äºï¼Œé™„å±
 368. beloved[bi'l3vd]
-a.Îª¡­µÄ°®µÄ n.°®ÈË
+a.ä¸ºâ€¦çš„çˆ±çš„ n.çˆ±äºº
 369. below[bi'l2u]
-prep.ÔÚ¡­ÏÂÃæ(ÒÔÏÂ)
+prep.åœ¨â€¦ä¸‹é¢(ä»¥ä¸‹)
 370. belt[belt]
-n.´ø£¬Ñü´ø£»Æ¤´ø£»Çø
+n.å¸¦ï¼Œè…°å¸¦ï¼›çš®å¸¦ï¼›åŒº
 371. bench[bent6]
-n.³¤µÊ£¬ÌõµÊ£»¹¤×÷Ì¨
+n.é•¿å‡³ï¼Œæ¡å‡³ï¼›å·¥ä½œå°
 372. bend[bend]
-vt.Ê¹ÍäÇú vi.ÍäÇú
+vt.ä½¿å¼¯æ›² vi.å¼¯æ›²
 373. beneath[bi'ni:4]
-prep.ÔÚ¡­ÏÂ·½
+prep.åœ¨â€¦ä¸‹æ–¹
 374. beneficial[beni'fi62l]
-a.ÓĞÀûµÄ£¬ÓĞÒæµÄ
+a.æœ‰åˆ©çš„ï¼Œæœ‰ç›Šçš„
 375. benefit['benifit]
-n.ÀûÒæ£»¶÷»İ£»½òÌù
+n.åˆ©ç›Šï¼›æ©æƒ ï¼›æ´¥è´´
 376. berry['beri]
-n.½¬¹û(Èç²İİ®µÈ)
+n.æµ†æœ(å¦‚è‰è“ç­‰)
 377. beside[bi'said]
-prep.ÔÚ¡­ÅÔ±ß
+prep.åœ¨â€¦æ—è¾¹
 378. besides[bi'saidz]
-ad.¶øÇÒprep.³ı¡­Ö®Íâ
+ad.è€Œä¸”prep.é™¤â€¦ä¹‹å¤–
 379. best[best]
-a.×îºÃµÄ£»×î´óµÄ
+a.æœ€å¥½çš„ï¼›æœ€å¤§çš„
 380. bet[bet]
-vt.&vi.&n.´ò¶Ä
+vt.&vi.&n.æ‰“èµŒ
 381. betray[bi'trei]
-vt.±³ÅÑ£»¹¼¸º£»Ğ¹Â©
+vt.èƒŒå›ï¼›è¾œè´Ÿï¼›æ³„æ¼
 382. better['bet2]
-a.½ÏºÃµÄ ad.¸üºÃµØ
+a.è¾ƒå¥½çš„ ad.æ›´å¥½åœ°
 383. between[bi'twi:n]
-prep.ÔÚ¡­ÖĞ¼ä
+prep.åœ¨â€¦ä¸­é—´
 384. beyond[bi'j0nd]
-prep.ÔÚ¡­µÄÄÇ±ß
+prep.åœ¨â€¦çš„é‚£è¾¹
 385. Bible['baibl]
-n.»ù¶½½Ì¡¶Ê¥¾­¡·
+n.åŸºç£æ•™ã€Šåœ£ç»ã€‹
 386. bicycle['baisikl]
-n.×ÔĞĞ³µ£¬½ÅÌ¤³µ
+n.è‡ªè¡Œè½¦ï¼Œè„šè¸è½¦
 387. big[big]
-a.´óµÄ£¬¾Ş´óµÄ
+a.å¤§çš„ï¼Œå·¨å¤§çš„
 388. bike[baik]
-n.×ÔĞĞ³µ vi.Æï×ÔĞĞ³µ
+n.è‡ªè¡Œè½¦ vi.éª‘è‡ªè¡Œè½¦
 389. bill[bil]
-n.ÕËµ¥£»ÕĞÌù£»Æ±¾İ
+n.è´¦å•ï¼›æ‹›è´´ï¼›ç¥¨æ®
 390. billion['bilj2n]
-num.ÍòÒÚ(Ó¢)
+num.ä¸‡äº¿(è‹±)
 391. bind[baind]
-vt.À¦°ó£»°üÔú£»×°¶¤
+vt.æ†ç»‘ï¼›åŒ…æ‰ï¼›è£…é’‰
 392. biology[bai'0l2d7i]
-n.ÉúÎïÑ§£»ÉúÌ¬Ñ§
+n.ç”Ÿç‰©å­¦ï¼›ç”Ÿæ€å­¦
 393. bird[b2:d]
-n.Äñ£¬Çİ
+n.é¸Ÿï¼Œç¦½
 394. birth[b2:4]
-n.·ÖÃä£¬³öÉú£»³öÉí
+n.åˆ†å¨©ï¼Œå‡ºç”Ÿï¼›å‡ºèº«
 395. birthday['b2:4di]
-n.ÉúÈÕ£¬µ®ÉúµÄÈÕÆÚ
+n.ç”Ÿæ—¥ï¼Œè¯ç”Ÿçš„æ—¥æœŸ
 396. biscuit['biskit]
-n.(Ó¢)±ı¸É£»(ÃÀ)Èí±ı
+n.(è‹±)é¥¼å¹²ï¼›(ç¾)è½¯é¥¼
 397. bit[bit]
-n.Ò»µã£¬Ò»Ğ©£¬Ğ¡Æ¬
+n.ä¸€ç‚¹ï¼Œä¸€äº›ï¼Œå°ç‰‡
 398. bite[bait]
-vt.Ò§£¬¶££¬ó§£»Øİ´©
+vt.å’¬ï¼Œå®ï¼Œè«ï¼›å‰Œç©¿
 399. bitter['bit2]
-a.Í´¿àµÄ£»ÑÏº®µÄ
+a.ç—›è‹¦çš„ï¼›ä¸¥å¯’çš„
 400. bitterly['bit2li]
-ad.¿à¿àµØ£»±¯Í´µØ
+ad.è‹¦è‹¦åœ°ï¼›æ‚²ç—›åœ°
 401. black[bl9k]
-a.ºÚÉ«µÄ£»ºÚ°µµÄ
+a.é»‘è‰²çš„ï¼›é»‘æš—çš„
 402. blackboard['bl9kb0:d]
-n.ºÚ°å
+n.é»‘æ¿
 403. blade[bleid]
-n.µ¶ÈĞ£¬µ¶Æ¬£»Ò¶Æ¬
+n.åˆ€åˆƒï¼Œåˆ€ç‰‡ï¼›å¶ç‰‡
 404. blame[bleim]
-vt.Ôğ±¸£¬°Ñ¡­¹é¾ÌÓÚ
+vt.è´£å¤‡ï¼ŒæŠŠâ€¦å½’å’äº
 405. blank[bl98k]
-a.¿Õ°×µÄ n.¿Õ°×
+a.ç©ºç™½çš„ n.ç©ºç™½
 406. blanket['bl98kit]
-n.Ã«Ìº£¬Ìº×Ó£¬ÑòÃ«Ìº
+n.æ¯›æ¯¯ï¼Œæ¯¯å­ï¼Œç¾Šæ¯›æ¯¯
 407. blast[bla:st]
-n.±¬Õ¨£¬³å»÷²¨ vt.Õ¨
+n.çˆ†ç‚¸ï¼Œå†²å‡»æ³¢ vt.ç‚¸
 408. blaze[bleiz]
-n.»ğ£»ÉÁ¹â vi.È¼ÉÕ
+n.ç«ï¼›é—ªå…‰ vi.ç‡ƒçƒ§
 409. bleed[bli:d]
-vi.³öÑª£¬Á÷Ñª£»ÃÚÖ¬
+vi.å‡ºè¡€ï¼Œæµè¡€ï¼›æ³Œè„‚
 410. blend[blend]
-vt.&vi.&n.»ìºÍ
+vt.&vi.&n.æ··å’Œ
 411. bless[bles]
-vt.Îª¡­×£¸£
+vt.ä¸ºâ€¦ç¥ç¦
 412. blind[blaind]
-a.Ï¹µÄ£»Ã¤Ä¿µÄ
+a.ççš„ï¼›ç›²ç›®çš„
 413. block[bl0k]
-n.½ÖÇø vt.¶ÂÈû£¬À¹×è
+n.è¡—åŒº vt.å µå¡ï¼Œæ‹¦é˜»
 414. blood[bl3d]
-n.Ñª£¬ÑªÒº£»ÑªÍ³
+n.è¡€ï¼Œè¡€æ¶²ï¼›è¡€ç»Ÿ
 415. bloom[blu:m]
-n.»¨£»¿ª»¨£¬¿ª»¨ÆÚ
+n.èŠ±ï¼›å¼€èŠ±ï¼Œå¼€èŠ±æœŸ
 416. blossom['bl0s2m]
-n.»¨£¬¿ª»¨ vi.¿ª»¨
+n.èŠ±ï¼Œå¼€èŠ± vi.å¼€èŠ±
 417. blow[bl2u]
-vi.´µ£¬´µ¶¯£»´µÏì
+vi.å¹ï¼Œå¹åŠ¨ï¼›å¹å“
 418. blue[blu:]
-a.À¶É«µÄ n.À¶É«
+a.è“è‰²çš„ n.è“è‰²
 419. board[b0:d]
-n.°å vt.ÉÏ(´¬¡¢³µµÈ)
+n.æ¿ vt.ä¸Š(èˆ¹ã€è½¦ç­‰)
 420. boast[b2ust]
-vi.×Ô¿ä vt.´µĞê
+vi.è‡ªå¤¸ vt.å¹å˜˜
 421. boat[b2ut]
-n.Ğ¡´¬£¬Í§£»Óæ´¬
+n.å°èˆ¹ï¼Œè‰‡ï¼›æ¸”èˆ¹
 422. body['b0di]
-n.ÉíÌå£»Ö÷Ìå£»Ê¬Ìå
+n.èº«ä½“ï¼›ä¸»ä½“ï¼›å°¸ä½“
 423. boil[b0il]
-vi.·ĞÌÚ£»Æû»¯vt.Öó·Ğ
+vi.æ²¸è…¾ï¼›æ±½åŒ–vt.ç…®æ²¸
 424. bold[b2uld]
-a.´óµ¨µÄ£»Ã°Ê§µÄ
+a.å¤§èƒ†çš„ï¼›å†’å¤±çš„
 425. bolt[b2ult]
-n.ÂİË¨£»²åÏú vt.ãÅÃÅ
+n.èºæ “ï¼›æ’é”€ vt.é—©é—¨
 426. bomb[b0m]
-n.Õ¨µ¯ vt.ºäÕ¨
+n.ç‚¸å¼¹ vt.è½°ç‚¸
 427. bond[b0nd]
-n.Áª½á£¬ÁªÏµ£»¹«Õ®
+n.è”ç»“ï¼Œè”ç³»ï¼›å…¬å€º
 428. bone[b2un]
-n.¹Ç£¬¹Ç÷À
+n.éª¨ï¼Œéª¨éª¼
 429. book[buk]
-n.Êé£¬Êé¼® vt.Ô¤¶¨
+n.ä¹¦ï¼Œä¹¦ç± vt.é¢„å®š
 430. boot[bu:t]
-n.Ñ¥×Ó£¬³¤Í³Ñ¥
+n.é´å­ï¼Œé•¿ç»Ÿé´
 431. booth[bu:5]
-n.»õÌ¯£»¹«ÓÃµç»°Í¤
+n.è´§æ‘Šï¼›å…¬ç”¨ç”µè¯äº­
 432. border['b0:d2]
-n.±ß£¬±ßÔµ£»±ß½ç
+n.è¾¹ï¼Œè¾¹ç¼˜ï¼›è¾¹ç•Œ
 433. bore[b0:]
-vt.Ê¹Ñá·³£»×ê£¬ÍÚ
+vt.ä½¿åŒçƒ¦ï¼›é’»ï¼ŒæŒ–
 434. born[b0:n]
-a.ÌìÉúµÄ£»³öÉúµÄ
+a.å¤©ç”Ÿçš„ï¼›å‡ºç”Ÿçš„
 435. borrow['b0r2u]
-vt.½è£¬½èÓÃ£¬½èÈË
+vt.å€Ÿï¼Œå€Ÿç”¨ï¼Œå€Ÿäºº
 436. bosom['buz2m]
-n.ĞØ£¬ĞØ²¿£»ÄÚĞÄ
+n.èƒ¸ï¼Œèƒ¸éƒ¨ï¼›å†…å¿ƒ
 437. boss[b0s]
-n.ÀÏ°å£¬ÉÏË¾ vt.Ö¸»Ó
+n.è€æ¿ï¼Œä¸Šå¸ vt.æŒ‡æŒ¥
 438. both[b2u4]
-pron.Á½Õß(¶¼)
+pron.ä¸¤è€…(éƒ½)
 439. bother['b052]
-vt.·³ÈÅ£¬ÃÔ»ó n.Âé·³
+vt.çƒ¦æ‰°ï¼Œè¿·æƒ‘ n.éº»çƒ¦
 440. bottle['b0tl]
-n.Æ¿£¬¾ÆÆ¿£»Ò»Æ¿
+n.ç“¶ï¼Œé…’ç“¶ï¼›ä¸€ç“¶
 441. bottom['b0t2m]
-n.µ×£¬µ×²¿£¬¸ù»ù
+n.åº•ï¼Œåº•éƒ¨ï¼Œæ ¹åŸº
 442. bough[bau]
-n.Ê÷Ö¦
+n.æ ‘æ
 443. bounce[bauns]
-vi.·´Ìø£¬µ¯Æğ£»ÌøÆğ
+vi.åè·³ï¼Œå¼¹èµ·ï¼›è·³èµ·
 444. bound[baund]
-a.Ò»¶¨µÄ£»ÓĞÒåÎñµÄ
+a.ä¸€å®šçš„ï¼›æœ‰ä¹‰åŠ¡çš„
 445. boundary['baund2ri]
-n.·Ö½çÏß£¬°ì½ç
+n.åˆ†ç•Œçº¿ï¼ŒåŠç•Œ
 446. bow[bau]
-n.¹­£»ºûµû½á£»¾Ï¹ª
+n.å¼“ï¼›è´è¶ç»“ï¼›é èº¬
 447. bowl[b2ul]
-n.Íë£¬²§£»Íë×´Îï
+n.ç¢—ï¼Œé’µï¼›ç¢—çŠ¶ç‰©
 448. box[b0ks]
-n.Ïä£¬ºĞ£»°üÏä
+n.ç®±ï¼Œç›’ï¼›åŒ…ç®±
 449. box[b0ks]
-vi.È­»÷£¬´òÈ­
+vi.æ‹³å‡»ï¼Œæ‰“æ‹³
 450. boy[b0i]
-n.ÄĞº¢£¬ÉÙÄê£»¼Ò»ï
+n.ç”·å­©ï¼Œå°‘å¹´ï¼›å®¶ä¼™
 451. brain[brein]
-n.ÄÔ£¬ÄÔËè£»ÄÔÁ¦
+n.è„‘ï¼Œè„‘é«“ï¼›è„‘åŠ›
 452. brake[breik]
-n.Õ¢£¬É²³µ vi.ÖÆ¶¯
+n.é—¸ï¼Œåˆ¹è½¦ vi.åˆ¶åŠ¨
 453. branch[bra:nt6]
-n.Ê÷Ö¦£»·Ö²¿£»·Ö¿Æ
+n.æ ‘æï¼›åˆ†éƒ¨ï¼›åˆ†ç§‘
 454. brand[br9nd]
-n.ÉÌÆ·£»ÀÓÓ¡ vt.Ãú¿Ì
+n.å•†å“ï¼›çƒ™å° vt.é“­åˆ»
 455. brandy['br9ndi]
-n.°×À¼µØ¾Æ
+n.ç™½å…°åœ°é…’
 456. brass[bra:s]
-n.»ÆÍ­£»»ÆÍ­Æ÷
+n.é»„é“œï¼›é»„é“œå™¨
 457. brave[breiv]
-a.ÓÂ¸ÒµÄ£¬»ªÀöµÄ
+a.å‹‡æ•¢çš„ï¼Œåä¸½çš„
 458. bread[bred]
-n.Ãæ°ü£»Ê³Îï£¬Á¸Ê³
+n.é¢åŒ…ï¼›é£Ÿç‰©ï¼Œç²®é£Ÿ
 459. breadth[bred5]
-n.¿í¶È£¬·ù¶È£»·ùÃæ
+n.å®½åº¦ï¼Œå¹…åº¦ï¼›å¹…é¢
 460. break[breik]
-vt.´òÆÆ£»Ëğ»µ£»ÆÆ»µ
+vt.æ‰“ç ´ï¼›æŸåï¼›ç ´å
 461. breakfast['brekf2st]
-n.Ôç·¹£¬Ôç²Í
+n.æ—©é¥­ï¼Œæ—©é¤
 462. breast[brest]
-n.Èé·¿£»ĞØ¸¬£¬ĞØÌÅ
+n.ä¹³æˆ¿ï¼›èƒ¸è„¯ï¼Œèƒ¸è†›
 463. breath[bre4]
-n.ÆøÏ¢£¬ºôÎü£»ÆøÎ¶
+n.æ°”æ¯ï¼Œå‘¼å¸ï¼›æ°”å‘³
 464. breathe[bri:5]
-vi.ºôÎü vt.ºôÎü
+vi.å‘¼å¸ vt.å‘¼å¸
 465. breed[bri:d]
-n.Æ·ÖÖ vt.Ê¹·±Ö³
+n.å“ç§ vt.ä½¿ç¹æ®–
 466. breeze[bri:z]
-n.Î¢·ç£¬ºÍ·ç
+n.å¾®é£ï¼Œå’Œé£
 467. brick[brik]
-n.×©£¬×©¿é£»×©×´Îï
+n.ç –ï¼Œç –å—ï¼›ç –çŠ¶ç‰©
 468. bridge[brid7]
-n.ÇÅ£¬ÇÅÁº£»ÇÅÅÆ
+n.æ¡¥ï¼Œæ¡¥æ¢ï¼›æ¡¥ç‰Œ
 469. brief[bri:f]
-a.¼ò¶ÌµÄ£»¶ÌÔİµÄ
+a.ç®€çŸ­çš„ï¼›çŸ­æš‚çš„
 470. bright[brait]
-a.Ã÷ÁÁµÄ£»´ÏÃ÷µÄ
+a.æ˜äº®çš„ï¼›èªæ˜çš„
 471. brighten['braitn]
-vt.Ê¹·¢¹â£»Ê¹¿ì»î
+vt.ä½¿å‘å…‰ï¼›ä½¿å¿«æ´»
 472. brilliant['brilj2nt]
-a.¹â»ÔµÄ£»×¿Ô½µÄ
+a.å…‰è¾‰çš„ï¼›å“è¶Šçš„
 473. brim[brim]
-n.±ß£¬±ßÔµ£»Ã±ÑØ
+n.è¾¹ï¼Œè¾¹ç¼˜ï¼›å¸½æ²¿
 474. bring[bri8]
-vt.´øÀ´£»Òı³ö£»´ÙÊ¹
+vt.å¸¦æ¥ï¼›å¼•å‡ºï¼›ä¿ƒä½¿
 475. brisk[brisk]
-a.»îÆÃµÄ£»ÇåĞÂµÄ
+a.æ´»æ³¼çš„ï¼›æ¸…æ–°çš„
 476. bristle[brisl]
-n.¶Ì¶øÓ²µÄÃ«£»××Ã«
+n.çŸ­è€Œç¡¬çš„æ¯›ï¼›é¬ƒæ¯›
 477. Britain['brit2n]
-n.²»ÁĞµß£¬Ó¢¹ú
+n.ä¸åˆ—é¢ ï¼Œè‹±å›½
 478. British['briti6]
-a.²»ÁĞµßµÄ£¬Ó¢Áª°îµÄ
+a.ä¸åˆ—é¢ çš„ï¼Œè‹±è”é‚¦çš„
 479. brittle['britl]
-a.´àµÄ£»Ò×Ëğ»µµÄ
+a.è„†çš„ï¼›æ˜“æŸåçš„
 480. broad[br0:d]
-a.¿íµÄ£¬À«µÄ£»¹ã·ºµÄ
+a.å®½çš„ï¼Œé˜”çš„ï¼›å¹¿æ³›çš„
 481. broadcast['br0:dka:st]
-n.¹ã²¥£¬²¥Òô
+n.å¹¿æ’­ï¼Œæ’­éŸ³
 482. broken['br2uk2n]
-a.±»´òËéµÄ£¬¹ÇÕÛµÄ
+a.è¢«æ‰“ç¢çš„ï¼Œéª¨æŠ˜çš„
 483. bronze[br0nz]
-n.ÇàÍ­£»ÇàÍ­ÖÆÆ·
+n.é’é“œï¼›é’é“œåˆ¶å“
 484. brood[bru:d]
-n.Í¬ÎÑÓ×Äñ vt.·õ(µ°)
+n.åŒçªå¹¼é¸Ÿ vt.å­µ(è›‹)
 485. brook[bruk]
-n.Ğ¡ºÓ£¬ÏªÁ÷
+n.å°æ²³ï¼Œæºªæµ
 486. broom[bru:m]
-n.É¨Öã
+n.æ‰«å¸š
 487. brother['br352]
-n.ĞÖµÜ£»Í¬ÊÂ£¬Í¬°û
+n.å…„å¼Ÿï¼›åŒäº‹ï¼ŒåŒèƒ
 488. brow[brau]
-n.¶î£»Ã¼£¬Ã¼Ã«
+n.é¢ï¼›çœ‰ï¼Œçœ‰æ¯›
 489. brown[braun]
-n.ºÖÉ«£¬×ØÉ«
+n.è¤è‰²ï¼Œæ£•è‰²
 490. bruise[bru:z]
-n.ÇàÖ×£¬ÉËºÛ£»²ÁÉË
+n.é’è‚¿ï¼Œä¼¤ç—•ï¼›æ“¦ä¼¤
 491. brush[br36]
-n.Ë¢×Ó£¬Ã«Ë¢£»»­±Ê
+n.åˆ·å­ï¼Œæ¯›åˆ·ï¼›ç”»ç¬”
 492. brute[bru:t]
-n.ÇİÊŞ£¬ĞóÉú
+n.ç¦½å…½ï¼Œç•œç”Ÿ
 493. bubble['b3bl]
-n.Åİ vi.Ã°Åİ£¬·ĞÌÚ
+n.æ³¡ vi.å†’æ³¡ï¼Œæ²¸è…¾
 494. bucket['b3kit]
-n.Ë®Í°£»µõÍ°£»²ù¶·
+n.æ°´æ¡¶ï¼›åŠæ¡¶ï¼›é“²æ–—
 495. bud[b3d]
-n.Ñ¿£¬ÃÈÑ¿£»İíÀÙ
+n.èŠ½ï¼ŒèŒèŠ½ï¼›è““è•¾
 496. build[bild]
-vt.½¨Öş£»½¨Á¢£»´´Á¢
+vt.å»ºç­‘ï¼›å»ºç«‹ï¼›åˆ›ç«‹
 497. building['bildi8]
-n.½¨ÖşÎï£¬´óÂ¥£»½¨Öş
+n.å»ºç­‘ç‰©ï¼Œå¤§æ¥¼ï¼›å»ºç­‘
 498. bulb[b3lb]
-n.µçµÆÅİ£»Çò×´Îï
+n.ç”µç¯æ³¡ï¼›çƒçŠ¶ç‰©
 499. bulk[b3lk]
-n.ÎïÌå£¬Èİ»ı£¬´óÅú
+n.ç‰©ä½“ï¼Œå®¹ç§¯ï¼Œå¤§æ‰¹
 500. bull[bul]
-n.¹«Å££»ĞÛµÄÏó
+n.å…¬ç‰›ï¼›é›„çš„è±¡
 501. bullet['bulit]
-n.Ç¹µ¯£¬×Óµ¯£¬µ¯Íè
+n.æªå¼¹ï¼Œå­å¼¹ï¼Œå¼¹ä¸¸
 502. bunch[b3nt6]
-n.Êø£¬Çò£¬´®£»Ò»Èº
+n.æŸï¼Œçƒï¼Œä¸²ï¼›ä¸€ç¾¤
 503. bundle['b3ndl]
-n.À¦£¬°ü£¬Êø£»°ü¸¤
+n.æ†ï¼ŒåŒ…ï¼ŒæŸï¼›åŒ…è¢±
 504. burden['b2:dn]
-n.µ£×Ó£¬ÖØµ££»×°ÔØÁ¿
+n.æ‹…å­ï¼Œé‡æ‹…ï¼›è£…è½½é‡
 505. bureau['bju2r2u]
-n.¾Ö£¬Ë¾£¬´¦£»Éç£¬Ëù
+n.å±€ï¼Œå¸ï¼Œå¤„ï¼›ç¤¾ï¼Œæ‰€
 506. burn[b2:n]
-vi.ÉÕ£¬È¼ÉÕ n.ÉÕÉË
+vi.çƒ§ï¼Œç‡ƒçƒ§ n.çƒ§ä¼¤
 507. burst[b2:st]
-vt.Ê¹±¬ÁÑ vi.&n.±¬Õ¨
+vt.ä½¿çˆ†è£‚ vi.&n.çˆ†ç‚¸
 508. bury['beri]
-vt.ÂñÔá£¬Ôá£»Âñ²Ø
+vt.åŸ‹è‘¬ï¼Œè‘¬ï¼›åŸ‹è—
 509. bus[b3s]
-n.¹«¹²Æû³µ
+n.å…¬å…±æ±½è½¦
 510. bush[bu6]
-n.¹àÄ¾£¬¹àÄ¾´Ô£¬°«Ê÷
+n.çŒæœ¨ï¼ŒçŒæœ¨ä¸›ï¼ŒçŸ®æ ‘
 511. business['biznis]
-n.ÉÌÒµ£¬ÉúÒâ£»ÊÂÎñ
+n.å•†ä¸šï¼Œç”Ÿæ„ï¼›äº‹åŠ¡
 512. busy['bizi]
-a.Ã¦µÄ£¬·±Ã¦µÄ
+a.å¿™çš„ï¼Œç¹å¿™çš„
 513. but[b3t]
-conj.µ«ÊÇ£¬¿ÉÊÇ
+conj.ä½†æ˜¯ï¼Œå¯æ˜¯
 514. butcher['but62]
-n.ÍÀ·ò£»ÍÀÉ±Õß
+n.å± å¤«ï¼›å± æ€è€…
 515. butter['b3t2]
-n.»ÆÓÍ£»ÄÌÓÍ
+n.é»„æ²¹ï¼›å¥¶æ²¹
 516. butterfly['b3t2flai]
-n.ºûµû
+n.è´è¶
 517. button['b3tn]
-n.¿Û×Ó£»°´Å¥ vt.¿Û½ô
+n.æ‰£å­ï¼›æŒ‰é’® vt.æ‰£ç´§
 518. buy[bai]
-vt.Âò£¬¹ºÂò vi.Âò
+vt.ä¹°ï¼Œè´­ä¹° vi.ä¹°
 519. by[bai]
-prep.ÔÚ¡­ÅÔ£»±»£¬ÓÉ
+prep.åœ¨â€¦æ—ï¼›è¢«ï¼Œç”±
 520. cabbage['k9bid7]
-n.Ñó°×²Ë£¬¾íĞÄ²Ë
+n.æ´‹ç™½èœï¼Œå·å¿ƒèœ
 521. cabin['k9bin]
-n.Ğ¡Îİ£»´¬²Õ£¬»ú²Õ
+n.å°å±‹ï¼›èˆ¹èˆ±ï¼Œæœºèˆ±
 522. cabinet['k9binit]
-n.³÷£¬¹ñ£»ÄÚ¸ó
+n.æ©±ï¼ŒæŸœï¼›å†…é˜
 523. cable['keibl]
-n.ÀÂ£¬Ë÷£»µçÀÂ£»µç±¨
+n.ç¼†ï¼Œç´¢ï¼›ç”µç¼†ï¼›ç”µæŠ¥
 524. cafe['k9fei. k2'fei]
-n.¿§·È¹İ£»Ğ¡²ÍÌü
+n.å’–å•¡é¦†ï¼›å°é¤å…
 525. cafeteria[k9fi'ti2ri2]
-n.×ÔÖúÊ³ÌÃ
+n.è‡ªåŠ©é£Ÿå ‚
 526. cage[keid7]
-n.Áı£»ÄñÁı£¬ÇôÁı
+n.ç¬¼ï¼›é¸Ÿç¬¼ï¼Œå›šç¬¼
 527. cake[keik]
-n.±ı£¬¸â£¬µ°¸â
+n.é¥¼ï¼Œç³•ï¼Œè›‹ç³•
 528. calculate['k9lkjuleit]
-vt.¼ÆËã£»¹À¼Æ£»¼Æ»®
+vt.è®¡ç®—ï¼›ä¼°è®¡ï¼›è®¡åˆ’
 529. calculation[k9lkju'lei62n]
-n.¼ÆËã£¬¼ÆËã½á¹û
+n.è®¡ç®—ï¼Œè®¡ç®—ç»“æœ
 530. calculator['k9lkjuleit2]
-n.¼ÆËãÆ÷£¬¼ÆËãÕß
+n.è®¡ç®—å™¨ï¼Œè®¡ç®—è€…
 531. calendar['k9lind2]
-n.ÈÕÀú£¬ÀúÊé£»Àú·¨
+n.æ—¥å†ï¼Œå†ä¹¦ï¼›å†æ³•
 532. call[k0:l]
-vt.°Ñ¡­½Ğ×ö£»½Ğ£¬º°
+vt.æŠŠâ€¦å«åšï¼›å«ï¼Œå–Š
 533. calm[ka:m]
-a.¾²µÄ£¬Æ½¾²µÄ
+a.é™çš„ï¼Œå¹³é™çš„
 534. camel['k9m2l]
-n.ÂæÍÕ
+n.éª†é©¼
 535. camera['k9m2r2]
-n.ÕÕÏà»ú£¬ÉãÓ°»ú
+n.ç…§ç›¸æœºï¼Œæ‘„å½±æœº
 536. camp[k9mp]
-n.Ò°Óª£¬ÓªµØ£¬±øÓª
+n.é‡è¥ï¼Œè¥åœ°ï¼Œå…µè¥
 537. campaign[k9m'pein]
-n.Õ½ÒÛ£»ÔË¶¯
+n.æˆ˜å½¹ï¼›è¿åŠ¨
 538. campus['k9mp2s]
-n.Ğ£Ô°£¬Ñ§Ğ£³¡µØ
+n.æ ¡å›­ï¼Œå­¦æ ¡åœºåœ°
 539. can[k9n]
-aux.v.ÄÜ£¬»á£¬¿ÉÄÜ
+aux.v.èƒ½ï¼Œä¼šï¼Œå¯èƒ½
 540. can[k9n]
-n.¹ŞÍ·£¬ÌıÍ·£»ÈİÆ÷
+n.ç½å¤´ï¼Œå¬å¤´ï¼›å®¹å™¨
 541. Canada['k9n2d2]
-n.¼ÓÄÃ´ó
+n.åŠ æ‹¿å¤§
 542. Canadian[k2'neidj2n]
-a.¼ÓÄÃ´óµÄ
+a.åŠ æ‹¿å¤§çš„
 543. canal[k2'n9l]
-n.ÔËºÓ£»¹µÇş£»¹Ü
+n.è¿æ²³ï¼›æ²Ÿæ¸ ï¼›ç®¡
 544. cancel['k9ns2l]
-vt.È¡Ïû£¬³·Ïû£»É¾È¥
+vt.å–æ¶ˆï¼Œæ’¤æ¶ˆï¼›åˆ å»
 545. cancer['k9ns2]
-n.°©£¬°©Ö¢£¬Ö×Áö
+n.ç™Œï¼Œç™Œç—‡ï¼Œè‚¿ç˜¤
 546. candidate['k9ndidit]
-n.ºòÑ¡ÈË£»Í¶¿¼Õß
+n.å€™é€‰äººï¼›æŠ•è€ƒè€…
 547. candle['k9ndl]
-n.À¯Öò£»ÖòĞÎÎï£»Öò¹â
+n.èœ¡çƒ›ï¼›çƒ›å½¢ç‰©ï¼›çƒ›å…‰
 548. candy['k9ndi]
-n.ÌÇ¹û£»É°ÌÇ½á¾§
+n.ç³–æœï¼›ç ‚ç³–ç»“æ™¶
 549. cannon['k9n2n]
-n.´óÅÚ£¬»ğÅÚ£»Áñµ¯ÅÚ
+n.å¤§ç‚®ï¼Œç«ç‚®ï¼›æ¦´å¼¹ç‚®
 550. canoe[k2'nu:]
-n.¶ÀÄ¾ÖÛ£¬Æ¤Í§£¬»®×Ó
+n.ç‹¬æœ¨èˆŸï¼Œçš®è‰‡ï¼Œåˆ’å­
 551. canteen[k9n'ti:n]
-n.Ğ¡Âô²¿£»ÁÙÊ±²ÍÊÒ
+n.å°å–éƒ¨ï¼›ä¸´æ—¶é¤å®¤
 552. canvas['k9nv2s]
-n.´Ö·«²¼£»Ò»¿éÓÍ»­²¼
+n.ç²—å¸†å¸ƒï¼›ä¸€å—æ²¹ç”»å¸ƒ
 553. cap[k9p]
-n.Ã±×Ó£¬±ãÃ±£»Ã±×´Îï
+n.å¸½å­ï¼Œä¾¿å¸½ï¼›å¸½çŠ¶ç‰©
 554. capable['keip2bl]
-a.ÓĞÄÜÁ¦µÄ£¬ÓĞ²ÅÄÜµÄ
+a.æœ‰èƒ½åŠ›çš„ï¼Œæœ‰æ‰èƒ½çš„
 555. capacity[k2'p9siti]
-n.ÈİÁ¿£»ÄÜÁ¦£»ÄÜÁ¿
+n.å®¹é‡ï¼›èƒ½åŠ›ï¼›èƒ½é‡
 556. capital['k9pitl]
-n.×Ê±¾£¬×Ê½ğ£»Ê×¶¼
+n.èµ„æœ¬ï¼Œèµ„é‡‘ï¼›é¦–éƒ½
 557. captain['k9ptin]
-n.Â½¾üÉÏÎ¾£»¶Ó³¤
+n.é™†å†›ä¸Šå°‰ï¼›é˜Ÿé•¿
 558. captive['k9ptiv]
-n.·ıÂ²£¬±»¼à½ûµÄÈË
+n.ä¿˜è™ï¼Œè¢«ç›‘ç¦çš„äºº
 559. capture['k9pt62]
-vt.²¶»ñ£¬·ı»ñ£»¶áµÃ
+vt.æ•è·ï¼Œä¿˜è·ï¼›å¤ºå¾—
 560. car[ka:]
-n.Æû³µ£¬Ğ¡Æû³µ£¬½Î³µ
+n.æ±½è½¦ï¼Œå°æ±½è½¦ï¼Œè½¿è½¦
 561. carbon['ka:b2n]
-n.Ì¼
+n.ç¢³
 562. card[ka:d]
-n.¿¨£¬¿¨Æ¬£¬ÃûÆ¬
+n.å¡ï¼Œå¡ç‰‡ï¼Œåç‰‡
 563. care[k/2]
-vi.¹ØĞÄ£¬½éÒâ n.Ğ¡ĞÄ
+vi.å…³å¿ƒï¼Œä»‹æ„ n.å°å¿ƒ
 564. career[k2'ri2]
-n.ÉúÑÄ£¬Ö°Òµ£¬¾­Àú
+n.ç”Ÿæ¶¯ï¼ŒèŒä¸šï¼Œç»å†
 565. careful['k/2ful]
-a.×ĞÏ¸µÄ£»Ï¸ÖÂµÄ
+a.ä»”ç»†çš„ï¼›ç»†è‡´çš„
 566. careless['k/2lis]
-a.´ÖĞÄµÄ£¬Âş²»¾­ĞÄµÄ
+a.ç²—å¿ƒçš„ï¼Œæ¼«ä¸ç»å¿ƒçš„
 567. cargo['ka:g2u]
-n.´¬»õ£¬»õÎï
+n.èˆ¹è´§ï¼Œè´§ç‰©
 568. carpenter['ka:pint2]
-n.Ä¾¹¤£¬Ä¾½³
+n.æœ¨å·¥ï¼Œæœ¨åŒ 
 569. carpet['ka:pit]
-n.µØÌº£¬Õ±Ìº£¬Ã«Ìº
+n.åœ°æ¯¯ï¼Œæ¯¡æ¯¯ï¼Œæ¯›æ¯¯
 570. carriage['k9rid7]
-n.¿Í³µÏá£»ËÄÂÖÂí³µ
+n.å®¢è½¦å¢ï¼›å››è½®é©¬è½¦
 571. carrier['k9ri2]
-n.ÔËÊä¹¤¾ß£»ÔËÔØ¹¤¾ß
+n.è¿è¾“å·¥å…·ï¼›è¿è½½å·¥å…·
 572. carrot['k9r2t]
-n.ºúÂŞ²·
+n.èƒ¡ç½—åœ
 573. carry['k9ri]
-vt.Ğ¯´ø£»ÔËÔØ£»´«ËÍ
+vt.æºå¸¦ï¼›è¿è½½ï¼›ä¼ é€
 574. cart[ka:t]
-n.¶şÂÖÔË»õÂí³µ
+n.äºŒè½®è¿è´§é©¬è½¦
 575. carve[ka:v]
-vt.¿Ì£¬µñ¿Ì£»ÇĞ¿ª
+vt.åˆ»ï¼Œé›•åˆ»ï¼›åˆ‡å¼€
 576. case[keis]
-n.Çé¿ö£»ÊÂÊµ£»²¡Àı
+n.æƒ…å†µï¼›äº‹å®ï¼›ç—…ä¾‹
 577. case[keis]
-n.Ïä(×Ó)£¬ºĞ(×Ó)£¬Ì×
+n.ç®±(å­)ï¼Œç›’(å­)ï¼Œå¥—
 578. cash[k96]
-n.ÏÖ½ğ£¬ÏÖ¿î
+n.ç°é‡‘ï¼Œç°æ¬¾
 579. cassette[ka:'set]
-n.ºĞÊ½Â¼Òô´ø£»ºĞ×Ó
+n.ç›’å¼å½•éŸ³å¸¦ï¼›ç›’å­
 580. cast[ka:st]
-vt.Í¶£¬ÈÓ£¬Å×£»½½Öı
+vt.æŠ•ï¼Œæ‰”ï¼ŒæŠ›ï¼›æµ‡é“¸
 581. castle['ka:sl]
-n.³Ç±¤£»¾Ş´ó½¨ÖşÎï
+n.åŸå ¡ï¼›å·¨å¤§å»ºç­‘ç‰©
 582. casual['k97ju2l]
-a.Å¼È»µÄ£»Ëæ±ãµÄ
+a.å¶ç„¶çš„ï¼›éšä¾¿çš„
 583. cat[k9t]
-n.Ã¨£¬Ã¨¿Æ£¬Ã¨Æ¤
+n.çŒ«ï¼ŒçŒ«ç§‘ï¼ŒçŒ«çš®
 584. catalog['k9t2l0g]
-n.Ä¿Â¼£¬Ä¿Â¼²á
+n.ç›®å½•ï¼Œç›®å½•å†Œ
 585. catch[k9t6]
-vt.×½×¡£»¸ÏÉÏ£»Áì»á
+vt.æ‰ä½ï¼›èµ¶ä¸Šï¼›é¢†ä¼š
 586. cathedral[k2'4i:dr2l]
-n.×Ü½ÌÌÃ£»´ó½ÌÌÃ
+n.æ€»æ•™å ‚ï¼›å¤§æ•™å ‚
 587. cattle['k9tl]
-n.Å££»Éü¿Ú£¬¼ÒĞó
+n.ç‰›ï¼›ç‰²å£ï¼Œå®¶ç•œ
 588. cause[k0:z]
-n.Ô­Òò£¬ÀíÓÉ£»ÊÂÒµ
+n.åŸå› ï¼Œç†ç”±ï¼›äº‹ä¸š
 589. cave[keiv]
-n.É½¶´£¬¶´Ñ¨£¬Ò¤¶´
+n.å±±æ´ï¼Œæ´ç©´ï¼Œçª‘æ´
 590. cease[si:s]
-vi.&vi.&n.Í£Ö¹£¬Í£Ï¢
+vi.&vi.&n.åœæ­¢ï¼Œåœæ¯
 591. ceiling['si:li8]
-n.Ìì»¨°å£¬¶¥Åî
+n.å¤©èŠ±æ¿ï¼Œé¡¶è“¬
 592. celebrate['selibreit]
-vt.Çì×££»¸èËÌ£¬ÔŞÃÀ
+vt.åº†ç¥ï¼›æ­Œé¢‚ï¼Œèµç¾
 593. cell[sel]
-n.Ï¸°û£»Ğ¡·¿¼ä
+n.ç»†èƒï¼›å°æˆ¿é—´
 594. cellar['sel2]
-n.µØÒ¤£¬µØÏÂÊÒ
+n.åœ°çª‘ï¼Œåœ°ä¸‹å®¤
 595. cement[si'ment]
-n.Ë®Äà£»½ºÄà vt.Õ³½á
+n.æ°´æ³¥ï¼›èƒ¶æ³¥ vt.ç²˜ç»“
 596. cent[sent]
-n.·Ö£»·Ö±Ò£»°Ù
+n.åˆ†ï¼›åˆ†å¸ï¼›ç™¾
 597. centigrade['sentigreid]
-a.°Ù·Ö¶ÈµÄ
+a.ç™¾åˆ†åº¦çš„
 598. centimetre['sentimi:t2]
-n.¹«·Ö£¬ÀåÃ×
+n.å…¬åˆ†ï¼Œå˜ç±³
 599. central['sentr2l]
-a.ÖĞĞÄµÄ£»Ö÷ÒªµÄ
+a.ä¸­å¿ƒçš„ï¼›ä¸»è¦çš„
 600. centre['sent2]
-n.ÖĞĞÄ£»ÖĞÊà vt.¼¯ÖĞ
+n.ä¸­å¿ƒï¼›ä¸­æ¢ vt.é›†ä¸­
 601. century['sent6uri]
-n.ÊÀ¼Í£¬°ÙÄê
+n.ä¸–çºªï¼Œç™¾å¹´
 602. ceremony['serim2ni]
-n.µäÀñ£¬ÒÇÊ½£»Àñ½Ú
+n.å…¸ç¤¼ï¼Œä»ªå¼ï¼›ç¤¼èŠ‚
 603. certain['s2:t2n]
-a.È·ÊµµÄ£»¿Ï¶¨µÄ
+a.ç¡®å®çš„ï¼›è‚¯å®šçš„
 604. certainly['s2:t2nli]
-ad.Ò»¶¨£¬±Ø¶¨£»µ±È»
+ad.ä¸€å®šï¼Œå¿…å®šï¼›å½“ç„¶
 605. certainty['s2:tnti]
-n.±ØÈ»£»¿Ï¶¨
+n.å¿…ç„¶ï¼›è‚¯å®š
 606. certificate[s2'tifikit]
-n.Ö¤Êé£¬Ö¤¼ş£¬Ö´ÕÕ
+n.è¯ä¹¦ï¼Œè¯ä»¶ï¼Œæ‰§ç…§
 607. chain[t6ein]
-n.Á´£¬Á´Ìõ£¬ÏîÈ¦
+n.é“¾ï¼Œé“¾æ¡ï¼Œé¡¹åœˆ
 608. chair[t6/2]
-n.ÒÎ×Ó£»Ö÷Ï¯
+n.æ¤…å­ï¼›ä¸»å¸­
 609. chairman['t6/2m2n]
-n.Ö÷Ï¯£»Òé³¤£¬»á³¤
+n.ä¸»å¸­ï¼›è®®é•¿ï¼Œä¼šé•¿
 610. chalk[t60:k]
-n.°×ÛÑ£»·Û±Ê
+n.ç™½å©ï¼›ç²‰ç¬”
 611. challenge['t69l2nd7]
-n.ÌôÕ½£»ÒªÇó£¬ĞèÒª
+n.æŒ‘æˆ˜ï¼›è¦æ±‚ï¼Œéœ€è¦
 612. chamber['t6eimb2]
-n.»áÒéÊÒ£»·¿¼ä£»Ç»
+n.ä¼šè®®å®¤ï¼›æˆ¿é—´ï¼›è…”
 613. champion['t69mpj2n]
-n.¹Ú¾ü£¬µÃÊ¤Õß
+n.å† å†›ï¼Œå¾—èƒœè€…
 614. chance[t6a:ns]
-n.»ú»á£¬»úÓö£»¿ÉÄÜĞÔ
+n.æœºä¼šï¼Œæœºé‡ï¼›å¯èƒ½æ€§
 615. change[t6eind7]
-n.¸Ä±ä£¬±ä»¯£»ÁãÇ®
+n.æ”¹å˜ï¼Œå˜åŒ–ï¼›é›¶é’±
 616. channel['t69nl]
-n.º£Ï¿£»ÇşµÀ£»ÆµµÀ
+n.æµ·å³¡ï¼›æ¸ é“ï¼›é¢‘é“
 617. chapter['t69pt2]
-n.ÕÂ£¬»Ø£¬Æª
+n.ç« ï¼Œå›ï¼Œç¯‡
 618. character['k9rikt2]
-n.ĞÔ¸ñ£»ÌØĞÔ£»½ÇÉ«
+n.æ€§æ ¼ï¼›ç‰¹æ€§ï¼›è§’è‰²
 619. characteristic[k9rikt2'ristik]
-a.ÌØÓĞµÄ n.ÌØĞÔ
+a.ç‰¹æœ‰çš„ n.ç‰¹æ€§
 620. charge[t6a:d7]
-vt.Ë÷¼Û£»¿Ø¸æ n.·ÑÓÃ
+vt.ç´¢ä»·ï¼›æ§å‘Š n.è´¹ç”¨
 621. charity['t69riti]
-n.Ê©Éá£»´ÈÉÆÊÂÒµ
+n.æ–½èˆï¼›æ…ˆå–„äº‹ä¸š
 622. charming['t6a:mi8]
-a.ÃÔÈËµÄ£¬¿É°®µÄ
+a.è¿·äººçš„ï¼Œå¯çˆ±çš„
 623. chart[t6a:t]
-n.Í¼£¬Í¼±í£»º£Í¼
+n.å›¾ï¼Œå›¾è¡¨ï¼›æµ·å›¾
 624. chase[t6eis]
-n.×·Öğ£¬×·¸Ï£¬×·Çó
+n.è¿½é€ï¼Œè¿½èµ¶ï¼Œè¿½æ±‚
 625. cheap[t6i:p]
-a.Á®¼ÛµÄ£»ÁÓÖÊµÄ
+a.å»‰ä»·çš„ï¼›åŠ£è´¨çš„
 626. cheat[t6i:t]
-vt.Æ­È¡£»ºå vi.ĞĞÆ­
+vt.éª—å–ï¼›å“„ vi.è¡Œéª—
 627. check[t6ek]
-vt.¼ì²é£»ÖÆÖ¹ n.¼ì²é
+vt.æ£€æŸ¥ï¼›åˆ¶æ­¢ n.æ£€æŸ¥
 628. cheek[t6i:k]
-n.Ãæ¼Õ£¬Á³µ°
+n.é¢é¢Šï¼Œè„¸è›‹
 629. cheer[t6i2]
-vt.Ê¹Õñ×÷£»»¶ºô
+vt.ä½¿æŒ¯ä½œï¼›æ¬¢å‘¼
 630. cheerful['t6i2ful]
-a.¿ìÀÖµÄ£¬Óä¿ìµÄ
+a.å¿«ä¹çš„ï¼Œæ„‰å¿«çš„
 631. cheese[t6i:z]
-n.ÈéÀÒ£¬¸ÉÀÒ
+n.ä¹³é…ªï¼Œå¹²é…ª
 632. chemical['kemikl]
-a.»¯Ñ§µÄ n.»¯Ñ§ÖÆÆ·
+a.åŒ–å­¦çš„ n.åŒ–å­¦åˆ¶å“
 633. chemist['kemist]
-n.»¯Ñ§¼Ò£»Ò©¼ÁÊ¦
+n.åŒ–å­¦å®¶ï¼›è¯å‰‚å¸ˆ
 634. chemistry['kemistri]
-n.»¯Ñ§
+n.åŒ–å­¦
 635. cheque[t6ek]
-n.Ö§Æ±
+n.æ”¯ç¥¨
 636. cherry['t6eri]
-n.Ó£ÌÒ£»Ó£ÌÒÊ÷
+n.æ¨±æ¡ƒï¼›æ¨±æ¡ƒæ ‘
 637. chess[t6es]
-n.Æå£»¹ú¼ÊÏóÆå
+n.æ£‹ï¼›å›½é™…è±¡æ£‹
 638. chest[t6est]
-n.ĞØÇ»£¬ĞØÌÅ£»Ïä×Ó
+n.èƒ¸è…”ï¼Œèƒ¸è†›ï¼›ç®±å­
 639. chew[t6u:]
-vt.¾×½À£¬½ÀËé
+vt.å’€åš¼ï¼Œåš¼ç¢
 640. chicken['t6ikin]
-n.Ğ¡¼¦£¬Ğ¡Äñ£»¼¦Èâ
+n.å°é¸¡ï¼Œå°é¸Ÿï¼›é¸¡è‚‰
 641. chief[t6i:f]
-a.Ö÷ÒªµÄ£»Ê×Ï¯µÄ
+a.ä¸»è¦çš„ï¼›é¦–å¸­çš„
 642. child[t6aild]
-n.Ğ¡º¢£¬¶ùÍ¯£»¶ù×Ó
+n.å°å­©ï¼Œå„¿ç«¥ï¼›å„¿å­
 643. childhood['t6aildhud]
-n.Í¯Äê£¬Ó×Äê£»ÔçÆÚ
+n.ç«¥å¹´ï¼Œå¹¼å¹´ï¼›æ—©æœŸ
 644. childish['t6aildi6]
-a.º¢×ÓµÄ£»Ó×ÖÉµÄ
+a.å­©å­çš„ï¼›å¹¼ç¨šçš„
 645. chill[t6il]
-vt.Ê¹±äÀä n.º®Àä
+vt.ä½¿å˜å†· n.å¯’å†·
 646. chimney['t6imni]
-n.ÑÌ´Ñ£¬ÑÌÍ²£»²£Á§ÕÖ
+n.çƒŸå›±ï¼ŒçƒŸç­’ï¼›ç»ç’ƒç½©
 647. chin[t6in]
-n.ò¤£¬ÏÂ°Í
+n.é¢ï¼Œä¸‹å·´
 648. China['t6ain2]
-n.ÖĞ¹ú
+n.ä¸­å›½
 649. china['t6ain2]
-n.´ÉÆ÷£¬´ÉÁÏ
+n.ç“·å™¨ï¼Œç“·æ–™
 650. Chinese['t6ai'ni:z]
-a.ÖĞ¹úµÄ n.ÖĞ¹úÈË
+a.ä¸­å›½çš„ n.ä¸­å›½äºº
 651. chocolate['t60k2lit]
-n.ÇÉ¿ËÁ¦£»ÇÉ¿ËÁ¦ÌÇ
+n.å·§å…‹åŠ›ï¼›å·§å…‹åŠ›ç³–
 652. choice[t60is]
-n.Ñ¡Ôñ£¬¾ñÔñ
+n.é€‰æ‹©ï¼ŒæŠ‰æ‹©
 653. choke[t62uk]
-vt.Ê¹ÖÏÏ¢£»ÈûÂú
+vt.ä½¿çª’æ¯ï¼›å¡æ»¡
 654. choose[t6u:z]
-vt.Ñ¡Ôñ£¬ÌôÑ¡£»ÇéÔ¸
+vt.é€‰æ‹©ï¼ŒæŒ‘é€‰ï¼›æƒ…æ„¿
 655. chop[t60p]
-vt.¿³£¬Åü£»ÇĞÏ¸vi.¿³
+vt.ç ï¼ŒåŠˆï¼›åˆ‡ç»†vi.ç 
 656. Christian['kristi2n]
-n.»ù¶½½ÌÍ½£»ĞÅÍ½
+n.åŸºç£æ•™å¾’ï¼›ä¿¡å¾’
 657. Christmas['krism2s]
-n.Ê¥µ®½Ú
+n.åœ£è¯èŠ‚
 658. church[t62:t6]
-n.½ÌÌÃ£¬Àñ°İÌÃ£»½Ì»á
+n.æ•™å ‚ï¼Œç¤¼æ‹œå ‚ï¼›æ•™ä¼š
 659. cigarette[sig2'ret]
-n.ÏãÑÌ£¬Ö½ÑÌ£¬¾íÑÌ
+n.é¦™çƒŸï¼Œçº¸çƒŸï¼Œå·çƒŸ
 660. cinema['sinim2]
-n.µçÓ°Ôº£»µçÓ°£¬Ó°Æ¬
+n.ç”µå½±é™¢ï¼›ç”µå½±ï¼Œå½±ç‰‡
 661. circle['s2:kl]
-n.Ô²£¬Ô²ÖÜ£»È¦×Ó
+n.åœ†ï¼Œåœ†å‘¨ï¼›åœˆå­
 662. circuit['s2:kit]
-n.µçÂ·£»»·ĞĞ£»Ñ²ĞĞ
+n.ç”µè·¯ï¼›ç¯è¡Œï¼›å·¡è¡Œ
 663. circular['s2:kjul2]
-a.Ô²µÄ£»Ñ­»·µÄ
+a.åœ†çš„ï¼›å¾ªç¯çš„
 664. circulate['s2:kjuleit]
-vt.Ê¹Ñ­»· vi.Ñ­»·
+vt.ä½¿å¾ªç¯ vi.å¾ªç¯
 665. circumference[s2'k3mf2r2ns]
-n.Ô²ÖÜ£¬ÖÜ³¤£¬Ô²ÖÜÏß
+n.åœ†å‘¨ï¼Œå‘¨é•¿ï¼Œåœ†å‘¨çº¿
 666. circumstance['s2:k2mst2ns]
-n.Çé¿ö£¬Ìõ¼ş£»¾³Óö
+n.æƒ…å†µï¼Œæ¡ä»¶ï¼›å¢ƒé‡
 667. citizen['sitizn]
-n.¹«Ãñ£»ÊĞÃñ£¬¾ÓÃñ
+n.å…¬æ°‘ï¼›å¸‚æ°‘ï¼Œå±…æ°‘
 668. city['siti]
-n.³ÇÊĞ£¬¶¼ÊĞ
+n.åŸå¸‚ï¼Œéƒ½å¸‚
 669. civil['sivl]
-a.¹«ÃñµÄ£»ÎÄÖ°µÄ
+a.å…¬æ°‘çš„ï¼›æ–‡èŒçš„
 670. civilization[sivilai'zei62n]
-n.ÎÄÃ÷£¬ÎÄ»¯£»¿ª»¯
+n.æ–‡æ˜ï¼Œæ–‡åŒ–ï¼›å¼€åŒ–
 671. civilize['sivilaiz]
-vt.Ê¹ÎÄÃ÷£»½ÌÓı
+vt.ä½¿æ–‡æ˜ï¼›æ•™è‚²
 672. claim[kleim]
-vt.Éù³Æ£¬Ö÷ÕÅ£»Ë÷È¡
+vt.å£°ç§°ï¼Œä¸»å¼ ï¼›ç´¢å–
 673. clap[kl9p]
-vi.ÅÄÊÖ vt.ÅÄ£¬ÇáÅÄ
+vi.æ‹æ‰‹ vt.æ‹ï¼Œè½»æ‹
 674. clarify['kl9rifai]
-vt.³ÎÇå£¬²ûÃ÷
+vt.æ¾„æ¸…ï¼Œé˜æ˜
 675. clasp[kla:sp]
-n.¿Û×Ó£¬¹³×Ó£»±ğÕë
+n.æ‰£å­ï¼Œé’©å­ï¼›åˆ«é’ˆ
 676. class[kla:s]
-n.°à£¬°à¼¶£»½×¼¶
+n.ç­ï¼Œç­çº§ï¼›é˜¶çº§
 677. classical['kl9sik2l]
-a.¹ÅµäµÄ£»¾­µäµÄ
+a.å¤å…¸çš„ï¼›ç»å…¸çš„
 678. classification[kl9sifi'kei62n]
-n.·ÖÀà£»·Ö¼¶£»·ÖÀà·¨
+n.åˆ†ç±»ï¼›åˆ†çº§ï¼›åˆ†ç±»æ³•
 679. classify['kl9sifai]
-vt.°Ñ¡­·ÖÀà
+vt.æŠŠâ€¦åˆ†ç±»
 680. classmate['kla:smeit]
-n.Í¬°àÍ¬Ñ§
+n.åŒç­åŒå­¦
 681. classroom['kla:srum]
-n.½ÌÊÒ£¬¿ÎÌÃ
+n.æ•™å®¤ï¼Œè¯¾å ‚
 682. claw[kl0:]
-n.×¦£¬½Å×¦£¬òü
+n.çˆªï¼Œè„šçˆªï¼Œè¯
 683. clay[klei]
-n.Õ³ÍÁ£¬ÄàÍÁ£»ÈâÌå
+n.ç²˜åœŸï¼Œæ³¥åœŸï¼›è‚‰ä½“
 684. clean[kli:n]
-a.Çå½àµÄ£»´¿½àµÄ
+a.æ¸…æ´çš„ï¼›çº¯æ´çš„
 685. clear[kli2]
-a.ÇåÎúµÄ vt.Çå³ı
+a.æ¸…æ™°çš„ vt.æ¸…é™¤
 686. clearly['kli2li]
-ad.Ã÷°×µØ£¬ÇåÎúµØ
+ad.æ˜ç™½åœ°ï¼Œæ¸…æ™°åœ°
 687. clerk[kla:k. kl2:k]
-n.µêÔ±£»°ìÊÂÔ±£¬Ö°Ô±
+n.åº—å‘˜ï¼›åŠäº‹å‘˜ï¼ŒèŒå‘˜
 688. clever['klev2]
-a.´ÏÃ÷µÄ£»»úÃôµÄ
+a.èªæ˜çš„ï¼›æœºæ•çš„
 689. cliff[klif]
-n.ĞüÑÂ£¬ÇÍ±Ú
+n.æ‚¬å´–ï¼Œå³­å£
 690. climate['klaimit]
-n.Æøºò£»·çÍÁ£¬µØ´ø
+n.æ°”å€™ï¼›é£åœŸï¼Œåœ°å¸¦
 691. climb[klaim]
-vi.ÅÊµÇ£¬ÅÀ vt.ÅÀ
+vi.æ”€ç™»ï¼Œçˆ¬ vt.çˆ¬
 692. cloak[kl2uk]
-n.¶·Åñ£»¸²¸Ç(Îï)
+n.æ–—ç¯·ï¼›è¦†ç›–(ç‰©)
 693. clock[kl0k]
-n.ÖÓ£¬ÒÇ±í
+n.é’Ÿï¼Œä»ªè¡¨
 694. close[kl2uz. kl2us]
-vt.¹Ø£¬±Õ£»½áÊø
+vt.å…³ï¼Œé—­ï¼›ç»“æŸ
 695. closely['kl2usli]
-ad.½ôÃÜµØ£¬½Ó½üµØ
+ad.ç´§å¯†åœ°ï¼Œæ¥è¿‘åœ°
 696. cloth[kl0:4]
-n.²¼£»ÒÂÁÏ£»×À²¼
+n.å¸ƒï¼›è¡£æ–™ï¼›æ¡Œå¸ƒ
 697. clothe[kl2u5]
-vt.¸ø¡­´©ÒÂ·ş
+vt.ç»™â€¦ç©¿è¡£æœ
 698. clothes[kl2u5z]
-n.ÒÂ·ş£¬·ş×°£»±»Èì
+n.è¡£æœï¼Œæœè£…ï¼›è¢«è¤¥
 699. clothing['kl2u5i8]
-n.ÒÂ·ş£¬±»Èì
+n.è¡£æœï¼Œè¢«è¤¥
 700. cloud[klaud]
-n.ÔÆ£»ÔÆ×´Îï£»ÒõÓ°
+n.äº‘ï¼›äº‘çŠ¶ç‰©ï¼›é˜´å½±
 701. cloudy[klaudi]
-a.¶àÔÆµÄ£»ÔÆÒ»°ãµÄ
+a.å¤šäº‘çš„ï¼›äº‘ä¸€èˆ¬çš„
 702. club[kl3b]
-n.¾ãÀÖ²¿£¬Ò¹×Ü»á
+n.ä¿±ä¹éƒ¨ï¼Œå¤œæ€»ä¼š
 703. clue[klu:]
-n.ÏßË÷£¬°µÊ¾£¬ÌáÊ¾
+n.çº¿ç´¢ï¼Œæš—ç¤ºï¼Œæç¤º
 704. clumsy['kl3mzi]
-a.±¿×¾µÄ£»ÓŞ±¿µÄ
+a.ç¬¨æ‹™çš„ï¼›æ„šç¬¨çš„
 705. coach[k2ut6]
-n.³¤Í¾¹«¹²Æû³µ
+n.é•¿é€”å…¬å…±æ±½è½¦
 706. coal[k2ul]
-n.Ãº£¬Ãº¿é
+n.ç…¤ï¼Œç…¤å—
 707. coarse[k0:s]
-a.´ÖµÄ£¬´Ö²ÚµÄ
+a.ç²—çš„ï¼Œç²—ç³™çš„
 708. coast[k2ust]
-n.º£°¶£¬º£±õ(µØÇø)
+n.æµ·å²¸ï¼Œæµ·æ»¨(åœ°åŒº)
 709. coat[k2ut]
-n.ÍâÌ×£¬ÉÏÒÂ£»±íÆ¤
+n.å¤–å¥—ï¼Œä¸Šè¡£ï¼›è¡¨çš®
 710. cock[k0k]
-n.¹«¼¦£»ĞÛÇİ£»ĞıÈû
+n.å…¬é¸¡ï¼›é›„ç¦½ï¼›æ—‹å¡
 711. code[k2ud]
-n.×¼Ôò£»·¨µä£»´úÂë
+n.å‡†åˆ™ï¼›æ³•å…¸ï¼›ä»£ç 
 712. coffee['k0fi]
-n.¿§·È£¬¿§·È²è
+n.å’–å•¡ï¼Œå’–å•¡èŒ¶
 713. coil[k0il]
-n.(Ò»)¾í£»ÏßÈ¦ vt.¾í
+n.(ä¸€)å·ï¼›çº¿åœˆ vt.å·
 714. coin[k0in]
-n.Ó²±Ò£»ÖıÔì(Ó²±Ò)
+n.ç¡¬å¸ï¼›é“¸é€ (ç¡¬å¸)
 715. cold[k2uld]
-a.ÀäµÄ£»Àäµ­µÄ n.Àä
+a.å†·çš„ï¼›å†·æ·¡çš„ n.å†·
 716. collapse[k2'l9ps]
-vi.µ¹Ì®£»±ÀÀ££¬Íß½â
+vi.å€’åï¼›å´©æºƒï¼Œç“¦è§£
 717. collar['k0l2]
-n.ÒÂÁì£¬ÏîÈ¦
+n.è¡£é¢†ï¼Œé¡¹åœˆ
 718. colleague['k0li:g]
-n.Í¬ÊÂ£¬Í¬ÁÅ
+n.åŒäº‹ï¼ŒåŒåƒš
 719. collect[k2'lekt]
-vt.ÊÕ¼¯ vi.ÊÕ¿î
+vt.æ”¶é›† vi.æ”¶æ¬¾
 720. collection[k2'lek62n]
-n.ËÑ¼¯£¬ÊÕ¼¯£»ÊÕ²ØÆ·
+n.æœé›†ï¼Œæ”¶é›†ï¼›æ”¶è—å“
 721. collective[k2'lektiv]
-a.¼¯ÌåµÄ£»¼¯ºÏĞÔµÄ
+a.é›†ä½“çš„ï¼›é›†åˆæ€§çš„
 722. college['k0lid7]
-n.Ñ§Ôº£»´óÑ§
+n.å­¦é™¢ï¼›å¤§å­¦
 723. collision[k2'li7(2)n]
-n.Åö×²£»³åÍ»
+n.ç¢°æ’ï¼›å†²çª
 724. colonel['k2:nl]
-n.Â½¾üÉÏĞ££»ÖĞĞ£
+n.é™†å†›ä¸Šæ ¡ï¼›ä¸­æ ¡
 725. colony['k0l2ni]
-n.Ö³ÃñµØ£»ÇÈ¾ÓµØ
+n.æ®–æ°‘åœ°ï¼›ä¾¨å±…åœ°
 726. color['k3l2]
-n.ÑÕÉ«£¬²ÊÉ«£»ÑÕÁÏ
+n.é¢œè‰²ï¼Œå½©è‰²ï¼›é¢œæ–™
 727. column['k0l2m]
-n.Öù£¬Ö§Öù£¬Ô²Öù
+n.æŸ±ï¼Œæ”¯æŸ±ï¼Œåœ†æŸ±
 728. comb[k2um]
-n.Êá×Ó vt.ÊáÀí
+n.æ¢³å­ vt.æ¢³ç†
 729. combination[k0mbi'nei62n]
-n.½áºÏ£¬ÁªºÏ£»»¯ºÏ
+n.ç»“åˆï¼Œè”åˆï¼›åŒ–åˆ
 730. combine[k2m'bain]
-vt.Ê¹½áºÏ£»¼æÓĞ
+vt.ä½¿ç»“åˆï¼›å…¼æœ‰
 731. come[k3m]
-vi.À´£¬À´µ½£»³öÏÖ
+vi.æ¥ï¼Œæ¥åˆ°ï¼›å‡ºç°
 732. comfort['k3mf2t]
-n.ÊæÊÊ£»°²Î¿ vt.°²Î¿
+n.èˆ’é€‚ï¼›å®‰æ…° vt.å®‰æ…°
 733. comfortable['k3mf2t2bl]
-a.ÊæÊÊµÄ£¬°²Î¿µÄ
+a.èˆ’é€‚çš„ï¼Œå®‰æ…°çš„
 734. command[k2'ma:nd]
-vt.ÃüÁî£¬Ö¸»Ó£»¿ØÖÆ
+vt.å‘½ä»¤ï¼ŒæŒ‡æŒ¥ï¼›æ§åˆ¶
 735. commander[k2'ma:nd2]
-n.Ë¾Áî¹Ù£¬Ö¸»ÓÔ±
+n.å¸ä»¤å®˜ï¼ŒæŒ‡æŒ¥å‘˜
 736. comment['k0ment]
-n.ÆÀÂÛ£¬Òâ¼û£»×¢ÊÍ
+n.è¯„è®ºï¼Œæ„è§ï¼›æ³¨é‡Š
 737. commerce['k0m2(:)s]
-n.ÉÌÒµ£¬Ã³Ò×£»Éç½»
+n.å•†ä¸šï¼Œè´¸æ˜“ï¼›ç¤¾äº¤
 738. commercial[k2'm2:62l]
-a.ÉÌÒµµÄ£»ÉÌÆ·»¯µÄ
+a.å•†ä¸šçš„ï¼›å•†å“åŒ–çš„
 739. commission[k2'mi62n]
-n.Î¯ÈÎ×´£»Î¯Ô±»á
+n.å§”ä»»çŠ¶ï¼›å§”å‘˜ä¼š
 740. commit[k2'mit]
-vt.·¸(´íÎó);¸É(»µÊÂ)
+vt.çŠ¯(é”™è¯¯);å¹²(åäº‹)
 741. committee[k2'miti]
-n.Î¯Ô±»á£»È«ÌåÎ¯Ô±
+n.å§”å‘˜ä¼šï¼›å…¨ä½“å§”å‘˜
 742. common['k0m2n]
-a.ÆÕÍ¨µÄ£»¹²Í¬µÄ
+a.æ™®é€šçš„ï¼›å…±åŒçš„
 743. commonly['k0m2nli]
-ad.ÆÕÍ¨µØ£¬Ò»°ãµØ
+ad.æ™®é€šåœ°ï¼Œä¸€èˆ¬åœ°
 744. communicate[k2'mju:nikeit]
-vi.Í¨Ñ¶£»´«´ï£»´«²¥
+vi.é€šè®¯ï¼›ä¼ è¾¾ï¼›ä¼ æ’­
 745. communication[k2'mju:nikei62n]
-n.Í¨Ñ¶£»´«´ï£»½»Í¨
+n.é€šè®¯ï¼›ä¼ è¾¾ï¼›äº¤é€š
 746. communism['k0mjuniz2m]
-n.¹²²úÖ÷Òå
+n.å…±äº§ä¸»ä¹‰
 747. communist['k0mjunist]
-n.¹²²úµ³Ô±
+n.å…±äº§å…šå‘˜
 748. community[k2'mju:niti]
-n.ÉçÇø£»Éç»á£»¹«Éç
+n.ç¤¾åŒºï¼›ç¤¾ä¼šï¼›å…¬ç¤¾
 749. companion[k2m'p9ni2n]
-n.Í¬°é£»¹²ÊÂÕß£»°éÂÂ
+n.åŒä¼´ï¼›å…±äº‹è€…ï¼›ä¼´ä¾£
 750. company['k3mp2ni]
-n.¹«Ë¾£¬ÉÌºÅ£»Í¬°é
+n.å…¬å¸ï¼Œå•†å·ï¼›åŒä¼´
 751. comparative[k2m'p9r2tiv]
-a.±È½ÏµÄ£¬Ïà¶ÔµÄ
+a.æ¯”è¾ƒçš„ï¼Œç›¸å¯¹çš„
 752. compare[k2m'p/2]
-vt.±È½Ï£¬¶ÔÕÕ£»±È×÷
+vt.æ¯”è¾ƒï¼Œå¯¹ç…§ï¼›æ¯”ä½œ
 753. comparison[k2m'p9risn]
-n.±È½Ï£¬¶ÔÕÕ£»±ÈËÆ
+n.æ¯”è¾ƒï¼Œå¯¹ç…§ï¼›æ¯”ä¼¼
 754. compass['k3mp2s]
-n.ÂŞÅÌ£¬Ö¸ÄÏÕë£»Ô²¹æ
+n.ç½—ç›˜ï¼ŒæŒ‡å—é’ˆï¼›åœ†è§„
 755. compel[k2m'pel]
-vt.Ç¿ÆÈ£¬ÆÈÊ¹Çü·ş
+vt.å¼ºè¿«ï¼Œè¿«ä½¿å±ˆæœ
 756. compete[k2m'pi:t]
-vi.±ÈÈü£»¾ºÕù£»¶Ô¿¹
+vi.æ¯”èµ›ï¼›ç«äº‰ï¼›å¯¹æŠ—
 757. competent['k0mpit2nt]
-a.ÓĞÄÜÁ¦µÄ£»Ó¦¸Ã×öµÄ
+a.æœ‰èƒ½åŠ›çš„ï¼›åº”è¯¥åšçš„
 758. competition[k0mp2'ti62n]
-n.¾ºÕù£¬±ÈÈü
+n.ç«äº‰ï¼Œæ¯”èµ›
 759. compile[k2m'pail]
-vt.±à¼­£¬±àÖÆ£¬ËÑ¼¯
+vt.ç¼–è¾‘ï¼Œç¼–åˆ¶ï¼Œæœé›†
 760. complain[k2m'plein]
-vi.±§Ô¹£¬²ğ¿à£»¿Ø¸æ
+vi.æŠ±æ€¨ï¼Œæ‹†è‹¦ï¼›æ§å‘Š
 761. complaint[k2m'pleint]
-n.±§Ô¹£»Ô¹ÑÔ£»¿Ø¸æ
+n.æŠ±æ€¨ï¼›æ€¨è¨€ï¼›æ§å‘Š
 762. complete[k2m'pli:t]
-a.ÍêÕûµÄ£»Íê³ÉµÄ
+a.å®Œæ•´çš„ï¼›å®Œæˆçš„
 763. completely[k2m'pli:tli]
-ad.Ê®·Ö£¬ÍêÈ«µØ
+ad.ååˆ†ï¼Œå®Œå…¨åœ°
 764. complex['k0mpleks]
-a.½áºÏµÄ£»¸´ÔÓµÄ
+a.ç»“åˆçš„ï¼›å¤æ‚çš„
 765. complicate['k0mplikeit]
-vt.Ê¹¸´ÔÓ£»Ê¹ÏİÈë
+vt.ä½¿å¤æ‚ï¼›ä½¿é™·å…¥
 766. complicated['k0mplikeitid]
-a.¸´ÔÓµÄ£¬ÄÑ¶®µÄ
+a.å¤æ‚çš„ï¼Œéš¾æ‡‚çš„
 767. component[k2m'p2un2nt]
-n.×é³É²¿·Ö£»·Ö£»×é¼ş
+n.ç»„æˆéƒ¨åˆ†ï¼›åˆ†ï¼›ç»„ä»¶
 768. compose[k2m'p2uz]
-vt.×é³É£¬¹¹³É£»´´×÷
+vt.ç»„æˆï¼Œæ„æˆï¼›åˆ›ä½œ
 769. composition[k0mp2'zi62n]
-n.¹¹³É£»×÷Æ·£»Ğ´×÷
+n.æ„æˆï¼›ä½œå“ï¼›å†™ä½œ
 770. compound['k0mpaund. k2m'paund]
-n.»¯ºÏÎï£»¸´ºÏ´Ê
+n.åŒ–åˆç‰©ï¼›å¤åˆè¯
 771. comprehension[k0mpri'hen62n]
-n.Àí½â£¬Àí½âÁ¦£»ÁìÎò
+n.ç†è§£ï¼Œç†è§£åŠ›ï¼›é¢†æ‚Ÿ
 772. comprehensive[k0mpri'hensiv]
-a.¹ã·ºµÄ£»Àí½âµÄ
+a.å¹¿æ³›çš„ï¼›ç†è§£çš„
 773. compress[k2m'pres]
-vt.Ñ¹½ô£¬Ñ¹Ëõ
+vt.å‹ç´§ï¼Œå‹ç¼©
 774. comprise[k2m'praiz]
-vt.°üº¬£¬°üÀ¨£»¹¹³É
+vt.åŒ…å«ï¼ŒåŒ…æ‹¬ï¼›æ„æˆ
 775. compromise['k0mpr2maiz]
-n.Í×Ğ­£¬ºÍ½â
+n.å¦¥åï¼Œå’Œè§£
 776. compute[k2m'pju:t]
-vt.¼ÆËã£¬¹À¼Æ£¬¹ÀËã
+vt.è®¡ç®—ï¼Œä¼°è®¡ï¼Œä¼°ç®—
 777. computer[k2m'pju:t2]
-n.¼ÆËã»ú£¬µçÄÔ
+n.è®¡ç®—æœºï¼Œç”µè„‘
 778. comrade['k0mrid]
-n.Í¬Ö¾£¬Ç×ÃÜµÄÍ¬°é
+n.åŒå¿—ï¼Œäº²å¯†çš„åŒä¼´
 779. conceal[k2n'si:l]
-vt.°Ñ¡­Òş²ØÆğÀ´
+vt.æŠŠâ€¦éšè—èµ·æ¥
 780. concentrate['k0ns2ntreit]
-vt.¼¯ÖĞ£»¾Û¼¯£»Å¨Ëõ
+vt.é›†ä¸­ï¼›èšé›†ï¼›æµ“ç¼©
 781. concentration[k0ns2n'trei62n]
-n.¼¯ÖĞ£»×¨×¢£»Å¨Ëõ
+n.é›†ä¸­ï¼›ä¸“æ³¨ï¼›æµ“ç¼©
 782. concept['k0nsept]
-n.¸ÅÄî£¬¹ÛÄî£¬ÉèÏë
+n.æ¦‚å¿µï¼Œè§‚å¿µï¼Œè®¾æƒ³
 783. concern[k2n's2:n]
-n.¹ØĞÄ£¬¹ÒÄî£»¹ØÏµ
+n.å…³å¿ƒï¼ŒæŒ‚å¿µï¼›å…³ç³»
 784. concerning[k2n's2:ni8]
-prep.¹ØÓÚ
+prep.å…³äº
 785. concert['k0ns2t]
-n.ÒôÀÖ»á£¬Ñİ×à»á
+n.éŸ³ä¹ä¼šï¼Œæ¼”å¥ä¼š
 786. conclude[k2n'klu:d]
-vt.ÍÆ¶Ï³ö£»½áÊø
+vt.æ¨æ–­å‡ºï¼›ç»“æŸ
 787. conclusion[k2n'klu:72n]
-n.½áÂÛ£¬ÍÆÂÛ£»½áÎ²
+n.ç»“è®ºï¼Œæ¨è®ºï¼›ç»“å°¾
 788. concrete['k0nkri:t]
-n.»ìÄıÍÁ£»¾ßÌåÎï
+n.æ··å‡åœŸï¼›å…·ä½“ç‰©
 789. condemn[k2n'dem]
-vt.Ç´Ôğ£¬Ö¸Ôğ£»ÅĞĞÌ
+vt.è°´è´£ï¼ŒæŒ‡è´£ï¼›åˆ¤åˆ‘
 790. condense[k2n'dens]
-vt.Ñ¹Ëõ£¬Ê¹Ëõ¶Ì
+vt.å‹ç¼©ï¼Œä½¿ç¼©çŸ­
 791. condition[k2n'di62n]
-n.×´¿ö£¬×´Ì¬£»»·¾³
+n.çŠ¶å†µï¼ŒçŠ¶æ€ï¼›ç¯å¢ƒ
 792. conduct['k0nd2kt. k2n'd3kt]
-n.¾ÙÖ¹£¬ĞĞÎª£»Ö¸µ¼
+n.ä¸¾æ­¢ï¼Œè¡Œä¸ºï¼›æŒ‡å¯¼
 793. conductor[k2n'd3kt2]
-n.ÊÛÆ±Ô±£»(ÀÖ¶Ó)Ö¸»Ó
+n.å”®ç¥¨å‘˜ï¼›(ä¹é˜Ÿ)æŒ‡æŒ¥
 794. conference['k0nf2r2ns]
-n.»áÒé£¬ÌÖÂÛ»á
+n.ä¼šè®®ï¼Œè®¨è®ºä¼š
 795. confess[k2n'fes]
-vt.¹©ÈÏ£¬³ĞÈÏ£»Ì¹°×
+vt.ä¾›è®¤ï¼Œæ‰¿è®¤ï¼›å¦ç™½
 796. confidence['k0nfid2ns]
-n.ĞÅÈÎ£»ĞÅÀµ£»ĞÅĞÄ
+n.ä¿¡ä»»ï¼›ä¿¡èµ–ï¼›ä¿¡å¿ƒ
 797. confident['k0nfid2nt]
-n.È·ĞÅµÄ£¬×ÔĞÅµÄ
+n.ç¡®ä¿¡çš„ï¼Œè‡ªä¿¡çš„
 798. confine[k2n'fain]
-vt.ÏŞÖÆ£»½û±Õ
+vt.é™åˆ¶ï¼›ç¦é—­
 799. confirm[k2n'f2:m]
-vt.Ö¤Êµ£¬¿Ï¶¨£»Åú×¼
+vt.è¯å®ï¼Œè‚¯å®šï¼›æ‰¹å‡†
 800. conflict['k0nflikt. k2n'flikt]
-n.ÕùÂÛ£»³åÍ»£»¶·Õù
+n.äº‰è®ºï¼›å†²çªï¼›æ–—äº‰
 801. confuse[k2n'fju:z]
-vt.Ê¹»ìÂÒ£¬»ìÏı
+vt.ä½¿æ··ä¹±ï¼Œæ··æ·†
 802. confusion[k2n'fju:72n]
-n.»ìÂÒ£»É§ÂÒ£»»ìÏı
+n.æ··ä¹±ï¼›éªšä¹±ï¼›æ··æ·†
 803. congratulate[k2n'gr9tjuleit]
-vt.×£ºØ£¬Ïò¡­µÀÏ²
+vt.ç¥è´ºï¼Œå‘â€¦é“å–œ
 804. congratulation[k2ngr9tju'lei62n]
-n.×£ºØ£»×£ºØ´Ê
+n.ç¥è´ºï¼›ç¥è´ºè¯
 805. congress['k08gres]
-n.´ó»á£»¹ú»á£¬Òé»á
+n.å¤§ä¼šï¼›å›½ä¼šï¼Œè®®ä¼š
 806. conjunction[k2n'd738k62n]
-n.½ÓºÏ£¬Á¬½Ó£»Á¬½Ó´Ê
+n.æ¥åˆï¼Œè¿æ¥ï¼›è¿æ¥è¯
 807. connect[k2'nekt]
-vt.Á¬½Ó£¬Á¬½á£»ÁªÏµ
+vt.è¿æ¥ï¼Œè¿ç»“ï¼›è”ç³»
 808. connection[k2'nek62n]
-n.Á¬½Ó£¬ÁªÏµ£»Á¬¹áĞÔ
+n.è¿æ¥ï¼Œè”ç³»ï¼›è¿è´¯æ€§
 809. conquer['k08k2]
-vt.Õ÷·ş£¬Õ½Ê¤£»ÆÆ³ı
+vt.å¾æœï¼Œæˆ˜èƒœï¼›ç ´é™¤
 810. conquest['k08kwest]
-n.¹¥È¡£¬Õ÷·ş£»¿Ë·ş
+n.æ”»å–ï¼Œå¾æœï¼›å…‹æœ
 811. conscience['k0n62ns]
-n.Á¼ĞÄ£¬µÀµÂĞÄ
+n.è‰¯å¿ƒï¼Œé“å¾·å¿ƒ
 812. conscious['k0n62s]
-a.ÒâÊ¶µ½µÄ£»ÓĞÒâµÄ
+a.æ„è¯†åˆ°çš„ï¼›æœ‰æ„çš„
 813. consciousness['k0n62snis]
-n.ÒâÊ¶£¬¾õÎò£»Öª¾õ
+n.æ„è¯†ï¼Œè§‰æ‚Ÿï¼›çŸ¥è§‰
 814. consent[k2n'sent]
-n.Í¬Òâ£¬ÔŞ³É vi.Í¬Òâ
+n.åŒæ„ï¼Œèµæˆ vi.åŒæ„
 815. consequence['k0nsikw2ns]
-n.½á¹û£¬ºó¹û
+n.ç»“æœï¼Œåæœ
 816. consequently['k0nsikw2ntli]
-ad.Òò´Ë£¬Òò¶ø£¬ËùÒÔ
+ad.å› æ­¤ï¼Œå› è€Œï¼Œæ‰€ä»¥
 817. conservation[k0ns2(:)'vei62n]
-n.±£´æ£¬±£»¤£»ÊØºã
+n.ä¿å­˜ï¼Œä¿æŠ¤ï¼›å®ˆæ’
 818. conservative[k2n's2:v2tiv]
-a.±£ÊØµÄ n.±£ÊØµÄÈË
+a.ä¿å®ˆçš„ n.ä¿å®ˆçš„äºº
 819. consider[k2n'sid2]
-vt.ÈÏÎª£»¿¼ÂÇ£»¹ØĞÄ
+vt.è®¤ä¸ºï¼›è€ƒè™‘ï¼›å…³å¿ƒ
 820. considerable[k2n'sid2r2bl]
-a.Ïàµ±´óµÄ£»ÖØÒªµÄ
+a.ç›¸å½“å¤§çš„ï¼›é‡è¦çš„
 821. considerate[k2n'sid2rit]
-a.¿¼ÂÇÖÜµ½µÄ£»ÌåÁÂµÄ
+a.è€ƒè™‘å‘¨åˆ°çš„ï¼›ä½“è°…çš„
 822. consideration[k2nsid2'rei62n]
-n.¿¼ÂÇ£¬Ë¼¿¼£»ÌåÌù
+n.è€ƒè™‘ï¼Œæ€è€ƒï¼›ä½“è´´
 823. consist[k2n'sist]
-vi.ÓÉ¡­×é³É£»ÔÚÓÚ
+vi.ç”±â€¦ç»„æˆï¼›åœ¨äº
 824. consistent[k2n'sist2nt]
-a.¼á³ÖµÄ£¬Ò»¹áµÄ
+a.åšæŒçš„ï¼Œä¸€è´¯çš„
 825. constant['k0nst2nt]
-a.¾­³£µÄ£»ÓÀºãµÄ
+a.ç»å¸¸çš„ï¼›æ°¸æ’çš„
 826. constitution[k0nsti'tju:62n]
-n.ÕÂ³Ì£»ÌåÖÊ£»¹¹Ôì
+n.ç« ç¨‹ï¼›ä½“è´¨ï¼›æ„é€ 
 827. construct[k2n'str3kt]
-vt.½¨Ôì£»½¨Éè£»¹¹Öş
+vt.å»ºé€ ï¼›å»ºè®¾ï¼›æ„ç­‘
 828. construction[k2n'str3k62n]
-n.½¨Ôì£»½¨Öş£»½¨ÖşÎï
+n.å»ºé€ ï¼›å»ºç­‘ï¼›å»ºç­‘ç‰©
 829. consult[k2n's3lt]
-vt.Çë½Ì£¬²éÔÄ
+vt.è¯·æ•™ï¼ŒæŸ¥é˜…
 830. consume[k2n'sju:m]
-vt.ÏûºÄ£¬Ïû·Ñ£»ÏûÃğ
+vt.æ¶ˆè€—ï¼Œæ¶ˆè´¹ï¼›æ¶ˆç­
 831. consumption[k2n's3mp62n]
-n.ÏûºÄÁ¿£»ÏûºÄ
+n.æ¶ˆè€—é‡ï¼›æ¶ˆè€—
 832. contact['k0nt9kt. k2n't9kt]
-vt.Ê¹½Ó´¥£»Óë¡­ÁªÏµ
+vt.ä½¿æ¥è§¦ï¼›ä¸â€¦è”ç³»
 833. contain[k2n'tein]
-vt.°üº¬£¬ÈİÄÉ£»µÈÓÚ
+vt.åŒ…å«ï¼Œå®¹çº³ï¼›ç­‰äº
 834. container[k2n'tein2]
-n.ÈİÆ÷£»¼¯×°Ïä
+n.å®¹å™¨ï¼›é›†è£…ç®±
 835. contemporary[k2n'temp2r2ri]
-a.µ±´úµÄ£¬Í¬Ê±´úµÄ
+a.å½“ä»£çš„ï¼ŒåŒæ—¶ä»£çš„
 836. contempt[k2n'tempt]
-n.ÇáÃï£»ÃêÊÓ£»ÊÜÈè
+n.è½»è”‘ï¼›è—è§†ï¼›å—è¾±
 837. content['k0ntent. k2n'tent]
-n.ÄÚÈİ£¬Ä¿Â¼£»ÈİÁ¿
+n.å†…å®¹ï¼Œç›®å½•ï¼›å®¹é‡
 838. content['k0ntent. k2n'tent]
-a.ÂúÒâµÄ£¬Âú×ãµÄ
+a.æ»¡æ„çš„ï¼Œæ»¡è¶³çš„
 839. contest[k2n'test. 'k0ntest]
-vt.Õù¶á£¬ÕùÈ¡£»±ç²µ
+vt.äº‰å¤ºï¼Œäº‰å–ï¼›è¾©é©³
 840. continent['k0ntin2nt]
-n.´óÂ½£»Â½µØ£»ÖŞ
+n.å¤§é™†ï¼›é™†åœ°ï¼›æ´²
 841. continual[k2n'tinju2l]
-a.²»¶ÏµÄ£»Á¬ĞøµÄ
+a.ä¸æ–­çš„ï¼›è¿ç»­çš„
 842. continue[k2n'tinju(:)]
-vt.¼ÌĞø£¬Á¬Ğø£»ÑÓÉì
+vt.ç»§ç»­ï¼Œè¿ç»­ï¼›å»¶ä¼¸
 843. continuous[k2n'tinju2s]
-a.Á¬Ğø²»¶ÏµÄ£¬³ÖĞøµÄ
+a.è¿ç»­ä¸æ–­çš„ï¼ŒæŒç»­çš„
 844. contract['k0ntr9kt. k2n'tr9kt]
-n.ÆõÔ¼£¬ºÏÍ¬£»»éÔ¼
+n.å¥‘çº¦ï¼ŒåˆåŒï¼›å©šçº¦
 845. contradiction[k0ntr2'dik62n]
-n.Ã¬¶Ü£¬²»Ò»ÖÂ£»·ñÈÏ
+n.çŸ›ç›¾ï¼Œä¸ä¸€è‡´ï¼›å¦è®¤
 846. contrary['k0ntr2ri]
-a.Ïà·´µÄ n.Ïà·´
+a.ç›¸åçš„ n.ç›¸å
 847. contrast['k0ntr9st. k2n'tr9st]
-n.¶Ô±È£¬¶ÔÕÕ£¬ĞüÊâ
+n.å¯¹æ¯”ï¼Œå¯¹ç…§ï¼Œæ‚¬æ®Š
 848. contribute[k2n'tribju(:)t]
-vt.¾èÏ×£¬¾èÖú£»Í¶¸å
+vt.æçŒ®ï¼ŒæåŠ©ï¼›æŠ•ç¨¿
 849. control[k2n'tr2ul]
-vt.¿ØÖÆ£¬¿ËÖÆ n.¿ØÖÆ
+vt.æ§åˆ¶ï¼Œå…‹åˆ¶ n.æ§åˆ¶
 850. convenience[k2n'vi:nj2ns]
-n.±ãÀû£¬·½±ã£»²ŞËù
+n.ä¾¿åˆ©ï¼Œæ–¹ä¾¿ï¼›å•æ‰€
 851. convenient[k2n'vi:nj2nt]
-a.±ãÀûµÄ£»½ü±ãµÄ
+a.ä¾¿åˆ©çš„ï¼›è¿‘ä¾¿çš„
 852. convention[k2n'ven62n]
-n.Ï°Ë×£¬¹ßÀı£»¹«Ô¼
+n.ä¹ ä¿—ï¼Œæƒ¯ä¾‹ï¼›å…¬çº¦
 853. conventional[k2n'ven62nl]
-a.ÆÕÍ¨µÄ£»Ï°¹ßµÄ
+a.æ™®é€šçš„ï¼›ä¹ æƒ¯çš„
 854. conversation[k0nv2'sei62n]
-n.»á»°£¬·ÇÕıÊ½»áÌ¸
+n.ä¼šè¯ï¼Œéæ­£å¼ä¼šè°ˆ
 855. conversely['k0nv2:sli]
-ad.Ïà·´µØ
+ad.ç›¸ååœ°
 856. conversion[k2n'v2:62n]
-n.×ª±ä£¬×ª»¯£»¸Ä±ä
+n.è½¬å˜ï¼Œè½¬åŒ–ï¼›æ”¹å˜
 857. convert[k2n'v2:t. 'k0nv2:t]
-vt.Ê¹×ª±ä£»Ê¹¸Ä±ä
+vt.ä½¿è½¬å˜ï¼›ä½¿æ”¹å˜
 858. convey[k2n'vei]
-vt.´«ËÍ£»ÔËËÍ£»´«²¥
+vt.ä¼ é€ï¼›è¿é€ï¼›ä¼ æ’­
 859. convince[k2n'vins]
-vt.Ê¹È·ĞÅ£¬Ê¹ĞÅ·ş
+vt.ä½¿ç¡®ä¿¡ï¼Œä½¿ä¿¡æœ
 860. cook[kuk]
-vt.Åëµ÷£¬Öó vt.ÉÕ²Ë
+vt.çƒ¹è°ƒï¼Œç…® vt.çƒ§èœ
 861. cool[ku:l]
-a.Á¹µÄ£¬Àä¾²µÄ
+a.å‡‰çš„ï¼Œå†·é™çš„
 862. cooperate[k2u'0p2reit]
-vi.ºÏ×÷£¬Ğ­×÷£»ÅäºÏ
+vi.åˆä½œï¼Œåä½œï¼›é…åˆ
 863. coordinate[k2u'0dinit]
-vt.Ê¹Ğ­µ÷£¬µ÷½Ú
+vt.ä½¿åè°ƒï¼Œè°ƒèŠ‚
 864. cope[k2up]
-vi.¶Ô¸¶£¬Ó¦¸¶
+vi.å¯¹ä»˜ï¼Œåº”ä»˜
 865. copper['k0p2]
-n.Í­£»Í­±Ò£¬Í­ÖÆÆ÷
+n.é“œï¼›é“œå¸ï¼Œé“œåˆ¶å™¨
 866. copy['k0pi]
-n.³­¼ş vt.³­Ğ´£¬¸´ÖÆ
+n.æŠ„ä»¶ vt.æŠ„å†™ï¼Œå¤åˆ¶
 867. cord[k0:d]
-n.Ï¸Éş£¬´ÖÏß£¬Ë÷
+n.ç»†ç»³ï¼Œç²—çº¿ï¼Œç´¢
 868. cordial['k0:dj2l]
-a.Õæ³ÏµÄ£¬³Ï¿ÒµÄ
+a.çœŸè¯šçš„ï¼Œè¯šæ³çš„
 869. core[k0:]
-n.¹ûÊµµÄĞÄ£¬ºËĞÄ
+n.æœå®çš„å¿ƒï¼Œæ ¸å¿ƒ
 870. corn[k0:n]
-n.¹ÈÎï£»(Ó¢)Ğ¡Âó
+n.è°·ç‰©ï¼›(è‹±)å°éº¦
 871. corner['k0:n2]
-n.½Ç£»ê÷½Ç£»±ßÔ¶µØÇø
+n.è§’ï¼›çŠ„è§’ï¼›è¾¹è¿œåœ°åŒº
 872. corporation[k0:p2'rei62n]
-n.¹«Ë¾£¬ÆóÒµ£»ÉçÍÅ
+n.å…¬å¸ï¼Œä¼ä¸šï¼›ç¤¾å›¢
 873. correct[k2'rekt]
-a.ÕıÈ·µÄ vt.¾ÀÕı
+a.æ­£ç¡®çš„ vt.çº æ­£
 874. correction[k2'rek62n]
-n.¸ÄÕı£¬¾ÀÕı£¬ĞŞ¸Ä
+n.æ”¹æ­£ï¼Œçº æ­£ï¼Œä¿®æ”¹
 875. correspond[k0ris'p0nd]
-vi.Ïà·ûºÏ£»Ïàµ±
+vi.ç›¸ç¬¦åˆï¼›ç›¸å½“
 876. correspondent[k0ris'p0nd2nt]
-n.Í¨ĞÅÕß£»Í¨Ñ¶Ô±
+n.é€šä¿¡è€…ï¼›é€šè®¯å‘˜
 877. corresponding[k0ris'p0ndi8]
-a.ÏàÓ¦µÄ£»·ûºÏµÄ
+a.ç›¸åº”çš„ï¼›ç¬¦åˆçš„
 878. corridor['k0rid0:]
-n.×ßÀÈ£¬»ØÀÈ£¬Í¨Â·
+n.èµ°å»Šï¼Œå›å»Šï¼Œé€šè·¯
 879. cost[k0st]
-n.¼Û¸ñ£¬´ú¼Û£»³É±¾
+n.ä»·æ ¼ï¼Œä»£ä»·ï¼›æˆæœ¬
 880. costly['k0stli]
-a.°º¹óµÄ£»¼ÛÖµ¸ßµÄ
+a.æ˜‚è´µçš„ï¼›ä»·å€¼é«˜çš„
 881. cottage['k0tid7]
-n.´åÉá£¬Ğ¡Îİ
+n.æ‘èˆï¼Œå°å±‹
 882. cotton['k0tn]
-n.ÃŞ£»ÃŞÏß£»ÃŞ²¼
+n.æ£‰ï¼›æ£‰çº¿ï¼›æ£‰å¸ƒ
 883. cough[k0f]
-vi.¿È£¬¿ÈËÔ n.¿ÈËÔ
+vi.å’³ï¼Œå’³å—½ n.å’³å—½
 884. could[kud. k2d]
-aux.v.(canµÄ¹ıÈ¥Ê½)
+aux.v.(cançš„è¿‡å»å¼)
 885. council['kaunsil]
-n.ÀíÊÂ»á£¬Î¯Ô±»á
+n.ç†äº‹ä¼šï¼Œå§”å‘˜ä¼š
 886. count[kaunt]
-vt.¼ÆËã vi.Êı£¬¼ÆÊı
+vt.è®¡ç®— vi.æ•°ï¼Œè®¡æ•°
 887. counter['kaunt2]
-n.¹ñÌ¨£»¼ÆÊıÆ÷
+n.æŸœå°ï¼›è®¡æ•°å™¨
 888. country['k3ntri]
-n.¹ú¼Ò£¬¹úÍÁ£»Å©´å
+n.å›½å®¶ï¼Œå›½åœŸï¼›å†œæ‘
 889. countryside['k3ntrisaid]
-n.ÏçÏÂ£¬Å©´å
+n.ä¹¡ä¸‹ï¼Œå†œæ‘
 890. county['kaunti]
-n.Ó¢¹úµÄ¿¤£¬ÃÀ¹úµÄÏØ
+n.è‹±å›½çš„éƒ¡ï¼Œç¾å›½çš„å¿
 891. couple['k3pl]
-n.·ò¸¾£»(Ò»)¶Ô£»¼¸¸ö
+n.å¤«å¦‡ï¼›(ä¸€)å¯¹ï¼›å‡ ä¸ª
 892. courage['k3rid7]
-n.ÓÂÆø£¬µ¨Á¿£¬µ¨Ê¶
+n.å‹‡æ°”ï¼Œèƒ†é‡ï¼Œèƒ†è¯†
 893. course[k0:s]
-n.¿Î³Ì£»¹ı³Ì£»Ò»µÀ²Ë
+n.è¯¾ç¨‹ï¼›è¿‡ç¨‹ï¼›ä¸€é“èœ
 894. court[k0:t]
-n.·¨Ôº£¬·¨Í¥£»Í¥Ôº
+n.æ³•é™¢ï¼Œæ³•åº­ï¼›åº­é™¢
 895. cousin['k3zn]
-n.ÌÃ(»ò±í)ĞÖµÜ(½ãÃÃ)
+n.å ‚(æˆ–è¡¨)å…„å¼Ÿ(å§å¦¹)
 896. cover['k3v2]
-vt.¸Ç£¬°üÀ¨ n.¸Ç×Ó
+vt.ç›–ï¼ŒåŒ…æ‹¬ n.ç›–å­
 897. cow[kau]
-n.Ä¸Å££¬ÄÌÅ££»Ä¸ÊŞ
+n.æ¯ç‰›ï¼Œå¥¶ç‰›ï¼›æ¯å…½
 898. coward['kau2d]
-n.Å³·ò£»µ¨ÇÓÕß
+n.æ‡¦å¤«ï¼›èƒ†æ€¯è€…
 899. crack[kr9k]
-n.ÁÑ·ì£¬ÁÑÎÆ vi.±¬ÁÑ
+n.è£‚ç¼ï¼Œè£‚çº¹ vi.çˆ†è£‚
 900. craft[kra:ft]
-n.¹¤ÒÕ£»ÊÖÒÕ£¬ĞĞÒµ
+n.å·¥è‰ºï¼›æ‰‹è‰ºï¼Œè¡Œä¸š
 901. crane[krein]
-n.ÆğÖØ»ú£¬ÉãÓ°Éı½µ»ú
+n.èµ·é‡æœºï¼Œæ‘„å½±å‡é™æœº
 902. crash[kr96]
-vi.Åö×²£¬×¹Âä n.Åö×²
+vi.ç¢°æ’ï¼Œå è½ n.ç¢°æ’
 903. crawl[kr0:l]
-vi.ÅÀ£¬ÅÀĞĞ
+vi.çˆ¬ï¼Œçˆ¬è¡Œ
 904. crazy['kreizi]
-a.·è¿ñµÄ£¬»ÄÌÆµÄ
+a.ç–¯ç‹‚çš„ï¼Œè’å”çš„
 905. cream[kri:m]
-n.ÄÌÓÍ£¬ÈéÖ¬£»ÄÌÓÍÉ«
+n.å¥¶æ²¹ï¼Œä¹³è„‚ï¼›å¥¶æ²¹è‰²
 906. create[kri(:)'eit]
-vt.´´Ôì£»ÒıÆğ£¬²úÉú
+vt.åˆ›é€ ï¼›å¼•èµ·ï¼Œäº§ç”Ÿ
 907. creative[kri(:)'eitiv]
-a.´´ÔìĞÔµÄ£¬´´×÷µÄ
+a.åˆ›é€ æ€§çš„ï¼Œåˆ›ä½œçš„
 908. creature['kri:t62]
-n.ÉúÎï£¬¶¯Îï£¬¼ÒĞó
+n.ç”Ÿç‰©ï¼ŒåŠ¨ç‰©ï¼Œå®¶ç•œ
 909. credit['kredit]
-n.ĞÅÓÃ´û¿î£»ĞÅÓÃ
+n.ä¿¡ç”¨è´·æ¬¾ï¼›ä¿¡ç”¨
 910. creep[kri:p]
-vi.ÅÀĞĞ£»»ºÂıµØĞĞ½ø
+vi.çˆ¬è¡Œï¼›ç¼“æ…¢åœ°è¡Œè¿›
 911. crew[kru:]
-n.È«Ìå´¬Ô±
+n.å…¨ä½“èˆ¹å‘˜
 912. cricket['krikit]
-n.°åÇò£»ó¬ó°
+n.æ¿çƒï¼›èŸ‹èŸ€
 913. crime[kraim]
-n.×ï£¬×ïĞĞ£»·¸×ï
+n.ç½ªï¼Œç½ªè¡Œï¼›çŠ¯ç½ª
 914. criminal['kriminl]
-n.·¸ÈË£¬×ï·¸£¬ĞÌÊÂ·¸
+n.çŠ¯äººï¼Œç½ªçŠ¯ï¼Œåˆ‘äº‹çŠ¯
 915. cripple['kripl]
-n.õË×Ó£»²Ğ·ÏµÄÈË
+n.è·›å­ï¼›æ®‹åºŸçš„äºº
 916. crisis['kraisis]
-n.Î£»ú£»´æÍöÖ®¼Ê
+n.å±æœºï¼›å­˜äº¡ä¹‹é™…
 917. critic['kritik]
-n.ÅúÆÀ¼Ò£¬°®ÌôÌŞµÄÈË
+n.æ‰¹è¯„å®¶ï¼Œçˆ±æŒ‘å‰”çš„äºº
 918. critical['kritik2l]
-a.¾ö¶¨ĞÔµÄ£»ÅúÆÀµÄ
+a.å†³å®šæ€§çš„ï¼›æ‰¹è¯„çš„
 919. criticism['kritisiz2m]
-n.ÅúÆÀ£»ÅúÅĞ£»ÆÀÂÛ
+n.æ‰¹è¯„ï¼›æ‰¹åˆ¤ï¼›è¯„è®º
 920. criticize['kritisaiz]
-vt.ÅúÆÀ£»ÆÀÂÛ£»·ÇÄÑ
+vt.æ‰¹è¯„ï¼›è¯„è®ºï¼›ééš¾
 921. crop[kr0p]
-n.Å©×÷Îï£¬×¯¼Ú£»Ò»Êì
+n.å†œä½œç‰©ï¼Œåº„ç¨¼ï¼›ä¸€ç†Ÿ
 922. cross[kr0s]
-vt.´©¹ı£»Ê¹½»²æ
+vt.ç©¿è¿‡ï¼›ä½¿äº¤å‰
 923. crow[kr2u]
-n.Ñ»£¬ÎÚÑ» vi.Ìä
+n.é¸¦ï¼Œä¹Œé¸¦ vi.å•¼
 924. crowd[kraud]
-n.Èº£»´óÖÚ£»Ò»»ïÈË
+n.ç¾¤ï¼›å¤§ä¼—ï¼›ä¸€ä¼™äºº
 925. crown[kraun]
-n.Íõ¹Ú£¬Ãá£»»¨¹Ú
+n.ç‹å† ï¼Œå†•ï¼›èŠ±å† 
 926. crude[kru:d]
-a.¼òÂªµÄ£»ÌìÈ»µÄ
+a.ç®€é™‹çš„ï¼›å¤©ç„¶çš„
 927. cruel['kru2l]
-a.²ĞÈÌµÄ£¬²Ğ¿áµÄ
+a.æ®‹å¿çš„ï¼Œæ®‹é…·çš„
 928. crush[kr36]
-vt.Ñ¹Ëé£¬ÄëËé£»ÕòÑ¹
+vt.å‹ç¢ï¼Œç¢¾ç¢ï¼›é•‡å‹
 929. crust[kr3st]
-n.Ãæ°üÆ¤£»Ó²ÍâÆ¤
+n.é¢åŒ…çš®ï¼›ç¡¬å¤–çš®
 930. cry[krai]
-vi.¿Ş£¬¿ŞÆü£»½Ğº°
+vi.å“­ï¼Œå“­æ³£ï¼›å«å–Š
 931. crystal['kristl]
-n.Ë®¾§£¬½á¾§Ìå£»¾§Á£
+n.æ°´æ™¶ï¼Œç»“æ™¶ä½“ï¼›æ™¶ç²’
 932. cube[kju:b]
-n.Á¢·½ĞÎ£»Á¢·½
+n.ç«‹æ–¹å½¢ï¼›ç«‹æ–¹
 933. cubic['kju:bik]
-a.Á¢·½ĞÎµÄ£»Á¢·½µÄ
+a.ç«‹æ–¹å½¢çš„ï¼›ç«‹æ–¹çš„
 934. cucumber['kju:k3mb2]
-n.»Æ¹Ï
+n.é»„ç“œ
 935. cultivate['k3ltiveit]
-vt.¸û£»ÖÖÖ²£»ÅàÑø
+vt.è€•ï¼›ç§æ¤ï¼›åŸ¹å…»
 936. culture['k3lt62]
-n.ÎÄ»¯£¬ÎÄÃ÷£»½ÌÑø
+n.æ–‡åŒ–ï¼Œæ–‡æ˜ï¼›æ•™å…»
 937. cunning['k3ni8]
-a.½Æ»«µÄ£¬½ÆÕ©µÄ
+a.ç‹¡çŒ¾çš„ï¼Œç‹¡è¯ˆçš„
 938. cup[k3p]
-n.±­×Ó£»(Ò»)±­£»½±±­
+n.æ¯å­ï¼›(ä¸€)æ¯ï¼›å¥–æ¯
 939. cupboard['k3b2d]
-n.Íë¹ñ£¬Íëµú³÷£»Ê³³÷
+n.ç¢—æŸœï¼Œç¢—ç¢Ÿæ©±ï¼›é£Ÿæ©±
 940. cure[kju2]
-vt.Ò½ÖÎ£»Ïû³ı n.ÖÎÓú
+vt.åŒ»æ²»ï¼›æ¶ˆé™¤ n.æ²»æ„ˆ
 941. curiosity[kju2ri'0siti]
-n.ºÃÆæ£¬ºÃÆæĞÄ£»ÕäÆ·
+n.å¥½å¥‡ï¼Œå¥½å¥‡å¿ƒï¼›çå“
 942. curious['kju2ri2s]
-a.ºÃÆæµÄ£»Ï¡Ææ¹Å¹ÖµÄ
+a.å¥½å¥‡çš„ï¼›ç¨€å¥‡å¤æ€ªçš„
 943. curl[k2:l]
-n.¾íÃ«£»ÂİĞı vi.¾íÇú
+n.å·æ¯›ï¼›èºæ—‹ vi.å·æ›²
 944. current['k3r2nt]
-a.µ±Ç°µÄ£»Í¨ÓÃµÄ
+a.å½“å‰çš„ï¼›é€šç”¨çš„
 945. curse[k2:s]
-n.×çÖä£¬ÖäÂî£»ÌìÇ´
+n.è¯…å’’ï¼Œå’’éª‚ï¼›å¤©è°´
 946. curtain['k2:tn]
-n.Á±£¬´°Á±£»Ä»(²¼)
+n.å¸˜ï¼Œçª—å¸˜ï¼›å¹•(å¸ƒ)
 947. curve[k2:v]
-n.ÇúÏß£»Íä vt.ÅªÍä
+n.æ›²çº¿ï¼›å¼¯ vt.å¼„å¼¯
 948. cushion['ku62n]
-n.µæ×Ó£¬×øµæ£¬¿¿µæ
+n.å«å­ï¼Œåå«ï¼Œé å«
 949. custom['k3st2m]
-n.Ï°¹ß£¬·çË×£»º£¹Ø
+n.ä¹ æƒ¯ï¼Œé£ä¿—ï¼›æµ·å…³
 950. customer['k3st2m2]
-n.¹Ë¿Í£¬Ö÷¹Ë
+n.é¡¾å®¢ï¼Œä¸»é¡¾
 951. cut[k3t]
-vt.ÇĞ£¬¸î£¬¼ô£»¼õÉÙ
+vt.åˆ‡ï¼Œå‰²ï¼Œå‰ªï¼›å‡å°‘
 952. cycle['saikl]
-n×ÔĞĞ³µ£¬Ñ­»·
+nè‡ªè¡Œè½¦ï¼Œå¾ªç¯
 953. daily['deili]
-a.Ã¿ÈÕµÄ n.ÈÕ±¨
+a.æ¯æ—¥çš„ n.æ—¥æŠ¥
 954. dairy['d/2ri]
-n.Å£ÄÌ³¡£»ÈéÖÆÆ·
+n.ç‰›å¥¶åœºï¼›ä¹³åˆ¶å“
 955. dam[d9m]
-n.Ë®°Ó£¬Ë®µÌ£»ÕÏ°­Îï
+n.æ°´åï¼Œæ°´å ¤ï¼›éšœç¢ç‰©
 956. damage['d9mid7]
-vt.Ëğº¦£¬»Ù»µ n.Ëğº¦
+vt.æŸå®³ï¼Œæ¯å n.æŸå®³
 957. damp[d9mp]
-a.³±ÊªµÄ£¬ÓĞÊªÆøµÄ
+a.æ½®æ¹¿çš„ï¼Œæœ‰æ¹¿æ°”çš„
 958. dance[da:ns]
-vi.ÌøÎè£»Ò¡»Î n.Îè
+vi.è·³èˆï¼›æ‘‡æ™ƒ n.èˆ
 959. danger['deind72]
-n.Î£ÏÕ£»Î£ÏÕÊÂÎï
+n.å±é™©ï¼›å±é™©äº‹ç‰©
 960. dangerous['deind7r2s]
-a.Î£ÏÕµÄ£¬²»°²È«µÄ
+a.å±é™©çš„ï¼Œä¸å®‰å…¨çš„
 961. dare[d/2]
-vt.&aux.v.¸Ò£»¾¹¸Ò
+vt.&aux.v.æ•¢ï¼›ç«Ÿæ•¢
 962. daring['d/2ri8]
-a.´óµ¨µÄ£¬ÓÂ¸ÒµÄ
+a.å¤§èƒ†çš„ï¼Œå‹‡æ•¢çš„
 963. dark[da:k]
-a.°µµÄ£»ºÚÉ«µÄ
+a.æš—çš„ï¼›é»‘è‰²çš„
 964. darling['da:li8]
-n.Ç×°®µÄÈË£»³è¶ù
+n.äº²çˆ±çš„äººï¼›å® å„¿
 965. dash[d96]
-vt.Ê¹ÃÍ×²£»½¦ n.ÃÍ³å
+vt.ä½¿çŒ›æ’ï¼›æº… n.çŒ›å†²
 966. data['deit2]
-n.Êı¾İ; ×ÊÁÏ
+n.æ•°æ®; èµ„æ–™
 967. date['deit]
-n.ÈÕÆÚ vt.×¢¡­ÈÕÆÚ
+n.æ—¥æœŸ vt.æ³¨â€¦æ—¥æœŸ
 968. daughter['d0:t2]
-n.Å®¶ù
+n.å¥³å„¿
 969. dawn[d0:n]
-n.ÀèÃ÷£»¿ª¶Ë vi.ÆÆÏş
+n.é»æ˜ï¼›å¼€ç«¯ vi.ç ´æ™“
 970. day[dei]
-n.(Ò»)Ìì£¬°×Öç£¬°×Ìì
+n.(ä¸€)å¤©ï¼Œç™½æ˜¼ï¼Œç™½å¤©
 971. daylight['deilait]
-n.°×Öç£¬ÈÕ¹â£»ÀèÃ÷
+n.ç™½æ˜¼ï¼Œæ—¥å…‰ï¼›é»æ˜
 972. dead[ded]
-a.ËÀµÄ£¬ÎŞÉúÃüµÄ
+a.æ­»çš„ï¼Œæ— ç”Ÿå‘½çš„
 973. deadly['dedli]
-a.ÖÂÃüµÄ£¬ËÀÒ»°ãµÄ
+a.è‡´å‘½çš„ï¼Œæ­»ä¸€èˆ¬çš„
 974. deaf[def]
-a.ÁûµÄ£»²»Ô¸ÌıµÄ
+a.è‹çš„ï¼›ä¸æ„¿å¬çš„
 975. deal[di:l]
-n.ÂòÂô£»´ıÓö vt.¸øÓè
+n.ä¹°å–ï¼›å¾…é‡ vt.ç»™äºˆ
 976. dear[di2]
-a.Ç×°®µÄ int.°¡
+a.äº²çˆ±çš„ int.å•Š
 977. death[de4]
-n.ËÀ£¬ËÀÍö£»ÃğÍö
+n.æ­»ï¼Œæ­»äº¡ï¼›ç­äº¡
 978. debate[di'beit]
-n.&vi.ÕùÂÛ£¬±çÂÛ
+n.&vi.äº‰è®ºï¼Œè¾©è®º
 979. debt[det]
-n.Õ®£¬Õ®Îñ£¬Ç·Õ®
+n.å€ºï¼Œå€ºåŠ¡ï¼Œæ¬ å€º
 980. decade['dekeid]
-n.Ê®Äê£¬Ê®ÄêÆÚ
+n.åå¹´ï¼Œåå¹´æœŸ
 981. decay[di'kei]
-vi.¸¯ÀÃ£»Ë¥°Ü n.¸¯ÀÃ
+vi.è…çƒ‚ï¼›è¡°è´¥ n.è…çƒ‚
 982. deceit[di'si:t]
-n.ÆÛÆ­£¬ÆÛÕ©
+n.æ¬ºéª—ï¼Œæ¬ºè¯ˆ
 983. deceive[di'si:v]
-vt.ÆÛÆ­£¬ÃÉ±Î£¬ĞĞÆ­
+vt.æ¬ºéª—ï¼Œè’™è”½ï¼Œè¡Œéª—
 984. December[di'semb2]
-n.Ê®¶şÔÂ
+n.åäºŒæœˆ
 985. decent['di:snt]
-a.ÕıÅÉµÄ£»ÌåÃæµÄ
+a.æ­£æ´¾çš„ï¼›ä½“é¢çš„
 986. decide[di'said]
-vt.¾ö¶¨£¬¾öĞÄ£»½â¾ö
+vt.å†³å®šï¼Œå†³å¿ƒï¼›è§£å†³
 987. decision[di'si72n]
-n.¾ö¶¨£¬¾öĞÄ£»¹û¶Ï
+n.å†³å®šï¼Œå†³å¿ƒï¼›æœæ–­
 988. deck[dek]
-n.¼×°å£»²ÕÃæ£»²ãÃæ
+n.ç”²æ¿ï¼›èˆ±é¢ï¼›å±‚é¢
 989. declare[di'kl/2]
-vt.¶ÏÑÔ£»ÉùÃ÷£»±íÃ÷
+vt.æ–­è¨€ï¼›å£°æ˜ï¼›è¡¨æ˜
 990. decorate['dek2reit]
-vt.×°ÊÎ£¬×°è«£¬ĞŞÊÎ
+vt.è£…é¥°ï¼Œè£…ç’œï¼Œä¿®é¥°
 991. decrease[di'kri:s. 'di:kri:s]
-vi.&n.¼õÉÙ£¬¼õÉÙ
+vi.&n.å‡å°‘ï¼Œå‡å°‘
 992. deduce[di'dju:s]
-vt.ÑİÒï£¬ÍÆÂÛ£¬ÍÆ¶Ï
+vt.æ¼”ç»ï¼Œæ¨è®ºï¼Œæ¨æ–­
 993. deed[di:d]
-n.ĞĞÎª£»¹¦¼¨£»ÆõÔ¼
+n.è¡Œä¸ºï¼›åŠŸç»©ï¼›å¥‘çº¦
 994. deep[di:p]
-a.ÉîµÄ£»×İÉîµÄ
+a.æ·±çš„ï¼›çºµæ·±çš„
 995. deepen['di:p2n]
-vt.¼ÓÉî vi.Éî»¯
+vt.åŠ æ·± vi.æ·±åŒ–
 996. deer[di2]
-n.Â¹
+n.é¹¿
 997. defeat[di'fi:t]
-vt.Õ½Ê¤£¬»÷°Ü£»´ì°Ü
+vt.æˆ˜èƒœï¼Œå‡»è´¥ï¼›æŒ«è´¥
 998. defect[di'fekt]
-n.È±µã£¬È±Ïİ£¬Ç·È±
+n.ç¼ºç‚¹ï¼Œç¼ºé™·ï¼Œæ¬ ç¼º
 999. defence[di'fens]
-n.·ÀÓù£»·ÀÎñ£»±ç»¤
+n.é˜²å¾¡ï¼›é˜²åŠ¡ï¼›è¾©æŠ¤
 1000. defend[di'fend]
-vt.±£ÎÀ£¬·ÀÊØ
+vt.ä¿å«ï¼Œé˜²å®ˆ
 1001. define[di'fain]
-vt.¸ø¡­ÏÂ¶¨Òå£»ÏŞ¶¨
+vt.ç»™â€¦ä¸‹å®šä¹‰ï¼›é™å®š
 1002. definite['definit]
-a.Ã÷È·µÄ£»¿Ï¶¨µÄ
+a.æ˜ç¡®çš„ï¼›è‚¯å®šçš„
 1003. definitely['definitli]
-ad.Ò»¶¨µØ£¬Ã÷È·µØ
+ad.ä¸€å®šåœ°ï¼Œæ˜ç¡®åœ°
 1004. definition[defi'ni62n]
-n.¶¨Òå£¬ÊÍÒå£»¶¨½ç
+n.å®šä¹‰ï¼Œé‡Šä¹‰ï¼›å®šç•Œ
 1005. degree[di'gri:]
-n.³Ì¶È£»¶È£»Ñ§Î»
+n.ç¨‹åº¦ï¼›åº¦ï¼›å­¦ä½
 1006. delay[di'lei]
-vt.ÍÆ³Ù£»µ¢¸é£»ÑÓÎó
+vt.æ¨è¿Ÿï¼›è€½æï¼›å»¶è¯¯
 1007. delete[di'li:t]
-vt.É¾³ı£»²Áµô
+vt.åˆ é™¤ï¼›æ“¦æ‰
 1008. delegation[deli'gei62n]
-n.´ú±íÍÅ
+n.ä»£è¡¨å›¢
 1009. delicate['delikit]
-a.ÏËÏ¸µÄ£»Ò×ËéµÄ
+a.çº¤ç»†çš„ï¼›æ˜“ç¢çš„
 1010. delicious[di'li62s]
-a.ÃÀÎ¶µÄ£¬âùÈËµÄ
+a.ç¾å‘³çš„ï¼Œæ€¡äººçš„
 1011. delight[di'lait]
-n.¿ìÀÖ vt.Ê¹¸ßĞË
+n.å¿«ä¹ vt.ä½¿é«˜å…´
 1012. deliver[di'liv2]
-vt.Í¶µİ£¬ËÍ½»£»·¢±í
+vt.æŠ•é€’ï¼Œé€äº¤ï¼›å‘è¡¨
 1013. delivery[di'liv2ri]
-n.Í¶µİ£»½»¸¶£»·ÖÃä
+n.æŠ•é€’ï¼›äº¤ä»˜ï¼›åˆ†å¨©
 1014. demand[di'ma:nd]
-vt.ÒªÇó£»ĞèÒª£»Ñ¯ÎÊ
+vt.è¦æ±‚ï¼›éœ€è¦ï¼›è¯¢é—®
 1015. democracy[di'm0kr2si]
-n.ÃñÖ÷£¬ÃñÖ÷ÖÆ
+n.æ°‘ä¸»ï¼Œæ°‘ä¸»åˆ¶
 1016. democratic[dem2'kr9tik]
-a.ÃñÖ÷µÄ£¬ÃñÖ÷ÕşÌåµÄ
+a.æ°‘ä¸»çš„ï¼Œæ°‘ä¸»æ”¿ä½“çš„
 1017. demonstrate['dem2nstreit]
-vt.ËµÃ÷£»ÂÛÖ¤£»±íÂ¶
+vt.è¯´æ˜ï¼›è®ºè¯ï¼›è¡¨éœ²
 1018. dense[dens]
-a.ÃÜ¼¯µÄ£»Å¨ºñµÄ
+a.å¯†é›†çš„ï¼›æµ“åšçš„
 1019. density['densiti]
-n.ÃÜ¼¯£¬³íÃÜ£»ÃÜ¶È
+n.å¯†é›†ï¼Œç¨ å¯†ï¼›å¯†åº¦
 1020. deny[di'nai]
-vt.·ñ¶¨£»¾Ü¾øÏàĞÅ
+vt.å¦å®šï¼›æ‹’ç»ç›¸ä¿¡
 1021. depart[di'pa:t]
-vi.Àë¿ª£¬Æğ³Ì£»³ö·¢
+vi.ç¦»å¼€ï¼Œèµ·ç¨‹ï¼›å‡ºå‘
 1022. department[di'pa:tm2nt]
-n.²¿£¬Ë¾£¬¾Ö£¬´¦£¬Ïµ
+n.éƒ¨ï¼Œå¸ï¼Œå±€ï¼Œå¤„ï¼Œç³»
 1023. departure[di'pa:t62]
-n.Àë¿ª£¬³ö·¢£¬Æğ³Ì
+n.ç¦»å¼€ï¼Œå‡ºå‘ï¼Œèµ·ç¨‹
 1024. depend[di'pend]
-vi.ÒÀ¿¿£¬ÒÀÀµ£»ÏàĞÅ
+vi.ä¾é ï¼Œä¾èµ–ï¼›ç›¸ä¿¡
 1025. dependent[di'pend2nt]
-a.ÒÀ¿¿µÄ£¬ÒÀÀµµÄ
+a.ä¾é çš„ï¼Œä¾èµ–çš„
 1026. deposit[di'p0zit]
-vt.Ê¹³Áµí£»´æ·Å
+vt.ä½¿æ²‰æ·€ï¼›å­˜æ”¾
 1027. depress[di'pres]
-vt.Ê¹¾ÚÉ¥£»°´ÏÂ
+vt.ä½¿æ²®ä¸§ï¼›æŒ‰ä¸‹
 1028. depth[dep4]
-n.Éî¶È£»Éîºñ£»Éî´¦
+n.æ·±åº¦ï¼›æ·±åšï¼›æ·±å¤„
 1029. derive[di'raiv]
-vt.È¡µÃ vi.ÆğÔ´
+vt.å–å¾— vi.èµ·æº
 1030. descend[di'send]
-vi.ÏÂÀ´£¬ÏÂ½µ£»ÏÂÇã
+vi.ä¸‹æ¥ï¼Œä¸‹é™ï¼›ä¸‹å€¾
 1031. describe[dis'kraib]
-vt.ĞÎÈİ£»ÃèĞ´£¬Ãè»æ
+vt.å½¢å®¹ï¼›æå†™ï¼Œæç»˜
 1032. description[dis'krip62n]
-n.ÃèĞ´£¬ĞÎÈİ£»ÖÖÀà
+n.æå†™ï¼Œå½¢å®¹ï¼›ç§ç±»
 1033. desert['dez2t. di'z2:t]
-n.É³Ä® vt.ÀëÆú£»ÉÃÀë
+n.æ²™æ¼  vt.ç¦»å¼ƒï¼›æ“…ç¦»
 1034. deserve[di'z2:v]
-vt.Ó¦ÊÜ£¬ÖµµÃ
+vt.åº”å—ï¼Œå€¼å¾—
 1035. design[di'zain]
-vt.Éè¼Æ n.Éè¼Æ£»Í¼Ñù
+vt.è®¾è®¡ n.è®¾è®¡ï¼›å›¾æ ·
 1036. desirable[di'zai2r2bl]
-a.ÖµµÃÏàÍûµÄ£»¿ÉÈ¡µÄ
+a.å€¼å¾—ç›¸æœ›çš„ï¼›å¯å–çš„
 1037. desire[di'zai2]
-vt.ÏàÍû£»ÒªÇó n.Ô¸Íû
+vt.ç›¸æœ›ï¼›è¦æ±‚ n.æ„¿æœ›
 1038. desk[desk]
-n.Êé×À£¬°ì¹«×À
+n.ä¹¦æ¡Œï¼ŒåŠå…¬æ¡Œ
 1039. despair[dis'p/2]
-n.¾øÍû vi.¾øÍû
+n.ç»æœ› vi.ç»æœ›
 1040. desperate['desp2rit]
-a.Æ´ËÀµÄ£»¾øÍûµÄ
+a.æ‹¼æ­»çš„ï¼›ç»æœ›çš„
 1041. despise[dis'paiz]
-vt.±ÉÊÓ£¬ÃïÊÓ
+vt.é„™è§†ï¼Œè”‘è§†
 1042. despite[dis'pait]
-prep.²»¹Ü£¬²»¹Ë
+prep.ä¸ç®¡ï¼Œä¸é¡¾
 1043. destination[desti'nei62n]
-n.Ä¿µÄµØ£¬ÖÕµã£»Ä¿±ê
+n.ç›®çš„åœ°ï¼Œç»ˆç‚¹ï¼›ç›®æ ‡
 1044. destroy[dis'tr0i]
-vt.ÆÆ»µ£»ÏûÃğ£»´òÆÆ
+vt.ç ´åï¼›æ¶ˆç­ï¼›æ‰“ç ´
 1045. destruction[dis'tr3k62n]
-n.ÆÆ»µ£¬»ÙÃğ£¬ÏûÃğ
+n.ç ´åï¼Œæ¯ç­ï¼Œæ¶ˆç­
 1046. detail['di:teil]
-n.Ï¸½Ú£»Ö¦½Ú£»Áã¼ş
+n.ç»†èŠ‚ï¼›æèŠ‚ï¼›é›¶ä»¶
 1047. detect[di'tekt]
-vt.²ì¾õ£¬·¢¾õ£»Õì²ì
+vt.å¯Ÿè§‰ï¼Œå‘è§‰ï¼›ä¾¦å¯Ÿ
 1048. detection[di'tek62n]
-n.²ì¾õ£¬·¢¾õ£»Õì²ì
+n.å¯Ÿè§‰ï¼Œå‘è§‰ï¼›ä¾¦å¯Ÿ
 1049. determination[dit2:mi'nei62n]
-n.¾öĞÄ£»¾ö¶¨£»È·¶¨
+n.å†³å¿ƒï¼›å†³å®šï¼›ç¡®å®š
 1050. determine[di't2:min]
-vt.¾ö¶¨£»²éÃ÷£»¾öĞÄ
+vt.å†³å®šï¼›æŸ¥æ˜ï¼›å†³å¿ƒ
 1051. develop[di'vel2p]
-vt.·¢Õ¹£»ĞÎ³É£»¿ª·¢
+vt.å‘å±•ï¼›å½¢æˆï¼›å¼€å‘
 1052. development[di'vel2pm2nt]
-n.·¢Õ¹£»¿ª·¢£»Éú³¤
+n.å‘å±•ï¼›å¼€å‘ï¼›ç”Ÿé•¿
 1053. device[di'vais]
-n.Æ÷Ğµ£¬×°ÖÃ£»Éè¼Æ
+n.å™¨æ¢°ï¼Œè£…ç½®ï¼›è®¾è®¡
 1054. devil['devl]
-n.Ä§¹í£¬¶ñÄ§
+n.é­”é¬¼ï¼Œæ¶é­”
 1055. devise[di'vaiz]
-vt.Éè¼Æ£¬·¢Ã÷
+vt.è®¾è®¡ï¼Œå‘æ˜
 1056. devote[di'v2ut]
-vt.½«¡­·îÏ×£¬ÖÂÁ¦ÓÚ
+vt.å°†â€¦å¥‰çŒ®ï¼Œè‡´åŠ›äº
 1057. dew[dju:]
-n.Â¶£¬Â¶Ë®
+n.éœ²ï¼Œéœ²æ°´
 1058. diagram['dai2gr9m]
-n.Í¼½â£¬Í¼±í£¬¼òÍ¼
+n.å›¾è§£ï¼Œå›¾è¡¨ï¼Œç®€å›¾
 1059. dial['dai2l]
-n.ÖÓÃæ£»²¦ºÅÅÌ vt.²¦
+n.é’Ÿé¢ï¼›æ‹¨å·ç›˜ vt.æ‹¨
 1060. dialect['dai2lekt]
-n.·½ÑÔ£¬ÍÁÓï£¬µØ·½»°
+n.æ–¹è¨€ï¼ŒåœŸè¯­ï¼Œåœ°æ–¹è¯
 1061. dialog['dai2l0g]
-n.¶Ô»°£¬¶Ô°×
+n.å¯¹è¯ï¼Œå¯¹ç™½
 1062. diameter[dai'9mit2]
-n.Ö±¾¶
+n.ç›´å¾„
 1063. diamond['dai2m2nd]
-n.½ğ¸ÖÊ¯£¬×êÊ¯£»ÁâĞÎ
+n.é‡‘é’¢çŸ³ï¼Œé’»çŸ³ï¼›è±å½¢
 1064. diary['dai2ri]
-n.ÈÕ¼Ç£¬ÈÕ¼Ç²¾
+n.æ—¥è®°ï¼Œæ—¥è®°ç°¿
 1065. dictate[dik'teit]
-vt.&vi.¿ÚÊÚ£»ÃüÁî
+vt.&vi.å£æˆï¼›å‘½ä»¤
 1066. dictation[dik'tei62n]
-n.¿ÚÊÚ±ÊÂ¼£¬ÌıĞ´
+n.å£æˆç¬”å½•ï¼Œå¬å†™
 1067. dictionary['dik62n2ri]
-n.´Êµä£¬×Öµä
+n.è¯å…¸ï¼Œå­—å…¸
 1068. die[dai]
-vi.ËÀ£¬ËÀÍö£»ÃğÍö
+vi.æ­»ï¼Œæ­»äº¡ï¼›ç­äº¡
 1069. differ['dif2]
-vi.²»Í¬£¬ÏàÒì
+vi.ä¸åŒï¼Œç›¸å¼‚
 1070. difference['difr2ns]
-n.²î±ğ£»²î£»·ÖÆç
+n.å·®åˆ«ï¼›å·®ï¼›åˆ†æ­§
 1071. different['difr2nt]
-a.²îÒìµÄ£»¸÷ÖÖµÄ
+a.å·®å¼‚çš„ï¼›å„ç§çš„
 1072. difficult['difik2lt]
-a.À§ÄÑµÄ£»ÄÑ¶Ô¸¶µÄ
+a.å›°éš¾çš„ï¼›éš¾å¯¹ä»˜çš„
 1073. difficulty['difik2lti]
-a.À§ÄÑ£»ÄÑÊÂ£»À§¾³
+a.å›°éš¾ï¼›éš¾äº‹ï¼›å›°å¢ƒ
 1074. dig[dig]
-vt.¾ò£¬ÍÚ£»²É¾ò
+vt.æ˜ï¼ŒæŒ–ï¼›é‡‡æ˜
 1075. digest[di'd7est. 'daid7est]
-vt.Ïû»¯£»Áì»á n.ÎÄÕª
+vt.æ¶ˆåŒ–ï¼›é¢†ä¼š n.æ–‡æ‘˜
 1076. digital['did7itl]
-a.Êı×ÖµÄ£¬¼ÆÊıµÄ
+a.æ•°å­—çš„ï¼Œè®¡æ•°çš„
 1077. diligent['dilid72nt]
-a.ÇÚÃãµÄ£¬ÇÚ·ÜµÄ
+a.å‹¤å‹‰çš„ï¼Œå‹¤å¥‹çš„
 1078. dim[dim]
-a.»è°µµÄ£»ëüëÊµÄ
+a.æ˜æš—çš„ï¼›æœ¦èƒ§çš„
 1079. dimension[di'men62n]
-n.³ß´ç£¬³ß¶È£»Ãæ»ı
+n.å°ºå¯¸ï¼Œå°ºåº¦ï¼›é¢ç§¯
 1080. dinner['din2]
-n.Õı²Í£¬Ö÷²Í£»Ñç»á
+n.æ­£é¤ï¼Œä¸»é¤ï¼›å®´ä¼š
 1081. dip[dip]
-vt.½ş£¬Õº vi.½şÒ»½ş
+vt.æµ¸ï¼Œè˜¸ vi.æµ¸ä¸€æµ¸
 1082. direct[di'rekt]
-a.Ö±½ÓµÄ£»Ö±ÂÊµÄ
+a.ç›´æ¥çš„ï¼›ç›´ç‡çš„
 1083. direction[di'rek62n]
-n.·½Ïò£¬·½Î»£»Ö¸µ¼
+n.æ–¹å‘ï¼Œæ–¹ä½ï¼›æŒ‡å¯¼
 1084. directly[di'rektli]
-ad.Ö±½ÓµØ£»Á¢¼´
+ad.ç›´æ¥åœ°ï¼›ç«‹å³
 1085. director[di'rekt2]
-n.Ö¸µ¼Õß£»ÀíÊÂ£»µ¼Ñİ
+n.æŒ‡å¯¼è€…ï¼›ç†äº‹ï¼›å¯¼æ¼”
 1086. dirt[d2:t]
-n.³¾£¬ÍÁ£»ÎÛÎï£¬ÎÛ¹¸
+n.å°˜ï¼ŒåœŸï¼›æ±¡ç‰©ï¼Œæ±¡å¢
 1087. dirty['d2:ti]
-a.ÔàµÄ£»ÏÂÁ÷µÄ
+a.è„çš„ï¼›ä¸‹æµçš„
 1088. disable[dis'eibl]
-vt.Ê¹ÎŞÄÜ£¬Ê¹ÉË²Ğ
+vt.ä½¿æ— èƒ½ï¼Œä½¿ä¼¤æ®‹
 1089. disadvantage[dis2d'va:ntid7]
-n.²»Àû£¬²»ÀûµØÎ»
+n.ä¸åˆ©ï¼Œä¸åˆ©åœ°ä½
 1090. disagree[dis2'gri:]
-vi.ÓĞ·ÖÆç£»²»Ò»ÖÂ
+vi.æœ‰åˆ†æ­§ï¼›ä¸ä¸€è‡´
 1091. disappear[dis2'pi2]
-vi.²»¼û£¬Ê§×Ù£»ÏûÊ§
+vi.ä¸è§ï¼Œå¤±è¸ªï¼›æ¶ˆå¤±
 1092. disappoint[dis2'p0int]
-vt.Ê¹Ê§Íû£¬Ê¹ÊÜ´ìÕÛ
+vt.ä½¿å¤±æœ›ï¼Œä½¿å—æŒ«æŠ˜
 1093. disaster[di'za:st2]
-n.ÔÖÄÑ£¬ÔÖ»ö£»ÌìÔÖ
+n.ç¾éš¾ï¼Œç¾ç¥¸ï¼›å¤©ç¾
 1094. disk[disk]
-n.Ô²ÅÌ£¬³ªÆ¬£»´ÅÅÌ
+n.åœ†ç›˜ï¼Œå”±ç‰‡ï¼›ç£ç›˜
 1095. discard[dis'ka:d]
-vt.¶ªÆú£¬Å×Æú£¬ÒÅÆú
+vt.ä¸¢å¼ƒï¼ŒæŠ›å¼ƒï¼Œé—å¼ƒ
 1096. discharge[dis't6a:d7]
-vt.ÊÍ·Å£»ÅÅ³ö n.ÊÍ·Å
+vt.é‡Šæ”¾ï¼›æ’å‡º n.é‡Šæ”¾
 1097. discipline['disiplin]
-n.¼ÍÂÉ£»ÑµÁ· vt.ÑµÁ·
+n.çºªå¾‹ï¼›è®­ç»ƒ vt.è®­ç»ƒ
 1098. disclose[dis'kl2uz]
-vt.½Ò¿ª£¬½Ò·¢£»Í¸Â¶
+vt.æ­å¼€ï¼Œæ­å‘ï¼›é€éœ²
 1099. discourage[dis'k3rid7]
-vt.Ê¹Ğ¹Æø£¬Ê¹»ÒĞÄ
+vt.ä½¿æ³„æ°”ï¼Œä½¿ç°å¿ƒ
 1100. discover[dis'k3v2]
-vt.·¢ÏÖ£»±©Â¶£¬ÏÔÊ¾
+vt.å‘ç°ï¼›æš´éœ²ï¼Œæ˜¾ç¤º
 1101. discovery[dis'k3v2ri]
-n.·¢ÏÖ£»±»·¢ÏÖµÄÊÂÎï
+n.å‘ç°ï¼›è¢«å‘ç°çš„äº‹ç‰©
 1102. discuss[dis'k3s]
-vt.ÌÖÂÛ£¬Ì¸ÂÛ£»ÂÛÊö
+vt.è®¨è®ºï¼Œè°ˆè®ºï¼›è®ºè¿°
 1103. discussion[dis'k362n]
-n.ÌÖÂÛ£¬Ì¸ÂÛ£»ÂÛÊö
+n.è®¨è®ºï¼Œè°ˆè®ºï¼›è®ºè¿°
 1104. disease[di'zi:z]
-n.²¡£¬¼²²¡£»²¡º¦
+n.ç—…ï¼Œç–¾ç—…ï¼›ç—…å®³
 1105. disguise[dis'gaiz]
-vi.ÒşÂ÷£¬ÑÚÂñ n.¼Ù×°
+vi.éšç’ï¼Œæ©åŸ‹ n.å‡è£…
 1106. disgust[dis'g3st]
-n.Ñá¶ñ£¬Ô÷¶ñ
+n.åŒæ¶ï¼Œæ†æ¶
 1107. dish[di6]
-n.µú£¬ÅÌ×Ó£»²ËëÈ
+n.ç¢Ÿï¼Œç›˜å­ï¼›èœè‚´
 1108. dishonour[dis'0n2]
-n.²»¹â²Ê£»¶ªÁ³µÄÈË
+n.ä¸å…‰å½©ï¼›ä¸¢è„¸çš„äºº
 1109. dislike[dis'laik]
-vt.&n.²»Ï²°®£¬Ñá¶ñ
+vt.&n.ä¸å–œçˆ±ï¼ŒåŒæ¶
 1110. dismiss[dis'mis]
-vt.²»ÔÙ¿¼ÂÇ£»½â¹Í
+vt.ä¸å†è€ƒè™‘ï¼›è§£é›‡
 1111. disorder[dis'0:d2]
-n.»ìÂÒ£¬ÔÓÂÒ£»É§ÂÒ
+n.æ··ä¹±ï¼Œæ‚ä¹±ï¼›éªšä¹±
 1112. display[dis'plei]
-vt.³ÂÁĞ£¬Õ¹ÀÀ£»ÏÔÊ¾
+vt.é™ˆåˆ—ï¼Œå±•è§ˆï¼›æ˜¾ç¤º
 1113. disposal[dis'p2uz2l]
-n.¶ªµô£¬´¦Àí£¬Ïú»Ù
+n.ä¸¢æ‰ï¼Œå¤„ç†ï¼Œé”€æ¯
 1114. dispose[dis'p2uz]
-vi.È¥µô£¬¶ªµô£»Ïú»Ù
+vi.å»æ‰ï¼Œä¸¢æ‰ï¼›é”€æ¯
 1115. displease[dis'pli:z]
-vt.Ê¹²»Óä¿ì£¬Ê¹ÉúÆø
+vt.ä½¿ä¸æ„‰å¿«ï¼Œä½¿ç”Ÿæ°”
 1116. dispute[dis'pju:t]
-vi.ÕùÂÛ£¬ÕùÖ´ n.ÕùÂÛ
+vi.äº‰è®ºï¼Œäº‰æ‰§ n.äº‰è®º
 1117. dissatisfy[dis's9tisfai]
-vi.Ê¹²»Âú£¬Ê¹²»Æ½
+vi.ä½¿ä¸æ»¡ï¼Œä½¿ä¸å¹³
 1118. dissolve[di'z0lv]
-vt.Ê¹ÈÜ½â£»½âÉ¢
+vt.ä½¿æº¶è§£ï¼›è§£æ•£
 1119. distance['dist2ns]
-n.¾àÀë£¬¼ä¾à£»Ô¶´¦
+n.è·ç¦»ï¼Œé—´è·ï¼›è¿œå¤„
 1120. distant['dist2nt]
-a.ÔÚÔ¶´¦µÄ£¬ÊèÔ¶µÄ
+a.åœ¨è¿œå¤„çš„ï¼Œç–è¿œçš„
 1121. distinct[dis'ti8kt]
-a.ÓëÆäËû²»Í¬µÄ
+a.ä¸å…¶ä»–ä¸åŒçš„
 1122. distinction[dis'ti8k62n]
-n.²î±ğ£¬²»Í¬£¬Çø·Ö
+n.å·®åˆ«ï¼Œä¸åŒï¼ŒåŒºåˆ†
 1123. distinguish[dis'ti8gwi6]
-vt.Çø±ğ£¬±æ±ğ£¬ÈÏ±ğ
+vt.åŒºåˆ«ï¼Œè¾¨åˆ«ï¼Œè®¤åˆ«
 1124. distress[dis'tres]
-n.ÓÇÂÇ£¬±¯ÉË£»²»ĞÒ
+n.å¿§è™‘ï¼Œæ‚²ä¼¤ï¼›ä¸å¹¸
 1125. distribute[dis'tribju:t]
-vt.·Ö·¢£¬·ÖËÍ£»·Ö²¼
+vt.åˆ†å‘ï¼Œåˆ†é€ï¼›åˆ†å¸ƒ
 1126. distribution[distri'bju:62n]
-n.·Ö·¢£¬·ÖÅä£»·Ö²¼
+n.åˆ†å‘ï¼Œåˆ†é…ï¼›åˆ†å¸ƒ
 1127. district['distrikt]
-n.Çø£»µØÇø£¬ÇøÓò
+n.åŒºï¼›åœ°åŒºï¼ŒåŒºåŸŸ
 1128. disturb[dis't2:b]
-vt.´òÈÅ£¬ÈÅÂÒ£»ÅªÂÒ
+vt.æ‰“æ‰°ï¼Œæ‰°ä¹±ï¼›å¼„ä¹±
 1129. ditch[dit6]
-n.¹µ£¬¹µÇş£¬ÇşµÀ
+n.æ²Ÿï¼Œæ²Ÿæ¸ ï¼Œæ¸ é“
 1130. dive[daiv]
-vi.ÌøË®£»Ç±Ë®£»¸©³å
+vi.è·³æ°´ï¼›æ½œæ°´ï¼›ä¿¯å†²
 1131. diverse[dai'v2:s]
-a.²»Ò»ÑùµÄ£¬ÏàÒìµÄ
+a.ä¸ä¸€æ ·çš„ï¼Œç›¸å¼‚çš„
 1132. divide[di'vaid]
-vt.·Ö£»·ÖÅä£»·Ö¿ª
+vt.åˆ†ï¼›åˆ†é…ï¼›åˆ†å¼€
 1133. division[di'vi72n]
-n.·Ö£¬·ÖÅä£»³ı·¨
+n.åˆ†ï¼Œåˆ†é…ï¼›é™¤æ³•
 1134. divorce[di'v0:s]
-n.Àë»é£¬ÀëÒì vi.Àë»é
+n.ç¦»å©šï¼Œç¦»å¼‚ vi.ç¦»å©š
 1135. do[du:. du]
-aux.v. vt.×ö£¬¸É£¬°ì
+aux.v. vt.åšï¼Œå¹²ï¼ŒåŠ
 1136. dock[d0k]
-n.´¬Îë£»ÂëÍ·£»´¬³§
+n.èˆ¹åï¼›ç å¤´ï¼›èˆ¹å‚
 1137. doctor['d0kt2]
-n.Ò½Éú£¬Ò½Ê¦£»²©Ê¿
+n.åŒ»ç”Ÿï¼ŒåŒ»å¸ˆï¼›åšå£«
 1138. document['d0kjum2nt]
-n.¹«ÎÄ£¬ÎÄ¼ş£»Ö¤¼ş
+n.å…¬æ–‡ï¼Œæ–‡ä»¶ï¼›è¯ä»¶
 1139. dog[d0g]
-n.¹·£¬È®£¬È®¿Æ¶¯Îï
+n.ç‹—ï¼ŒçŠ¬ï¼ŒçŠ¬ç§‘åŠ¨ç‰©
 1140. dollar['d0l2]
-n.Ôª(»õ±Òµ¥Î»)
+n.å…ƒ(è´§å¸å•ä½)
 1141. domestic[d2'mestik]
-a.±¾¹úµÄ£»¼ÒÍ¥µÄ
+a.æœ¬å›½çš„ï¼›å®¶åº­çš„
 1142. donkey['d08ki]
-n.Â¿£»±¿µ°
+n.é©´ï¼›ç¬¨è›‹
 1143. door[d0:]
-n.ÃÅ£¬Í¨µÀ£»Ò»¼Ò
+n.é—¨ï¼Œé€šé“ï¼›ä¸€å®¶
 1144. dorm[d0:m]
-n.ËŞÉá
+n.å®¿èˆ
 1145. dormitory['d0:mitri]
-n.¼¯ÌåÇŞÊÒ£»ËŞÉá
+n.é›†ä½“å¯å®¤ï¼›å®¿èˆ
 1146. dose[d2us]
-n.¼ÁÁ¿£¬ÓÃÁ¿£»Ò»¼Á
+n.å‰‚é‡ï¼Œç”¨é‡ï¼›ä¸€å‰‚
 1147. dot[d0t]
-n.µã£¬Ô²µã vt.´òµãÓÚ
+n.ç‚¹ï¼Œåœ†ç‚¹ vt.æ‰“ç‚¹äº
 1148. double['d3bl]
-a.Á½±¶µÄ£»Ë«µÄ
+a.ä¸¤å€çš„ï¼›åŒçš„
 1149. doubt[daut]
-n.»³ÒÉ£»ÒÉÂÇ vt.»³ÒÉ
+n.æ€€ç–‘ï¼›ç–‘è™‘ vt.æ€€ç–‘
 1150. doubtful['dautful]
-a.ÄÑÒÔÔ¤²âµÄ£»»³ÒÉµÄ
+a.éš¾ä»¥é¢„æµ‹çš„ï¼›æ€€ç–‘çš„
 1151. doubtless['dautlis]
-ad.ÎŞÒÉµØ£»ºÜ¿ÉÄÜ
+ad.æ— ç–‘åœ°ï¼›å¾ˆå¯èƒ½
 1152. down[daun]
-ad.ÏòÏÂ£¬ÔÚÏÂÃæ
+ad.å‘ä¸‹ï¼Œåœ¨ä¸‹é¢
 1153. downstairs['daun'st/2z]
-ad.ÔÚÂ¥ÏÂ a.Â¥ÏÂµÄ
+ad.åœ¨æ¥¼ä¸‹ a.æ¥¼ä¸‹çš„
 1154. downward['daunw2d]
-a.ÏòÏÂµÄ ad.ÏòÏÂµØ
+a.å‘ä¸‹çš„ ad.å‘ä¸‹åœ°
 1155. dozen['d3zn]
-n.Ò»´ò£¬Ê®¶ş¸ö
+n.ä¸€æ‰“ï¼ŒåäºŒä¸ª
 1156. draft[dra:ft]
-n.²İ¸å£»»ãÆ± vt.Æğ²İ
+n.è‰ç¨¿ï¼›æ±‡ç¥¨ vt.èµ·è‰
 1157. drag[dr9g]
-vt.ÍÏ£¬À­£»ÍÏÒ·
+vt.æ‹–ï¼Œæ‹‰ï¼›æ‹–æ›³
 1158. dragon['dr9g2n]
-n.Áú£»Ğ×±©µÄÈË
+n.é¾™ï¼›å‡¶æš´çš„äºº
 1159. drain[drein]
-vt.ÅÅÈ¥£»·ÅË® n.ºÄ½ß
+vt.æ’å»ï¼›æ”¾æ°´ n.è€—ç«­
 1160. drama['dra:m2]
-n.Ò»³öÏ·¾ç£¬¾ç±¾
+n.ä¸€å‡ºæˆå‰§ï¼Œå‰§æœ¬
 1161. dramatic[dr2'm9tik]
-a.ÒıÈË×¢Ä¿µÄ£¬Ï·¾çµÄ
+a.å¼•äººæ³¨ç›®çš„ï¼Œæˆå‰§çš„
 1162. draw[dr0:]
-vt.»­£¬»®£»ÍÏ£»²¦³ö
+vt.ç”»ï¼Œåˆ’ï¼›æ‹–ï¼›æ‹¨å‡º
 1163. drawer[dr0:]
-n.³éÌë
+n.æŠ½å±‰
 1164. drawing['dr0:i8]
-n.Í¼»­£¬ËØÃè£»»æÍ¼
+n.å›¾ç”»ï¼Œç´ æï¼›ç»˜å›¾
 1165. dread[dred]
-n.Î·¾å£»¿Ö²À vt.¾åÅÂ
+n.ç•æƒ§ï¼›ææ€– vt.æƒ§æ€•
 1166. dream[dri:m]
-n.ÃÎ£»ÃÎÏë vi.×öÃÎ
+n.æ¢¦ï¼›æ¢¦æƒ³ vi.åšæ¢¦
 1167. dress[dres]
-n.Å®·ş£¬Í¯×°£»·ş×°
+n.å¥³æœï¼Œç«¥è£…ï¼›æœè£…
 1168. drift[drift]
-vi.Æ¯Á÷£¬Æ¯²´ n.Æ¯Á÷
+vi.æ¼‚æµï¼Œæ¼‚æ³Š n.æ¼‚æµ
 1169. drill[dril]
-n.×êÍ·£»²ÙÁ· vi.×ê¿×
+n.é’»å¤´ï¼›æ“ç»ƒ vi.é’»å­”
 1170. drink[dri8k]
-vt.Òû vi.ºÈ n.ÒûÁÏ
+vt.é¥® vi.å– n.é¥®æ–™
 1171. drip[drip]
-vi.µÎÏÂ£»Â©Ë® n.Ë®µÎ
+vi.æ»´ä¸‹ï¼›æ¼æ°´ n.æ°´æ»´
 1172. drive[draiv]
-vt.¼İÊ»£»´òÈë£»Çı
+vt.é©¾é©¶ï¼›æ‰“å…¥ï¼›é©±
 1173. driver['draiv2]
-n.¼İÊ»Ô±£¬Ë¾»ú
+n.é©¾é©¶å‘˜ï¼Œå¸æœº
 1174. drop[dr0p]
-vt.Ê¹ÂäÏÂ£»½µµÍ
+vt.ä½¿è½ä¸‹ï¼›é™ä½
 1175. drought[draut]
-n.ºµÔÖ£¬¸Éºµ
+n.æ—±ç¾ï¼Œå¹²æ—±
 1176. drown[draun]
-vi.ÑÍËÀ£¬ÄçËÀ
+vi.æ·¹æ­»ï¼Œæººæ­»
 1177. drug[dr3g]
-n.Ò©£¬Ò©Îï£¬Ò©²Ä
+n.è¯ï¼Œè¯ç‰©ï¼Œè¯æ
 1178. drum[dr3m]
-n.¹Ä£»¹Ä×´Îï£¬Ô²Í°
+n.é¼“ï¼›é¼“çŠ¶ç‰©ï¼Œåœ†æ¡¶
 1179. drunk[dr38k]
-a.×íµÄ£»ÌÕ×íµÄ
+a.é†‰çš„ï¼›é™¶é†‰çš„
 1180. dry[drai]
-a.¸ÉµÄ£¬¸ÉÔïµÄ
+a.å¹²çš„ï¼Œå¹²ç‡¥çš„
 1181. duck[d3k]
-n.Ñ¼£¬´ÆÑ¼£»Ñ¼Èâ
+n.é¸­ï¼Œé›Œé¸­ï¼›é¸­è‚‰
 1182. due[dju:]
-a.Ô¤ÆÚµÄ£»Ó¦¸øµÄ
+a.é¢„æœŸçš„ï¼›åº”ç»™çš„
 1183. dull[d3l]
-a.¿İÔïµÄ£»²»ÏÊÃ÷µÄ
+a.æ¯ç‡¥çš„ï¼›ä¸é²œæ˜çš„
 1184. dumb[d3m]
-a.ÑÆµÄ£»ÎŞÑÔµÄ
+a.å“‘çš„ï¼›æ— è¨€çš„
 1185. dump[d3mp]
-vt.ÇãĞ¶£¬Çãµ¹£»ÇãÏú
+vt.å€¾å¸ï¼Œå€¾å€’ï¼›å€¾é”€
 1186. durable['dju2r2bl]
-a.ÄÍ¾ÃµÄ£¬ÄÍÓÃµÄ
+a.è€ä¹…çš„ï¼Œè€ç”¨çš„
 1187. duration[dju2'rei62n]
-n.³ÖĞø£¬³Ö¾Ã
+n.æŒç»­ï¼ŒæŒä¹…
 1188. during['dju2ri8]
-prep.ÔÚ¡­ÆÚ¼ä
+prep.åœ¨â€¦æœŸé—´
 1189. dusk[d3sk]
-n.±¡Äº£¬»Æ»è£¬ÓÄ°µ
+n.è–„æš®ï¼Œé»„æ˜ï¼Œå¹½æš—
 1190. dust[d3st]
-n.³¾ÍÁ£¬»Ò³¾
+n.å°˜åœŸï¼Œç°å°˜
 1191. duty['dju:ti]
-n.Ö°Ôğ£»ÔğÈÎ£»Ë°
+n.èŒè´£ï¼›è´£ä»»ï¼›ç¨
 1192. dwelling['dweli8]
-n.×¡´¦£¬Ô¢Ëù
+n.ä½å¤„ï¼Œå¯“æ‰€
 1193. dye[dai]
-vt.È¾ n.È¾ÁÏ£»È¾É«
+vt.æŸ“ n.æŸ“æ–™ï¼›æŸ“è‰²
 1194. dying['daii8]
-a.´¹ËÀµÄ£»ÁÙÖÕµÄ
+a.å‚æ­»çš„ï¼›ä¸´ç»ˆçš„
 1195. dynamic[dai'n9mik]
-a.ÓĞ»îÁ¦µÄ£»¶¯Á¦µÄ
+a.æœ‰æ´»åŠ›çš„ï¼›åŠ¨åŠ›çš„
 1196. each[i:t6]
-pron.¸÷£¬¸÷×Ô a.¸÷
+pron.å„ï¼Œå„è‡ª a.å„
 1197. eager['i:g2]
-a.¿ÊÍûµÄ£¬ÈÈÇĞµÄ
+a.æ¸´æœ›çš„ï¼Œçƒ­åˆ‡çš„
 1198. eagle['i:gl]
-n.Ó¥
+n.é¹°
 1199. ear[i2]
-n.¶ú¶ä£»ÌıÁ¦£¬Ìı¾õ
+n.è€³æœµï¼›å¬åŠ›ï¼Œå¬è§‰
 1200. early['2:li]
-ad.Ôç a.ÔçµÄ£¬ÔçÆÚµÄ
+ad.æ—© a.æ—©çš„ï¼Œæ—©æœŸçš„
 1201. earn[2:n]
-vt.×¬µÃ£¬ÕõµÃ£»»ñµÃ
+vt.èµšå¾—ï¼ŒæŒ£å¾—ï¼›è·å¾—
 1202. earnest['2:nist]
-a.ÈÏÕæµÄ£¬³Ï¿ÒµÄ
+a.è®¤çœŸçš„ï¼Œè¯šæ³çš„
 1203. earth[2:4]
-n.µØÇò£»Â½µØ£¬µØÃæ
+n.åœ°çƒï¼›é™†åœ°ï¼Œåœ°é¢
 1204. earthquake['2:4kweik]
-n.µØÕğ£»´óÕğµ´
+n.åœ°éœ‡ï¼›å¤§éœ‡è¡
 1205. ease[i:z]
-n.ÈİÒ×£¬ÊæÊÊ vt.»ººÍ
+n.å®¹æ˜“ï¼Œèˆ’é€‚ vt.ç¼“å’Œ
 1206. easily['i:zili]
-ad.ÈİÒ×µØ£»ÊæÊÊµÄ
+ad.å®¹æ˜“åœ°ï¼›èˆ’é€‚çš„
 1207. east[i:st]
-n.¶«£»¶«²¿ ad.ÔÚ¶«·½
+n.ä¸œï¼›ä¸œéƒ¨ ad.åœ¨ä¸œæ–¹
 1208. eastern['i:st2n]
-a.¶«·½µÄ£»³¯¶«µÄ
+a.ä¸œæ–¹çš„ï¼›æœä¸œçš„
 1209. easy['i:zi]
-a.ÈİÒ×µÄ£»°²ÒİµÄ
+a.å®¹æ˜“çš„ï¼›å®‰é€¸çš„
 1210. eat[i:t]
-vt.³Ô£¬ºÈ vi.³Ô·¹
+vt.åƒï¼Œå– vi.åƒé¥­
 1211. echo['ek2u]
-n.»ØÉù£¬·´Ïì vi.ÖØ¸´
+n.å›å£°ï¼Œåå“ vi.é‡å¤
 1212. economic[i:k2'n0mik]
-a.¾­¼ÃµÄ£¬¾­¼ÃÑ§µÄ
+a.ç»æµçš„ï¼Œç»æµå­¦çš„
 1213. economical[i:k2'n0mik2l]
-a.½ÚÔ¼µÄ£»¾­¼ÃÑ§µÄ
+a.èŠ‚çº¦çš„ï¼›ç»æµå­¦çš„
 1214. economy[i(:)'k0n2mi]
-n.¾­¼Ã£»½ÚÔ¼£¬½ÚÊ¡
+n.ç»æµï¼›èŠ‚çº¦ï¼ŒèŠ‚çœ
 1215. edge[ed7]
-n.±ßÔµ£¬±ß£»µ¶¿Ú
+n.è¾¹ç¼˜ï¼Œè¾¹ï¼›åˆ€å£
 1216. edition[i'di62n]
-n.°æ£¬°æ±¾£¬°æ´Î
+n.ç‰ˆï¼Œç‰ˆæœ¬ï¼Œç‰ˆæ¬¡
 1217. editor['edit2]
-n.±à¼­£¬±àÕß£¬Ğ£¶©Õß
+n.ç¼–è¾‘ï¼Œç¼–è€…ï¼Œæ ¡è®¢è€…
 1218. educate['edju(:)keit]
-vt.½ÌÓı£»ÅàÑø£»ÑµÁ·
+vt.æ•™è‚²ï¼›åŸ¹å…»ï¼›è®­ç»ƒ
 1219. education[edju:'kei62n]
-n.½ÌÓı£»Ñµµ¼£»½ÌÓıÑ§
+n.æ•™è‚²ï¼›è®­å¯¼ï¼›æ•™è‚²å­¦
 1220. effect[i'fekt]
-n.½á¹û£»Ğ§¹û£¬Ğ§Á¦
+n.ç»“æœï¼›æ•ˆæœï¼Œæ•ˆåŠ›
 1221. effective[i'fektiv]
-a.ÓĞĞ§µÄ£»ÓĞÓ°ÏìµÄ
+a.æœ‰æ•ˆçš„ï¼›æœ‰å½±å“çš„
 1222. efficiency[i'fi62nsi]
-n.Ğ§ÂÊ£»¹¦Ğ§£¬Ğ§ÄÜ
+n.æ•ˆç‡ï¼›åŠŸæ•ˆï¼Œæ•ˆèƒ½
 1223. efficient[i'fi62nt]
-a.Ğ§ÂÊ¸ßµÄ£¬ÓĞÄÜÁ¦µÄ
+a.æ•ˆç‡é«˜çš„ï¼Œæœ‰èƒ½åŠ›çš„
 1224. effort['ef2t]
-n.Å¬Á¦£»Å¬Á¦µÄ³É¹û
+n.åŠªåŠ›ï¼›åŠªåŠ›çš„æˆæœ
 1225. egg[eg]
-n.µ°£¬¼¦µ°£¬ÂÑ
+n.è›‹ï¼Œé¸¡è›‹ï¼Œåµ
 1226. eight[eit]
-num.°Ë£¬°Ë¸ö£¬µÚ°Ë
+num.å…«ï¼Œå…«ä¸ªï¼Œç¬¬å…«
 1227. eighteen['ei'ti:n]
-num.Ê®°Ë£¬Ê®°Ë¸ö
+num.åå…«ï¼Œåå…«ä¸ª
 1228. eighth[eit4]
-num.µÚ°Ë n.°Ë·ÖÖ®Ò»
+num.ç¬¬å…« n.å…«åˆ†ä¹‹ä¸€
 1229. eighty['eiti]
-num.°ËÊ®£¬°ËÊ®¸ö
+num.å…«åï¼Œå…«åä¸ª
 1230. either['ai52. 'i:52]
-pron.(Á½Õß)ÈÎºÎÒ»¸ö
+pron.(ä¸¤è€…)ä»»ä½•ä¸€ä¸ª
 1231. elaborate[i'l9b2rit]
-a.¸´ÔÓµÄ£»¾«ĞÄÖÆ×÷µÄ
+a.å¤æ‚çš„ï¼›ç²¾å¿ƒåˆ¶ä½œçš„
 1232. elastic[i'l9stik]
-n.ËÉ½ô´ø a.ÓĞµ¯ĞÔµÄ
+n.æ¾ç´§å¸¦ a.æœ‰å¼¹æ€§çš„
 1233. elbow['elb2u]
-n.Öâ£¬Öâ²¿£»Íä¹Ü
+n.è‚˜ï¼Œè‚˜éƒ¨ï¼›å¼¯ç®¡
 1234. elder['eld2]
-a.ÄêÁä½Ï´óµÄ n.³¤Õß
+a.å¹´é¾„è¾ƒå¤§çš„ n.é•¿è€…
 1235. elect[i'lekt]
-vt.Ñ¡¾Ù£¬ÍÆÑ¡£»Ñ¡Ôñ
+vt.é€‰ä¸¾ï¼Œæ¨é€‰ï¼›é€‰æ‹©
 1236. election[i'lek62n]
-n.Ñ¡¾Ù£¬Ñ¡ÔñÈ¨£»µ±Ñ¡
+n.é€‰ä¸¾ï¼Œé€‰æ‹©æƒï¼›å½“é€‰
 1237. electric[i'lektrik]
-a.µçµÄ£¬µç¶¯µÄ
+a.ç”µçš„ï¼Œç”µåŠ¨çš„
 1238. electrical[i'lektrik2l]
-a.µçµÄ£¬µçÆø¿ÆÑ§µÄ
+a.ç”µçš„ï¼Œç”µæ°”ç§‘å­¦çš„
 1239. electricity[ilek'trisiti]
-n.µç£¬µçÑ§£»µçÁ÷
+n.ç”µï¼Œç”µå­¦ï¼›ç”µæµ
 1240. electron[i'lektr0n]
-n.µç×Ó
+n.ç”µå­
 1241. electronic[ilek'tr0nik]
-a.µç×ÓµÄ
+a.ç”µå­çš„
 1242. electronics[ilek'tr0niks]
-n.µç×ÓÑ§
+n.ç”µå­å­¦
 1243. element['elim2nt]
-n.³É·Ö£»ÒªËØ£»ÔªËØ
+n.æˆåˆ†ï¼›è¦ç´ ï¼›å…ƒç´ 
 1244. elementary[eli'ment2ri]
-a.»ù±¾µÄ£»³õ¼¶µÄ
+a.åŸºæœ¬çš„ï¼›åˆçº§çš„
 1245. elephant['elif2nt]
-n.Ïó
+n.è±¡
 1246. elevator['eliveit2]
-n.µçÌİ£»Éı½µ»ú
+n.ç”µæ¢¯ï¼›å‡é™æœº
 1247. eleven[i'levn]
-num.Ê®Ò»£¬Ê®Ò»¸ö
+num.åä¸€ï¼Œåä¸€ä¸ª
 1248. eleventh[i'levn4]
-num.µÚÊ®Ò»(¸ö)
+num.ç¬¬åä¸€(ä¸ª)
 1249. eliminate[i'limineit]
-vt.ÏûÃğ£¬Ïû³ı£¬ÅÅ³ı
+vt.æ¶ˆç­ï¼Œæ¶ˆé™¤ï¼Œæ’é™¤
 1250. elimination[ilimi'nei62n]
-n.ÏûÃğ£¬ÅÅ³ı£¬Ïû³ı
+n.æ¶ˆç­ï¼Œæ’é™¤ï¼Œæ¶ˆé™¤
 1251. else[els]
-ad.ÆäËü£¬ÁíÍâ a.±ğµÄ
+ad.å…¶å®ƒï¼Œå¦å¤– a.åˆ«çš„
 1252. elsewhere[els'w/2]
-ad.ÔÚ±ğ´¦£¬Ïò±ğ´¦
+ad.åœ¨åˆ«å¤„ï¼Œå‘åˆ«å¤„
 1253. embarrass[im'b9r2s]
-vt.Ê¹¾½ÆÈ£¬Ê¹ÎªÄÑ
+vt.ä½¿çª˜è¿«ï¼Œä½¿ä¸ºéš¾
 1254. embrace[im'breis]
-vt.Óµ±§£»°üÀ¨£»°üÎ§
+vt.æ‹¥æŠ±ï¼›åŒ…æ‹¬ï¼›åŒ…å›´
 1255. emerge[i'm2:d7]
-vi.³öÏÖ£¬Ó¿ÏÖ£»Ã°³ö
+vi.å‡ºç°ï¼Œæ¶Œç°ï¼›å†’å‡º
 1256. emergency[i'm2:d72nsi]
-n.½ô¼±Çé¿ö£¬Í»È»ÊÂ¼ş
+n.ç´§æ€¥æƒ…å†µï¼Œçªç„¶äº‹ä»¶
 1257. emit[i'mit]
-vt.É¢·¢£»·¢Éä£»·¢±í
+vt.æ•£å‘ï¼›å‘å°„ï¼›å‘è¡¨
 1258. emotion[i'm2u62n]
-n.Çé¸Ğ£¬¸ĞÇé£»¼¤¶¯
+n.æƒ…æ„Ÿï¼Œæ„Ÿæƒ…ï¼›æ¿€åŠ¨
 1259. emotional[i'm2u62nl]
-a.¸ĞÇéµÄ£¬ÇéĞ÷µÄ
+a.æ„Ÿæƒ…çš„ï¼Œæƒ…ç»ªçš„
 1260. emperor['emp2r2]
-n.»ÊµÛ
+n.çš‡å¸
 1261. emphasis['emf2sis]
-n.Ç¿µ÷£¬ÖØµã£¬ÖØÒªĞÔ
+n.å¼ºè°ƒï¼Œé‡ç‚¹ï¼Œé‡è¦æ€§
 1262. emphasize['emf2saiz]
-vt.Ç¿µ÷£¬×ÅÖØ
+vt.å¼ºè°ƒï¼Œç€é‡
 1263. empire['empai2]
-n.µÛ¹ú
+n.å¸å›½
 1264. employ[im'pl0i]
-vi.¹ÍÓÃ£»ÓÃ£»Ê¹Ã¦ÓÚ
+vi.é›‡ç”¨ï¼›ç”¨ï¼›ä½¿å¿™äº
 1265. employee[empl0i'i:]
-n.ÊÜ¹ÍÕß£¬¹ÍÔ±£¬¹Í¹¤
+n.å—é›‡è€…ï¼Œé›‡å‘˜ï¼Œé›‡å·¥
 1266. employer[im'pl0i2]
-n.¹ÍÓ¶Õß£¬¹ÍÖ÷
+n.é›‡ä½£è€…ï¼Œé›‡ä¸»
 1267. employment[im'pl0im2nt]
-n.¹¤Òµ£»¹ÍÓÃ£»Ê¹ÓÃ
+n.å·¥ä¸šï¼›é›‡ç”¨ï¼›ä½¿ç”¨
 1268. empty['empti]
-a.¿ÕµÄ£»¿Õ¶´µÄ
+a.ç©ºçš„ï¼›ç©ºæ´çš„
 1269. enable[i'neibl]
-vt.Ê¹ÄÜ¹»£¬Ê¹¿ÉÄÜ
+vt.ä½¿èƒ½å¤Ÿï¼Œä½¿å¯èƒ½
 1270. enclose[in'kl2uz]
-vt.Î§×¡£¬È¦Æğ£»¸½ÉÏ
+vt.å›´ä½ï¼Œåœˆèµ·ï¼›é™„ä¸Š
 1271. encounter[in'kaunt2]
-vt.ÔâÓö£¬Óöµ½ n.ÔâÓö
+vt.é­é‡ï¼Œé‡åˆ° n.é­é‡
 1272. encourage[in'k3rid7]
-vt.¹ÄÀø£¬Ö§³Ö£¬Öú³¤
+vt.é¼“åŠ±ï¼Œæ”¯æŒï¼ŒåŠ©é•¿
 1273. end[end]
-n.Ä©¶Ë£»Ä¿±ê vt.½áÊø
+n.æœ«ç«¯ï¼›ç›®æ ‡ vt.ç»“æŸ
 1274. ending['endi8]
-n.½áÎ²£¬½á¾Ö£»ËÀÍö
+n.ç»“å°¾ï¼Œç»“å±€ï¼›æ­»äº¡
 1275. endless['endlis]
-a.ÎŞÖ¹¾³µÄ
+a.æ— æ­¢å¢ƒçš„
 1276. endure[in'dju2]
-vt.ÈÌÊÜ£»ÈİÈÌ
+vt.å¿å—ï¼›å®¹å¿
 1277. enemy['enimi]
-n.µĞÈË£»³ğµĞ£»µĞ±ø
+n.æ•Œäººï¼›ä»‡æ•Œï¼›æ•Œå…µ
 1278. energy['en2d7i]
-n.»îÁ¦£»¾«Á¦£»ÄÜ
+n.æ´»åŠ›ï¼›ç²¾åŠ›ï¼›èƒ½
 1279. enforce[in'f0:s]
-vt.ÊµÊ©£¬Ö´ĞĞ£»Ç¿ÖÆ
+vt.å®æ–½ï¼Œæ‰§è¡Œï¼›å¼ºåˆ¶
 1280. engage[in'geid7]
-vt.Ê¹´ÓÊÂÓÚ£»Æ¸ÓÃ
+vt.ä½¿ä»äº‹äºï¼›è˜ç”¨
 1281. engine['end7in]
-n.·¢¶¯»ú£¬ÒıÇæ£»»ú³µ
+n.å‘åŠ¨æœºï¼Œå¼•æ“ï¼›æœºè½¦
 1282. engineer[end7i'ni2]
-n.¹¤³ÌÊ¦£¬¼¼Ê¦
+n.å·¥ç¨‹å¸ˆï¼ŒæŠ€å¸ˆ
 1283. engineering[end7i'ni2ri8]
-n.¹¤³Ì£¬¹¤³ÌÑ§
+n.å·¥ç¨‹ï¼Œå·¥ç¨‹å­¦
 1284. England['i8gl2nd]
-n.Ó¢¸ñÀ¼£»Ó¢¹ú
+n.è‹±æ ¼å…°ï¼›è‹±å›½
 1285. English['i8gli6]
-n.Ó¢Óï a.Ó¢¹úÈËµÄ
+n.è‹±è¯­ a.è‹±å›½äººçš„
 1286. Englishman['i8gli6m2n]
-n.Ó¢¹úÄĞ×Ó
+n.è‹±å›½ç”·å­
 1287. enjoy[in'd70i]
-vt.ÏíÊÜ£»ĞÀÉÍ£¬Ï²°®
+vt.äº«å—ï¼›æ¬£èµï¼Œå–œçˆ±
 1288. enlarge[in'la:d7]
-vt.À©´ó£¬À©Õ¹£»·Å´ó
+vt.æ‰©å¤§ï¼Œæ‰©å±•ï¼›æ”¾å¤§
 1289. enormous[i'n0:m2s]
-a.¾Ş´óµÄ£¬ÅÓ´óµÄ
+a.å·¨å¤§çš„ï¼Œåºå¤§çš„
 1290. enough[i'n3f]
-a.×ã¹»µÄ ad.×ã¹»µØ
+a.è¶³å¤Ÿçš„ ad.è¶³å¤Ÿåœ°
 1291. ensure[in'6u2]
-vt.±£Ö¤£»±£»¤£»¸³Óè
+vt.ä¿è¯ï¼›ä¿æŠ¤ï¼›èµ‹äºˆ
 1292. enter['ent2]
-vt.×ß½ø£¬½øÈë£»²Î¼Ó
+vt.èµ°è¿›ï¼Œè¿›å…¥ï¼›å‚åŠ 
 1293. entertain[ent2'tein]
-vt.Ê¹»¶ÀÖ£»ÕĞ´ı
+vt.ä½¿æ¬¢ä¹ï¼›æ‹›å¾…
 1294. enthusiasm[in'4ju:zi9z2m]
-n.ÈÈÇé£¬ÈÈĞÄ£¬ÈÈ³À
+n.çƒ­æƒ…ï¼Œçƒ­å¿ƒï¼Œçƒ­å¿±
 1295. enthusiastic[in4ju:zi'9stik]
-a.ÈÈÇéµÄ£¬ÈÈĞÄµÄ
+a.çƒ­æƒ…çš„ï¼Œçƒ­å¿ƒçš„
 1296. entire[in'tai2]
-a.È«²¿µÄ£¬Õû¸öµÄ
+a.å…¨éƒ¨çš„ï¼Œæ•´ä¸ªçš„
 1297. entitle[in'taitl]
-vt.¸ø¡­È¨Àû(»ò×Ê¸ñ)
+vt.ç»™â€¦æƒåˆ©(æˆ–èµ„æ ¼)
 1298. entrance['entr2ns]
-n.Èë¿Ú£¬ÃÅ¿Ú£»½øÈë
+n.å…¥å£ï¼Œé—¨å£ï¼›è¿›å…¥
 1299. entry['entri]
-n.Èë¿Ú´¦£»µÇ¼Ç£»½øÈë
+n.å…¥å£å¤„ï¼›ç™»è®°ï¼›è¿›å…¥
 1300. envelope['env2l2up]
-n.ĞÅ·â£»·âÌ×£»·âÆ¤
+n.ä¿¡å°ï¼›å°å¥—ï¼›å°çš®
 1301. environment[in'vai2r2nm2nt]
-n.»·¾³£¬Íâ½ç£»Î§ÈÆ
+n.ç¯å¢ƒï¼Œå¤–ç•Œï¼›å›´ç»•
 1302. envy['envi]
-vt.&n.¶Ê¼É£»ÏÛÄ½
+vt.&n.å¦’å¿Œï¼›ç¾¡æ…•
 1303. equal['i:kw2l]
-a.ÏàµÈµÄ£»Æ½µÈµÄ
+a.ç›¸ç­‰çš„ï¼›å¹³ç­‰çš„
 1304. equality[i(:)'kw0liti]
-n.µÈÍ¬£¬Æ½µÈ£»ÏàµÈ
+n.ç­‰åŒï¼Œå¹³ç­‰ï¼›ç›¸ç­‰
 1305. equation[i'kwei62n]
-n.·½³Ì(Ê½)£»µÈÊ½
+n.æ–¹ç¨‹(å¼)ï¼›ç­‰å¼
 1306. equip[i'kwip]
-vt.×°±¸£¬Åä±¸
+vt.è£…å¤‡ï¼Œé…å¤‡
 1307. equipment[i'kwipm2nt]
-n.×°±¸£¬Éè±¸£¬Åä±¸
+n.è£…å¤‡ï¼Œè®¾å¤‡ï¼Œé…å¤‡
 1308. equivalent[i'kwiv2l2nt]
-a.ÏàµÈµÄ£»µÈÁ¿µÄ
+a.ç›¸ç­‰çš„ï¼›ç­‰é‡çš„
 1309. era['i2r2]
-n.Ê±´ú£¬Äê´ú£»¼ÍÔª
+n.æ—¶ä»£ï¼Œå¹´ä»£ï¼›çºªå…ƒ
 1310. erect[i'rekt]
-vt.½¨Ôì£»Ê¹ÊúÁ¢
+vt.å»ºé€ ï¼›ä½¿ç«–ç«‹
 1311. error['er2]
-n.´íÎó£¬ÃıÎó£»²î´í
+n.é”™è¯¯ï¼Œè°¬è¯¯ï¼›å·®é”™
 1312. escape[is'keip]
-vi.ÌÓÅÜ£»Òİ³ö n.ÌÓÅÜ
+vi.é€ƒè·‘ï¼›é€¸å‡º n.é€ƒè·‘
 1313. especially[is'pe62li]
-ad.ÌØ±ğ£¬ÓÈÆä£¬¸ñÍâ
+ad.ç‰¹åˆ«ï¼Œå°¤å…¶ï¼Œæ ¼å¤–
 1314. essay['esei]
-n.¶ÌÎÄ£¬É¢ÎÄ£¬Ğ¡Æ·ÎÄ
+n.çŸ­æ–‡ï¼Œæ•£æ–‡ï¼Œå°å“æ–‡
 1315. essential[i'sen62l]
-a.±ØÒªµÄ£¬±¾ÖÊµÄ
+a.å¿…è¦çš„ï¼Œæœ¬è´¨çš„
 1316. establish[is't9bli6]
-vt.½¨Á¢£¬ÉèÁ¢£»È·Á¢
+vt.å»ºç«‹ï¼Œè®¾ç«‹ï¼›ç¡®ç«‹
 1317. establishment[is't9bli6m2nt]
-n.½¨Á¢£¬ÉèÁ¢£¬È·Á¢
+n.å»ºç«‹ï¼Œè®¾ç«‹ï¼Œç¡®ç«‹
 1318. estimate['estimit. 'estimeit]
-vt.¹À¼Æ£¬ÆÀ¼Û n.¹À¼Æ
+vt.ä¼°è®¡ï¼Œè¯„ä»· n.ä¼°è®¡
 1319. Europe['ju2r2p]
-n.Å·ÖŞ
+n.æ¬§æ´²
 1320. European[ju2r2'pi:2n]
-a.Å·ÖŞµÄ n.Å·ÖŞÈË
+a.æ¬§æ´²çš„ n.æ¬§æ´²äºº
 1321. evaluate[i'v9ljueit]
-vt.ÆÀ¼Û£¬¹À¡­µÄ¼Û
+vt.è¯„ä»·ï¼Œä¼°â€¦çš„ä»·
 1322. evaporate[i'v9p2reit]
-vt.Ê¹Õô·¢ vi.Õô·¢
+vt.ä½¿è’¸å‘ vi.è’¸å‘
 1323. eve[i:v]
-n.Ç°Ò¹£¬Ç°Ï¦£¬Ç°Ò»¿Ì
+n.å‰å¤œï¼Œå‰å¤•ï¼Œå‰ä¸€åˆ»
 1324. even['i:v2n]
-ad.ÉõÖÁ£»ÉõÖÁ¸ü£¬»¹
+ad.ç”šè‡³ï¼›ç”šè‡³æ›´ï¼Œè¿˜
 1325. even['i:v2n]
-a.¾ùÔÈµÄ£»Æ½µÄ
+a.å‡åŒ€çš„ï¼›å¹³çš„
 1326. evening['i:vni8]
-n.°øÍí£¬»Æ»è£¬ÍíÉÏ
+n.å‚æ™šï¼Œé»„æ˜ï¼Œæ™šä¸Š
 1327. event[i'vent]
-n.ÊÂ¼ş£¬´óÊÂ£»ÊÂ±ä
+n.äº‹ä»¶ï¼Œå¤§äº‹ï¼›äº‹å˜
 1328. eventually[i'ventju2li]
-ad.ÖÕÓÚ£»×îºó
+ad.ç»ˆäºï¼›æœ€å
 1329. ever['ev2]
-ad.ÔÚÈÎºÎÊ±ºò£»Ôø¾­
+ad.åœ¨ä»»ä½•æ—¶å€™ï¼›æ›¾ç»
 1330. every['evri]
-a.Ã¿Ò»µÄ£»Ã¿¸ô¡­µÄ
+a.æ¯ä¸€çš„ï¼›æ¯éš”â€¦çš„
 1331. everybody['evrib0di]
-pron.Ã¿ÈË£¬ÈËÈË
+pron.æ¯äººï¼Œäººäºº
 1332. everyday['evridei]
-a.Ã¿ÌìµÄ£¬ÈÕ³£µÄ
+a.æ¯å¤©çš„ï¼Œæ—¥å¸¸çš„
 1333. everyone['evriw3n]
-pron.Ã¿ÈË£¬ÈËÈË
+pron.æ¯äººï¼Œäººäºº
 1334. everything['evri4i8]
-pron.Ã¿¼şÊÂ£¬ÊÂÊÂ
+pron.æ¯ä»¶äº‹ï¼Œäº‹äº‹
 1335. everywhere['evriw/2]
-ad.µ½´¦£¬´¦´¦
+ad.åˆ°å¤„ï¼Œå¤„å¤„
 1336. evidence['evid2ns]
-n.¸ù¾İ£»Ö¤¾İ£¬Ö¤ÈË
+n.æ ¹æ®ï¼›è¯æ®ï¼Œè¯äºº
 1337. evident['evid2nt]
-a.Ã÷ÏÔµÄ£¬Ã÷°×µÄ
+a.æ˜æ˜¾çš„ï¼Œæ˜ç™½çš„
 1338. evil['i:vl]
-n.Ğ°¶ñ£»»öº¦ a.»µµÄ
+n.é‚ªæ¶ï¼›ç¥¸å®³ a.åçš„
 1339. evolution[i:v2'lju:62n]
-n.½ø»¯£¬Ñİ»¯£»·¢Õ¹
+n.è¿›åŒ–ï¼Œæ¼”åŒ–ï¼›å‘å±•
 1340. evolve[i'v0lv]
-vt.Ê¹½ø»¯£»Ê¹·¢Õ¹
+vt.ä½¿è¿›åŒ–ï¼›ä½¿å‘å±•
 1341. exact[ig'z9kt]
-a.È·ÇĞµÄ£»¾«È·µÄ
+a.ç¡®åˆ‡çš„ï¼›ç²¾ç¡®çš„
 1342. exactly[ig'z9ktli]
-ad.È·ÇĞµØ£»Ç¡Ç¡ÕıÊÇ
+ad.ç¡®åˆ‡åœ°ï¼›æ°æ°æ­£æ˜¯
 1343. exaggerate[ig'z9d72reit]
-vt.&vi.¿ä´ó£¬¿äÕÅ
+vt.&vi.å¤¸å¤§ï¼Œå¤¸å¼ 
 1344. exam[ig'z9m]
-n.¿¼ÊÔ£»¼ì²é£¬Ï¸²é
+n.è€ƒè¯•ï¼›æ£€æŸ¥ï¼Œç»†æŸ¥
 1345. examination[igz9mi'nei62n]
-n.¿¼ÊÔ£»¼ì²é£¬Ï¸²é
+n.è€ƒè¯•ï¼›æ£€æŸ¥ï¼Œç»†æŸ¥
 1346. examine[ig'z9min]
-vt.¼ì²é£¬×ĞÏ¸¹Û²ì
+vt.æ£€æŸ¥ï¼Œä»”ç»†è§‚å¯Ÿ
 1347. example[ig'za:mpl]
-n.Àı×Ó£¬ÊµÀı£»Ä£·¶
+n.ä¾‹å­ï¼Œå®ä¾‹ï¼›æ¨¡èŒƒ
 1348. exceed[ik'si:d]
-vt.³¬¹ı£¬Ê¤¹ı£»³¬³ö
+vt.è¶…è¿‡ï¼Œèƒœè¿‡ï¼›è¶…å‡º
 1349. exceedingly[ik'si:di8li]
-ad.¼«¶ËµØ£¬·Ç³£
+ad.æç«¯åœ°ï¼Œéå¸¸
 1350. excellent['eks2l2nt]
-a.ÓÅĞãµÄ£¬½Ü³öµÄ
+a.ä¼˜ç§€çš„ï¼Œæ°å‡ºçš„
 1351. except[ik'sept]
-prep.³ı¡­Ö®Íâ
+prep.é™¤â€¦ä¹‹å¤–
 1352. exception[ik'sep62n]
-n.ÀıÍâ£¬³ıÍâ
+n.ä¾‹å¤–ï¼Œé™¤å¤–
 1353. excess[ik'ses. 'ekses]
-n.³¬Ô½£»¹ıÁ¿£»¹ı¶È
+n.è¶…è¶Šï¼›è¿‡é‡ï¼›è¿‡åº¦
 1354. excessive[ik'sesiv]
-a.¹ı¶àµÄ£¬¼«¶ÈµÄ
+a.è¿‡å¤šçš„ï¼Œæåº¦çš„
 1355. exchange[iks't6eind7]
-vt.½»»»£»½»Á÷ n.½»»»
+vt.äº¤æ¢ï¼›äº¤æµ n.äº¤æ¢
 1356. excite[ik'sait]
-vt.Ê¹¼¤¶¯£»ÒıÆğ
+vt.ä½¿æ¿€åŠ¨ï¼›å¼•èµ·
 1357. exciting[ik'saiti8]
-a.ÁîÈËĞË·ÜµÄ
+a.ä»¤äººå…´å¥‹çš„
 1358. exclaim[iks'kleim]
-vi.ºôº°£»¾ª½Ğ
+vi.å‘¼å–Šï¼›æƒŠå«
 1359. exclude[iks'klu:d]
-vt.°Ñ¡­ÅÅ³ıÔÚÍâ
+vt.æŠŠâ€¦æ’é™¤åœ¨å¤–
 1360. exclusively[iks'klu:sivli]
-ad.×¨ÃÅµØ
+ad.ä¸“é—¨åœ°
 1361. excursion[iks'k2:62n]
-n.Ô¶×ã£»¶ÌÍ¾ÂÃĞĞ
+n.è¿œè¶³ï¼›çŸ­é€”æ—…è¡Œ
 1362. excuse[iks'kju:z. iks'kju:s]
-vt.Ô­ÁÂ£»Ãâ³ı n.½è¿Ú
+vt.åŸè°…ï¼›å…é™¤ n.å€Ÿå£
 1363. execute['eksikju:t]
-vt.½«¡­´¦ËÀ£»ÊµÊ©
+vt.å°†â€¦å¤„æ­»ï¼›å®æ–½
 1364. executive[ig'zekjutiv]
-a.Ö´ĞĞµÄ n.Ö´ĞĞÕß
+a.æ‰§è¡Œçš„ n.æ‰§è¡Œè€…
 1365. exercise['eks2saiz]
-n.¶ÍÁ¶£¬ÑµÁ· vi.Á·Ï°
+n.é”»ç‚¼ï¼Œè®­ç»ƒ vi.ç»ƒä¹ 
 1366. exert[ig'z2:t]
-vt.¾¡(Á¦)£¬ÔËÓÃ
+vt.å°½(åŠ›)ï¼Œè¿ç”¨
 1367. exhaust[ig'z0:st]
-vt.Ê¹½îÆ£Á¦¾¡£»ÓÃ¾¡
+vt.ä½¿ç­‹ç–²åŠ›å°½ï¼›ç”¨å°½
 1368. exhibit[ig'zibit]
-vt.ÏÔÊ¾£»³ÂÁĞ£¬Õ¹ÀÀ
+vt.æ˜¾ç¤ºï¼›é™ˆåˆ—ï¼Œå±•è§ˆ
 1369. exhibition[eksi'bi62n]
-n.Õ¹ÀÀ£¬³ÂÁĞ£»Õ¹ÀÀ»á
+n.å±•è§ˆï¼Œé™ˆåˆ—ï¼›å±•è§ˆä¼š
 1370. exist[ig'zist]
-vi.´æÔÚ£»Éú´æ£¬Éú»î
+vi.å­˜åœ¨ï¼›ç”Ÿå­˜ï¼Œç”Ÿæ´»
 1371. existence[ig'zist2ns]
-n.´æÔÚ£¬ÊµÔÚ£»Éú´æ
+n.å­˜åœ¨ï¼Œå®åœ¨ï¼›ç”Ÿå­˜
 1372. exit['eksit]
-n.³ö¿Ú£»ÍË³¡ vi.ÍË³ö
+n.å‡ºå£ï¼›é€€åœº vi.é€€å‡º
 1373. expand[iks'p9nd]
-vt.À©´ó£»Ê¹ÅòÕÍ
+vt.æ‰©å¤§ï¼›ä½¿è†¨èƒ€
 1374. expansion[iks'p9n62n]
-n.À©´ó£¬À©³ä£»À©ÕÅ
+n.æ‰©å¤§ï¼Œæ‰©å……ï¼›æ‰©å¼ 
 1375. expect[iks'pekt]
-vt.Ô¤ÁÏ£¬Ô¤ÆÚ£»µÈ´ı
+vt.é¢„æ–™ï¼Œé¢„æœŸï¼›ç­‰å¾…
 1376. expectation[ekspek'tei62n]
-n.ÆÚ´ı£¬ÆÚÍû£¬Ô¤ÆÚ
+n.æœŸå¾…ï¼ŒæœŸæœ›ï¼Œé¢„æœŸ
 1377. expense[iks'pens]
-n.»¨·Ñ£¬Ïû·Ñ£»·ÑÓÃ
+n.èŠ±è´¹ï¼Œæ¶ˆè´¹ï¼›è´¹ç”¨
 1378. expensive[iks'pensiv]
-a.°º¹óµÄ£¬»¨Ç®¶àµÄ
+a.æ˜‚è´µçš„ï¼ŒèŠ±é’±å¤šçš„
 1379. experience[iks'pi2ri2ns]
-n.¾­Ñé£¬¸ĞÊÜ£»¾­Àú
+n.ç»éªŒï¼Œæ„Ÿå—ï¼›ç»å†
 1380. experiment[iks'perim2nt]
-n.ÊµÑé£»ÊÔÑé
+n.å®éªŒï¼›è¯•éªŒ
 1381. experimental[iksperi'mentl]
-a.ÊµÑéµÄ£¬ÊÔÑéµÄ
+a.å®éªŒçš„ï¼Œè¯•éªŒçš„
 1382. expert['eksp2:t]
-n.×¨¼Ò a.ÊìÁ·µÄ
+n.ä¸“å®¶ a.ç†Ÿç»ƒçš„
 1383. explain[iks'plein]
-vt.½âÊÍ£»Îª¡­±ç½â
+vt.è§£é‡Šï¼›ä¸ºâ€¦è¾©è§£
 1384. explanation[ekspl2'nei62n]
-n.½âÊÍ£¬ËµÃ÷£»±ç½â
+n.è§£é‡Šï¼Œè¯´æ˜ï¼›è¾©è§£
 1385. explode[iks'pl2ud]
-vt.Ê¹±¬Õ¨ vi.±¬Õ¨
+vt.ä½¿çˆ†ç‚¸ vi.çˆ†ç‚¸
 1386. exploit['ekspl0it. iks'pl0it]
-vt.°şÏ÷£»ÀûÓÃ£»¿ªÍØ
+vt.å‰¥å‰Šï¼›åˆ©ç”¨ï¼›å¼€æ‹“
 1387. explore[iks'pl0:]
-vt.&vi.Ì½ÏÕ£¬Ì½Ë÷
+vt.&vi.æ¢é™©ï¼Œæ¢ç´¢
 1388. explosion[iks'pl2u72n]
-n.±¬Õ¨£¬±¬·¢£¬Õ¨ÁÑ
+n.çˆ†ç‚¸ï¼Œçˆ†å‘ï¼Œç‚¸è£‚
 1389. explosive[iks'pl2usiv]
-n.Õ¨Ò© a.±¬Õ¨µÄ
+n.ç‚¸è¯ a.çˆ†ç‚¸çš„
 1390. export[eks'p0:t. 'eksp0:t]
-vt.Êä³ö£¬³ö¿Ú£»ÔË×ß
+vt.è¾“å‡ºï¼Œå‡ºå£ï¼›è¿èµ°
 1391. expose[iks'p2uz]
-vt.Ê¹±©Â¶£»½ÒÂ¶
+vt.ä½¿æš´éœ²ï¼›æ­éœ²
 1392. exposure[iks'p2u72]
-n.±©Â¶£»½ÒÂ¶£»ÆØ¹â
+n.æš´éœ²ï¼›æ­éœ²ï¼›æ›å…‰
 1393. express[iks'pres]
-vt.±íÊ¾ n.¿ì³µ£¬¿ìµİ
+vt.è¡¨ç¤º n.å¿«è½¦ï¼Œå¿«é€’
 1394. expression[iks'pre62n]
-n.´Ê¾ä£»±í´ï£»±íÇé
+n.è¯å¥ï¼›è¡¨è¾¾ï¼›è¡¨æƒ…
 1395. extend[iks'tend]
-vt.ÑÓ³¤£»À©´ó£»ÖÂ
+vt.å»¶é•¿ï¼›æ‰©å¤§ï¼›è‡´
 1396. extension[iks'ten62n]
-n.ÑÓ³¤²¿·Ö£»ÉìÕ¹
+n.å»¶é•¿éƒ¨åˆ†ï¼›ä¼¸å±•
 1397. extensive[iks'tensiv]
-a.¹ãÀ«µÄ£»¹ã·ºµÄ
+a.å¹¿é˜”çš„ï¼›å¹¿æ³›çš„
 1398. extent[iks'tent]
-n.¹ã¶È£»·¶Î§£»³Ì¶È
+n.å¹¿åº¦ï¼›èŒƒå›´ï¼›ç¨‹åº¦
 1399. exterior[eks'ti2ri2]
-a.Íâ²¿µÄ£»¶ÔÍâµÄ
+a.å¤–éƒ¨çš„ï¼›å¯¹å¤–çš„
 1400. external[eks't2:nl]
-a.Íâ²¿µÄ£¬ÍâÃæµÄ
+a.å¤–éƒ¨çš„ï¼Œå¤–é¢çš„
 1401. extra['ekstr2]
-a.¶îÍâµÄ ad.ÌØ±ğµØ
+a.é¢å¤–çš„ ad.ç‰¹åˆ«åœ°
 1402. extraordinary[iks'tr0:din2ri]
-a.·ÇÍ¬Ñ°³£µÄ£¬ÌØ±ğµÄ
+a.éåŒå¯»å¸¸çš„ï¼Œç‰¹åˆ«çš„
 1403. extreme[iks'tri:m]
-a.¼«¶ÈµÄ£»¾¡Í·µÄ
+a.æåº¦çš„ï¼›å°½å¤´çš„
 1404. extremely[iks'tri:mli]
-ad.¼«¶Ë£¬¼«Æä£¬·Ç³£
+ad.æç«¯ï¼Œæå…¶ï¼Œéå¸¸
 1405. eye[ai]
-n.ÑÛ¾¦£»ÑÛÁ¦£»¼øÉÍÁ¦
+n.çœ¼ç›ï¼›çœ¼åŠ›ï¼›é‰´èµåŠ›
 1406. eyesight['aisait]
-n.ÊÓÁ¦£¬Ä¿Á¦
+n.è§†åŠ›ï¼Œç›®åŠ›
 1407. fable['feibl]
-n.Ô¢ÑÔ£»Ğé¹¹µÄ¹ÊÊÂ
+n.å¯“è¨€ï¼›è™šæ„çš„æ•…äº‹
 1408. fabric['f9brik]
-n.Ö¯Îï£¬·ÄÖ¯Æ·£»½á¹¹
+n.ç»‡ç‰©ï¼Œçººç»‡å“ï¼›ç»“æ„
 1409. face[feis]
-n.Á³£»±íÃæ£»Íâ±í
+n.è„¸ï¼›è¡¨é¢ï¼›å¤–è¡¨
 1410. facility[f2'siliti]
-n.Éè±¸£»ÈİÒ×£»±ãÀû
+n.è®¾å¤‡ï¼›å®¹æ˜“ï¼›ä¾¿åˆ©
 1411. fact[f9kt]
-n.ÊÂÊµ£»Êµ¼Ê£¬ÊµÇé
+n.äº‹å®ï¼›å®é™…ï¼Œå®æƒ…
 1412. factor['f9kt2]
-n.ÒòËØ£»Òò×Ó£¬ÏµÊı
+n.å› ç´ ï¼›å› å­ï¼Œç³»æ•°
 1413. factory['f9kt2ri]
-n.¹¤³§£¬ÖÆÔì³§
+n.å·¥å‚ï¼Œåˆ¶é€ å‚
 1414. faculty['f9k2lti]
-n.²ÅÄÜ£¬ÄÜÁ¦£»Ïµ£¬¿Æ
+n.æ‰èƒ½ï¼Œèƒ½åŠ›ï¼›ç³»ï¼Œç§‘
 1415. fade[feid]
-vi.ÍÊÉ«£»Öğ½¥ÏûÊ§
+vi.è¤ªè‰²ï¼›é€æ¸æ¶ˆå¤±
 1416. Fahrenheit['f9r2nhait]
-n.»ªÊÏÎÂ¶È¼Æ
+n.åæ°æ¸©åº¦è®¡
 1417. fail[feil]
-vi.Ê§°Ü£»Ê§Áé£»²»ÄÜ
+vi.å¤±è´¥ï¼›å¤±çµï¼›ä¸èƒ½
 1418. failure['feilj2]
-n.Ê§°Ü£»Ê§°ÜµÄÈË
+n.å¤±è´¥ï¼›å¤±è´¥çš„äºº
 1419. faint[feint]
-a.Î¢ÈõµÄ£»ĞéÈõµÄ
+a.å¾®å¼±çš„ï¼›è™šå¼±çš„
 1420. fair[f/2]
-a.¹«Æ½µÄ£»Ïàµ±µÄ
+a.å…¬å¹³çš„ï¼›ç›¸å½“çš„
 1421. fair[f/2]
-n.¶¨ÆÚ¼¯ÊĞ£»²©ÀÀ»á
+n.å®šæœŸé›†å¸‚ï¼›åšè§ˆä¼š
 1422. fairly['f/2li]
-ad.Ïàµ±£»¹«Æ½µØ
+ad.ç›¸å½“ï¼›å…¬å¹³åœ°
 1423. faith[fei4]
-n.ĞÅÈÎ£¬ĞÅĞÄ£»ĞÅÑö
+n.ä¿¡ä»»ï¼Œä¿¡å¿ƒï¼›ä¿¡ä»°
 1424. faithful['fei4ful]
-a.ÖÒ³ÏµÄ£»ÈçÊµµÄ
+a.å¿ è¯šçš„ï¼›å¦‚å®çš„
 1425. fall[f0:l]
-vi.ÂäÏÂ£»µøµ¹£»ÏİÂä
+vi.è½ä¸‹ï¼›è·Œå€’ï¼›é™·è½
 1426. false[f0:ls]
-a.²»ÕæÊµµÄ£»Î±ÔìµÄ
+a.ä¸çœŸå®çš„ï¼›ä¼ªé€ çš„
 1427. fame[feim]
-n.ÃûÉù£¬ÃûÍû
+n.åå£°ï¼Œåæœ›
 1428. familiar[f2'milj2]
-a.ÊìÏ¤µÄ£»Ã°ÃÁµÄ
+a.ç†Ÿæ‚‰çš„ï¼›å†’æ˜§çš„
 1429. family['f9mili]
-n.¼Ò£¬¼ÒÍ¥£»¼Ò×å
+n.å®¶ï¼Œå®¶åº­ï¼›å®¶æ—
 1430. famine['f9min]
-n.¼¢»Ä£»ÑÏÖØµÄÈ±·¦
+n.é¥¥è’ï¼›ä¸¥é‡çš„ç¼ºä¹
 1431. famous['feim2s]
-a.ÖøÃûµÄ£¬³öÃûµÄ
+a.è‘—åçš„ï¼Œå‡ºåçš„
 1432. fan[f9n]
-n.(ÔË¶¯µÈ)¿ñÈÈ°®ºÃÕß
+n.(è¿åŠ¨ç­‰)ç‹‚çƒ­çˆ±å¥½è€…
 1433. fan[f9n]
-n.ÉÈ×Ó£¬·çÉÈ vt.ÉÈ
+n.æ‰‡å­ï¼Œé£æ‰‡ vt.æ‰‡
 1434. fancy['f9nsi]
-n.ÏëÏóÁ¦£»ÉèÏë£»°®ºÃ
+n.æƒ³è±¡åŠ›ï¼›è®¾æƒ³ï¼›çˆ±å¥½
 1435. far[fa:]
-a.Ô¶µÄ ad.Ô¶£¬Ò£Ô¶
+a.è¿œçš„ ad.è¿œï¼Œé¥è¿œ
 1436. fare[f/2]
-n.³µ·Ñ£¬´¬·Ñ£¬Æ±¼Û
+n.è½¦è´¹ï¼Œèˆ¹è´¹ï¼Œç¥¨ä»·
 1437. farewell['f/2'wel]
-int.ÔÙ»á n.¸æ±ğ
+int.å†ä¼š n.å‘Šåˆ«
 1438. farm[fa:m]
-n.Å©³¡£¬Å©×¯£»ËÇÑø³¡
+n.å†œåœºï¼Œå†œåº„ï¼›é¥²å…»åœº
 1439. farmer['fa:m2]
-n.Å©Ãñ£¬Å©·ò£»Å©³¡Ö÷
+n.å†œæ°‘ï¼Œå†œå¤«ï¼›å†œåœºä¸»
 1440. farther['fa:52]
-ad.¸üÔ¶µØ a.¸üÔ¶µÄ
+ad.æ›´è¿œåœ° a.æ›´è¿œçš„
 1441. fashion['f962n]
-n.Ñù×Ó£¬·½Ê½£»·çÉĞ
+n.æ ·å­ï¼Œæ–¹å¼ï¼›é£å°š
 1442. fashionable['f962n2bl]
-a.Á÷ĞĞµÄ£¬Ê±÷ÖµÄ
+a.æµè¡Œçš„ï¼Œæ—¶é«¦çš„
 1443. fast[fa:st]
-a.¿ìµÄ£»Æ«¿ìµÄ ad.¿ì
+a.å¿«çš„ï¼›åå¿«çš„ ad.å¿«
 1444. fasten['fa:sn]
-vt.ÔúÀÎ£¬¿Û×¡
+vt.æ‰ç‰¢ï¼Œæ‰£ä½
 1445. fatal['feitl]
-a.ÖÂÃüµÄ£»ÃüÔËµÄ
+a.è‡´å‘½çš„ï¼›å‘½è¿çš„
 1446. fate[feit]
-n.ÃüÔË£¬ÌìÊı
+n.å‘½è¿ï¼Œå¤©æ•°
 1447. father['fa:52]
-n.¸¸Ç×£»Éñ¸¸£»´´Ê¼ÈË
+n.çˆ¶äº²ï¼›ç¥çˆ¶ï¼›åˆ›å§‹äºº
 1448. father-in-law['fa:52inl0:]
-n.ÔÀ¸¸£»¹«¹«
+n.å²³çˆ¶ï¼›å…¬å…¬
 1449. fatigue[f2'ti:g]
-n.Æ£ÀÍ£¬ÀÍÀÛ
+n.ç–²åŠ³ï¼ŒåŠ³ç´¯
 1450. fault[f0:lt]
-n.È±µã£»¹ıÊ§£»¹ÊÕÏ
+n.ç¼ºç‚¹ï¼›è¿‡å¤±ï¼›æ•…éšœ
 1451. faulty['f0:lti]
-a.ÓĞ´íÎóµÄ£¬ÓĞÈ±µãµÄ
+a.æœ‰é”™è¯¯çš„ï¼Œæœ‰ç¼ºç‚¹çš„
 1452. favour['feiv2]
-n.ºÃ¸Ğ£»ÔŞÍ¬£»¶÷»İ
+n.å¥½æ„Ÿï¼›èµåŒï¼›æ©æƒ 
 1453. favourable['feiv2r2bl]
-a.ÓĞÀûµÄ£»ÔŞ³ÉµÄ
+a.æœ‰åˆ©çš„ï¼›èµæˆçš„
 1454. favourite['feiv2rit]
-a.ÌØ±ğÊÜÏ²°®µÄ
+a.ç‰¹åˆ«å—å–œçˆ±çš„
 1455. fear[fi2]
-n.º¦ÅÂ£»µ£ĞÄ vt.º¦ÅÂ
+n.å®³æ€•ï¼›æ‹…å¿ƒ vt.å®³æ€•
 1456. fearful['fi2ful]
-a.º¦ÅÂµÄ£¬¿ÉÅÂµÄ
+a.å®³æ€•çš„ï¼Œå¯æ€•çš„
 1457. feasible['fi:z2bl]
-a.¿ÉĞĞµÄ£»¿ÉÄÜµÄ
+a.å¯è¡Œçš„ï¼›å¯èƒ½çš„
 1458. feast[fi:st]
-n.Ê¢Ñç£¬óÛÏ¯£»½ÚÈÕ
+n.ç››å®´ï¼Œç­µå¸­ï¼›èŠ‚æ—¥
 1459. feather['fe52]
-n.ÓğÃ«£»ôáÃ«£»Óğ×´Îï
+n.ç¾½æ¯›ï¼›ç¿æ¯›ï¼›ç¾½çŠ¶ç‰©
 1460. feature['fi:t62]
-n.ÌØÕ÷£¬ÌØÉ«£»ÃæÃ²
+n.ç‰¹å¾ï¼Œç‰¹è‰²ï¼›é¢è²Œ
 1461. February['febru2ri]
-n.¶şÔÂ
+n.äºŒæœˆ
 1462. federal['fed2r2l]
-a.Áª°îµÄ£»ÁªÃËµÄ
+a.è”é‚¦çš„ï¼›è”ç›Ÿçš„
 1463. fee[fi:]
-n.·Ñ£¬³ê½ğ£»ÉÍ½ğ
+n.è´¹ï¼Œé…¬é‡‘ï¼›èµé‡‘
 1464. feeble['fi:bl]
-a.ĞéÈõµÄ£»Î¢ÈõµÄ
+a.è™šå¼±çš„ï¼›å¾®å¼±çš„
 1465. feed[fi:d]
-vt.Î¹(Ñø) vi.³ÔËÇÁÏ
+vt.å–‚(å…») vi.åƒé¥²æ–™
 1466. feedback['fi:db9k]
-n.»ØÊÚ£¬·´À¡£¬·´Ó¦
+n.å›æˆï¼Œåé¦ˆï¼Œååº”
 1467. feel[fi:l]
-vi.ÓĞÖª¾õ vt.´¥£¬Ãş
+vi.æœ‰çŸ¥è§‰ vt.è§¦ï¼Œæ‘¸
 1468. feeling['fi:li8]
-n.¸ĞÇé£»¸Ğ¾õ£¬Öª¾õ
+n.æ„Ÿæƒ…ï¼›æ„Ÿè§‰ï¼ŒçŸ¥è§‰
 1469. fellow['fel2u]
-n.ÈË£¬¼Ò»ï£»»ï°é
+n.äººï¼Œå®¶ä¼™ï¼›ä¼™ä¼´
 1470. female['fi:meil]
-n.´ÆĞÔµÄ¶¯Îï£»Å®×Ó
+n.é›Œæ€§çš„åŠ¨ç‰©ï¼›å¥³å­
 1471. fence[fens]
-n.Õ¤À¸
+n.æ …æ 
 1472. fertile['f2:tail]
-a.·ÊÎÖµÄ£»¶à²úµÄ
+a.è‚¥æ²ƒçš„ï¼›å¤šäº§çš„
 1473. fertilizer['f2:tilaiz2]
-n.·ÊÁÏ
+n.è‚¥æ–™
 1474. festival['fest2v2l]
-n.½ÚÈÕ£»ÒôÀÖ½Ú
+n.èŠ‚æ—¥ï¼›éŸ³ä¹èŠ‚
 1475. fetch[fet6]
-vt.ÄÃÀ´£»ÇëÀ´£¬½ÓÈ¥
+vt.æ‹¿æ¥ï¼›è¯·æ¥ï¼Œæ¥å»
 1476. fever['fi:v2]
-n.·¢ÈÈ£¬·¢ÉÕ£»¿ñÈÈ
+n.å‘çƒ­ï¼Œå‘çƒ§ï¼›ç‹‚çƒ­
 1477. few[fju:]
-a.ºÜÉÙµÄ£»ÉÙÊıµÄ
+a.å¾ˆå°‘çš„ï¼›å°‘æ•°çš„
 1478. fibre['faib2]
-n.ÏËÎ¬£¬ÏËÎ¬ÖÊ
+n.çº¤ç»´ï¼Œçº¤ç»´è´¨
 1479. fiction['fik62n]
-n.Ğ¡Ëµ£»Ğé¹¹£¬¶Å×«
+n.å°è¯´ï¼›è™šæ„ï¼Œæœæ’°
 1480. field[fi:ld]
-n.ÌïÒ°£»Ìï£»ÔË¶¯³¡
+n.ç”°é‡ï¼›ç”°ï¼›è¿åŠ¨åœº
 1481. fierce[fi2s]
-a.Ğ×ÃÍµÄ£¬¿ñÈÈµÄ
+a.å‡¶çŒ›çš„ï¼Œç‹‚çƒ­çš„
 1482. fifteen['fif'ti:n]
-num.Ê®Îå£»Ê®Îå¸ö
+num.åäº”ï¼›åäº”ä¸ª
 1483. fifth[fif4]
-num.µÚÎå n.Îå·ÖÖ®Ò»
+num.ç¬¬äº” n.äº”åˆ†ä¹‹ä¸€
 1484. fifty['fifti]
-num.ÎåÊ®£¬ÎåÊ®¸ö
+num.äº”åï¼Œäº”åä¸ª
 1485. fight[fait]
-vi.´ò(ÕÌ)£»¶·Õù
+vi.æ‰“(ä»—)ï¼›æ–—äº‰
 1486. figure['fig2]
-n.Êı×Ö£»ÍâĞÎ£»ÈËÎï
+n.æ•°å­—ï¼›å¤–å½¢ï¼›äººç‰©
 1487. file[fail]
-n.µµ°¸ vt.°Ñ¡­¹éµµ
+n.æ¡£æ¡ˆ vt.æŠŠâ€¦å½’æ¡£
 1488. fill[fil]
-vt.×°Âú£¬Ê¢Âú£»Õ¼Âú
+vt.è£…æ»¡ï¼Œç››æ»¡ï¼›å æ»¡
 1489. film[film]
-n.Ó°Æ¬£»½º¾í£»±¡²ã
+n.å½±ç‰‡ï¼›èƒ¶å·ï¼›è–„å±‚
 1490. filter['filt2]
-vt.¹ıÂË n.ÂËÖ½
+vt.è¿‡æ»¤ n.æ»¤çº¸
 1491. final['fainl]
-a.×îºóµÄ£»¾ö¶¨ĞÔµÄ
+a.æœ€åçš„ï¼›å†³å®šæ€§çš„
 1492. finally['fain2li]
-ad.×îºó£»²»¿É¸ü¸ÄµÄ
+ad.æœ€åï¼›ä¸å¯æ›´æ”¹çš„
 1493. finance[fai'n9ns. fi-]
-n.²ÆÕş£¬½ğÈÚ£»²ÆÔ´
+n.è´¢æ”¿ï¼Œé‡‘èï¼›è´¢æº
 1494. financial[fai'n9n62l. fi-]
-a.²ÆÕşµÄ£¬½ğÈÚµÄ
+a.è´¢æ”¿çš„ï¼Œé‡‘èçš„
 1495. find[faind]
-vt.ÕÒµ½£»·¢¾õ£»ÕÒ³ö
+vt.æ‰¾åˆ°ï¼›å‘è§‰ï¼›æ‰¾å‡º
 1496. finding[faindi8]
-n.·¢ÏÖ£»µ÷²éµÄ½á¹û
+n.å‘ç°ï¼›è°ƒæŸ¥çš„ç»“æœ
 1497. fine[fain]
-a.ÃÀºÃµÄ£»ÏËÏ¸µÄ
+a.ç¾å¥½çš„ï¼›çº¤ç»†çš„
 1498. fine[fain]
-n.·£½ğ£¬·£¿î
+n.ç½šé‡‘ï¼Œç½šæ¬¾
 1499. finger['fi8g2]
-n.ÊÖÖ¸£»Ö¸×´Îï
+n.æ‰‹æŒ‡ï¼›æŒ‡çŠ¶ç‰©
 1500. finish['fini6]
-vt.Íê³É£¬½áÊø n.½áÊø
+vt.å®Œæˆï¼Œç»“æŸ n.ç»“æŸ
 1501. fire['fai2]
-n.»ğ£»»ğÔÖ vi.¿ª»ğ
+n.ç«ï¼›ç«ç¾ vi.å¼€ç«
 1502. fireman['fai2m2n]
-n.Ïû·À¶ÓÔ±£»Ë¾Â¯¹¤
+n.æ¶ˆé˜²é˜Ÿå‘˜ï¼›å¸ç‚‰å·¥
 1503. firm[f2:m]
-n.ÉÌĞĞ£¬ÉÌºÅ£¬¹«Ë¾
+n.å•†è¡Œï¼Œå•†å·ï¼Œå…¬å¸
 1504. first[f2:st]
-num.µÚÒ» ad.×î³õ
+num.ç¬¬ä¸€ ad.æœ€åˆ
 1505. fish[fi6]
-n.Óã£¬ÓãÈâ vi.µöÓã
+n.é±¼ï¼Œé±¼è‚‰ vi.é’“é±¼
 1506. fisherman['fi62m2n]
-n.ÓæÃñ£¬Óæ·ò£¬´òÓãÈË
+n.æ¸”æ°‘ï¼Œæ¸”å¤«ï¼Œæ‰“é±¼äºº
 1507. fist[fist]
-n.È­(Í·)
+n.æ‹³(å¤´)
 1508. fit[fit]
-vt.ÊÊºÏ£»°²×°vi.ÊÊºÏ
+vt.é€‚åˆï¼›å®‰è£…vi.é€‚åˆ
 1509. five[faiv]
-num.Îå£¬Îå¸ö£¬µÚÎå
+num.äº”ï¼Œäº”ä¸ªï¼Œç¬¬äº”
 1510. fix[fiks]
-vt.Ê¹¹Ì¶¨£»¾ö¶¨
+vt.ä½¿å›ºå®šï¼›å†³å®š
 1511. flag[fl9g]
-n.Æì£¬ÆìÖÄ£»Æì½¢Æì
+n.æ——ï¼Œæ——å¸œï¼›æ——èˆ°æ——
 1512. flame[fleim]
-n.»ğÑæ£»¹â»Ô£»ÈÈÇé
+n.ç«ç„°ï¼›å…‰è¾‰ï¼›çƒ­æƒ…
 1513. flare[fl/2]
-vi.ÉÁÒ« vt.Ê¹ÉÁÁÁ
+vi.é—ªè€€ vt.ä½¿é—ªäº®
 1514. flash[fl96]
-n.ÉÁ¹â vi.ÉÁ£¬ÉÁË¸
+n.é—ªå…‰ vi.é—ªï¼Œé—ªçƒ
 1515. flat[fl9t]
-a.Æ½µÄ£¬±âÆ½µÄ
+a.å¹³çš„ï¼Œæ‰å¹³çš„
 1516. flat[fl9t]
-n.Ò»Ì×·¿¼ä£»µ¥Ôª×¡Õ¬
+n.ä¸€å¥—æˆ¿é—´ï¼›å•å…ƒä½å®…
 1517. flavour['fleiv2]
-n.Î¶£¬Î¶µÀ£»·çÎ¶
+n.å‘³ï¼Œå‘³é“ï¼›é£å‘³
 1518. fleet[fli:t]
-n.½¢¶Ó£»´¬¶Ó£¬»úÈº
+n.èˆ°é˜Ÿï¼›èˆ¹é˜Ÿï¼Œæœºç¾¤
 1519. flesh[fle6]
-n.Èâ£¬¼¡Èâ£»ÈâÌå
+n.è‚‰ï¼Œè‚Œè‚‰ï¼›è‚‰ä½“
 1520. flexible['fleks2bl]
-a.Ò×ÍäÇúµÄ£»Áé»îµÄ
+a.æ˜“å¼¯æ›²çš„ï¼›çµæ´»çš„
 1521. flight[flait]
-n.º½°à£»·ÉĞĞ£»ÌÓÅÜ
+n.èˆªç­ï¼›é£è¡Œï¼›é€ƒè·‘
 1522. float[fl2ut]
-vi.Æ¯¸¡ vt.Ê¹Æ¯¸¡
+vi.æ¼‚æµ® vt.ä½¿æ¼‚æµ®
 1523. flock[fl0k]
-n.ÑòÈº£¬Èº£»´óÁ¿
+n.ç¾Šç¾¤ï¼Œç¾¤ï¼›å¤§é‡
 1524. flood[fl3d]
-n.ºéË® vt.ÑÍÃ»
+n.æ´ªæ°´ vt.æ·¹æ²¡
 1525. floor[fl0:]
-n.µØ°å£»Â¥²ã
+n.åœ°æ¿ï¼›æ¥¼å±‚
 1526. flour['flau2]
-n.Ãæ·Û£¬·Û£»·Û×´ÎïÖÊ
+n.é¢ç²‰ï¼Œç²‰ï¼›ç²‰çŠ¶ç‰©è´¨
 1527. flourish['fl3ri6]
-vi.·±ÈÙ£¬Ã¯Ê¢£¬ĞËÍú
+vi.ç¹è£ï¼ŒèŒ‚ç››ï¼Œå…´æ—º
 1528. flow[fl2u]
-vi.Á÷¶¯£»Æ®´¹£»ÕÇ³±
+vi.æµåŠ¨ï¼›é£˜å‚ï¼›æ¶¨æ½®
 1529. flower['flau2]
-n.»¨£¬»¨»Ü£»¿ª»¨
+n.èŠ±ï¼ŒèŠ±å‰ï¼›å¼€èŠ±
 1530. flu[flu:]
-n.Á÷ĞĞĞÔ¸ĞÃ°
+n.æµè¡Œæ€§æ„Ÿå†’
 1531. fluent['flu(:)2nt]
-a.Á÷ÀûµÄ£¬Á÷³©µÄ
+a.æµåˆ©çš„ï¼Œæµç•…çš„
 1532. fluid['flu(:)id]
-n.Á÷Ìå£¬ÒºÌå
+n.æµä½“ï¼Œæ¶²ä½“
 1533. flush[fl36]
-vi.±¼Á÷£»(Á³)·¢ºì
+vi.å¥”æµï¼›(è„¸)å‘çº¢
 1534. fly[flai]
-n.Ó¬£¬²ÔÓ¬ vi.·ÉĞĞ
+n.è‡ï¼Œè‹è‡ vi.é£è¡Œ
 1535. focus['f2uk2s]
-vi.¾Û½¹£¬×¢ÊÓ n.½¹µã
+vi.èšç„¦ï¼Œæ³¨è§† n.ç„¦ç‚¹
 1536. fog[f0g]
-n.Îí£»ÑÌÎí£¬³¾Îí
+n.é›¾ï¼›çƒŸé›¾ï¼Œå°˜é›¾
 1537. fold[f2uld]
-vt.ÕÛµş£»ºÏÂ£ n.ñŞ
+vt.æŠ˜å ï¼›åˆæ‹¢ n.è¤¶
 1538. folk[f2ulk]
-n.ÈËÃÇ£¬¼ÒÊô£¬Ç×Êô
+n.äººä»¬ï¼Œå®¶å±ï¼Œäº²å±
 1539. follow['f0l2u]
-vt.¸úËæ£»½á¹ûÊÇ
+vt.è·Ÿéšï¼›ç»“æœæ˜¯
 1540. following['f0l2ui8]
-a.½Ó×ÅµÄ£»ÏÂÁĞµÄ
+a.æ¥ç€çš„ï¼›ä¸‹åˆ—çš„
 1541. fond[f0nd]
-a.Ï²°®µÄ£»Äç°®µÄ
+a.å–œçˆ±çš„ï¼›æººçˆ±çš„
 1542. food[fu:d]
-n.Ê³Îï£¬Ê³Æ·£¬ÑøÁÏ
+n.é£Ÿç‰©ï¼Œé£Ÿå“ï¼Œå…»æ–™
 1543. fool[fu:l]
-n.´ÀÈË£¬Éµ×Ó vt.ÆÛÆ­
+n.è ¢äººï¼Œå‚»å­ vt.æ¬ºéª—
 1544. foolish['fu:li6]
-a.ÓŞ´ÀµÄ£»Â³Ã§µÄ
+a.æ„šè ¢çš„ï¼›é²è½çš„
 1545. foot[fut]
-n.½Å£»×îÏÂ²¿£»Ó¢³ß
+n.è„šï¼›æœ€ä¸‹éƒ¨ï¼›è‹±å°º
 1546. football['futb0:l]
-n.×ãÇò±ÈÈü£»×ãÇò
+n.è¶³çƒæ¯”èµ›ï¼›è¶³çƒ
 1547. footstep['futstep]
-n.½Å²½£»½Å²½Éù£»×ã¼£
+n.è„šæ­¥ï¼›è„šæ­¥å£°ï¼›è¶³è¿¹
 1548. for[f0:. f2]
-prep.Îª£»¸ø£»ÒòÎª
+prep.ä¸ºï¼›ç»™ï¼›å› ä¸º
 1549. forbid[f2'bid]
-vt.½ûÖ¹£¬²»Ğí£»×èÖ¹
+vt.ç¦æ­¢ï¼Œä¸è®¸ï¼›é˜»æ­¢
 1550. force[f0:s]
-vt.Ç¿ÆÈ n.Á¦£¬Á¦Á¿
+vt.å¼ºè¿« n.åŠ›ï¼ŒåŠ›é‡
 1551. forecast['f0:ka:st]
-n.Ô¤²â£¬Ô¤±¨ vt.Ô¤Ê¾
+n.é¢„æµ‹ï¼Œé¢„æŠ¥ vt.é¢„ç¤º
 1552. forehead['f0rid. 'f0:hed]
-n.¶îÍ·£¬Ç°²¿
+n.é¢å¤´ï¼Œå‰éƒ¨
 1553. foreign['f0rin]
-a.Íâ¹úµÄ£»ÍâÀ´µÄ
+a.å¤–å›½çš„ï¼›å¤–æ¥çš„
 1554. foreigner['f0rin2]
-n.Íâ¹úÈË
+n.å¤–å›½äºº
 1555. foremost['f0:m2ust]
-a.×î³õµÄ£»µÚÒ»Á÷µÄ
+a.æœ€åˆçš„ï¼›ç¬¬ä¸€æµçš„
 1556. forest['f0rist]
-n.É­ÁÖ£»É­ÁÖµØ´ø
+n.æ£®æ—ï¼›æ£®æ—åœ°å¸¦
 1557. forever[f2'rev2]
-ad.ÓÀÔ¶£¬×ÜÊÇ£¬ÀÏÊÇ
+ad.æ°¸è¿œï¼Œæ€»æ˜¯ï¼Œè€æ˜¯
 1558. forget[f2'get]
-vt.Íü¼Ç£¬ÒÅÍü
+vt.å¿˜è®°ï¼Œé—å¿˜
 1559. forgive[f2'giv]
-vt.Ô­ÁÂ£¬ÈÄË¡£¬¿íË¡
+vt.åŸè°…ï¼Œé¥¶æ•ï¼Œå®½æ•
 1560. fork[f0:k]
-n.²Í²æ£»²æ£»·Ö²æ
+n.é¤å‰ï¼›å‰ï¼›åˆ†å‰
 1561. form[f0:m]
-n.ĞÎÊ½£»ĞÎ×´ vt.ĞÎ³É
+n.å½¢å¼ï¼›å½¢çŠ¶ vt.å½¢æˆ
 1562. formal['f0:m2l]
-a.ÕıÊ½µÄ£»ÀñÒÇÉÏµÄ
+a.æ­£å¼çš„ï¼›ç¤¼ä»ªä¸Šçš„
 1563. formation[f0:'mei62n]
-n.ĞÎ³É£»¹¹³É£»ĞÎ³ÉÎï
+n.å½¢æˆï¼›æ„æˆï¼›å½¢æˆç‰©
 1564. former['f0:m2]
-a.ÔÚÇ°µÄ n.Ç°Õß
+a.åœ¨å‰çš„ n.å‰è€…
 1565. formula['f0:mjul2]
-n.¹«Ê½£¬Ê½
+n.å…¬å¼ï¼Œå¼
 1566. forth[f0:4]
-ad.ÏòÇ°£»ÏòÍâ£¬ÍùÍâ
+ad.å‘å‰ï¼›å‘å¤–ï¼Œå¾€å¤–
 1567. fortnight['f0:tnait]
-n.Á½ĞÇÆÚ£¬Ê®ËÄÌì
+n.ä¸¤æ˜ŸæœŸï¼Œåå››å¤©
 1568. fortunate['f0:t62nit]
-a.ĞÒÔËµÄ£¬½ÄĞÒµÄ
+a.å¹¸è¿çš„ï¼Œä¾¥å¹¸çš„
 1569. fortunately['f0:t62nitli]
-ad.ĞÒÔËµØ£¬ĞÒ¿÷
+ad.å¹¸è¿åœ°ï¼Œå¹¸äº
 1570. fortune['f0:t62n]
-n.ÃüÔË£¬ÔËÆø£»²Æ²ú
+n.å‘½è¿ï¼Œè¿æ°”ï¼›è´¢äº§
 1571. forty['f0:ti]
-num.ËÄÊ®£¬µÚËÄÊ®
+num.å››åï¼Œç¬¬å››å
 1572. forward['f0:w2d]
-ad.ÏòÇ°£»½ñºó£¬Íùºó
+ad.å‘å‰ï¼›ä»Šåï¼Œå¾€å
 1573. found[faund]
-vt.´´Á¢£¬´´°ì£»½¨Á¢
+vt.åˆ›ç«‹ï¼Œåˆ›åŠï¼›å»ºç«‹
 1574. foundation[faun'dei62n]
-n.»ù´¡£»µØ»ù£»»ù½ğ
+n.åŸºç¡€ï¼›åœ°åŸºï¼›åŸºé‡‘
 1575. fountain['fauntin]
-n.ÈªË®£¬ÅçÈª£»Ô´Èª
+n.æ³‰æ°´ï¼Œå–·æ³‰ï¼›æºæ³‰
 1576. four[f0:]
-num.ËÄ£¬ËÄ¸ö£¬µÚËÄ
+num.å››ï¼Œå››ä¸ªï¼Œç¬¬å››
 1577. fourteen['f0:'ti:n]
-num.Ê®ËÄ£¬µÚÊ®ËÄ
+num.åå››ï¼Œç¬¬åå››
 1578. fourth[f0:4]
-num.µÚËÄ£¬ËÄ·ÖÖ®Ò»
+num.ç¬¬å››ï¼Œå››åˆ†ä¹‹ä¸€
 1579. fox[f0ks]
-n.ºüÀê£»½Æ»«µÄÈË
+n.ç‹ç‹¸ï¼›ç‹¡çŒ¾çš„äºº
 1580. fraction['fr9k62n]
-n.Ğ¡²¿·Ö£»Æ¬¶Ï£»·ÖÊı
+n.å°éƒ¨åˆ†ï¼›ç‰‡æ–­ï¼›åˆ†æ•°
 1581. fragment['fr9gm2nt]
-n.ËéÆ¬£¬ÆÆÆ¬£¬Ëé¿é
+n.ç¢ç‰‡ï¼Œç ´ç‰‡ï¼Œç¢å—
 1582. frame[freim]
-n.¿ò¼Ü£¬¿ò×Ó£»¹¹¼Ü
+n.æ¡†æ¶ï¼Œæ¡†å­ï¼›æ„æ¶
 1583. framework['freimw2:k]
-n.¿ò¼Ü£¬¹¹¼Ü£¬½á¹¹
+n.æ¡†æ¶ï¼Œæ„æ¶ï¼Œç»“æ„
 1584. France['fra:ns]
-n.·¨¹ú£¬·¨À¼Î÷
+n.æ³•å›½ï¼Œæ³•å…°è¥¿
 1585. frank[fr98k]
-a.Ì¹°×µÄ£¬Ö±ÂÊµÄ
+a.å¦ç™½çš„ï¼Œç›´ç‡çš„
 1586. free[fri:]
-a.×ÔÓÉµÄ£»¿ÕÏĞµÄ
+a.è‡ªç”±çš„ï¼›ç©ºé—²çš„
 1587. freedom['fri:d2m]
-n.×ÔÓÉ£»×ÔÖ÷
+n.è‡ªç”±ï¼›è‡ªä¸»
 1588. freely['fri:li]
-ad.×ÔÓÉµØ£»Ö±ÂÊµØ
+ad.è‡ªç”±åœ°ï¼›ç›´ç‡åœ°
 1589. freeze[fri:z]
-vi.¶³£»½á¶³vt.Ê¹½á±ù
+vi.å†»ï¼›ç»“å†»vt.ä½¿ç»“å†°
 1590. freight[freit]
-n.»õÔË£»»õÎï£»ÔË·Ñ
+n.è´§è¿ï¼›è´§ç‰©ï¼›è¿è´¹
 1591. French[frent6]
-a.·¨¹úµÄ n.·¨¹úÈË
+a.æ³•å›½çš„ n.æ³•å›½äºº
 1592. frequency['fri:kw2nsi]
-n.ÂÅ´Î£»´ÎÊı£»ÆµÂÊ
+n.å±¡æ¬¡ï¼›æ¬¡æ•°ï¼›é¢‘ç‡
 1593. frequent['fri:kw2nt]
-a.Ê±³£·¢ÉúµÄ£»¾­³£µÄ
+a.æ—¶å¸¸å‘ç”Ÿçš„ï¼›ç»å¸¸çš„
 1594. frequently['fri:kw2ntli]
-ad.Ê±³££¬³£³£
+ad.æ—¶å¸¸ï¼Œå¸¸å¸¸
 1595. fresh[fre6]
-a.ĞÂµÄ£»ĞÂÏÊµÄ
+a.æ–°çš„ï¼›æ–°é²œçš„
 1596. friction['frik62n]
-n.Ä¦²Á£¬Ä¦²ÁÁ¦
+n.æ‘©æ“¦ï¼Œæ‘©æ“¦åŠ›
 1597. Friday['fraidi]
-n.ĞÇÆÚÎå
+n.æ˜ŸæœŸäº”
 1598. fridge[frid7]
-n.µç±ùÏä
+n.ç”µå†°ç®±
 1599. friend[frend]
-n.ÅóÓÑ£¬ÓÑÈË
+n.æœ‹å‹ï¼Œå‹äºº
 1600. friendly['frendli]
-a.ÓÑºÃµÄ£¬ÓÑÒêµÄ
+a.å‹å¥½çš„ï¼Œå‹è°Šçš„
 1601. friendship['frend6ip]
-n.ÓÑÒê£¬ÓÑºÃ
+n.å‹è°Šï¼Œå‹å¥½
 1602. frighten['fraitn]
-vt.Ê¹¾ª¿Ö£¬ÏÅ»£
+vt.ä½¿æƒŠæï¼Œå“å”¬
 1603. frog[fr0g]
-n.ÍÜ
+n.è›™
 1604. from[fr0m. fr2m. frm]
-prep.´Ó¡­À´£»Àë¿ª
+prep.ä»â€¦æ¥ï¼›ç¦»å¼€
 1605. front[fr3nt]
-a.Ç°ÃæµÄ n.Ç°²¿
+a.å‰é¢çš„ n.å‰éƒ¨
 1606. frontier['fr3ntj2]
-n.±ß¾³£»±ß½®£»ĞÂÁìÓò
+n.è¾¹å¢ƒï¼›è¾¹ç–†ï¼›æ–°é¢†åŸŸ
 1607. frost[fr0st]
-n.±ù¶³£¬ÑÏº®£»Ëª
+n.å†°å†»ï¼Œä¸¥å¯’ï¼›éœœ
 1608. frown[fraun]
-vi.ÖåÃ¼£¬õ¾¶î
+vi.çš±çœ‰ï¼Œè¹™é¢
 1609. fruit[fru:t]
-n.Ë®¹û£»¹ûÊµ£»³É¹û
+n.æ°´æœï¼›æœå®ï¼›æˆæœ
 1610. fruitful['fru:tful]
-a.¶à²úµÄ£»·ÊÎÖµÄ
+a.å¤šäº§çš„ï¼›è‚¥æ²ƒçš„
 1611. fry[frai]
-vt.ÓÍ¼å£¬ÓÍÕ¨£¬ÓÍ³´
+vt.æ²¹ç…ï¼Œæ²¹ç‚¸ï¼Œæ²¹ç‚’
 1612. fuel[fju2l]
-n.È¼ÁÏ vt.¸ø¡­¼ÓÈ¼ÁÏ
+n.ç‡ƒæ–™ vt.ç»™â€¦åŠ ç‡ƒæ–™
 1613. fulfil[ful'fil]
-vt.ÂÄĞĞ£»Âú×ã£»Íê³É
+vt.å±¥è¡Œï¼›æ»¡è¶³ï¼›å®Œæˆ
 1614. full[ful]
-a.ÂúµÄ£»ÍêÈ«µÄ
+a.æ»¡çš„ï¼›å®Œå…¨çš„
 1615. fun[f3n]
-n.ÀÖÈ¤£¬ÓéÀÖ£»ÍæĞ¦
+n.ä¹è¶£ï¼Œå¨±ä¹ï¼›ç©ç¬‘
 1616. function['f38k62n]
-n.¹¦ÄÜ£»Ö°Îñ£»º¯Êı
+n.åŠŸèƒ½ï¼›èŒåŠ¡ï¼›å‡½æ•°
 1617. fund[f3nd]
-n.×Ê½ğ£»»ù½ğ£»´æ¿î
+n.èµ„é‡‘ï¼›åŸºé‡‘ï¼›å­˜æ¬¾
 1618. fundamental[f3nd2'mentl]
-a.»ù´¡µÄ£¬»ù±¾µÄ
+a.åŸºç¡€çš„ï¼ŒåŸºæœ¬çš„
 1619. funeral['fju:n2r2l]
-n.ÔáÀñ£¬É¥Àñ£¬É¥Ôá
+n.è‘¬ç¤¼ï¼Œä¸§ç¤¼ï¼Œä¸§è‘¬
 1620. funny['f3ni]
-a.¹Å¹ÖµÄ£»»¬»üµÄ
+a.å¤æ€ªçš„ï¼›æ»‘ç¨½çš„
 1621. fur[f2:]
-n.ÈíÃ«£»Ã«Æ¤£¬ôÃÆ¤
+n.è½¯æ¯›ï¼›æ¯›çš®ï¼Œè£˜çš®
 1622. furious['fju2ri2s]
-a.¿ñÅ­µÄ£»¿ñ±©µÄ
+a.ç‹‚æ€’çš„ï¼›ç‹‚æš´çš„
 1623. furnace['f2:nis]
-n.Â¯×Ó£¬ÈÛÂ¯£»¹Ä·çÂ¯
+n.ç‚‰å­ï¼Œç†”ç‚‰ï¼›é¼“é£ç‚‰
 1624. furnish['f2:ni6]
-vt.¹©Ó¦£¬Ìá¹©£»×°±¸
+vt.ä¾›åº”ï¼Œæä¾›ï¼›è£…å¤‡
 1625. furniture['f2:nit62]
-n.¼Ò¾ß£»×°ÖÃ£¬Éè±¸
+n.å®¶å…·ï¼›è£…ç½®ï¼Œè®¾å¤‡
 1626. further['f2:52]
-ad.¸üÔ¶µØ a.¸üÔ¶µÄ
+ad.æ›´è¿œåœ° a.æ›´è¿œçš„
 1627. furthermore['f2:52'm0:]
-ad.¶øÇÒ£¬´ËÍâ
+ad.è€Œä¸”ï¼Œæ­¤å¤–
 1628. future['fju:t62]
-n.½«À´£¬Î´À´£»Ç°Í¾
+n.å°†æ¥ï¼Œæœªæ¥ï¼›å‰é€”
 1629. gain[gein]
-vt.»ñµÃ£»Ôö¼Ó n.Ôö½ø
+vt.è·å¾—ï¼›å¢åŠ  n.å¢è¿›
 1630. gallery['g9l2ri]
-n.³¤ÀÈ£¬ÓÎÀÈ£»»­ÀÈ
+n.é•¿å»Šï¼Œæ¸¸å»Šï¼›ç”»å»Š
 1631. gallon['g9l2n]
-n.¼ÓÂØ
+n.åŠ ä»‘
 1632. game[geim]
-n.ÓÎÏ·£»±ÈÈü£»ÁÔÎï
+n.æ¸¸æˆï¼›æ¯”èµ›ï¼›çŒç‰©
 1633. gang[g98]
-n.Ò»°ï£¬Ò»»ï
+n.ä¸€å¸®ï¼Œä¸€ä¼™
 1634. gap[g9p]
-n.È±¿Ú£»¼ä¸ô£»²î¾à
+n.ç¼ºå£ï¼›é—´éš”ï¼›å·®è·
 1635. garage['g9ra:7]
-n.³µ¿â£»¼ÓÓÍÕ¾
+n.è½¦åº“ï¼›åŠ æ²¹ç«™
 1636. garbage['ga:bid7]
-n.À¬»ø£¬ÎÛÎï£¬·ÏÁÏ
+n.åƒåœ¾ï¼Œæ±¡ç‰©ï¼ŒåºŸæ–™
 1637. garden['ga:dn]
-n.»¨Ô°£¬²ËÔ°£»¹«Ô°
+n.èŠ±å›­ï¼Œèœå›­ï¼›å…¬å›­
 1638. gardener['ga:dn2]
-n.Ô°¶¡£¬»¨½³
+n.å›­ä¸ï¼ŒèŠ±åŒ 
 1639. gas[g9s]
-n.ÃºÆø£»ÆøÌå£»ÆûÓÍ
+n.ç…¤æ°”ï¼›æ°”ä½“ï¼›æ±½æ²¹
 1640. gaseous['geizj2s]
-a.ÆøÌåµÄ£¬ÆøÌ¬µÄ
+a.æ°”ä½“çš„ï¼Œæ°”æ€çš„
 1641. gasoline['g9s2li:n]
-n.(ÃÀ)ÆûÓÍ
+n.(ç¾)æ±½æ²¹
 1642. gasp[ga:sp]
-vi.Æø´­£¬´­Ï¢
+vi.æ°”å–˜ï¼Œå–˜æ¯
 1643. gate[geit]
-n.´óÃÅ£»Àé°ÊÃÅ
+n.å¤§é—¨ï¼›ç¯±ç¬†é—¨
 1644. gather['g952]
-vi.¾Û¼¯£»¼¯ºÏvt.ÊÕ¼¯
+vi.èšé›†ï¼›é›†åˆvt.æ”¶é›†
 1645. gauge[geid7]
-vt.Á¿£¬²âÁ¿ n.Á¿Æ÷
+vt.é‡ï¼Œæµ‹é‡ n.é‡å™¨
 1646. gay[gei]
-a.¿ìÀÖµÄ£»ÏÊÃ÷µÄ
+a.å¿«ä¹çš„ï¼›é²œæ˜çš„
 1647. gaze[geiz]
-vi.ÄıÊÓ£¬¶¢£¬×¢ÊÓ
+vi.å‡è§†ï¼Œç›¯ï¼Œæ³¨è§†
 1648. general['d7en2r2l]
-a.×ÜµÄ£»Ò»°ãµÄn.½«¾ü
+a.æ€»çš„ï¼›ä¸€èˆ¬çš„n.å°†å†›
 1649. generally['d7en2r2li]
-ad.Ò»°ãµØ£»Í¨³£µØ
+ad.ä¸€èˆ¬åœ°ï¼›é€šå¸¸åœ°
 1650. generate['d7en2reit]
-vt.·¢Éú£»ÒıÆğ£»ÉúÖ³
+vt.å‘ç”Ÿï¼›å¼•èµ·ï¼›ç”Ÿæ®–
 1651. generation[d7en2'rei62n]
-n.Ò»´ú£¬Ò»´úÈË£»²úÉú
+n.ä¸€ä»£ï¼Œä¸€ä»£äººï¼›äº§ç”Ÿ
 1652. generator['d7en2reit2]
-n.·¢µç»ú£»·¢ÉúÕß
+n.å‘ç”µæœºï¼›å‘ç”Ÿè€…
 1653. generous['d7en2r2s]
-a.¿¶¿®µÄ£»¿íºñµÄ
+a.æ…·æ…¨çš„ï¼›å®½åšçš„
 1654. genius['d7i:nj2s]
-n.Ìì²Å£¬Ìì¸³£¬Ìì×Ê
+n.å¤©æ‰ï¼Œå¤©èµ‹ï¼Œå¤©èµ„
 1655. gentle['d7entl]
-a.ºÍ°ªµÄ£»ÇáÈáµÄ
+a.å’Œè”¼çš„ï¼›è½»æŸ”çš„
 1656. gentleman['d7entlm2n]
-n.ÉğÊ¿£»ÓĞ½ÌÑøµÄÈË
+n.ç»…å£«ï¼›æœ‰æ•™å…»çš„äºº
 1657. gently['d7entli]
-ad.ÓĞÀñÃ²µØ£»ÈáºÍµØ
+ad.æœ‰ç¤¼è²Œåœ°ï¼›æŸ”å’Œåœ°
 1658. genuine['d7enjuin]
-a.ÕæµÄ£»ÕæÕıµÄ
+a.çœŸçš„ï¼›çœŸæ­£çš„
 1659. geography[d7i'0gr2fi]
-n.µØÀí£¬µØÀíÑ§
+n.åœ°ç†ï¼Œåœ°ç†å­¦
 1660. geometry[d7i'0mitri]
-n.¼¸ºÎ£¬¼¸ºÎÑ§
+n.å‡ ä½•ï¼Œå‡ ä½•å­¦
 1661. germ[d72:m]
-n.Î¢ÉúÎï£¬Ï¸¾ú£¬Ó×Ñ¿
+n.å¾®ç”Ÿç‰©ï¼Œç»†èŒï¼Œå¹¼èŠ½
 1662. German['d72:m2n]
-a.µÂ¹úµÄ n.µÂ¹úÈË
+a.å¾·å›½çš„ n.å¾·å›½äºº
 1663. Germany['d72:m2ni]
-n.µÂÒâÖ¾£¬µÂ¹ú
+n.å¾·æ„å¿—ï¼Œå¾·å›½
 1664. gesture['d7est62]
-n.×ËÊÆ£¬ÊÖÊÆ£»×ËÌ¬
+n.å§¿åŠ¿ï¼Œæ‰‹åŠ¿ï¼›å§¿æ€
 1665. get[get]
-vi.±äµÃ£¬³ÉÎª£»µ½´ï
+vi.å˜å¾—ï¼Œæˆä¸ºï¼›åˆ°è¾¾
 1666. ghost[g2ust]
-n.¹í£¬Áé»ê£»¹í»ê
+n.é¬¼ï¼Œçµé­‚ï¼›é¬¼é­‚
 1667. giant['d7ai2nt]
-n.¾ŞÈË£»¾ŞÎï
+n.å·¨äººï¼›å·¨ç‰©
 1668. gift[gift]
-n.ÀñÎï£¬ÔùÆ·£»Ìì¸³
+n.ç¤¼ç‰©ï¼Œèµ å“ï¼›å¤©èµ‹
 1669. girl[g2:l]
-n.Å®º¢×Ó£¬¹ÃÄï£»Å®¶ù
+n.å¥³å­©å­ï¼Œå§‘å¨˜ï¼›å¥³å„¿
 1670. give[giv]
-vt.×ö£¬×÷£»ËÍ¸ø
+vt.åšï¼Œä½œï¼›é€ç»™
 1671. glad[gl9d]
-a.¸ßĞËµÄ£»ÀÖÒâµÄ
+a.é«˜å…´çš„ï¼›ä¹æ„çš„
 1672. glance[gla:ns]
-vi.¿´Ò»ÏÂ n.Ò»Æ³
+vi.çœ‹ä¸€ä¸‹ n.ä¸€ç¥
 1673. glare[gl/2]
-vi.µÉÑÛ n.µÉÑÛ
+vi.çªçœ¼ n.çªçœ¼
 1674. glass[gla:s]
-n.²£Á§£»²£Á§±­
+n.ç»ç’ƒï¼›ç»ç’ƒæ¯
 1675. glide[glaid]
-vi.»¬¶¯£»ÏûÊÅ n.»¬ĞĞ
+vi.æ»‘åŠ¨ï¼›æ¶ˆé€ n.æ»‘è¡Œ
 1676. glimpse[glimps]
-vt.Æ³¼û n.Ò»Æ³£¬Ò»¿´
+vt.ç¥è§ n.ä¸€ç¥ï¼Œä¸€çœ‹
 1677. glitter['glit2]
-vi.ÉÁÉÁ·¢¹â n.ÉÁ¹â
+vi.é—ªé—ªå‘å…‰ n.é—ªå…‰
 1678. globe[gl2ub]
-n.µØÇò£¬ÊÀ½ç£»µØ½çÒÇ
+n.åœ°çƒï¼Œä¸–ç•Œï¼›åœ°ç•Œä»ª
 1679. gloomy['glu:mi]
-a.ºÚ°µµÄ£»ÁîÈË¾ÚÉ¥µÄ
+a.é»‘æš—çš„ï¼›ä»¤äººæ²®ä¸§çš„
 1680. glorious['gl0:ri2s]
-a.¹âÈÙµÄ£»×³ÀöµÄ
+a.å…‰è£çš„ï¼›å£®ä¸½çš„
 1681. glory['gl0:ri]
-n.¹âÈÙ£»ÈÙÓşµÄÊÂ
+n.å…‰è£ï¼›è£èª‰çš„äº‹
 1682. glove[gl3v]
-n.ÊÖÌ×
+n.æ‰‹å¥—
 1683. glow[gl2u]
-n.°×ÈÈ¹â vi.·¢°×ÈÈ¹â
+n.ç™½çƒ­å…‰ vi.å‘ç™½çƒ­å…‰
 1684. glue[glu:]
-n.½º£¬½ºË® vt.½ººÏ
+n.èƒ¶ï¼Œèƒ¶æ°´ vt.èƒ¶åˆ
 1685. go[g2u]
-vi.È¥£»×ß£»±äÎª
+vi.å»ï¼›èµ°ï¼›å˜ä¸º
 1686. goal[g2ul]
-n.ÇòÃÅ£»µÃ·Ö£»Ä¿µÄ
+n.çƒé—¨ï¼›å¾—åˆ†ï¼›ç›®çš„
 1687. goat[g2ut]
-n.É½Ñò
+n.å±±ç¾Š
 1688. God[g0d]
-n.Éñ£¬ÉñÏñ£»ÉÏµÛ
+n.ç¥ï¼Œç¥åƒï¼›ä¸Šå¸
 1689. gold[g2uld]
-n.½ğ£»Ç®²Æ a.½ğÖÆµÄ
+n.é‡‘ï¼›é’±è´¢ a.é‡‘åˆ¶çš„
 1690. golden['g2uld2n]
-a.½ğÉ«µÄ£»¼«ºÃµÄ
+a.é‡‘è‰²çš„ï¼›æå¥½çš„
 1691. golf[g0lf]
-n.¸ß¶û·òÇò
+n.é«˜å°”å¤«çƒ
 1692. good[gud]
-a.ºÃµÄ£»ÓĞ±¾ÊÂµÄ
+a.å¥½çš„ï¼›æœ‰æœ¬äº‹çš„
 1693. goodbye[]
-int.ÔÙ¼û£¬ÔÙ»á
+int.å†è§ï¼Œå†ä¼š
 1694. goodness['gudnis]
-n.ÓÅÁ¼£¬µÂĞÔ£¬ÈÊ´È
+n.ä¼˜è‰¯ï¼Œå¾·æ€§ï¼Œä»æ…ˆ
 1695. goods[gudz]
-n.»õÎï£¬ÉÌÆ·
+n.è´§ç‰©ï¼Œå•†å“
 1696. goose[gu:s]
-n.¶ì£¬´Æ¶ì
+n.é¹…ï¼Œé›Œé¹…
 1697. govern['g3v2n]
-vt.Í³ÖÎ£¬ÖÎÀí£»Ö§Åä
+vt.ç»Ÿæ²»ï¼Œæ²»ç†ï¼›æ”¯é…
 1698. government['g3v2nm2nt]
-n.Õş¸®£»ÖÎÀí£»ÕşÖÎ
+n.æ”¿åºœï¼›æ²»ç†ï¼›æ”¿æ²»
 1699. governor['g3v2n2]
-n.Öİ³¤£»Ö÷¹ÜÈËÔ±
+n.å·é•¿ï¼›ä¸»ç®¡äººå‘˜
 1700. gown['gaun]
-n.³¤ÅÛ£¬³¤ÍâÒÂ
+n.é•¿è¢ï¼Œé•¿å¤–è¡£
 1701. grace[greis]
-n.ÓÅÃÀ£¬ÎÄÑÅ£»ÑÅÖÂ
+n.ä¼˜ç¾ï¼Œæ–‡é›…ï¼›é›…è‡´
 1702. graceful['greisful]
-a.ÓÅÃÀµÄ£¬ÓÅÑÅµÄ
+a.ä¼˜ç¾çš„ï¼Œä¼˜é›…çš„
 1703. gracious['grei62s]
-a.ÓĞÀñÃ²µÄ£»ÈÊ´ÈµÄ
+a.æœ‰ç¤¼è²Œçš„ï¼›ä»æ…ˆçš„
 1704. grade[greid]
-vt.¸ø¡­·ÖµÈ¼¶ n.µÈ¼¶
+vt.ç»™â€¦åˆ†ç­‰çº§ n.ç­‰çº§
 1705. gradual['gr9dju2l]
-a.Öğ½¥µÄ£»½¥½øµÄ
+a.é€æ¸çš„ï¼›æ¸è¿›çš„
 1706. gradually['gr9dju2li]
-ad.Öğ½¥µØ£¬Öğ²½µØ
+ad.é€æ¸åœ°ï¼Œé€æ­¥åœ°
 1707. graduate['gr9djueit]
-n.±ÏÒµÉú vi.´óÑ§±ÏÒµ
+n.æ¯•ä¸šç”Ÿ vi.å¤§å­¦æ¯•ä¸š
 1708. grain['grein]
-n.¹ÈÎï£¬¹ÈÁ££»¿ÅÁ£
+n.è°·ç‰©ï¼Œè°·ç²’ï¼›é¢—ç²’
 1709. gramme[gr9m]
-n.¿Ë(ÖØÁ¿µ¥Î»)
+n.å…‹(é‡é‡å•ä½)
 1710. grammar['gr9m2]
-n.Óï·¨£»Óï·¨Êé
+n.è¯­æ³•ï¼›è¯­æ³•ä¹¦
 1711. grammatical[gr2'm9tik2l]
-a.Óï·¨ÉÏµÄ
+a.è¯­æ³•ä¸Šçš„
 1712. grand[gr9nd]
-a.ºêÎ°µÄ£»ÖØ´óµÄ
+a.å®ä¼Ÿçš„ï¼›é‡å¤§çš„
 1713. granddaughter['gr9ndd0:t2]
-n.ËïÅ®£¬ÍâËïÅ®
+n.å­™å¥³ï¼Œå¤–å­™å¥³
 1714. grandfather['gr9ndfa:52]
-n.×æ¸¸£»Íâ×æ¸¸
+n.ç¥–çˆ¶ï¼›å¤–ç¥–çˆ¶
 1715. grandmother['gr9ndm352]
-n.×æÄ¸£¬Íâ×æÄ¸
+n.ç¥–æ¯ï¼Œå¤–ç¥–æ¯
 1716. grandson['gr9nds3n]
-n.Ëï×Ó£¬ÍâËï×Ó
+n.å­™å­ï¼Œå¤–å­™å­
 1717. grant[gra:nt]
-n.ÊÚ¸øÎï vt.ÊÚÓè
+n.æˆç»™ç‰© vt.æˆäºˆ
 1718. grape[greip]
-n.ÆÏÌÑ£»ÆÏÌÑÌÙ
+n.è‘¡è„ï¼›è‘¡è„è—¤
 1719. graph[gr9f]
-n.(ÇúÏß)Í¼£¬Í¼±í
+n.(æ›²çº¿)å›¾ï¼Œå›¾è¡¨
 1720. grasp[gra:sp]
-vt.×¥½ô£»ÕÆÎÕ n.×¥
+vt.æŠ“ç´§ï¼›æŒæ¡ n.æŠ“
 1721. grass[gra:s]
-n.²İ£»ÄÁ²İ£»²İµØ
+n.è‰ï¼›ç‰§è‰ï¼›è‰åœ°
 1722. grateful['greitful]
-a.¸Ğ¼¤µÄ£»ÁîÈËÓä¿ìµÄ
+a.æ„Ÿæ¿€çš„ï¼›ä»¤äººæ„‰å¿«çš„
 1723. gratitude['gr9titju:d]
-a.¸Ğ¼¤£¬¸ĞĞ»£¬¸Ğ¶÷
+a.æ„Ÿæ¿€ï¼Œæ„Ÿè°¢ï¼Œæ„Ÿæ©
 1724. grave[greiv]
-n.·ØÄ¹ a.ÑÏÖØµÄ
+n.åŸå¢“ a.ä¸¥é‡çš„
 1725. gravity['gr9viti]
-n.ÖØÁ¦£¬ÒıÁ¦£»ÑÏÖØĞÔ
+n.é‡åŠ›ï¼Œå¼•åŠ›ï¼›ä¸¥é‡æ€§
 1726. gray[grei]
-a.»ÒÉ«µÄ n.»ÒÉ«
+a.ç°è‰²çš„ n.ç°è‰²
 1727. great[greit]
-a.´óµÄ£»Î°´óµÄ
+a.å¤§çš„ï¼›ä¼Ÿå¤§çš„
 1728. greatly['greitli]
-ad.´ó´óµØ£¬·Ç³£
+ad.å¤§å¤§åœ°ï¼Œéå¸¸
 1729. greedy['gri:di]
-a.Ì°³ÔµÄ£»Ì°À·µÄ
+a.è´ªåƒçš„ï¼›è´ªå©ªçš„
 1730. Greek[gri:k]
-a.Ï£À°µÄ n.Ï£À°ÈË
+a.å¸Œè…Šçš„ n.å¸Œè…Šäºº
 1731. green[gri:n]
-a.ÂÌÉ«µÄ n.ÂÌÉ«
+a.ç»¿è‰²çš„ n.ç»¿è‰²
 1732. greenhouse['gri:nhaus]
-n.ÎÂÊÒ£¬²£Á§Å¯·¿
+n.æ¸©å®¤ï¼Œç»ç’ƒæš–æˆ¿
 1733. greet[gri:t]
-vt.ÎÊºò£¬ÕĞºô£»·´Ó¦
+vt.é—®å€™ï¼Œæ‹›å‘¼ï¼›ååº”
 1734. greeting['gri:ti8]
-n.ÎÊºò£¬ÕĞºô£¬ÖÂ¾´
+n.é—®å€™ï¼Œæ‹›å‘¼ï¼Œè‡´æ•¬
 1735. grey[grei]
-a.»ÒÉ«µÄ n.»ÒÉ«
+a.ç°è‰²çš„ n.ç°è‰²
 1736. grieve[gri:v]
-vt.Ê¹±¯Í´ vi.±¯Í´
+vt.ä½¿æ‚²ç—› vi.æ‚²ç—›
 1737. grind[graind]
-vt.Ä¥(Ëé)£»Ä¥¿ì
+vt.ç£¨(ç¢)ï¼›ç£¨å¿«
 1738. grip[grip]
-vt.ÎÕ½ô£¬×¥ÀÎ n.½ôÎÕ
+vt.æ¡ç´§ï¼ŒæŠ“ç‰¢ n.ç´§æ¡
 1739. groan[gr2un]
-vi.ºß£¬ÉëÒ÷ n.ÉëÒ÷
+vi.å“¼ï¼Œå‘»åŸ n.å‘»åŸ
 1740. grocer['gr2us2]
-n.Ê³Æ·ÉÌ£»ÔÓ»õÉÌ
+n.é£Ÿå“å•†ï¼›æ‚è´§å•†
 1741. grocery['gr2us2ri]
-n.Ê³Æ·ÔÓ»õµê
+n.é£Ÿå“æ‚è´§åº—
 1742. gross[gr2us]
-a.×ÜµÄ£»ÑÏÖØµÄ
+a.æ€»çš„ï¼›ä¸¥é‡çš„
 1743. ground[graund]
-n.µØ£»³¡µØ£»¸ù¾İ
+n.åœ°ï¼›åœºåœ°ï¼›æ ¹æ®
 1744. group[gru:p]
-n.Ğ¡×é£¬Èº vi.¾Û¼¯
+n.å°ç»„ï¼Œç¾¤ vi.èšé›†
 1745. grow[gr2u]
-vi.Éú³¤£»±äµÃ£»Ôö³¤
+vi.ç”Ÿé•¿ï¼›å˜å¾—ï¼›å¢é•¿
 1746. growth[gr2u4]
-n.Ôö³¤£»Ôö³¤Á¿£»Éú³¤
+n.å¢é•¿ï¼›å¢é•¿é‡ï¼›ç”Ÿé•¿
 1747. guarantee[g9r2n'ti:]
-n.±£Ö¤£»µ£±£Îï
+n.ä¿è¯ï¼›æ‹…ä¿ç‰©
 1748. guard[ga:d]
-vt.ÊØÎÀ£»¿´ÊØ n.ÎÀ±ø
+vt.å®ˆå«ï¼›çœ‹å®ˆ n.å«å…µ
 1749. guess[ges]
-vt.&vi.&n.²Â²â£¬ÍÆ²â
+vt.&vi.&n.çŒœæµ‹ï¼Œæ¨æµ‹
 1750. guest[gest]
-n.¿ÍÈË£¬±ö¿Í£»ÂÃ¿Í
+n.å®¢äººï¼Œå®¾å®¢ï¼›æ—…å®¢
 1751. guidance['gaid2ns]
-n.Òıµ¼£¬Ö¸µ¼£¬Áìµ¼
+n.å¼•å¯¼ï¼ŒæŒ‡å¯¼ï¼Œé¢†å¯¼
 1752. guide[gaid]
-n.µ¼ÓÎÕß vt.¸ø¡­µ¼ÓÎ
+n.å¯¼æ¸¸è€… vt.ç»™â€¦å¯¼æ¸¸
 1753. guilty['gilti]
-a.ÄÚ¾ÎµÄ£»ÓĞ×ïµÄ
+a.å†…ç–šçš„ï¼›æœ‰ç½ªçš„
 1754. gulf[g3lf]
-n.º£Íå
+n.æµ·æ¹¾
 1755. gum[g3m]
-n.¿ÚÏãÌÇ£»Ê÷½º
+n.å£é¦™ç³–ï¼›æ ‘èƒ¶
 1756. gun[g3n]
-n.Ç¹£¬ÅÚ£¬ÊÖÇ¹
+n.æªï¼Œç‚®ï¼Œæ‰‹æª
 1757. gunpowder['g3npaud2]
-n.ºÚÉ«»ğÒ©£»ÓĞÑÌ»ğÒ©
+n.é»‘è‰²ç«è¯ï¼›æœ‰çƒŸç«è¯
 1758. gymnasium[d7im'neizj2m]
-n.ÌåÓı¹İ£¬½¡Éí·¿
+n.ä½“è‚²é¦†ï¼Œå¥èº«æˆ¿
 1759. habit['h9bit]
-n.Ï°¹ß£»Ï°ĞÔ
+n.ä¹ æƒ¯ï¼›ä¹ æ€§
 1760. habitual[h2'bit6u2l]
-a.Ï°¹ßĞÔµÄ£¬¹ß³£µÄ
+a.ä¹ æƒ¯æ€§çš„ï¼Œæƒ¯å¸¸çš„
 1761. hair[h/2]
-n.Í··¢£¬Ã«·¢£»Ã«
+n.å¤´å‘ï¼Œæ¯›å‘ï¼›æ¯›
 1762. haircut['h/2k3t]
-n.Àí·¢
+n.ç†å‘
 1763. half[ha:f]
-n.°ë£¬Ò»°ë a.Ò»°ëµÄ
+n.åŠï¼Œä¸€åŠ a.ä¸€åŠçš„
 1764. hall[h0:l]
-n.ÃÅÌü£»¹ıµÀ£»»áÌÃ
+n.é—¨å…ï¼›è¿‡é“ï¼›ä¼šå ‚
 1765. halt[h0:lt]
-vi.Í£Ö¹£»Á¢¶¨ n.Í£×¡
+vi.åœæ­¢ï¼›ç«‹å®š n.åœä½
 1766. hamburger['h9mb2:g2]
-n.ºº±¤°ü£¬Å£Èâ±ı
+n.æ±‰å ¡åŒ…ï¼Œç‰›è‚‰é¥¼
 1767. hammer['h9m2]
-n.´¸£¬ÀÆÍ· vt.´¸»÷
+n.é”¤ï¼Œæ¦”å¤´ vt.é”¤å‡»
 1768. hand[h9nd]
-n.ÊÖ£»ÈËÊÖ£»Ö¸Õë
+n.æ‰‹ï¼›äººæ‰‹ï¼›æŒ‡é’ˆ
 1769. handful[h9ndful]
-n.Ò»°Ñ£»ÉÙÊı£¬Ò»Ğ¡´é
+n.ä¸€æŠŠï¼›å°‘æ•°ï¼Œä¸€å°æ’®
 1770. handkerchief['h98k2t6if]
-n.ÊÖÅÁ
+n.æ‰‹å¸•
 1771. handle['h9ndl]
-n.±ú£¬°ÑÊÖ vt.ÄÃ£¬´¥
+n.æŸ„ï¼ŒæŠŠæ‰‹ vt.æ‹¿ï¼Œè§¦
 1772. handsome['h9nds2m]
-a.Ó¢¿¡µÄ£»Ïàµ±´óµÄ
+a.è‹±ä¿Šçš„ï¼›ç›¸å½“å¤§çš„
 1773. handwriting['h9ndraiti8]
-n.±Ê¼££¬ÊÖ¼££¬Êé·¨
+n.ç¬”è¿¹ï¼Œæ‰‹è¿¹ï¼Œä¹¦æ³•
 1774. handy['h9ndi]
-a.ÊÖ±ßµÄ£»±ãÓÚÊ¹ÓÃµÄ
+a.æ‰‹è¾¹çš„ï¼›ä¾¿äºä½¿ç”¨çš„
 1775. hang[h98]
-vt.¹Ò£¬Ğü£»µõËÀ
+vt.æŒ‚ï¼Œæ‚¬ï¼›åŠæ­»
 1776. happen['h9p2n]
-vi.·¢Éú£»ÅöÇÉ£¬Ç¡ºÃ
+vi.å‘ç”Ÿï¼›ç¢°å·§ï¼Œæ°å¥½
 1777. happiness['h9pinis]
-n.ĞÒ¸££¬ĞÒÔË£»¿ìÀÖ
+n.å¹¸ç¦ï¼Œå¹¸è¿ï¼›å¿«ä¹
 1778. happy['h9pi]
-a.¿ìÀÖµÄ£»ĞÒ¸£µÄ
+a.å¿«ä¹çš„ï¼›å¹¸ç¦çš„
 1779. harbour['ha:b2]
-n.º£¸Û£¬¸Û¿Ú vt.±Ó»¤
+n.æµ·æ¸¯ï¼Œæ¸¯å£ vt.åº‡æŠ¤
 1780. hard['ha:d]
-a.Ó²µÄ£»À§ÄÑµÄ
+a.ç¡¬çš„ï¼›å›°éš¾çš„
 1781. harden['ha:dn]
-vt.Ê¹±äÓ² vi.±äÓ²
+vt.ä½¿å˜ç¡¬ vi.å˜ç¡¬
 1782. hardly['ha:dli]
-ad.¼¸ºõ²»£¬¼òÖ±²»
+ad.å‡ ä¹ä¸ï¼Œç®€ç›´ä¸
 1783. hardship['ha:d6ip]
-n.¼èÄÑ£¬À§¿à
+n.è‰°éš¾ï¼Œå›°è‹¦
 1784. hardware['ha:dw/2]
-n.Îå½ğÆ÷¾ß£»Ó²¼ş
+n.äº”é‡‘å™¨å…·ï¼›ç¡¬ä»¶
 1785. hare[h/2]
-n.Ò°ÍÃ
+n.é‡å…”
 1786. harm[ha:m]
-n.ÉËº¦£¬Ëğº¦ vt.Ëğº¦
+n.ä¼¤å®³ï¼ŒæŸå®³ vt.æŸå®³
 1787. harmful['ha:mful]
-a.ÓĞº¦µÄ
+a.æœ‰å®³çš„
 1788. harmony['ha:m2ni]
-n.µ÷ºÏ£¬Ğ­µ÷£¬ºÍĞ³
+n.è°ƒåˆï¼Œåè°ƒï¼Œå’Œè°
 1789. harness['ha:nis]
-vt.ÖÎÀí n.Âí¾ß£¬Íì¾ß
+vt.æ²»ç† n.é©¬å…·ï¼ŒæŒ½å…·
 1790. harsh[ha:6]
-a.ÑÏÀ÷µÄ£»´Ì¶úµÄ
+a.ä¸¥å‰çš„ï¼›åˆºè€³çš„
 1791. harvest['ha:vist]
-n.ÊÕ»ñ£¬ÊÕ³É vt.ÊÕ¸î
+n.æ”¶è·ï¼Œæ”¶æˆ vt.æ”¶å‰²
 1792. haste[heist]
-n.¼±ËÙ£¬¼±Ã¦£»²İÂÊ
+n.æ€¥é€Ÿï¼Œæ€¥å¿™ï¼›è‰ç‡
 1793. hasten['heisn]
-vt.´ß´Ù vi.¸Ï½ô
+vt.å‚¬ä¿ƒ vi.èµ¶ç´§
 1794. hasty['heisti]
-a.¼±ËÙµÄ£»²Ö´ÙµÄ
+a.æ€¥é€Ÿçš„ï¼›ä»“ä¿ƒçš„
 1795. hat[h9t]
-n.Ã±×Ó(Ò»°ãÖ¸ÓĞ±ßµÄ)
+n.å¸½å­(ä¸€èˆ¬æŒ‡æœ‰è¾¹çš„)
 1796. hatch[h9t6]
-vt.·õ³ö vi.(µ°)·õ»¯
+vt.å­µå‡º vi.(è›‹)å­µåŒ–
 1797. hate[heit]
-vt.ºŞ£¬Ô÷ºŞ£»²»Ï²»¶
+vt.æ¨ï¼Œæ†æ¨ï¼›ä¸å–œæ¬¢
 1798. hateful['heitful]
-a.¿ÉºŞµÄ£¬¿É¶ñµÄ
+a.å¯æ¨çš„ï¼Œå¯æ¶çš„
 1799. hatred['heitrid]
-n.Ô÷¶ñ£¬Ô÷ºŞ£¬³ğºŞ
+n.æ†æ¶ï¼Œæ†æ¨ï¼Œä»‡æ¨
 1800. have[h9v. h2v]
-v.aux.ÒÑ¾­ vt.ÓĞ£»³Ô
+v.aux.å·²ç» vt.æœ‰ï¼›åƒ
 1801. hawk[h0:k]
-n.Ó¥£¬öÀ
+n.é¹°ï¼Œéš¼
 1802. hay[hei]
-n.¸É²İ
+n.å¹²è‰
 1803. hazard['h9z2d]
-n.Î£ÏÕ£»¹«º¦
+n.å±é™©ï¼›å…¬å®³
 1804. he[hi:]
-pron.(Ö÷¸ñ)Ëû
+pron.(ä¸»æ ¼)ä»–
 1805. head[hed]
-n.Í·£»ÉÏ¶Ë vt.ÂÊÁì
+n.å¤´ï¼›ä¸Šç«¯ vt.ç‡é¢†
 1806. headache['hedeik]
-n.Í·Í´£»Í·Í´µÄÊÂ
+n.å¤´ç—›ï¼›å¤´ç—›çš„äº‹
 1807. heading['hedi8]
-n.±êÌâ£¬Ìâ´Ê£¬ÌâÃû
+n.æ ‡é¢˜ï¼Œé¢˜è¯ï¼Œé¢˜å
 1808. headline['hedlain]
-n.´ó×Ö±êÌâ£»ĞÂÎÅÌáÒª
+n.å¤§å­—æ ‡é¢˜ï¼›æ–°é—»æè¦
 1809. headmaster['hed'ma:st2]
-n.Ğ£³¤
+n.æ ¡é•¿
 1810. headquarters['hed'kw0:t2z]
-n.Ë¾Áî²¿£»×Ü²¿
+n.å¸ä»¤éƒ¨ï¼›æ€»éƒ¨
 1811. heal[hi:l]
-vt.ÖÎÓú£»Ê¹ºÍ½â
+vt.æ²»æ„ˆï¼›ä½¿å’Œè§£
 1812. health[hel4]
-n.½¡¿µ£¬½¡¿µ×´¿ö
+n.å¥åº·ï¼Œå¥åº·çŠ¶å†µ
 1813. healthy['hel4i]
-a.½¡¿µµÄ£»ÓĞÒæ½¡¿µµÄ
+a.å¥åº·çš„ï¼›æœ‰ç›Šå¥åº·çš„
 1814. heap[hi:p]
-n.(Ò»)¶Ñ£»´óÁ¿
+n.(ä¸€)å †ï¼›å¤§é‡
 1815. hear[hi2]
-vt.Ìı¼û£»ÉóÑ¶£»ÌıËµ
+vt.å¬è§ï¼›å®¡è®¯ï¼›å¬è¯´
 1816. heart[ha:t]
-n.ĞÄ£¬ÄÚĞÄ£»ÓÂÆø
+n.å¿ƒï¼Œå†…å¿ƒï¼›å‹‡æ°”
 1817. heat[hi:t]
-n.ÈÈ£¬Ñ×ÈÈ vi.±äÈÈ
+n.çƒ­ï¼Œç‚çƒ­ vi.å˜çƒ­
 1818. heating['hi:ti8]
-n.¼ÓÈÈ£¬¹©Å¯
+n.åŠ çƒ­ï¼Œä¾›æš–
 1819. heaven['hevn]
-n.ÌìÌÃ£»Ìì£¬Ìì¿Õ
+n.å¤©å ‚ï¼›å¤©ï¼Œå¤©ç©º
 1820. heavily['hevili]
-ad.ÖØÖØµØ£»´óÁ¿µØ
+ad.é‡é‡åœ°ï¼›å¤§é‡åœ°
 1821. heavy['hevi]
-a.ÖØµÄ£»´óµÄ£»³äÂúµÄ
+a.é‡çš„ï¼›å¤§çš„ï¼›å……æ»¡çš„
 1822. hedge[hed7]
-n.Àé°Ê£¬Ê÷Àé£»ÕÏ°­Îï
+n.ç¯±ç¬†ï¼Œæ ‘ç¯±ï¼›éšœç¢ç‰©
 1823. heel[hi:l]
-n.½Åºó¸ú£¬õà£¬ºó¸ú
+n.è„šåè·Ÿï¼Œè¸µï¼Œåè·Ÿ
 1824. height[hait]
-n.¸ß£¬¸ß¶È£»¸ß´¦
+n.é«˜ï¼Œé«˜åº¦ï¼›é«˜å¤„
 1825. heir[/2]
-n.ºóËÃ£¬¼Ì³ĞÈË
+n.åå—£ï¼Œç»§æ‰¿äºº
 1826. helicopter['helik0pt2]
-n.Ö±Éı»ú
+n.ç›´å‡æœº
 1827. hell[hel]
-n.µØÓü£»¼«´óµÄÍ´¿à
+n.åœ°ç‹±ï¼›æå¤§çš„ç—›è‹¦
 1828. hello['h2'l2u]
-int.Î¹
+int.å–‚
 1829. helmet['helmit]
-n.Í·¿ø£¬¸Ö¿ø
+n.å¤´ç›”ï¼Œé’¢ç›”
 1830. help[help]
-vt.°ïÖú£»Ô®Öú n.°ïÊÖ
+vt.å¸®åŠ©ï¼›æ´åŠ© n.å¸®æ‰‹
 1831. helpful['helpful]
-a.¸øÓè°ïÖúµÄ£»ÓĞÓÃµÄ
+a.ç»™äºˆå¸®åŠ©çš„ï¼›æœ‰ç”¨çš„
 1832. helpless['helplis]
-a.ÎŞÖúµÄ£»ÎŞÄÜµÄ
+a.æ— åŠ©çš„ï¼›æ— èƒ½çš„
 1833. hen[hen]
-n.Ä¸¼¦£¬´ÆÇİ
+n.æ¯é¸¡ï¼Œé›Œç¦½
 1834. hence[hens]
-ad.Òò´Ë£¬ËùÒÔ£»½ñºó
+ad.å› æ­¤ï¼Œæ‰€ä»¥ï¼›ä»Šå
 1835. her[h2:. h2]
-pron.(±ö¸ñ)Ëı£»ËıµÄ
+pron.(å®¾æ ¼)å¥¹ï¼›å¥¹çš„
 1836. herd[h2:d]
-n.ÊŞÈº£¬ÄÁÈº vt.·ÅÄÁ
+n.å…½ç¾¤ï¼Œç‰§ç¾¤ vt.æ”¾ç‰§
 1837. here[hi2]
-ad.ÕâÀï£»ÏòÕâÀï
+ad.è¿™é‡Œï¼›å‘è¿™é‡Œ
 1838. hero['hi2r2u]
-n.ÄĞÖ÷½Ç£»Ó¢ĞÛ£»ÓÂÊ¿
+n.ç”·ä¸»è§’ï¼›è‹±é›„ï¼›å‹‡å£«
 1839. heroic[hi'r2uik]
-a.Ó¢ĞÛµÄ£»Ó¢ÓÂµÄ
+a.è‹±é›„çš„ï¼›è‹±å‹‡çš„
 1840. heroine['her2uin]
-n.Å®Ö÷½Ç£»Å®Ó¢ĞÛ
+n.å¥³ä¸»è§’ï¼›å¥³è‹±é›„
 1841. hers[h2:z]
-pron.ËıµÄ(ËùÓĞÎï)
+pron.å¥¹çš„(æ‰€æœ‰ç‰©)
 1842. herself[h2:'self]
-pron.Ëı×Ô¼º£»ËıÇ××Ô
+pron.å¥¹è‡ªå·±ï¼›å¥¹äº²è‡ª
 1843. hesitate['heziteit]
-vi.ÓÌÔ¥£¬³ì³ù£»º¬ºı
+vi.çŠ¹è±«ï¼Œè¸Œèº‡ï¼›å«ç³Š
 1844. hi[hai]
-ini.àË(±íÊ¾ÎÊºòµÈ)
+ini.å—¨(è¡¨ç¤ºé—®å€™ç­‰)
 1845. hide[haid]
-vt.°Ñ¡­²ØÆğÀ´£»ÒşÂ÷
+vt.æŠŠâ€¦è—èµ·æ¥ï¼›éšç’
 1846. high[hai]
-a.¸ßµÄ£»¸ß¼¶µÄ ad.¸ß
+a.é«˜çš„ï¼›é«˜çº§çš„ ad.é«˜
 1847. highly['haili]
-ad.¸ß¶ÈµØ£¬ºÜ£¬·Ç³£
+ad.é«˜åº¦åœ°ï¼Œå¾ˆï¼Œéå¸¸
 1848. highway['haiwei]
-n.¹«Â·£»´óÂ·
+n.å…¬è·¯ï¼›å¤§è·¯
 1849. hill[hil]
-n.Ğ¡É½£¬É½¸Ú£»ÇğÁê
+n.å°å±±ï¼Œå±±å²—ï¼›ä¸˜é™µ
 1850. hillside['hil'said]
-n.(Ğ¡É½)É½Ñü£¬É½ÆÂ
+n.(å°å±±)å±±è…°ï¼Œå±±å¡
 1851. him[him]
-pron.(±ö¸ñ)Ëû
+pron.(å®¾æ ¼)ä»–
 1852. himself[him'self]
-pron.Ëû×Ô¼º£»ËûÇ××Ô
+pron.ä»–è‡ªå·±ï¼›ä»–äº²è‡ª
 1853. hint[hint]
-n.°µÊ¾£¬Ê¾Òâ£»½¨Òé
+n.æš—ç¤ºï¼Œç¤ºæ„ï¼›å»ºè®®
 1854. hire['hai2]
-vt.×â½è n.×âÓÃ£¬¹ÍÓÃ
+vt.ç§Ÿå€Ÿ n.ç§Ÿç”¨ï¼Œé›‡ç”¨
 1855. his[his]
-pron.ËûµÄ£¬ËûµÄ¶«Î÷
+pron.ä»–çš„ï¼Œä»–çš„ä¸œè¥¿
 1856. historical[his't0rik2l]
-a.ÀúÊ·µÄ£¬ÓĞ¹ØÀúÊ·µÄ
+a.å†å²çš„ï¼Œæœ‰å…³å†å²çš„
 1857. history['hist2ri]
-n.ÀúÊ·£»¸öÈË¾­Àú
+n.å†å²ï¼›ä¸ªäººç»å†
 1858. hit[hit]
-vt.´ò£»Åö×² n.»÷
+vt.æ‰“ï¼›ç¢°æ’ n.å‡»
 1859. hobby['h0bi]
-n.ÒµÓà°®ºÃ£¬ñ±ºÃ
+n.ä¸šä½™çˆ±å¥½ï¼Œç™–å¥½
 1860. hold[h2uld]
-vt.ÄÃ×¡£»ÕÆÎÕ£»ÓµÓĞ
+vt.æ‹¿ä½ï¼›æŒæ¡ï¼›æ‹¥æœ‰
 1861. hole[h2ul]
-n.¶´£»¿×ÑÛ£¬ÁÑ¿ª´¦
+n.æ´ï¼›å­”çœ¼ï¼Œè£‚å¼€å¤„
 1862. holiday['h0l2di]
-n.¼ÙÈÕ£¬½ÚÈÕ£»¼ÙÆÚ
+n.å‡æ—¥ï¼ŒèŠ‚æ—¥ï¼›å‡æœŸ
 1863. hollow['h0l2u]
-a.¿ÕµÄ£»¿Õ¶´µÄ
+a.ç©ºçš„ï¼›ç©ºæ´çš„
 1864. holy['h2uli]
-a.ÉñÊ¥µÄ£»Ê¥½àµÄ
+a.ç¥åœ£çš„ï¼›åœ£æ´çš„
 1865. home[h2um]
-n.¼Ò£»¼ÒÏç a.¼ÒÍ¥µÄ
+n.å®¶ï¼›å®¶ä¹¡ a.å®¶åº­çš„
 1866. honest['0nist]
-a.³ÏÊµµÄ£»¿É¾´µÄ
+a.è¯šå®çš„ï¼›å¯æ•¬çš„
 1867. honesty['0nisti]
-n.³ÏÊµ£¬ÕıÖ±
+n.è¯šå®ï¼Œæ­£ç›´
 1868. honey['h3ni]
-n.ÃÛ£¬·äÃÛ£»Ìğ£¬ÌğÃÛ
+n.èœœï¼Œèœ‚èœœï¼›ç”œï¼Œç”œèœœ
 1869. honeymoon['h3nimu:n]
-n.ÃÛÔÂ
+n.èœœæœˆ
 1870. honour['0n2]
-n.¹âÈÙ£»×ğ¾´£¬¾´Òâ
+n.å…‰è£ï¼›å°Šæ•¬ï¼Œæ•¬æ„
 1871. honourable['0n2r2bl]
-a.³ÏÊµµÄ£»¹âÈÙµÄ
+a.è¯šå®çš„ï¼›å…‰è£çš„
 1872. hook[huk]
-n.¹³£¬¹Ò¹³ vt.¹³×¡
+n.é’©ï¼ŒæŒ‚é’© vt.é’©ä½
 1873. hope[h2up]
-n.&vt.&vi.Ï£Íû
+n.&vt.&vi.å¸Œæœ›
 1874. hopeful['h2upful]
-a.ÓĞÏ£ÍûµÄ
+a.æœ‰å¸Œæœ›çš„
 1875. hopeless['h2uplis]
-a.Ã»ÓĞÏ£ÍûµÄ£¬¾øÍûµÄ
+a.æ²¡æœ‰å¸Œæœ›çš„ï¼Œç»æœ›çš„
 1876. horizon[h2'raizn]
-n.µØÆ½Ïß£»ÑÛ½ç£¬¼ûÊ¶
+n.åœ°å¹³çº¿ï¼›çœ¼ç•Œï¼Œè§è¯†
 1877. horizontal[h0ri'z0ntl]
-a.µØÆ½µÄ£»Ë®Æ½µÄ
+a.åœ°å¹³çš„ï¼›æ°´å¹³çš„
 1878. horn[h0:n]
-n.ºÅ½Ç£»¾¯±¨Æ÷£»½Ç
+n.å·è§’ï¼›è­¦æŠ¥å™¨ï¼›è§’
 1879. horror['h0r2]
-n.¿Ö²À£»Õ½Àõ£»Ô÷¶ñ
+n.ææ€–ï¼›æˆ˜æ —ï¼›æ†æ¶
 1880. horse[h0:s]
-n.Âí£»Âí¿Æ¶¯Îï
+n.é©¬ï¼›é©¬ç§‘åŠ¨ç‰©
 1881. horsepower['h0:spau2]
-n.ÂíÁ¦
+n.é©¬åŠ›
 1882. hospital['h0spitl]
-n.Ò½Ôº
+n.åŒ»é™¢
 1883. host[h2ust]
-n.Ö÷ÈË£»¶«µÀÖ÷
+n.ä¸»äººï¼›ä¸œé“ä¸»
 1884. hostess['h2ustis]
-n.Å®Ö÷ÈË£»¿Õ½ã
+n.å¥³ä¸»äººï¼›ç©ºå§
 1885. hostile['h0stail]
-a.µĞ·½µÄ£»²»ÓÑÉÆµÄ
+a.æ•Œæ–¹çš„ï¼›ä¸å‹å–„çš„
 1886. hot[h0t]
-a.ÈÈµÄ£»´Ì¼¤µÄ£»À±µÄ
+a.çƒ­çš„ï¼›åˆºæ¿€çš„ï¼›è¾£çš„
 1887. hotel[h2u'tel]
-n.ÂÃ¹İ
+n.æ—…é¦†
 1888. hour['au2]
-n.Ğ¡Ê±£»Ê±¼ä£¬Ê±¿Ì
+n.å°æ—¶ï¼›æ—¶é—´ï¼Œæ—¶åˆ»
 1889. house[haus]
-n.·¿Îİ£¬×¡Õ¬£»ÉÌºÅ
+n.æˆ¿å±‹ï¼Œä½å®…ï¼›å•†å·
 1890. household['haush2uld]
-n.¼ÒÍ¥£¬»§£»¼ÒÎñ
+n.å®¶åº­ï¼Œæˆ·ï¼›å®¶åŠ¡
 1891. housewife['hauswaif]
-n.¼ÒÍ¥Ö÷¸¾
+n.å®¶åº­ä¸»å¦‡
 1892. how[hau]
-ad.ÔõÃ´£»ÔõÑù£»¶àÉÙ
+ad.æ€ä¹ˆï¼›æ€æ ·ï¼›å¤šå°‘
 1893. however[hau'ev2]
-ad.È»¶ø£»²»¹ÜÔõÑù
+ad.ç„¶è€Œï¼›ä¸ç®¡æ€æ ·
 1894. huge[hju:d7]
-a.¾Ş´óµÄ£¬ÅÓ´óµÄ
+a.å·¨å¤§çš„ï¼Œåºå¤§çš„
 1895. human['hju:m2n]
-a.ÈËµÄ£¬ÈËÀàµÄ n.ÈË
+a.äººçš„ï¼Œäººç±»çš„ n.äºº
 1896. humble['h3mbl]
-a.Ç«Ñ·µÄ£»µØÎ»µÍÏÂµÄ
+a.è°¦é€Šçš„ï¼›åœ°ä½ä½ä¸‹çš„
 1897. humid['hju:mid]
-a.ÊªµÄ£¬ÊªÆøÖØµÄ
+a.æ¹¿çš„ï¼Œæ¹¿æ°”é‡çš„
 1898. humorous['hju:m2r2s]
-a.¸»ÓÚÓÄÄ¬µÄ£¬Ú¶Ğ³µÄ
+a.å¯Œäºå¹½é»˜çš„ï¼Œè¯™è°çš„
 1899. humour['hju:m2]
-n.ÓÄÄ¬£¬Ú¶Ğ³£¬ÓÄÄ¬¸Ğ
+n.å¹½é»˜ï¼Œè¯™è°ï¼Œå¹½é»˜æ„Ÿ
 1900. hundred['h3ndrid]
-num.°Ù£¬°Ù¸ö n.Ğí¶à
+num.ç™¾ï¼Œç™¾ä¸ª n.è®¸å¤š
 1901. hunger['h38g2]
-n.¶ö£¬¼¢¶ö£»¿ÊÍû
+n.é¥¿ï¼Œé¥¥é¥¿ï¼›æ¸´æœ›
 1902. hungry['h38gri]
-a.¼¢¶öµÄ£»¿ÊÍûµÄ
+a.é¥¥é¥¿çš„ï¼›æ¸´æœ›çš„
 1903. hunt[h3nt]
-n.´òÁÔ£»ËÑÑ° vt.×·ÁÔ
+n.æ‰“çŒï¼›æœå¯» vt.è¿½çŒ
 1904. hurry['h3ri]
-vi.¸Ï½ô vt.´ß´Ù
+vi.èµ¶ç´§ vt.å‚¬ä¿ƒ
 1905. hurt[h2:t]
-vt.Ê¹ÊÜÉË£»Ê¹Í´ĞÄ
+vt.ä½¿å—ä¼¤ï¼›ä½¿ç—›å¿ƒ
 1906. husband['h3zb2nd]
-n.ÕÉ·ò
+n.ä¸ˆå¤«
 1907. hut[h3t]
-n.Ğ¡Îİ£¬ÅïÎİ
+n.å°å±‹ï¼Œæ£šå±‹
 1908. hydrogen['haidrid72n]
-n.Çâ
+n.æ°¢
 1909. I[ai]
-pron.(Ö÷¸ñ)ÎÒ
+pron.(ä¸»æ ¼)æˆ‘
 1910. ice[ais]
-n.±ù£¬±ù¿é vt.±ùÕò
+n.å†°ï¼Œå†°å— vt.å†°é•‡
 1911. ice-cream['ais'kri:m]
-n.±ùä¿ÁÜ
+n.å†°æ·‡æ·‹
 1912. idea[ai'di2]
-n.Ïë·¨£»Ë¼Ïë£»Òâ¼û
+n.æƒ³æ³•ï¼›æ€æƒ³ï¼›æ„è§
 1913. ideal[ai'di2l]
-a.ÀíÏëµÄ£»¹ÛÄîµÄ
+a.ç†æƒ³çš„ï¼›è§‚å¿µçš„
 1914. identical[ai'dentik2l]
-a.ÍêÈ«ÏàÍ¬µÄ£»Í¬Ò»µÄ
+a.å®Œå…¨ç›¸åŒçš„ï¼›åŒä¸€çš„
 1915. identify[ai'dentifai]
-vt.ÈÏ³ö£¬Ê¶±ğ£¬¼ø¶¨
+vt.è®¤å‡ºï¼Œè¯†åˆ«ï¼Œé‰´å®š
 1916. idiom['idi2m]
-n.Ï°Óï£¬³ÉÓï
+n.ä¹ è¯­ï¼Œæˆè¯­
 1917. idle['aidl]
-a.¿ÕÏĞµÄ£»ÀÁÉ¢µÄ
+a.ç©ºé—²çš„ï¼›æ‡’æ•£çš„
 1918. i.e.['ai'i:](=that is)
-ÄÇ¾ÍÊÇ£¬¼´
+é‚£å°±æ˜¯ï¼Œå³
 1919. if[if]
-conj.¼ÙÈç£¬Èç¹û
+conj.å‡å¦‚ï¼Œå¦‚æœ
 1920. ignorant['ign2r2nt]
-a.²»ÖªµÀµÄ£»ÎŞÖªµÄ
+a.ä¸çŸ¥é“çš„ï¼›æ— çŸ¥çš„
 1921. ignore[ig'n0:]
-vt.²»¹Ë£¬²»Àí£¬ºöÊÓ
+vt.ä¸é¡¾ï¼Œä¸ç†ï¼Œå¿½è§†
 1922. ill[il]
-a.ÓĞ²¡µÄ£»»µµÄ ad.»µ
+a.æœ‰ç—…çš„ï¼›åçš„ ad.å
 1923. illegal[i'li:g2l]
-a.²»ºÏ·¨µÄ£¬·Ç·¨µÄ
+a.ä¸åˆæ³•çš„ï¼Œéæ³•çš„
 1924. illness['ilnis]
-n.²¡£¬¼²²¡
+n.ç—…ï¼Œç–¾ç—…
 1925. illustrate['il2streit]
-vt.(ÓÃÍ¼µÈ)ËµÃ÷
+vt.(ç”¨å›¾ç­‰)è¯´æ˜
 1926. illustration[il2s'trei62n]
-n.ËµÃ÷£¬Í¼½â£»ÀıÖ¤
+n.è¯´æ˜ï¼Œå›¾è§£ï¼›ä¾‹è¯
 1927. image['imid7]
-n.Ïñ£»ĞÎÏó£»Ó³Ïó
+n.åƒï¼›å½¢è±¡ï¼›æ˜ è±¡
 1928. imaginary[i'm9d7in2ri]
-a.ÏëÏóÖĞµÄ£¬¼ÙÏëµÄ
+a.æƒ³è±¡ä¸­çš„ï¼Œå‡æƒ³çš„
 1929. imagination[im9d7i'nei62n]
-n.ÏëÏó£»ÏëÏóÁ¦£»¿ÕÏë
+n.æƒ³è±¡ï¼›æƒ³è±¡åŠ›ï¼›ç©ºæƒ³
 1930. imagine[i'm9d7in]
-vt.ÏëÏó£¬ÉèÏë£»ÁÏÏë
+vt.æƒ³è±¡ï¼Œè®¾æƒ³ï¼›æ–™æƒ³
 1931. imitate['imiteit]
-vt.Ä£·Â£¬·ÂĞ§£»·ÂÖÆ
+vt.æ¨¡ä»¿ï¼Œä»¿æ•ˆï¼›ä»¿åˆ¶
 1932. immediate[i'mi:dj2t]
-a.Á¢¼´µÄ£»Ö±½ÓµÄ
+a.ç«‹å³çš„ï¼›ç›´æ¥çš„
 1933. immediately[i'mi:dj2tli]
-ad.Á¢¼´£»Ö±½ÓµØ
+ad.ç«‹å³ï¼›ç›´æ¥åœ°
 1934. immense[i'mens]
-a.¾Ş´óµÄ£»¼«ºÃµÄ
+a.å·¨å¤§çš„ï¼›æå¥½çš„
 1935. immigrant['imigr2nt]
-n.ÒÆÃñ a.ÒÆÃñµÄ
+n.ç§»æ°‘ a.ç§»æ°‘çš„
 1936. impact['imp9kt]
-n.Ó°Ïì£¬×÷ÓÃ£»³å»÷
+n.å½±å“ï¼Œä½œç”¨ï¼›å†²å‡»
 1937. impatient[im'pei62nt]
-a.²»ÄÍ·³µÄ£¬¼±ÔêµÄ
+a.ä¸è€çƒ¦çš„ï¼Œæ€¥èºçš„
 1938. implication[impli'kei62n]
-n.º¬Òå£¬°µÊ¾£¬°µÖ¸
+n.å«ä¹‰ï¼Œæš—ç¤ºï¼Œæš—æŒ‡
 1939. imply[im'plai]
-vt.°µÊ¾£¬ÒâÖ¸
+vt.æš—ç¤ºï¼Œæ„æŒ‡
 1940. import[im'p0:t 'imp0:t]
-vt.&n.ÊäÈë£¬½ø¿Ú
+vt.&n.è¾“å…¥ï¼Œè¿›å£
 1941. importance[im'p0:t2ns]
-n.ÖØÒª£»ÖØÒªĞÔ
+n.é‡è¦ï¼›é‡è¦æ€§
 1942. important[im'p0:t2nt]
-a.ÖØÒªµÄ£»ÓĞÊÆÁ¦µÄ
+a.é‡è¦çš„ï¼›æœ‰åŠ¿åŠ›çš„
 1943. impose[im'p2uz]
-vt.°Ñ¡­Ç¿¼Ó£»Õ÷(Ë°)
+vt.æŠŠâ€¦å¼ºåŠ ï¼›å¾(ç¨)
 1944. impossible[im'p0s2bl]
-a.²»¿ÉÄÜµÄ£¬°ì²»µ½µÄ
+a.ä¸å¯èƒ½çš„ï¼ŒåŠä¸åˆ°çš„
 1945. impress[im'pres. 'impres]
-vt.¸ø¡­Éî¿ÌÓ¡Ïó
+vt.ç»™â€¦æ·±åˆ»å°è±¡
 1946. impression[im'pre62n]
-n.Ó¡£»Ó¡Ïó£»Ó¡¼Ç
+n.å°ï¼›å°è±¡ï¼›å°è®°
 1947. impressive[im'presiv]
-a.¸øÈËÓ¡ÏóÉî¿ÌµÄ
+a.ç»™äººå°è±¡æ·±åˆ»çš„
 1948. imprison[im'prizn]
-vt.¹ØÑº£¬¼à½û£»ÏŞÖÆ
+vt.å…³æŠ¼ï¼Œç›‘ç¦ï¼›é™åˆ¶
 1949. improve[im'pru:v]
-vt.Ê¹¸üºÃ vi.¸ÄÉÆ
+vt.ä½¿æ›´å¥½ vi.æ”¹å–„
 1950. improvement[im'pru:vm2nt]
-n.¸Ä½ø£¬¸ÄÉÆ£»¸Ä½ø´¦
+n.æ”¹è¿›ï¼Œæ”¹å–„ï¼›æ”¹è¿›å¤„
 1951. in[in]
-prep.ÔÚ¡­Àïad.½ø£¬Èë
+prep.åœ¨â€¦é‡Œad.è¿›ï¼Œå…¥
 1952. inch[int6]
-n.Ó¢´ç
+n.è‹±å¯¸
 1953. incident['insid2nt]
-n.·¢ÉúµÄÊÂ£»ÊÂ¼ş
+n.å‘ç”Ÿçš„äº‹ï¼›äº‹ä»¶
 1954. incline[in'klain]
-n.Ğ±ÆÂ vt.Ê¹ÇãĞ±
+n.æ–œå¡ vt.ä½¿å€¾æ–œ
 1955. include[in'klu:d]
-vt.°üÀ¨£¬°üº¬
+vt.åŒ…æ‹¬ï¼ŒåŒ…å«
 1956. income['ink3m]
-n.ÊÕÈë£»ÊÕÒæ£»½ø¿î
+n.æ”¶å…¥ï¼›æ”¶ç›Šï¼›è¿›æ¬¾
 1957. incorrect[ink2'rekt]
-a.²»ÕıÈ·µÄ£¬´íÎóµÄ
+a.ä¸æ­£ç¡®çš„ï¼Œé”™è¯¯çš„
 1958. increase[in'kri:s. 'inkri:s]
-vt.&vi.&n.Ôö¼Ó
+vt.&vi.&n.å¢åŠ 
 1959. increasingly[in'kri:si8li]
-ad.ÈÕÒæ£¬Ô½À´Ô½¶àµØ
+ad.æ—¥ç›Šï¼Œè¶Šæ¥è¶Šå¤šåœ°
 1960. indeed[in'di:d]
-ad.ÕæÕıµØ£»È·Êµ
+ad.çœŸæ­£åœ°ï¼›ç¡®å®
 1961. indefinite[in'definit]
-a.²»Ã÷È·µÄ£»²»¶¨µÄ
+a.ä¸æ˜ç¡®çš„ï¼›ä¸å®šçš„
 1962. independence[indi'pend2ns]
-n.¶ÀÁ¢£¬×ÔÖ÷£¬×ÔÁ¢
+n.ç‹¬ç«‹ï¼Œè‡ªä¸»ï¼Œè‡ªç«‹
 1963. independent[indi'pend2nt]
-a.¶ÀÁ¢µÄ£»×ÔÖ÷µÄ
+a.ç‹¬ç«‹çš„ï¼›è‡ªä¸»çš„
 1964. index['indeks]
-n.Ë÷Òı£»Ö¸Êı£»Ö¸±ê
+n.ç´¢å¼•ï¼›æŒ‡æ•°ï¼›æŒ‡æ ‡
 1965. India['indi2]
-n.Ó¡¶È
+n.å°åº¦
 1966. Indian['indi2n]
-a.Ó¡¶ÈµÄ n.Ó¡¶ÈÈË
+a.å°åº¦çš„ n.å°åº¦äºº
 1967. indicate['indikeit]
-vt.±êÊ¾£¬±íÊ¾£»±íÃ÷
+vt.æ ‡ç¤ºï¼Œè¡¨ç¤ºï¼›è¡¨æ˜
 1968. indication[indi'kei62n]
-n.Ö¸Ê¾£»±íÊ¾£»±íÃ÷
+n.æŒ‡ç¤ºï¼›è¡¨ç¤ºï¼›è¡¨æ˜
 1969. indifferent[in'difr2nt]
-a.ÀäÄ®µÄ£»²»»ı¼«µÄ
+a.å†·æ¼ çš„ï¼›ä¸ç§¯æçš„
 1970. indignant[in'dign2nt]
-a.·ß¿®µÄ£¬Òå·ßµÄ
+a.æ„¤æ…¨çš„ï¼Œä¹‰æ„¤çš„
 1971. indirect[indi'rekt]
-a.¼ä½ÓµÄ£»²»Ì¹ÂÊµÄ
+a.é—´æ¥çš„ï¼›ä¸å¦ç‡çš„
 1972. indispensable[indis'pens2bl]
-a.±Ø²»¿ÉÉÙµÄ£¬±ØĞèµÄ
+a.å¿…ä¸å¯å°‘çš„ï¼Œå¿…éœ€çš„
 1973. individual[indi'vidju2l]
-a.¸ö±ğµÄ£»¶ÀÌØµÄ
+a.ä¸ªåˆ«çš„ï¼›ç‹¬ç‰¹çš„
 1974. indoors[in'd0:z]
-ad.ÔÚÊÒÄÚ£¬ÔÚÎİÀï
+ad.åœ¨å®¤å†…ï¼Œåœ¨å±‹é‡Œ
 1975. industrial[in'd3stri2l]
-a.¹¤ÒµµÄ£»²úÒµµÄ
+a.å·¥ä¸šçš„ï¼›äº§ä¸šçš„
 1976. industrialize[in'd3stri2laiz]
-vt.Ê¹¹¤Òµ»¯
+vt.ä½¿å·¥ä¸šåŒ–
 1977. industry['ind2stri]
-n.¹¤Òµ£¬²úÒµ£»ÇÚÀÍ
+n.å·¥ä¸šï¼Œäº§ä¸šï¼›å‹¤åŠ³
 1978. inefficient[ini'fi62nt]
-a.Ğ§ÂÊµÍµÄ£¬ÎŞÄÜµÄ
+a.æ•ˆç‡ä½çš„ï¼Œæ— èƒ½çš„
 1979. inevitable[in'evit2bl]
-a.²»¿É±ÜÃâµÄ£¬±ØÈ»µÄ
+a.ä¸å¯é¿å…çš„ï¼Œå¿…ç„¶çš„
 1980. inexpensive[iniks'pensiv]
-a.»¨·Ñ²»¶àµÄ£¬Á®¼ÛµÄ
+a.èŠ±è´¹ä¸å¤šçš„ï¼Œå»‰ä»·çš„
 1981. infant['inf2nt]
-n.Ó¤¶ù a.Ó¤¶ùµÄ
+n.å©´å„¿ a.å©´å„¿çš„
 1982. infect[in'fekt]
-vt.´«È¾£»¸ĞÈ¾
+vt.ä¼ æŸ“ï¼›æ„ŸæŸ“
 1983. infer[in'f2:]
-vt.ÍÆÂÛ£¬ÍÆ¶Ï£»²ÂÏë
+vt.æ¨è®ºï¼Œæ¨æ–­ï¼›çŒœæƒ³
 1984. inferior[in'fi2ri2]
-a.ÏÂµÈµÄ£»ÁÓµÈµÄ
+a.ä¸‹ç­‰çš„ï¼›åŠ£ç­‰çš„
 1985. infinite['infinit]
-a.ÎŞÏŞµÄ£»ÎŞÊıµÄ
+a.æ— é™çš„ï¼›æ— æ•°çš„
 1986. influence['influ2ns]
-n.Ó°Ïì£»ÊÆÁ¦ vt.Ó°Ïì
+n.å½±å“ï¼›åŠ¿åŠ› vt.å½±å“
 1987. influential[influ'en62l]
-a.ÓĞÓ°ÏìµÄ£»ÓĞÈ¨ÊÆµÄ
+a.æœ‰å½±å“çš„ï¼›æœ‰æƒåŠ¿çš„
 1988. inform[in'f0:m]
-vt.Í¨Öª£¬Ïò¡­±¨¸æ
+vt.é€šçŸ¥ï¼Œå‘â€¦æŠ¥å‘Š
 1989. information[inf2'mei62n]
-n.ÏûÏ¢£¬ĞÅÏ¢£»Í¨Öª
+n.æ¶ˆæ¯ï¼Œä¿¡æ¯ï¼›é€šçŸ¥
 1990. inhabit[in'h9bit]
-vt.¾Ó×¡ÓÚ£¬ÆÜÏ¢ÓÚ
+vt.å±…ä½äºï¼Œæ –æ¯äº
 1991. inhabitant[in'h9bit2nt]
-n.¾ÓÃñ£¬×¡»§
+n.å±…æ°‘ï¼Œä½æˆ·
 1992. inherit[in'herit]
-vt.¼Ì³Ğ(´«Í³µÈ)
+vt.ç»§æ‰¿(ä¼ ç»Ÿç­‰)
 1993. initial[i'ni62l]
-a.×î³õµÄ£»´ÊÊ×µÄ
+a.æœ€åˆçš„ï¼›è¯é¦–çš„
 1994. injection[in'd7ek62n]
-n.×¢Éä£¬×¢Èë£»³äÂú
+n.æ³¨å°„ï¼Œæ³¨å…¥ï¼›å……æ»¡
 1995. injure['ind72]
-vt.ÉËº¦£¬Ëğº¦£¬ËğÉË
+vt.ä¼¤å®³ï¼ŒæŸå®³ï¼ŒæŸä¼¤
 1996. injury['ind72ri]
-n.Ëğº¦£¬ÉËº¦£»ÊÜÉË´¦
+n.æŸå®³ï¼Œä¼¤å®³ï¼›å—ä¼¤å¤„
 1997. ink[i8k]
-n.Ä«Ë®£¬ÓÍÄ«
+n.å¢¨æ°´ï¼Œæ²¹å¢¨
 1998. inn[in]
-n.Ğ¡ÂÃµê£»Ğ¡¾Æµê
+n.å°æ—…åº—ï¼›å°é…’åº—
 1999. inner['in2]
-a.ÄÚ²¿µÄ£»ÄÚĞÄµÄ
+a.å†…éƒ¨çš„ï¼›å†…å¿ƒçš„
 2000. innocent['in2snt]
-a.Çå°×µÄ£¬Ó×ÖÉµÄ
+a.æ¸…ç™½çš„ï¼Œå¹¼ç¨šçš„
 2001. input['input]
-n.ÊäÈë£»Í¶ÈëµÄ×Ê½ğ
+n.è¾“å…¥ï¼›æŠ•å…¥çš„èµ„é‡‘
 2002. inquire[in'kwai2]
-vt.´òÌı£¬Ñ¯ÎÊ£»µ÷²é
+vt.æ‰“å¬ï¼Œè¯¢é—®ï¼›è°ƒæŸ¥
 2003. inquiry[in'kwai2ri]
-n.Ñ¯ÎÊ£¬´òÌı£»µ÷²é
+n.è¯¢é—®ï¼Œæ‰“å¬ï¼›è°ƒæŸ¥
 2004. insect['insekt]
-n.À¥³æ£¬³æ
+n.æ˜†è™«ï¼Œè™«
 2005. insert[in's2:t. 'ins2:t]
-vt.²åÈë; Ç¶Èë; µÇÔØ
+vt.æ’å…¥; åµŒå…¥; ç™»è½½
 2006. inside[in'said]
-prep.ÔÚ¡­ÀïÃæ n.ÄÚ²¿
+prep.åœ¨â€¦é‡Œé¢ n.å†…éƒ¨
 2007. insist[in'sist]
-vi.¼á³Ö£»¼á³ÖÒªÇó
+vi.åšæŒï¼›åšæŒè¦æ±‚
 2008. inspect[in'spekt]
-vt.¼ì²é£¬Éó²é£»¼ìÔÄ
+vt.æ£€æŸ¥ï¼Œå®¡æŸ¥ï¼›æ£€é˜…
 2009. inspection[in'spek62n]
-n.¼ì²é£¬Éó²é£»¼ìÔÄ
+n.æ£€æŸ¥ï¼Œå®¡æŸ¥ï¼›æ£€é˜…
 2010. inspire[in'spai2]
-vt.¹ÄÎè£»¸ø¡­ÒÔÁé¸Ğ
+vt.é¼“èˆï¼›ç»™â€¦ä»¥çµæ„Ÿ
 2011. install[in'st0:l]
-vt.°²×°£¬ÉèÖÃ
+vt.å®‰è£…ï¼Œè®¾ç½®
 2012. installation[inst2'lei62n]
-n.°²×°£»×°ÖÃ£»ÉèÊ©
+n.å®‰è£…ï¼›è£…ç½®ï¼›è®¾æ–½
 2013. instance['inst2ns]
-n.Àı×Ó£¬ÊµÀı£¬ÊÂÀı
+n.ä¾‹å­ï¼Œå®ä¾‹ï¼Œäº‹ä¾‹
 2014. instant['inst2nt]
-n.Ë²¼ä a.Á¢¼´µÄ
+n.ç¬é—´ a.ç«‹å³çš„
 2015. instantly['inst2ntli]
-ad.Á¢¼´£¬¼´¿Ì
+ad.ç«‹å³ï¼Œå³åˆ»
 2016. instead[in'sted]
-ad.´úÌæ£¬¶¥Ìæ£»·´¶ø
+ad.ä»£æ›¿ï¼Œé¡¶æ›¿ï¼›åè€Œ
 2017. instinct['insti8kt]
-n.±¾ÄÜ£»Ö±¾õ£»ÉúĞÔ
+n.æœ¬èƒ½ï¼›ç›´è§‰ï¼›ç”Ÿæ€§
 2018. institute['institju:t]
-n.ÑĞ¾¿Ëù£»Ñ§Ôº
+n.ç ”ç©¶æ‰€ï¼›å­¦é™¢
 2019. institution[insti'tju:62n]
-n.Ğ­»á£»ÖÆ¶È£¬Ï°Ë×
+n.åä¼šï¼›åˆ¶åº¦ï¼Œä¹ ä¿—
 2020. instruct[in'str3kt]
-vt.½Ì£»Ö¸Ê¾£»Í¨Öª
+vt.æ•™ï¼›æŒ‡ç¤ºï¼›é€šçŸ¥
 2021. instruction[in'str3k62n]
-n.ÃüÁî£»½ÌÑ§£»½ÌÑµ
+n.å‘½ä»¤ï¼›æ•™å­¦ï¼›æ•™è®­
 2022. instrument['instrum2nt]
-n.ÒÇÆ÷£»¹¤¾ß£»ÀÖÆ÷
+n.ä»ªå™¨ï¼›å·¥å…·ï¼›ä¹å™¨
 2023. insufficient[ins2'fi62nt]
-a.²»×ãµÄ£»²»ÊÊµ±µÄ
+a.ä¸è¶³çš„ï¼›ä¸é€‚å½“çš„
 2024. insult['ins3lt. in's3lt]
-vt.&n.ÎêÈè£¬ÁèÈè
+vt.&n.ä¾®è¾±ï¼Œå‡Œè¾±
 2025. insurance[in'6u2r2ns]
-n.±£ÏÕ£»±£ÏÕ·Ñ
+n.ä¿é™©ï¼›ä¿é™©è´¹
 2026. insure[in'6u2]
-vt.¸ø¡­±£ÏÕ£»È·±£
+vt.ç»™â€¦ä¿é™©ï¼›ç¡®ä¿
 2027. intellectual[inti'lektju2l]
-n.ÖªÊ¶·Ö×Ó a.ÖÇÁ¦µÄ
+n.çŸ¥è¯†åˆ†å­ a.æ™ºåŠ›çš„
 2028. intelligence[in'telid72ns]
-n.ÖÇÁ¦£»Àí½âÁ¦£»Çé±¨
+n.æ™ºåŠ›ï¼›ç†è§£åŠ›ï¼›æƒ…æŠ¥
 2029. intelligent[in'telid72nt]
-a.´ÏÃ÷µÄ£»ÀíÖÇµÄ
+a.èªæ˜çš„ï¼›ç†æ™ºçš„
 2030. intend[in'tend]
-vt.ÏëÒª£¬´òËã£»ÒâÖ¸
+vt.æƒ³è¦ï¼Œæ‰“ç®—ï¼›æ„æŒ‡
 2031. intense[in'tens]
-a.Ç¿ÁÒµÄ£»½ôÕÅµÄ
+a.å¼ºçƒˆçš„ï¼›ç´§å¼ çš„
 2032. intensity[in'tensiti]
-n.Ç¿ÁÒ£¬¾çÁÒ£»Ç¿¶È
+n.å¼ºçƒˆï¼Œå‰§çƒˆï¼›å¼ºåº¦
 2033. intensive[in'tensiv]
-a.¼ÓÇ¿µÄ£»¾«¸ûÏ¸×÷µÄ
+a.åŠ å¼ºçš„ï¼›ç²¾è€•ç»†ä½œçš„
 2034. intention[in'ten62n]
-n.ÒâÍ¼£¬ÒâÏò£¬Ä¿µÄ
+n.æ„å›¾ï¼Œæ„å‘ï¼Œç›®çš„
 2035. intentional[in'ten62nl]
-a.¹ÊÒâµÄ£¬ÓĞÒâÊ¶µÄ
+a.æ•…æ„çš„ï¼Œæœ‰æ„è¯†çš„
 2036. interaction[int2'r9k62n]
-n.Ïà»¥×÷ÓÃ£»¸ÉÈÅ
+n.ç›¸äº’ä½œç”¨ï¼›å¹²æ‰°
 2037. interest['intrist]
-n.ĞËÈ¤£»ÀûÒæ£»ÀûÏ¢
+n.å…´è¶£ï¼›åˆ©ç›Šï¼›åˆ©æ¯
 2038. interesting['intristi8]
-a.ÓĞÈ¤µÄ£¬ÒıÈËÈëÊ¤µÄ
+a.æœ‰è¶£çš„ï¼Œå¼•äººå…¥èƒœçš„
 2039. interfere[int2'fi2]
-vi.¸ÉÉæ£¬¸ÉÔ¤£»·Á°­
+vi.å¹²æ¶‰ï¼Œå¹²é¢„ï¼›å¦¨ç¢
 2040. interference[int2'fi2r2ns]
-n.¸ÉÉæ£¬¸ÉÔ¤£»×è°­
+n.å¹²æ¶‰ï¼Œå¹²é¢„ï¼›é˜»ç¢
 2041. interior[in'ti2ri2]
-a.ÄÚµÄ£»ÄÚµØµÄn.ÄÚ²¿
+a.å†…çš„ï¼›å†…åœ°çš„n.å†…éƒ¨
 2042. intermediate[int2'mi:dj2t]
-a.ÖĞ¼äµÄ£»ÖĞ¼¶µÄ
+a.ä¸­é—´çš„ï¼›ä¸­çº§çš„
 2043. internal[in't2:nl]
-a.ÄÚµÄ£»¹úÄÚµÄ
+a.å†…çš„ï¼›å›½å†…çš„
 2044. international[int2(:)'n962nl]
-a.¹ú¼ÊµÄ£¬ÊÀ½ç(ĞÔ)µÄ
+a.å›½é™…çš„ï¼Œä¸–ç•Œ(æ€§)çš„
 2045. interpret[in't2:prit]
-vt.½âÊÍ£¬ËµÃ÷£»¿ÚÒë
+vt.è§£é‡Šï¼Œè¯´æ˜ï¼›å£è¯‘
 2046. interpretation[int2:pri'tei62n]
-n.½âÊÍ£»¿ÚÒë
+n.è§£é‡Šï¼›å£è¯‘
 2047. interpreter[in't2:prit2]
-n.ÒëÔ±£¬¿ÚÒëÕß
+n.è¯‘å‘˜ï¼Œå£è¯‘è€…
 2048. interrupt[int2'r3pt]
-vt.´ò¶Ï£¬´òÈÅ£»ÖĞÖ¹
+vt.æ‰“æ–­ï¼Œæ‰“æ‰°ï¼›ä¸­æ­¢
 2049. interruption[int2'r3p62n]
-n.ÖĞ¶Ï£¬´ò¶Ï£»ÕÏ°­Îï
+n.ä¸­æ–­ï¼Œæ‰“æ–­ï¼›éšœç¢ç‰©
 2050. interval['int2v2l]
-n.¼ä¸ô£»ĞİÏ¢£»¼ä¾à
+n.é—´éš”ï¼›ä¼‘æ¯ï¼›é—´è·
 2051. interview['int2vju:]
-n.½Ó¼û£»»á¼û£»ÃæÌ¸
+n.æ¥è§ï¼›ä¼šè§ï¼›é¢è°ˆ
 2052. intimate['intimit]
-a.Ç×ÃÜµÄ£»¸öÈËµÄ
+a.äº²å¯†çš„ï¼›ä¸ªäººçš„
 2053. into['intu. 'int2]
-prep.½ø£¬Èë£»½øÈëµ½
+prep.è¿›ï¼Œå…¥ï¼›è¿›å…¥åˆ°
 2054. introduce['intr2'dju:s]
-vt.½éÉÜ£»Òı½ø£¬´«Èë
+vt.ä»‹ç»ï¼›å¼•è¿›ï¼Œä¼ å…¥
 2055. introduction[intr2'd3k62n]
-n.½éÉÜ£»Òı½ø£»ÒıÑÔ
+n.ä»‹ç»ï¼›å¼•è¿›ï¼›å¼•è¨€
 2056. invade[in'veid]
-vt.ÈëÇÖ£¬ÇÖÂÔ£»ÇÖÏ®
+vt.å…¥ä¾µï¼Œä¾µç•¥ï¼›ä¾µè¢­
 2057. invasion[in'vei72n]
-n.ÈëÇÖ£¬ÇÖÂÔ£»ÇÖ·¸
+n.å…¥ä¾µï¼Œä¾µç•¥ï¼›ä¾µçŠ¯
 2058. invent[in'vent]
-vt.·¢Ã÷£¬´´Ôì£»ÄóÔì
+vt.å‘æ˜ï¼Œåˆ›é€ ï¼›æé€ 
 2059. invention[in'ven62n]
-n.·¢Ã÷£¬´´Ôì£»ÄóÔì
+n.å‘æ˜ï¼Œåˆ›é€ ï¼›æé€ 
 2060. inventor[in'vent2]
-n.·¢Ã÷Õß£»·¢Ã÷¼Ò
+n.å‘æ˜è€…ï¼›å‘æ˜å®¶
 2061. invest[in'vest]
-vt.Í¶×Ê£»Í¶Èë
+vt.æŠ•èµ„ï¼›æŠ•å…¥
 2062. investigate[in'vestigeit]
-vt.&vi.µ÷²é
+vt.&vi.è°ƒæŸ¥
 2063. investigation[investi'gei62n]
-n.µ÷²é£¬µ÷²éÑĞ¾¿
+n.è°ƒæŸ¥ï¼Œè°ƒæŸ¥ç ”ç©¶
 2064. investment[in'vestm2nt]
-n.Í¶×Ê£¬Í¶×Ê¶î£¬Í¶Èë
+n.æŠ•èµ„ï¼ŒæŠ•èµ„é¢ï¼ŒæŠ•å…¥
 2065. invisible[in'viz2bl]
-a.¿´²»¼ûµÄ£¬ÎŞĞÎµÄ
+a.çœ‹ä¸è§çš„ï¼Œæ— å½¢çš„
 2066. invitation[invi'tei62n]
-n.ÑûÇë£¬ÕĞ´ı£»Çë¼í
+n.é‚€è¯·ï¼Œæ‹›å¾…ï¼›è¯·æŸ¬
 2067. invite[in'vait]
-vt.ÑûÇë£¬Æ¸Çë£»ÕĞ´ı
+vt.é‚€è¯·ï¼Œè˜è¯·ï¼›æ‹›å¾…
 2068. involve[in'v0lv]
-vt.Ê¹¾íÈë£»Ç£Éæ
+vt.ä½¿å·å…¥ï¼›ç‰µæ¶‰
 2069. inward['inw2d]
-a.ÀïÃæµÄ ad.ÏòÄÚ
+a.é‡Œé¢çš„ ad.å‘å†…
 2070. iron['ai2n]
-n.Ìú£»ÀÓÌú vt.ÌÌ(ÒÂ)
+n.é“ï¼›çƒ™é“ vt.çƒ«(è¡£)
 2071. irregular[i'regjul2]
-a.²»¹æÔòµÄ£»²»ÕûÆëµÄ
+a.ä¸è§„åˆ™çš„ï¼›ä¸æ•´é½çš„
 2072. island['ail2nd]
-n.µº£¬µºÓì
+n.å²›ï¼Œå²›å±¿
 2073. isolate['ais2leit]
-vt.Ê¹¸ôÀë£¬Ê¹¹ÂÁ¢
+vt.ä½¿éš”ç¦»ï¼Œä½¿å­¤ç«‹
 2074. issue['i6u:]
-n.ÎÊÌâ£»·¢ĞĞ vt.·¢ĞĞ
+n.é—®é¢˜ï¼›å‘è¡Œ vt.å‘è¡Œ
 2075. it[it]
-pron.Õâ£¬ÄÇ£¬Ëü
+pron.è¿™ï¼Œé‚£ï¼Œå®ƒ
 2076. Italian[i't9lj2n]
-a.Òâ´óÀûµÄn.Òâ´óÀûÈË
+a.æ„å¤§åˆ©çš„n.æ„å¤§åˆ©äºº
 2077. item['ait2m]
-n.Ìõ£¬Ìõ¿î£»Ò»Ìõ
+n.æ¡ï¼Œæ¡æ¬¾ï¼›ä¸€æ¡
 2078. its[its]
-pron.ËüµÄ
+pron.å®ƒçš„
 2079. itself[it'self]
-pron.Ëü×Ô¼º£»×ÔÉí
+pron.å®ƒè‡ªå·±ï¼›è‡ªèº«
 2080. jacket['d79kit]
-n.¶ÌÉÏÒÂ£¬ÇÑ¿ËÉÀ
+n.çŸ­ä¸Šè¡£ï¼ŒèŒ„å…‹è¡«
 2081. jail[d7eil]
-n.¼àÓü vi.¼à½û
+n.ç›‘ç‹± vi.ç›‘ç¦
 2082. jam[d79m]
-n.¹û½´
+n.æœé…±
 2083. jam[d79m]
-vt.Ê¹ÈûÂú£»Ê¹¶ÂÈû
+vt.ä½¿å¡æ»¡ï¼›ä½¿å µå¡
 2084. January['d79nju2ri]
-n.Ò»ÔÂ
+n.ä¸€æœˆ
 2085. Japan[d72'p9n]
-n.ÈÕ±¾£¬ÈÕ±¾¹ú
+n.æ—¥æœ¬ï¼Œæ—¥æœ¬å›½
 2086. Japanese[d79p2'ni:z]
-a.ÈÕ±¾µÄ n.ÈÕ±¾ÈË
+a.æ—¥æœ¬çš„ n.æ—¥æœ¬äºº
 2087. jar[d7a:]
-n.¹Ş×Ó£¬Ì³×Ó£¬¹ã¿ÚÆ¿
+n.ç½å­ï¼Œå›å­ï¼Œå¹¿å£ç“¶
 2088. jaw[d70:]
-n.ò¢£¬ò¦
+n.é¢Œï¼Œé¢š
 2089. jazz[d79z]
-n.¾ôÊ¿ÒôÀÖ£¬¾ôÊ¿ÎèÇú
+n.çˆµå£«éŸ³ä¹ï¼Œçˆµå£«èˆæ›²
 2090. jealous['d7el2s]
-a.¶Ê¼ÉµÄ£»²ÂÒÉµÄ
+a.å¦’å¿Œçš„ï¼›çŒœç–‘çš„
 2091. jet[d7et]
-n.ÅçÆøÊ½·É»ú£»Åç×ì
+n.å–·æ°”å¼é£æœºï¼›å–·å˜´
 2092. jewel['d7u:2l]
-n.±¦Ê¯£»±¦Ê¯ÊÎÎï
+n.å®çŸ³ï¼›å®çŸ³é¥°ç‰©
 2093. jewish['d7u(:)i6]
-a.ÓÌÌ«ÈËµÄ
+a.çŠ¹å¤ªäººçš„
 2094. job[d70b]
-n.Ö°Òµ£»¹¤×÷£»Áã»î
+n.èŒä¸šï¼›å·¥ä½œï¼›é›¶æ´»
 2095. join[d70in]
-vt.²Î¼Ó£»Á¬½Ó
+vt.å‚åŠ ï¼›è¿æ¥
 2096. joint[d70int]
-n.½ÓÍ·£¬½Ó·ì£»¹Ø½Ú
+n.æ¥å¤´ï¼Œæ¥ç¼ï¼›å…³èŠ‚
 2097. joke[d72uk]
-n.Ğ¦»° vi.ËµĞ¦»°
+n.ç¬‘è¯ vi.è¯´ç¬‘è¯
 2098. jolly['d70li]
-a.¿ì»îµÄ£»ÁîÈË¸ßĞËµÄ
+a.å¿«æ´»çš„ï¼›ä»¤äººé«˜å…´çš„
 2099. journal['d72:nl]
-n.ÈÕ±¨£¬ÔÓÖ¾£»ÈÕÖ¾
+n.æ—¥æŠ¥ï¼Œæ‚å¿—ï¼›æ—¥å¿—
 2100. journalist['d72:n2list]
-n.¼ÇÕß£¬ĞÂÎÅ¹¤×÷Õß
+n.è®°è€…ï¼Œæ–°é—»å·¥ä½œè€…
 2101. journey['d72:ni]
-n.ÂÃĞĞ£¬ÂÃ³Ì n.ÂÃĞĞ
+n.æ—…è¡Œï¼Œæ—…ç¨‹ n.æ—…è¡Œ
 2102. joy[d70i]
-n.»¶ÀÖ£¬Ï²ÔÃ£»ÀÖÊÂ
+n.æ¬¢ä¹ï¼Œå–œæ‚¦ï¼›ä¹äº‹
 2103. joyful['d70iful]
-a.Ê®·ÖÏ²ÔÃµÄ£¬¿ìÀÖµÄ
+a.ååˆ†å–œæ‚¦çš„ï¼Œå¿«ä¹çš„
 2104. judge[d73d7]
-n.·¨¹Ù£»²ÃÅĞÔ±
+n.æ³•å®˜ï¼›è£åˆ¤å‘˜
 2105. judgement['d73d7m2nt]
-n.Òâ¼û£»ÉóÅĞ£»ÅĞ¶Ï
+n.æ„è§ï¼›å®¡åˆ¤ï¼›åˆ¤æ–­
 2106. juice[d7u:s]
-n.(Ë®¹ûµÈ)Ö­£¬Òº
+n.(æ°´æœç­‰)æ±ï¼Œæ¶²
 2107. July[d7u:'lai]
-n.ÆßÔÂ
+n.ä¸ƒæœˆ
 2108. jump[d73mp]
-vi.Ìø£»±©ÕÇ vt.Ìø¹ı
+vi.è·³ï¼›æš´æ¶¨ vt.è·³è¿‡
 2109. June[d7u:n]
-n.ÁùÔÂ
+n.å…­æœˆ
 2110. jungle['d738gl]
-n.´ÔÁÖ£¬ÃÜÁÖ£¬Ã§´Ô
+n.ä¸›æ—ï¼Œå¯†æ—ï¼Œè½ä¸›
 2111. junior['d7u:nj2]
-a.ÄêÉÙµÄ n.Íí±²
+a.å¹´å°‘çš„ n.æ™šè¾ˆ
 2112. jury['d7u2ri]
-n.ÅãÉóÍÅ£»ÆÀ½±ÍÅ
+n.é™ªå®¡å›¢ï¼›è¯„å¥–å›¢
 2113. just[d73st]
-ad.¸Õ²Å£»Ö»ÊÇ£»ÕıºÃ
+ad.åˆšæ‰ï¼›åªæ˜¯ï¼›æ­£å¥½
 2114. justice['d73stis]
-n.ÕıÒå£¬¹«Õı£»Ë¾·¨
+n.æ­£ä¹‰ï¼Œå…¬æ­£ï¼›å¸æ³•
 2115. justify['d73stifai]
-vt.Ö¤Ã÷¡­ÊÇÕıµ±µÄ
+vt.è¯æ˜â€¦æ˜¯æ­£å½“çš„
 2116. keen[ki:n]
-a.ÈÈĞÄµÄ£»¼¤ÁÒµÄ
+a.çƒ­å¿ƒçš„ï¼›æ¿€çƒˆçš„
 2117. keep[ki:p]
-vi.±£³Ö£»¼á³Ö
+vi.ä¿æŒï¼›åšæŒ
 2118. keeper['ki:p2]
-n.¿´»¤ÈË£»ËÇÑøÔ±
+n.çœ‹æŠ¤äººï¼›é¥²å…»å‘˜
 2119. kettle['ketl]
-n.Ë®ºø£¬Ë®¹ø
+n.æ°´å£¶ï¼Œæ°´é”…
 2120. key[ki:]
-n.Ô¿³×£»¼ü£»´ğ°¸
+n.é’¥åŒ™ï¼›é”®ï¼›ç­”æ¡ˆ
 2121. keyboard['kib0:d]
-n.¼üÅÌ
+n.é”®ç›˜
 2122. kick[kik]
-vi.&vt.&n.Ìß
+vi.&vt.&n.è¸¢
 2123. kid[kid]
-n.Ğ¡º¢£¬¶ùÍ¯£¬ÉÙÄê
+n.å°å­©ï¼Œå„¿ç«¥ï¼Œå°‘å¹´
 2124. kill[kil]
-vi.É±ËÀ£»¶óÉ±£»ÏûÄ¥
+vi.æ€æ­»ï¼›æ‰¼æ€ï¼›æ¶ˆç£¨
 2125. kilogram['kil2gr9m]
-n.Ç§¿Ë£¬¹«½ï
+n.åƒå…‹ï¼Œå…¬æ–¤
 2126. kilometer['kil2mi:t2]
-n.Ç§Ã×£¬¹«Àï
+n.åƒç±³ï¼Œå…¬é‡Œ
 2127. kind[kaind]
-n.ÖÖÀà
+n.ç§ç±»
 2128. kind[kaind]
-a.ÓÑºÃµÄ£»ºÍ°ªµÄ
+a.å‹å¥½çš„ï¼›å’Œè”¼çš„
 2129. kindness['kaindnis]
-n.ÈÊ´È£¬ºÃÒâ
+n.ä»æ…ˆï¼Œå¥½æ„
 2130. king[ki8]
-n.¹úÍõ£¬¾ıÖ÷
+n.å›½ç‹ï¼Œå›ä¸»
 2131. kingdom['ki8d2m]
-n.Íõ¹ú£»ÁìÓò£¬½ç
+n.ç‹å›½ï¼›é¢†åŸŸï¼Œç•Œ
 2132. kiss[kis]
-vt.ÎÇ vi.½ÓÎÇ n.ÎÇ
+vt.å» vi.æ¥å» n.å»
 2133. kitchen['kit6in]
-n.³ø·¿£¬Ôî¼ä
+n.å¨æˆ¿ï¼Œç¶é—´
 2134. kite[kait]
-n.·çóİ
+n.é£ç­
 2135. knee[ni:]
-n.Ï¥£¬Ï¥¸Ç£¬Ï¥¹Ø½Ú
+n.è†ï¼Œè†ç›–ï¼Œè†å…³èŠ‚
 2136. kneel[ni:l]
-vi.¹ò£¬¹òÏÂ£¬¹ò×Å
+vi.è·ªï¼Œè·ªä¸‹ï¼Œè·ªç€
 2137. knife[naif]
-n.Ğ¡µ¶£¬µ¶£¬²Íµ¶
+n.å°åˆ€ï¼Œåˆ€ï¼Œé¤åˆ€
 2138. knit[nit]
-vt.°Ñ¡­±à½á vi.±àÖ¯
+vt.æŠŠâ€¦ç¼–ç»“ vi.ç¼–ç»‡
 2139. knob[n0b]
-n.ÃÅ°Ñ£¬À­ÊÖ£»ĞıÅ¦
+n.é—¨æŠŠï¼Œæ‹‰æ‰‹ï¼›æ—‹çº½
 2140. knock[n0k]
-vi.&vt.&n.ÇÃ£¬»÷£¬´ò
+vi.&vt.&n.æ•²ï¼Œå‡»ï¼Œæ‰“
 2141. knot[n0t]
-n.(ÉşµÄ)½á£¬(Ê÷µÄ)½Ú
+n.(ç»³çš„)ç»“ï¼Œ(æ ‘çš„)èŠ‚
 2142. know[n2u]
-vt.ÖªµÀ£»ÈÏÊ¶£»Í¨Ïş
+vt.çŸ¥é“ï¼›è®¤è¯†ï¼›é€šæ™“
 2143. knowledge['n0lid7]
-n.ÖªÊ¶£¬Ñ§Ê¶£»ÖªµÀ
+n.çŸ¥è¯†ï¼Œå­¦è¯†ï¼›çŸ¥é“
 2144. lab[l9b]
-n.ÊµÑéÊÒ£¬ÑĞ¾¿ÊÒ
+n.å®éªŒå®¤ï¼Œç ”ç©¶å®¤
 2145. label['leibl]
-n.±êÇ©£»±ê¼Ç£¬·ûºÅ
+n.æ ‡ç­¾ï¼›æ ‡è®°ï¼Œç¬¦å·
 2146. laboratory[l2'b0r2tri]
-n.ÊµÑéÊÒ£¬ÑĞ¾¿ÊÒ
+n.å®éªŒå®¤ï¼Œç ”ç©¶å®¤
 2147. labour['leib2]
-n.ÀÍ¶¯£»¹¤×÷£»ÀÍ¹¤
+n.åŠ³åŠ¨ï¼›å·¥ä½œï¼›åŠ³å·¥
 2148. lace[leis]
-n.Ğ¬´ø£¬Ïµ´ø£»»¨±ß
+n.é‹å¸¦ï¼Œç³»å¸¦ï¼›èŠ±è¾¹
 2149. lack[l9k]
-vi.&vi.&n.È±·¦£¬²»×ã
+vi.&vi.&n.ç¼ºä¹ï¼Œä¸è¶³
 2150. ladder['l9d2]
-n.Ìİ×Ó£¬Ìİ×´Îï
+n.æ¢¯å­ï¼Œæ¢¯çŠ¶ç‰©
 2151. lady['leidi]
-n.Å®Ê¿£¬·òÈË£»¹ó¸¾ÈË
+n.å¥³å£«ï¼Œå¤«äººï¼›è´µå¦‡äºº
 2152. lag[l9g]
-vi.×ßµÃÂı n.Âäºó
+vi.èµ°å¾—æ…¢ n.è½å
 2153. lake[leik]
-n.ºş
+n.æ¹–
 2154. lamb[l9m]
-n.¸áÑò£¬Ğ¡Ñò£»¸áÑòÈâ
+n.ç¾”ç¾Šï¼Œå°ç¾Šï¼›ç¾”ç¾Šè‚‰
 2155. lame[leim]
-a.õËµÄ£»È³µÄ£¬²Ğ·ÏµÄ
+a.è·›çš„ï¼›ç˜¸çš„ï¼Œæ®‹åºŸçš„
 2156. lamp[l9mp]
-n.µÆ
+n.ç¯
 2157. land[l9nd]
-n.Â½µØ£»ÍÁµØ vi.ÉÏ°¶
+n.é™†åœ°ï¼›åœŸåœ° vi.ä¸Šå²¸
 2158. landing['l9ndi8]
-n.ÉÏ°¶£¬µÇÂ½£¬×ÅÂ½
+n.ä¸Šå²¸ï¼Œç™»é™†ï¼Œç€é™†
 2159. landlady['l9ndleidi]
-n.Å®·¿¶«£»Å®µØÖ÷
+n.å¥³æˆ¿ä¸œï¼›å¥³åœ°ä¸»
 2160. landlord['l9ndl0:d]
-n.µØÖ÷£»·¿¶«£¬µêÖ÷
+n.åœ°ä¸»ï¼›æˆ¿ä¸œï¼Œåº—ä¸»
 2161. lane[lein]
-n.(Ïç¼ä)Ğ¡Â·£»ÅÜµÀ
+n.(ä¹¡é—´)å°è·¯ï¼›è·‘é“
 2162. language['l98gwid7]
-n.ÓïÑÔ£¬ÓïÑÔ¿Î³Ì
+n.è¯­è¨€ï¼Œè¯­è¨€è¯¾ç¨‹
 2163. lantern['l9nt2n]
-n.ÌáµÆ£¬µÆÁı
+n.æç¯ï¼Œç¯ç¬¼
 2164. lap[l9p]
-n.Ï¥²¿£»Ò»È¦
+n.è†éƒ¨ï¼›ä¸€åœˆ
 2165. large[la:d7]
-a.´óµÄ£»¾Ş´óµÄ
+a.å¤§çš„ï¼›å·¨å¤§çš„
 2166. largely['la:d7li]
-ad.´ó²¿·Ö£»´óÁ¿µØ
+ad.å¤§éƒ¨åˆ†ï¼›å¤§é‡åœ°
 2167. laser['leiz2]
-n.¼¤¹â
+n.æ¿€å…‰
 2168. last[la:st]
-a.×îºóµÄ ad.×îºó
+a.æœ€åçš„ ad.æœ€å
 2169. last[la:st]
-vi.³ÖĞø£¬³Ö¾Ã£»ÄÍ¾Ã
+vi.æŒç»­ï¼ŒæŒä¹…ï¼›è€ä¹…
 2170. late[leit]
-a.³ÙµÄ ad.³Ù£¬Íí
+a.è¿Ÿçš„ ad.è¿Ÿï¼Œæ™š
 2171. lately['leitli]
-ad.×î½ü£¬²»¾ÃÇ°
+ad.æœ€è¿‘ï¼Œä¸ä¹…å‰
 2172. later['leit2]
-ad.ºóÀ´£»¹ıÒ»»á¶ù
+ad.åæ¥ï¼›è¿‡ä¸€ä¼šå„¿
 2173. Latin['l9tin]
-a.À­¶¡µÄ n.À­¶¡Óï
+a.æ‹‰ä¸çš„ n.æ‹‰ä¸è¯­
 2174. latter['l9t2]
-a.(Á½ÕßÖĞ)ºóÕßµÄ
+a.(ä¸¤è€…ä¸­)åè€…çš„
 2175. laugh[la:f]
-vi.Ğ¦£¬·¢Ğ¦ n.Ğ¦
+vi.ç¬‘ï¼Œå‘ç¬‘ n.ç¬‘
 2176. laughter[la:ft2]
-n.Ğ¦£¬Ğ¦Éù
+n.ç¬‘ï¼Œç¬‘å£°
 2177. launch[l0:nt6]
-vt.·¢Éä£¬Í¶Éä£»·¢¶¯
+vt.å‘å°„ï¼ŒæŠ•å°„ï¼›å‘åŠ¨
 2178. laundry['l0:ndri]
-n.Ï´ÒÂ·¿£¬Ï´ÒÂµê
+n.æ´—è¡£æˆ¿ï¼Œæ´—è¡£åº—
 2179. lavatory['l9v2t2ri]
-n.îÂÏ´ÊÒ£¬²ŞËù
+n.ç›¥æ´—å®¤ï¼Œå•æ‰€
 2180. law[l0:]
-n.·¨ÂÉ£¬·¨Áî£»·¨Ôò
+n.æ³•å¾‹ï¼Œæ³•ä»¤ï¼›æ³•åˆ™
 2181. lawn[l0:n]
-n.²İµØ£¬²İÆº£¬²İ³¡
+n.è‰åœ°ï¼Œè‰åªï¼Œè‰åœº
 2182. lawyer['l0:j2]
-n.ÂÉÊ¦£»·¨Ñ§¼Ò
+n.å¾‹å¸ˆï¼›æ³•å­¦å®¶
 2183. lay[lei]
-vt.ÖÃ·Å£»ÆÌÉè£»ÉèÖÃ
+vt.ç½®æ”¾ï¼›é“ºè®¾ï¼›è®¾ç½®
 2184. layer['lei2]
-n.²ã£¬²ã´Î£»ÆÌÉèÕß
+n.å±‚ï¼Œå±‚æ¬¡ï¼›é“ºè®¾è€…
 2185. layout['leiaut]
-n.²¼¾Ö£¬°²ÅÅ£¬Éè¼Æ
+n.å¸ƒå±€ï¼Œå®‰æ’ï¼Œè®¾è®¡
 2186. lazy['leizi]
-a.ÀÁ¶èµÄ£¬ÀÁÉ¢µÄ
+a.æ‡’æƒ°çš„ï¼Œæ‡’æ•£çš„
 2187. lead[li:d]
-vt.Îª¡­´øÂ·£»Áìµ¼
+vt.ä¸ºâ€¦å¸¦è·¯ï¼›é¢†å¯¼
 2188. lead[li:d]
-n.Ç¦£¬Ç¦ÖÆÆ·
+n.é“…ï¼Œé“…åˆ¶å“
 2189. leader['li:d2]
-n.ÁìĞä£¬Áìµ¼ÈË£»Ê×Áì
+n.é¢†è¢–ï¼Œé¢†å¯¼äººï¼›é¦–é¢†
 2190. leadership['li:d26ip]
-n.Áìµ¼
+n.é¢†å¯¼
 2191. leading['li:di8]
-a.Ö¸µ¼µÄ£»×îÖ÷ÒªµÄ
+a.æŒ‡å¯¼çš„ï¼›æœ€ä¸»è¦çš„
 2192. leaf[li:f]
-n.Ò¶£¬Ò¶×Ó
+n.å¶ï¼Œå¶å­
 2193. league[li:g]
-n.Í¬ÃË£¬ÁªÃË£»ÁªºÏ»á
+n.åŒç›Ÿï¼Œè”ç›Ÿï¼›è”åˆä¼š
 2194. leak[li:k]
-vi.Â©£»Ğ¹Â¶ n.Â©¶´
+vi.æ¼ï¼›æ³„éœ² n.æ¼æ´
 2195. lean[li:n]
-vi.ÇãĞ±£¬ÇüÉí£»¿¿
+vi.å€¾æ–œï¼Œå±ˆèº«ï¼›é 
 2196. leap[li:p]
-vi.Ìø£¬Ô¾ n.ÌøÔ¾
+vi.è·³ï¼Œè·ƒ n.è·³è·ƒ
 2197. learn[l2:n]
-vi.&vt.Ñ§£¬Ñ§Ï°
+vi.&vt.å­¦ï¼Œå­¦ä¹ 
 2198. learned['l2:nid]
-a.ÓĞÑ§ÎÊµÄ£»Ñ§ÊõÉÏµÄ
+a.æœ‰å­¦é—®çš„ï¼›å­¦æœ¯ä¸Šçš„
 2199. learning['l2:ni8]
-n.Ñ§Ï°£»Ñ§ÎÊ£¬ÖªÊ¶
+n.å­¦ä¹ ï¼›å­¦é—®ï¼ŒçŸ¥è¯†
 2200. least[li:st]
-a.×îÉÙµÄ ad.×îÉÙ
+a.æœ€å°‘çš„ ad.æœ€å°‘
 2201. leather['le52]
-n.Æ¤¸ï£»Æ¤¸ïÖÆÆ·
+n.çš®é©ï¼›çš®é©åˆ¶å“
 2202. leave[li:v]
-vi.ÀëÈ¥ vt.Àë¿ª
+vi.ç¦»å» vt.ç¦»å¼€
 2203. lecture['lekt62]
-n.&vi.Ñİ½²£¬½²¿Î
+n.&vi.æ¼”è®²ï¼Œè®²è¯¾
 2204. left[left]
-a.×ó±ßµÄ ad.ÔÚ×ó±ß
+a.å·¦è¾¹çš„ ad.åœ¨å·¦è¾¹
 2205. leg[leg]
-n.ÍÈ£¬ÍÈ²¿
+n.è…¿ï¼Œè…¿éƒ¨
 2206. legal['li:gl]
-a.·¨ÂÉµÄ£»ºÏ·¨µÄ
+a.æ³•å¾‹çš„ï¼›åˆæ³•çš„
 2207. legend['led72nd]
-n.´«Ëµ£¬´«Ææ
+n.ä¼ è¯´ï¼Œä¼ å¥‡
 2208. leisure['le72]
-n.¿ÕÏĞÊ±¼ä£»ÓÆÏĞ
+n.ç©ºé—²æ—¶é—´ï¼›æ‚ é—²
 2209. lemon['lem2n]
-n.ÄûÃÊ£¬ÄûÃÊÊ÷
+n.æŸ æª¬ï¼ŒæŸ æª¬æ ‘
 2210. lend[lend]
-vt.°Ñ¡­½è¸ø£¬´û(¿î)
+vt.æŠŠâ€¦å€Ÿç»™ï¼Œè´·(æ¬¾)
 2211. length[le84]
-n.³¤£¬³¤¶È£»Ò»¶Î
+n.é•¿ï¼Œé•¿åº¦ï¼›ä¸€æ®µ
 2212. lens[lenz]
-n.Í¸¾µ£¬¾µÆ¬£»¾µÍ·
+n.é€é•œï¼Œé•œç‰‡ï¼›é•œå¤´
 2213. less[les]
-a.¸üÉÙµÄ ad.¸üÉÙµØ
+a.æ›´å°‘çš„ ad.æ›´å°‘åœ°
 2214. lessen['lesn]
-vt.¼õÉÙ£¬¼õÇá£»ËõĞ¡
+vt.å‡å°‘ï¼Œå‡è½»ï¼›ç¼©å°
 2215. lesson['lesn]
-n.¹¦¿Î£¬¿Î£»¿Î³Ì
+n.åŠŸè¯¾ï¼Œè¯¾ï¼›è¯¾ç¨‹
 2216. lest[lest]
-conj.Î©¿Ö£¬ÒÔÃâ
+conj.æƒŸæï¼Œä»¥å…
 2217. let[let]
-vt.ÔÊĞí£¬ÈÃ£»Ê¹
+vt.å…è®¸ï¼Œè®©ï¼›ä½¿
 2218. letter['let2]
-n.ĞÅ£»Ö¤Êé£»×ÖÄ¸
+n.ä¿¡ï¼›è¯ä¹¦ï¼›å­—æ¯
 2219. level['levl]
-n.Ë®Æ½Ãæ a.Ë®Æ½µÄ
+n.æ°´å¹³é¢ a.æ°´å¹³çš„
 2220. lever['li:v2]
-n.¸Ë£¬¸Ü¸Ë£»¿ØÖÆ¸Ë
+n.æ†ï¼Œæ æ†ï¼›æ§åˆ¶æ†
 2221. liable['lai2bl]
-a.Ò×ÓÚ¡­µÄ£»¿ÉÄÜµÄ
+a.æ˜“äºâ€¦çš„ï¼›å¯èƒ½çš„
 2222. liar['lai2]
-n.Ëµ»ÑµÄÈË
+n.è¯´è°çš„äºº
 2223. liberal['lib2r2l]
-a.ĞÄĞØ¿í´óµÄ£»¿¶¿®µÄ
+a.å¿ƒèƒ¸å®½å¤§çš„ï¼›æ…·æ…¨çš„
 2224. liberate['lib2reit]
-vt.½â·Å£»ÊÍ·Å
+vt.è§£æ”¾ï¼›é‡Šæ”¾
 2225. liberation[lib2'rei62n]
-n.½â·Å
+n.è§£æ”¾
 2226. liberty['lib2ti]
-n.×ÔÓÉ£»ÊÍ·Å£»Ğí¿É
+n.è‡ªç”±ï¼›é‡Šæ”¾ï¼›è®¸å¯
 2227. librarian[lai'br/2ri2n]
-n.Í¼Êé¹İ¹İ³¤
+n.å›¾ä¹¦é¦†é¦†é•¿
 2228. library['laibr2ri]
-n.Í¼Êé¹İ£»²ØÊé
+n.å›¾ä¹¦é¦†ï¼›è—ä¹¦
 2229. license['lais2ns]
-n.Ğí¿É£»Ö´ÕÕ vt.×¼Ğí
+n.è®¸å¯ï¼›æ‰§ç…§ vt.å‡†è®¸
 2230. lick[lik]
-vt.Ìò£»Ìò³Ô
+vt.èˆ”ï¼›èˆ”åƒ
 2231. lid[lid]
-n.¸Ç×Ó£¬¸Ç£¬ÄÒ¸Ç
+n.ç›–å­ï¼Œç›–ï¼Œå›Šç›–
 2232. lie[lai]
-vi.ÌÉ£¬Æ½·Å£»Î»ÓÚ
+vi.èººï¼Œå¹³æ”¾ï¼›ä½äº
 2233. lie[lai]
-vi.Ëµ»Ñ£¬ÆÛÆ­ n.»Ñ»°
+vi.è¯´è°ï¼Œæ¬ºéª— n.è°è¯
 2234. lieutenant[lef'ten2nt]
-n.Â½¾üÖĞÎ¾£»¸±Ö°¹ÙÔ±
+n.é™†å†›ä¸­å°‰ï¼›å‰¯èŒå®˜å‘˜
 2235. life[laif]
-n.ÉúÃü£»Ò»Éú£»ÊÙÃü
+n.ç”Ÿå‘½ï¼›ä¸€ç”Ÿï¼›å¯¿å‘½
 2236. lifetime['laiftaim]
-n.Ò»Éú£¬ÖÕÉí
+n.ä¸€ç”Ÿï¼Œç»ˆèº«
 2237. lift[lift]
-vt.ÌáÆğ£¬Ìá¸ß n.µçÌİ
+vt.æèµ·ï¼Œæé«˜ n.ç”µæ¢¯
 2238. light[lait]
-n.¹â£¬¹âÏß£»µÆ£¬¹âÔ´
+n.å…‰ï¼Œå…‰çº¿ï¼›ç¯ï¼Œå…‰æº
 2239. light[lait]
-a.ÇáµÄ£¬ÉÙÁ¿µÄ
+a.è½»çš„ï¼Œå°‘é‡çš„
 2240. lighten['laitn]
-vt.ÕÕÁÁ£¬Ê¹Ã÷ÁÁ
+vt.ç…§äº®ï¼Œä½¿æ˜äº®
 2241. lightly['laitli]
-ad.ÇáÇáµØ£¬ÇáËÉµØ
+ad.è½»è½»åœ°ï¼Œè½»æ¾åœ°
 2242. lightning['laitni8]
-n.ÉÁµç£¬ÉÁµç·Åµç
+n.é—ªç”µï¼Œé—ªç”µæ”¾ç”µ
 2243. like[laik]
-vt.Ï²»¶£»Ï²°®£»Ï£Íû
+vt.å–œæ¬¢ï¼›å–œçˆ±ï¼›å¸Œæœ›
 2244. like[laik]
-prep.Ïñ£¬Èç£»ÏñÒª
+prep.åƒï¼Œå¦‚ï¼›åƒè¦
 2245. likely['laikli]
-a.¿ÉÄÜµÄ ad.ºÜ¿ÉÄÜ
+a.å¯èƒ½çš„ ad.å¾ˆå¯èƒ½
 2246. likewise['laikwaiz]
-ad.Í¬ÑùµØ£»Ò²£¬ÓÖ
+ad.åŒæ ·åœ°ï¼›ä¹Ÿï¼Œåˆ
 2247. limb[lim]
-n.Ö«£¬±Û£¬Òí£»Ê÷Ö¦
+n.è‚¢ï¼Œè‡‚ï¼Œç¿¼ï¼›æ ‘æ
 2248. lime[laim]
-n.Ê¯»Ò
+n.çŸ³ç°
 2249. limit['limit]
-n.ÏŞ¶È£»ÏŞÖÆ£»·¶Î§
+n.é™åº¦ï¼›é™åˆ¶ï¼›èŒƒå›´
 2250. limitation[limi'tei62n]
-n.ÏŞÖÆ£»ÏŞ¶È£¬¾ÖÏŞ
+n.é™åˆ¶ï¼›é™åº¦ï¼Œå±€é™
 2251. limited['limitid]
-a.ÓĞÏŞµÄ
+a.æœ‰é™çš„
 2252. line[lain]
-n.Ïß£»ÅÅ£»Â·Ïß£»ÏßÌõ
+n.çº¿ï¼›æ’ï¼›è·¯çº¿ï¼›çº¿æ¡
 2253. linen['linin]
-n.ÑÇÂé²¼£»ÑÇÂéÖ¯Îï
+n.äºšéº»å¸ƒï¼›äºšéº»ç»‡ç‰©
 2254. liner['lain2]
-n.°à´¬£¬°à»ú
+n.ç­èˆ¹ï¼Œç­æœº
 2255. link[li8k]
-vt.ÓĞ»·Á¬½Ó n.»·
+vt.æœ‰ç¯è¿æ¥ n.ç¯
 2256. lion['lai2n]
-n.Ê¨×Ó£»ÓÂÃÍµÄÈË
+n.ç‹®å­ï¼›å‹‡çŒ›çš„äºº
 2257. lip[lip]
-n.×ì´½
+n.å˜´å”‡
 2258. liquid['likwid]
-n.ÒºÌå a.ÒºÌåµÄ
+n.æ¶²ä½“ a.æ¶²ä½“çš„
 2259. liquor['lik2]
-n.¾Æ£»ÈÜÒº£¬Òº¼Á
+n.é…’ï¼›æº¶æ¶²ï¼Œæ¶²å‰‚
 2260. list[list]
-n.±í£¬Ä¿Â¼ n.ÁĞ¾Ù
+n.è¡¨ï¼Œç›®å½• n.åˆ—ä¸¾
 2261. listen['lisn]
-vi.Ìı£¬ÁôÉñÌı£»Ìı´Ó
+vi.å¬ï¼Œç•™ç¥å¬ï¼›å¬ä»
 2262. listener['lisn2]
-n.ÌıÕß£¬ÌıÖÚÖ®Ò»
+n.å¬è€…ï¼Œå¬ä¼—ä¹‹ä¸€
 2263. liter['li:t2]
-n.Éı(ÈİÁ¿µ¥Î»)
+n.å‡(å®¹é‡å•ä½)
 2264. literary['lit2r2ri]
-a.ÎÄÑ§(ÉÏ)µÄ
+a.æ–‡å­¦(ä¸Š)çš„
 2265. literature['lit2rit62]
-n.ÎÄÑ§£»ÎÄÏ×
+n.æ–‡å­¦ï¼›æ–‡çŒ®
 2266. little['litl]
-a.Ğ¡µÄ£»ÉÙ£»Ó×Ğ¡µÄ
+a.å°çš„ï¼›å°‘ï¼›å¹¼å°çš„
 2267. live[liv laiv]
-vi.¾Ó×¡£»»î a.»îµÄ
+vi.å±…ä½ï¼›æ´» a.æ´»çš„
 2268. lively['laivli]
-a.»îÆÃµÄ£»±ÆÕæµÄ
+a.æ´»æ³¼çš„ï¼›é€¼çœŸçš„
 2269. liver['liv2]
-n.¸Î£»¸ÎÔà
+n.è‚ï¼›è‚è„
 2270. living['livi8]
-a.»îµÄ n.Éú»î£¬Éú¼Æ
+a.æ´»çš„ n.ç”Ÿæ´»ï¼Œç”Ÿè®¡
 2271. living-room['livi8'ru:m]
-n.Æğ¾ÓÊÒ
+n.èµ·å±…å®¤
 2272. load[l2ud]
-vt.×°£»×°Âú n.¸ºÔØ
+vt.è£…ï¼›è£…æ»¡ n.è´Ÿè½½
 2273. loaf[l2uf]
-n.Ò»ÌõÃæ°ü£¬Ò»¸öÃæ°ü
+n.ä¸€æ¡é¢åŒ…ï¼Œä¸€ä¸ªé¢åŒ…
 2274. loan[l2un]
-n.´û¿î£»Ôİ½è vt.½è³ö
+n.è´·æ¬¾ï¼›æš‚å€Ÿ vt.å€Ÿå‡º
 2275. local['l2uk2l]
-a.µØ·½µÄ£»¾Ö²¿µÄ
+a.åœ°æ–¹çš„ï¼›å±€éƒ¨çš„
 2276. locate[l2u'keit]
-vt.Ì½Ã÷£¬ÕÒ³ö£¬²é³ö
+vt.æ¢æ˜ï¼Œæ‰¾å‡ºï¼ŒæŸ¥å‡º
 2277. location[l2u'kei62n]
-n.Î»ÖÃ£¬³¡Ëù
+n.ä½ç½®ï¼Œåœºæ‰€
 2278. lock[l0k]
-n.Ëø vt.ËøÉÏ£¬Ëø×¡
+n.é” vt.é”ä¸Šï¼Œé”ä½
 2279. locomotive['l2uk2m2utiv]
-n.»ğ³µÍ·£¬»ú³µ
+n.ç«è½¦å¤´ï¼Œæœºè½¦
 2280. lodge[l0d7]
-vi.Ôİ×¡£¬½èËŞ£¬Í¶ËŞ
+vi.æš‚ä½ï¼Œå€Ÿå®¿ï¼ŒæŠ•å®¿
 2281. log[l0g]
-n.Ô­Ä¾£¬Ä¾ÁÏ
+n.åŸæœ¨ï¼Œæœ¨æ–™
 2282. logic['l0d7ik]
-n.Âß¼­£¬ÍÆÀí£»Âß¼­ĞÔ
+n.é€»è¾‘ï¼Œæ¨ç†ï¼›é€»è¾‘æ€§
 2283. logical['l0d7ik2l]
-a.Âß¼­µÄ£»·ûºÏÂß¼­µÄ
+a.é€»è¾‘çš„ï¼›ç¬¦åˆé€»è¾‘çš„
 2284. lonely['l2unli]
-a.¹Â¶ÀµÄ£»»ÄÁ¹µÄ
+a.å­¤ç‹¬çš„ï¼›è’å‡‰çš„
 2285. long[l08]
-a.³¤µÄ£»Ô¶µÄ ad.³¤¾Ã
+a.é•¿çš„ï¼›è¿œçš„ ad.é•¿ä¹…
 2286. long[l08]
-vi.¿ÊÍû£¬¼«ÏëÄî
+vi.æ¸´æœ›ï¼Œææƒ³å¿µ
 2287. look[luk]
-vi.¿´£¬ÏÔµÃ n.¿´
+vi.çœ‹ï¼Œæ˜¾å¾— n.çœ‹
 2288. loop[lu:p]
-n.È¦£¬»·£¬»·¿×
+n.åœˆï¼Œç¯ï¼Œç¯å­”
 2289. loose[lu:s]
-a.ËÉµÄ£»¿íËÉµÄ
+a.æ¾çš„ï¼›å®½æ¾çš„
 2290. loosen['lu:sn]
-vt.½â¿ª£»Ê¹ËÉ³Û
+vt.è§£å¼€ï¼›ä½¿æ¾é©°
 2291. lord[l0:d]
-n.¹ó×å£»ÉÏµÛ£¬»ù¶½
+n.è´µæ—ï¼›ä¸Šå¸ï¼ŒåŸºç£
 2292. lorry['l0ri]
-n.ÔË»õÆû³µ£¬¿¨³µ
+n.è¿è´§æ±½è½¦ï¼Œå¡è½¦
 2293. lose[lu:z]
-vt.Ê§È¥£»ÃÔÊ§£»Êäµô
+vt.å¤±å»ï¼›è¿·å¤±ï¼›è¾“æ‰
 2294. loss[l0s]
-n.ÒÅÊ§£»ËğÊ§£»Ê§°Ü
+n.é—å¤±ï¼›æŸå¤±ï¼›å¤±è´¥
 2295. lot[l0t]
-n.Ğí¶à£¬´óÁ¿£»Ç©£¬ãÎ
+n.è®¸å¤šï¼Œå¤§é‡ï¼›ç­¾ï¼Œé˜„
 2296. loud[laud]
-a.ÏìÁÁµÄ£»³³ÄÖµÄ
+a.å“äº®çš„ï¼›åµé—¹çš„
 2297. loudspeaker['laud'spi:k2]
-n.ÑïÉùÆ÷£¬À®°È
+n.æ‰¬å£°å™¨ï¼Œå–‡å­
 2298. love[l3v]
-vt.°®£¬Ï²»¶ n.°®
+vt.çˆ±ï¼Œå–œæ¬¢ n.çˆ±
 2299. lovely['l3vli]
-a.¿É°®µÄ£»ÁîÈËÓä¿ìµÄ
+a.å¯çˆ±çš„ï¼›ä»¤äººæ„‰å¿«çš„
 2300. lover[l3v2]
-n.°®ºÃÕß£»ÇéÈË£»ÇéÂÂ
+n.çˆ±å¥½è€…ï¼›æƒ…äººï¼›æƒ…ä¾£
 2301. low[l2u]
-a.µÍµÄ£¬°«µÄ£»µÍÏÂµÄ
+a.ä½çš„ï¼ŒçŸ®çš„ï¼›ä½ä¸‹çš„
 2302. lower['l2u2]
-a.½ÏµÍµÄ vt.·ÅÏÂ
+a.è¾ƒä½çš„ vt.æ”¾ä¸‹
 2303. loyal['l0i2l]
-a.ÖÒ³ÏµÄ£¬ÖÒĞÄµÄ
+a.å¿ è¯šçš„ï¼Œå¿ å¿ƒçš„
 2304. loyalty['l0i2lti]
-n.ÖÒ³Ï£¬ÖÒĞÄ
+n.å¿ è¯šï¼Œå¿ å¿ƒ
 2305. luck[l3k]
-n.ÔËÆø£»ºÃÔË£¬ĞÒÔË
+n.è¿æ°”ï¼›å¥½è¿ï¼Œå¹¸è¿
 2306. lucky['l3ki]
-a.ĞÒÔËµÄ£»¼ªÏéµÄ
+a.å¹¸è¿çš„ï¼›å‰ç¥¥çš„
 2307. luggage['l3gid7]
-n.ĞĞÀî£»Æ¤Ïä£¬Æ¤°ü
+n.è¡Œæï¼›çš®ç®±ï¼Œçš®åŒ…
 2308. lumber['l3mb2]
-n.Ä¾²Ä£»Ä¾ÁÏ£»ÖÆ²Ä
+n.æœ¨æï¼›æœ¨æ–™ï¼›åˆ¶æ
 2309. lump[l3mp]
-n.ÍÅ£¬¿é£»Ö×¿é
+n.å›¢ï¼Œå—ï¼›è‚¿å—
 2310. lunch[l3nt6]
-n.Îç²Í£¬(ÃÀ)±ã²Í
+n.åˆé¤ï¼Œ(ç¾)ä¾¿é¤
 2311. lung[l38]
-n.·ÎÔà£¬·Î
+n.è‚ºè„ï¼Œè‚º
 2312. luxury['l3k62ri]
-n.Éİ³Ş£¬Éİ»ª£»Éİ³ŞÆ·
+n.å¥¢ä¾ˆï¼Œå¥¢åï¼›å¥¢ä¾ˆå“
 2313. machine[m2'6i:n]
-n.»úÆ÷£»»úĞµ
+n.æœºå™¨ï¼›æœºæ¢°
 2314. mad[m9d]
-a.·¢·èµÄ£»ÄÕ»ğµÄ
+a.å‘ç–¯çš„ï¼›æ¼ç«çš„
 2315. madam['m9d2m]
-n.·òÈË£¬Å®Ê¿£¬Ì«Ì«
+n.å¤«äººï¼Œå¥³å£«ï¼Œå¤ªå¤ª
 2316. magazine[m9g2'zi:n]
-n.ÔÓÖ¾£¬ÆÚ¿¯
+n.æ‚å¿—ï¼ŒæœŸåˆŠ
 2317. magic['m9d7ik]
-n.Ä§·¨£¬Î×Êõ£»Ï··¨
+n.é­”æ³•ï¼Œå·«æœ¯ï¼›æˆæ³•
 2318. magnet['m9gnit]
-n.´ÅÌú£¬´ÅÊ¯£¬´ÅÌå
+n.ç£é“ï¼Œç£çŸ³ï¼Œç£ä½“
 2319. magnetic[m9g'netik]
-a.´ÅµÄ£¬ÓĞÎüÒıÁ¦µÄ
+a.ç£çš„ï¼Œæœ‰å¸å¼•åŠ›çš„
 2320. magnificent[m9g'nifisnt]
-n.×³ÀöµÄ£»»ªÀöµÄ
+n.å£®ä¸½çš„ï¼›åä¸½çš„
 2321. maid[meid]
-n.Å®Ó¶£¬Å®ÆÍ£»ÉÙÅ®
+n.å¥³ä½£ï¼Œå¥³ä»†ï¼›å°‘å¥³
 2322. mail[meil]
-n.ÓÊ¼ş vt.ÓÊ¼Ä
+n.é‚®ä»¶ vt.é‚®å¯„
 2323. main[mein]
-a.Ö÷ÒªµÄ£¬×îÖØÒªµÄ
+a.ä¸»è¦çš„ï¼Œæœ€é‡è¦çš„
 2324. mainly['meinli]
-ad.Ö÷ÒªµØ£¬´óÌåÉÏ
+ad.ä¸»è¦åœ°ï¼Œå¤§ä½“ä¸Š
 2325. mainland['meinl9nd]
-n.´óÂ½
+n.å¤§é™†
 2326. maintain[mein'tein]
-vt.Î¬³Ö£»ÉÄÑø£»Î¬ĞŞ
+vt.ç»´æŒï¼›èµ¡å…»ï¼›ç»´ä¿®
 2327. maintenance['meintin2ns]
-n.Î¬³Ö£¬±£³Ö£»Î¬ĞŞ
+n.ç»´æŒï¼Œä¿æŒï¼›ç»´ä¿®
 2328. major['meid72]
-a.½Ï´óµÄ n.×¨Òµ
+a.è¾ƒå¤§çš„ n.ä¸“ä¸š
 2329. majority[m2'd70riti]
-n.¶àÊı£¬´ó¶àÊı
+n.å¤šæ•°ï¼Œå¤§å¤šæ•°
 2330. make[meik]
-vt.Ê¹£»×ö£¬ÖÆÔì
+vt.ä½¿ï¼›åšï¼Œåˆ¶é€ 
 2331. male[meil]
-a.ÄĞµÄ£¬ĞÛµÄ n.ÄĞ×Ó
+a.ç”·çš„ï¼Œé›„çš„ n.ç”·å­
 2332. man[m9n]
-n.ÄĞÈË£»ÈË£»ÈËÀà
+n.ç”·äººï¼›äººï¼›äººç±»
 2333. manage['m9nid7]
-vt.¹ÜÀí£»Éè·¨£»¶Ô¸¶
+vt.ç®¡ç†ï¼›è®¾æ³•ï¼›å¯¹ä»˜
 2334. management['m9nid7m2nt]
-n.¹ÜÀí£»¾­Óª£¬´¦Àí
+n.ç®¡ç†ï¼›ç»è¥ï¼Œå¤„ç†
 2335. manager['m9nid72]
-n.¾­Àí£¬¹ÜÀíÈË
+n.ç»ç†ï¼Œç®¡ç†äºº
 2336. mankind[m9n'kaind]
-n.ÈËÀà
+n.äººç±»
 2337. manly['m9nli]
-a.ÄĞ×ÓÆø¸ÅµÄ£¬¹û¶ÏµÄ
+a.ç”·å­æ°”æ¦‚çš„ï¼Œæœæ–­çš„
 2338. manner['m9n2]
-n.·½Ê½£»Ì¬¶È£»ÀñÃ²
+n.æ–¹å¼ï¼›æ€åº¦ï¼›ç¤¼è²Œ
 2339. manual['m9nju2l]
-a.ÌåÁ¦µÄ n.ÊÖ²á
+a.ä½“åŠ›çš„ n.æ‰‹å†Œ
 2340. manufacture[m9nju'f9kt62]
-vt.ÖÆÔì n.ÖÆÔì£»²úÆ·
+vt.åˆ¶é€  n.åˆ¶é€ ï¼›äº§å“
 2341. manufacturer[m9nju'f9kt62r2]
-n.ÖÆÔìÉÌ£»ÖÆÔì³§
+n.åˆ¶é€ å•†ï¼›åˆ¶é€ å‚
 2342. many['meni]
-a.Ğí¶àµÄ pron.Ğí¶àÈË
+a.è®¸å¤šçš„ pron.è®¸å¤šäºº
 2343. map[m9p]
-n.µØÍ¼£»Í¼£»ÌìÌåÍ¼
+n.åœ°å›¾ï¼›å›¾ï¼›å¤©ä½“å›¾
 2344. marble['ma:bl]
-n.´óÀíÊ¯
+n.å¤§ç†çŸ³
 2345. March[ma:t6]
-n.ÈıÔÂ
+n.ä¸‰æœˆ
 2346. march[ma:t6]
-vi.ĞĞ¾ü£»ÓÎĞĞÊ¾Íş
+vi.è¡Œå†›ï¼›æ¸¸è¡Œç¤ºå¨
 2347. margin['ma:d7in]
-n.Ò³±ßµÄ¿Õ°×£»±ßÔµ
+n.é¡µè¾¹çš„ç©ºç™½ï¼›è¾¹ç¼˜
 2348. marine[m2'ri:n]
-a.º£µÄ£»º£ÉÏµÄ
+a.æµ·çš„ï¼›æµ·ä¸Šçš„
 2349. mark[ma:k]
-n.°ßµã£»¼ÇºÅ vt.±êÃ÷
+n.æ–‘ç‚¹ï¼›è®°å· vt.æ ‡æ˜
 2350. market['ma:kit]
-n.ÊĞ³¡£»¼¯ÊĞ£»ÏúÂ·
+n.å¸‚åœºï¼›é›†å¸‚ï¼›é”€è·¯
 2351. marriage['m9rid7]
-n.½á»é£¬»éÒö£»»éÀñ
+n.ç»“å©šï¼Œå©šå§»ï¼›å©šç¤¼
 2352. married['m9rid]
-a.ÒÑ»éµÄ£»»éÒöµÄ
+a.å·²å©šçš„ï¼›å©šå§»çš„
 2353. marry['m9ri]
-vt.È¢£¬¼Ş vi.½á»é
+vt.å¨¶ï¼Œå« vi.ç»“å©š
 2354. marvelous['ma:vil2s]
-a.Ææ¼£°ãµÄ£»ÁË²»ÆğµÄ
+a.å¥‡è¿¹èˆ¬çš„ï¼›äº†ä¸èµ·çš„
 2355. Marxisim[]
-n.Âí¿ËË¼Ö÷Òå
+n.é©¬å…‹æ€ä¸»ä¹‰
 2356. Marxist['ma:ksist]
-a.Âí¿ËË¼Ö÷ÒåµÄ
+a.é©¬å…‹æ€ä¸»ä¹‰çš„
 2357. mask[ma:sk]
-n.Ãæ¾ß£»Î±×° vt.ÑÚÊÎ
+n.é¢å…·ï¼›ä¼ªè£… vt.æ©é¥°
 2358. mass[m9s]
-n.ÖÚ¶à£»ÍÅ£»ÈºÖÚ
+n.ä¼—å¤šï¼›å›¢ï¼›ç¾¤ä¼—
 2359. master['ma:st2]
-n.Ö÷ÈË£»ÄÜÊÖ£»Ë¶Ê¿
+n.ä¸»äººï¼›èƒ½æ‰‹ï¼›ç¡•å£«
 2360. masterpiece['ma:st2pi:s]
-n.½Ü×÷£¬ÃûÖø
+n.æ°ä½œï¼Œåè‘—
 2361. mat[m9t]
-n.Ï¯×Ó£»²İÏ¯£»µæ×Ó
+n.å¸­å­ï¼›è‰å¸­ï¼›å«å­
 2362. match[m9t6]
-n.±ÈÈü£¬¾ºÈü£»¶ÔÊÖ
+n.æ¯”èµ›ï¼Œç«èµ›ï¼›å¯¹æ‰‹
 2363. match[m9t6]
-n.(Ò»¸ù)»ğ²ñ
+n.(ä¸€æ ¹)ç«æŸ´
 2364. mate[meit]
-n.»ï°é£¬Í¬ÊÂ£»ÅäÅ¼
+n.ä¼™ä¼´ï¼ŒåŒäº‹ï¼›é…å¶
 2365. material[m2'ti2ri2l]
-n.²ÄÁÏ£»ËØ²Äa.ÎïÖÊµÄ
+n.ææ–™ï¼›ç´ æa.ç‰©è´¨çš„
 2366. materialism[m2'ti2ri2liz2m]
-n.Î¨ÎïÖ÷Òå
+n.å”¯ç‰©ä¸»ä¹‰
 2367. mathematical[m94i'm9tik2l]
-a.ÊıÑ§µÄ£¬ÊıÑ§ÉÏµÄ
+a.æ•°å­¦çš„ï¼Œæ•°å­¦ä¸Šçš„
 2368. mathematics[m94i'm9tiks]
-n.ÊıÑ§
+n.æ•°å­¦
 2369. maths[m94s]
-n.(Ó¢)ÊıÑ§
+n.(è‹±)æ•°å­¦
 2370. matter['m9t2]
-n.ÊÂÇé£»ÎïÖÊ vi.Òª½ô
+n.äº‹æƒ…ï¼›ç‰©è´¨ vi.è¦ç´§
 2371. mature[m2'tju2]
-a.³ÉÊìµÄ vt.Ê¹³ÉÊì
+a.æˆç†Ÿçš„ vt.ä½¿æˆç†Ÿ
 2372. maximum['m9ksim2m]
-n.×î´óÁ¿ a.×î´óµÄ
+n.æœ€å¤§é‡ a.æœ€å¤§çš„
 2373. May[mei]
-n.ÎåÔÂ
+n.äº”æœˆ
 2374. may[mei]
-v.aux.¿ÉÄÜ£»¿ÉÒÔ£¬×£
+v.aux.å¯èƒ½ï¼›å¯ä»¥ï¼Œç¥
 2375. maybe['meibi:]
-ad.´ó¸Å£¬»òĞí£»Ò²Ğí
+ad.å¤§æ¦‚ï¼Œæˆ–è®¸ï¼›ä¹Ÿè®¸
 2376. mayor['m/2]
-n.ÊĞ³¤
+n.å¸‚é•¿
 2377. me[mi:. mi]
-pron.(±ö¸ñ)ÎÒ
+pron.(å®¾æ ¼)æˆ‘
 2378. meadow['med2u]
-n.²İµØ£¬ÄÁ²İµØ
+n.è‰åœ°ï¼Œç‰§è‰åœ°
 2379. meal[mi:l]
-n.ÉÅÊ³£¬Ò»²Í
+n.è†³é£Ÿï¼Œä¸€é¤
 2380. mean[mi:n]
-vt.×÷¡­½âÊÍ£»ÒâÖ¸
+vt.ä½œâ€¦è§£é‡Šï¼›æ„æŒ‡
 2381. mean[mi:n]
-a.×ÔË½µÄ£»ÁßØÄµÄ
+a.è‡ªç§çš„ï¼›åå•¬çš„
 2382. mean[mi:n]
-a.Æ½¾ùµÄ n.Æ½¾ùÖµ
+a.å¹³å‡çš„ n.å¹³å‡å€¼
 2383. meaning['mi:ni8]
-n.ÒâÒå£¬ÒâË¼£»ÒâÍ¼
+n.æ„ä¹‰ï¼Œæ„æ€ï¼›æ„å›¾
 2384. means[mi:nz]
-n.·½·¨£¬ÊÖ¶Î£¬¹¤¾ß
+n.æ–¹æ³•ï¼Œæ‰‹æ®µï¼Œå·¥å…·
 2385. meantime['mi:n'taim]
-n.ÆäÊ±£¬Æä¼ä ad.µ±Ê±
+n.å…¶æ—¶ï¼Œå…¶é—´ ad.å½“æ—¶
 2386. meanwhile['mi:n'wail]
-ad.Í¬Ê±£¬µ±Ê±
+ad.åŒæ—¶ï¼Œå½“æ—¶
 2387. measurable['me72r2bl]
-a.¿É²âÁ¿µÄ
+a.å¯æµ‹é‡çš„
 2388. measure['me72]
-vt.Á¿£¬²âÁ¿ n.·ÖÁ¿
+vt.é‡ï¼Œæµ‹é‡ n.åˆ†é‡
 2389. measurement['me72m2nt]
-n.ºâÁ¿£¬²âÁ¿£»³ß´ç
+n.è¡¡é‡ï¼Œæµ‹é‡ï¼›å°ºå¯¸
 2390. meat[mi:t]
-n.Èâ
+n.è‚‰
 2391. mechanic[mi'k9nik]
-n.¼¼¹¤£¬»úĞµ£¬»úĞŞ¹¤
+n.æŠ€å·¥ï¼Œæœºæ¢°ï¼Œæœºä¿®å·¥
 2392. mechanical[mi'k9nik2l]
-a.»úĞµµÄ£»Á¦Ñ§µÄ
+a.æœºæ¢°çš„ï¼›åŠ›å­¦çš„
 2393. mechanically[mi'k9nik2li]
-ad.»úĞµµØ
+ad.æœºæ¢°åœ°
 2394. mechanics[mi'k9niks]
-n.Á¦Ñ§£»¼¼ÊõĞÔÏ¸½Ú
+n.åŠ›å­¦ï¼›æŠ€æœ¯æ€§ç»†èŠ‚
 2395. medal['medl]
-n.½±ÕÂ£¬Ñ«ÕÂ£¬¼ÍÄîÕÂ
+n.å¥–ç« ï¼Œå‹‹ç« ï¼Œçºªå¿µç« 
 2396. medical['medik2l]
-a.Ò½Ñ§µÄ£»ÄÚ¿ÆµÄ
+a.åŒ»å­¦çš„ï¼›å†…ç§‘çš„
 2397. medicine['medisin]
-n.ÄÚ·şÒ©£»Ò½Ñ§
+n.å†…æœè¯ï¼›åŒ»å­¦
 2398. Mediterranean[medit2'reinj2n]
-n.µØÖĞº£ a.µØÖĞº£µÄ
+n.åœ°ä¸­æµ· a.åœ°ä¸­æµ·çš„
 2399. medium['mi:dj2m]
-n.Ã½ÖÊ£»ÖĞ¼äa.ÖĞµÈµÄ
+n.åª’è´¨ï¼›ä¸­é—´a.ä¸­ç­‰çš„
 2400. meet[mi:t]
-vt.Óö¼û vi.ÏàÓö
+vt.é‡è§ vi.ç›¸é‡
 2401. meeting[mi:ti8]
-n.¾Û¼¯£¬»áºÏ£¬»á¼û
+n.èšé›†ï¼Œä¼šåˆï¼Œä¼šè§
 2402. melon['mel2n]
-n.¹Ï£¬Ìğ¹Ï
+n.ç“œï¼Œç”œç“œ
 2403. melt[melt]
-vi.ÈÚ»¯ vt.Ê¹ÈÚ»¯
+vi.èåŒ– vt.ä½¿èåŒ–
 2404. member['memb2]
-n.³ÉÔ±£¬»áÔ±
+n.æˆå‘˜ï¼Œä¼šå‘˜
 2405. memorial[mi'm0:ri2l]
-a.¼ÍÄîµÄ£»¼ÇÒäµÄ
+a.çºªå¿µçš„ï¼›è®°å¿†çš„
 2406. memory['mem2ri]
-n.¼ÇÒä£»»ØÒä£»´æ´¢
+n.è®°å¿†ï¼›å›å¿†ï¼›å­˜å‚¨
 2407. mend[mend]
-vt.ĞŞÀí£¬ĞŞ²¹£¬·ì²¹
+vt.ä¿®ç†ï¼Œä¿®è¡¥ï¼Œç¼è¡¥
 2408. mental['mentl]
-a.ÖÇÁ¦µÄ£»¾«ÉñµÄ
+a.æ™ºåŠ›çš„ï¼›ç²¾ç¥çš„
 2409. mention['men62n]
-vt.&n.Ìá¼°£¬ËµÆğ
+vt.&n.æåŠï¼Œè¯´èµ·
 2410. menu['menju:]
-n.²Ëµ¥£»·¹²Ë£¬²ËëÈ
+n.èœå•ï¼›é¥­èœï¼Œèœè‚´
 2411. merchant['m2:t62nt]
-n.ÉÌÈË£»ÁãÊÛÉÌ
+n.å•†äººï¼›é›¶å”®å•†
 2412. mercury['m2:kjuri]
-n.Ë®Òø£¬¹¯
+n.æ°´é“¶ï¼Œæ±
 2413. Mercury['m2:kjuri]
-n.Ë®ĞÇ
+n.æ°´æ˜Ÿ
 2414. mercy['m2:si]
-n.ÈÊ´È£¬´È±¯£¬¶÷»İ
+n.ä»æ…ˆï¼Œæ…ˆæ‚²ï¼Œæ©æƒ 
 2415. mere[mi2]
-a.½ö½öµÄ£»´¿´âµÄ
+a.ä»…ä»…çš„ï¼›çº¯ç²¹çš„
 2416. merely['mi2li]
-ad.½ö½ö£¬Ö»²»¹ı
+ad.ä»…ä»…ï¼Œåªä¸è¿‡
 2417. merit['merit]
-n.³¤´¦£¬ÓÅµã£»¹¦¹ı
+n.é•¿å¤„ï¼Œä¼˜ç‚¹ï¼›åŠŸè¿‡
 2418. merry['meri]
-a.»¶ÀÖµÄ£¬Óä¿ìµÄ
+a.æ¬¢ä¹çš„ï¼Œæ„‰å¿«çš„
 2419. mess[mes]
-n.»ìÂÒ£¬»ìÔÓ£¬°¹Ôà
+n.æ··ä¹±ï¼Œæ··æ‚ï¼Œè‚®è„
 2420. message['mesid7]
-n.ĞÅÏ¢£¬ÏûÏ¢£»ÆôÊ¾
+n.ä¿¡æ¯ï¼Œæ¶ˆæ¯ï¼›å¯ç¤º
 2421. messenger['mesind72]
-n.ËÍĞÅÕß£¬ĞÅÊ¹
+n.é€ä¿¡è€…ï¼Œä¿¡ä½¿
 2422. metal['metl]
-n.½ğÊô£¬½ğÊôÖÆÆ·
+n.é‡‘å±ï¼Œé‡‘å±åˆ¶å“
 2423. meter['mi:t2]
-n.¼ÆÁ¿Æ÷£¬¼Æ£¬±í
+n.è®¡é‡å™¨ï¼Œè®¡ï¼Œè¡¨
 2424. method['me42d]
-n.·½·¨£¬°ì·¨£»½ÌÑ§·¨
+n.æ–¹æ³•ï¼ŒåŠæ³•ï¼›æ•™å­¦æ³•
 2425. metre['mi:t2]
-n.Ã×£¬¹«³ß
+n.ç±³ï¼Œå…¬å°º
 2426. metric['metrik]
-a.¹«ÖÆµÄ£¬Ã×ÖÆµÄ
+a.å…¬åˆ¶çš„ï¼Œç±³åˆ¶çš„
 2427. microcomputer[maikr2uk2m'pju:t2]
-n.Î¢ĞÍ¼ÆËã»ú£¬Î¢»ú
+n.å¾®å‹è®¡ç®—æœºï¼Œå¾®æœº
 2428. microphone['maikr2f2un]
-n.»°Í²£¬Âó¿Ë·ç
+n.è¯ç­’ï¼Œéº¦å…‹é£
 2429. microscope['maikr2sk2up]
-n.ÏÔÎ¢¾µ
+n.æ˜¾å¾®é•œ
 2430. midday['middei]
-n.ÕıÎç£¬ÖĞÎç
+n.æ­£åˆï¼Œä¸­åˆ
 2431. middle['midl]
-n.ÖĞ²¿ a.ÖĞ²¿µÄ
+n.ä¸­éƒ¨ a.ä¸­éƒ¨çš„
 2432. midnight['midnait]
-n.ÎçÒ¹£¬×ÓÒ¹£¬Ò¹°ë
+n.åˆå¤œï¼Œå­å¤œï¼Œå¤œåŠ
 2433. midst['midst]
-n.ÖĞ²¿£¬ÖĞ¼ä£¬µ±ÖĞ
+n.ä¸­éƒ¨ï¼Œä¸­é—´ï¼Œå½“ä¸­
 2434. might[mait]
-v.aux.¿ÉÄÜ£¬»á£¬Ò²Ğí
+v.aux.å¯èƒ½ï¼Œä¼šï¼Œä¹Ÿè®¸
 2435. might[mait]
-n.Á¦Á¿£¬ÍşÁ¦£¬ÄÜÁ¦
+n.åŠ›é‡ï¼Œå¨åŠ›ï¼Œèƒ½åŠ›
 2436. mild[maild]
-a.ºÍ»ºµÄ£»ÎÂÈáµÄ
+a.å’Œç¼“çš„ï¼›æ¸©æŸ”çš„
 2437. mile[mail]
-n.Ó¢Àï
+n.è‹±é‡Œ
 2438. military['milit2ri]
-a.¾üÊÂµÄ£»¾üÈËµÄ
+a.å†›äº‹çš„ï¼›å†›äººçš„
 2439. milk[milk]
-n.Èé£¬Å£ÄÌ vt.¼·(ÄÌ)
+n.ä¹³ï¼Œç‰›å¥¶ vt.æŒ¤(å¥¶)
 2440. mill[mil]
-n.Ä¥·»£»ÖÆÔì³§
+n.ç£¨åŠï¼›åˆ¶é€ å‚
 2441. millimetre['milimi:t2]
-n.ºÁÃ×
+n.æ¯«ç±³
 2442. million['milj2n]
-num.°ÙÍò n.Ğí¶à
+num.ç™¾ä¸‡ n.è®¸å¤š
 2443. mind[maind]
-n.Í·ÄÔ£»ÀíÖÇ£»¼ÇÒä
+n.å¤´è„‘ï¼›ç†æ™ºï¼›è®°å¿†
 2444. mine[main]
-pron.ÎÒµÄ
+pron.æˆ‘çš„
 2445. mine[main]
-n.¿ó£¬¿óÉ½£»µØÀ×
+n.çŸ¿ï¼ŒçŸ¿å±±ï¼›åœ°é›·
 2446. miner['main2]
-n.¿ó¹¤
+n.çŸ¿å·¥
 2447. mineral['min2r2l]
-n.¿óÎï a.¿óÎïµÄ
+n.çŸ¿ç‰© a.çŸ¿ç‰©çš„
 2448. minimum['minim2m]
-n.×îĞ¡Á¿ a.×îĞ¡µÄ
+n.æœ€å°é‡ a.æœ€å°çš„
 2449. minister['minist2]
-n.²¿³¤£¬´ó³¼£»¹«Ê¹
+n.éƒ¨é•¿ï¼Œå¤§è‡£ï¼›å…¬ä½¿
 2450. ministry['ministri]
-n.(Õş¸®µÄ)²¿
+n.(æ”¿åºœçš„)éƒ¨
 2451. minor['main2]
-a.½ÏĞ¡µÄ£»½Ï´ÎÒªµÄ
+a.è¾ƒå°çš„ï¼›è¾ƒæ¬¡è¦çš„
 2452. minority[mai'n0riti]
-n.ÉÙÊı£»ÉÙÊıÃñ×å
+n.å°‘æ•°ï¼›å°‘æ•°æ°‘æ—
 2453. minus['main2s]
-a.¸ºµÄ prep.¼õ(È¥)
+a.è´Ÿçš„ prep.å‡(å»)
 2454. minute['minit. mai'nju:t]
-n.·Ö£¬·ÖÖÓ£»Ò»»á¶ù
+n.åˆ†ï¼Œåˆ†é’Ÿï¼›ä¸€ä¼šå„¿
 2455. minute['minit. mai'nju:t]
-a.Î¢Ï¸µÄ£»ÏêÏ¸µÄ
+a.å¾®ç»†çš„ï¼›è¯¦ç»†çš„
 2456. miracle['mir2kl]
-n.Ææ¼££¬ÁîÈË¾ªÆæµÄÈË
+n.å¥‡è¿¹ï¼Œä»¤äººæƒŠå¥‡çš„äºº
 2457. mirror['mir2]
-n.¾µ×Ó vt.·´Ó³£¬·´Éä
+n.é•œå­ vt.åæ˜ ï¼Œåå°„
 2458. miserable['miz2r2bl]
-a.Í´¿àµÄ£¬±¯²ÒµÄ
+a.ç—›è‹¦çš„ï¼Œæ‚²æƒ¨çš„
 2459. mislead[mis'li:d]
-vt.Ê¹ÎóÈëáªÍ¾
+vt.ä½¿è¯¯å…¥å²é€”
 2460. miss[mis]
-n.Ğ¡½ã
+n.å°å§
 2461. miss[mis]
-vt.Î´¿´µ½£»µëÄî
+vt.æœªçœ‹åˆ°ï¼›æƒ¦å¿µ
 2462. missile['misail]
-n.·¢ÉäÎï£»µ¼µ¯
+n.å‘å°„ç‰©ï¼›å¯¼å¼¹
 2463. missing['misi8]
-a.È±µôµÄ£¬Ê§È¥µÄ
+a.ç¼ºæ‰çš„ï¼Œå¤±å»çš„
 2464. mission['mi62n]
-n.Ê¹Ãü£¬ÈÎÎñ£»Ê¹ÍÅ
+n.ä½¿å‘½ï¼Œä»»åŠ¡ï¼›ä½¿å›¢
 2465. mist[mist]
-n.±¡Îí
+n.è–„é›¾
 2466. mistake[mis'teik]
-n.´íÎó vi.Îó½â£¬Åª´í
+n.é”™è¯¯ vi.è¯¯è§£ï¼Œå¼„é”™
 2467. Mister['mist2]
-n.ÏÈÉú
+n.å…ˆç”Ÿ
 2468. mistress['mistris]
-n.Å®Ö÷ÈË£»·òÈË
+n.å¥³ä¸»äººï¼›å¤«äºº
 2469. misunderstand[mis3nd2'st9nd]
-vt.Îó½â£¬Îó»á£¬Çú½â
+vt.è¯¯è§£ï¼Œè¯¯ä¼šï¼Œæ›²è§£
 2470. mix[miks]
-vt.Ê¹»ìºÏ£¬»ìÏı
+vt.ä½¿æ··åˆï¼Œæ··æ·†
 2471. mixture['mikst62]
-n.»ìºÏ£»»ìºÏÎï
+n.æ··åˆï¼›æ··åˆç‰©
 2472. moan[m2un]
-n.ÉëÒ÷Éù vi.ÉëÒ÷
+n.å‘»åŸå£° vi.å‘»åŸ
 2473. mobile['m2ubail]
-a.ÔË¶¯µÄ£»Á÷¶¯µÄ
+a.è¿åŠ¨çš„ï¼›æµåŠ¨çš„
 2474. mode[m2ud]
-n.·½Ê½£¬ÑùÊ½
+n.æ–¹å¼ï¼Œæ ·å¼
 2475. model['m0dl]
-n.Ä£ĞÍ£»Ä£Ê½£»Ä£ÌØ¶ù
+n.æ¨¡å‹ï¼›æ¨¡å¼ï¼›æ¨¡ç‰¹å„¿
 2476. moderate['m0d2rit]
-a.ÎÂºÍµÄ£»ÓĞ½ÚÖÆµÄ
+a.æ¸©å’Œçš„ï¼›æœ‰èŠ‚åˆ¶çš„
 2477. modern['m0d2n]
-a.ÏÖ´úµÄ£¬½ü´úµÄ
+a.ç°ä»£çš„ï¼Œè¿‘ä»£çš„
 2478. modest['m0dist]
-a.ÓĞ½ÚÖÆµÄ£»Ç«ĞéµÄ
+a.æœ‰èŠ‚åˆ¶çš„ï¼›è°¦è™šçš„
 2479. modify['m0difai]
-vt.¸ü¸Ä£¬ĞŞ¸Ä£»ĞŞÊÎ
+vt.æ›´æ”¹ï¼Œä¿®æ”¹ï¼›ä¿®é¥°
 2480. moist[m0ist]
-a.ÊªÈóµÄ£»¶àÓêµÄ
+a.æ¹¿æ¶¦çš„ï¼›å¤šé›¨çš„
 2481. moisture['m0ist62]
-n.³±Êª£¬ÊªÆø£»ÎÂ¶È
+n.æ½®æ¹¿ï¼Œæ¹¿æ°”ï¼›æ¸©åº¦
 2482. molecule['m0likju:l]
-n.·Ö×Ó£¬¿Ë·Ö×Ó
+n.åˆ†å­ï¼Œå…‹åˆ†å­
 2483. moment['m2um2nt]
-n.Æ¬¿Ì£¬Ë²¼ä£¬Ê±¿Ì
+n.ç‰‡åˆ»ï¼Œç¬é—´ï¼Œæ—¶åˆ»
 2484. Monday['m3ndi]
-n.ĞÇÆÚÒ»
+n.æ˜ŸæœŸä¸€
 2485. money['m3ni]
-n.»õ±Ò£»½ğÇ®£¬²Æ¸»
+n.è´§å¸ï¼›é‡‘é’±ï¼Œè´¢å¯Œ
 2486. monitor['m0nit2]
-n.°à³¤£»¼àÊÓÆ÷
+n.ç­é•¿ï¼›ç›‘è§†å™¨
 2487. monkey['m38ki]
-n.ºï×Ó£¬Ô³
+n.çŒ´å­ï¼ŒçŒ¿
 2488. month[m3n4]
-n.ÔÂ£¬ÔÂ·İ
+n.æœˆï¼Œæœˆä»½
 2489. monthly['m3n4li]
-a.Ã¿ÔÂµÄ ad.Ã¿ÔÂ
+a.æ¯æœˆçš„ ad.æ¯æœˆ
 2490. monument['m0njum2nt]
-n.¼ÍÄî±®£»¼ÍÄî¹İ
+n.çºªå¿µç¢‘ï¼›çºªå¿µé¦†
 2491. mood[mu:d]
-n.ĞÄÇé£¬ÇéĞ÷£»ÓïÆø
+n.å¿ƒæƒ…ï¼Œæƒ…ç»ªï¼›è¯­æ°”
 2492. moon[mu:n]
-n.ÔÂÇò£¬ÔÂÁÁ£»ÎÀĞÇ
+n.æœˆçƒï¼Œæœˆäº®ï¼›å«æ˜Ÿ
 2493. moral['m0r2l]
-a.µÀµÂµÄ£»ºÏºõµÀµÂµÄ
+a.é“å¾·çš„ï¼›åˆä¹é“å¾·çš„
 2494. more[m0:]
-a.¸ü¶àµÄ ad.¸ü
+a.æ›´å¤šçš„ ad.æ›´
 2495. moreover[m0:'r2uv2]
-ad.ÔÙÕß£¬¼ÓÖ®£¬´ËÍâ
+ad.å†è€…ï¼ŒåŠ ä¹‹ï¼Œæ­¤å¤–
 2496. morning['m0:ni8]
-n.Ôç³¿£¬ÉÏÎç
+n.æ—©æ™¨ï¼Œä¸Šåˆ
 2497. mortal['m0:tl]
-a.ÖÕÓĞÒ»ËÀµÄ£»ÖÂËÀµÄ
+a.ç»ˆæœ‰ä¸€æ­»çš„ï¼›è‡´æ­»çš„
 2498. mosquito[m2s'ki:t2u]
-n.ÎÃ×Ó
+n.èšŠå­
 2499. most[m2ust]
-a.×î¶àµÄ ad.×î£¬ºÜ
+a.æœ€å¤šçš„ ad.æœ€ï¼Œå¾ˆ
 2500. mostly['m2ustli]
-ad.Ö÷ÒªµÄ£¬´ó²¿·Ö
+ad.ä¸»è¦çš„ï¼Œå¤§éƒ¨åˆ†
 2501. mother['m352]
-n.Ä¸Ç×£¬ÂèÂè
+n.æ¯äº²ï¼Œå¦ˆå¦ˆ
 2502. motion['m2u62n]
-n.ÔË¶¯£»ÊÖÊÆ£»ÌáÒé
+n.è¿åŠ¨ï¼›æ‰‹åŠ¿ï¼›æè®®
 2503. motivate['m2utiveit]
-vt.´Ù¶¯£»¼¤Àø£¬¼¤·¢
+vt.ä¿ƒåŠ¨ï¼›æ¿€åŠ±ï¼Œæ¿€å‘
 2504. motive['m2utiv]
-n.¶¯»ú£¬Ä¿µÄ
+n.åŠ¨æœºï¼Œç›®çš„
 2505. motor['m2ut2]
-n.·¢¶¯»ú£»»ú¶¯³µ
+n.å‘åŠ¨æœºï¼›æœºåŠ¨è½¦
 2506. mould[m2uld]
-n.Ä£×Ó£¬Ä£ĞÍ vt.½½Öı
+n.æ¨¡å­ï¼Œæ¨¡å‹ vt.æµ‡é“¸
 2507. mount[maunt]
-vt.µÇÉÏ£¬ÅÀÉÏ n.¡­É½
+vt.ç™»ä¸Šï¼Œçˆ¬ä¸Š n.â€¦å±±
 2508. mountain['mauntin]
-n.É½£¬É½ÔÀ£»É½Âö
+n.å±±ï¼Œå±±å²³ï¼›å±±è„‰
 2509. mourn[m0:n]
-vi.°§Í´£¬°§µ¿
+vi.å“€ç—›ï¼Œå“€æ‚¼
 2510. mouse[maus]
-n.Êó£¬ºÄ×Ó
+n.é¼ ï¼Œè€—å­
 2511. mouth[mau4]
-n.×ì£¬¿Ú£¬¿ÚÇ»
+n.å˜´ï¼Œå£ï¼Œå£è…”
 2512. mouthful['mau4ful]
-n.Âú¿Ú£¬Ò»¿Ú£¬ÉÙÁ¿
+n.æ»¡å£ï¼Œä¸€å£ï¼Œå°‘é‡
 2513. move[mu:v]
-vt.ÒÆ¶¯£»¸Ğ¶¯ n.¶¯
+vt.ç§»åŠ¨ï¼›æ„ŸåŠ¨ n.åŠ¨
 2514. movement['mu:vm2nt]
-n.¶¯×÷£¬»î¶¯£»ÒÆ¶¯
+n.åŠ¨ä½œï¼Œæ´»åŠ¨ï¼›ç§»åŠ¨
 2515. movie['mu:vi]
-n.µçÓ°£»µçÓ°Ôº
+n.ç”µå½±ï¼›ç”µå½±é™¢
 2516. much[m3t6]
-ad.·Ç³££¬ºÜ a.Ğí¶àµÄ
+ad.éå¸¸ï¼Œå¾ˆ a.è®¸å¤šçš„
 2517. mud[m3d]
-n.ÈíÄà£¬Äà½¬
+n.è½¯æ³¥ï¼Œæ³¥æµ†
 2518. muddy['m3di]
-a.¶àÄàµÄ£¬ÄàÅ¢µÄ
+a.å¤šæ³¥çš„ï¼Œæ³¥æ³çš„
 2519. mug[m3g]
-n.´ó±­
+n.å¤§æ¯
 2520. multiple['m3ltipl]
-a.¸´ºÏµÄ£»²¢ÁªµÄ
+a.å¤åˆçš„ï¼›å¹¶è”çš„
 2521. multiply['m3ltiplai]
-vt.Ê¹Ôö¼Ó£»³Ë
+vt.ä½¿å¢åŠ ï¼›ä¹˜
 2522. murder['m2:d2]
-n.&vi.Ä±É±£¬Ğ×É±
+n.&vi.è°‹æ€ï¼Œå‡¶æ€
 2523. murderer['m2:d2r2]
-n.É±ÈË·¸£¬Ğ×ÊÖ
+n.æ€äººçŠ¯ï¼Œå‡¶æ‰‹
 2524. muscle['m3sl]
-n.¼¡Èâ£¬¼¡£»ÌåÁ¦
+n.è‚Œè‚‰ï¼Œè‚Œï¼›ä½“åŠ›
 2525. museum[mju:'zi2m]
-n.²©Îï¹İ£»Õ¹ÀÀ¹İ
+n.åšç‰©é¦†ï¼›å±•è§ˆé¦†
 2526. mushroom['m36rum]
-n.Ä¢¹½£¬¾úÀàÖ²Îï
+n.è˜‘è‡ï¼ŒèŒç±»æ¤ç‰©
 2527. music['mju:zik]
-n.ÒôÀÖ£¬ÀÖÇú£¬ÀÖÆ×
+n.éŸ³ä¹ï¼Œä¹æ›²ï¼Œä¹è°±
 2528. musical['mju:zik2l]
-a.ÒôÀÖµÄ£»ºÍĞ³µÄ
+a.éŸ³ä¹çš„ï¼›å’Œè°çš„
 2529. musician[mju:'zi62n]
-n.ÒôÀÖ¼Ò£»×÷Çú¼Ò
+n.éŸ³ä¹å®¶ï¼›ä½œæ›²å®¶
 2530. must[m3st]
-v.aux.±ØĞë£»±ØÈ»Òª
+v.aux.å¿…é¡»ï¼›å¿…ç„¶è¦
 2531. mute[mju:t]
-a.¼êÄ¬µÄ n.ÑÆ°Í
+a.ç¼„é»˜çš„ n.å“‘å·´
 2532. mutter['m3t2]
-vi.ÇáÉùµÍÓï£»±§Ô¹
+vi.è½»å£°ä½è¯­ï¼›æŠ±æ€¨
 2533. mutton['m3tn]
-n.ÑòÈâ
+n.ç¾Šè‚‰
 2534. mutual['mju:tju2l]
-a.Ïà»¥µÄ£»¹²Í¬µÄ
+a.ç›¸äº’çš„ï¼›å…±åŒçš„
 2535. my[mai]
-pron.ÎÒµÄ
+pron.æˆ‘çš„
 2536. myself[mai'self]
-pron.ÎÒ×Ô¼º£»ÎÒÇ××Ô
+pron.æˆ‘è‡ªå·±ï¼›æˆ‘äº²è‡ª
 2537. mysterious[mis'ti2ri2s]
-a.ÉñÃØµÄ£»ÄÑÒÔÀí½âµÄ
+a.ç¥ç§˜çš„ï¼›éš¾ä»¥ç†è§£çš„
 2538. mystery['mist2ri]
-n.ÉñÃØ£»ÉñÃØµÄÊÂÎï
+n.ç¥ç§˜ï¼›ç¥ç§˜çš„äº‹ç‰©
 2539. nail[neil]
-n.¶¤£»Ö¸¼× vt.¶¤
+n.é’‰ï¼›æŒ‡ç”² vt.é’‰
 2540. naked['neikid]
-a.ÂãÌåµÄ£»ÎŞÕÚ±ÖµÄ
+a.è£¸ä½“çš„ï¼›æ— é®æ•çš„
 2541. name['neim]
-n.Ãû×Ö£»ÃûÓş vt.Ëµ³ö
+n.åå­—ï¼›åèª‰ vt.è¯´å‡º
 2542. namely['neimli]
-ad.¼´£¬Ò²¾ÍÊÇ
+ad.å³ï¼Œä¹Ÿå°±æ˜¯
 2543. nap[n9p]
-n.Ğ¡Ë¯£¬´òíï£¬î§Ë¯
+n.å°ç¡ï¼Œæ‰“ç›¹ï¼ŒçŒç¡
 2544. narrow['n9r2u]
-a.ÏÁµÄ£¬ÏÁÕ­µÄ
+a.ç‹­çš„ï¼Œç‹­çª„çš„
 2545. nasty['na:sti]
-a.ö»öºµÄ£»Òùâ«µÄ
+a.é¾Œé¾Šçš„ï¼›æ·«çŒ¥çš„
 2546. nation['nei62n]
-n.Ãñ×å£»¹ú¼Ò
+n.æ°‘æ—ï¼›å›½å®¶
 2547. national['n962nl]
-a.Ãñ×åµÄ£»¹ú¼ÒµÄ
+a.æ°‘æ—çš„ï¼›å›½å®¶çš„
 2548. nationality[n962'n9liti]
-n.¹ú¼®£»Ãñ×å£¬×å
+n.å›½ç±ï¼›æ°‘æ—ï¼Œæ—
 2549. native['neitiv]
-a.±¾ÍÁµÄ n.±¾µØÈË
+a.æœ¬åœŸçš„ n.æœ¬åœ°äºº
 2550. natural['n9t62r2l]
-a.×ÔÈ»½çµÄ£»ÌìÈ»µÄ
+a.è‡ªç„¶ç•Œçš„ï¼›å¤©ç„¶çš„
 2551. naturally['n9t62r2li]
-ad.×ÔÈ»µØ£»ÌìÈ»µØ
+ad.è‡ªç„¶åœ°ï¼›å¤©ç„¶åœ°
 2552. nature['neit62]
-n.´ó×ÔÈ»£»±¾ĞÔ£»ĞÔÖÊ
+n.å¤§è‡ªç„¶ï¼›æœ¬æ€§ï¼›æ€§è´¨
 2553. naughty['n0:ti]
-a.ÍçÆ¤µÄ£¬ÌÔÆøµÄ
+a.é¡½çš®çš„ï¼Œæ·˜æ°”çš„
 2554. naval['neiv2l]
-n.º£¾üµÄ£¬¾ü½¢µÄ
+n.æµ·å†›çš„ï¼Œå†›èˆ°çš„
 2555. navigation[n9vi'gei62n]
-n.º½ĞĞ£»º½º£Êõ£»µ¼º½
+n.èˆªè¡Œï¼›èˆªæµ·æœ¯ï¼›å¯¼èˆª
 2556. navy['neivi]
-n.º£¾ü
+n.æµ·å†›
 2557. near[ni2]
-ad.½ü£¬½Ó½ü a.½üµÄ
+ad.è¿‘ï¼Œæ¥è¿‘ a.è¿‘çš„
 2558. nearby['ni2bai]
-a.¸½½üµÄ ad.ÔÚ¸½½ü
+a.é™„è¿‘çš„ ad.åœ¨é™„è¿‘
 2559. nearly['ni2li]
-ad.²î²»¶à£»ÃÜÇĞµØ
+ad.å·®ä¸å¤šï¼›å¯†åˆ‡åœ°
 2560. neat[ni:t]
-a.Õû½àµÄ£»ÊìÁ·µÄ
+a.æ•´æ´çš„ï¼›ç†Ÿç»ƒçš„
 2561. necessarily['nesis2rili]
-ad.±ØÈ»£¬±Ø¶¨
+ad.å¿…ç„¶ï¼Œå¿…å®š
 2562. necessary['nesis2ri]
-a.±ØÒªµÄ£»±ØÈ»µÄ
+a.å¿…è¦çš„ï¼›å¿…ç„¶çš„
 2563. necessity[ni'sesiti]
-n.±ØÒªĞÔ£»±ØÈ»ĞÔ
+n.å¿…è¦æ€§ï¼›å¿…ç„¶æ€§
 2564. neck[nek]
-n.¾±£¬²±×Ó
+n.é¢ˆï¼Œè„–å­
 2565. necklace['neklis]
-n.ÏîÁ´£¬ÏîÈ¦
+n.é¡¹é“¾ï¼Œé¡¹åœˆ
 2566. need[ni:d]
-vt.ĞèÒª v.aux.ĞèÒª
+vt.éœ€è¦ v.aux.éœ€è¦
 2567. needle['ni:dl]
-n.Õë£¬·ì²¹£¬±àÖ¯Õë
+n.é’ˆï¼Œç¼è¡¥ï¼Œç¼–ç»‡é’ˆ
 2568. needless['ni:dlis]
-a.²»ĞèÒªµÄ
+a.ä¸éœ€è¦çš„
 2569. negative['neg2tiv]
-a.·ñ¶¨µÄ£»Ïû¼«µÄ
+a.å¦å®šçš„ï¼›æ¶ˆæçš„
 2570. neglect[ni'glekt]
-vt.ºöÊÓ£¬ºöÂÔ£»Êèºö
+vt.å¿½è§†ï¼Œå¿½ç•¥ï¼›ç–å¿½
 2571. Negro['ni:gr2u]
-n.ºÚÈË
+n.é»‘äºº
 2572. neighbour['neib2]
-n.ÁÚ¾Ó£¬ÁÚ¹ú£¬ÁÚÈË
+n.é‚»å±…ï¼Œé‚»å›½ï¼Œé‚»äºº
 2573. neighbourhood['neib2hud]
-n.ÁÚ¾Ó¹ØÏµ£»ÁÚ½ü
+n.é‚»å±…å…³ç³»ï¼›é‚»è¿‘
 2574. neither['nai52. 'ni:52]
-a.(Á½Õß)¶¼²»µÄ
+a.(ä¸¤è€…)éƒ½ä¸çš„
 2575. nephew['nevju:]
-n.Ö¶×Ó£¬ÍâÉû
+n.ä¾„å­ï¼Œå¤–ç”¥
 2576. nerve[n2:v]
-n.Éñ¾­£»ÓÂ¸Ò£¬µ¨Á¿
+n.ç¥ç»ï¼›å‹‡æ•¢ï¼Œèƒ†é‡
 2577. nervous['n2:v2s]
-a.Éñ¾­µÄ£»Ò×¼¤¶¯µÄ
+a.ç¥ç»çš„ï¼›æ˜“æ¿€åŠ¨çš„
 2578. nest[nest]
-n.³²£¬ÎÑ£¬Ñ¨
+n.å·¢ï¼Œçªï¼Œç©´
 2579. net[net]
-n.Íø£¬Íø×´Îï£»Í¨ĞÅÍø
+n.ç½‘ï¼Œç½‘çŠ¶ç‰©ï¼›é€šä¿¡ç½‘
 2580. network['netw2:k]
-n.Íø×´Îï£»ÍøÂç
+n.ç½‘çŠ¶ç‰©ï¼›ç½‘ç»œ
 2581. neutral['nju:tr2l]
-a.ÖĞÁ¢µÄ£»ÖĞĞÔµÄ
+a.ä¸­ç«‹çš„ï¼›ä¸­æ€§çš„
 2582. never['nev2]
-ad.ÓÀ²»£¬¾ö²»£»²»
+ad.æ°¸ä¸ï¼Œå†³ä¸ï¼›ä¸
 2583. nevertheless[nev252les]
-conj.È»¶ø ad.ÈÔÈ»
+conj.ç„¶è€Œ ad.ä»ç„¶
 2584. new[nju:]
-a.ĞÂµÄ£»ĞÂ½ü³öÏÖµÄ
+a.æ–°çš„ï¼›æ–°è¿‘å‡ºç°çš„
 2585. newly['nju:li]
-ad.ĞÂ½ü£¬×î½ü
+ad.æ–°è¿‘ï¼Œæœ€è¿‘
 2586. news[nju:z]
-n.ĞÂÎÅ£¬ÏûÏ¢
+n.æ–°é—»ï¼Œæ¶ˆæ¯
 2587. newspaper['nju:zpeip2]
-n.±¨Ö½£¬±¨
+n.æŠ¥çº¸ï¼ŒæŠ¥
 2588. next[nekst]
-a.½ô½ÓµÄ£»Ìù½üµÄ
+a.ç´§æ¥çš„ï¼›è´´è¿‘çš„
 2589. nice['nais]
-a.ÃÀºÃµÄ£¬ÁîÈËÓä¿ìµÄ
+a.ç¾å¥½çš„ï¼Œä»¤äººæ„‰å¿«çš„
 2590. niece[ni:s]
-n.Ö¶Å®£¬ÍâÉûÅ®
+n.ä¾„å¥³ï¼Œå¤–ç”¥å¥³
 2591. night[nait]
-n.Ò¹£¬Ò¹¼ä
+n.å¤œï¼Œå¤œé—´
 2592. nine[nain]
-num.¾Å£¬¾Å¸ö
+num.ä¹ï¼Œä¹ä¸ª
 2593. nineteen['nain'ti:n]
-num.Ê®¾Å£¬Ê®¾Å¸ö
+num.åä¹ï¼Œåä¹ä¸ª
 2594. ninety['nainti]
-num.¾ÅÊ®£¬¾ÅÊ®¸ö
+num.ä¹åï¼Œä¹åä¸ª
 2595. ninth[nain4]
-num.µÚ¾Å£»¾Å·ÖÖ®Ò»
+num.ç¬¬ä¹ï¼›ä¹åˆ†ä¹‹ä¸€
 2596. nitrogen['naitrid72n]
-n.µª
+n.æ°®
 2597. no[n2u]
-ad.²»£»²¢²» a.Ã»ÓĞ
+ad.ä¸ï¼›å¹¶ä¸ a.æ²¡æœ‰
 2598. noble['n2ubl]
-a.¹ó×åµÄ£»¸ßÉĞµÄ
+a.è´µæ—çš„ï¼›é«˜å°šçš„
 2599. nobody['n2ub2di]
-pron.Ë­Ò²²»£»ÎŞÈË
+pron.è°ä¹Ÿä¸ï¼›æ— äºº
 2600. nod[n0d]
-vt.µã(Í·)£»µãÍ·±íÊ¾
+vt.ç‚¹(å¤´)ï¼›ç‚¹å¤´è¡¨ç¤º
 2601. noise[n0iz]
-n.ĞúÄÖÉù£»ÏìÉù£»ÔëÉù
+n.å–§é—¹å£°ï¼›å“å£°ï¼›å™ªå£°
 2602. noisy['n0izi]
-a.àĞÔÓµÄ£»ĞúÄÖµÄ
+a.å˜ˆæ‚çš„ï¼›å–§é—¹çš„
 2603. none[n3n]
-pron.Ã»ÓĞÈË ad.ºÁ²»
+pron.æ²¡æœ‰äºº ad.æ¯«ä¸
 2604. nonsense['n0ns2ns]
-n.ºúËµ£¬·Ï»°
+n.èƒ¡è¯´ï¼ŒåºŸè¯
 2605. noon[nu:n]
-n.ÕıÎç£¬ÖĞÎç
+n.æ­£åˆï¼Œä¸­åˆ
 2606. nor[n0:]
-conj.Ò²²»£»²»
+conj.ä¹Ÿä¸ï¼›ä¸
 2607. normal['n0:ml]
-a.Õı³£µÄ£¬ÆÕÍ¨µÄ
+a.æ­£å¸¸çš„ï¼Œæ™®é€šçš„
 2608. normally['n0:m2li]
-ad.Í¨³££¬Õı³£µØ
+ad.é€šå¸¸ï¼Œæ­£å¸¸åœ°
 2609. north[n0:4]
-n.±±£¬±±·½ a.±±·½µÄ
+n.åŒ—ï¼ŒåŒ—æ–¹ a.åŒ—æ–¹çš„
 2610. northeast['n0:4'i:st]
-n.¶«±± a.Î»ÓÚ¶«±±µÄ
+n.ä¸œåŒ— a.ä½äºä¸œåŒ—çš„
 2611. northern['n0:52n]
-a.±±·½µÄ£¬±±²¿µÄ
+a.åŒ—æ–¹çš„ï¼ŒåŒ—éƒ¨çš„
 2612. northwest['n0:4'west]
-n.Î÷±± a.Î»ÓÚÎ÷±±µÄ
+n.è¥¿åŒ— a.ä½äºè¥¿åŒ—çš„
 2613. nose[n2uz]
-n.±Ç×Ó£»Í»³ö²¿·Ö
+n.é¼»å­ï¼›çªå‡ºéƒ¨åˆ†
 2614. not[n0t]
-ad.²»£¬Ã»ÓĞ
+ad.ä¸ï¼Œæ²¡æœ‰
 2615. note[n2ut]
-n.±Ê¼Ç£»±ãÌõ£»×¢ÊÍ
+n.ç¬”è®°ï¼›ä¾¿æ¡ï¼›æ³¨é‡Š
 2616. notebook['n2utbuk]
-n.±Ê¼Ç±¾£¬ÆÚÆ±²¾
+n.ç¬”è®°æœ¬ï¼ŒæœŸç¥¨ç°¿
 2617. nothing['n34i8]
-n.Ã»ÓĞ¶«Î÷ ad.ºÁ²»
+n.æ²¡æœ‰ä¸œè¥¿ ad.æ¯«ä¸
 2618. notice['n2utis]
-vt.×¢Òâ n.Í¨Öª£»×¢Òâ
+vt.æ³¨æ„ n.é€šçŸ¥ï¼›æ³¨æ„
 2619. noticeable['n2utis2bl]
-a.ÏÔ¶øÒ×¼ûµÄ£»ÖØÒªµÄ
+a.æ˜¾è€Œæ˜“è§çš„ï¼›é‡è¦çš„
 2620. noun[naun]
-n.Ãû´Ê
+n.åè¯
 2621. novel['n0v2l]
-n.Ğ¡Ëµ a.ĞÂµÄ
+n.å°è¯´ a.æ–°çš„
 2622. November[n2u'vemb2]
-n.Ê®Ò»ÔÂ
+n.åä¸€æœˆ
 2623. now[nau]
-ad.ÏÖÔÚ£»Á¢¿Ì£»ÓÚÊÇ
+ad.ç°åœ¨ï¼›ç«‹åˆ»ï¼›äºæ˜¯
 2624. nowadays['nau2deiz]
-ad.ÏÖ½ñ£¬ÏÖÔÚ
+ad.ç°ä»Šï¼Œç°åœ¨
 2625. nowhere['n2uhw/2]
-ad.ÈÎºÎµØ·½¶¼²»
+ad.ä»»ä½•åœ°æ–¹éƒ½ä¸
 2626. nuclear['nju:kli2]
-a.Ô­×ÓºËµÄ£»ºËĞÄµÄ
+a.åŸå­æ ¸çš„ï¼›æ ¸å¿ƒçš„
 2627. nucleus['nju:kli2s]
-n.ºË£¬ºËĞÄ£»(Ô­×Ó)ºË
+n.æ ¸ï¼Œæ ¸å¿ƒï¼›(åŸå­)æ ¸
 2628. nuisance['nju:sns]
-n.ÌÖÑáµÄ¶«Î÷
+n.è®¨åŒçš„ä¸œè¥¿
 2629. number['n3mb2]
-n.Êı£¬Êı×Ö£»ºÅÂë
+n.æ•°ï¼Œæ•°å­—ï¼›å·ç 
 2630. numerous['nju:m2r2s]
-a.ÎªÊıÖÚ¶àµÄ£»Ğí¶à
+a.ä¸ºæ•°ä¼—å¤šçš„ï¼›è®¸å¤š
 2631. nurse[n2:s]
-n.±£Ä·£»»¤Ê¿ vt.¿´»¤
+n.ä¿å§†ï¼›æŠ¤å£« vt.çœ‹æŠ¤
 2632. nursery['n2:s2ri]
-n.ÍĞ¶ùËù£»ÃçÆÔ
+n.æ‰˜å„¿æ‰€ï¼›è‹—åœƒ
 2633. nut[n3t]
-n.¼á¹û£¬¸É¹û£»ÂİÄ¸
+n.åšæœï¼Œå¹²æœï¼›èºæ¯
 2634. nylon['nail2n]
-n.ÄáÁú£¬ÄÍÂÚ
+n.å°¼é¾™ï¼Œè€çº¶
 2635. oak[2uk]
-n.èİÊôÖ²Îï£»èİÄ¾
+n.æ å±æ¤ç‰©ï¼›æ æœ¨
 2636. oar[0:]
-n.½¬£¬éÖ
+n.æµ†ï¼Œæ©¹
 2637. obey[2'bei]
-vt.Ë³´Ó vi.·ş´Ó
+vt.é¡ºä» vi.æœä»
 2638. object['0bd7ikt 2b'd7ekt]
-n.Îï£¬ÎïÌå£»Ä¿µÄ
+n.ç‰©ï¼Œç‰©ä½“ï¼›ç›®çš„
 2639. object['0bd7ikt 2b'd7ekt]
-vi.·´¶Ô£»±§·´¸Ğ
+vi.åå¯¹ï¼›æŠ±åæ„Ÿ
 2640. objection[2b'd7ek62n]
-n.·´¶Ô£¬ÒìÒé£»²»Ï²»¶
+n.åå¯¹ï¼Œå¼‚è®®ï¼›ä¸å–œæ¬¢
 2641. objective[0b'd7ektiv]
-a.¿Í¹ÛµÄ£»ÎŞÆ«¼ûµÄ
+a.å®¢è§‚çš„ï¼›æ— åè§çš„
 2642. oblige[2'blaid7]
-vt.ÆÈÊ¹£»Ê©¶÷»İÓÚ
+vt.è¿«ä½¿ï¼›æ–½æ©æƒ äº
 2643. observation[0bz2:'vei62n]
-n.×¢Òâ£»¹Û²ì£»¹Û²ìÁ¦
+n.æ³¨æ„ï¼›è§‚å¯Ÿï¼›è§‚å¯ŸåŠ›
 2644. observe[2b'z2:v]
-vt.×ñÊØ£»¿´µ½£»Ëµ
+vt.éµå®ˆï¼›çœ‹åˆ°ï¼›è¯´
 2645. observer[2b'z2:v2]
-n.¹Û²ìÔ±£¬¹Û²âÕß
+n.è§‚å¯Ÿå‘˜ï¼Œè§‚æµ‹è€…
 2646. obstacle['0bst2kl]
-n.ÕÏ°­£¬ÕÏ°­Îï£¬·Áº¦
+n.éšœç¢ï¼Œéšœç¢ç‰©ï¼Œå¦¨å®³
 2647. obtain[2b'tein]
-vt.»ñµÃ£¬µÃµ½£¬Âòµ½
+vt.è·å¾—ï¼Œå¾—åˆ°ï¼Œä¹°åˆ°
 2648. obvious['0bvi2s]
-a.Ã÷ÏÔµÄ£¬ÏÔ¶øÒ×¼ûµÄ
+a.æ˜æ˜¾çš„ï¼Œæ˜¾è€Œæ˜“è§çš„
 2649. obviously['0bvi2sli]
-ad.Ã÷ÏÔµØ£¬ÏÔÈ»µØ
+ad.æ˜æ˜¾åœ°ï¼Œæ˜¾ç„¶åœ°
 2650. occasion[2'kei72n]
-n.³¡ºÏ£¬Ê±¿Ì£»Ê±»ú
+n.åœºåˆï¼Œæ—¶åˆ»ï¼›æ—¶æœº
 2651. occasional[2'kei72n2l]
-a.Å¼È»µÄ£»ÁÙÊ±µÄ
+a.å¶ç„¶çš„ï¼›ä¸´æ—¶çš„
 2652. occasionally[2'kei72n2li]
-ad.Å¼È»£»·Ç¾­³£µØ
+ad.å¶ç„¶ï¼›éç»å¸¸åœ°
 2653. occupation[0kju'pei62nl]
-n.Õ¼Áì£¬Õ¼¾İ£»Ö°Òµ
+n.å é¢†ï¼Œå æ®ï¼›èŒä¸š
 2654. occupy['0kjup2ai]
-vt.Õ¼Áì£»Õ¼£¬Õ¼ÓĞ
+vt.å é¢†ï¼›å ï¼Œå æœ‰
 2655. occur[2'k2:]
-vi.·¢Éú£»³öÏÖ£¬´æÔÚ
+vi.å‘ç”Ÿï¼›å‡ºç°ï¼Œå­˜åœ¨
 2656. occurrence[2'k3r2ns]
-n.·¢Éú£¬³öÏÖ£»ÊÂ¼ş
+n.å‘ç”Ÿï¼Œå‡ºç°ï¼›äº‹ä»¶
 2657. ocean['2u62n]
-n.º£Ñó£»Ñó
+n.æµ·æ´‹ï¼›æ´‹
 2658. Oceania[2u6i'einj2]
-n.´óÑóÖŞ
+n.å¤§æ´‹æ´²
 2659. o'clock[2'kl0k]
-ad.¡­µãÖÓ
+ad.â€¦ç‚¹é’Ÿ
 2660. October[0k't2ub2]
-n.Ê®ÔÂ
+n.åæœˆ
 2661. odd[0d]
-a.ÆæÊıµÄ£»µ¥Ö»µÄ
+a.å¥‡æ•°çš„ï¼›å•åªçš„
 2662. odour['2ud2]
-n.ÆøÎ¶£¬ÏãÆø£»Î¶µÀ
+n.æ°”å‘³ï¼Œé¦™æ°”ï¼›å‘³é“
 2663. of[0v. 2v]
-prep.¡­µÄ£»ÓÉÓÚ
+prep.â€¦çš„ï¼›ç”±äº
 2664. off[0:f]
-ad.(Àë)¿ª£»(Í£)Ö¹
+ad.(ç¦»)å¼€ï¼›(åœ)æ­¢
 2665. offend[2'fend]
-vt.Ã°·¸ vi.·¸¹ı´í
+vt.å†’çŠ¯ vi.çŠ¯è¿‡é”™
 2666. offer['0f2]
-vt.Ìá¹©£»Ìá³ö n.Ìá¹©
+vt.æä¾›ï¼›æå‡º n.æä¾›
 2667. office['0fis]
-n.°ì¹«ÊÒ£»´¦£¬¾Ö£¬Éç
+n.åŠå…¬å®¤ï¼›å¤„ï¼Œå±€ï¼Œç¤¾
 2668. officer['0fis2]
-n.¹ÙÔ±£»¸ÉÊÂ£»¾ü¹Ù
+n.å®˜å‘˜ï¼›å¹²äº‹ï¼›å†›å®˜
 2669. official[2'fi62l]
-a.¹ÙÔ±µÄ£»¹Ù·½µÄ
+a.å®˜å‘˜çš„ï¼›å®˜æ–¹çš„
 2670. often['0:fn]
-ad.¾­³££¬³£³£
+ad.ç»å¸¸ï¼Œå¸¸å¸¸
 2671. oh[2u]
-int.àÀ£¬Å¶£¬°¦Ñ½
+int.å—¬ï¼Œå“¦ï¼Œå”‰å‘€
 2672. oil[0il]
-n.ÓÍ£»Ê¯ÓÍ vt.¼ÓÓÍÓÚ
+n.æ²¹ï¼›çŸ³æ²¹ vt.åŠ æ²¹äº
 2673. okay['2u'kei]
-(Ëõ×÷OK)a.&ad.¶Ô£¬ºÃ
+(ç¼©ä½œOK)a.&ad.å¯¹ï¼Œå¥½
 2674. old[2uld]
-a.ÀÏµÄ£»¡­ËêµÄ
+a.è€çš„ï¼›â€¦å²çš„
 2675. omit[2u'mit]
-vt.Ê¡ÂÔ£¬Ê¡È¥£»ÒÅÂ©
+vt.çœç•¥ï¼Œçœå»ï¼›é—æ¼
 2676. on[0n]
-prep.ÔÚ¡­ÉÏ£»ÔÚ¡­ÅÔ
+prep.åœ¨â€¦ä¸Šï¼›åœ¨â€¦æ—
 2677. once[w3ns]
-ad.Ò»´Î£»Ôø¾­ n.Ò»´Î
+ad.ä¸€æ¬¡ï¼›æ›¾ç» n.ä¸€æ¬¡
 2678. one[w3n]
-num.Ò» pron.Ò»¸öÈË
+num.ä¸€ pron.ä¸€ä¸ªäºº
 2679. oneself[w3n'self]
-pron.×Ô¼º£»Ç××Ô
+pron.è‡ªå·±ï¼›äº²è‡ª
 2680. onion['3nj2n]
-n.Ñó´Ğ£¬Ñó´ĞÍ·
+n.æ´‹è‘±ï¼Œæ´‹è‘±å¤´
 2681. only['2unli]
-ad.Ö»£¬½ö½ö a.Î¨Ò»µÄ
+ad.åªï¼Œä»…ä»… a.å”¯ä¸€çš„
 2682. onto['0ntu]
-prep.µ½¡­ÉÏ
+prep.åˆ°â€¦ä¸Š
 2683. open['2up2n]
-a.¿ªµÄ£»¿ª·ÅµÄ vt.¿ª
+a.å¼€çš„ï¼›å¼€æ”¾çš„ vt.å¼€
 2684. opening['2up2ni8]
-a.¿ªÊ¼µÄ n.¿ªÊ¼
+a.å¼€å§‹çš„ n.å¼€å§‹
 2685. opera['0p2r2]
-n.¸è¾ç
+n.æ­Œå‰§
 2686. operate['0p2reit]
-vi.²Ù×÷£»Ê©ĞĞÊÖÊõ
+vi.æ“ä½œï¼›æ–½è¡Œæ‰‹æœ¯
 2687. operation[0p2'rei62n]
-n.²Ù×÷£»ÊÖÊõ£»ÔËËã
+n.æ“ä½œï¼›æ‰‹æœ¯ï¼›è¿ç®—
 2688. operational[0p2'rei62nl]
-a.²Ù×÷ÉÏµÄ£»¿ÉÊ¹ÓÃµÄ
+a.æ“ä½œä¸Šçš„ï¼›å¯ä½¿ç”¨çš„
 2689. operator['0p2reit2]
-n.²Ù×÷ÈËÔ±£¬½ÓÏßÔ±
+n.æ“ä½œäººå‘˜ï¼Œæ¥çº¿å‘˜
 2690. opinion[2'pinj2n]
-n.Òâ¼û£¬¿´·¨£¬Ö÷ÕÅ
+n.æ„è§ï¼Œçœ‹æ³•ï¼Œä¸»å¼ 
 2691. opponent[2'p2un2nt]
-n.¶ÔÊÖ£¬µĞÊÖ£»¶Ô¿¹Õß
+n.å¯¹æ‰‹ï¼Œæ•Œæ‰‹ï¼›å¯¹æŠ—è€…
 2692. opportunity[0p2'tju:niti]
-n.»ú»á£¬Á¼»ú
+n.æœºä¼šï¼Œè‰¯æœº
 2693. oppose[2'p2uz]
-vt.·´¶Ô£»·´¿¹
+vt.åå¯¹ï¼›åæŠ—
 2694. opposite['0p2zit]
-a.¶ÔÃæµÄ n.¶ÔÁ¢Îï
+a.å¯¹é¢çš„ n.å¯¹ç«‹ç‰©
 2695. oppress[2'pres]
-vt.Ñ¹ÆÈ£¬Ñ¹ÖÆ£»Ñ¹ÒÖ
+vt.å‹è¿«ï¼Œå‹åˆ¶ï¼›å‹æŠ‘
 2696. optical['0ptik2l]
-a.ÑÛµÄ£»¹âÑ§µÄ
+a.çœ¼çš„ï¼›å…‰å­¦çš„
 2697. optimistic[0ptimistik]
-a.ÀÖ¹ÛµÄ£»ÀÖ¹ÛÖ÷ÒåµÄ
+a.ä¹è§‚çš„ï¼›ä¹è§‚ä¸»ä¹‰çš„
 2698. option['0p62n]
-n.Ñ¡Ôñ£¬Ñ¡ÔñÈ¨
+n.é€‰æ‹©ï¼Œé€‰æ‹©æƒ
 2699. optional['0p62nl]
-a.¿ÉÒÔÈÎÒâÑ¡ÔñµÄ
+a.å¯ä»¥ä»»æ„é€‰æ‹©çš„
 2700. or[0:. 2]
-conj.»ò£¬»òÕß£»¼´
+conj.æˆ–ï¼Œæˆ–è€…ï¼›å³
 2701. oral['0:r2l]
-a.¿ÚÍ·µÄ£»¿ÚµÄ
+a.å£å¤´çš„ï¼›å£çš„
 2702. orange['0rind7]
-n.³È(Ê÷)£»¸Ì(Ê÷)
+n.æ©™(æ ‘)ï¼›æŸ‘(æ ‘)
 2703. orbit['0:bit]
-n.ÔËĞĞ¹ìµÀ vt.»·ÈÆ
+n.è¿è¡Œè½¨é“ vt.ç¯ç»•
 2704. orchestra['0:kistr2]
-n.¹ÜÏÒÀÖ¶Ó
+n.ç®¡å¼¦ä¹é˜Ÿ
 2705. order['0:d2]
-n.´ÎĞò£»ÕûÆë vt.ÃüÁî
+n.æ¬¡åºï¼›æ•´é½ vt.å‘½ä»¤
 2706. orderly['0:d2li]
-a.Õû½àµÄ£»ÓĞÖÈĞòµÄ
+a.æ•´æ´çš„ï¼›æœ‰ç§©åºçš„
 2707. ordinary['0:din2ri]
-a.Æ½³£µÄ£»Æ½·²µÄ
+a.å¹³å¸¸çš„ï¼›å¹³å‡¡çš„
 2708. ore[0:]
-n.¿ó£¬¿óÊ¯£¬¿óÉ°
+n.çŸ¿ï¼ŒçŸ¿çŸ³ï¼ŒçŸ¿ç ‚
 2709. organ['0:g2n]
-n.Æ÷¹Ù£»»ú¹¹£»¹Ü·çÇÙ
+n.å™¨å®˜ï¼›æœºæ„ï¼›ç®¡é£ç´
 2710. organic[0:'g9nik]
-a.ÓĞ»úÌåµÄ£»Æ÷¹ÙµÄ
+a.æœ‰æœºä½“çš„ï¼›å™¨å®˜çš„
 2711. organism['0:g2niz2m]
-n.ÉúÎïÌå£»ÓĞ»úÌå
+n.ç”Ÿç‰©ä½“ï¼›æœ‰æœºä½“
 2712. organization[0:g2nai'zei62n]
-n.×éÖ¯£»ÍÅÌå£¬»ú¹¹
+n.ç»„ç»‡ï¼›å›¢ä½“ï¼Œæœºæ„
 2713. organize['0:g2naiz]
-vt.×éÖ¯£¬±à×é
+vt.ç»„ç»‡ï¼Œç¼–ç»„
 2714. oriental[0ri'entl]
-a.¶«·½µÄ£»¶«·½¹ú¼ÒµÄ
+a.ä¸œæ–¹çš„ï¼›ä¸œæ–¹å›½å®¶çš„
 2715. origin['0rid7in]
-n.ÆğÔ´£¬ÓÉÀ´£»³öÉí
+n.èµ·æºï¼Œç”±æ¥ï¼›å‡ºèº«
 2716. original[2'rid72n2l]
-a.×î³õµÄ£»ĞÂÓ±µÄ
+a.æœ€åˆçš„ï¼›æ–°é¢–çš„
 2717. ornament['0:n2m2nt. '0:n2ment]
-n.×°ÊÎÎï£»×°ÊÎ
+n.è£…é¥°ç‰©ï¼›è£…é¥°
 2718. orphan['0:f2n]
-n.¹Â¶ù
+n.å­¤å„¿
 2719. other['352]
-a.ÁíÍâµÄ£»ÆäÓàµÄ
+a.å¦å¤–çš„ï¼›å…¶ä½™çš„
 2720. otherwise['352waiz]
-ad.ÁíÍâ£»Òª²»È»
+ad.å¦å¤–ï¼›è¦ä¸ç„¶
 2721. ought[0:t]
-v.aux.Ó¦µ±£¬Ó¦¸Ã
+v.aux.åº”å½“ï¼Œåº”è¯¥
 2722. ounce[auns]
-n.°»Ë¾£¬Ó¢Á½
+n.ç›å¸ï¼Œè‹±ä¸¤
 2723. our['au2]
-pron.ÎÒÃÇµÄ
+pron.æˆ‘ä»¬çš„
 2724. ours['au2z]
-pron.ÎÒÃÇµÄ
+pron.æˆ‘ä»¬çš„
 2725. ourselves[au2'selvz]
-pron.ÎÒÃÇ×Ô¼º
+pron.æˆ‘ä»¬è‡ªå·±
 2726. out[aut]
-ad.³ö£¬ÔÚÍâ£»ÏÖ³öÀ´
+ad.å‡ºï¼Œåœ¨å¤–ï¼›ç°å‡ºæ¥
 2727. outcome['autk2m]
-n.½á¹û£¬ºó¹û£¬³É¹û
+n.ç»“æœï¼Œåæœï¼Œæˆæœ
 2728. outdoor['autd0:]
-a.»§ÍâµÄ£¬ÊÒÍâµÄ
+a.æˆ·å¤–çš„ï¼Œå®¤å¤–çš„
 2729. outdoors['aut'd0:z]
-ad.ÔÚ»§Íâ£¬ÔÚÒ°Íâ
+ad.åœ¨æˆ·å¤–ï¼Œåœ¨é‡å¤–
 2730. outer['aut2]
-a.Íâ²¿µÄ£¬ÍâÃæµÄ
+a.å¤–éƒ¨çš„ï¼Œå¤–é¢çš„
 2731. outlet['aut-let]
-n.³ö¿Ú£¬³öÂ·£»ÅÅÇ²
+n.å‡ºå£ï¼Œå‡ºè·¯ï¼›æ’é£
 2732. outline['aut-lain]
-n.ÂÖÀª£»ÂÔÍ¼£»´ó¸Ù
+n.è½®å»“ï¼›ç•¥å›¾ï¼›å¤§çº²
 2733. outlook['aut-luk]
-n.¹Ûµã£¬¿´·¨£»Õ¹Íû
+n.è§‚ç‚¹ï¼Œçœ‹æ³•ï¼›å±•æœ›
 2734. output['autput]
-n.²úÁ¿£»Êä³öÁ¿£»Êä³ö
+n.äº§é‡ï¼›è¾“å‡ºé‡ï¼›è¾“å‡º
 2735. outset['aut-set]
-n.¿ªÊ¼£¬¿ª¶Ë
+n.å¼€å§‹ï¼Œå¼€ç«¯
 2736. outside['aut'said]
-n.Íâ²¿£»Íâ±ía.Íâ²¿µÄ
+n.å¤–éƒ¨ï¼›å¤–è¡¨a.å¤–éƒ¨çš„
 2737. outskirt['autsk2:t]
-n.Íâ±ß£¬½¼Çø
+n.å¤–è¾¹ï¼ŒéƒŠåŒº
 2738. outstanding[aut'st9ndi8]
-a.Í»³öµÄ£¬½Ü³öµÄ
+a.çªå‡ºçš„ï¼Œæ°å‡ºçš„
 2739. outward['autw2d]
-a.ÍâÃæµÄ£»ÏòÍâµÄ
+a.å¤–é¢çš„ï¼›å‘å¤–çš„
 2740. outwards['autw2dz]
-ad.ÏòÍâ£¬Íùº£Íâ
+ad.å‘å¤–ï¼Œå¾€æµ·å¤–
 2741. oven['3vn]
-n.Â¯£¬Ôî£»ºæÏä
+n.ç‚‰ï¼Œç¶ï¼›çƒ˜ç®±
 2742. over['2uv2]
-prep.ÔÚ¡­ÉÏ·½£»³¬¹ı
+prep.åœ¨â€¦ä¸Šæ–¹ï¼›è¶…è¿‡
 2743. overall['2uv2r0:l]
-n.¹¤×°¿ã a.È«ÃæµÄ
+n.å·¥è£…è£¤ a.å…¨é¢çš„
 2744. overcoat['2uv2k2ut]
-n.ÍâÒÂ£¬´óÒÂ
+n.å¤–è¡£ï¼Œå¤§è¡£
 2745. overcome[2uv2'k3m]
-vt.Õ½Ê¤£¬¿Ë·ş
+vt.æˆ˜èƒœï¼Œå…‹æœ
 2746. overhead['2uv2'hed. '2uv2hed]
-a.ÔÚÍ·¶¥ÉÏµÄ£»¼Ü¿ÕµÄ
+a.åœ¨å¤´é¡¶ä¸Šçš„ï¼›æ¶ç©ºçš„
 2747. overlook[2uv2'luk]
-vt.Ì÷Íû£»¿´Â©£»·ÅÈÎ
+vt.çœºæœ›ï¼›çœ‹æ¼ï¼›æ”¾ä»»
 2748. overnight['2uv2nait]
-ad.Ò»Ò¹£»Í»È»
+ad.ä¸€å¤œï¼›çªç„¶
 2749. overseas['2uve'si:z]
-ad.º£Íâ a.ÔÚº£ÍâµÄ
+ad.æµ·å¤– a.åœ¨æµ·å¤–çš„
 2750. overtake[2uv2'teik]
-vt.×·ÉÏ£¬¸ÏÉÏ£»Ñ¹µ¹
+vt.è¿½ä¸Šï¼Œèµ¶ä¸Šï¼›å‹å€’
 2751. overtime['2uv2taim]
-a.³¬Ê±µÄ£¬¼Ó°àµÄ
+a.è¶…æ—¶çš„ï¼ŒåŠ ç­çš„
 2752. owe[2u]
-vt.Ç·£»Ó¦°Ñ¡­¹é¹¦ÓÚ
+vt.æ¬ ï¼›åº”æŠŠâ€¦å½’åŠŸäº
 2753. owl[aul]
-n.Ã¨Í·Ó¥£¬èÉ
+n.çŒ«å¤´é¹°ï¼Œæ­
 2754. own[2un]
-a.×Ô¼ºµÄ vt.ÓĞ£¬ÓµÓĞ
+a.è‡ªå·±çš„ vt.æœ‰ï¼Œæ‹¥æœ‰
 2755. owner['2un2]
-n.ÎïÖ÷£¬ËùÓĞÈË
+n.ç‰©ä¸»ï¼Œæ‰€æœ‰äºº
 2756. ownership['2un26ip]
-n.ËùÓĞ(È¨)£¬ËùÓĞÖÆ
+n.æ‰€æœ‰(æƒ)ï¼Œæ‰€æœ‰åˆ¶
 2757. ox[0ks]
-n.Å££»¹«Å££¬ÑËÅ£
+n.ç‰›ï¼›å…¬ç‰›ï¼Œé˜‰ç‰›
 2758. pace[peis]
-n.²½£¬²½ËÙ vi.õâ²½
+n.æ­¥ï¼Œæ­¥é€Ÿ vi.è¸±æ­¥
 2759. pacific[p2'sifik]
-a.ºÍÆ½µÄ n.Ì«Æ½Ñó
+a.å’Œå¹³çš„ n.å¤ªå¹³æ´‹
 2760. pack[p9k]
-vt.À¦Ôú£»¼·Âú n.°ü
+vt.æ†æ‰ï¼›æŒ¤æ»¡ n.åŒ…
 2761. package['p9kid7]
-n.°ü¹ü£¬°ü£¬À¦
+n.åŒ…è£¹ï¼ŒåŒ…ï¼Œæ†
 2762. packet['p9kit]
-n.Ğ¡°ü(¹ü)£¬Ğ¡À¦
+n.å°åŒ…(è£¹)ï¼Œå°æ†
 2763. pad[p9d]
-n.µæ£»±¾×Ó vt.ÌîÈû
+n.å«ï¼›æœ¬å­ vt.å¡«å¡
 2764. page[peid7]
-n.Ò³
+n.é¡µ
 2765. pail[peil]
-n.Í°£¬ÌáÍ°
+n.æ¡¶ï¼Œææ¡¶
 2766. pain[pein]
-n.Í´£¬ÌÛÍ´£»ĞÁ¿à
+n.ç—›ï¼Œç–¼ç—›ï¼›è¾›è‹¦
 2767. painful['peinful]
-a.Ê¹Í´µÄ£»·ÑÁ¦µÄ
+a.ä½¿ç—›çš„ï¼›è´¹åŠ›çš„
 2768. paint[peint]
-vt.»­£»ÓÍÆá vi.»æ»­
+vt.ç”»ï¼›æ²¹æ¼† vi.ç»˜ç”»
 2769. painter['peint2]
-n.Æá¹¤£¬»­¼Ò£¬»æ»­Õß
+n.æ¼†å·¥ï¼Œç”»å®¶ï¼Œç»˜ç”»è€…
 2770. painting['peinti8]
-n.ÓÍ»­£»»æ»­£»×ÅÉ«
+n.æ²¹ç”»ï¼›ç»˜ç”»ï¼›ç€è‰²
 2771. pair[p/2]
-n.Ò»¶Ô vi.³É¶Ô£¬Åä¶Ô
+n.ä¸€å¯¹ vi.æˆå¯¹ï¼Œé…å¯¹
 2772. palace['p9lis]
-n.¹¬£¬¹¬µî
+n.å®«ï¼Œå®«æ®¿
 2773. pale[peil]
-a.²Ô°×µÄ£»Ç³µÄ
+a.è‹ç™½çš„ï¼›æµ…çš„
 2774. palm[pa:m]
-n.ÊÖÕÆ£¬ÊÖĞÄ£»ÕÆ×´Îï
+n.æ‰‹æŒï¼Œæ‰‹å¿ƒï¼›æŒçŠ¶ç‰©
 2775. pan[p9n]
-n.Æ½µ×¹ø£¬ÅÌ×Ó
+n.å¹³åº•é”…ï¼Œç›˜å­
 2776. panda['p9nd2]
-n.Ğ¡Ã¨ĞÜ£»Ã¨ĞÜ
+n.å°çŒ«ç†Šï¼›çŒ«ç†Š
 2777. pane[pein]
-n.´°¸ñ²£Á§
+n.çª—æ ¼ç»ç’ƒ
 2778. panel['p9nl]
-n.×¨ÃÅĞ¡×é£»Ãæ£¬°å
+n.ä¸“é—¨å°ç»„ï¼›é¢ï¼Œæ¿
 2779. pant[p9nt]
-n.Æø´­£»ĞÄÌø
+n.æ°”å–˜ï¼›å¿ƒè·³
 2780. paper['peip2]
-n.Ö½£»¹Ù·½ÎÄ¼ş£»ÎÄÕÂ
+n.çº¸ï¼›å®˜æ–¹æ–‡ä»¶ï¼›æ–‡ç« 
 2781. parade[p2'reid]
-n.ÓÎĞĞ£»¼ìÔÄ vi.ÓÎĞĞ
+n.æ¸¸è¡Œï¼›æ£€é˜… vi.æ¸¸è¡Œ
 2782. paradise['p9r2dais]
-n.ÒÁµéÀÖÔ°£»ÌìÌÃ
+n.ä¼Šç”¸ä¹å›­ï¼›å¤©å ‚
 2783. paragraph['p9r2gra:f]
-n.(ÎÄÕÂµÄ)¶Î£¬½Ú
+n.(æ–‡ç« çš„)æ®µï¼ŒèŠ‚
 2784. parallel['p9r2lel]
-a.Æ½ĞĞµÄ£»ÏàÍ¬µÄ
+a.å¹³è¡Œçš„ï¼›ç›¸åŒçš„
 2785. parcel['pa:sl]
-n.°ü¹ü£¬Ğ¡°ü£¬ÓÊ°ü
+n.åŒ…è£¹ï¼Œå°åŒ…ï¼Œé‚®åŒ…
 2786. pardon['pa:dn]
-n.Ô­ÁÂ£»ÉâÃâ vt.Ô­ÁÂ
+n.åŸè°…ï¼›èµ¦å… vt.åŸè°…
 2787. parent['p/2r2nt]
-n.¸¸Ç×£¬Ä¸Ç×£¬Ë«Ç×
+n.çˆ¶äº²ï¼Œæ¯äº²ï¼ŒåŒäº²
 2788. park[pa:k]
-n.¹«Ô°£»Í£³µ³¡
+n.å…¬å›­ï¼›åœè½¦åœº
 2789. parliament['pa:l2m2nt]
-n.Òé»á£¬¹ú»á
+n.è®®ä¼šï¼Œå›½ä¼š
 2790. part[pa:t]
-n.Ò»²¿·Ö£»Áã¼ş£»±¾·İ
+n.ä¸€éƒ¨åˆ†ï¼›é›¶ä»¶ï¼›æœ¬ä»½
 2791. partial['pa:62l]
-a.²¿·ÖµÄ£»²»¹«Æ½µÄ
+a.éƒ¨åˆ†çš„ï¼›ä¸å…¬å¹³çš„
 2792. partially['pa:62li]
-ad.²¿·ÖµØ
+ad.éƒ¨åˆ†åœ°
 2793. participate[pa:'tisipeit]
-vi.²ÎÓë£¬²Î¼Ó£»·ÖÏí
+vi.å‚ä¸ï¼Œå‚åŠ ï¼›åˆ†äº«
 2794. particle['pa:tikl]
-n.Á£×Ó£¬Î¢Á£
+n.ç²’å­ï¼Œå¾®ç²’
 2795. particular[p2'tikjul2]
-a.ÌØÊâµÄ£»ÌØ¶¨µÄ
+a.ç‰¹æ®Šçš„ï¼›ç‰¹å®šçš„
 2796. particularly[p2'tikjul2li]
-ad.ÌØ±ğ£¬ÓÈÆä£¬¸ñÍâ
+ad.ç‰¹åˆ«ï¼Œå°¤å…¶ï¼Œæ ¼å¤–
 2797. partly['pa:tli]
-ad.²¿·ÖµØ£¬²»ÍêÈ«µØ
+ad.éƒ¨åˆ†åœ°ï¼Œä¸å®Œå…¨åœ°
 2798. partner['pa:tn2]
-n.»ï°é£»´îµ²£»ÅäÅ¼
+n.ä¼™ä¼´ï¼›æ­æŒ¡ï¼›é…å¶
 2799. party['pa:ti]
-n.µ³£¬µ³ÅÉ£»¾Û»á
+n.å…šï¼Œå…šæ´¾ï¼›èšä¼š
 2800. pass[pa:s]
-vt.¾­¹ı£»Í¨¹ı£»¶È¹ı
+vt.ç»è¿‡ï¼›é€šè¿‡ï¼›åº¦è¿‡
 2801. passage['p9sid7]
-n.Í¨¹ı£»Í¨Â·£¬Í¨µÀ
+n.é€šè¿‡ï¼›é€šè·¯ï¼Œé€šé“
 2802. passenger['p9sind72]
-n.³Ë¿Í£¬ÂÃ¿Í£¬¹ıÂ·ÈË
+n.ä¹˜å®¢ï¼Œæ—…å®¢ï¼Œè¿‡è·¯äºº
 2803. passion['p962n]
-n.¼¤Çé£¬ÈÈÇé£»°®ºÃ
+n.æ¿€æƒ…ï¼Œçƒ­æƒ…ï¼›çˆ±å¥½
 2804. passive['p9siv]
-a.±»¶¯µÄ£»Ïû¼«µÄ
+a.è¢«åŠ¨çš„ï¼›æ¶ˆæçš„
 2805. passport['pa:sp0:t]
-n.»¤ÕÕ
+n.æŠ¤ç…§
 2806. past[past]
-a.¹ıÈ¥µÄ n.¹ıÈ¥
+a.è¿‡å»çš„ n.è¿‡å»
 2807. paste[peist]
-n.ºı£¬½´£»½¬ºş
+n.ç³Šï¼Œé…±ï¼›æµ†æ¹–
 2808. pastime['pa:staim]
-n.ÏûÇ²£¬ÓéÀÖ
+n.æ¶ˆé£ï¼Œå¨±ä¹
 2809. pat[p9t]
-n.&vt.&n.ÇáÅÄ
+n.&vt.&n.è½»æ‹
 2810. patch[p9t6]
-n.²¹¶¤£»ËéÆ¬ vt.²¹×º
+n.è¡¥é’‰ï¼›ç¢ç‰‡ vt.è¡¥ç¼€
 2811. path[pa:4]
-n.Â·£¬Ğ¡µÀ£»µÀÂ·
+n.è·¯ï¼Œå°é“ï¼›é“è·¯
 2812. patience['pei62ns]
-n.ÈÌÄÍ£¬ÈİÈÌ£¬ÄÍĞÄ
+n.å¿è€ï¼Œå®¹å¿ï¼Œè€å¿ƒ
 2813. patient['pei62nt]
-a.ÈÌÄÍµÄ n.²¡ÈË
+a.å¿è€çš„ n.ç—…äºº
 2814. pattern['p9t2n]
-n.ĞÍ£¬Ê½Ñù£¬Ä££¬Ä£ĞÍ
+n.å‹ï¼Œå¼æ ·ï¼Œæ¨¡ï¼Œæ¨¡å‹
 2815. pause[p0:z]
-n.&vi.ÖĞÖ¹£¬ÔİÍ£
+n.&vi.ä¸­æ­¢ï¼Œæš‚åœ
 2816. pave[peiv]
-vt.ÆÌ£¬Öş(Â·µÈ)
+vt.é“ºï¼Œç­‘(è·¯ç­‰)
 2817. pavement['peivm2nt]
-n.(Ó¢)ÈËĞĞµÀ
+n.(è‹±)äººè¡Œé“
 2818. paw[p0:]
-n.½Å×¦£¬×¦×Ó
+n.è„šçˆªï¼Œçˆªå­
 2819. pay[pei]
-vt.Ö§¸¶£»¸¶¸ø£»¸øÓè
+vt.æ”¯ä»˜ï¼›ä»˜ç»™ï¼›ç»™äºˆ
 2820. payment['peim2nt]
-n.Ö§¸¶£¬Ö§¸¶µÄ¿îÏî
+n.æ”¯ä»˜ï¼Œæ”¯ä»˜çš„æ¬¾é¡¹
 2821. pea[pi:]
-n.Íã¶¹£»Íã¶¹ÊôÖ²Îï
+n.è±Œè±†ï¼›è±Œè±†å±æ¤ç‰©
 2822. peace[pi:s]
-n.ºÍÆ½£»ºÍÄÀ£»Æ½¾²
+n.å’Œå¹³ï¼›å’Œç¦ï¼›å¹³é™
 2823. peaceful['pi:sful]
-a.ºÍÆ½µÄ£»°²¾²µÄ
+a.å’Œå¹³çš„ï¼›å®‰é™çš„
 2824. peach[pi:t6]
-n.ÌÒ×Ó£¬ÌÒÊ÷
+n.æ¡ƒå­ï¼Œæ¡ƒæ ‘
 2825. peak[pi:k]
-n.É½¶¥£¬áÛ a.×î¸ßµÄ
+n.å±±é¡¶ï¼Œå·… a.æœ€é«˜çš„
 2826. pear[p/2]
-n.Àæ×Ó£¬ÀæÊ÷
+n.æ¢¨å­ï¼Œæ¢¨æ ‘
 2827. pearl[p2:l]
-n.ÕäÖé£»ÕäÖéÄ¸
+n.çç ï¼›çç æ¯
 2828. peasant['pez2nt]
-n.Å©Ãñ
+n.å†œæ°‘
 2829. pebble['pebl]
-n.ÂÑÊ¯£¬Ï¸Àù
+n.åµçŸ³ï¼Œç»†ç ¾
 2830. peculiar[pi'kju:lj2]
-a.ÌØÓĞµÄ£»ÌØ±ğµÄ
+a.ç‰¹æœ‰çš„ï¼›ç‰¹åˆ«çš„
 2831. peel[pi:l]
-vt.°ş(Æ¤)£¬Ï÷(Æ¤)
+vt.å‰¥(çš®)ï¼Œå‰Š(çš®)
 2832. peep[pi:p]
-vi.(´Ó·ìÏ¶ÖĞ)Íµ¿´
+vi.(ä»ç¼éš™ä¸­)å·çœ‹
 2833. pen[pen]
-n.¸Ö±Ê£¬×ÔÀ´Ë®±Ê
+n.é’¢ç¬”ï¼Œè‡ªæ¥æ°´ç¬”
 2834. pencil['pensl]
-n.Ç¦±Ê
+n.é“…ç¬”
 2835. penetrate['penitreit]
-vt.´©¹ı vi.´©Èë
+vt.ç©¿è¿‡ vi.ç©¿å…¥
 2836. peninsula[pi'ninsjul2]
-n.°ëµº
+n.åŠå²›
 2837. penny['peni]
-n.(Ó¢)±ãÊ¿£»(ÃÀ)·Ö
+n.(è‹±)ä¾¿å£«ï¼›(ç¾)åˆ†
 2838. pension['pen62n]
-n.¸§Ğô½ğ£¬Äê½ğ
+n.æŠšæ¤é‡‘ï¼Œå¹´é‡‘
 2839. people['pi:pl]
-n.ÈËÃñ£¬Ãñ×å£»ÈË
+n.äººæ°‘ï¼Œæ°‘æ—ï¼›äºº
 2840. pepper['pep2]
-n.ºú½·£¬ºú½··Û
+n.èƒ¡æ¤’ï¼Œèƒ¡æ¤’ç²‰
 2841. per[p2:]
-prep.Ã¿
+prep.æ¯
 2842. perceive[p2'si:v]
-vt.²ì¾õ£¬·¢¾õ£»Àí½â
+vt.å¯Ÿè§‰ï¼Œå‘è§‰ï¼›ç†è§£
 2843. percent[p2'sent]
-n.°Ù·ÖÖ®¡­
+n.ç™¾åˆ†ä¹‹â€¦
 2844. percentage[p2'sentid7]
-n.°Ù·Ö±È£¬°Ù·ÖÂÊ
+n.ç™¾åˆ†æ¯”ï¼Œç™¾åˆ†ç‡
 2845. perfect['p2:fikt. 'p2:fekt]
-a.ÍêÃÀµÄ£»ÍêÈ«µÄ
+a.å®Œç¾çš„ï¼›å®Œå…¨çš„
 2846. perfectly['p2:fiktli]
-ad.ºÜ£¬ÍêÈ«
+ad.å¾ˆï¼Œå®Œå…¨
 2847. perform[p2'f0:m]
-vt.ÂÄĞĞ£¬Ö´ĞĞ£»Ñİ³ö
+vt.å±¥è¡Œï¼Œæ‰§è¡Œï¼›æ¼”å‡º
 2848. performance[p2'f0:m2ns]
-n.ÂÄĞĞ£»Ñİ³ö£»ĞĞÎª
+n.å±¥è¡Œï¼›æ¼”å‡ºï¼›è¡Œä¸º
 2849. perfume['p2:fju:m. p2:'fju:m]
-n.ÏãÎ¶£¬·¼Ïã£»ÏãÁÏ
+n.é¦™å‘³ï¼ŒèŠ³é¦™ï¼›é¦™æ–™
 2850. perhaps[p2'h9ps]
-ad.Ò²Ğí£¬¿ÉÄÜ£¬¶à°ë
+ad.ä¹Ÿè®¸ï¼Œå¯èƒ½ï¼Œå¤šåŠ
 2851. period['pi2ri2d]
-n.Ê±ÆÚ£»Ñ§Ê±£»¾äºÅ
+n.æ—¶æœŸï¼›å­¦æ—¶ï¼›å¥å·
 2852. permanent['p2:m2n2nt]
-a.ÓÀ¾ÃµÄ£¬³Ö¾ÃµÄ
+a.æ°¸ä¹…çš„ï¼ŒæŒä¹…çš„
 2853. permanently['p2:m2n2ntli]
-ad.ÓÀ¾ÃµØ£¬³Ö¾ÃµØ
+ad.æ°¸ä¹…åœ°ï¼ŒæŒä¹…åœ°
 2854. permission[p2(:)'mi62n]
-n.ÔÊĞí£¬Ğí¿É£¬Í¬Òâ
+n.å…è®¸ï¼Œè®¸å¯ï¼ŒåŒæ„
 2855. permit[p2:'mit. 'p2:mit]
-vt.ÔÊĞí n.Ö´ÕÕ
+vt.å…è®¸ n.æ‰§ç…§
 2856. persist[p2:'sist]
-vi.¼á³Ö£¬¹ÌÖ´£»³ÖĞø
+vi.åšæŒï¼Œå›ºæ‰§ï¼›æŒç»­
 2857. person['p2:sn]
-n.ÈË£»ÈËÉí£»±¾ÈË
+n.äººï¼›äººèº«ï¼›æœ¬äºº
 2858. personal['p2:s2nl]
-a.¸öÈËµÄ£»±¾ÈËµÄ
+a.ä¸ªäººçš„ï¼›æœ¬äººçš„
 2859. personnel[p2:s2'nel]
-n.È«ÌåÈËÔ±£¬È«ÌåÖ°Ô±
+n.å…¨ä½“äººå‘˜ï¼Œå…¨ä½“èŒå‘˜
 2860. perspective[p2:'spektiv]
-n.Í¸ÊÓ£»Ô¶¾°£»¹Ûµã
+n.é€è§†ï¼›è¿œæ™¯ï¼›è§‚ç‚¹
 2861. persuade[p2:'sweid]
-vt.Ëµ·ş vi.±»Ëµ·ş
+vt.è¯´æœ vi.è¢«è¯´æœ
 2862. pessimistic[pesi'mistik]
-a.±¯¹ÛµÄ£»ÑáÊÀµÄ
+a.æ‚²è§‚çš„ï¼›åŒä¸–çš„
 2863. pet[pet]
-n.°®Ğó£»³è¶ùa.³è°®µÄ
+n.çˆ±ç•œï¼›å® å„¿a.å® çˆ±çš„
 2864. petrol['petr2l]
-n.(Ó¢)ÆûÓÍ
+n.(è‹±)æ±½æ²¹
 2865. petroleum[pi'tr2ulj2m]
-n.Ê¯ÓÍ
+n.çŸ³æ²¹
 2866. phase[feiz]
-n.½×¶Î£»·½Ãæ£»ÏàÎ»
+n.é˜¶æ®µï¼›æ–¹é¢ï¼›ç›¸ä½
 2867. phenomenon[fi'n0min2n]
-n.ÏÖÏó
+n.ç°è±¡
 2868. philosopher[fi'l0s2f2]
-n.ÕÜÑ§¼Ò
+n.å“²å­¦å®¶
 2869. philosophy[fi'l0s2fi]
-n.ÕÜÑ§£»ÕÜÀí£»ÈËÉú¹Û
+n.å“²å­¦ï¼›å“²ç†ï¼›äººç”Ÿè§‚
 2870. phone[f2un]
-n.µç»°£¬µç»°»ú£»¶ú»ú
+n.ç”µè¯ï¼Œç”µè¯æœºï¼›è€³æœº
 2871. photograph['f2ut2gra:f]
-n.ÕÕÆ¬£¬ÏàÆ¬
+n.ç…§ç‰‡ï¼Œç›¸ç‰‡
 2872. photographic[f2ut2'gr9fik]
-a.ÉãÓ°µÄ£¬ÉãÓ°ÓÃµÄ
+a.æ‘„å½±çš„ï¼Œæ‘„å½±ç”¨çš„
 2873. phrase[freiz]
-n.¶ÌÓï£»Ï°¹ßÓÃÓï
+n.çŸ­è¯­ï¼›ä¹ æƒ¯ç”¨è¯­
 2874. physical['fizik2l]
-a.ÎïÖÊµÄ£»ÎïÀíµÄ
+a.ç‰©è´¨çš„ï¼›ç‰©ç†çš„
 2875. physician[fi'zi62n]
-n.Ò½Éú£¬ÄÚ¿ÆÒ½Éú
+n.åŒ»ç”Ÿï¼Œå†…ç§‘åŒ»ç”Ÿ
 2876. physicist['fizisist]
-n.ÎïÀíÑ§¼Ò
+n.ç‰©ç†å­¦å®¶
 2877. physics['fiziks]
-n.ÎïÀíÑ§
+n.ç‰©ç†å­¦
 2878. piano[pi'9n2u]
-n.¸ÖÇÙ
+n.é’¢ç´
 2879. pick[pik]
-n.¸ä£¬º××ì³ú
+n.é•ï¼Œé¹¤å˜´é”„
 2880. pick[pik]
-vt.Ê°£¬Õª vi.²ÉÕª
+vt.æ‹¾ï¼Œæ‘˜ vi.é‡‡æ‘˜
 2881. picnic['piknik]
-n.½¼ÓÎ£¬Ò°²Í vi.Ò°²Í
+n.éƒŠæ¸¸ï¼Œé‡é¤ vi.é‡é¤
 2882. picture['pikt62]
-n.»­£¬Í¼Æ¬ vt.»­
+n.ç”»ï¼Œå›¾ç‰‡ vt.ç”»
 2883. pie[pai]
-n.(Î÷µã)ÏÚ±ı
+n.(è¥¿ç‚¹)é¦…é¥¼
 2884. piece[pi:s]
-n.ËéÆ¬£¬¿é vt.Æ´ºÏ
+n.ç¢ç‰‡ï¼Œå— vt.æ‹¼åˆ
 2885. pierce[pi2s]
-vt.Øİ´© vi.´©Èë
+vt.å‰Œç©¿ vi.ç©¿å…¥
 2886. pig[pig]
-n.Öí£¬Ğ¡Öí£¬Ò°Öí
+n.çŒªï¼Œå°çŒªï¼Œé‡çŒª
 2887. pigeon[pid7in]
-n.¸ë×Ó
+n.é¸½å­
 2888. pile[pail]
-n.¶Ñ vt.¶Ñµş£¬ÀÛ»ı
+n.å † vt.å †å ï¼Œç´¯ç§¯
 2889. pill[pil]
-n.Ò©Íè£¬Íè¼Á
+n.è¯ä¸¸ï¼Œä¸¸å‰‚
 2890. pillar['pil2]
-n.Öù£¬Öù×Ó£»¶°Áº
+n.æŸ±ï¼ŒæŸ±å­ï¼›æ ‹æ¢
 2891. pillow['pil2u]
-n.ÕíÍ·
+n.æ•å¤´
 2892. pilot['pail2t]
-n.Áìº½Ô±£»·ÉĞĞÔ±
+n.é¢†èˆªå‘˜ï¼›é£è¡Œå‘˜
 2893. pin[pin]
-n.Õë£¬ÊÎÕë n.±ğ×¡
+n.é’ˆï¼Œé¥°é’ˆ n.åˆ«ä½
 2894. pinch[pint6]
-vt.Äó£¬Å¡£¬Æşµô
+vt.æï¼Œæ‹§ï¼Œææ‰
 2895. pine[pain]
-n.ËÉÊ÷£¬ËÉÄ¾
+n.æ¾æ ‘ï¼Œæ¾æœ¨
 2896. pink[pi8k]
-n.·ÛºìÉ« a.·ÛºìÉ«µÄ
+n.ç²‰çº¢è‰² a.ç²‰çº¢è‰²çš„
 2897. pint[paint]
-n.Æ·ÍÑ
+n.å“è„±
 2898. pioneer[pai2'ni2]
-n.ÍØ»ÄÕß£»ÏÈÇıÕß
+n.æ‹“è’è€…ï¼›å…ˆé©±è€…
 2899. pipe[paip]
-n.¹Ü×Ó£¬µ¼¹Ü£»ÑÌ¶·
+n.ç®¡å­ï¼Œå¯¼ç®¡ï¼›çƒŸæ–—
 2900. pipeline['paiplain]
-n.¹ÜµÀ£¬¹ÜÏß
+n.ç®¡é“ï¼Œç®¡çº¿
 2901. pistol['pistl]
-n.ÊÖÇ¹
+n.æ‰‹æª
 2902. pit[pit]
-n.¿Ó£¬µØ¿Ó£»Ãº¿ó
+n.å‘ï¼Œåœ°å‘ï¼›ç…¤çŸ¿
 2903. pitch[pit6]
-n.Á¤Çà
+n.æ²¥é’
 2904. pitch[pit6]
-vt.Í¶£¬ÖÀ vi.Í¶ÖÀ
+vt.æŠ•ï¼Œæ· vi.æŠ•æ·
 2905. pity['piti]
-n.Á¯Ãõ£»ÒÅº¶ vt.Í¬Çé
+n.æ€œæ‚¯ï¼›é—æ†¾ vt.åŒæƒ…
 2906. place[pleis]
-n.µØ·½£¬µØµã£»×¡Ëù
+n.åœ°æ–¹ï¼Œåœ°ç‚¹ï¼›ä½æ‰€
 2907. plain[plein]
-n.Æ½Ô­ a.Çå³şµÄ
+n.å¹³åŸ a.æ¸…æ¥šçš„
 2908. plan[pl9n]
-n.&vt.¼Æ»®£¬´òËã
+n.&vt.è®¡åˆ’ï¼Œæ‰“ç®—
 2909. plane[plein]
-n.Æ½Ãæ£»·É»ú
+n.å¹³é¢ï¼›é£æœº
 2910. planet['pl9nit]
-n.ĞĞĞÇ
+n.è¡Œæ˜Ÿ
 2911. plant[pla:nt]
-n.Ö²Îï£»¹¤³§ vt.ÔÔÖÖ
+n.æ¤ç‰©ï¼›å·¥å‚ vt.æ ½ç§
 2912. plantation[pl9n'tei62n]
-n.ÖÖÖ²Ô°£»ÔÔÖ²
+n.ç§æ¤å›­ï¼›æ ½æ¤
 2913. plaster['pla:st2]
-n.»ÒÄà£»Ó²¸à£»ÊìÊ¯¸à
+n.ç°æ³¥ï¼›ç¡¬è†ï¼›ç†ŸçŸ³è†
 2914. plastic['pl9stik]
-a.¿ÉËÜµÄ n.ËÜÁÏ
+a.å¯å¡‘çš„ n.å¡‘æ–™
 2915. plate[pleit]
-n.°å£¬Æ¬£¬ÅÌ vt.µç¶Æ
+n.æ¿ï¼Œç‰‡ï¼Œç›˜ vt.ç”µé•€
 2916. platform['pl9tf0:m]
-n.Æ½Ì¨£»Õ¾Ì¨£»½²Ì¨
+n.å¹³å°ï¼›ç«™å°ï¼›è®²å°
 2917. play[plei]
-vi.Íæ£¬ÓÎÏ·£»Ñİ×à
+vi.ç©ï¼Œæ¸¸æˆï¼›æ¼”å¥
 2918. player['plei2]
-n.ÓÎÏ·µÄÈË£»±ÈÈüÕß
+n.æ¸¸æˆçš„äººï¼›æ¯”èµ›è€…
 2919. playground['pleigraund]
-n.²Ù³¡£¬ÔË¶¯³¡
+n.æ“åœºï¼Œè¿åŠ¨åœº
 2920. pleasant['pleznt]
-a.ÁîÈËÓä¿ìµÄ£¬ÊæÊÊµÄ
+a.ä»¤äººæ„‰å¿«çš„ï¼Œèˆ’é€‚çš„
 2921. please[pli:z]
-vt.Ê¹¸ßĞË£¬Çëvi.ÂúÒâ
+vt.ä½¿é«˜å…´ï¼Œè¯·vi.æ»¡æ„
 2922. pleasure['ple72]
-n.Óä¿ì£¬¿ìÀÖ£»ÀÖÊÂ
+n.æ„‰å¿«ï¼Œå¿«ä¹ï¼›ä¹äº‹
 2923. plentiful['plentiful]
-a.·á¸»µÄ£¬¸»Ô£µÄ
+a.ä¸°å¯Œçš„ï¼Œå¯Œè£•çš„
 2924. plenty['plenti]
-n.·á¸»£¬³ä×ã£¬´óÁ¿
+n.ä¸°å¯Œï¼Œå……è¶³ï¼Œå¤§é‡
 2925. plot[pl0t]
-n.Ğ¡¿éÍÁµØ vt.ÃÜÄ±
+n.å°å—åœŸåœ° vt.å¯†è°‹
 2926. plough[plau]
-n.Àç vt.&vi.Àç£¬¸û
+n.çŠ vt.&vi.çŠï¼Œè€•
 2927. pluck[pl3k]
-vt.²É£¬Õª£»À­ÏÂ n.À­
+vt.é‡‡ï¼Œæ‘˜ï¼›æ‹‰ä¸‹ n.æ‹‰
 2928. plug[pl3g]
-n.Èû×Ó£»²åÍ· vt.Èû
+n.å¡å­ï¼›æ’å¤´ vt.å¡
 2929. plunge[pl3nd7]
-vt.Ê¹Í¶Èë£»Ê¹ÏİÈë
+vt.ä½¿æŠ•å…¥ï¼›ä½¿é™·å…¥
 2930. plural['plu2r2l]
-a.¸´ÊıµÄ n.¸´Êı
+a.å¤æ•°çš„ n.å¤æ•°
 2931. plus[pl3s]
-prep.¼Ó£¬¼ÓÉÏ a.ÕıµÄ
+prep.åŠ ï¼ŒåŠ ä¸Š a.æ­£çš„
 2932. P.M.[pi:'em]
-n.ÏÂÎç£¬Îçºó
+n.ä¸‹åˆï¼Œåˆå
 2933. pocket['p0kit]
-n.ÒÂ´ü n.ĞäÕäµÄ
+n.è¡£è¢‹ n.è¢–ççš„
 2934. poem['p2uim]
-n.Ê«£¬ÔÏÎÄ£¬Ê«ÌåÎÄ
+n.è¯—ï¼ŒéŸµæ–‡ï¼Œè¯—ä½“æ–‡
 2935. poet[p2uit]
-n.Ê«ÈË
+n.è¯—äºº
 2936. poetry['p2uitri]
-n.Ê«£¬Ê«¸è£¬Ê«×÷
+n.è¯—ï¼Œè¯—æ­Œï¼Œè¯—ä½œ
 2937. point[p0int]
-n.µã£»Òªµã£»Ï¸Ä¿£»·Ö
+n.ç‚¹ï¼›è¦ç‚¹ï¼›ç»†ç›®ï¼›åˆ†
 2938. poison['p0izn]
-n.¶¾£¬¶¾Ò© vt.¶¾º¦
+n.æ¯’ï¼Œæ¯’è¯ vt.æ¯’å®³
 2939. poisonous['p0izn2s]
-a.ÓĞ¶¾µÄ£¬ÓĞº¦µÄ
+a.æœ‰æ¯’çš„ï¼Œæœ‰å®³çš„
 2940. pole[p2ul]
-n.¸Ë£¬Öù
+n.æ†ï¼ŒæŸ±
 2941. pole[p2ul]
-n.¼«(µã)£¬´Å¼«£¬µç¼«
+n.æ(ç‚¹)ï¼Œç£æï¼Œç”µæ
 2942. police[p2'li:s]
-n.¾¯²ì£»¾¯²ìµ±¾Ö
+n.è­¦å¯Ÿï¼›è­¦å¯Ÿå½“å±€
 2943. policeman[p2'li:sm2n]
-n.¾¯²ì
+n.è­¦å¯Ÿ
 2944. policy['p0lisi]
-n.Õş²ß£¬·½Õë
+n.æ”¿ç­–ï¼Œæ–¹é’ˆ
 2945. polish['p0li6]
-vt.Ä¥¹â£»Ê¹ÓÅÃÀ
+vt.ç£¨å…‰ï¼›ä½¿ä¼˜ç¾
 2946. polite[p2'lait]
-a.ÓĞÀñÃ²µÄ£»ÓĞ½ÌÑøµÄ
+a.æœ‰ç¤¼è²Œçš„ï¼›æœ‰æ•™å…»çš„
 2947. political[p2'litik2l]
-a.ÕşÖÎµÄ£¬ÕşÖÎÉÏµÄ
+a.æ”¿æ²»çš„ï¼Œæ”¿æ²»ä¸Šçš„
 2948. politician[p0li'ti62n]
-n.ÕşÖÎ¼Ò£»Õş¿Í
+n.æ”¿æ²»å®¶ï¼›æ”¿å®¢
 2949. politics['p0litiks]
-n.ÕşÖÎ£¬ÕşÖÎÑ§£»Õş¸Ù
+n.æ”¿æ²»ï¼Œæ”¿æ²»å­¦ï¼›æ”¿çº²
 2950. pollute[p2'lju:t]
-vt.ÅªÔà£¬ÎÛÈ¾£¬Õ´ÎÛ
+vt.å¼„è„ï¼Œæ±¡æŸ“ï¼Œæ²¾æ±¡
 2951. pollution[p2'lu:62n]
-n.ÎÛÈ¾
+n.æ±¡æŸ“
 2952. pond[p0nd]
-n.³ØÌÁ
+n.æ± å¡˜
 2953. pool[pu:l]
-n.Ë®ÌÁ£¬ÓÎÓ¾³Ø£¬Ë®³Ø
+n.æ°´å¡˜ï¼Œæ¸¸æ³³æ± ï¼Œæ°´æ± 
 2954. pool[pu:l]
-n.¹²ÓÃÎï vt.¹²ÓĞ
+n.å…±ç”¨ç‰© vt.å…±æœ‰
 2955. poor[pu2]
-a.Æ¶ÇîµÄ£»Æ¶·¦µÄ
+a.è´«ç©·çš„ï¼›è´«ä¹çš„
 2956. pop[p0p]
-n.Á÷ĞĞÒôÀÖ£¬Á÷ĞĞ¸èÇú
+n.æµè¡ŒéŸ³ä¹ï¼Œæµè¡Œæ­Œæ›²
 2957. pop[p0p]
-n.ÅéµÄÒ»Éù£¬±¬ÆÆÉù
+n.ç °çš„ä¸€å£°ï¼Œçˆ†ç ´å£°
 2958. popular['p0pjul2]
-a.ÃñÖÚµÄ£»Á÷ĞĞµÄ
+a.æ°‘ä¼—çš„ï¼›æµè¡Œçš„
 2959. population[p0pju'lei62n]
-n.ÈË¿Ú£»È«Ìå¾ÓÃñ
+n.äººå£ï¼›å…¨ä½“å±…æ°‘
 2960. porch[p0:t6]
-n.ÃÅÀÈ£¬Èë¿Ú´¦
+n.é—¨å»Šï¼Œå…¥å£å¤„
 2961. pork[p0:k]
-n.ÖíÈâ
+n.çŒªè‚‰
 2962. porridge['p0rid7]
-n.Öà£¬ÂóÆ¬Öà
+n.ç²¥ï¼Œéº¦ç‰‡ç²¥
 2963. port[p0:t]
-n.¸Û£¬¸Û¿Ú
+n.æ¸¯ï¼Œæ¸¯å£
 2964. portable['p0:t2bl]
-a.Çá±ãµÄ£»ÊÖÌáµÄ
+a.è½»ä¾¿çš„ï¼›æ‰‹æçš„
 2965. porter['p0:t2]
-n.°áÔË¹¤ÈË
+n.æ¬è¿å·¥äºº
 2966. portion['p0:62n]
-n.Ò»²¿·Ö£»Ò»·Ö
+n.ä¸€éƒ¨åˆ†ï¼›ä¸€åˆ†
 2967. portrait['p0:trit]
-n.ÏûÏñ£¬»­Ïñ
+n.æ¶ˆåƒï¼Œç”»åƒ
 2968. Portuguese[p0:tju'gi:z]
-n.ÆÏÌÑÑÀÈË£»ÆÏÌÑÑÀÓï
+n.è‘¡è„ç‰™äººï¼›è‘¡è„ç‰™è¯­
 2969. position[p2'zi62n]
-n.Î»ÖÃ£»Ö°Î»£»×ËÊÆ
+n.ä½ç½®ï¼›èŒä½ï¼›å§¿åŠ¿
 2970. positive['p0z2tiv]
-a.È·¶¨µÄ£»»ı¼«µÄ
+a.ç¡®å®šçš„ï¼›ç§¯æçš„
 2971. possess['p2'zes]
-vt.Õ¼ÓÃ£¬ÓµÓĞ(²Æ²ú)
+vt.å ç”¨ï¼Œæ‹¥æœ‰(è´¢äº§)
 2972. possession[p2'ze62n]
-n.ÓĞ£¬ËùÓĞ£»Õ¼ÓĞÎï
+n.æœ‰ï¼Œæ‰€æœ‰ï¼›å æœ‰ç‰©
 2973. possibility[p0s2'biliti]
-n.¿ÉÄÜ£»¿ÉÄÜµÄÊÂ
+n.å¯èƒ½ï¼›å¯èƒ½çš„äº‹
 2974. possible['p0s2bl]
-a.¿ÉÄÜµÄ£»¿ÉÄÜ´æÔÚµÄ
+a.å¯èƒ½çš„ï¼›å¯èƒ½å­˜åœ¨çš„
 2975. possibly['p0s2bli]
-ad.¿ÉÄÜµØ£»Ò²Ğí
+ad.å¯èƒ½åœ°ï¼›ä¹Ÿè®¸
 2976. post[p2ust]
-n.Öù£¬×®£¬¸Ë vt.Ìù³ö
+n.æŸ±ï¼Œæ¡©ï¼Œæ† vt.è´´å‡º
 2977. post[p2ust]
-n.ÓÊÕş£¬ÓÊ¼Ä£»ÓÊ¼ş
+n.é‚®æ”¿ï¼Œé‚®å¯„ï¼›é‚®ä»¶
 2978. post[p2ust]
-n.¸ÚÎ»£¬ÉÚËù£»Ö°Î»
+n.å²—ä½ï¼Œå“¨æ‰€ï¼›èŒä½
 2979. postage['p2ustid7]
-n.ÓÊ·Ñ£¬ÓÊ×Ê
+n.é‚®è´¹ï¼Œé‚®èµ„
 2980. postman['p2ustm2n]
-n.ÓÊµİÔ±
+n.é‚®é€’å‘˜
 2981. postpone[p2ust'p2un]
-vt.ÑÓ³Ù£¬ÍÆ³Ù£¬ÑÓ»º
+vt.å»¶è¿Ÿï¼Œæ¨è¿Ÿï¼Œå»¶ç¼“
 2982. pot[p0t]
-n.¹ø£¬ºø£¬¹Ş£¬Åè
+n.é”…ï¼Œå£¶ï¼Œç½ï¼Œç›†
 2983. potato[p2u'teit2u]
-n.ÂíÁåÊí£¬ÍÁ¶¹
+n.é©¬é“ƒè–¯ï¼ŒåœŸè±†
 2984. potential[p2'ten62l]
-a.Ç±ÔÚµÄ n.Ç±Á¦
+a.æ½œåœ¨çš„ n.æ½œåŠ›
 2985. pound[paund]
-n.°õ£»Ó¢°õ
+n.ç£…ï¼›è‹±ç£…
 2986. pound[paund]
-vt.µ·Ëé£»ô©ÀÃ£»ÃÍ»÷
+vt.æ£ç¢ï¼›èˆ‚çƒ‚ï¼›çŒ›å‡»
 2987. pour[p0:]
-vt.¹à£¬µ¹ vi.ÇãĞº
+vt.çŒï¼Œå€’ vi.å€¾æ³»
 2988. poverty['p0v2ti]
-n.Æ¶Çî£¬Æ¶À§
+n.è´«ç©·ï¼Œè´«å›°
 2989. powder['paud2]
-n.·ÛÄ©£»Ò©·Û£»»ğÒ©
+n.ç²‰æœ«ï¼›è¯ç²‰ï¼›ç«è¯
 2990. power['pau2]
-n.ÄÜÁ¦£»Á¦£»È¨£»Ãİ
+n.èƒ½åŠ›ï¼›åŠ›ï¼›æƒï¼›å¹‚
 2991. powerful['pau2ful]
-a.Ç¿ÓĞÁ¦µÄ£»ÓĞÈ¨ÍşµÄ
+a.å¼ºæœ‰åŠ›çš„ï¼›æœ‰æƒå¨çš„
 2992. practical['pr9ktik2l]
-a.Êµ¼ùµÄ£»ÊµÓÃµÄ
+a.å®è·µçš„ï¼›å®ç”¨çš„
 2993. practically['pr9ktik2li]
-ad.Êµ¼ÊÉÏ£»¼¸ºõ
+ad.å®é™…ä¸Šï¼›å‡ ä¹
 2994. practice['pr9ktis]
-n.Êµ¼ù£»Á·Ï°£»ÒµÎñ
+n.å®è·µï¼›ç»ƒä¹ ï¼›ä¸šåŠ¡
 2995. practise['pr9ktis]
-vt.Á·Ï°£¬ÊµÏ°£¬ÑµÁ·
+vt.ç»ƒä¹ ï¼Œå®ä¹ ï¼Œè®­ç»ƒ
 2996. praise[preiz]
-n.ÔŞÑï£¬ÔŞÃÀ vi.ÔŞÑï
+n.èµæ‰¬ï¼Œèµç¾ vi.èµæ‰¬
 2997. pray[prei]
-vt.&vi.ÇëÇó£»Æíµ»
+vt.&vi.è¯·æ±‚ï¼›ç¥ˆç¥·
 2998. prayer['pr/2]
-n.Æíµ»£¬ÆíÇó
+n.ç¥ˆç¥·ï¼Œç¥ˆæ±‚
 2999. precaution[pri'k0:62n]
-n.Ô¤·À£»¾¯Ìè
+n.é¢„é˜²ï¼›è­¦æƒ•
 3000. preceding[pri(:)'si:di8]
-a.ÔÚÇ°µÄ£»ÔÚÏÈµÄ
+a.åœ¨å‰çš„ï¼›åœ¨å…ˆçš„
 3001. precious['pre62s]
-a.Õä¹óµÄ£¬±¦¹óµÄ
+a.çè´µçš„ï¼Œå®è´µçš„
 3002. precise[pri'sais]
-a.¾«È·µÄ£¬×¼È·µÄ
+a.ç²¾ç¡®çš„ï¼Œå‡†ç¡®çš„
 3003. precision[pri'si72n]
-n.¾«È·£¬¾«ÃÜ£¬¾«ÃÜ¶È
+n.ç²¾ç¡®ï¼Œç²¾å¯†ï¼Œç²¾å¯†åº¦
 3004. predict[pri'dikt]
-v.Ô¤ÑÔ£¬Ô¤¸æ£¬Ô¤²â
+v.é¢„è¨€ï¼Œé¢„å‘Šï¼Œé¢„æµ‹
 3005. preface['prefis]
-n.ĞòÑÔ£¬Ç°ÑÔ£¬ÒıÓï
+n.åºè¨€ï¼Œå‰è¨€ï¼Œå¼•è¯­
 3006. prefer[pri'f2:]
-vt.Äş¿É£¬ÄşÔ¸
+vt.å®å¯ï¼Œå®æ„¿
 3007. preferable['pref2r2bl]
-a.¸ü¿ÉÈ¡µÄ£¬¸üºÃµÄ
+a.æ›´å¯å–çš„ï¼Œæ›´å¥½çš„
 3008. preference['pref2r2ns]
-n.Æ«°®£¬ÓÅÏÈ£»ÓÅÏÈÈ¨
+n.åçˆ±ï¼Œä¼˜å…ˆï¼›ä¼˜å…ˆæƒ
 3009. prejudice['pred7udis]
-n.Æ«¼û£¬³É¼û
+n.åè§ï¼Œæˆè§
 3010. preliminary[pri'limin2ri]
-a.Ô¤±¸µÄ£¬³õ²½µÄ
+a.é¢„å¤‡çš„ï¼Œåˆæ­¥çš„
 3011. premier['premj2]
-n.×ÜÀí£¬Ê×Ïà
+n.æ€»ç†ï¼Œé¦–ç›¸
 3012. preparation[prep2'rei62n]
-n.×¼±¸£¬Ô¤±¸£»ÖÆ±¸
+n.å‡†å¤‡ï¼Œé¢„å¤‡ï¼›åˆ¶å¤‡
 3013. prepare[pri'p/2]
-vt.&vi.×¼±¸£¬Ô¤±¸
+vt.&vi.å‡†å¤‡ï¼Œé¢„å¤‡
 3014. preposition[prep2'zi62n]
-n.Ç°ÖÃ´Ê£¬½é´Ê
+n.å‰ç½®è¯ï¼Œä»‹è¯
 3015. prescribe[pris'kraib]
-vt.ÃüÁî£»´¦(·½)
+vt.å‘½ä»¤ï¼›å¤„(æ–¹)
 3016. presence['prezns]
-n.³öÏ¯£¬µ½³¡£»ÔÚ
+n.å‡ºå¸­ï¼Œåˆ°åœºï¼›åœ¨
 3017. present['preznt]
-a.ÏÖÔÚµÄ n.Ä¿Ç°
+a.ç°åœ¨çš„ n.ç›®å‰
 3018. present['preznt]
-vt.ÔùËÍ; ½éÉÜ; Ìá³ö
+vt.èµ é€; ä»‹ç»; æå‡º
 3019. present['preznt]
-n.ÀñÎï£¬ÔùËÍÎï
+n.ç¤¼ç‰©ï¼Œèµ é€ç‰©
 3020. presently['prez2ntli]
-ad.Ò»»á¶ù£»Ä¿Ç°
+ad.ä¸€ä¼šå„¿ï¼›ç›®å‰
 3021. preserve[pri'z2:v]
-vt.±£»¤£»±£´æ£»ëç×Õ
+vt.ä¿æŠ¤ï¼›ä¿å­˜ï¼›è…Œæ¸
 3022. president['prezid2nt]
-n.×ÜÍ³£»Ğ£³¤£»»á³¤
+n.æ€»ç»Ÿï¼›æ ¡é•¿ï¼›ä¼šé•¿
 3023. press[pres]
-vt.Ñ¹£¬°´£¬Şì£»´ß´Ù
+vt.å‹ï¼ŒæŒ‰ï¼Œæ¿ï¼›å‚¬ä¿ƒ
 3024. pressure['pre62]
-n.Ñ¹Á¦£»Ñ¹Á¦£»Ñ¹£¬°´
+n.å‹åŠ›ï¼›å‹åŠ›ï¼›å‹ï¼ŒæŒ‰
 3025. pretend[pri'tend]
-vt.¼ÙÍĞ£¬½è¿Úvi.¼Ù×°
+vt.å‡æ‰˜ï¼Œå€Ÿå£vi.å‡è£…
 3026. pretty['priti]
-a.Æ¯ÁÁµÄ£¬±êÖÂµÄ
+a.æ¼‚äº®çš„ï¼Œæ ‡è‡´çš„
 3027. prevail[pri'veil]
-vi.Ê¤£¬ÓÅÊ¤£»Á÷ĞĞ
+vi.èƒœï¼Œä¼˜èƒœï¼›æµè¡Œ
 3028. prevent[pri'vent]
-vt.Ô¤·À£¬·ÀÖ¹£»×èÖ¹
+vt.é¢„é˜²ï¼Œé˜²æ­¢ï¼›é˜»æ­¢
 3029. previous['pri:vj2s]
-a.ÏÈµÄ£»Ç°µÄ ad.ÔÚÇ°
+a.å…ˆçš„ï¼›å‰çš„ ad.åœ¨å‰
 3030. previously['pri:vj2sli]
-ad.ÏÈÇ°£¬Ô¤ÏÈ
+ad.å…ˆå‰ï¼Œé¢„å…ˆ
 3031. price[prais]
-n.¼Û¸ñ£¬¼ÛÇ®£»´ú¼Û
+n.ä»·æ ¼ï¼Œä»·é’±ï¼›ä»£ä»·
 3032. pride[praid]
-n.½¾°Á£»×ÔºÀ vt.×Ô¿ä
+n.éª„å‚²ï¼›è‡ªè±ª vt.è‡ªå¤¸
 3033. priest[pri:st]
-n.½ÌÊ¿£¬ÄÁÊ¦£¬Éñ¸¸
+n.æ•™å£«ï¼Œç‰§å¸ˆï¼Œç¥çˆ¶
 3034. primarily['praim2rili]
-ad.Ê×ÏÈ£»Ö÷ÒªµØ
+ad.é¦–å…ˆï¼›ä¸»è¦åœ°
 3035. primary['praim2ri]
-a.×î³õµÄ£»»ù±¾µÄ
+a.æœ€åˆçš„ï¼›åŸºæœ¬çš„
 3036. prime[praim]
-a.Ê×ÒªµÄ n.´º£¬Çà´º
+a.é¦–è¦çš„ n.æ˜¥ï¼Œé’æ˜¥
 3037. primitive['primitiv]
-a.Ô­Ê¼µÄ£»´Ö²ÚµÄ
+a.åŸå§‹çš„ï¼›ç²—ç³™çš„
 3038. prince['prins]
-n.Íõ×Ó£¬Ç×Íõ
+n.ç‹å­ï¼Œäº²ç‹
 3039. princess[prin'ses]
-n.¹«Ö÷£¬Íõåú
+n.å…¬ä¸»ï¼Œç‹å¦ƒ
 3040. principal['prins2p2l]
-a.Ö÷ÒªµÄ n.¸ºÔğÈË
+a.ä¸»è¦çš„ n.è´Ÿè´£äºº
 3041. principle['prins2pl]
-n.Ô­Ôò£¬Ô­Àí£»Ö÷Òå
+n.åŸåˆ™ï¼ŒåŸç†ï¼›ä¸»ä¹‰
 3042. print[print]
-vt.Ó¡Ë¢ n.Ó¡Ë¢£»ÕıÆ¬
+vt.å°åˆ· n.å°åˆ·ï¼›æ­£ç‰‡
 3043. prior['prai2]
-a.ÔÚÏÈµÄ£»ÓÅÏÈµÄ
+a.åœ¨å…ˆçš„ï¼›ä¼˜å…ˆçš„
 3044. prison['prizn]
-n.¼àÓü£¬¼à½û
+n.ç›‘ç‹±ï¼Œç›‘ç¦
 3045. prisoner['prizn2]
-n.Çô·¸
+n.å›šçŠ¯
 3046. private['praivit]
-a.Ë½ÈËµÄ£»Ë½ÏÂµÄ
+a.ç§äººçš„ï¼›ç§ä¸‹çš„
 3047. privilege['privilid7]
-n.ÌØÈ¨£¬ÓÅ»İ
+n.ç‰¹æƒï¼Œä¼˜æƒ 
 3048. prize[praiz]
-n.½±ÉÍ£¬½±½ğ vt.ÕäÊÓ
+n.å¥–èµï¼Œå¥–é‡‘ vt.çè§†
 3049. probability[pr0b2'biliti]
-n.¿ÉÄÜĞÔ£»¸ÅÂÊ
+n.å¯èƒ½æ€§ï¼›æ¦‚ç‡
 3050. probable['pr0b2bl]
-a.»òÓĞµÄ£»´ó¸ÅµÄ
+a.æˆ–æœ‰çš„ï¼›å¤§æ¦‚çš„
 3051. probably['pr0b2bli]
-ad.»òĞí£¬´ó¸Å
+ad.æˆ–è®¸ï¼Œå¤§æ¦‚
 3052. problem['pr0bl2m]
-n.ÎÊÌâ£»Ï°Ìâ£¬ÎÊÌâ
+n.é—®é¢˜ï¼›ä¹ é¢˜ï¼Œé—®é¢˜
 3053. procedure[pr2'si:d72]
-n.³ÌĞò£»ÊÖĞø£»¹ı³Ì
+n.ç¨‹åºï¼›æ‰‹ç»­ï¼›è¿‡ç¨‹
 3054. proceed[pr2'si:d]
-vi.½øĞĞ£»¼ÌĞø½øĞĞ
+vi.è¿›è¡Œï¼›ç»§ç»­è¿›è¡Œ
 3055. process['pr2uses]
-n.¹ı³Ì£»¹¤Ğò vt.¼Ó¹¤
+n.è¿‡ç¨‹ï¼›å·¥åº vt.åŠ å·¥
 3056. procession[pr2'se62n]
-n.¶ÓÎé£¬ĞĞÁĞ
+n.é˜Ÿä¼ï¼Œè¡Œåˆ—
 3057. proclaim[pr2'kleim]
-vt.Ğû¸æ£¬Ğû²¼£»±íÃ÷
+vt.å®£å‘Šï¼Œå®£å¸ƒï¼›è¡¨æ˜
 3058. produce[pr2'dju:s. 'pr0dju:s]
-vt.Éú²ú£»²úÉú£»Õ¹ÏÖ
+vt.ç”Ÿäº§ï¼›äº§ç”Ÿï¼›å±•ç°
 3059. product['pr0d2kt]
-n.²úÆ·£¬²úÎï£»(³Ë)»ı
+n.äº§å“ï¼Œäº§ç‰©ï¼›(ä¹˜)ç§¯
 3060. production[pr2'd3k62n]
-n.Éú²ú£»²úÆ·£»×Ü²úÁ¿
+n.ç”Ÿäº§ï¼›äº§å“ï¼›æ€»äº§é‡
 3061. productive[pr2'd3ktiv]
-a.Éú²úµÄ£»·áÈÄµÄ
+a.ç”Ÿäº§çš„ï¼›ä¸°é¥¶çš„
 3062. profession[pr2'fe62n]
-n.Ö°Òµ
+n.èŒä¸š
 3063. professional[pr2'fe62nl]
-a.Ö°ÒµµÄ n.×¨ÒµÈËÔ±
+a.èŒä¸šçš„ n.ä¸“ä¸šäººå‘˜
 3064. professor[pr2'fes2]
-n.½ÌÊÚ
+n.æ•™æˆ
 3065. profit['pr0fit]
-n.Òæ´¦£»ÀûÈó vi.µÃÒæ
+n.ç›Šå¤„ï¼›åˆ©æ¶¦ vi.å¾—ç›Š
 3066. program['pr2ugr9m]
-n.½ÚÄ¿µ¥£»´ó¸Ù£»³ÌĞò
+n.èŠ‚ç›®å•ï¼›å¤§çº²ï¼›ç¨‹åº
 3067. progress['pr2ugres. pr2'gres]
-n.Ç°½ø£¬½øÕ¹£»½ø²½
+n.å‰è¿›ï¼Œè¿›å±•ï¼›è¿›æ­¥
 3068. progressive[pr2'gresiv]
-a.½ø²½µÄ£»ÏòÇ°½øµÄ
+a.è¿›æ­¥çš„ï¼›å‘å‰è¿›çš„
 3069. prohibit[pr2'hibit]
-vt.½ûÖ¹£¬×èÖ¹
+vt.ç¦æ­¢ï¼Œé˜»æ­¢
 3070. project[pr2'd7ekt. 'pr0d7ekt]
-n.·½°¸£¬¹¤³Ì vi.Éì³ö
+n.æ–¹æ¡ˆï¼Œå·¥ç¨‹ vi.ä¼¸å‡º
 3071. prominent['pr0min2nt]
-a.ÊµÆğµÄ£»Í»³öµÄ
+a.å®èµ·çš„ï¼›çªå‡ºçš„
 3072. promise['pr0mis]
-n.ÅµÑÔ£»Ö¸Íû vt.ÔÊÅµ
+n.è¯ºè¨€ï¼›æŒ‡æœ› vt.å…è¯º
 3073. promising['pr0misi8]
-a.ÓĞÏ£ÍûµÄ£»ÓĞÇ°Í¾µÄ
+a.æœ‰å¸Œæœ›çš„ï¼›æœ‰å‰é€”çš„
 3074. promote[pr2'm2ut]
-vt.´Ù½ø£¬·¢Ñï£»ÌáÉı
+vt.ä¿ƒè¿›ï¼Œå‘æ‰¬ï¼›æå‡
 3075. prompt[pr0mpt]
-a.¼°Ê±µÄ vt.¶Ø´Ù
+a.åŠæ—¶çš„ vt.æ•¦ä¿ƒ
 3076. pronoun['pr2unaun]
-n.´úÃû´Ê
+n.ä»£åè¯
 3077. pronounce[pr2'nauns]
-vt.·¢¡­µÄÒô£»Ğû²¼
+vt.å‘â€¦çš„éŸ³ï¼›å®£å¸ƒ
 3078. pronunciation[pr2n3nsi'ei62n]
-n.·¢Òô£¬·¢Òô·¨
+n.å‘éŸ³ï¼Œå‘éŸ³æ³•
 3079. proof[pru:f]
-n.Ö¤¾İ£»Ö¤Ã÷£»Ğ£Ñù
+n.è¯æ®ï¼›è¯æ˜ï¼›æ ¡æ ·
 3080. proper['pr0p2]
-a.ÊÊºÏµÄ£»ºÏºõÌåÍ³µÄ
+a.é€‚åˆçš„ï¼›åˆä¹ä½“ç»Ÿçš„
 3081. properly['pr0p2li]
-ad.ÊÊµ±µØ£»³¹µ×µØ
+ad.é€‚å½“åœ°ï¼›å½»åº•åœ°
 3082. property['pr0p2ti]
-n.²Æ²ú£¬×Ê²ú£»ĞÔÖÊ
+n.è´¢äº§ï¼Œèµ„äº§ï¼›æ€§è´¨
 3083. proportion[pr2'p0:62n]
-n.±È£¬±ÈÂÊ£¬²¿·Ö
+n.æ¯”ï¼Œæ¯”ç‡ï¼Œéƒ¨åˆ†
 3084. proportional[pr2'p0:62nl]
-a.±ÈÀıµÄ£»Ïà³ÆµÄ
+a.æ¯”ä¾‹çš„ï¼›ç›¸ç§°çš„
 3085. proposal[pr2'p2uz2l]
-n.ÌáÒé£¬½¨Òé£»Çó»é
+n.æè®®ï¼Œå»ºè®®ï¼›æ±‚å©š
 3086. propose[pr2'p2uz]
-vt.ÌáÒé vi.Çó»é
+vt.æè®® vi.æ±‚å©š
 3087. prospect['pr0spekt. pr2s'pekt]
-n.Õ¹Íû£»Ç°¾°£¬Ç°³Ì
+n.å±•æœ›ï¼›å‰æ™¯ï¼Œå‰ç¨‹
 3088. prosperity[pr0s'periti]
-n.·±ÈÙ£»²ıÊ¢£¬ĞËÍú
+n.ç¹è£ï¼›æ˜Œç››ï¼Œå…´æ—º
 3089. prosperous['pr0sp2r2s]
-a.·±ÈÙµÄ£¬²ıÊ¢µÄ
+a.ç¹è£çš„ï¼Œæ˜Œç››çš„
 3090. protect[pr2'tekt]
-vt.±£»¤£¬±£ÎÀ£¬¾¯½ä
+vt.ä¿æŠ¤ï¼Œä¿å«ï¼Œè­¦æˆ’
 3091. protection[pr2'tek62n]
-n.±£»¤£¬¾¯½ä
+n.ä¿æŠ¤ï¼Œè­¦æˆ’
 3092. protective[pr2'tektiv]
-a.±£»¤µÄ£¬·À»¤µÄ
+a.ä¿æŠ¤çš„ï¼Œé˜²æŠ¤çš„
 3093. protein['pr2uti:n]
-n.µ°°×ÖÊ£¬ëÃ
+n.è›‹ç™½è´¨ï¼ŒæœŠ
 3094. protest[pr2'test. 'pr2utest]
-vt.&vi.&n.¿¹Òé
+vt.&vi.&n.æŠ—è®®
 3095. proud[praud]
-a.½¾°ÁµÄ£»×ÔºÀµÄ
+a.éª„å‚²çš„ï¼›è‡ªè±ªçš„
 3096. prove[pru:v]
-vt.Ö¤Ã÷ vi.½á¹ûÊÇ
+vt.è¯æ˜ vi.ç»“æœæ˜¯
 3097. provide[pr2'vaid]
-vt.Ìá¹©£»×°±¸£¬¹©¸ø
+vt.æä¾›ï¼›è£…å¤‡ï¼Œä¾›ç»™
 3098. provided[pr2'vaidid]
-conj.ÒÔ¡­ÎªÌõ¼ş
+conj.ä»¥â€¦ä¸ºæ¡ä»¶
 3099. province['pr0vins]
-n.Ê¡£»ÁìÓò£¬²¿ÃÅ
+n.çœï¼›é¢†åŸŸï¼Œéƒ¨é—¨
 3100. provision[pr2'vi72n]
-n.¹©Ó¦£»Ô¤±¸£»´æÁ¸
+n.ä¾›åº”ï¼›é¢„å¤‡ï¼›å­˜ç²®
 3101. psychological[saik2'l0d7ik2l]
-a.ĞÄÀíµÄ£¬ĞÄÀíÑ§µÄ
+a.å¿ƒç†çš„ï¼Œå¿ƒç†å­¦çš„
 3102. public['p3blik]
-a.¹«ÖÚµÄ n.¹«ÖÚ
+a.å…¬ä¼—çš„ n.å…¬ä¼—
 3103. publication[p3bli'kei62n]
-n.¹«²¼£»³ö°æ£»³ö°æÎï
+n.å…¬å¸ƒï¼›å‡ºç‰ˆï¼›å‡ºç‰ˆç‰©
 3104. publish['p3bli6]
-vt.¹«²¼£»·¢±í£»³ö°æ
+vt.å…¬å¸ƒï¼›å‘è¡¨ï¼›å‡ºç‰ˆ
 3105. pudding['pudi8]
-n.²¼¶¡
+n.å¸ƒä¸
 3106. puff[p3f]
-n.(Ò»)Åç£¬(Ò»)´µ
+n.(ä¸€)å–·ï¼Œ(ä¸€)å¹
 3107. pull[pul]
-vt.À­£¬ÍÏ£»À­£¬À­Á¦
+vt.æ‹‰ï¼Œæ‹–ï¼›æ‹‰ï¼Œæ‹‰åŠ›
 3108. pulse[p3ls]
-n.Âö²«£»Âö³å£¬Âö¶¯
+n.è„‰æï¼›è„‰å†²ï¼Œè„‰åŠ¨
 3109. pump[p3mp]
-n.±Ã vt.ÓÃ³é»ú³é
+n.æ³µ vt.ç”¨æŠ½æœºæŠ½
 3110. punch[p3nt6]
-vt.³å³ö n.³åÑ¹»ú
+vt.å†²å‡º n.å†²å‹æœº
 3111. punch[p3nt6]
-vt.ÓÃÈ­ÃÍ»÷ n.È­´ò
+vt.ç”¨æ‹³çŒ›å‡» n.æ‹³æ‰“
 3112. punctual['p38ktju2l]
-a.ÑÏÊØÊ±¿ÌµÄ£»×¼Ê±µÄ
+a.ä¸¥å®ˆæ—¶åˆ»çš„ï¼›å‡†æ—¶çš„
 3113. punish['p3ni6]
-vt.·££¬³Í·££¬´¦·£
+vt.ç½šï¼Œæƒ©ç½šï¼Œå¤„ç½š
 3114. punishment['p3ni6m2nt]
-n.·££¬³Í·££¬´¦·£
+n.ç½šï¼Œæƒ©ç½šï¼Œå¤„ç½š
 3115. pupil['pju:pl]
-n.Ñ§Éú£¬Ğ¡Ñ§Éú
+n.å­¦ç”Ÿï¼Œå°å­¦ç”Ÿ
 3116. pupil['pju:pl]
-n.Í«¿×
+n.ç³å­”
 3117. puppet['p3pit]
-n.Ä¾Å¼£¬ÍæÅ¼£»¿şÀÜ
+n.æœ¨å¶ï¼Œç©å¶ï¼›å‚€å„¡
 3118. purchase['p2:t62s]
-n.Âò£¬¹ºÂò vt.Âò
+n.ä¹°ï¼Œè´­ä¹° vt.ä¹°
 3119. pure[pju2]
-a.´¿´âµÄ£»´¿½àµÄ
+a.çº¯ç²¹çš„ï¼›çº¯æ´çš„
 3120. purely['pju2li]
-ad.´¿´âµØ£¬ÍêÈ«µØ
+ad.çº¯ç²¹åœ°ï¼Œå®Œå…¨åœ°
 3121. purify['pju2rifai]
-vt.Ê¹´¿¾»£¬Ê¹½à¾»
+vt.ä½¿çº¯å‡€ï¼Œä½¿æ´å‡€
 3122. purity['pju2riti]
-n.´¿¾»£»´¿½à£»´¿¶È
+n.çº¯å‡€ï¼›çº¯æ´ï¼›çº¯åº¦
 3123. purple['p2:pl]
-n.×ÏÉ« a.×ÏµÄ
+n.ç´«è‰² a.ç´«çš„
 3124. purpose['p2:p2s]
-n.Ä¿µÄ£»ÒâÍ¼£»Ğ§¹û
+n.ç›®çš„ï¼›æ„å›¾ï¼›æ•ˆæœ
 3125. purse[p2:s]
-n.Ç®°ü£¬Ğ¡Ç®´ü£¬ÊÖ´ü
+n.é’±åŒ…ï¼Œå°é’±è¢‹ï¼Œæ‰‹è¢‹
 3126. pursue[p2'sju:]
-vt.×·¸Ï£¬×·×Ù£»½øĞĞ
+vt.è¿½èµ¶ï¼Œè¿½è¸ªï¼›è¿›è¡Œ
 3127. pursuit[p2'sju:t]
-n.×·¸Ï£»×·Çó£»ÊÂÎñ
+n.è¿½èµ¶ï¼›è¿½æ±‚ï¼›äº‹åŠ¡
 3128. push[pu6]
-vt.ÍÆ£¬±ÆÆÈ vi.ÍÆ
+vt.æ¨ï¼Œé€¼è¿« vi.æ¨
 3129. put[put]
-vt.·Å£¬°Ú£»Ê¹´¦ÓÚ
+vt.æ”¾ï¼Œæ‘†ï¼›ä½¿å¤„äº
 3130. puzzle['p3zl]
-n.ÄÑÌâ£»ÃÕ vi.Ê¹ÃÔ»ó
+n.éš¾é¢˜ï¼›è°œ vi.ä½¿è¿·æƒ‘
 3131. qualify['kw0lifai]
-vt.Ê¹¾ßÓĞ×Ê¸ñ
+vt.ä½¿å…·æœ‰èµ„æ ¼
 3132. quality['kw0liti]
-n.ÖÊÁ¿£»Æ·ÖÊ£¬ÌØĞÔ
+n.è´¨é‡ï¼›å“è´¨ï¼Œç‰¹æ€§
 3133. quantity['kw0ntiti]
-n.Á¿£¬ÊıÁ¿£¬·ÖÁ¿
+n.é‡ï¼Œæ•°é‡ï¼Œåˆ†é‡
 3134. quarrel['kw0r2l]
-n.Õù³³£¬³³¼Ü£¬¿Ú½Ç
+n.äº‰åµï¼Œåµæ¶ï¼Œå£è§’
 3135. quart['kw0:t]
-n.¿äÍÑ(=2Æ·ÍÑ)
+n.å¤¸è„±(=2å“è„±)
 3136. quarter['kw0:t2]
-n.ËÄ·ÖÖ®Ò»£»Ò»¿ÌÖÓ
+n.å››åˆ†ä¹‹ä¸€ï¼›ä¸€åˆ»é’Ÿ
 3137. quarterly['kw0:t2li]
-a.¼¾¶ÈµÄ ad.¼¾¶ÈµØ
+a.å­£åº¦çš„ ad.å­£åº¦åœ°
 3138. queen[kwi:n]
-n.Íõºó£»Å®Íõ
+n.ç‹åï¼›å¥³ç‹
 3139. queer['kwi2]
-a.Ææ¹ÖµÄ£¬¹Å¹ÖµÄ
+a.å¥‡æ€ªçš„ï¼Œå¤æ€ªçš„
 3140. question['kwest62n]
-n.·¢ÎÊ£»ÎÊÌâ£»ÒÉÎÊ
+n.å‘é—®ï¼›é—®é¢˜ï¼›ç–‘é—®
 3141. queue[kju:]
-n.ĞĞÁĞ vi.ÅÅ¶ÓµÈºò
+n.è¡Œåˆ— vi.æ’é˜Ÿç­‰å€™
 3142. quick[kwik]
-a.¿ìµÄ£»Ãô½İµÄ
+a.å¿«çš„ï¼›æ•æ·çš„
 3143. quicken['kwik2n]
-vt.¼Ó¿ì vi.¼Ó¿ì
+vt.åŠ å¿« vi.åŠ å¿«
 3144. quickly['kwikli]
-ad.¿ì£¬Ñ¸ËÙ
+ad.å¿«ï¼Œè¿…é€Ÿ
 3145. quiet['kwai2t]
-a.¼Å¾²µÄ£»°²¾²µÄ
+a.å¯‚é™çš„ï¼›å®‰é™çš„
 3146. quilt[kwilt]
-n.±»(×Ó)
+n.è¢«(å­)
 3147. quit[kwit]
-vt.Àë¿ª£¬ÍË³ö£»Í£Ö¹
+vt.ç¦»å¼€ï¼Œé€€å‡ºï¼›åœæ­¢
 3148. quite[kwait]
-ad.ÍêÈ«£»Ïàµ±£»µÄÈ·
+ad.å®Œå…¨ï¼›ç›¸å½“ï¼›çš„ç¡®
 3149. quiz[kwiz]
-n.Ğ¡ĞÍ¿¼ÊÔ£¬²âÑé
+n.å°å‹è€ƒè¯•ï¼Œæµ‹éªŒ
 3150. quotation[kw2u'tei62n]
-n.ÒıÓÃ£»ÒıÎÄ£»±¨¼Ûµ¥
+n.å¼•ç”¨ï¼›å¼•æ–‡ï¼›æŠ¥ä»·å•
 3151. quote[kw2ut]
-vt.ÒıÓÃ£¬ÒıÖ¤£»±¨¼Û
+vt.å¼•ç”¨ï¼Œå¼•è¯ï¼›æŠ¥ä»·
 3152. rabbit['r9bit]
-n.ÍÃ×Ó£¬Ò°ÍÃ
+n.å…”å­ï¼Œé‡å…”
 3153. race[reis]
-n.±ÈÈü£¬¾ºÈü£¬¾ºÕù
+n.æ¯”èµ›ï¼Œç«èµ›ï¼Œç«äº‰
 3154. race[reis]
-n.ÈËÖÖ£¬ÖÖ×å£¬Ãñ×å
+n.äººç§ï¼Œç§æ—ï¼Œæ°‘æ—
 3155. racial['rei62l]
-a.ÖÖ×åµÄ£¬ÈËÖÖµÄ
+a.ç§æ—çš„ï¼Œäººç§çš„
 3156. rack[r9k]
-n.¸éÎï¼Ü£»ĞĞÀî¼Ü
+n.æç‰©æ¶ï¼›è¡Œææ¶
 3157. rack[r9k]
-vt.Ê¹¿àÍ´£¬ÕÛÄ¥
+vt.ä½¿è‹¦ç—›ï¼ŒæŠ˜ç£¨
 3158. racket['r9kit]
-n.ÇòÅÄ
+n.çƒæ‹
 3159. radar['reid2]
-n.À×´ï£¬ÎŞÏßµçÌ½²âÆ÷
+n.é›·è¾¾ï¼Œæ— çº¿ç”µæ¢æµ‹å™¨
 3160. radiate['reidieit]
-vi.·¢Éä¹âÏß£»·øÉä
+vi.å‘å°„å…‰çº¿ï¼›è¾å°„
 3161. radiation[reidi'ei62n]
-n.·ÅÉä£¬·¢Éä£»·øÉäÄÜ
+n.æ”¾å°„ï¼Œå‘å°„ï¼›è¾å°„èƒ½
 3162. radio['reidi2u]
-n.ÎŞÏßµç£»ÊÕÒô»ú
+n.æ— çº¿ç”µï¼›æ”¶éŸ³æœº
 3163. radioactive[reidi2u'9ktiv]
-a.·ÅÉäĞÔµÄ
+a.æ”¾å°„æ€§çš„
 3164. radioactivity[reidi2u9k'tiviti]
-n.·ÅÉäĞÔ£¬·ÅÉä(ÏÖÏó)
+n.æ”¾å°„æ€§ï¼Œæ”¾å°„(ç°è±¡)
 3165. radish['r9di6]
-n.Ğ¡ÂÜ²·
+n.å°èåœ
 3166. radium['reidj2m]
-n.ÀØ
+n.é•­
 3167. radius['reidj2s]
-n.°ë¾¶
+n.åŠå¾„
 3168. rag[r9g]
-n.ÆÆ²¼£¬Ëé²¼£¬Ä¨²¼
+n.ç ´å¸ƒï¼Œç¢å¸ƒï¼ŒæŠ¹å¸ƒ
 3169. rage[reid7]
-n.(Ò»Õó)¿ñÅ­£¬Ê¢Å­
+n.(ä¸€é˜µ)ç‹‚æ€’ï¼Œç››æ€’
 3170. raid[reid]
-n.Ï®»÷£»Í»È»ËÑ²é
+n.è¢­å‡»ï¼›çªç„¶æœæŸ¥
 3171. rail[reil]
-n.ºáÌõ£¬ºá¸Ë£»Ìú¹ì
+n.æ¨ªæ¡ï¼Œæ¨ªæ†ï¼›é“è½¨
 3172. railroad['reilr2ud]
-n.ÌúÂ· vi.ÓÉÌúÂ·ÔËÊä
+n.é“è·¯ vi.ç”±é“è·¯è¿è¾“
 3173. railway['reilwei]
-n.ÌúÂ·£¬ÌúµÀ
+n.é“è·¯ï¼Œé“é“
 3174. rain[rein]
-n.Óê£¬ÓêË® vi.ÏÂÓê
+n.é›¨ï¼Œé›¨æ°´ vi.ä¸‹é›¨
 3175. rainbow['reinb2u]
-n.ºç£¬²Êºç
+n.è™¹ï¼Œå½©è™¹
 3176. rainy['reini]
-a.ÏÂÓêµÄ£¬¶àÓêµÄ
+a.ä¸‹é›¨çš„ï¼Œå¤šé›¨çš„
 3177. raise['reiz]
-vt.¾ÙÆğ£»ÒıÆğ£»Ìá¸ß
+vt.ä¸¾èµ·ï¼›å¼•èµ·ï¼›æé«˜
 3178. rake[reik]
-n.°Ò×Ó vi.°Ò£»ËÑË÷
+n.è€™å­ vi.è€™ï¼›æœç´¢
 3179. range[reind7]
-n.ÅÅ£¬ĞĞ£»É½Âö£»·¶Î§
+n.æ’ï¼Œè¡Œï¼›å±±è„‰ï¼›èŒƒå›´
 3180. rank[r98k]
-n.ÅÅ£¬ºáĞĞ£»Éç»á½×²ã
+n.æ’ï¼Œæ¨ªè¡Œï¼›ç¤¾ä¼šé˜¶å±‚
 3181. rapid['r9pid]
-a.¿ìµÄ n.¼±Á÷
+a.å¿«çš„ n.æ€¥æµ
 3182. rapidly['r9pidli]
-ad.Ñ¸ËÙµØ
+ad.è¿…é€Ÿåœ°
 3183. rare[r/2]
-a.Ï¡±¡µÄ£»Ï¡ÓĞµÄ
+a.ç¨€è–„çš„ï¼›ç¨€æœ‰çš„
 3184. rarely['r/2li]
-ad.ºÜÉÙ£¬ÄÑµÃ
+ad.å¾ˆå°‘ï¼Œéš¾å¾—
 3185. rat[r9t]
-n.ÀÏÊó£¬ºÄ×Ó
+n.è€é¼ ï¼Œè€—å­
 3186. rate[reit]
-n.±ÈÂÊ£»ËÙ¶È£»¼Û¸ñ
+n.æ¯”ç‡ï¼›é€Ÿåº¦ï¼›ä»·æ ¼
 3187. rather['ra:52]
-ad.Äş¿É£¬ÄşÔ¸£»Ïàµ±
+ad.å®å¯ï¼Œå®æ„¿ï¼›ç›¸å½“
 3188. ratio['rei6i2u]
-n.±È£¬±ÈÂÊ
+n.æ¯”ï¼Œæ¯”ç‡
 3189. rational['r962nl]
-a.ÀíĞÔµÄ£»³öÓÚÀíĞÔµÄ
+a.ç†æ€§çš„ï¼›å‡ºäºç†æ€§çš„
 3190. raw[r0:]
-a.Î´Öó¹ıµÄ£»Î´¼Ó¹¤µÄ
+a.æœªç…®è¿‡çš„ï¼›æœªåŠ å·¥çš„
 3191. ray[rei]
-n.¹âÏß£¬ÉäÏß£¬·øÉäÏß
+n.å…‰çº¿ï¼Œå°„çº¿ï¼Œè¾å°„çº¿
 3192. razor['reiz2]
-n.Ìêµ¶
+n.å‰ƒåˆ€
 3193. reach[ri:t6]
-vt.µÖ´ï£»Éì³övi.´ïµ½
+vt.æŠµè¾¾ï¼›ä¼¸å‡ºvi.è¾¾åˆ°
 3194. react[ri'9kt]
-vi.Æğ·´Ó¦£»ÓĞÓ°Ïì
+vi.èµ·ååº”ï¼›æœ‰å½±å“
 3195. reaction[ri'9k62n]
-n.·´Ó¦£»·´×÷ÓÃ
+n.ååº”ï¼›åä½œç”¨
 3196. read[ri:d]
-vt.¶Á£¬¿´¶® vi.¶Á
+vt.è¯»ï¼Œçœ‹æ‡‚ vi.è¯»
 3197. reader['ri:d2]
-n.¶ÁÕß£»¶ÁÎï£¬¶Á±¾
+n.è¯»è€…ï¼›è¯»ç‰©ï¼Œè¯»æœ¬
 3198. readily['redili]
-ad.ÀÖÒâµØ£»ÎŞÀ§ÄÑµØ
+ad.ä¹æ„åœ°ï¼›æ— å›°éš¾åœ°
 3199. reading['ri:di8]
-n.¶Á£¬ÔÄ¶Á£»¶ÁÊé
+n.è¯»ï¼Œé˜…è¯»ï¼›è¯»ä¹¦
 3200. ready['redi]
-a.×¼±¸ºÃµÄ£»Ô¸ÒâµÄ
+a.å‡†å¤‡å¥½çš„ï¼›æ„¿æ„çš„
 3201. real[ri2l]
-a.ÕæµÄ£»ÏÖÊµµÄ
+a.çœŸçš„ï¼›ç°å®çš„
 3202. reality[ri'9liti]
-n.ÏÖÊµ£»ÕæÊµ
+n.ç°å®ï¼›çœŸå®
 3203. realize['ri2laiz]
-vt.ÊµÏÖ£»ÈÏÊ¶µ½
+vt.å®ç°ï¼›è®¤è¯†åˆ°
 3204. really['ri2li]
-ad.ÕæÕıµØ£»ÊµÔÚ
+ad.çœŸæ­£åœ°ï¼›å®åœ¨
 3205. realm['relm]
-n.Íõ¹ú£¬¹úÍÁ£»ÁìÓò
+n.ç‹å›½ï¼Œå›½åœŸï¼›é¢†åŸŸ
 3206. reap[ri:p]
-vt.&vi.ÊÕ¸î£¬ÊÕ»ñ
+vt.&vi.æ”¶å‰²ï¼Œæ”¶è·
 3207. rear[ri2]
-n.ºó²¿£¬ºóÃæ£»±³Ãæ
+n.åéƒ¨ï¼Œåé¢ï¼›èƒŒé¢
 3208. rear[ri2]
-vt.¸§Ñø£¬ÅàÑø£»ÔÔÖÖ
+vt.æŠšå…»ï¼ŒåŸ¹å…»ï¼›æ ½ç§
 3209. reason['ri:zn]
-n.ÀíÓÉ£»ÀíĞÔ vi.ÍÆÀí
+n.ç†ç”±ï¼›ç†æ€§ vi.æ¨ç†
 3210. reasonable['ri:zn2bl]
-a.ºÏÇéºÏÀíµÄ£»¹«µÀµÄ
+a.åˆæƒ…åˆç†çš„ï¼›å…¬é“çš„
 3211. rebel['reb2l. ri'bel]
-vi.Ôì·´ n.Ôì·´Õß
+vi.é€ å n.é€ åè€…
 3212. rebellion[ri'belj2n]
-n.Ôì·´£»ÅÑÂÒ£»·´¿¹
+n.é€ åï¼›å›ä¹±ï¼›åæŠ—
 3213. recall[ri'k0:l]
-vt.»ØÏë£»½Ğ»Ø£»ÊÕ»Ø
+vt.å›æƒ³ï¼›å«å›ï¼›æ”¶å›
 3214. receipt[ri'si:t]
-n.ÊÕµ½£»ÊÕÌõ£¬ÊÕ¾İ
+n.æ”¶åˆ°ï¼›æ”¶æ¡ï¼Œæ”¶æ®
 3215. receive[ri'si:v]
-vt.ÊÕµ½£»µÃµ½£»½Ó´ı
+vt.æ”¶åˆ°ï¼›å¾—åˆ°ï¼›æ¥å¾…
 3216. receiver[ri'si:v2]
-n.ÊÕÊÜÕß£¬ÊÕ¼şÈË
+n.æ”¶å—è€…ï¼Œæ”¶ä»¶äºº
 3217. recent['ri:snt]
-a.ĞÂ½üµÄ£¬×î½üµÄ
+a.æ–°è¿‘çš„ï¼Œæœ€è¿‘çš„
 3218. recently['ri:sntli]
-ad.×î½ü£¬ĞÂ½ü
+ad.æœ€è¿‘ï¼Œæ–°è¿‘
 3219. reception[ri'sep62n]
-a.½Ó´ı£»ÕĞ´ı»á£»½ÓÊÜ
+a.æ¥å¾…ï¼›æ‹›å¾…ä¼šï¼›æ¥å—
 3220. recite[ri'sait]
-vt.&vi.±³ËĞ£¬ÀÊËĞ
+vt.&vi.èƒŒè¯µï¼Œæœ—è¯µ
 3221. recognition[rek2g'ni62n]
-n.ÈÏ³ö£¬Ê¶±ğ£»³ĞÈÏ
+n.è®¤å‡ºï¼Œè¯†åˆ«ï¼›æ‰¿è®¤
 3222. recognize['rek2gnaiz]
-vt.ÈÏÊ¶£¬ÈÏ³ö£»³ĞÈÏ
+vt.è®¤è¯†ï¼Œè®¤å‡ºï¼›æ‰¿è®¤
 3223. recollect['ri:k2'lekt]
-vt.»ØÒä£¬×·Òä£¬ÏëÆğ
+vt.å›å¿†ï¼Œè¿½å¿†ï¼Œæƒ³èµ·
 3224. recommend[rek2'mend]
-vt.ÍÆ¼ö£¬½éÉÜ£»È°¸æ
+vt.æ¨èï¼Œä»‹ç»ï¼›åŠå‘Š
 3225. recommendation[rek2men'dei62n]
-n.ÍÆ¼ö£¬½éÉÜ£»È°¸æ
+n.æ¨èï¼Œä»‹ç»ï¼›åŠå‘Š
 3226. record['rek0:d. ri'k0:d]
-n.¼ÇÂ¼£»ÂÄÀú vt.¼ÇÂ¼
+n.è®°å½•ï¼›å±¥å† vt.è®°å½•
 3227. recorder[ri'k0:d2]
-n.¼ÇÂ¼Õß£»Â¼Òô»ú
+n.è®°å½•è€…ï¼›å½•éŸ³æœº
 3228. recover[ri'k3v2]
-vt.ÖØĞÂ»ñµÃ£»Íì»Ø
+vt.é‡æ–°è·å¾—ï¼›æŒ½å›
 3229. recovery[ri'k3v2ri]
-n.ÖØ»ñ£»È¬Óú£¬»Ö¸´
+n.é‡è·ï¼›ç—Šæ„ˆï¼Œæ¢å¤
 3230. red[red]
-a.ºìÉ«µÄ n.ºìÉ«
+a.çº¢è‰²çš„ n.çº¢è‰²
 3231. reduce[ri'dju:s]
-vt.¼õÉÙ£¬¼õĞ¡£»¼ò»¯
+vt.å‡å°‘ï¼Œå‡å°ï¼›ç®€åŒ–
 3232. reduction[ri'd3k62n]
-n.¼õÉÙ£¬¼õĞ¡£¬Ëõ¼õ
+n.å‡å°‘ï¼Œå‡å°ï¼Œç¼©å‡
 3233. reed[ri:d]
-n.Â«Î­£¬Â«¸Ë£¬Â«´Ô
+n.èŠ¦è‹‡ï¼ŒèŠ¦æ†ï¼ŒèŠ¦ä¸›
 3234. reel[ri:l]
-n.¾íÖá£¬¾íÍ²
+n.å·è½´ï¼Œå·ç­’
 3235. refer[ri'f2:]
-vt.Ê¹ÇóÖúÓÚ vi.Ì¸µ½
+vt.ä½¿æ±‚åŠ©äº vi.è°ˆåˆ°
 3236. reference['ref2r2ns]
-n.²Î¿¼£»³ö´¦£»Ìá¼°
+n.å‚è€ƒï¼›å‡ºå¤„ï¼›æåŠ
 3237. refine[ri'fain]
-vt.&vi.¾«Á¶£¬Ìá´¿
+vt.&vi.ç²¾ç‚¼ï¼Œæçº¯
 3238. reflect[ri'flekt]
-vt.·´Éä£»·´Ó³£»Ë¼¿¼
+vt.åå°„ï¼›åæ˜ ï¼›æ€è€ƒ
 3239. reflection[ri'flek62n]
-n.·´Éä£»Ó³Ïó£»·´Ó³
+n.åå°„ï¼›æ˜ è±¡ï¼›åæ˜ 
 3240. reflexion[ri'flek62n]
-n.·´Éä£»Ó³Ïó£»·´Ó³
+n.åå°„ï¼›æ˜ è±¡ï¼›åæ˜ 
 3241. reform[ri'f0:m]
-vt.&n.¸Ä¸ï£¬¸ÄÁ¼
+vt.&n.æ”¹é©ï¼Œæ”¹è‰¯
 3242. refresh[ri'fre6]
-vt.Ê¹ÇåĞÂvi.»Ö¸´¾«Éñ
+vt.ä½¿æ¸…æ–°vi.æ¢å¤ç²¾ç¥
 3243. refreshment[ri'fre6m2nt]
-n.²èµã£¬µãĞÄ£¬±ã²Í
+n.èŒ¶ç‚¹ï¼Œç‚¹å¿ƒï¼Œä¾¿é¤
 3244. refrigerator[ri'frid72reit2]
-n.±ùÏä£¬Àä²Ø¿â
+n.å†°ç®±ï¼Œå†·è—åº“
 3245. refuge['refju:d7]
-n.±ÜÄÑ£¬±Ó»¤£»±Ó»¤Õß
+n.é¿éš¾ï¼Œåº‡æŠ¤ï¼›åº‡æŠ¤è€…
 3246. refusal[ri'fju:z2l]
-n.¾Ü¾ø
+n.æ‹’ç»
 3247. refuse[ri'fju:z]
-vt.¾Ü¾ø vt.¾Ü¾ø
+vt.æ‹’ç» vt.æ‹’ç»
 3248. refute[ri'fju:t]
-vt.²µ³â£¬·´²µ£¬²µµ¹
+vt.é©³æ–¥ï¼Œåé©³ï¼Œé©³å€’
 3249. regard[ri'ga:d]
-vt.°Ñ¡­¿´×÷£»×ğ¾´
+vt.æŠŠâ€¦çœ‹ä½œï¼›å°Šæ•¬
 3250. regarding[ri'ga:di8]
-prep.¹ØÓÚ
+prep.å…³äº
 3251. regardless[ri'ga:dlis]
-ad.²»¹ËÒ»ÇĞµØ
+ad.ä¸é¡¾ä¸€åˆ‡åœ°
 3252. region['ri:d72n]
-n.µØÇø£¬µØ´ø£»ÁìÓò
+n.åœ°åŒºï¼Œåœ°å¸¦ï¼›é¢†åŸŸ
 3253. register['red7ist2]
-n.&vt.µÇ¼Ç£¬×¢²á
+n.&vt.ç™»è®°ï¼Œæ³¨å†Œ
 3254. regret[ri'gret]
-vt.°Ã»Ú£»±§Ç¸ n.°Ã»Ú
+vt.æ‡Šæ‚”ï¼›æŠ±æ­‰ n.æ‡Šæ‚”
 3255. regular['regjul2]
-a.¹æÔòµÄ£»ÕûÆëµÄ
+a.è§„åˆ™çš„ï¼›æ•´é½çš„
 3256. regularly['regjul2li]
-ad.ÓĞ¹æÂÉµØ
+ad.æœ‰è§„å¾‹åœ°
 3257. regulate['regjuleit]
-vt.¹ÜÀí£¬¿ØÖÆ£»µ÷Õû
+vt.ç®¡ç†ï¼Œæ§åˆ¶ï¼›è°ƒæ•´
 3258. regulation[regju'lei62n]
-n.¹æÔò£¬¹æÕÂ£»¹ÜÀí
+n.è§„åˆ™ï¼Œè§„ç« ï¼›ç®¡ç†
 3259. rehearsal[ri'h2:s2l]
-n.ÅÅÁ·£¬ÅÅÑİ£»Á·Ï°
+n.æ’ç»ƒï¼Œæ’æ¼”ï¼›ç»ƒä¹ 
 3260. reign[rein]
-n.¾ıÖ÷Í³ÖÎ£»Ö§Åä
+n.å›ä¸»ç»Ÿæ²»ï¼›æ”¯é…
 3261. rein[rein]
-n.çÖÉş vi.¼İÔ¦£¬¿ØÖÆ
+n.ç¼°ç»³ vi.é©¾é©­ï¼Œæ§åˆ¶
 3262. reinforce[ri:in'f0:s]
-vt.ÔöÔ®£¬Ö§Ô®£»¼ÓÇ¿
+vt.å¢æ´ï¼Œæ”¯æ´ï¼›åŠ å¼º
 3263. reject[ri'd7ekt]
-vt.¾Ü¾ø£»¶ªµô£»²µ»Ø
+vt.æ‹’ç»ï¼›ä¸¢æ‰ï¼›é©³å›
 3264. rejoice[ri'd70is]
-vi.ĞÀÏ²£¬¸ßĞË
+vi.æ¬£å–œï¼Œé«˜å…´
 3265. relate[ri'leit]
-vt.ĞğÊö£»Ê¹ÁªÏµ
+vt.å™è¿°ï¼›ä½¿è”ç³»
 3266. relation[ri'lei62n]
-n.¹ØÏµ£¬ÁªÏµ£»¼ÒÊô
+n.å…³ç³»ï¼Œè”ç³»ï¼›å®¶å±
 3267. relationship[ri'lei62n6ip]
-n.¹ØÏµ£¬ÁªÏµ
+n.å…³ç³»ï¼Œè”ç³»
 3268. relative['rel2tiv]
-a.ÓĞ¹ØÏµµÄ£»Ïà¶ÔµÄ
+a.æœ‰å…³ç³»çš„ï¼›ç›¸å¯¹çš„
 3269. relatively['rel2tivli]
-ad.Ïà¶ÔµØ£¬±È½ÏµØ
+ad.ç›¸å¯¹åœ°ï¼Œæ¯”è¾ƒåœ°
 3270. relativity[rel2'tiviti]
-n.Ïà¹ØĞÔ£»Ïà¶ÔĞÔ
+n.ç›¸å…³æ€§ï¼›ç›¸å¯¹æ€§
 3271. relax[ri'l9ks]
-vt.Ê¹ËÉ³Ú vi.ËÉ³Ú
+vt.ä½¿æ¾å¼› vi.æ¾å¼›
 3272. release[ri'li:s]
-vt.ÊÍ·Å£»·ÅËÉ£»·¢±í
+vt.é‡Šæ”¾ï¼›æ”¾æ¾ï¼›å‘è¡¨
 3273. relevant['reliv2nt]
-a.ÓĞ¹ØµÄ£¬ÌùÇĞµÄ
+a.æœ‰å…³çš„ï¼Œè´´åˆ‡çš„
 3274. reliability[rilai2'biliti]
-n.¿É¿¿ĞÔ
+n.å¯é æ€§
 3275. reliable[ri'lai2bl]
-a.¿É¿¿µÄ£¬¿ÉĞÅÀµµÄ
+a.å¯é çš„ï¼Œå¯ä¿¡èµ–çš„
 3276. reliance[ri'lai2ns]
-n.ĞÅÈÎ£¬ĞÅÀµ£¬ĞÅĞÄ
+n.ä¿¡ä»»ï¼Œä¿¡èµ–ï¼Œä¿¡å¿ƒ
 3277. relief[ri'li:f]
-n.¼õÇá£»¾È¼Ã£»Ô®¾È
+n.å‡è½»ï¼›æ•‘æµï¼›æ´æ•‘
 3278. relieve[ri'li:v]
-vt.¼õÇá£¬½â³ı£»¾È¼Ã
+vt.å‡è½»ï¼Œè§£é™¤ï¼›æ•‘æµ
 3279. religion[ri'lid72n]
-n.×Ú½Ì£»×Ú½ÌĞÅÑö
+n.å®—æ•™ï¼›å®—æ•™ä¿¡ä»°
 3280. religious[ri'lid72s]
-a.×Ú½ÌµÄ£»ò¯³ÏµÄ
+a.å®—æ•™çš„ï¼›è™”è¯šçš„
 3281. reluctant[ri'l3kt2nt]
-a.²»Ô¸µÄ£¬ÃãÇ¿µÄ
+a.ä¸æ„¿çš„ï¼Œå‹‰å¼ºçš„
 3282. rely[ri'lai]
-vi.ÒÀÀµ£¬ÒÀ¿¿£»ĞÅÀµ
+vi.ä¾èµ–ï¼Œä¾é ï¼›ä¿¡èµ–
 3283. remain[ri'mein]
-vi.Ê£ÏÂ£¬ÓàÁô£»±£³Ö
+vi.å‰©ä¸‹ï¼Œä½™ç•™ï¼›ä¿æŒ
 3284. remains[ri'meinz]
-n.²ĞÓà£¬Óà¶î£»·ÏĞæ
+n.æ®‹ä½™ï¼Œä½™é¢ï¼›åºŸå¢Ÿ
 3285. remark[ri'ma:k]
-vt.&vi.&n.ÆÀÂÛ£¬Ì¸ÂÛ
+vt.&vi.&n.è¯„è®ºï¼Œè°ˆè®º
 3286. remarkable[ri'ma:k2bl]
-a.Òì³£µÄ£¬·Ç·²µÄ
+a.å¼‚å¸¸çš„ï¼Œéå‡¡çš„
 3287. remedy['remidi]
-n.&vt.ÖÎÁÆ£»²¹¾È
+n.&vt.æ²»ç–—ï¼›è¡¥æ•‘
 3288. remember[ri'memb2]
-vt.¼ÇµÃ£¬ÏëÆğ£»¼Ç×¡
+vt.è®°å¾—ï¼Œæƒ³èµ·ï¼›è®°ä½
 3289. remind[ri'maind]
-vt.ÌáĞÑ£¬Ê¹ÏëÆğ
+vt.æé†’ï¼Œä½¿æƒ³èµ·
 3290. remote[ri'm2ut]
-a.Ïà¸ôºÜÔ¶µÄ£»Àäµ­µÄ
+a.ç›¸éš”å¾ˆè¿œçš„ï¼›å†·æ·¡çš„
 3291. removal[ri'mu:v2l]
-n.ÒÆ¶¯£»Ç¨ÒÆ£»³ıµô
+n.ç§»åŠ¨ï¼›è¿ç§»ï¼›é™¤æ‰
 3292. remove[ri'mu:v]
-vt.ÒÆ¶¯£¬°á¿ª£»ÍÑµô
+vt.ç§»åŠ¨ï¼Œæ¬å¼€ï¼›è„±æ‰
 3293. render['rend2]
-vt.±íÊ¾£¬¸øÓè£»Ê¹µÃ
+vt.è¡¨ç¤ºï¼Œç»™äºˆï¼›ä½¿å¾—
 3294. renew[ri'nju:]
-vt.Ê¹¸üĞÂ vi.¸üĞÂ
+vt.ä½¿æ›´æ–° vi.æ›´æ–°
 3295. rent[rent]
-n.×â½ğ£¬×â vi.³ö×â
+n.ç§Ÿé‡‘ï¼Œç§Ÿ vi.å‡ºç§Ÿ
 3296. repair[ri'p/2]
-vt.&n.ĞŞÀí£¬ĞŞ²¹
+vt.&n.ä¿®ç†ï¼Œä¿®è¡¥
 3297. repeat[ri'pi:t]
-vt.ÖØËµ£¬ÖØ×ö n.ÖØ¸´
+vt.é‡è¯´ï¼Œé‡åš n.é‡å¤
 3298. repeatedly[ri'pi:tidli]
-ad.ÖØ¸´µØ£»Ò»ÔÙ
+ad.é‡å¤åœ°ï¼›ä¸€å†
 3299. repent[ri'pent]
-vi.»ÚÎò£¬»Ú¸Ävt.ºó»Ú
+vi.æ‚”æ‚Ÿï¼Œæ‚”æ”¹vt.åæ‚”
 3300. repetition[repi'ti62n]
-n.ÖØ¸´£¬·´¸´
+n.é‡å¤ï¼Œåå¤
 3301. replace[ri'pleis]
-vt.°Ñ¡­·Å»Ø£»È¡´ú
+vt.æŠŠâ€¦æ”¾å›ï¼›å–ä»£
 3302. reply[ri'plai]
-vi.&n.»Ø´ğ£¬´ğ¸´
+vi.&n.å›ç­”ï¼Œç­”å¤
 3303. report[ri'p0:t]
-vt.&vi.±¨¸æ£»»ã±¨
+vt.&vi.æŠ¥å‘Šï¼›æ±‡æŠ¥
 3304. reporter[ri'p0:t2]
-n.¼ÇÕß£¬Í¨Ñ¶Ô±
+n.è®°è€…ï¼Œé€šè®¯å‘˜
 3305. represent[repri'zent]
-vt.Ãè»æ£»´ú±í£»ÏóÕ÷
+vt.æç»˜ï¼›ä»£è¡¨ï¼›è±¡å¾
 3306. representative[repri'zent2tiv]
-a.´ú±íĞÔµÄ n.´ú±í
+a.ä»£è¡¨æ€§çš„ n.ä»£è¡¨
 3307. reproach[ri'pr2ut6]
-vt.&n.Ôğ±¸£¬Ö¸Ôğ
+vt.&n.è´£å¤‡ï¼ŒæŒ‡è´£
 3308. reproduce[ri:pr2'dju:s]
-vt.&vi.·±Ö³£¬ÉúÖ³
+vt.&vi.ç¹æ®–ï¼Œç”Ÿæ®–
 3309. republic[ri'p3blik]
-n.¹²ºÍ¹ú£¬¹²ºÍÕşÌå
+n.å…±å’Œå›½ï¼Œå…±å’Œæ”¿ä½“
 3310. republican[ri'p3blik2n]
-a.¹²ºÍ¹úµÄ
+a.å…±å’Œå›½çš„
 3311. reputation[repju(:)'tei62n]
-n.ÃûÓş£¬ÃûÉù£»ºÃÃûÉù
+n.åèª‰ï¼Œåå£°ï¼›å¥½åå£°
 3312. request[ri'kwest]
-n.&v.ÇëÇó£¬ÒªÇó
+n.&v.è¯·æ±‚ï¼Œè¦æ±‚
 3313. require[ri'kwai2]
-vt.ĞèÒª£»ÒªÇó£¬ÃüÁî
+vt.éœ€è¦ï¼›è¦æ±‚ï¼Œå‘½ä»¤
 3314. requirement[ri'kwai2m2nt]
-n.ĞèÒª£»ÒªÇó
+n.éœ€è¦ï¼›è¦æ±‚
 3315. rescue['reskju:]
-vt.&n.Ô®¾È£¬Óª¾È
+vt.&n.æ´æ•‘ï¼Œè¥æ•‘
 3316. research[ri's2:t6]
-n.&vi.µ÷²é£¬Ì½¾¿
+n.&vi.è°ƒæŸ¥ï¼Œæ¢ç©¶
 3317. researcher[ri's2:t62]
-n.µ÷²éÕß£»Ì½¾¿Õß
+n.è°ƒæŸ¥è€…ï¼›æ¢ç©¶è€…
 3318. resemble[ri'zembl]
-vt.Ïñ£¬ÀàËÆ
+vt.åƒï¼Œç±»ä¼¼
 3319. reserve[ri'z2:v]
-vt.´¢±¸£¬±£Áô£»Ô¤¶¨
+vt.å‚¨å¤‡ï¼Œä¿ç•™ï¼›é¢„å®š
 3320. reservior[]
-n.Ë®¿â£»ĞîË®³Ø
+n.æ°´åº“ï¼›è“„æ°´æ± 
 3321. residence['rezid2ns]
-n.¾Ó×¡£»×¤Ôú£»×¡´¦
+n.å±…ä½ï¼›é©»æ‰ï¼›ä½å¤„
 3322. resident['rezid2nt]
-a.¾Ó×¡µÄ n.¾ÓÃñ
+a.å±…ä½çš„ n.å±…æ°‘
 3323. resign[ri'zain]
-vt.·ÅÆú vi.´ÇÖ°
+vt.æ”¾å¼ƒ vi.è¾èŒ
 3324. resignation[rezig'nei62n]
-n.·ÅÆú£¬´ÇÖ°£¬·´¿¹
+n.æ”¾å¼ƒï¼Œè¾èŒï¼ŒåæŠ—
 3325. resist[ri'zist]
-vt.&vi.µÖ¿¹£¬µÖÖÆ
+vt.&vi.æŠµæŠ—ï¼ŒæŠµåˆ¶
 3326. resistance[ri'zist2ns]
-n.µÖ¿¹£»µÖÖÆ£»µÖ¿¹Á¦
+n.æŠµæŠ—ï¼›æŠµåˆ¶ï¼›æŠµæŠ—åŠ›
 3327. resistant[ri'zist2nt]
-a.µÖ¿¹µÄ£¬·´¿¹µÄ
+a.æŠµæŠ—çš„ï¼ŒåæŠ—çš„
 3328. resolution[rez2'lju:62n]
-n.¼á¾ö£¬¼á¶¨£»¾ö¶¨
+n.åšå†³ï¼Œåšå®šï¼›å†³å®š
 3329. resolve[ri'z0lv]
-vt.½â¾ö£»¾öĞÄ n.¾öĞÄ
+vt.è§£å†³ï¼›å†³å¿ƒ n.å†³å¿ƒ
 3330. resort[ri'z0:t]
-vi.&n.ÇóÖú£¬Æ¾½è
+vi.&n.æ±‚åŠ©ï¼Œå‡­å€Ÿ
 3331. resource[ri's0:s]
-n.×ÊÔ´£¬ÎïÁ¦£»°ì·¨
+n.èµ„æºï¼Œç‰©åŠ›ï¼›åŠæ³•
 3332. respect[ris'pekt]
-n.&vt.×ğ¾´£¬×ğÖØ
+n.&vt.å°Šæ•¬ï¼Œå°Šé‡
 3333. respectful[ris'pektful]
-a.¹§¾´µÄ£¬×ğÖØµÄ
+a.æ­æ•¬çš„ï¼Œå°Šé‡çš„
 3334. respective[ris'pektiv]
-¸÷×ÔµÄ£¬¸÷¸öµÄ
+å„è‡ªçš„ï¼Œå„ä¸ªçš„
 3335. respectively[ris'pektivli]
-ad.¸÷×ÔµØ£¬·Ö±ğµØ
+ad.å„è‡ªåœ°ï¼Œåˆ†åˆ«åœ°
 3336. respond[ris'p0nd]
-vi.×÷´ğ£»ÏìÓ¦
+vi.ä½œç­”ï¼›å“åº”
 3337. response[ris'p0ns]
-n.×÷´ğ£¬»Ø´ğ£»ÏìÓ¦
+n.ä½œç­”ï¼Œå›ç­”ï¼›å“åº”
 3338. responsibility[risp0ns2'biliti]
-n.ÔğÈÎ£¬ÔğÈÎĞÄ£»Ö°Ôğ
+n.è´£ä»»ï¼Œè´£ä»»å¿ƒï¼›èŒè´£
 3339. responsible[ris'p0ns2bl]
-a.ÓĞÔğÈÎµÄ£»¾¡ÔğµÄ
+a.æœ‰è´£ä»»çš„ï¼›å°½è´£çš„
 3340. rest[rest]
-n.ĞİÏ¢£»°²¾²£»¾²Ö¹
+n.ä¼‘æ¯ï¼›å®‰é™ï¼›é™æ­¢
 3341. rest[rest]
-n.Ê£Óà²¿·Ö£»ÆäÓàµÄÈË
+n.å‰©ä½™éƒ¨åˆ†ï¼›å…¶ä½™çš„äºº
 3342. restaurant['rest2r0nt]
-n.²Í¹İ£¬·¹µê£¬²Ë¹İ
+n.é¤é¦†ï¼Œé¥­åº—ï¼Œèœé¦†
 3343. restless['restlis]
-a.²»°²¶¨µÄ£¬½¹ÂÇµÄ
+a.ä¸å®‰å®šçš„ï¼Œç„¦è™‘çš„
 3344. restore[ris't0:]
-vt.»Ö¸´£»¹é»¹£»ĞŞ²¹
+vt.æ¢å¤ï¼›å½’è¿˜ï¼›ä¿®è¡¥
 3345. restrain[ris'trein]
-vt.ÒÖÖÆ£¬¶ôÖÆ£»ÏŞÖÆ
+vt.æŠ‘åˆ¶ï¼Œéåˆ¶ï¼›é™åˆ¶
 3346. restraint[ris'treint]
-n.ÒÖÖÆ£»¶ôÖÆ£»¿ËÖÆ
+n.æŠ‘åˆ¶ï¼›éåˆ¶ï¼›å…‹åˆ¶
 3347. restrict[ris'trikt]
-vtÏŞÖÆ£¬ÏŞ¶¨£¬Ô¼Êø
+vté™åˆ¶ï¼Œé™å®šï¼Œçº¦æŸ
 3348. restriction[ris'trik62n]
-n.ÏŞÖÆ£¬ÏŞ¶¨£¬Ô¼Êø
+n.é™åˆ¶ï¼Œé™å®šï¼Œçº¦æŸ
 3349. result[ri'z3lt]
-n.³É¹û vi.·¢Éú£¬½á¹û
+n.æˆæœ vi.å‘ç”Ÿï¼Œç»“æœ
 3350. resume[ri'zju:m]
-vt.»Ö¸´£»ÖØĞÂ¿ªÊ¼
+vt.æ¢å¤ï¼›é‡æ–°å¼€å§‹
 3351. retain[ri'tein]
-vt.±£³Ö£¬±£Áô£¬±£ÓĞ
+vt.ä¿æŒï¼Œä¿ç•™ï¼Œä¿æœ‰
 3352. retell['ri:'tel]
-vt.ÔÙ½²£¬ÖØÊö£¬¸´Êö
+vt.å†è®²ï¼Œé‡è¿°ï¼Œå¤è¿°
 3353. retire[ri'tai2]
-vi.ÍËÏÂ£»ÒıÍË£»¾ÍÇŞ
+vi.é€€ä¸‹ï¼›å¼•é€€ï¼›å°±å¯
 3354. retreat[ri'tri:t]
-vi.(±»ÆÈ)ÍËÈ´£¬ºóÍË
+vi.(è¢«è¿«)é€€å´ï¼Œåé€€
 3355. return[ri't2:n]
-vi.&n.»ØÀ´£¬·µ»Ø
+vi.&n.å›æ¥ï¼Œè¿”å›
 3356. reveal[ri'vi:l]
-vt.Õ¹ÏÖ£»½ÒÊ¾£¬½ÒÂ¶
+vt.å±•ç°ï¼›æ­ç¤ºï¼Œæ­éœ²
 3357. revenge[ri'vend7]
-vt.Ìæ¡­±¨³ğ n.±¨³ğ
+vt.æ›¿â€¦æŠ¥ä»‡ n.æŠ¥ä»‡
 3358. reverse[ri'v2:s]
-vt.µßµ¹£¬·­×ª n.±³Ãæ
+vt.é¢ å€’ï¼Œç¿»è½¬ n.èƒŒé¢
 3359. review[ri'vju:]
-vt.ÔÙ¼ì²é n.¸´Ï°
+vt.å†æ£€æŸ¥ n.å¤ä¹ 
 3360. revise[ri'vaiz]
-vt.ĞŞ¶©£¬Ğ£¶©£»ĞŞ¸Ä
+vt.ä¿®è®¢ï¼Œæ ¡è®¢ï¼›ä¿®æ”¹
 3361. revolt[ri'v2ult]
-vi.&n.·´¿¹£¬Ôì·´
+vi.&n.åæŠ—ï¼Œé€ å
 3362. revolution[rev2'lu:62n]
-n.¸ïÃü£»Ğı×ª£¬ÈÆ×ª
+n.é©å‘½ï¼›æ—‹è½¬ï¼Œç»•è½¬
 3363. revolutionary[rev2'lu:62n2ri]
-a.¸ïÃüµÄ n.¸ïÃüÕß
+a.é©å‘½çš„ n.é©å‘½è€…
 3364. reward[ri'w0:d]
-n.±¨´ğ£»±¨³ê vt.±¨´ğ
+n.æŠ¥ç­”ï¼›æŠ¥é…¬ vt.æŠ¥ç­”
 3365. rhythm['ri52m]
-n.ÔÏÂÉ£¬¸ñÂÉ£»½Ú×à
+n.éŸµå¾‹ï¼Œæ ¼å¾‹ï¼›èŠ‚å¥
 3366. rib[rib]
-n.Àß£¬Àß¹Ç
+n.è‚‹ï¼Œè‚‹éª¨
 3367. ribbon['rib2n]
-n.¶Ğ´ø£¬Ë¿´ø£»´ø
+n.ç¼å¸¦ï¼Œä¸å¸¦ï¼›å¸¦
 3368. rice[rais]
-n.µ¾£¬Ã×£¬·¹
+n.ç¨»ï¼Œç±³ï¼Œé¥­
 3369. rich[rit6]
-a.¸»µÄ£¬·á¸»µÄ
+a.å¯Œçš„ï¼Œä¸°å¯Œçš„
 3370. rid[rid]
-vt.Ê¹°ÚÍÑ£¬Ê¹È¥µô
+vt.ä½¿æ‘†è„±ï¼Œä½¿å»æ‰
 3371. riddle['ridl]
-n.ÃÕ£¬ÃÕÓï
+n.è°œï¼Œè°œè¯­
 3372. ride[raid]
-vi.&n.ÆïÂí£¬³Ë³µ
+vi.&n.éª‘é©¬ï¼Œä¹˜è½¦
 3373. rider['raid2]
-n.ÆïÂíµÄÈË£»³Ë³µµÄÈË
+n.éª‘é©¬çš„äººï¼›ä¹˜è½¦çš„äºº
 3374. ridge[rid7]
-n.¼¹£»Áë£¬É½Âö£»Â¢
+n.è„Šï¼›å²­ï¼Œå±±è„‰ï¼›å„
 3375. ridiculous[ri'dikjul2s]
-a.»ÄÃıµÄ£¬¿ÉĞ¦µÄ
+a.è’è°¬çš„ï¼Œå¯ç¬‘çš„
 3376. rifle['raifl]
-n.²½Ç¹£¬À´¸´Ç¹
+n.æ­¥æªï¼Œæ¥å¤æª
 3377. right[rait]
-a.ÕıÈ·µÄ ad.¶Ô£¬ÕıºÃ
+a.æ­£ç¡®çš„ ad.å¯¹ï¼Œæ­£å¥½
 3378. rigid['rid7id]
-a.¸ÕÓ²µÄ£»½©Ó²µÄ
+a.åˆšç¡¬çš„ï¼›åƒµç¡¬çš„
 3379. ring[ri8]
-n.»·ĞÎÎï(ÈçÈ¦¡¢»·µÈ)
+n.ç¯å½¢ç‰©(å¦‚åœˆã€ç¯ç­‰)
 3380. ring[ri8]
-vi.Ãù£»°´Áå n.ÁåÉù
+vi.é¸£ï¼›æŒ‰é“ƒ n.é“ƒå£°
 3381. ripe[raip]
-a.ÊìµÄ£»Ê±»ú³ÉÊìµÄ
+a.ç†Ÿçš„ï¼›æ—¶æœºæˆç†Ÿçš„
 3382. ripen['raip2n]
-vt.Ê¹Êì vi.³ÉÊì
+vt.ä½¿ç†Ÿ vi.æˆç†Ÿ
 3383. rise[raiz]
-vi.ÆğÁ¢£»ÉıÆğ£»ÉÏÕÇ
+vi.èµ·ç«‹ï¼›å‡èµ·ï¼›ä¸Šæ¶¨
 3384. risk[risk]
-n.·çÏÕ£¬Î£ÏÕ£¬Ã°ÏÕ
+n.é£é™©ï¼Œå±é™©ï¼Œå†’é™©
 3385. rival['raiv2l]
-n.¾ºÕùÕß a.¾ºÕùµÄ
+n.ç«äº‰è€… a.ç«äº‰çš„
 3386. river['riv2]
-n.½­£¬ºÓ£¬Ë®µÀ
+n.æ±Ÿï¼Œæ²³ï¼Œæ°´é“
 3387. road[r2ud]
-n.Â·£¬µÀÂ·£¬¹«Â·
+n.è·¯ï¼Œé“è·¯ï¼Œå…¬è·¯
 3388. roar[r0:]
-vi.ºğ½Ğ£»ºôº° n.ºğ
+vi.å¼å«ï¼›å‘¼å–Š n.å¼
 3389. roast[r2ust]
-vt.&vi.¿¾£¬ÖË£¬ºæ
+vt.&vi.çƒ¤ï¼Œç‚™ï¼Œçƒ˜
 3390. rob[r0b]
-vt.&vi.ÇÀ½Ù£»½ÙÂÓ
+vt.&vi.æŠ¢åŠ«ï¼›åŠ«æ 
 3391. robber['r0b2]
-n.Ç¿µÁ£¬µÁÔô
+n.å¼ºç›—ï¼Œç›—è´¼
 3392. robbery['r0b2ri]
-n.ÇÀ½Ù£¬½ÙÂÓ£¬µÁÈ¡
+n.æŠ¢åŠ«ï¼ŒåŠ«æ ï¼Œç›—å–
 3393. robe[r2ub]
-n.³¤ÅÛ£¬³¤ÒÂ£¬Ô¡ÒÂ
+n.é•¿è¢ï¼Œé•¿è¡£ï¼Œæµ´è¡£
 3394. robot['r2ub0t]
-n.»úÆ÷ÈË£»×Ô¶¯»ú
+n.æœºå™¨äººï¼›è‡ªåŠ¨æœº
 3395. rock[r0k]
-vt.Ò¡£¬Ê¹¶¯Ò¡ vi.Ò¡
+vt.æ‘‡ï¼Œä½¿åŠ¨æ‘‡ vi.æ‘‡
 3396. rock[r0k]
-n.ÑÒ£¬ÑÒÊ¯£»Ê¯Í·
+n.å²©ï¼Œå²©çŸ³ï¼›çŸ³å¤´
 3397. rocket['r0kit]
-n.»ğ¼ı£¬»ğ¼ı·¢¶¯»ú
+n.ç«ç®­ï¼Œç«ç®­å‘åŠ¨æœº
 3398. rod[r0d]
-n.¸Ë£¬¸Í£¬°ô
+n.æ†ï¼Œç«¿ï¼Œæ£’
 3399. role[r2ul]
-n.½ÇÉ«£¬×÷ÓÃ£¬ÈÎÎñ
+n.è§’è‰²ï¼Œä½œç”¨ï¼Œä»»åŠ¡
 3400. roll[r2ul]
-vi.&vt.¹ö¶¯£»×ª¶¯
+vi.&vt.æ»šåŠ¨ï¼›è½¬åŠ¨
 3401. roller['r2ul2]
-n.¹öÖù£¬¹öÍ²£¬¹öÖá
+n.æ»šæŸ±ï¼Œæ»šç­’ï¼Œæ»šè½´
 3402. Roman['r2um2n]
-n.¹ÅÂŞÂíÈË a.ÂŞÂíµÄ
+n.å¤ç½—é©¬äºº a.ç½—é©¬çš„
 3403. romantic[r2u'm9ntik]
-a.ÀËÂşµÄ£»´«ÆæµÄ
+a.æµªæ¼«çš„ï¼›ä¼ å¥‡çš„
 3404. roof[ru:f]
-n.Îİ¶¥£¬³µ¶¥£»¶¥
+n.å±‹é¡¶ï¼Œè½¦é¡¶ï¼›é¡¶
 3405. room[ru:m. rum]
-n.·¿¼ä£»µØÎ»£»ÓàµØ
+n.æˆ¿é—´ï¼›åœ°ä½ï¼›ä½™åœ°
 3406. root[ru:t]
-n.¸ù£¬¸ù×Ó vi.Éú¸ù
+n.æ ¹ï¼Œæ ¹å­ vi.ç”Ÿæ ¹
 3407. rope[r2up]
-n.Éş£¬Ë÷
+n.ç»³ï¼Œç´¢
 3408. rose[r2uz]
-n.Ç¾Ş±»¨£¬Ç¾Ş±¿ÆÖ²Îï
+n.è”·è–‡èŠ±ï¼Œè”·è–‡ç§‘æ¤ç‰©
 3409. rot[r0t]
-vt.ÀÃ£¬¸¯»µ n.¸¯ÀÃ
+vt.çƒ‚ï¼Œè…å n.è…çƒ‚
 3410. rotary['r2ut2ri]
-a.Ğı×ªµÄ£¬×ª¶¯µÄ
+a.æ—‹è½¬çš„ï¼Œè½¬åŠ¨çš„
 3411. rotate[r2u'teit]
-vi.Ğı×ª vt.Ê¹Ğı×ª
+vi.æ—‹è½¬ vt.ä½¿æ—‹è½¬
 3412. rotation[r2u'tei62n]
-n.Ğı×ª£¬×ª¶¯£»Ñ­»·
+n.æ—‹è½¬ï¼Œè½¬åŠ¨ï¼›å¾ªç¯
 3413. rotten['r0tn]
-a.¸¯ÀÃµÄ£¬·¢³ôµÄ
+a.è…çƒ‚çš„ï¼Œå‘è‡­çš„
 3414. rough[r3f]
-a.±íÃæ²»Æ½µÄ£»´ÖÂÔµÄ
+a.è¡¨é¢ä¸å¹³çš„ï¼›ç²—ç•¥çš„
 3415. roughly['r3fli]
-ad.´Ö²ÚµØ£¬´ÖÂÔµØ
+ad.ç²—ç³™åœ°ï¼Œç²—ç•¥åœ°
 3416. round[raund]
-a.Ô²µÄ n.¶µÈ¦£»Ò»ÂÖ
+a.åœ†çš„ n.å…œåœˆï¼›ä¸€è½®
 3417. rouse[rauz]
-vt.»½ĞÑ£¬»½Æğ£»¾ªÆğ
+vt.å”¤é†’ï¼Œå”¤èµ·ï¼›æƒŠèµ·
 3418. route[ru:t]
-n.Â·£¬Â·Ïß£¬Â·³Ì
+n.è·¯ï¼Œè·¯çº¿ï¼Œè·¯ç¨‹
 3419. routine[ru:'ti:n]
-n.ÀıĞĞ¹«ÊÂ a.ÈÕ³£µÄ
+n.ä¾‹è¡Œå…¬äº‹ a.æ—¥å¸¸çš„
 3420. row[r2u]
-n.(Ò»)ÅÅ£¬(Ò»)ĞĞ
+n.(ä¸€)æ’ï¼Œ(ä¸€)è¡Œ
 3421. row[r2u]
-vt.»®(´¬µÈ) vi.»®´¬
+vt.åˆ’(èˆ¹ç­‰) vi.åˆ’èˆ¹
 3422. royal['r0i2l]
-a.ÍõµÄ£»»Ê¼ÒµÄ
+a.ç‹çš„ï¼›çš‡å®¶çš„
 3423. rub[r3b]
-vt.Ä¦²Á£¬²Á vi.Ä¦²Á
+vt.æ‘©æ“¦ï¼Œæ“¦ vi.æ‘©æ“¦
 3424. rubber['r3b2]
-n.ÏğÆ¤(²Á×Ó)£»Ïğ½º
+n.æ©¡çš®(æ“¦å­)ï¼›æ©¡èƒ¶
 3425. rubbish['r3bi6]
-n.À¬»ø£¬·ÏÎï£»·Ï»°
+n.åƒåœ¾ï¼ŒåºŸç‰©ï¼›åºŸè¯
 3426. rude[ru:d]
-a.¼Ó¹¤´Ö²ÚµÄ£»´ÖÒ°µÄ
+a.åŠ å·¥ç²—ç³™çš„ï¼›ç²—é‡çš„
 3427. rug[r3g]
-n.Ğ¡µØÌº£»Ã«Ìº
+n.å°åœ°æ¯¯ï¼›æ¯›æ¯¯
 3428. ruin['ruin]
-n.»ÙÃğ£»·ÏĞæ vt.»Ù»µ
+n.æ¯ç­ï¼›åºŸå¢Ÿ vt.æ¯å
 3429. rule[ru:l]
-n.Í³ÖÎ£»¹æ¶¨£»Ï°¹ß
+n.ç»Ÿæ²»ï¼›è§„å®šï¼›ä¹ æƒ¯
 3430. ruler['ru:l2]
-n.Í³ÖÎÕß£»³ß£¬Ö±³ß
+n.ç»Ÿæ²»è€…ï¼›å°ºï¼Œç›´å°º
 3431. rumour['ru:m2]
-n.Ò¥ÑÔ£¬Ò¥´«£¬´«ÎÅ
+n.è°£è¨€ï¼Œè°£ä¼ ï¼Œä¼ é—»
 3432. run[r3n]
-vi.ÅÜ£¬±¼£»ĞĞÊ»£»Á÷
+vi.è·‘ï¼Œå¥”ï¼›è¡Œé©¶ï¼›æµ
 3433. runner['r3n2]
-n.ÈüÅÜµÄÈË
+n.èµ›è·‘çš„äºº
 3434. rural['ru2r2l]
-a.Å©´åµÄ£¬ÌïÔ°µÄ
+a.å†œæ‘çš„ï¼Œç”°å›­çš„
 3435. rush[r36]
-vi.³å£¬±¼ vt.´ß´Ù
+vi.å†²ï¼Œå¥” vt.å‚¬ä¿ƒ
 3436. Russian['r362n]
-a.¶íÂŞË¹µÄ n.¶í¹úÈË
+a.ä¿„ç½—æ–¯çš„ n.ä¿„å›½äºº
 3437. rust[r3st]
-n.Ğâ vi.ÉúĞâ£¬Ñõ»¯
+n.é”ˆ vi.ç”Ÿé”ˆï¼Œæ°§åŒ–
 3438. rusty['r3sti]
-a.ÉúĞâµÄ£»±ä³Ù¶ÛµÄ
+a.ç”Ÿé”ˆçš„ï¼›å˜è¿Ÿé’çš„
 3439. sack[s9k]
-n.´ü£¬Âé´ü£»¿ª³ı
+n.è¢‹ï¼Œéº»è¢‹ï¼›å¼€é™¤
 3440. sacred['seikrid]
-a.ÉÏµÛµÄ£»ÉñÊ¥µÄ
+a.ä¸Šå¸çš„ï¼›ç¥åœ£çš„
 3441. sacrifice['s9krifais]
-n.&vt.ÎşÉü£»ÄÏ¼À
+n.&vt.ç‰ºç‰²ï¼›å—ç¥­
 3442. sad[s9d]
-a.±¯°§µÄ£¬ÁîÈË±¯Í´µÄ
+a.æ‚²å“€çš„ï¼Œä»¤äººæ‚²ç—›çš„
 3443. saddle['s9dl]
-n.°°×Ó£¬Âí°°
+n.éå­ï¼Œé©¬é
 3444. sadly['s9dli]
-ad.±¯Í´µØ£¬±¯°§µØ
+ad.æ‚²ç—›åœ°ï¼Œæ‚²å“€åœ°
 3445. sadness['s9dnis]
-n.±¯Í´£¬±¯°§
+n.æ‚²ç—›ï¼Œæ‚²å“€
 3446. safe[seif]
-a.°²È«µÄ£»½÷É÷µÄ
+a.å®‰å…¨çš„ï¼›è°¨æ…çš„
 3447. safe[seif]
-n.±£ÏÕÏä
+n.ä¿é™©ç®±
 3448. safely['seifli]
-ad.°²È«µØ£»¿É¿¿µØ
+ad.å®‰å…¨åœ°ï¼›å¯é åœ°
 3449. safety['seifti]
-n.°²È«£¬±£ÏÕ
+n.å®‰å…¨ï¼Œä¿é™©
 3450. sail[seil]
-n.·«£»´¬  vi.º½ĞĞ
+n.å¸†ï¼›èˆ¹  vi.èˆªè¡Œ
 3451. sailor['seil2]
-n.Ë®ÊÖ£¬º£Ô±£¬Ë®±ø
+n.æ°´æ‰‹ï¼Œæµ·å‘˜ï¼Œæ°´å…µ
 3452. saint[seint]
-n.Ê¥Í½£»»ù¶½½ÌÍ½
+n.åœ£å¾’ï¼›åŸºç£æ•™å¾’
 3453. sake[seik]
-n.Ôµ¹Ê£¬ÀíÓÉ
+n.ç¼˜æ•…ï¼Œç†ç”±
 3454. salad['s9l2d]
-n.É«À­£»İ«ÜÄ£¬Éú²Ë
+n.è‰²æ‹‰ï¼›è´è‹£ï¼Œç”Ÿèœ
 3455. salary['s9l2ri]
-n.Ğ½½ğ£¬Ğ½Ë®
+n.è–ªé‡‘ï¼Œè–ªæ°´
 3456. sale[seil]
-n.Âô£»ÅÄÂô£»ÏúÊÛ¶î
+n.å–ï¼›æ‹å–ï¼›é”€å”®é¢
 3457. salesman['seilzm2n]
-n.ÊÛ»õÔ±£¬ÍÆÏúÔ±
+n.å”®è´§å‘˜ï¼Œæ¨é”€å‘˜
 3458. salt[s0:lt]
-n.ÑÎ£»ÑÎÀà vt.¼ÓÑÎÓÚ
+n.ç›ï¼›ç›ç±» vt.åŠ ç›äº
 3459. salute[s2'lju:t]
-n.ÕĞºô£¬ĞĞÀñ vi.ĞĞÀñ
+n.æ‹›å‘¼ï¼Œè¡Œç¤¼ vi.è¡Œç¤¼
 3460. same[seim]
-a.Í¬Ò»µÄ£¬ÏàÍ¬µÄ
+a.åŒä¸€çš„ï¼Œç›¸åŒçš„
 3461. sample['sa:mpl]
-n.ÑùÆ·£»ÊµÀı£¬±ê±¾
+n.æ ·å“ï¼›å®ä¾‹ï¼Œæ ‡æœ¬
 3462. sand[s9nd]
-n.É³£¬É³×Ó£»É³Ì²
+n.æ²™ï¼Œæ²™å­ï¼›æ²™æ»©
 3463. sandwich['s9nwid7]
-n.ÈıÃ÷ÖÎ vt.¼ĞÈë
+n.ä¸‰æ˜æ²» vt.å¤¹å…¥
 3464. sandy['s9ndi]
-n.É³µÄ£¬º¬É³µÄ
+n.æ²™çš„ï¼Œå«æ²™çš„
 3465. satellite['s9t2lait]
-n.ÎÀĞÇ£»ÈËÔìÎÀĞÇ
+n.å«æ˜Ÿï¼›äººé€ å«æ˜Ÿ
 3466. satisfaction[s9tis'f9k62n]
-n.ÂúÒâ£»¿ìÊÂ£»Åâ³¥
+n.æ»¡æ„ï¼›å¿«äº‹ï¼›èµ”å¿
 3467. satisfactory[s9tis'f9kt2ri]
-a.ÁîÈËÂúÒâµÄ£¬Á¼ºÃµÄ
+a.ä»¤äººæ»¡æ„çš„ï¼Œè‰¯å¥½çš„
 3468. satisfy['s9tisfai]
-vt.Âú×ã£»Ê¹ÂúÒâ
+vt.æ»¡è¶³ï¼›ä½¿æ»¡æ„
 3469. Saturday['s9t2di]
-n.ĞÇÆÚÁù
+n.æ˜ŸæœŸå…­
 3470. sauce[s0:s]
-n.µ÷Î¶Ö­£¬½´Ö­
+n.è°ƒå‘³æ±ï¼Œé…±æ±
 3471. saucer['s0:s2]
-n.²èÍĞ£¬Ç³µú
+n.èŒ¶æ‰˜ï¼Œæµ…ç¢Ÿ
 3472. sausage['s0sid7]
-n.Ïã³¦£¬À°³¦
+n.é¦™è‚ ï¼Œè…Šè‚ 
 3473. save[seiv]
-vt.¾È£»½ÚÊ¡£»´¢Ğî
+vt.æ•‘ï¼›èŠ‚çœï¼›å‚¨è“„
 3474. saving['seivi8]
-n.´î¾È£»½ÚÔ¼£»´æ¿î
+n.æ­æ•‘ï¼›èŠ‚çº¦ï¼›å­˜æ¬¾
 3475. saw[s0:]
-n.¾â×Ó vt.¾â£¬¾â¿ª
+n.é”¯å­ vt.é”¯ï¼Œé”¯å¼€
 3476. say[sei]
-vt.Ëµ£»ËµÃ÷£»±ÈÈçËµ
+vt.è¯´ï¼›è¯´æ˜ï¼›æ¯”å¦‚è¯´
 3477. scale[skeil]
-n.ÌìÆ½£¬°õ³Ó£¬³Ó
+n.å¤©å¹³ï¼Œç£…ç§¤ï¼Œç§¤
 3478. scale[skeil]
-n.±ê¶È£»±ÈÀı£»´óĞ¡
+n.æ ‡åº¦ï¼›æ¯”ä¾‹ï¼›å¤§å°
 3479. scan[sk9n]
-vt.Ï¸¿´£»ä¯ÀÀ£»É¨Ãè
+vt.ç»†çœ‹ï¼›æµè§ˆï¼›æ‰«æ
 3480. scar[ska:]
-n.ÉË°Ì£¬ÉËºÛ£»´´ÉË
+n.ä¼¤ç–¤ï¼Œä¼¤ç—•ï¼›åˆ›ä¼¤
 3481. scarce[sk/2s]
-a.È±·¦µÄ£»Ï£ÓĞµÄ
+a.ç¼ºä¹çš„ï¼›å¸Œæœ‰çš„
 3482. scarcely['sk/2sli]
-ad.½ö½ö£»¼¸ºõ²»
+ad.ä»…ä»…ï¼›å‡ ä¹ä¸
 3483. scare[sk/2]
-vt.¾ªÏÅ vi.ÊÜ¾ª
+vt.æƒŠå“ vi.å—æƒŠ
 3484. scarf[ska:f]
-n.Î§½í£¬Í·½í£»Áì´ø
+n.å›´å·¾ï¼Œå¤´å·¾ï¼›é¢†å¸¦
 3485. scatter['sk9t2]
-vt.Ê¹ÏûÉ¢£»Èö£»É¢²¥
+vt.ä½¿æ¶ˆæ•£ï¼›æ’’ï¼›æ•£æ’­
 3486. scene[si:n]
-n.·¢ÉúµØµã£»µÀ¾ß
+n.å‘ç”Ÿåœ°ç‚¹ï¼›é“å…·
 3487. scenery['si:n2ri]
-n.ÎèÌ¨²¼¾°£»·ç¾°
+n.èˆå°å¸ƒæ™¯ï¼›é£æ™¯
 3488. scent[sent]
-n.ÆøÎ¶£¬ÏãÎ¶£»ÏãË®
+n.æ°”å‘³ï¼Œé¦™å‘³ï¼›é¦™æ°´
 3489. schedule['6edju:l]
-n.Ê±¼ä±í£»¼Æ»®±í
+n.æ—¶é—´è¡¨ï¼›è®¡åˆ’è¡¨
 3490. scheme[ski:m]
-n.¼Æ»®£¬¹æ»®£»¹î¼Æ
+n.è®¡åˆ’ï¼Œè§„åˆ’ï¼›è¯¡è®¡
 3491. scholar['sk0l2]
-n.Ñ§Õß(ÓÈÖ¸ÎÄÑ§·½Ãæ)
+n.å­¦è€…(å°¤æŒ‡æ–‡å­¦æ–¹é¢)
 3492. scholarship['sk0l26ip]
-n.Ñ§Òµ³É¼¨£»½±Ñ§½ğ
+n.å­¦ä¸šæˆç»©ï¼›å¥–å­¦é‡‘
 3493. school[sku:l]
-n.Ñ§Ğ££»Ñ§Ôº£»Ñ§ÅÉ
+n.å­¦æ ¡ï¼›å­¦é™¢ï¼›å­¦æ´¾
 3494. science['sai2ns]
-n.¿ÆÑ§£¬¿ÆÑ§ÑĞ¾¿
+n.ç§‘å­¦ï¼Œç§‘å­¦ç ”ç©¶
 3495. scientific[sai2n'tifik]
-a.¿ÆÑ§(ÉÏ)µÄ
+a.ç§‘å­¦(ä¸Š)çš„
 3496. scientist['sai2ntist]
-n.(×ÔÈ»)¿ÆÑ§¼Ò
+n.(è‡ªç„¶)ç§‘å­¦å®¶
 3497. scissors['siz2z]
-n.¼ôµ¶£¬¼ô×Ó
+n.å‰ªåˆ€ï¼Œå‰ªå­
 3498. scold[sk2uld]
-vi.ÔğÂî vt.Éê³â
+vi.è´£éª‚ vt.ç”³æ–¥
 3499. scope[sk2up]
-n.·¶Î§£»ÓàµØ£¬»ú»á
+n.èŒƒå›´ï¼›ä½™åœ°ï¼Œæœºä¼š
 3500. score[sk0:]
-n.µÃ·Ö£¬±ÈÊı£¬³É¼¨
+n.å¾—åˆ†ï¼Œæ¯”æ•°ï¼Œæˆç»©
 3501. scorn[sk0:n]
-n.ÇáÃï£»³°Ğ¦ vt.ÇáÃï
+n.è½»è”‘ï¼›å˜²ç¬‘ vt.è½»è”‘
 3502. scout[skaut]
-n.Õì²ìÔ±£¬Õì²ì»ú
+n.ä¾¦å¯Ÿå‘˜ï¼Œä¾¦å¯Ÿæœº
 3503. scrape[skreip]
-vt.&vi.&n.¹Î£¬²Á
+vt.&vi.&n.åˆ®ï¼Œæ“¦
 3504. scratch[skr9t6]
-vt.&vi.&n.É¦£»×¥
+vt.&vi.&n.æ”ï¼›æŠ“
 3505. scream[skri:m]
-vi.¼â½Ğ£»ºôĞ¥
+vi.å°–å«ï¼›å‘¼å•¸
 3506. screen[skri:n]
-n.ÆÁ£»ÆÁÄ» vt.ÑÚ±Î
+n.å±ï¼›å±å¹• vt.æ©è”½
 3507. screw[skru:]
-n.ÂİĞı£¬ÂİË¿ vt.Å¡½ô
+n.èºæ—‹ï¼Œèºä¸ vt.æ‹§ç´§
 3508. sea[si:]
-n.º££¬º£Ñó
+n.æµ·ï¼Œæµ·æ´‹
 3509. seal['si:l]
-n.·âÀ¯£»Ó¡¼Ç vt.·â
+n.å°èœ¡ï¼›å°è®° vt.å°
 3510. seal['si:l]
-n.º£±ª
+n.æµ·è±¹
 3511. seaman['si:m2n]
-n.º£Ô±£¬Ë®ÊÖ£»Ë®±ø
+n.æµ·å‘˜ï¼Œæ°´æ‰‹ï¼›æ°´å…µ
 3512. seaport['si:p0:t]
-n.º£¸Û£¬¸ÛÊĞ
+n.æµ·æ¸¯ï¼Œæ¸¯å¸‚
 3513. search[s2:t6]
-vt.ÔÚ¡­ÖĞËÑÑ°£¬ËÑ²é
+vt.åœ¨â€¦ä¸­æœå¯»ï¼ŒæœæŸ¥
 3514. season['si:zn]
-n.¼¾£¬¼¾½Ú£¬Ê±½Ú
+n.å­£ï¼Œå­£èŠ‚ï¼Œæ—¶èŠ‚
 3515. seat[si:t]
-n.×ù£»×ù²¿ vt.Ê¹×øÏÂ
+n.åº§ï¼›åº§éƒ¨ vt.ä½¿åä¸‹
 3516. second['sek2nd]
-num.µÚ¶ş a.¶şµÈµÄ
+num.ç¬¬äºŒ a.äºŒç­‰çš„
 3517. second['sek2nd]
-n.Ãë
+n.ç§’
 3518. secondary['sek2nd2ri]
-a.µÚ¶şµÄ£»´ÎÒªµÄ
+a.ç¬¬äºŒçš„ï¼›æ¬¡è¦çš„
 3519. secondly['sek2ndli]
-ad.µÚ¶ş(µã)£»Æä´Î
+ad.ç¬¬äºŒ(ç‚¹)ï¼›å…¶æ¬¡
 3520. secret['si:krit]
-a.ÃØÃÜµÄ£»Òş±ÎµÄ
+a.ç§˜å¯†çš„ï¼›éšè”½çš„
 3521. secretary['sekr2tri]
-n.ÃØÊé£»Êé¼Ç£»´ó³¼
+n.ç§˜ä¹¦ï¼›ä¹¦è®°ï¼›å¤§è‡£
 3522. section['sek62n]
-n.ÇĞÆ¬£»Ò»¶Î£»²¿ÃÅ
+n.åˆ‡ç‰‡ï¼›ä¸€æ®µï¼›éƒ¨é—¨
 3523. secure[si'kju2]
-a.°²ĞÄµÄ£»°²È«µÄ
+a.å®‰å¿ƒçš„ï¼›å®‰å…¨çš„
 3524. security[si'kju2riti]
-n.°²È«£¬°²È«¸Ğ
+n.å®‰å…¨ï¼Œå®‰å…¨æ„Ÿ
 3525. see[si:]
-vt.¿´¼û£»Óö¼û£»¿´³ö
+vt.çœ‹è§ï¼›é‡è§ï¼›çœ‹å‡º
 3526. seed[si:d]
-n.ÖÖ(×Ó)£¬×Ñ£¬ÃÈÑ¿
+n.ç§(å­)ï¼Œç±½ï¼ŒèŒèŠ½
 3527. seek[si:k]
-vt.Ñ°ÕÒ£¬Ì½Ë÷£»ÊÔÍ¼
+vt.å¯»æ‰¾ï¼Œæ¢ç´¢ï¼›è¯•å›¾
 3528. seem[si:m]
-vi.ºÃÏñ£¬ËÆºõ
+vi.å¥½åƒï¼Œä¼¼ä¹
 3529. seize[si:z]
-vt.×¥×¡£¬´ş²¶£»¶áÈ¡
+vt.æŠ“ä½ï¼Œé€®æ•ï¼›å¤ºå–
 3530. seldom['seld2m]
-ad.ºÜÉÙ£¬²»³££¬ÄÑµÃ
+ad.å¾ˆå°‘ï¼Œä¸å¸¸ï¼Œéš¾å¾—
 3531. select[si'lekt]
-vt.&vi.Ñ¡Ôñ£¬ÌôÑ¡
+vt.&vi.é€‰æ‹©ï¼ŒæŒ‘é€‰
 3532. selection[si'lek62n]
-n.Ñ¡Ôñ£¬ÌôÑ¡£»¾«Ñ¡Îï
+n.é€‰æ‹©ï¼ŒæŒ‘é€‰ï¼›ç²¾é€‰ç‰©
 3533. self[self]
-n.×ÔÎÒ£¬×Ô¼º
+n.è‡ªæˆ‘ï¼Œè‡ªå·±
 3534. selfish['selfi6]
-a.×ÔË½µÄ£¬Àû¼ºµÄ
+a.è‡ªç§çš„ï¼Œåˆ©å·±çš„
 3535. sell[sel]
-vt.&vi.Âô£¬ÏúÊÛ
+vt.&vi.å–ï¼Œé”€å”®
 3536. seller['sel2]
-n.ÂôÕß£»ĞĞÏú»õ
+n.å–è€…ï¼›è¡Œé”€è´§
 3537. semester[s2'mest2]
-n.°ëÄê£»Ñ§ÆÚ£¬°ëÑ§Äê
+n.åŠå¹´ï¼›å­¦æœŸï¼ŒåŠå­¦å¹´
 3538. semiconductor[semik2n'd3kt2]
-n.°ëµ¼Ìå
+n.åŠå¯¼ä½“
 3539. senate[senit]
-n.²ÎÒéÔº£¬ÉÏÔº
+n.å‚è®®é™¢ï¼Œä¸Šé™¢
 3540. send[send]
-vt.ËÍ£¬¼Ä·¢£»ÅÉÇ²
+vt.é€ï¼Œå¯„å‘ï¼›æ´¾é£
 3541. senior['si:nj2]
-a.ÄêÉÙµÄ£»µØÎ»½Ï¸ßµÄ
+a.å¹´å°‘çš„ï¼›åœ°ä½è¾ƒé«˜çš„
 3542. sense[sens]
-n.¸Ğ¹Ù£»¸Ğ¾õ£»¼ûÊ¶
+n.æ„Ÿå®˜ï¼›æ„Ÿè§‰ï¼›è§è¯†
 3543. sensible['sens2bl]
-a.¸Ğ¾õµÃµ½µÄ£»Ã÷ÖÇµÄ
+a.æ„Ÿè§‰å¾—åˆ°çš„ï¼›æ˜æ™ºçš„
 3544. sensitive['sensitiv]
-a.Ãô¸ĞµÄ£»ÁéÃôµÄ
+a.æ•æ„Ÿçš„ï¼›çµæ•çš„
 3545. sentence['sent2ns]
-n.ÅĞ¾ö£»¾ä×Ó vt.ĞûÅĞ
+n.åˆ¤å†³ï¼›å¥å­ vt.å®£åˆ¤
 3546. separate['sep2reit. 'sep2rit]
-a.·ÖÀëµÄ£»¸ö±ğµÄ
+a.åˆ†ç¦»çš„ï¼›ä¸ªåˆ«çš„
 3547. separately['sep2ritli]
-ad.·ÖÀëµØ
+ad.åˆ†ç¦»åœ°
 3548. separation[sep2'rei62n]
-n.·ÖÀë£¬·Ö¿ª£»·Ö¾Ó
+n.åˆ†ç¦»ï¼Œåˆ†å¼€ï¼›åˆ†å±…
 3549. September[sep'temb2]
-n.¾ÅÔÂ
+n.ä¹æœˆ
 3550. sequence['si:kw2ns]
-n.Á¬Ğø£¬¼ÌĞø£»´ÎĞò
+n.è¿ç»­ï¼Œç»§ç»­ï¼›æ¬¡åº
 3551. series['si2ri:z]
-n.Á¬Ğø£¬ÏµÁĞ£»´ÔÊé
+n.è¿ç»­ï¼Œç³»åˆ—ï¼›ä¸›ä¹¦
 3552. serious['si2ri2s]
-a.ÑÏËàµÄ£»ÈÏÕæµÄ
+a.ä¸¥è‚ƒçš„ï¼›è®¤çœŸçš„
 3553. seriously['si2ri2sli]
-ad.ÑÏËàµØ£¬ÈÏÕæµØ
+ad.ä¸¥è‚ƒåœ°ï¼Œè®¤çœŸåœ°
 3554. servant['s2:v2nt]
-n.ÆÍÈË£¬Ó¶ÈË£¬¹Í¹¤
+n.ä»†äººï¼Œä½£äººï¼Œé›‡å·¥
 3555. serve[s2:v]
-vt.Îª¡­·şÎñ£»ÕĞ´ı
+vt.ä¸ºâ€¦æœåŠ¡ï¼›æ‹›å¾…
 3556. service['s2:vis]
-n.·şÎñ£»ĞĞÕş²¿ÃÅ
+n.æœåŠ¡ï¼›è¡Œæ”¿éƒ¨é—¨
 3557. session['se62n]
-n.»áÒé£¬Ò»¶ÎÊ±¼ä
+n.ä¼šè®®ï¼Œä¸€æ®µæ—¶é—´
 3558. set[set]
-vt.·Å£»°²ÖÃ vi.Âä
+vt.æ”¾ï¼›å®‰ç½® vi.è½
 3559. setting['seti8]
-n.°²×°£¬µ÷Õû£»»·¾³
+n.å®‰è£…ï¼Œè°ƒæ•´ï¼›ç¯å¢ƒ
 3560. settle['setl]
-vt.°²ÅÅ£»°²·Å£»µ÷Í£
+vt.å®‰æ’ï¼›å®‰æ”¾ï¼›è°ƒåœ
 3561. settlement['setlm2nt]
-n.½â¾ö£»Ö³Ãñ£¬Ö³ÃñµØ
+n.è§£å†³ï¼›æ®–æ°‘ï¼Œæ®–æ°‘åœ°
 3562. seven['seven]
-num.Æß£¬Æß¸ö(ÈË»òÎï)
+num.ä¸ƒï¼Œä¸ƒä¸ª(äººæˆ–ç‰©)
 3563. seventeen['sev2n'ti:n]
-num.Ê®Æß£¬Ê®Æß¸ö
+num.åä¸ƒï¼Œåä¸ƒä¸ª
 3564. seventh['sev2n4]
-num.µÚÆß£»Æß·ÖÖ®Ò»
+num.ç¬¬ä¸ƒï¼›ä¸ƒåˆ†ä¹‹ä¸€
 3565. seventy[sevnti]
-num.ÆßÊ®£¬ÆßÊ®¸ö
+num.ä¸ƒåï¼Œä¸ƒåä¸ª
 3566. several['sevr2l]
-a.¼¸¸ö£¬Êı¸ö
+a.å‡ ä¸ªï¼Œæ•°ä¸ª
 3567. severe[si'vi2]
-a.ÑÏ¸ñµÄ£»ÑÏÀ÷µÄ
+a.ä¸¥æ ¼çš„ï¼›ä¸¥å‰çš„
 3568. severely[si'vi2li]
-ad.ÑÏÀ÷µØ£¬ÑÏ¸ñµØ
+ad.ä¸¥å‰åœ°ï¼Œä¸¥æ ¼åœ°
 3569. sew[s2u]
-vt.·ìÖÆ vi.·ìÈÒ
+vt.ç¼åˆ¶ vi.ç¼çº«
 3570. sex[seks]
-n.ĞÔ±ğ£¬ĞÔ
+n.æ€§åˆ«ï¼Œæ€§
 3571. shade[6eid]
-n.Òñ£»ÕÚ¹âÎï vi.Òñ±Î
+n.è«ï¼›é®å…‰ç‰© vi.è«è”½
 3572. shadow['69d2u]
-n.ÒõÓ°£¬Òõ£¬Ó°×Ó
+n.é˜´å½±ï¼Œé˜´ï¼Œå½±å­
 3573. shady['6eidi]
-a.³ÉÒñµÄ£¬ÒõÁ¹µÄ
+a.æˆè«çš„ï¼Œé˜´å‡‰çš„
 3574. shake[6eik]
-vt.Ò¡£¬Ê¹Õğ¶¯ n.Ò¡¶¯
+vt.æ‘‡ï¼Œä½¿éœ‡åŠ¨ n.æ‘‡åŠ¨
 3575. shall[69l. 62l]
-aux.v.½«Òª£»±ØĞë£»Ó¦
+aux.v.å°†è¦ï¼›å¿…é¡»ï¼›åº”
 3576. shallow['69l2u]
-a.Ç³µÄ£»Ç³±¡µÄ
+a.æµ…çš„ï¼›æµ…è–„çš„
 3577. shame[6eim]
-n.Ğß³Ü£¬ĞßÀ¢£»ĞßÈè
+n.ç¾è€»ï¼Œç¾æ„§ï¼›ç¾è¾±
 3578. shampoo[69m'pu:]
-vt.ÓÃÏ´·¢¼ÁÏ´ n.Ï´Í·
+vt.ç”¨æ´—å‘å‰‚æ´— n.æ´—å¤´
 3579. shape[6eip]
-n.ĞÎ×´£»Çé¿ö vt.ĞÎ³É
+n.å½¢çŠ¶ï¼›æƒ…å†µ vt.å½¢æˆ
 3580. share[6/2]
-n.·İ£»·İ¶î£»¹É·İ
+n.ä»½ï¼›ä»½é¢ï¼›è‚¡ä»½
 3581. sharp[6a:p]
-a.·æÀûµÄ£»ÃôÈñµÄ
+a.é”‹åˆ©çš„ï¼›æ•é”çš„
 3582. sharpen['6a:p2n]
-vt.Ï÷¼â£¬Ê¹ÃôÈñ
+vt.å‰Šå°–ï¼Œä½¿æ•é”
 3583. sharply['6a:pli]
-ad.ÈñÀûµØ£¬ÃôÈñµØ
+ad.é”åˆ©åœ°ï¼Œæ•é”åœ°
 3584. shave[6eiv]
-vt.Ìê£¬¹Î vi.ĞŞÃæ
+vt.å‰ƒï¼Œåˆ® vi.ä¿®é¢
 3585. she[6i:. 6i]
-pron.(Ö÷¸ñ)Ëı
+pron.(ä¸»æ ¼)å¥¹
 3586. shear[6i2]
-vt.¼ô£»°ş¶á vi.¼ô
+vt.å‰ªï¼›å‰¥å¤º vi.å‰ª
 3587. shed[6ed]
-vt.Á÷³ö£»É¢·¢£»ÍÑÂä
+vt.æµå‡ºï¼›æ•£å‘ï¼›è„±è½
 3588. shed[6ed]
-n.Åï£¬Ğ¡Îİ£»´ûÅï
+n.æ£šï¼Œå°å±‹ï¼›è´·æ£š
 3589. sheep[6i:p]
-n.Ñò£¬ÃàÑò
+n.ç¾Šï¼Œç»µç¾Š
 3590. sheet[6i:t]
-n.±»µ¥£»Ö½ÕÅ£»±¡°å
+n.è¢«å•ï¼›çº¸å¼ ï¼›è–„æ¿
 3591. shelf[6elf]
-n.¸é°å£¬¼Ü×Ó
+n.ææ¿ï¼Œæ¶å­
 3592. shell[6el]
-n.¿Ç£»±´¿Ç£»ÅÚµ¯
+n.å£³ï¼›è´å£³ï¼›ç‚®å¼¹
 3593. shelter['6elt2]
-n.Òş±Î´¦£»ÑÚ±Î£¬±Ó»¤
+n.éšè”½å¤„ï¼›æ©è”½ï¼Œåº‡æŠ¤
 3594. shepherd['6ep2d]
-n.ÄÁÑòÈË£¬ÑòÙÄ
+n.ç‰§ç¾Šäººï¼Œç¾Šå€Œ
 3595. shield[6i:ld]
-n.¶Ü£»·À»¤Îï vt.±£»¤
+n.ç›¾ï¼›é˜²æŠ¤ç‰© vt.ä¿æŠ¤
 3596. shift[6ift]
-vt.Ìæ»»£¬×ªÒÆ n.×ª»»
+vt.æ›¿æ¢ï¼Œè½¬ç§» n.è½¬æ¢
 3597. shilling['6ili8]
-n.ÏÈÁî
+n.å…ˆä»¤
 3598. shine[6ain]
-vi.ÕÕÒ«£¬·¢¹â n.¹â
+vi.ç…§è€€ï¼Œå‘å…‰ n.å…‰
 3599. ship[6ip]
-n.(´ó)´¬£¬º£´¬£¬½¢
+n.(å¤§)èˆ¹ï¼Œæµ·èˆ¹ï¼Œèˆ°
 3600. shirt[62:t]
-n.(ÄĞÊ½)³ÄÉÀ
+n.(ç”·å¼)è¡¬è¡«
 3601. shiver['6iv2]
-vi.²ü¶¶£¬¶ßàÂ n.Àä²ü
+vi.é¢¤æŠ–ï¼Œå“†å—¦ n.å†·é¢¤
 3602. shock[60k]
-n.³å»÷£»Õğ¾ª vi.Õğ¶¯
+n.å†²å‡»ï¼›éœ‡æƒŠ vi.éœ‡åŠ¨
 3603. shoe[6u:]
-n.Ğ¬
+n.é‹
 3604. shoot[6u:t]
-vt.·¢Éä£»ÉäÖĞ n.·¢Ñ¿
+vt.å‘å°„ï¼›å°„ä¸­ n.å‘èŠ½
 3605. shop[60p]
-n.ÉÌµê£¬µêÆÌ£»³µ¼ä
+n.å•†åº—ï¼Œåº—é“ºï¼›è½¦é—´
 3606. shopkeeper['60pki:p2]
-n.µêÖ÷
+n.åº—ä¸»
 3607. shopping['60pi8]
-n.Âò¶«Î÷£¬¹ºÎï
+n.ä¹°ä¸œè¥¿ï¼Œè´­ç‰©
 3608. shore[60:]
-n.±õ£¬°¶
+n.æ»¨ï¼Œå²¸
 3609. short[60:t]
-a.¶ÌµÄ£»¶ÌÆÚµÄ
+a.çŸ­çš„ï¼›çŸ­æœŸçš„
 3610. shortage['60:tid7]
-n.²»×ã£¬È±ÉÙ£¬²»×ã¶î
+n.ä¸è¶³ï¼Œç¼ºå°‘ï¼Œä¸è¶³é¢
 3611. shortcoming[60:tk3mi8]
-n.¶Ì´¦£¬È±µã
+n.çŸ­å¤„ï¼Œç¼ºç‚¹
 3612. shortly['60:tli]
-ad.Á¢¿Ì£»¼ò¶ÌµØ
+ad.ç«‹åˆ»ï¼›ç®€çŸ­åœ°
 3613. shot[60t]
-n.·¢Éä£»µ¯Íè£»ÉäÃÅ
+n.å‘å°„ï¼›å¼¹ä¸¸ï¼›å°„é—¨
 3614. should[6ud. 62d]
-aux.v.½«£»ÍòÒ»£»¾Í
+aux.v.å°†ï¼›ä¸‡ä¸€ï¼›å°±
 3615. shoulder['62uld2]
-n.¼ç£¬¼ç°ò£»ÌôÆğ
+n.è‚©ï¼Œè‚©è†€ï¼›æŒ‘èµ·
 3616. shout[6aut]
-n.&vi.ºôº°£¬º°½Ğ
+n.&vi.å‘¼å–Šï¼Œå–Šå«
 3617. show[62u]
-vt.¸ø¡­¿´£»±íÃ÷
+vt.ç»™â€¦çœ‹ï¼›è¡¨æ˜
 3618. shower['62u2. '6au2]
-n.ÕóÓê£»(Ò»)Õó£»ÁÜÔ¡
+n.é˜µé›¨ï¼›(ä¸€)é˜µï¼›æ·‹æµ´
 3619. shriek[6ri:k]
-vi.¼âÉùº°½Ğ n.¼â½ĞÉù
+vi.å°–å£°å–Šå« n.å°–å«å£°
 3620. shrink[6rink]
-vi.ÊÕËõ£»ËõĞ¡£»ÍËËõ
+vi.æ”¶ç¼©ï¼›ç¼©å°ï¼›é€€ç¼©
 3621. shut[63t]
-vt.¹ØÉÏ£¬±ÕÉÏ£¬¹Ø±Õ
+vt.å…³ä¸Šï¼Œé—­ä¸Šï¼Œå…³é—­
 3622. shy[6ai]
-a.Ò×ÊÜ¾ªµÄ£»º¦ĞßµÄ
+a.æ˜“å—æƒŠçš„ï¼›å®³ç¾çš„
 3623. sick[sik]
-a.ÓĞ²¡µÄ£»¶ñĞÄµÄ
+a.æœ‰ç—…çš„ï¼›æ¶å¿ƒçš„
 3624. sickness['siknis]
-n.¼²²¡
+n.ç–¾ç—…
 3625. side[said]
-n.±ß£¬ÅÔ±ß£»Ò»·½
+n.è¾¹ï¼Œæ—è¾¹ï¼›ä¸€æ–¹
 3626. sideways['saidweiz]
-ad.Ğ±×Å£¬Ğ±ÏòÒ»±ßµØ
+ad.æ–œç€ï¼Œæ–œå‘ä¸€è¾¹åœ°
 3627. sigh[sai]
-n.&vi.Ì¾Æø£¬Ì¾Ï¢
+n.&vi.å¹æ°”ï¼Œå¹æ¯
 3628. sight[sait]
-n.ÊÓÁ¦£»¼û£»Çé¾°
+n.è§†åŠ›ï¼›è§ï¼›æƒ…æ™¯
 3629. sightseeing['saitsi:i8]
-n.¹Û¹â£¬ÓÎÀÀ
+n.è§‚å…‰ï¼Œæ¸¸è§ˆ
 3630. sign[sain]
-n.·ûºÅ£»ÕĞÅÆ n.Ç©Ãû
+n.ç¬¦å·ï¼›æ‹›ç‰Œ n.ç­¾å
 3631. signal['sign2l]
-n.ĞÅºÅ vi.·¢ĞÅºÅ
+n.ä¿¡å· vi.å‘ä¿¡å·
 3632. signature['signit62]
-n.ÊğÃû£¬Ç©×Ö£¬Ç©Ãû
+n.ç½²åï¼Œç­¾å­—ï¼Œç­¾å
 3633. significance[sig'nifik2ns]
-n.ÒâÒå£¬ÒâÎ¶£»ÖØÒªĞÔ
+n.æ„ä¹‰ï¼Œæ„å‘³ï¼›é‡è¦æ€§
 3634. significant[sig'nifik2nt]
-n.ÓĞÒâÒåµÄ£»ÖØÒªµÄ
+n.æœ‰æ„ä¹‰çš„ï¼›é‡è¦çš„
 3635. silence['sail2ns]
-n.³ÁÄ¬ vt.Ê¹³ÁÄ¬
+n.æ²‰é»˜ vt.ä½¿æ²‰é»˜
 3636. silent['sail2nt]
-a.³ÁÄ¬µÄ£»¼Å¾²ÎŞÉùµÄ
+a.æ²‰é»˜çš„ï¼›å¯‚é™æ— å£°çš„
 3637. silk[silk]
-n.²ÏË¿£¬Ë¿£¬Ë¿Ö¯Æ·
+n.èš•ä¸ï¼Œä¸ï¼Œä¸ç»‡å“
 3638. silly['sili]
-a.ÉµµÄ£¬ÓŞ´ÀµÄ
+a.å‚»çš„ï¼Œæ„šè ¢çš„
 3639. silver['silv2]
-n.Òø£»Òø×Ó£»ÒøÆ÷
+n.é“¶ï¼›é“¶å­ï¼›é“¶å™¨
 3640. similar['simil2]
-a.ÏàËÆµÄ£¬ÀàËÆµÄ
+a.ç›¸ä¼¼çš„ï¼Œç±»ä¼¼çš„
 3641. similarly['simil2li]
-ad.ÀàËÆµØ£¬ÏàËÆµØ
+ad.ç±»ä¼¼åœ°ï¼Œç›¸ä¼¼åœ°
 3642. simple['simpl]
-a.¼òµ¥µÄ£»ÆÓËØµÄ
+a.ç®€å•çš„ï¼›æœ´ç´ çš„
 3643. simplicity[sim'plisiti]
-n.¼òµ¥£¬¼òÒ×£»ÆÓËØ
+n.ç®€å•ï¼Œç®€æ˜“ï¼›æœ´ç´ 
 3644. simplify['simplifai]
-vt.¼ò»¯£¬Ê¹µ¥´¿
+vt.ç®€åŒ–ï¼Œä½¿å•çº¯
 3645. simply['simpli]
-ad.¼òµ¥µØ£»ÆÓËØµØ
+ad.ç®€å•åœ°ï¼›æœ´ç´ åœ°
 3646. sin[sin]
-n.×ï£¬×ïÄõ vi.·¸×ï
+n.ç½ªï¼Œç½ªå­½ vi.çŠ¯ç½ª
 3647. since[sins]
-conj.´Ó¡­ÒÔÀ´£»ÒòÎª
+conj.ä»â€¦ä»¥æ¥ï¼›å› ä¸º
 3648. sincere[sin'si2]
-a.Õæ³ÏµÄ£»ÕæÖ¿µÄ
+a.çœŸè¯šçš„ï¼›çœŸæŒšçš„
 3649. sing[si8]
-vi.&vt.³ª£¬Ñİ³ª
+vi.&vt.å”±ï¼Œæ¼”å”±
 3650. singer['si82]
-n.¸è³ª¼Ò£¬¸èÊÖ
+n.æ­Œå”±å®¶ï¼Œæ­Œæ‰‹
 3651. single['si8gl]
-a.µ¥Ò»µÄ£»¶ÀÉíµÄ
+a.å•ä¸€çš„ï¼›ç‹¬èº«çš„
 3652. singular['si8gjul2]
-a.µ¥Ò»µÄ£»·Ç·²µÄ
+a.å•ä¸€çš„ï¼›éå‡¡çš„
 3653. sink[si8k]
-vi.ÏÂ³Á£»ÏÂ´¹£»½µµÍ
+vi.ä¸‹æ²‰ï¼›ä¸‹å‚ï¼›é™ä½
 3654. sir[s2:]
-n.ÏÈÉú£¬¸óÏÂ£»¡­¾ôÊ¿
+n.å…ˆç”Ÿï¼Œé˜ä¸‹ï¼›â€¦çˆµå£«
 3655. sister[sist2]
-n.½ãÃÃ£¬½ã£¬ÃÃ
+n.å§å¦¹ï¼Œå§ï¼Œå¦¹
 3656. sit[sit]
-vi.×ø£¬¾Í×ø vt.Ê¹×ø
+vi.åï¼Œå°±å vt.ä½¿å
 3657. site[sait]
-n.µØµã£¬µØ»ù£»³¡Ëù
+n.åœ°ç‚¹ï¼Œåœ°åŸºï¼›åœºæ‰€
 3658. situation[sitju'ei62n]
-n.Î»ÖÃ£»´¦¾³£»ĞÎÊÆ
+n.ä½ç½®ï¼›å¤„å¢ƒï¼›å½¢åŠ¿
 3659. six[siks]
-num.Áù£¬Áù¸ö
+num.å…­ï¼Œå…­ä¸ª
 3660. sixteen['siks'ti:n]
-num.Ê®Áù£¬Ê®Áù¸ö
+num.åå…­ï¼Œåå…­ä¸ª
 3661. sixth[siks4]
-num.µÚÁù£»Áù·ÖÖ®Ò»
+num.ç¬¬å…­ï¼›å…­åˆ†ä¹‹ä¸€
 3662. sixty['siksti]
-num.ÁùÊ®£¬ÁùÊ®¸ö
+num.å…­åï¼Œå…­åä¸ª
 3663. size[saiz]
-n.´óĞ¡£»Ìå»ı£»³ßÂë
+n.å¤§å°ï¼›ä½“ç§¯ï¼›å°ºç 
 3664. skate[skeit]
-n.±ùĞ¬£»»¬±ù vi.»¬±ù
+n.å†°é‹ï¼›æ»‘å†° vi.æ»‘å†°
 3665. sketch[sket6]
-n.ÂÔÍ¼£»ËÙĞ´£»¸ÅÂÔ
+n.ç•¥å›¾ï¼›é€Ÿå†™ï¼›æ¦‚ç•¥
 3666. ski[ski:]
-n.»¬ÇÁ vi.»¬Ñ©
+n.æ»‘æ©‡ vi.æ»‘é›ª
 3667. skill[skil]
-n.¼¼ÄÜ£¬¼¼ÇÉ£»ÊìÁ·
+n.æŠ€èƒ½ï¼ŒæŠ€å·§ï¼›ç†Ÿç»ƒ
 3668. skilled[skild]
-a.ÓĞ¼¼ÄÜµÄ£¬ÊìÁ·µÄ
+a.æœ‰æŠ€èƒ½çš„ï¼Œç†Ÿç»ƒçš„
 3669. skillful['skilful]
-a.ÁéÇÉµÄ£¬æµÊìµÄ
+a.çµå·§çš„ï¼Œå¨´ç†Ÿçš„
 3670. skim[skim]
-vt.ÂÓ¹ı£¬²Á¹ı£»ÂÔ¶Á
+vt.æ è¿‡ï¼Œæ“¦è¿‡ï¼›ç•¥è¯»
 3671. skin[skin]
-n.Æ¤£»ÊŞÆ¤£»ÍâÆ¤
+n.çš®ï¼›å…½çš®ï¼›å¤–çš®
 3672. skirt[sk2:t]
-n.Å®È¹£»±ßÔµ£»½¼Çø
+n.å¥³è£™ï¼›è¾¹ç¼˜ï¼›éƒŠåŒº
 3673. sky[skai]
-n.Ìì£¬Ìì¿Õ
+n.å¤©ï¼Œå¤©ç©º
 3674. slam[sl9m]
-vt.Ê¹¾¢¹Ø£¬ÅéµØ·ÅÏÂ
+vt.ä½¿åŠ²å…³ï¼Œç °åœ°æ”¾ä¸‹
 3675. slave[sleiv]
-n.Å«Á¥£»¿à¹¤
+n.å¥´éš¶ï¼›è‹¦å·¥
 3676. slavery['sleiv2ri]
-n.Å«Á¥ÖÆ¶È£»¿àÒÛ
+n.å¥´éš¶åˆ¶åº¦ï¼›è‹¦å½¹
 3677. sleep[sli:p]
-n.Ë¯Ãß vi.Ë¯ vt.Ë¯
+n.ç¡çœ  vi.ç¡ vt.ç¡
 3678. sleepy['sli:pi]
-a.ÏëË¯µÄ£»¼Å¾²µÄ
+a.æƒ³ç¡çš„ï¼›å¯‚é™çš„
 3679. sleeve[sli:v]
-n.Ğä×Ó£¬ĞäÌ×
+n.è¢–å­ï¼Œè¢–å¥—
 3680. slender['slend2]
-a.Ï¸³¤µÄ£»Î¢±¡µÄ
+a.ç»†é•¿çš„ï¼›å¾®è–„çš„
 3681. slice[slais]
-n.±¡Æ¬£¬ÇĞÆ¬£»²¿·Ö
+n.è–„ç‰‡ï¼Œåˆ‡ç‰‡ï¼›éƒ¨åˆ†
 3682. slide[slaid]
-vi.»¬ vt.Ê¹»¬¶¯ n.»¬
+vi.æ»‘ vt.ä½¿æ»‘åŠ¨ n.æ»‘
 3683. slight[slait]
-a.Ï¸³¤µÄ£»ÇáÎ¢µÄ
+a.ç»†é•¿çš„ï¼›è½»å¾®çš„
 3684. slightly['slaitli]
-ad.ÉÔÎ¢£¬ÓĞµã
+ad.ç¨å¾®ï¼Œæœ‰ç‚¹
 3685. slip[slip]
-vi.»¬õÓ£»»¬Âä£»Áï
+vi.æ»‘è·¤ï¼›æ»‘è½ï¼›æºœ
 3686. slipper['slip2]
-n.ÍÏĞ¬£¬±ãĞ¬
+n.æ‹–é‹ï¼Œä¾¿é‹
 3687. slippery['slip2ri]
-a.»¬µÄ£¬Ê¹ÈË»¬õÓµÄ
+a.æ»‘çš„ï¼Œä½¿äººæ»‘è·¤çš„
 3688. slit[slit]
-n.ÁÑ·ì vt.ÇĞ¿ª£¬Ëº¿ª
+n.è£‚ç¼ vt.åˆ‡å¼€ï¼Œæ’•å¼€
 3689. slogan['sl2ug2n]
-n.±êÓï£¬¿ÚºÅ
+n.æ ‡è¯­ï¼Œå£å·
 3690. slope[sl2up]
-n.ÇãĞ±£»Ğ±Ãæ vi.ÇãĞ±
+n.å€¾æ–œï¼›æ–œé¢ vi.å€¾æ–œ
 3691. slow[sl2u]
-a.ÂıµÄ£»³Ù¶ÛµÄ
+a.æ…¢çš„ï¼›è¿Ÿé’çš„
 3692. slowly['sl2uli]
-ad.ÂıÂıµØ
+ad.æ…¢æ…¢åœ°
 3693. slum[sl3m]
-n.Æ¶Ãñ¿ß£¬Æ¶ÃñÇø
+n.è´«æ°‘çªŸï¼Œè´«æ°‘åŒº
 3694. sly[slai]
-a.½Æ»«µÄ£»¶ã¶ãÉÁÉÁµÄ
+a.ç‹¡çŒ¾çš„ï¼›èº²èº²é—ªé—ªçš„
 3695. small[sm0:l]
-a.Ğ¡µÄ£¬ÉÙµÄ£»Ğ¡ĞÍµÄ
+a.å°çš„ï¼Œå°‘çš„ï¼›å°å‹çš„
 3696. smart[sma:t]
-a.ÇÉÃîµÄ£»È÷ÍÑµÄ
+a.å·§å¦™çš„ï¼›æ´’è„±çš„
 3697. smell[smel]
-n.Ğá¾õ£»ÆøÎ¶ vt.Ğá
+n.å—…è§‰ï¼›æ°”å‘³ vt.å—…
 3698. smile[smail]
-vi.Î¢Ğ¦ n.Î¢Ğ¦£¬Ğ¦Èİ
+vi.å¾®ç¬‘ n.å¾®ç¬‘ï¼Œç¬‘å®¹
 3699. smog[sm0g]
-n.ÑÌÎí
+n.çƒŸé›¾
 3700. smoke[sm2uk]
-n.ÑÌ£»³éÑÌ vi.Ã°ÑÌ
+n.çƒŸï¼›æŠ½çƒŸ vi.å†’çƒŸ
 3701. smooth[smu:5]
-a.Æ½»¬µÄ£»Æ½¾²µÄ
+a.å¹³æ»‘çš„ï¼›å¹³é™çš„
 3702. smoothly['smu:5li]
-ad.¹â»¬µØ£»Æ½ÎÈµØ
+ad.å…‰æ»‘åœ°ï¼›å¹³ç¨³åœ°
 3703. snake[sneik]
-n.Éß
+n.è›‡
 3704. snow[sn2u]
-n.Ñ© vi.ÏÂÑ©
+n.é›ª vi.ä¸‹é›ª
 3705. snowstorm['sn2ust0:m]
-n.Ñ©±©£¬±©·çÑ©
+n.é›ªæš´ï¼Œæš´é£é›ª
 3706. snowy['sn2ui]
-a.Ñ©µÄ£¬ÏÂÑ©µÄ
+a.é›ªçš„ï¼Œä¸‹é›ªçš„
 3707. so[s2u]
-ad.ÕâÑù£»ÕâÃ´£»·Ç³£
+ad.è¿™æ ·ï¼›è¿™ä¹ˆï¼›éå¸¸
 3708. soak[s2uk]
-vt.½ş£¬Åİ vi.½şÅİ
+vt.æµ¸ï¼Œæ³¡ vi.æµ¸æ³¡
 3709. soap[s2up]
-n.·ÊÔí
+n.è‚¥çš‚
 3710. sob[s0b]
-vi.&n.à¨Æü£¬ÎØÑÊ
+vi.&n.å•œæ³£ï¼Œå‘œå’½
 3711. sober['s2ub2]
-a.ÇåĞÑµÄ£»ÊÊ¶ÈµÄ
+a.æ¸…é†’çš„ï¼›é€‚åº¦çš„
 3712. so-called['s2u'k0:ld]
-a.ËùÎ½µÄ£¬ºÅ³ÆµÄ
+a.æ‰€è°“çš„ï¼Œå·ç§°çš„
 3713. soccer['s0k2]
-n.Ó¢Ê½×ãÇò
+n.è‹±å¼è¶³çƒ
 3714. social['s2u62l]
-a.Éç»áµÄ£»Éç½»µÄ
+a.ç¤¾ä¼šçš„ï¼›ç¤¾äº¤çš„
 3715. socialism['s2u62liz2m]
-n.Éç»áÖ÷Òå
+n.ç¤¾ä¼šä¸»ä¹‰
 3716. socialist['s2u62list]
-a.Éç»áÖ÷ÒåµÄ
+a.ç¤¾ä¼šä¸»ä¹‰çš„
 3717. society[s2'sai2ti]
-n.Éç»á£»ÍÅÌå£»Éç½»½ç
+n.ç¤¾ä¼šï¼›å›¢ä½“ï¼›ç¤¾äº¤ç•Œ
 3718. sock[s0k]
-n.¶ÌÍà
+n.çŸ­è¢œ
 3719. soda['s2ud2]
-n.Ì¼ËáÄÆ£¬´¿¼î£»ÆûË®
+n.ç¢³é…¸é’ ï¼Œçº¯ç¢±ï¼›æ±½æ°´
 3720. soft[s0ft]
-a.ÈíµÄ£»ÈáºÍµÄ
+a.è½¯çš„ï¼›æŸ”å’Œçš„
 3721. softly['s0ftli]
-ad.ÈáÈíµØ£»ÎÂÈáµØ
+ad.æŸ”è½¯åœ°ï¼›æ¸©æŸ”åœ°
 3722. soil[s0il]
-n.ÄàÍÁ£¬ÍÁÈÀ£¬ÍÁµØ
+n.æ³¥åœŸï¼ŒåœŸå£¤ï¼ŒåœŸåœ°
 3723. soil[s0il]
-vt.ÅªÔà vi.±äÔà
+vt.å¼„è„ vi.å˜è„
 3724. solar['s2ul2]
-a.Ì«ÑôµÄ£¬ÈÕ¹âµÄ
+a.å¤ªé˜³çš„ï¼Œæ—¥å…‰çš„
 3725. soldier['s2uld72]
-n.(Â½¾ü)Ê¿±ø£¬¾üÈË
+n.(é™†å†›)å£«å…µï¼Œå†›äºº
 3726. sole[s2ul]
-n.½Åµ×£¬Ğ¬µ×£¬Íàµ×
+n.è„šåº•ï¼Œé‹åº•ï¼Œè¢œåº•
 3727. sole[s2ul]
-a.µ¥¶ÀµÄ£¬Î¨Ò»µÄ
+a.å•ç‹¬çš„ï¼Œå”¯ä¸€çš„
 3728. solely['s2uli]
-ad.µ¥¶ÀµØ£¬Î¨Ò»µØ
+ad.å•ç‹¬åœ°ï¼Œå”¯ä¸€åœ°
 3729. solemn['s0l2m]
-a.×¯ÑÏµÄ£»Â¡ÖØµÄ
+a.åº„ä¸¥çš„ï¼›éš†é‡çš„
 3730. solid['s0lid]
-a.¹ÌÌåµÄ n.¹ÌÌå
+a.å›ºä½“çš„ n.å›ºä½“
 3731. soluble['s0ljubl]
-a.¿ÉÈÜµÄ£»¿ÉÒÔ½â¾öµÄ
+a.å¯æº¶çš„ï¼›å¯ä»¥è§£å†³çš„
 3732. solution[s2'lju:62n]
-n.½â¾ö£¬½â´ğ£»ÈÜ½â
+n.è§£å†³ï¼Œè§£ç­”ï¼›æº¶è§£
 3733. solve['s0lv]
-vt.½â´ğ£¬½âÊÍ£¬½â¾ö
+vt.è§£ç­”ï¼Œè§£é‡Šï¼Œè§£å†³
 3734. some[s3m]
-a.&pron.Ò»Ğ©£¬Èô¸É
+a.&pron.ä¸€äº›ï¼Œè‹¥å¹²
 3735. somebody['s3mb2di]
-pron.Ä³ÈË£¬ÓĞÈË
+pron.æŸäººï¼Œæœ‰äºº
 3736. somehow['s3mhau]
-ad.ÓÉÓÚÄ³ÖÖÔ­Òò
+ad.ç”±äºæŸç§åŸå› 
 3737. someone['s3mw3n]
-pron.Ä³ÈË£¬ÓĞÈË
+pron.æŸäººï¼Œæœ‰äºº
 3738. something['s3m4i8]
-pron.Ä³ÊÂ£¬Ä³Îï
+pron.æŸäº‹ï¼ŒæŸç‰©
 3739. sometime['s3mtaim]
-ad.ÔÚÄ³Ò»Ê±ºò£»´ÓÇ°
+ad.åœ¨æŸä¸€æ—¶å€™ï¼›ä»å‰
 3740. sometimes['s3mtaimz]
-ad.²»Ê±£¬ÓĞÊ±
+ad.ä¸æ—¶ï¼Œæœ‰æ—¶
 3741. somewhat['s3mw0t]
-pron.Ò»µã¶ù ad.ÓĞµã
+pron.ä¸€ç‚¹å„¿ ad.æœ‰ç‚¹
 3742. somewhere['s3mw/2]
-ad.ÔÚÄ³´¦ n.Ä³µØ
+ad.åœ¨æŸå¤„ n.æŸåœ°
 3743. son[s3n]
-n.¶ù×Ó
+n.å„¿å­
 3744. song[s08]
-n.¸è³ª£»¸èÇú£¬¸è´Ê
+n.æ­Œå”±ï¼›æ­Œæ›²ï¼Œæ­Œè¯
 3745. soon[su:n]
-ad.²»¾Ã£»Ôç£¬¿ì
+ad.ä¸ä¹…ï¼›æ—©ï¼Œå¿«
 3746. sophisticated[s2'fistikeitid]
-a.ÀÏÓÚÊÀ¹ÊµÄ£»¸ß¼¶µÄ
+a.è€äºä¸–æ•…çš„ï¼›é«˜çº§çš„
 3747. sore[s0:]
-a.Í´µÄ£»ÄÕ»ğµÄ n.´¯
+a.ç—›çš„ï¼›æ¼ç«çš„ n.ç–®
 3748. sorrow['s0r2u]
-n.±¯Í´£¬±¯°§£¬±¯ÉË
+n.æ‚²ç—›ï¼Œæ‚²å“€ï¼Œæ‚²ä¼¤
 3749. sorry['s0ri]
-a.ÄÑ¹ıµÄ£»¶Ô²»ÆğµÄ
+a.éš¾è¿‡çš„ï¼›å¯¹ä¸èµ·çš„
 3750. sort[s0:t]
-n.ÖÖÀà£»Àà±ğ vt.ÕûÀí
+n.ç§ç±»ï¼›ç±»åˆ« vt.æ•´ç†
 3751. soul[s2ul]
-n.Áé»ê£»¾«Éñ£»ÈË
+n.çµé­‚ï¼›ç²¾ç¥ï¼›äºº
 3752. sound[saund]
-a.½¡¿µµÄ£»ÍêºÃµÄ
+a.å¥åº·çš„ï¼›å®Œå¥½çš„
 3753. sound[saund]
-n.ÉùÒô vi.Ïì£¬·¢Éù
+n.å£°éŸ³ vi.å“ï¼Œå‘å£°
 3754. soup[su:p]
-n.ÌÀ
+n.æ±¤
 3755. sour['sau2]
-a.ËáµÄ£»Æ¢Æø»µµÄ
+a.é…¸çš„ï¼›è„¾æ°”åçš„
 3756. source[s0:s]
-n.ºÓµÄÔ´Í·£»¸ùÔ´
+n.æ²³çš„æºå¤´ï¼›æ ¹æº
 3757. south[sau4]
-n.ÄÏ£¬ÄÏ·½ a.ÄÏ·½µÄ
+n.å—ï¼Œå—æ–¹ a.å—æ–¹çš„
 3758. southeast['sau4'i:st]
-n.¶«ÄÏ a.Î»ÓÚ¶«ÄÏµÄ
+n.ä¸œå— a.ä½äºä¸œå—çš„
 3759. southern['s352n]
-a.ÄÏ·½µÄ£¬ÄÏ²¿µÄ
+a.å—æ–¹çš„ï¼Œå—éƒ¨çš„
 3760. southwest['sau4'west]
-n.Î÷ÄÏ a.Î÷ÄÏµÄ
+n.è¥¿å— a.è¥¿å—çš„
 3761. Soviet['s2uviet]
-n.ËÕÎ¬°£ a.ËÕÎ¬°£µÄ
+n.è‹ç»´åŸƒ a.è‹ç»´åŸƒçš„
 3762. sow[s2u]
-vt.²¥(ÖÖ) vi.²¥ÖÖ
+vt.æ’­(ç§) vi.æ’­ç§
 3763. space[speis]
-n.¿Õ¼ä£»³¡µØ£»¿Õ°×
+n.ç©ºé—´ï¼›åœºåœ°ï¼›ç©ºç™½
 3764. spacecraft['speiskra:ft]
-n.º½ÌìÆ÷£¬ÓîÖæ·É´¬
+n.èˆªå¤©å™¨ï¼Œå®‡å®™é£èˆ¹
 3765. spaceship['speis6ip]
-n.º½Ìì·É´¬
+n.èˆªå¤©é£èˆ¹
 3766. spade[speid]
-n.²ù£¬ÌúÇÂ
+n.é“²ï¼Œé“é”¹
 3767. span[sp9n]
-n.¿ç¾à£»Ò»¶ÎÊ±¼ä
+n.è·¨è·ï¼›ä¸€æ®µæ—¶é—´
 3768. Spanish['sp9ni6]
-a.Î÷°àÑÀµÄn.Î÷°àÑÀÈË
+a.è¥¿ç­ç‰™çš„n.è¥¿ç­ç‰™äºº
 3769. spare[sp/2]
-vt.½ÚÔ¼ a.¶àÓàµÄ
+vt.èŠ‚çº¦ a.å¤šä½™çš„
 3770. spark[spa:k]
-n.»ğ»¨£¬»ğĞÇ
+n.ç«èŠ±ï¼Œç«æ˜Ÿ
 3771. sparkle['spa:kl]
-vi.·¢»ğ»¨ vt.Ê¹ÉÁÒ«
+vi.å‘ç«èŠ± vt.ä½¿é—ªè€€
 3772. sparrow['sp9r2u]
-n.ÂéÈ¸
+n.éº»é›€
 3773. speak[spi:k]
-vi.Ëµ»°£»·¢ÑÔ vt.Ëµ
+vi.è¯´è¯ï¼›å‘è¨€ vt.è¯´
 3774. speaker['spi:k2]
-n.Ëµ»°Õß£»ÑïÉùÆ÷
+n.è¯´è¯è€…ï¼›æ‰¬å£°å™¨
 3775. spear[spi2]
-n.Ã¬£¬Ç¹
+n.çŸ›ï¼Œæª
 3776. special['spe62l]
-a.ÌØÊâµÄ£»×¨ÃÅµÄ
+a.ç‰¹æ®Šçš„ï¼›ä¸“é—¨çš„
 3777. specialist[spe62list]
-n.×¨¼Ò
+n.ä¸“å®¶
 3778. speciality[spe6i'9liti]
-n.×¨Òµ£¬ÌØ³¤£»ÌØ²ú
+n.ä¸“ä¸šï¼Œç‰¹é•¿ï¼›ç‰¹äº§
 3779. specialize['spe62laiz]
-vi.³ÉÎª¡­×¨¼Ò£»×¨¹¥
+vi.æˆä¸ºâ€¦ä¸“å®¶ï¼›ä¸“æ”»
 3780. specially['spe62li]
-ad.×¨ÃÅµØ£¬ÌØ±ğµØ
+ad.ä¸“é—¨åœ°ï¼Œç‰¹åˆ«åœ°
 3781. specific[spi'sifik]
-a.ÌØÓĞµÄ£»¾ßÌåµÄ
+a.ç‰¹æœ‰çš„ï¼›å…·ä½“çš„
 3782. specify['spesifai]
-vi.Ö¸¶¨£¬ÏêÏ¸ËµÃ÷
+vi.æŒ‡å®šï¼Œè¯¦ç»†è¯´æ˜
 3783. specimen['spesimin]
-n.Ñù±¾£¬±ê±¾£¬ÑùÆ·
+n.æ ·æœ¬ï¼Œæ ‡æœ¬ï¼Œæ ·å“
 3784. spectacle['spekt2kl]
-n.¹â¾°£¬¾°Ïó£»ÑÛ¾µ
+n.å…‰æ™¯ï¼Œæ™¯è±¡ï¼›çœ¼é•œ
 3785. speech[spi:t6]
-n.ÑÔÓï£»ÑİËµ£»·½ÑÔ
+n.è¨€è¯­ï¼›æ¼”è¯´ï¼›æ–¹è¨€
 3786. speed[spi:d]
-n.¿ì£»ËÙÂÊ vi.¿ìĞĞ
+n.å¿«ï¼›é€Ÿç‡ vi.å¿«è¡Œ
 3787. spell[spel]
-vt.Æ´Ğ´ vi.Æ´×Ö
+vt.æ‹¼å†™ vi.æ‹¼å­—
 3788. spelling['speli8]
-n.Æ´×Ö£¬Æ´·¨£¬Æ´Ğ´·¨
+n.æ‹¼å­—ï¼Œæ‹¼æ³•ï¼Œæ‹¼å†™æ³•
 3789. spend[spend]
-vt.ÓÃÇ®£¬»¨·Ñ£»¶È¹ı
+vt.ç”¨é’±ï¼ŒèŠ±è´¹ï¼›åº¦è¿‡
 3790. sphere[sfi2]
-n.Çò£¬Ô²Ìå£»·¶Î§
+n.çƒï¼Œåœ†ä½“ï¼›èŒƒå›´
 3791. spider['spaid2]
-n.Ö©Öë
+n.èœ˜è››
 3792. spill[spil]
-vt.Ê¹Òç³ö vi.Òç³ö
+vt.ä½¿æº¢å‡º vi.æº¢å‡º
 3793. spin[spin]
-vt.·Ä£»Ê¹Ğı×ª n.Ğı×ª
+vt.çººï¼›ä½¿æ—‹è½¬ n.æ—‹è½¬
 3794. spirit['spirit]
-n.¾«Éñ£»ÆøÆÇ£»ÇéĞ÷
+n.ç²¾ç¥ï¼›æ°”é­„ï¼›æƒ…ç»ª
 3795. spiritual['spiritju2l]
-a.¾«ÉñµÄ£¬ĞÄÁéµÄ
+a.ç²¾ç¥çš„ï¼Œå¿ƒçµçš„
 3796. spit[spit]
-vi.ÍÂ vi.ÍÂÍÙÄ­
+vi.å vi.åå”¾æ²«
 3797. splash[spl96]
-vt.&n.½¦£¬ÆÃ£¬·É½¦
+vt.&n.æº…ï¼Œæ³¼ï¼Œé£æº…
 3798. splendid['splendid]
-a.×³ÀöµÄ£»ÏÔÖøµÄ
+a.å£®ä¸½çš„ï¼›æ˜¾è‘—çš„
 3799. split[split]
-vt.Åü¿ª vi.±»Åü¿ª
+vt.åŠˆå¼€ vi.è¢«åŠˆå¼€
 3800. spoil[sp0il]
-vt.Ëğ»µ£¬ÔãÌ££»³è»µ
+vt.æŸåï¼Œç³Ÿè¹‹ï¼›å® å
 3801. sponge[sp3nd7]
-n.º£Ãà
+n.æµ·ç»µ
 3802. sponsor['sp0ns2]
-n.·¢ÆğÕß vt.·¢Æğ
+n.å‘èµ·è€… vt.å‘èµ·
 3803. spontaneous[sp0n'teinj2s]
-a.×Ô·¢µÄ£»±¾ÄÜµÄ
+a.è‡ªå‘çš„ï¼›æœ¬èƒ½çš„
 3804. spoon[spu:n]
-n.³×£¬µ÷¸ş
+n.åŒ™ï¼Œè°ƒç¾¹
 3805. sport[sp0:t]
-n.ÔË¶¯£»ÔË¶¯»á
+n.è¿åŠ¨ï¼›è¿åŠ¨ä¼š
 3806. sportsman['sp0:tsm2n]
-n.ÔË¶¯Ô±
+n.è¿åŠ¨å‘˜
 3807. spot[sp0t]
-n.µã£¬°ßµã£»µØµã
+n.ç‚¹ï¼Œæ–‘ç‚¹ï¼›åœ°ç‚¹
 3808. spray[sprei]
-n.ÀË»¨£»ÅçÎí vt.Åç
+n.æµªèŠ±ï¼›å–·é›¾ vt.å–·
 3809. spread[spred]
-vt.Éì¿ª£»´«²¥ n.´«²¥
+vt.ä¼¸å¼€ï¼›ä¼ æ’­ n.ä¼ æ’­
 3810. spring[spri8]
-vi.Ìø£¬Ô¾ n.ÌøÔ¾£»Èª
+vi.è·³ï¼Œè·ƒ n.è·³è·ƒï¼›æ³‰
 3811. spring[spri8]
-n.´ºÌì£¬´º¼¾
+n.æ˜¥å¤©ï¼Œæ˜¥å­£
 3812. springtime['spri8taim]
-n.´º¼¾£¬´ºÌì
+n.æ˜¥å­£ï¼Œæ˜¥å¤©
 3813. sprinkle[spri8kl]
-n.È÷£¬Èö£»Ğ¡Óê
+n.æ´’ï¼Œæ’’ï¼›å°é›¨
 3814. spur[sp2:]
-n.´Ì¼¤Îï vt.´Ì¼¤
+n.åˆºæ¿€ç‰© vt.åˆºæ¿€
 3815. spy[spai]
-n.¼äµı£¬ÌØÎñ vt.Õì²ì
+n.é—´è°ï¼Œç‰¹åŠ¡ vt.ä¾¦å¯Ÿ
 3816. square[skw/2]
-n.Õı·½ĞÎ£»¹ã³¡
+n.æ­£æ–¹å½¢ï¼›å¹¿åœº
 3817. squeeze['skwi:z]
-vt.&vi.Õ¥£¬¼·£»Ñ¹Õ¥
+vt.&vi.æ¦¨ï¼ŒæŒ¤ï¼›å‹æ¦¨
 3818. squirrel['skwir2l]
-n.ËÉÊó
+n.æ¾é¼ 
 3819. stab[st9b]
-vt.&vi.&n.´Ì£¬´Á
+vt.&vi.&n.åˆºï¼Œæˆ³
 3820. stability[st2'biliti]
-n.ÎÈ¶¨£¬ÎÈ¶¨ĞÔ£¬¹®¹Ì
+n.ç¨³å®šï¼Œç¨³å®šæ€§ï¼Œå·©å›º
 3821. stable['steibl]
-a.ÎÈ¶¨µÄ£¬²»±äµÄ
+a.ç¨³å®šçš„ï¼Œä¸å˜çš„
 3822. stable['steibl]
-n.¾Ç£¬Âí¾Ç£¬Å£Åï
+n.å©ï¼Œé©¬å©ï¼Œç‰›æ£š
 3823. stack[st9k]
-n.¶Ñ£¬¶â vt.¶Ñ»ı
+n.å †ï¼Œå› vt.å †ç§¯
 3824. stadium['steidj2m]
-n.Â¶Ìì´óĞÍÔË¶¯³¡
+n.éœ²å¤©å¤§å‹è¿åŠ¨åœº
 3825. staff[sta:f]
-n.¹¤×÷ÈËÔ±£»²ÎÄ±
+n.å·¥ä½œäººå‘˜ï¼›å‚è°‹
 3826. stage[steid7]
-n.ÎèÌ¨£»Ï·¾ç£»½×¶Î
+n.èˆå°ï¼›æˆå‰§ï¼›é˜¶æ®µ
 3827. stain[stein]
-vt.Õ´ÎÛ£»¸ø¡­×ÅÉ«
+vt.æ²¾æ±¡ï¼›ç»™â€¦ç€è‰²
 3828. stair[st/2]
-n.Â¥Ìİ
+n.æ¥¼æ¢¯
 3829. staircase['st/2keis]
-n.Â¥Ìİ£¬Â¥Ìİ¼ä
+n.æ¥¼æ¢¯ï¼Œæ¥¼æ¢¯é—´
 3830. stake[steik]
-n.×®£»¶Ä½ğ£»½±Æ·
+n.æ¡©ï¼›èµŒé‡‘ï¼›å¥–å“
 3831. stale[steil]
-n.³Â¸¯µÄ£»×ßÁËÆøµÄ
+n.é™ˆè…çš„ï¼›èµ°äº†æ°”çš„
 3832. stamp[st9mp]
-n.´Á×Ó£»ÓÊÆ±£»±êÖ¾
+n.æˆ³å­ï¼›é‚®ç¥¨ï¼›æ ‡å¿—
 3833. stand[st9nd]
-vi.Õ¾£»×øÂä n.¼Ü£¬Ì¨
+vi.ç«™ï¼›åè½ n.æ¶ï¼Œå°
 3834. standard['st9nd2d]
-n.±ê×¼ a.±ê×¼µÄ
+n.æ ‡å‡† a.æ ‡å‡†çš„
 3835. standpoint['st9ndp0int]
-n.Á¢³¡£¬¹Ûµã
+n.ç«‹åœºï¼Œè§‚ç‚¹
 3836. star[sta:]
-n.ĞÇ£»ºãĞÇ£»Ã÷ĞÇ
+n.æ˜Ÿï¼›æ’æ˜Ÿï¼›æ˜æ˜Ÿ
 3837. stare[st/2]
-vi.¶¢£¬ÄıÊÓ
+vi.ç›¯ï¼Œå‡è§†
 3838. start[sta:t]
-vi.ÌøÆğ£»³ö·¢£»¿ªÊ¼
+vi.è·³èµ·ï¼›å‡ºå‘ï¼›å¼€å§‹
 3839. startle['sta:tl]
-vt.Ê¹´ó³ÔÒ»¾ª n.³Ô¾ª
+vt.ä½¿å¤§åƒä¸€æƒŠ n.åƒæƒŠ
 3840. starve[sta:v]
-vi.¶öËÀ vt.Ê¹¶öËÀ
+vi.é¥¿æ­» vt.ä½¿é¥¿æ­»
 3841. state[steit]
-n.×´Ì¬£»¹ú¼Ò£»Öİ
+n.çŠ¶æ€ï¼›å›½å®¶ï¼›å·
 3842. state[steit]
-vt.³ÂÊö£¬ËµÃ÷£¬²ûÃ÷
+vt.é™ˆè¿°ï¼Œè¯´æ˜ï¼Œé˜æ˜
 3843. statement['steitm2nt]
-n.³ÂÊö£¬ÉùÃ÷
+n.é™ˆè¿°ï¼Œå£°æ˜
 3844. statesman['steitsm2n]
-n.ÕşÖÎ¼Ò£¬¹úÎñ»î¶¯¼Ò
+n.æ”¿æ²»å®¶ï¼Œå›½åŠ¡æ´»åŠ¨å®¶
 3845. static['st9tikl]
-a.¾²µÄ£»¾²Ì¬µÄ
+a.é™çš„ï¼›é™æ€çš„
 3846. station['stei62n]
-n.Õ¾£¬Ì¨£¬Ëù£¬¾Ö
+n.ç«™ï¼Œå°ï¼Œæ‰€ï¼Œå±€
 3847. statistical[st2'tistikl]
-a.Í³¼ÆµÄ£¬Í³¼ÆÑ§µÄ
+a.ç»Ÿè®¡çš„ï¼Œç»Ÿè®¡å­¦çš„
 3848. statue['st9tju:]
-n.ËÜÏñ£¬µñÏñ£¬ÖıÏñ
+n.å¡‘åƒï¼Œé›•åƒï¼Œé“¸åƒ
 3849. status['steit2s]
-n.µØÎ»£¬Éí·Ö
+n.åœ°ä½ï¼Œèº«åˆ†
 3850. stay[stei]
-vi.Í£Áô£»×¡ n.¶ºÁô
+vi.åœç•™ï¼›ä½ n.é€—ç•™
 3851. steadily['stedili]
-ad.ÎÈ¶¨µØ£¬²»±äµØ
+ad.ç¨³å®šåœ°ï¼Œä¸å˜åœ°
 3852. steady['stedi]
-a.ÎÈ¹ÌµÄ vt.Ê¹ÎÈ¶¨
+a.ç¨³å›ºçš„ vt.ä½¿ç¨³å®š
 3853. steal[sti:l]
-vt.Íµ£¬ÇÏÈ¡
+vt.å·ï¼Œçªå–
 3854. steam[sti:m]
-n.ÕôÆû vi.Õô·¢ vt.Õô
+n.è’¸æ±½ vi.è’¸å‘ vt.è’¸
 3855. steamer['sti:m2]
-n.ÂÖ´¬£¬Æû´¬
+n.è½®èˆ¹ï¼Œæ±½èˆ¹
 3856. steel['sti:l]
-n.¸Ö£¬¸ÖÌú
+n.é’¢ï¼Œé’¢é“
 3857. steep[sti:p]
-a.ÏÕ¾şµÄ£¬¶¸ÇÍµÄ
+a.é™©å³»çš„ï¼Œé™¡å³­çš„
 3858. steer[sti2]
-vt.&vi.¼İÊ»
+vt.&vi.é©¾é©¶
 3859. stem[stem]
-n.¾¥£¬(Ê÷)¸É vi.ÆğÔ´
+n.èŒï¼Œ(æ ‘)å¹² vi.èµ·æº
 3860. step[step]
-n.(½Å)²½£»²½Öè vi.×ß
+n.(è„š)æ­¥ï¼›æ­¥éª¤ vi.èµ°
 3861. stern[st2:n]
-a.ÑÏÀ÷µÄ£»¼á¶¨µÄ
+a.ä¸¥å‰çš„ï¼›åšå®šçš„
 3862. steward[stju2d]
-n.³ËÎñÔ±£¬·şÎñÔ±
+n.ä¹˜åŠ¡å‘˜ï¼ŒæœåŠ¡å‘˜
 3863. stewardess['stju:2dis]
-n.¿ÕÖĞĞ¡½ã£¬Å®³ËÎñÔ±
+n.ç©ºä¸­å°å§ï¼Œå¥³ä¹˜åŠ¡å‘˜
 3864. stick[stik]
-n.¹÷£¬°ô vt.´Ì£»Õ³Ìù
+n.æ£ï¼Œæ£’ vt.åˆºï¼›ç²˜è´´
 3865. sticky['stiki]
-a.Õ³ĞÔµÄ£»½ºÕ³µÄ
+a.ç²˜æ€§çš„ï¼›èƒ¶ç²˜çš„
 3866. stiff[stif]
-a.Ó²µÄ£»½©Ö±µÄ
+a.ç¡¬çš„ï¼›åƒµç›´çš„
 3867. stiffen['stifn]
-vt.Ê¹Ó²£»Ê¹½©Ó²
+vt.ä½¿ç¡¬ï¼›ä½¿åƒµç¡¬
 3868. still[stil]
-a.¾²Ö¹µÄ n.¼Å¾²
+a.é™æ­¢çš„ n.å¯‚é™
 3869. stimulate['stimjuleit]
-vt.´Ì¼¤£¬¼¤Àø£¬¼¤·¢
+vt.åˆºæ¿€ï¼Œæ¿€åŠ±ï¼Œæ¿€å‘
 3870. sting[sti8]
-vt.´Ì£»´ÌÍ´ vi.&n.´Ì
+vt.åˆºï¼›åˆºç—› vi.&n.åˆº
 3871. stir[st2:]
-vt.¶¯£»²¦¶¯£»¼¤¶¯
+vt.åŠ¨ï¼›æ‹¨åŠ¨ï¼›æ¿€åŠ¨
 3872. stitch[stit6]
-n.Ò»Õë£»Õë½Å vt.·ì
+n.ä¸€é’ˆï¼›é’ˆè„š vt.ç¼
 3873. stock[st0k]
-n.Ô­ÁÏ£»¿â´æÆ·£»¹É±¾
+n.åŸæ–™ï¼›åº“å­˜å“ï¼›è‚¡æœ¬
 3874. stocking['st0ki8]
-n.³¤(Í³)Íà
+n.é•¿(ç»Ÿ)è¢œ
 3875. stomach['st3m2k]
-n.Î¸£»¶Ç×Ó£»Ê³Óû
+n.èƒƒï¼›è‚šå­ï¼›é£Ÿæ¬²
 3876. stone[st2un]
-n.Ê¯£¬Ê¯Í·£»±¦Ê¯
+n.çŸ³ï¼ŒçŸ³å¤´ï¼›å®çŸ³
 3877. stony['st2uni]
-a.¶àÊ¯µÄ£»Àä¿áµÄ
+a.å¤šçŸ³çš„ï¼›å†·é…·çš„
 3878. stool[stu:l]
-n.µÊ×Ó
+n.å‡³å­
 3879. stoop[stu:p]
-vi.¸©Éí£»ÍäÉí n.ÍäÑü
+vi.ä¿¯èº«ï¼›å¼¯èº« n.å¼¯è…°
 3880. stop[st0p]
-vt.Èû×¡£»×èÖ¹£»Í£Ö¹
+vt.å¡ä½ï¼›é˜»æ­¢ï¼›åœæ­¢
 3881. storage['st0:rid7]
-n.Öü²Ø£»Öü²ØÁ¿
+n.è´®è—ï¼›è´®è—é‡
 3882. store[st0:]
-n.Öü²Ø£»Öü´æÆ·£»ÉÌµê
+n.è´®è—ï¼›è´®å­˜å“ï¼›å•†åº—
 3883. storey['st0:ri]
-n.(²ã)Â¥
+n.(å±‚)æ¥¼
 3884. storm[st0:m]
-n.·ç±©£»±©(·ç)Óê
+n.é£æš´ï¼›æš´(é£)é›¨
 3885. stormy['st0:mi]
-a.ÓĞ±©·çÓêµÄ£»¼¤ÁÒµÄ
+a.æœ‰æš´é£é›¨çš„ï¼›æ¿€çƒˆçš„
 3886. story['st0:ri]
-n.¹ÊÊÂ£¬Ğ¡Ëµ£¬´«Ëµ
+n.æ•…äº‹ï¼Œå°è¯´ï¼Œä¼ è¯´
 3887. stove[st2uv]
-n.Â¯£¬»ğÂ¯£¬µçÂ¯
+n.ç‚‰ï¼Œç«ç‚‰ï¼Œç”µç‚‰
 3888. straight[streit]
-a.Ö±µÄ£»ÕıÖ±µÄ ad.Ö±
+a.ç›´çš„ï¼›æ­£ç›´çš„ ad.ç›´
 3889. strain['strein]
-vt.À­½ô vi.¾¡Á¦
+vt.æ‹‰ç´§ vi.å°½åŠ›
 3890. strange[streind7]
-a.Ä°ÉúµÄ£»Ææ¹ÖµÄ
+a.é™Œç”Ÿçš„ï¼›å¥‡æ€ªçš„
 3891. stranger['streind72]
-n.Ä°ÉúÈË£»ĞÂÀ´Õß
+n.é™Œç”Ÿäººï¼›æ–°æ¥è€…
 3892. strap[str9p]
-n.´ø×Ó vt.À¦Ôú
+n.å¸¦å­ vt.æ†æ‰
 3893. strategy['str9tid7i]
-n.Õ½ÂÔ£»²ßÂÔ
+n.æˆ˜ç•¥ï¼›ç­–ç•¥
 3894. straw[str0:]
-n.µ¾²İ£¬Âó¸ËÎü¹Ü
+n.ç¨»è‰ï¼Œéº¦æ†å¸ç®¡
 3895. strawberry['str0:b2ri]
-n.²İİ®
+n.è‰è“
 3896. stream[stri:m]
-n.ºÓ£»Á÷ vi.&vt.Á÷
+n.æ²³ï¼›æµ vi.&vt.æµ
 3897. street['stri:t]
-n.½Ö£¬½ÖµÀ£»ĞĞ³µµÀ
+n.è¡—ï¼Œè¡—é“ï¼›è¡Œè½¦é“
 3898. strength[stre84]
-n.Á¦£¬Á¦Á¿£¬Á¦Æø
+n.åŠ›ï¼ŒåŠ›é‡ï¼ŒåŠ›æ°”
 3899. strengthen['stre842n]
-vt.¼ÓÇ¿£¬¹®¹Ì
+vt.åŠ å¼ºï¼Œå·©å›º
 3900. stress[stres]
-n.Ñ¹Á¦£»ÖØÒô vt.×ÅÖØ
+n.å‹åŠ›ï¼›é‡éŸ³ vt.ç€é‡
 3901. stretch[stret6]
-vt.ÉìÕ¹ vi.Éì n.ÉìÕ¹
+vt.ä¼¸å±• vi.ä¼¸ n.ä¼¸å±•
 3902. strict[strikt]
-a.ÑÏ¸ñµÄ£»ÑÏ½÷µÄ
+a.ä¸¥æ ¼çš„ï¼›ä¸¥è°¨çš„
 3903. strictly['striktli]
-ad.ÑÏ¸ñµØ£¬ÑÏ½÷µØ
+ad.ä¸¥æ ¼åœ°ï¼Œä¸¥è°¨åœ°
 3904. strike[straik]
-vt.&vi.´ò£¬»÷ n.°Õ¹¤
+vt.&vi.æ‰“ï¼Œå‡» n.ç½¢å·¥
 3905. string[stri8]
-n.Ïß£¬Ï¸Éş£»Ò»´®
+n.çº¿ï¼Œç»†ç»³ï¼›ä¸€ä¸²
 3906. strip[strip]
-vt.°ş£»¶áÈ¥ n.Ìõ´ø
+vt.å‰¥ï¼›å¤ºå» n.æ¡å¸¦
 3907. stripe[straip]
-n.ÌõÎÆ£¬Ìõ×Ó
+n.æ¡çº¹ï¼Œæ¡å­
 3908. stroke[str2uk]
-n.´ò£¬»÷£»ÃùÉù£»ÖĞ·ç
+n.æ‰“ï¼Œå‡»ï¼›é¸£å£°ï¼›ä¸­é£
 3909. stroke[str2uk]
-vt.&n.¸§£¬Ä¦£¬ŞÛ
+vt.&n.æŠšï¼Œæ‘©ï¼Œæ‹
 3910. strong[str08]
-a.Ç¿×³µÄ£»ÉÃ³¤µÄ
+a.å¼ºå£®çš„ï¼›æ“…é•¿çš„
 3911. strongly['str08li]
-ad.Ç¿×³µØ£¬Ç¿ÁÒµØ
+ad.å¼ºå£®åœ°ï¼Œå¼ºçƒˆåœ°
 3912. structural['str3kt62r2l]
-a.½á¹¹µÄ£¬¹¹ÔìµÄ
+a.ç»“æ„çš„ï¼Œæ„é€ çš„
 3913. structure['str3kt62]
-n.½á¹¹£»¹¹Ôì vt.½¨Ôì
+n.ç»“æ„ï¼›æ„é€  vt.å»ºé€ 
 3914. struggle['str3gl]
-n.&vi.¶·Õù£¬·Ü¶·
+n.&vi.æ–—äº‰ï¼Œå¥‹æ–—
 3915. student['stju:d2nt]
-n.Ñ§Éú£»ÑĞ¾¿Éú£¬Ñ§Õß
+n.å­¦ç”Ÿï¼›ç ”ç©¶ç”Ÿï¼Œå­¦è€…
 3916. study['st3di]
-n.Ñ§Ï°£¬ÑĞ¾¿ vt.Ñ§
+n.å­¦ä¹ ï¼Œç ”ç©¶ vt.å­¦
 3917. stuff[st3f]
-n.²ÄÁÏ vt.×°£¬Ìî£¬Èû
+n.ææ–™ vt.è£…ï¼Œå¡«ï¼Œå¡
 3918. stumble['st3mbl]
-vi.°íµ¹£»·¸´íÎó
+vi.ç»Šå€’ï¼›çŠ¯é”™è¯¯
 3919. stupid['stju:pid]
-a.ÓŞ´ÀµÄ£»¸Ğ¾õ³Ù¶ÛµÄ
+a.æ„šè ¢çš„ï¼›æ„Ÿè§‰è¿Ÿé’çš„
 3920. style[stail]
-n.·ç¸ñ£»ÎÄÌå£»Ê½Ñù
+n.é£æ ¼ï¼›æ–‡ä½“ï¼›å¼æ ·
 3921. subject['s3bd7ikt. s3b'd7ekt]
-n.ÌâÄ¿£»Ñ§¿Æ£»Ö÷Óï
+n.é¢˜ç›®ï¼›å­¦ç§‘ï¼›ä¸»è¯­
 3922. submarine['s3bm2ri:n]
-a.Ë®ÏÂµÄ n.Ç±Ë®Í§
+a.æ°´ä¸‹çš„ n.æ½œæ°´è‰‡
 3923. submerge[s3b'm2:d7]
-vt.½şÃ» vi.Ç±ÈëË®ÖĞ
+vt.æµ¸æ²¡ vi.æ½œå…¥æ°´ä¸­
 3924. submit[s3b'mit]
-vt.Ê¹·ş´Ó vi.·ş´Ó
+vt.ä½¿æœä» vi.æœä»
 3925. subsequent['s3bsikw2nt]
-a.ËæºóµÄ£¬ºóÀ´µÄ
+a.éšåçš„ï¼Œåæ¥çš„
 3926. substance['s3bst2ns]
-n.ÎïÖÊ£»ÊµÖÊ£»±¾Ö¼
+n.ç‰©è´¨ï¼›å®è´¨ï¼›æœ¬æ—¨
 3927. substantial[s2b'st9n62l]
-a.ÎïÖÊµÄ£»¼á¹ÌµÄ
+a.ç‰©è´¨çš„ï¼›åšå›ºçš„
 3928. substitute['s3bstitju:t]
-n.´úÌæÈË vt.ÓÃ¡­´úÌæ
+n.ä»£æ›¿äºº vt.ç”¨â€¦ä»£æ›¿
 3929. subtract[s2b'tr9kt]
-vt.¼õ£¬¼õÈ¥£¬È¥µô
+vt.å‡ï¼Œå‡å»ï¼Œå»æ‰
 3930. suburb['s3b2:b]
-n.½¼Çø£¬½¼Íâ£¬½ü½¼
+n.éƒŠåŒºï¼ŒéƒŠå¤–ï¼Œè¿‘éƒŠ
 3931. subway['s3bwei]
-n.µØµÀ£»µØÏÂÌúÂ·
+n.åœ°é“ï¼›åœ°ä¸‹é“è·¯
 3932. succeed[s2k'si:d]
-vt.¼Ì¡­Ö®ºó vi.³É¹¦
+vt.ç»§â€¦ä¹‹å vi.æˆåŠŸ
 3933. success[s2k'ses]
-n.³É¹¦£¬³É¾Í£¬Ê¤Àû
+n.æˆåŠŸï¼Œæˆå°±ï¼Œèƒœåˆ©
 3934. successful[s2k'sesful]
-a.³É¹¦µÄ£¬½á¹ûÁ¼ºÃµÄ
+a.æˆåŠŸçš„ï¼Œç»“æœè‰¯å¥½çš„
 3935. successfully[s2k'sesfuli]
-ad.³É¹¦µØ
+ad.æˆåŠŸåœ°
 3936. succession[s2k'se62n]
-n.Á¬Ğø£»¼ÌÈÎ£¬¼Ì³Ğ
+n.è¿ç»­ï¼›ç»§ä»»ï¼Œç»§æ‰¿
 3937. successive[s2k'sesiv]
-a.Á¬ĞøµÄ£»½ÓÁ¬µÄ
+a.è¿ç»­çš„ï¼›æ¥è¿çš„
 3938. such[s3t6]
-a.ÕâÑùµÄ£»Èç´ËµÄ¡­
+a.è¿™æ ·çš„ï¼›å¦‚æ­¤çš„â€¦
 3939. suck[s3k]
-vt.Îü£¬Ë±£¬à¨£»ÎüÊÕ
+vt.å¸ï¼Œå®ï¼Œå•œï¼›å¸æ”¶
 3940. sudden['s3dn]
-a.Í»È»µÄ£¬ÒâÍâµÄ
+a.çªç„¶çš„ï¼Œæ„å¤–çš„
 3941. suddenly['s3dnli]
-ad.Í»È»µØ
+ad.çªç„¶åœ°
 3942. suffer['s3f2]
-vt.ÔâÊÜ£»ÈÌÊÜ£»ÈİĞí
+vt.é­å—ï¼›å¿å—ï¼›å®¹è®¸
 3943. sufficient[s2'fi62nt]
-a.×ã¹»µÄ£¬³ä·ÖµÄ
+a.è¶³å¤Ÿçš„ï¼Œå……åˆ†çš„
 3944. sufficiently[s2'fi62ntli]
-ad.×ã¹»µØ£¬³ä·ÖµØ
+ad.è¶³å¤Ÿåœ°ï¼Œå……åˆ†åœ°
 3945. sugar['6ug2]
-n.ÌÇ
+n.ç³–
 3946. suggest[s2'd7est]
-vt.½¨Òé£»°µÊ¾£¬Æô·¢
+vt.å»ºè®®ï¼›æš—ç¤ºï¼Œå¯å‘
 3947. suggestion[s2'd7est62n]
-n.½¨Òé£¬Òâ¼û£»°µÊ¾
+n.å»ºè®®ï¼Œæ„è§ï¼›æš—ç¤º
 3948. suit[sju:t]
-n.Æğ²ğ£¬ËßËÏ vt.ÊÊºÏ
+n.èµ·æ‹†ï¼Œè¯‰è®¼ vt.é€‚åˆ
 3949. suitable['sju:t2bl]
-a.ºÏÊÊµÄ£»ÊÊÒËµÄ
+a.åˆé€‚çš„ï¼›é€‚å®œçš„
 3950. sulphur['s3lf2]
-n.Áò(»Ç)£¬Áò»Æ
+n.ç¡«(ç£º)ï¼Œç¡«é»„
 3951. sum[s3m]
-n.×ÜÊı£»½ğ¶î vi.¹²¼Æ
+n.æ€»æ•°ï¼›é‡‘é¢ vi.å…±è®¡
 3952. summarize['s3m2raiz]
-vt.¸ÅÀ¨£¬¸ÅÊö£¬×Ü½á
+vt.æ¦‚æ‹¬ï¼Œæ¦‚è¿°ï¼Œæ€»ç»“
 3953. summary['s3m2ri]
-n.ÕªÒª£¬¸ÅÒª£¬Ò»ÀÀ
+n.æ‘˜è¦ï¼Œæ¦‚è¦ï¼Œä¸€è§ˆ
 3954. summer['s3m2]
-n.ÏÄ£¬ÏÄ¼¾
+n.å¤ï¼Œå¤å­£
 3955. sun[s3n]
-n.Ì«Ñô£¬ÈÕ
+n.å¤ªé˜³ï¼Œæ—¥
 3956. Sunday['s3ndi]
-n.ĞÇÆÚÈÕ£¬Àñ°İÈÕ
+n.æ˜ŸæœŸæ—¥ï¼Œç¤¼æ‹œæ—¥
 3957. sunlight['s3nlait]
-n.ÈÕ¹â£¬Ñô¹â
+n.æ—¥å…‰ï¼Œé˜³å…‰
 3958. sunny['s3ni]
-a.Ñô¹â³ä×ãµÄ£»¿ì»îµÄ
+a.é˜³å…‰å……è¶³çš„ï¼›å¿«æ´»çš„
 3959. sunrise['s3nraiz]
-n.ÈÕ³ö(Ê±·Ö)
+n.æ—¥å‡º(æ—¶åˆ†)
 3960. sunset['s3nset]
-n.ÈÕÂä(Ê±·Ö)
+n.æ—¥è½(æ—¶åˆ†)
 3961. sunshine['s3n6ain]
-n.(Ö±Éä)ÈÕ¹â£¬Ñô¹â
+n.(ç›´å°„)æ—¥å…‰ï¼Œé˜³å…‰
 3962. super['sju:p2]
-a.¼«ºÃµÄ£¬³¬¼¶µÄ
+a.æå¥½çš„ï¼Œè¶…çº§çš„
 3963. superficial[sju:p2'fi62l]
-a.±íÃæµÄ£»·ôÇ³µÄ
+a.è¡¨é¢çš„ï¼›è‚¤æµ…çš„
 3964. superior[sju:'pi2ri2]
-a.½Ï¸ßµÄ£»ÓÅÔ½µÄ
+a.è¾ƒé«˜çš„ï¼›ä¼˜è¶Šçš„
 3965. supermarket['sju:p2ma:kit]
-n.³¬¼¶ÊĞ³¡
+n.è¶…çº§å¸‚åœº
 3966. supper['s3p2]
-n.Íí·¹£¬Íí²Í
+n.æ™šé¥­ï¼Œæ™šé¤
 3967. supplement['s3plim2nt]
-n.&vt.Ôö²¹£¬²¹³ä
+n.&vt.å¢è¡¥ï¼Œè¡¥å……
 3968. supply[s2'plai]
-vt.&n.¹©¸ø£¬¹©Ó¦
+vt.&n.ä¾›ç»™ï¼Œä¾›åº”
 3969. support[s2'p0:t]
-vt.Ö§³Å£»Ö§³Ö£»¹©Ñø
+vt.æ”¯æ’‘ï¼›æ”¯æŒï¼›ä¾›å…»
 3970. suppose[s2'p2uz]
-vt.²ÂÏë£»¼Ù¶¨£»ÈÃ
+vt.çŒœæƒ³ï¼›å‡å®šï¼›è®©
 3971. supreme[sju:'pri:m]
-a.×î¸ßµÄ£»×î´óµÄ
+a.æœ€é«˜çš„ï¼›æœ€å¤§çš„
 3972. sure[6u2]
-a.È·ĞÅµÄ£»È·ÊµµÄ
+a.ç¡®ä¿¡çš„ï¼›ç¡®å®çš„
 3973. surely['6u2li]
-a.È·Êµ£»ÎÈµ±µØ
+a.ç¡®å®ï¼›ç¨³å½“åœ°
 3974. surface['s2:fis]
-n.µØÃæ£¬±íÃæ£»Íâ±í
+n.åœ°é¢ï¼Œè¡¨é¢ï¼›å¤–è¡¨
 3975. surgeon['s2:d72n]
-n.Íâ¿ÆÒ½Ê¦£»¾üÒ½
+n.å¤–ç§‘åŒ»å¸ˆï¼›å†›åŒ»
 3976. surgery['s2:d72ri]
-n.Íâ¿Æ£¬Íâ¿ÆÊÖÊõ
+n.å¤–ç§‘ï¼Œå¤–ç§‘æ‰‹æœ¯
 3977. surname['s2:neim]
-n.ĞÕ
+n.å§“
 3978. surprise[s2'praiz]
-vt.Ê¹¾ªÆæ£»Í»È»Ï®»÷
+vt.ä½¿æƒŠå¥‡ï¼›çªç„¶è¢­å‡»
 3979. surprising[s2'praizi8]
-a.¾ªÈËµÄ£»³öÈËÒâÍâµÄ
+a.æƒŠäººçš„ï¼›å‡ºäººæ„å¤–çš„
 3980. surprisingly[s2'praizi8li]
-ad.¾ªÈËµØ
+ad.æƒŠäººåœ°
 3981. surrender[s2'rend2]
-vt.½»³ö vi.Í¶½µ
+vt.äº¤å‡º vi.æŠ•é™
 3982. surround[s2'raund]
-vt.Î§£¬Î§ÈÆ£¬È¦×¡
+vt.å›´ï¼Œå›´ç»•ï¼Œåœˆä½
 3983. surroundings[s2'raundi8z]
-n.ÖÜÎ§µÄÊÂÎï£¬»·¾³
+n.å‘¨å›´çš„äº‹ç‰©ï¼Œç¯å¢ƒ
 3984. survey[s2:'vei]
-vt.¸©î«£»¼ì²é£»²âÁ¿
+vt.ä¿¯ç°ï¼›æ£€æŸ¥ï¼›æµ‹é‡
 3985. survive[s2'vaiv]
-vt.ĞÒÃâÓÚ vi.»îÏÂÀ´
+vt.å¹¸å…äº vi.æ´»ä¸‹æ¥
 3986. suspect[s2s'pekt. 's3spekt]
-vt.»³ÒÉ vi.ÒÉĞÄ
+vt.æ€€ç–‘ vi.ç–‘å¿ƒ
 3987. suspend[s2s'pend]
-vt.µõ£¬Ğü£»ÍÆ³Ù
+vt.åŠï¼Œæ‚¬ï¼›æ¨è¿Ÿ
 3988. suspicion[s2s'pi62n]
-n.»³ÒÉ£¬ÒÉĞÄ£¬²ÂÒÉ
+n.æ€€ç–‘ï¼Œç–‘å¿ƒï¼ŒçŒœç–‘
 3989. sustain[s2s'tein]
-vt.Ö§³Å£»¹©Ñø£»ÈÌÊÜ
+vt.æ”¯æ’‘ï¼›ä¾›å…»ï¼›å¿å—
 3990. swallow['sw0l2u]
-n.Ñà×Ó
+n.ç‡•å­
 3991. swallow['sw0l2u]
-vt.&vi.ÍÌÏÂ£¬ÑÊÏÂ
+vt.&vi.åä¸‹ï¼Œå’½ä¸‹
 3992. swamp[sw0mp]
-n.ÕÓÔó£¬ÕÓÔóµØ
+n.æ²¼æ³½ï¼Œæ²¼æ³½åœ°
 3993. swan[sw0n]
-n.Ìì¶ì
+n.å¤©é¹…
 3994. swarm[sw0:m]
-n.Ò»´óÈº vi.ÃÜ¼¯
+n.ä¸€å¤§ç¾¤ vi.å¯†é›†
 3995. sway[swei]
-vi.Ò¡¶¯ vt.Ò¡£»Ò¡¶¯
+vi.æ‘‡åŠ¨ vt.æ‘‡ï¼›æ‘‡åŠ¨
 3996. swear[sw/2]
-vt.Ğû(ÊÄ) vi.×çÖä
+vt.å®£(èª“) vi.è¯…å’’
 3997. sweat[swet]
-n.º¹ vi.³öº¹
+n.æ±— vi.å‡ºæ±—
 3998. sweater['swet2]
-n.ºñÔË¶¯ÉÀ£¬Ã«ÏßÉÀ
+n.åšè¿åŠ¨è¡«ï¼Œæ¯›çº¿è¡«
 3999. sweep[swi:p]
-vt.É¨£»¹ÎÆğ£»É¨¹ı
+vt.æ‰«ï¼›åˆ®èµ·ï¼›æ‰«è¿‡
 4000. sweet[swi:t]
-a.ÌğµÄ£»Óä¿ìµÄ
+a.ç”œçš„ï¼›æ„‰å¿«çš„
 4001. swell[swel]
-vi.ÅòÕÍ£»Â¡Æğ£»Ôö³¤
+vi.è†¨èƒ€ï¼›éš†èµ·ï¼›å¢é•¿
 4002. swift[swift]
-a.¿ìµÄ£»·´Ó¦¿ìµÄ
+a.å¿«çš„ï¼›ååº”å¿«çš„
 4003. swim[swim]
-vi.ÓÎ£¬ÓÎÓ¾£»ÑÛ»¨
+vi.æ¸¸ï¼Œæ¸¸æ³³ï¼›çœ¼èŠ±
 4004. swing[swi8]
-vi.Ò¡°Ú£»»Ø×ª n.Ò¡°Ú
+vi.æ‘‡æ‘†ï¼›å›è½¬ n.æ‘‡æ‘†
 4005. Swiss[swis]
-a.ÈğÊ¿µÄ n.ÈğÊ¿ÈË
+a.ç‘å£«çš„ n.ç‘å£«äºº
 4006. switch[swit6]
-n.¿ª¹Ø£»×ª»» vt.×ª»»
+n.å¼€å…³ï¼›è½¬æ¢ vt.è½¬æ¢
 4007. sword[s0:d]
-n.½££¬µ¶
+n.å‰‘ï¼Œåˆ€
 4008. symbol['simb2l]
-n.ÏóÕ÷£»·ûºÅ£¬¼ÇºÅ
+n.è±¡å¾ï¼›ç¬¦å·ï¼Œè®°å·
 4009. sympathetic[simp2'4etik]
-a.Í¬ÇéµÄ£»ºÍĞ³µÄ
+a.åŒæƒ…çš„ï¼›å’Œè°çš„
 4010. sympathize['simp24aiz]
-vi.Í¬Çé£»Í¬¸Ğ£¬¹²Ãù
+vi.åŒæƒ…ï¼›åŒæ„Ÿï¼Œå…±é¸£
 4011. sympathy['simp24i]
-n.Í¬Çé£»Ò»ÖÂ£¬Í¬¸Ğ
+n.åŒæƒ…ï¼›ä¸€è‡´ï¼ŒåŒæ„Ÿ
 4012. synthetic[sin'4etik]
-a.×ÛºÏµÄ£»ºÏ³ÉµÄ
+a.ç»¼åˆçš„ï¼›åˆæˆçš„
 4013. system['sistim]
-n.ÏµÍ³£¬ÌåÏµ£»ÖÆ¶È
+n.ç³»ç»Ÿï¼Œä½“ç³»ï¼›åˆ¶åº¦
 4014. systematic(al)[sisti'm9tik(2l)]
-a.ÓĞÏµÍ³µÄ£»ÓĞ¼Æ»®µÄ
+a.æœ‰ç³»ç»Ÿçš„ï¼›æœ‰è®¡åˆ’çš„
 4015. table['teibl]
-n.×À×Ó£»²Í×À£»ÏîÄ¿±í
+n.æ¡Œå­ï¼›é¤æ¡Œï¼›é¡¹ç›®è¡¨
 4016. tablet['t9blit]
-n.±®£¬ØÒ£»Ò©Æ¬
+n.ç¢‘ï¼ŒåŒ¾ï¼›è¯ç‰‡
 4017. tag[t9g]
-n.¸½¼ÓÓï£»±êÇ©
+n.é™„åŠ è¯­ï¼›æ ‡ç­¾
 4018. tail[teil]
-n.Î²°Í£»Ä©Î²²¿·Ö
+n.å°¾å·´ï¼›æœ«å°¾éƒ¨åˆ†
 4019. tailor['teil2]
-n.²Ã·ì vt.²ÃÖÆÒÂ·ş
+n.è£ç¼ vt.è£åˆ¶è¡£æœ
 4020. take[teik]
-vt.ÄÃ£»×¥£»ÄÃ×ß£»³Ô
+vt.æ‹¿ï¼›æŠ“ï¼›æ‹¿èµ°ï¼›åƒ
 4021. tale[teil]
-n.¹ÊÊÂ£¬´«Ëµ
+n.æ•…äº‹ï¼Œä¼ è¯´
 4022. talent['t9l2nt]
-n.Ìì²Å£»²ÅÄÜ£»ÈË²Å
+n.å¤©æ‰ï¼›æ‰èƒ½ï¼›äººæ‰
 4023. talk[t0:k]
-vi.½²»° vt.Ì¸ÂÛ
+vi.è®²è¯ vt.è°ˆè®º
 4024. tall[t0:l]
-n.¸ßµÄ£¬Éí²Ä¸ßµÄ
+n.é«˜çš„ï¼Œèº«æé«˜çš„
 4025. tame[teim]
-a.Ñ±·şµÄ£»Ë³´ÓµÄ
+a.é©¯æœçš„ï¼›é¡ºä»çš„
 4026. tan[t9n]
-n.×ØºÖÉ« a.×Ø»ÆÉ«µÄ
+n.æ£•è¤è‰² a.æ£•é»„è‰²çš„
 4027. tank[t98k]
-n.Ì¹¿Ë£»´óÈİÆ÷£¬²Û
+n.å¦å…‹ï¼›å¤§å®¹å™¨ï¼Œæ§½
 4028. tap[t9p]
-vt.&vi.&n.Çáßµ
+vt.&vi.&n.è½»å©
 4029. tap[t9p]
-n.Èû×Ó£»ÁúÍ· vt.¿ª·¢
+n.å¡å­ï¼›é¾™å¤´ vt.å¼€å‘
 4030. tape[teip]
-n.Ïß´ø£»´Å´ø£¬Â¼Òô´ø
+n.çº¿å¸¦ï¼›ç£å¸¦ï¼Œå½•éŸ³å¸¦
 4031. target['ta:git]
-n.°Ğ£¬±êµÄ£»Ä¿±ê
+n.é¶ï¼Œæ ‡çš„ï¼›ç›®æ ‡
 4032. task[ta:sk]
-n.ÈÎÎñ£¬¹¤×÷£¬×÷Òµ
+n.ä»»åŠ¡ï¼Œå·¥ä½œï¼Œä½œä¸š
 4033. taste[teist]
-vt.³¢£»³¢µ½ n.Î¶¾õ
+vt.å°ï¼›å°åˆ° n.å‘³è§‰
 4034. tax[t9ks]
-n.Ë°£¬Ë°¿î£»¸ºµ£
+n.ç¨ï¼Œç¨æ¬¾ï¼›è´Ÿæ‹…
 4035. taxi['t9ksi]
-n.³ö×âÆû³µ
+n.å‡ºç§Ÿæ±½è½¦
 4036. tea[ti:]
-n.²è£»²èÒ¶£»²èÊ÷
+n.èŒ¶ï¼›èŒ¶å¶ï¼›èŒ¶æ ‘
 4037. teach[ti:t6]
-vt.½²£»½ÌÓı vt.½ÌÊé
+vt.è®²ï¼›æ•™è‚² vt.æ•™ä¹¦
 4038. teacher['ti:t62]
-n.½ÌÊ¦£¬ÀÏÊ¦£¬ÏÈÉú
+n.æ•™å¸ˆï¼Œè€å¸ˆï¼Œå…ˆç”Ÿ
 4039. teaching['ti:t6i8]
-n.½ÌÑ§£¬½²ÊÚ£»½Ìµ¼
+n.æ•™å­¦ï¼Œè®²æˆï¼›æ•™å¯¼
 4040. team[ti:m]
-n.¶Ó£¬×é
+n.é˜Ÿï¼Œç»„
 4041. tear[ti2. t/2]
-n.ÑÛÀá£¬ÀáÖé
+n.çœ¼æ³ªï¼Œæ³ªç 
 4042. tear[ti2. t/2]
-vt.Ëº¿ª£¬ËºÁÑ
+vt.æ’•å¼€ï¼Œæ’•è£‚
 4043. technical['teknik2l]
-a.¼¼ÊõµÄ£¬¹¤ÒÕµÄ
+a.æŠ€æœ¯çš„ï¼Œå·¥è‰ºçš„
 4044. technician[tek'ni62n]
-n.¼¼ÊõÔ±£¬¼¼Ê¦
+n.æŠ€æœ¯å‘˜ï¼ŒæŠ€å¸ˆ
 4045. technique[tek'ni:k]
-n.¼¼Êõ£¬¼¼ÇÉ£»¼¼ÄÜ
+n.æŠ€æœ¯ï¼ŒæŠ€å·§ï¼›æŠ€èƒ½
 4046. technology[tek'n0l2d7i]
-n.¹¤ÒÕÑ§£¬¹¤ÒÕ£¬¼¼Êõ
+n.å·¥è‰ºå­¦ï¼Œå·¥è‰ºï¼ŒæŠ€æœ¯
 4047. tedious['ti:di2s]
-a.Èß³¤·¦Î¶µÄ£¬³ÁÃÆµÄ
+a.å†—é•¿ä¹å‘³çš„ï¼Œæ²‰é—·çš„
 4048. teenager['ti:neid72]
-n.ÇàÉÙÄê
+n.é’å°‘å¹´
 4049. telegram['teligr9m]
-n.µç±¨
+n.ç”µæŠ¥
 4050. telegraph['teligra:f]
-n.µç±¨»ú£»µç±¨
+n.ç”µæŠ¥æœºï¼›ç”µæŠ¥
 4051. telephone['telif2un]
-n.µç»° vi.´òµç»°
+n.ç”µè¯ vi.æ‰“ç”µè¯
 4052. telescope['telisk2up]
-n.ÍûÔ¶¾µ
+n.æœ›è¿œé•œ
 4053. television['telivi72n]
-n.µçÊÓ£»µçÊÓ»ú
+n.ç”µè§†ï¼›ç”µè§†æœº
 4054. tell[tel]
-vt.½²Êö£»·Ô¸À£»±æ±ğ
+vt.è®²è¿°ï¼›å©å’ï¼›è¾¨åˆ«
 4055. temper['temp2]
-n.ÈÍ¶È£»ĞÄÇé£¬ÇéĞ÷
+n.éŸ§åº¦ï¼›å¿ƒæƒ…ï¼Œæƒ…ç»ª
 4056. temperature['temp2rit62]
-n.ÎÂ¶È£»ÌåÎÂ
+n.æ¸©åº¦ï¼›ä½“æ¸©
 4057. temple['templ]
-n.Ê¥ÌÃ£¬Éñµî£¬ÃíÓî
+n.åœ£å ‚ï¼Œç¥æ®¿ï¼Œåº™å®‡
 4058. temporary['temp2r2ri]
-a.ÔİÊ±µÄ£¬ÁÙÊ±µÄ
+a.æš‚æ—¶çš„ï¼Œä¸´æ—¶çš„
 4059. tempt[tempt]
-vt.ÒıÓÕ£¬ÓÕ»ó£»ÎüÒı
+vt.å¼•è¯±ï¼Œè¯±æƒ‘ï¼›å¸å¼•
 4060. temptation[temp'tei62n]
-n.ÓÕ»ó£¬ÒıÓÕ
+n.è¯±æƒ‘ï¼Œå¼•è¯±
 4061. ten[ten]
-num.Ê®£¬Ê®¸ö
+num.åï¼Œåä¸ª
 4062. tenant['ten2nt]
-n.³Ğµ£ÈË£¬·¿¿Í£¬µè»§
+n.æ‰¿æ‹…äººï¼Œæˆ¿å®¢ï¼Œä½ƒæˆ·
 4063. tend[tend]
-vt.ÕÕ¹Ü£¬ÕÕÁÏ£¬»¤Àí
+vt.ç…§ç®¡ï¼Œç…§æ–™ï¼ŒæŠ¤ç†
 4064. tend[tend]
-vi.×ßÏò£¬Ç÷Ïò£»ÇãÏò
+vi.èµ°å‘ï¼Œè¶‹å‘ï¼›å€¾å‘
 4065. tendency['tend2nsi]
-n.Ç÷Ïò£¬Ç÷ÊÆ£¬ÇãÏò
+n.è¶‹å‘ï¼Œè¶‹åŠ¿ï¼Œå€¾å‘
 4066. tender['tend2]
-a.ÄÛµÄ£»´àÈõµÄ
+a.å«©çš„ï¼›è„†å¼±çš„
 4067. tennis['tenis]
-n.ÍøÇò£¬ÍøÇòÔË¶¯
+n.ç½‘çƒï¼Œç½‘çƒè¿åŠ¨
 4068. tense[tens]
-n.Ê±Ì¬£¬Ê±
+n.æ—¶æ€ï¼Œæ—¶
 4069. tense[tens]
-a.À­½ôµÄ£¬±Á½ôµÄ
+a.æ‹‰ç´§çš„ï¼Œç»·ç´§çš„
 4070. tent[tent]
-n.ÕÊÅñ
+n.å¸ç¯·
 4071. tenth[ten4]
-num.µÚÊ®£»Ê®·ÖÖ®Ò»
+num.ç¬¬åï¼›ååˆ†ä¹‹ä¸€
 4072. term[t2:m]
-n.ÆÚ£»Ñ§ÆÚ£»Ìõ¼ş£»´Ê
+n.æœŸï¼›å­¦æœŸï¼›æ¡ä»¶ï¼›è¯
 4073. terminal['t2:minl]
-a.Ä©¶ËµÄ n.Ä©¶Ë
+a.æœ«ç«¯çš„ n.æœ«ç«¯
 4074. terrible['ter2bl]
-a.¿ÉÅÂµÄ£»¼«¶ÈµÄ
+a.å¯æ€•çš„ï¼›æåº¦çš„
 4075. terrific[t2'rifik]
-a.¿ÉÅÂµÄ£»¼«´óµÄ
+a.å¯æ€•çš„ï¼›æå¤§çš„
 4076. territory['terit2ri]
-n.ÁìÍÁ£¬°æÍ¼£»ÁìÓò
+n.é¢†åœŸï¼Œç‰ˆå›¾ï¼›é¢†åŸŸ
 4077. terror['ter2]
-n.¿Ö²À£¬¾ªº§
+n.ææ€–ï¼ŒæƒŠéª‡
 4078. test[test]
-n.&vt.ÊÔÑé£»¼ìÑé
+n.&vt.è¯•éªŒï¼›æ£€éªŒ
 4079. text[tekst]
-n.Ô­ÎÄ£¬±¾ÎÄ£»¿ÎÎÄ
+n.åŸæ–‡ï¼Œæœ¬æ–‡ï¼›è¯¾æ–‡
 4080. textbook['tekstbuk]
-n.¿Î±¾£¬½Ì¿ÆÊé
+n.è¯¾æœ¬ï¼Œæ•™ç§‘ä¹¦
 4081. textile['tekstail]
-n.·ÄÖ¯Æ· a.·ÄÖ¯µÄ
+n.çººç»‡å“ a.çººç»‡çš„
 4082. than[59n. 52n]
-conj.(±È½Ï¼¶)±È
+conj.(æ¯”è¾ƒçº§)æ¯”
 4083. thank[498k]
-vt.Ğ»Ğ»£¬¸ĞĞ» n.¸ĞĞ»
+vt.è°¢è°¢ï¼Œæ„Ÿè°¢ n.æ„Ÿè°¢
 4084. that[59t]
-a.ÄÇ pron.ÄÇ ad.ÄÇÑù
+a.é‚£ pron.é‚£ ad.é‚£æ ·
 4085. the[52. 5i]
-art.(¶¨¹Ú´Ê)Õâ£¬ÄÇ
+art.(å®šå† è¯)è¿™ï¼Œé‚£
 4086. theatre['4i2t2]
-n.Ï·Ôº£»Ï·¾ç£»½ÌÊÒ
+n.æˆé™¢ï¼›æˆå‰§ï¼›æ•™å®¤
 4087. their[5/2]
-pron.Ëû(Ëı¡¢Ëü)ÃÇµÄ
+pron.ä»–(å¥¹ã€å®ƒ)ä»¬çš„
 4088. theirs[5/2z]
-pron.Ëû(Ëı)ÃÇµÄ¶«Î÷
+pron.ä»–(å¥¹)ä»¬çš„ä¸œè¥¿
 4089. them[5em. 52m]
-pron.(±ö¸ñ)ËûÃÇ
+pron.(å®¾æ ¼)ä»–ä»¬
 4090. themselves[5/m'selvz]
-pron.ËûÃÇ×Ô¼º
+pron.ä»–ä»¬è‡ªå·±
 4091. then[5en]
-ad.µ±Ê±£»È»ºó£»ÄÇÃ´
+ad.å½“æ—¶ï¼›ç„¶åï¼›é‚£ä¹ˆ
 4092. theoretical[4i2'retik2l]
-a.ÀíÂÛ(ÉÏ)µÄ
+a.ç†è®º(ä¸Š)çš„
 4093. theory['4i2ri]
-n.ÀíÂÛ£»Ñ§Ëµ£»Òâ¼û
+n.ç†è®ºï¼›å­¦è¯´ï¼›æ„è§
 4094. there[5/2]
-ad.ÔÚÄÇÀï£»ÔÚÄÇµãÉÏ
+ad.åœ¨é‚£é‡Œï¼›åœ¨é‚£ç‚¹ä¸Š
 4095. thereby['5/2'bai]
-ad.Òò´Ë£¬´Ó¶ø£¬ÓÉ´Ë
+ad.å› æ­¤ï¼Œä»è€Œï¼Œç”±æ­¤
 4096. therefore['5/2f0:]
-ad.Òò´Ë£¬ËùÒÔ
+ad.å› æ­¤ï¼Œæ‰€ä»¥
 4097. thermometer[42'm0mit2]
-n.ÎÂ¶È¼Æ£¬º®Êî±í
+n.æ¸©åº¦è®¡ï¼Œå¯’æš‘è¡¨
 4098. these[5i:z]
-a.&pron.ÕâĞ©
+a.&pron.è¿™äº›
 4099. they[5ei]
-pron.(Ö÷¸ñ)Ëû(Ëı)ÃÇ
+pron.(ä¸»æ ¼)ä»–(å¥¹)ä»¬
 4100. thick[4ik]
-a.ºñµÄ£»ÃÜµÄ£»Å¨
+a.åšçš„ï¼›å¯†çš„ï¼›æµ“
 4101. thickness['4iknis]
-n.ºñ(¶È)£»ÃÜ(¶È)
+n.åš(åº¦)ï¼›å¯†(åº¦)
 4102. thief[4i:f]
-n.ÇÔÔô£¬ÍµÇÔ·¸
+n.çªƒè´¼ï¼Œå·çªƒçŠ¯
 4103. thin[4in]
-a.±¡µÄ£»µ­µÄ vi.±ä±¡
+a.è–„çš„ï¼›æ·¡çš„ vi.å˜è–„
 4104. thing[4i8]
-n.Îï£»ÓÃÆ·£»ÊÂ£»Çé¿ö
+n.ç‰©ï¼›ç”¨å“ï¼›äº‹ï¼›æƒ…å†µ
 4105. think[4i8k]
-vt.Ïë£»ÏëÒª£»ÈÏÎª
+vt.æƒ³ï¼›æƒ³è¦ï¼›è®¤ä¸º
 4106. third[42:d]
-num.µÚÈı£»Èı·ÖÖ®Ò»
+num.ç¬¬ä¸‰ï¼›ä¸‰åˆ†ä¹‹ä¸€
 4107. thirdly['42:dli]
-ad.µÚÈı
+ad.ç¬¬ä¸‰
 4108. thirst[42:st]
-n.¿Ê£¬¿Ú¿Ê£»¿ÊÍû
+n.æ¸´ï¼Œå£æ¸´ï¼›æ¸´æœ›
 4109. thirsty['42:sti]
-a.¿ÊµÄ£»¿ÊÍûµÄ
+a.æ¸´çš„ï¼›æ¸´æœ›çš„
 4110. thirteen['42:'ti:n]
-num.Ê®Èı£¬Ê®Èı¸ö
+num.åä¸‰ï¼Œåä¸‰ä¸ª
 4111. thirty['42:ti]
-num.ÈıÊ®£¬ÈıÊ®¸ö
+num.ä¸‰åï¼Œä¸‰åä¸ª
 4112. this[5is]
-a.Õâ£»½ñ pron.Õâ
+a.è¿™ï¼›ä»Š pron.è¿™
 4113. thorn[40:n]
-n.´Ì£¬¼¬£»¾£¼¬£»İğŞ¼
+n.åˆºï¼Œæ£˜ï¼›è†æ£˜ï¼›è’ºè—œ
 4114. thorough['43r2]
-a.³¹µ×µÄ£»Ïê¾¡µÄ
+a.å½»åº•çš„ï¼›è¯¦å°½çš„
 4115. those[52uz]
-pron.ÄÇĞ©
+pron.é‚£äº›
 4116. though[52u]
-conj.ËäÈ» ad.¿ÉÊÇ
+conj.è™½ç„¶ ad.å¯æ˜¯
 4117. thought[40:t]
-n.Ë¼Ïë£»Ë¼Î¬£»Ïë·¨
+n.æ€æƒ³ï¼›æ€ç»´ï¼›æƒ³æ³•
 4118. thoughtful['40:tful]
-a.³ÁË¼µÄ£»ÌåÌùµÄ
+a.æ²‰æ€çš„ï¼›ä½“è´´çš„
 4119. thousand['4auz2nd]
-num.Ç§£¬Ç§¸ö n.ÎŞÊı
+num.åƒï¼Œåƒä¸ª n.æ— æ•°
 4120. thread[4red]
-n.Ïß£»Ë¿£»ÂİÎÆ£»Í·Ğ÷
+n.çº¿ï¼›ä¸ï¼›èºçº¹ï¼›å¤´ç»ª
 4121. threat[4ret]
-n.ÍşĞ²£¬¿ÖÏÅ£¬Ğ×Õ×
+n.å¨èƒï¼Œæå“ï¼Œå‡¶å…†
 4122. threaten['4retn]
-vt.&vi.ÍşĞ²£¬¿ÖÏÅ
+vt.&vi.å¨èƒï¼Œæå“
 4123. three[4ri:]
-num.Èı£¬Èı¸ö
+num.ä¸‰ï¼Œä¸‰ä¸ª
 4124. thrill[4ril]
-n.Ò»Õó¼¤¶¯
+n.ä¸€é˜µæ¿€åŠ¨
 4125. thrive[4raiv]
-vi.ĞËÍú£¬·±ÈÙ£¬ÍúÊ¢
+vi.å…´æ—ºï¼Œç¹è£ï¼Œæ—ºç››
 4126. throat[4r2ut]
-n.ÑÊºí£¬ºíÁü£»É¤Òô
+n.å’½å–‰ï¼Œå–‰å’™ï¼›å—“éŸ³
 4127. throne[4r2un]
-n.±¦×ù£¬Óù×ù£»ÍõÎ»
+n.å®åº§ï¼Œå¾¡åº§ï¼›ç‹ä½
 4128. throng[4r08]
-n.Èº£¬ÈËÈº vt.¼·Âú
+n.ç¾¤ï¼Œäººç¾¤ vt.æŒ¤æ»¡
 4129. through[4ru:]
-prep.´©¹ıad.´ÓÍ·µ½Î²
+prep.ç©¿è¿‡ad.ä»å¤´åˆ°å°¾
 4130. throughout[4ru:'aut]
-prep.±é¼° ad.µ½´¦
+prep.éåŠ ad.åˆ°å¤„
 4131. throw[4r2u]
-vt.Í¶£¬ÖÀ£¬Å×£¬ÈÓ
+vt.æŠ•ï¼Œæ·ï¼ŒæŠ›ï¼Œæ‰”
 4132. thrust[4r3st]
-vt.²å£¬´Ì n.²å£»·í´Ì
+vt.æ’ï¼Œåˆº n.æ’ï¼›è®½åˆº
 4133. thumb[43m]
-n.(´ó)Ä´Ö¸
+n.(å¤§)æ‹‡æŒ‡
 4134. thunder['43nd2]
-n.À× vi.´òÀ× vt.ºğ³ö
+n.é›· vi.æ‰“é›· vt.å¼å‡º
 4135. Thursday['42:zdi]
-n.ĞÇÆÚËÄ
+n.æ˜ŸæœŸå››
 4136. thus[53s]
-ad.Èç´Ë£¬ÕâÑù£»Òò¶ø
+ad.å¦‚æ­¤ï¼Œè¿™æ ·ï¼›å› è€Œ
 4137. tick[tik]
-n.µÎ´ğÉù£»¼ÇºÅ
+n.æ»´ç­”å£°ï¼›è®°å·
 4138. ticket['tikit]
-n.Æ±£¬È¯£»¸ÙÁì£»´«Æ±
+n.ç¥¨ï¼Œåˆ¸ï¼›çº²é¢†ï¼›ä¼ ç¥¨
 4139. tide[taid]
-n.³±£¬³±Ï«£»³±Á÷
+n.æ½®ï¼Œæ½®æ±ï¼›æ½®æµ
 4140. tidy['taidi]
-a.Õû½àµÄ£»ÕûÆëµÄ
+a.æ•´æ´çš„ï¼›æ•´é½çš„
 4141. tie[tai]
-n.Áì´ø£»ÁªÏµ vt.Ïµ
+n.é¢†å¸¦ï¼›è”ç³» vt.ç³»
 4142. tiger['taig2]
-n.»¢
+n.è™
 4143. tight[tait]
-a.½ôµÄ£»½ôÉíµÄ
+a.ç´§çš„ï¼›ç´§èº«çš„
 4144. till[til]
-prep.conj.Ö±µ½¡­ÎªÖ¹
+prep.conj.ç›´åˆ°â€¦ä¸ºæ­¢
 4145. timber['timb2]
-n.Ä¾²Ä£¬Ä¾ÁÏ
+n.æœ¨æï¼Œæœ¨æ–™
 4146. time[taim]
-n.Ê±¼ä£»Ê±»ú£»´Î£¬»Ø
+n.æ—¶é—´ï¼›æ—¶æœºï¼›æ¬¡ï¼Œå›
 4147. timetable['taimteibl]
-n.Ê±¼ä±í£¬Ê±¿Ì±í
+n.æ—¶é—´è¡¨ï¼Œæ—¶åˆ»è¡¨
 4148. timid['timid]
-a.µ¨ÇÓµÄ£»ĞßÇÓµÄ
+a.èƒ†æ€¯çš„ï¼›ç¾æ€¯çš„
 4149. tin[tin]
-n.Îı£»¹ŞÍ·
+n.é”¡ï¼›ç½å¤´
 4150. tiny['taini]
-a.Î¢Ğ¡µÄ£¬¼«Ğ¡µÄ
+a.å¾®å°çš„ï¼Œæå°çš„
 4151. tip[tip]
-n.ÉÒ£¬Ä©¶Ë£¬¼â£¬¼â¶Ë
+n.æ¢¢ï¼Œæœ«ç«¯ï¼Œå°–ï¼Œå°–ç«¯
 4152. tip[tip]
-vt.Çá»÷ vi.¸øĞ¡·Ñ
+vt.è½»å‡» vi.ç»™å°è´¹
 4153. tire['tai2]
-vi.Æ£ÀÍ£¬ÀÛ£»Ñá¾ë
+vi.ç–²åŠ³ï¼Œç´¯ï¼›åŒå€¦
 4154. tired['tai2d]
-a.Æ£ÀÍµÄ£»Ñá¾ëµÄ
+a.ç–²åŠ³çš„ï¼›åŒå€¦çš„
 4155. tissue['tisju:]
-n.±¡¾î£»±¡Ö½£»×éÖ¯
+n.è–„ç»¢ï¼›è–„çº¸ï¼›ç»„ç»‡
 4156. title['taitl]
-n.±êÌâ£¬ÌâÄ¿£»³ÆºÅ
+n.æ ‡é¢˜ï¼Œé¢˜ç›®ï¼›ç§°å·
 4157. to[tu:. tu. t2]
-prep.µ½£¬Ïò£¬´ïµ½
+prep.åˆ°ï¼Œå‘ï¼Œè¾¾åˆ°
 4158. toast[t2ust]
-n.¿¾Ãæ°ü vt.ºæ£¬¿¾
+n.çƒ¤é¢åŒ… vt.çƒ˜ï¼Œçƒ¤
 4159. toast[t2ust]
-n.×£¾Æ£»×£¾Æ´Ê
+n.ç¥é…’ï¼›ç¥é…’è¯
 4160. tobacco[t2'b9k2u]
-n.ÑÌ²İ£¬ÑÌÒ¶
+n.çƒŸè‰ï¼ŒçƒŸå¶
 4161. today[t2'dei]
-ad.ÔÚ½ñÌì£»ÏÖÔÚ
+ad.åœ¨ä»Šå¤©ï¼›ç°åœ¨
 4162. toe[t2u]
-n.½ÅÖº£¬×ã¼â
+n.è„šè¶¾ï¼Œè¶³å°–
 4163. together[t2'ge52]
-ad.¹²Í¬£¬Ò»Æğ
+ad.å…±åŒï¼Œä¸€èµ·
 4164. toilet['t0ilit]
-n.²ŞËù£¬îÂÏ´ÊÒ£¬Ô¡ÊÒ
+n.å•æ‰€ï¼Œç›¥æ´—å®¤ï¼Œæµ´å®¤
 4165. tolerance['t0l2r2ns]
-n.ÈÌÊÜ£¬ÈİÈÌ£»¹«²î
+n.å¿å—ï¼Œå®¹å¿ï¼›å…¬å·®
 4166. tolerate['t0l2reit]
-vt.ÈÌÊÜ£¬ÈİÈÌ£¬¿íË¡
+vt.å¿å—ï¼Œå®¹å¿ï¼Œå®½æ•
 4167. tomato[t2'ma:t2u]
-n.·¬ÇÑ£¬Î÷ºìÊÁ
+n.ç•ªèŒ„ï¼Œè¥¿çº¢æŸ¿
 4168. tomb[tu:m]
-n.·Ø£¬Ú£
+n.åŸï¼Œå†¢
 4169. tomorrow[t2'm0r2u]
-ad.ÔÚÃ÷Ìì n.Ã÷Ìì
+ad.åœ¨æ˜å¤© n.æ˜å¤©
 4170. ton[t3n]
-n.¶Ö£»´óÁ¿
+n.å¨ï¼›å¤§é‡
 4171. tone[t2un]
-n.Òô£»Ç»µ÷£»Éùµ÷
+n.éŸ³ï¼›è…”è°ƒï¼›å£°è°ƒ
 4172. tongue[t38]
-n.Éà£¬ÉàÍ·£»ÓïÑÔ
+n.èˆŒï¼ŒèˆŒå¤´ï¼›è¯­è¨€
 4173. tonight[t2'nait]
-ad.ÔÚ½ñÒ¹ n.½ñÒ¹
+ad.åœ¨ä»Šå¤œ n.ä»Šå¤œ
 4174. too[tu:]
-ad.Ò²£¬»¹£»Ì«£¬¹ı·Ö
+ad.ä¹Ÿï¼Œè¿˜ï¼›å¤ªï¼Œè¿‡åˆ†
 4175. tool[tu:l]
-n.¹¤¾ß£¬Æ÷¾ß£¬ÓÃ¾ß
+n.å·¥å…·ï¼Œå™¨å…·ï¼Œç”¨å…·
 4176. tooth[tu:4]
-n.ÑÀ³İ
+n.ç‰™é½¿
 4177. top[t0p]
-n.¶¥£»Ê×Î» a.¶¥µÄ
+n.é¡¶ï¼›é¦–ä½ a.é¡¶çš„
 4178. topic['t0pik]
-n.ÌâÄ¿£¬ÂÛÌâ£¬»°Ìâ
+n.é¢˜ç›®ï¼Œè®ºé¢˜ï¼Œè¯é¢˜
 4179. torch[t0:t6]
-n.»ğ¾æ£¬»ğ°Ñ£»ÊÖµçÍ²
+n.ç«ç‚¬ï¼Œç«æŠŠï¼›æ‰‹ç”µç­’
 4180. torrent['t0r2nt]
-n.±¼Á÷£¬¼¤Á÷£¬ºéÁ÷
+n.å¥”æµï¼Œæ¿€æµï¼Œæ´ªæµ
 4181. tortoise['t0:t2s]
-n.¹ê£¬ÎÚ¹ê
+n.é¾Ÿï¼Œä¹Œé¾Ÿ
 4182. torture['t0:t62]
-n.¿½ÎÊ£»ÕÛÄ¥ vt.¿½´ò
+n.æ‹·é—®ï¼›æŠ˜ç£¨ vt.æ‹·æ‰“
 4183. toss[t0s]
-vt.&vi.ÈÓ£¬Å×£¬ÖÀ
+vt.&vi.æ‰”ï¼ŒæŠ›ï¼Œæ·
 4184. total['t2utl]
-a.×ÜµÄ vi.ºÏ¼Æ£¬×Ü¹²
+a.æ€»çš„ vi.åˆè®¡ï¼Œæ€»å…±
 4185. touch[t3t6]
-vt.´¥Ãş£»´¥¶¯ n.´¥
+vt.è§¦æ‘¸ï¼›è§¦åŠ¨ n.è§¦
 4186. tough[t3f]
-a.¼áÈÍµÄ£»½¡×³µÄ
+a.åšéŸ§çš„ï¼›å¥å£®çš„
 4187. tour[tu2]
-n.&vi.ÂÃĞĞ£¬ÓÎÀú
+n.&vi.æ—…è¡Œï¼Œæ¸¸å†
 4188. tourist['tu2rist]
-n.ÂÃÓÎÕß£¬¹Û¹âÕß
+n.æ—…æ¸¸è€…ï¼Œè§‚å…‰è€…
 4189. toward(s)[t2'w0:d(z)]
-prep.Ïò£»¶ÔÓÚ£»½Ó½ü
+prep.å‘ï¼›å¯¹äºï¼›æ¥è¿‘
 4190. towel['tau2l]
-n.Ã«½í£¬ÊÖ½í
+n.æ¯›å·¾ï¼Œæ‰‹å·¾
 4191. tower['tau2]
-n.Ëş vi.ÒÙÁ¢£¬¸ßËÊ
+n.å¡” vi.å±¹ç«‹ï¼Œé«˜è€¸
 4192. town[taun]
-n.Õò£¬ÊĞÕò£¬³ÇÕò
+n.é•‡ï¼Œå¸‚é•‡ï¼ŒåŸé•‡
 4193. toy[t0i]
-n.Íæ¾ß£¬ÍæÎï
+n.ç©å…·ï¼Œç©ç‰©
 4194. trace[treis]
-n.ºÛ¼££»Ë¿ºÁ vt.¸ú×Ù
+n.ç—•è¿¹ï¼›ä¸æ¯« vt.è·Ÿè¸ª
 4195. track[tr9k]
-n.ĞĞ×Ù£»Â·¾¶£»¹ìµÀ
+n.è¡Œè¸ªï¼›è·¯å¾„ï¼›è½¨é“
 4196. tractor['tr9kt2]
-n.ÍÏÀ­»ú£»Ç£Òı³µ
+n.æ‹–æ‹‰æœºï¼›ç‰µå¼•è½¦
 4197. trade[treid]
-n.Ã³Ò×£»Ö°Òµ vi.½»Ò×
+n.è´¸æ˜“ï¼›èŒä¸š vi.äº¤æ˜“
 4198. tradition[tr2'di62n]
-n.´«Í³£¬¹ßÀı
+n.ä¼ ç»Ÿï¼Œæƒ¯ä¾‹
 4199. traditional[tr2'di62nl]
-a.´«Í³µÄ£¬¹ßÀıµÄ
+a.ä¼ ç»Ÿçš„ï¼Œæƒ¯ä¾‹çš„
 4200. traffic['tr9fik]
-n.½»Í¨£¬Í¨ĞĞ£»½»Í¨Á¿
+n.äº¤é€šï¼Œé€šè¡Œï¼›äº¤é€šé‡
 4201. tragedy['tr9d7idi]
-n.±¯¾ç£»²ÒÊÂ£¬²Ò°¸
+n.æ‚²å‰§ï¼›æƒ¨äº‹ï¼Œæƒ¨æ¡ˆ
 4202. trail[treil]
-n.ºÛ¼££»Ğ¡¾¶ vt.¸ú×Ù
+n.ç—•è¿¹ï¼›å°å¾„ vt.è·Ÿè¸ª
 4203. train[trein]
-vt.ÅàÑø n.ÁĞ³µ£»¶ÓÁĞ
+vt.åŸ¹å…» n.åˆ—è½¦ï¼›é˜Ÿåˆ—
 4204. training['treini8]
-n.ÑµÁ·£¬¶ÍÁ¶£¬ÅàÑø
+n.è®­ç»ƒï¼Œé”»ç‚¼ï¼ŒåŸ¹å…»
 4205. traitor['treit2]
-n.ÅÑÍ½£¬Âô¹úÔô
+n.å›å¾’ï¼Œå–å›½è´¼
 4206. tram[tr9m]
-n.(ÓĞ¹ì)µç³µ
+n.(æœ‰è½¨)ç”µè½¦
 4207. tramp[tr9mp]
-n.Á÷ÀËÕß£¬ÓÎÃñ
+n.æµæµªè€…ï¼Œæ¸¸æ°‘
 4208. transfer[tr9ns'f2:]
-vt.×ªÒÆ£»µ÷¶¯vi.×ªÒÆ
+vt.è½¬ç§»ï¼›è°ƒåŠ¨vi.è½¬ç§»
 4209. transform[tr9ns'f0:m]
-vt.¸Ä±ä£»¸ÄÔì£»±ä»»
+vt.æ”¹å˜ï¼›æ”¹é€ ï¼›å˜æ¢
 4210. transformation[tr9nsf2'mei62n]
-n.±ä»¯£»¸ÄÔì£»×ª±ä
+n.å˜åŒ–ï¼›æ”¹é€ ï¼›è½¬å˜
 4211. transformer[tr9ns'f0:m2]
-n.±äÑ¹Æ÷£¬×ª»»Æ÷
+n.å˜å‹å™¨ï¼Œè½¬æ¢å™¨
 4212. transistor[tr9n'sist2]
-n.¾§Ìå¹Ü
+n.æ™¶ä½“ç®¡
 4213. translate[tr9ns'leit]
-vt.·­Òë£¬Òë vt.·­Òë
+vt.ç¿»è¯‘ï¼Œè¯‘ vt.ç¿»è¯‘
 4214. translation[tr9ns'lei62n]
-n.·­Òë£»ÒëÎÄ£¬Òë±¾
+n.ç¿»è¯‘ï¼›è¯‘æ–‡ï¼Œè¯‘æœ¬
 4215. transmission[tr9nz'mi62n]
-n.´«ËÍ£»´«¶¯£»·¢Éä
+n.ä¼ é€ï¼›ä¼ åŠ¨ï¼›å‘å°„
 4216. transmit[tr9nz'mit]
-vt.´«ËÍ£¬´«´ï£»·¢Éä
+vt.ä¼ é€ï¼Œä¼ è¾¾ï¼›å‘å°„
 4217. transparent[tr9ns'p/2r2nt]
-a.Í¸Ã÷µÄ£»Ò×Ê¶ÆÆµÄ
+a.é€æ˜çš„ï¼›æ˜“è¯†ç ´çš„
 4218. transport[tr9ns'p0:t]
-vt.ÔËÊä n.ÔËÊä
+vt.è¿è¾“ n.è¿è¾“
 4219. transportation[tr9nsp0:'tei62n]
-n.ÔËÊä£¬ÔËËÍ£¬¿ÍÔË
+n.è¿è¾“ï¼Œè¿é€ï¼Œå®¢è¿
 4220. trap[tr9p]
-n.ÏİÚå£»¹î¼Æ vt.ÓÕÆ­
+n.é™·é˜±ï¼›è¯¡è®¡ vt.è¯±éª—
 4221. travel['tr9vl]
-vi.&vi.&n.ÂÃĞĞ
+vi.&vi.&n.æ—…è¡Œ
 4222. tray[trei]
-n.(Ç³)ÅÌ£¬ÍĞÅÌ£¬µú
+n.(æµ…)ç›˜ï¼Œæ‰˜ç›˜ï¼Œç¢Ÿ
 4223. treason['tri:zn]
-n.Ä±·´£¬Í¨µĞ£¬ÅÑ¹ú×ï
+n.è°‹åï¼Œé€šæ•Œï¼Œå›å›½ç½ª
 4224. treasure['tre72]
-n.²Æ¸»£»Õä±¦ vt.ÕäÊÓ
+n.è´¢å¯Œï¼›çå® vt.çè§†
 4225. treat[tri:t]
-vt.¶Ô´ı£»´¦Àí n.¿î´ı
+vt.å¯¹å¾…ï¼›å¤„ç† n.æ¬¾å¾…
 4226. treatment['tri:tm2nt]
-n.´ıÓö£»ÖÎÁÆ£¬ÁÆ·¨
+n.å¾…é‡ï¼›æ²»ç–—ï¼Œç–—æ³•
 4227. treaty['tri:ti]
-n.ÌõÔ¼£»Ğ­Òé£¬Ğ­¶¨
+n.æ¡çº¦ï¼›åè®®ï¼Œåå®š
 4228. tree[tri:]
-n.Ê÷
+n.æ ‘
 4229. tremble['trembl]
-vi.·¢¶¶£¬¶ßàÂ£»Ò¡¶¯
+vi.å‘æŠ–ï¼Œå“†å—¦ï¼›æ‘‡åŠ¨
 4230. tremendous[tri'mend2s]
-a.¼«´óµÄ£¬·Ç³£µÄ
+a.æå¤§çš„ï¼Œéå¸¸çš„
 4231. trend[trend]
-vi.ÉìÏò£»ÇãÏò n.ÇãÏò
+vi.ä¼¸å‘ï¼›å€¾å‘ n.å€¾å‘
 4232. trial['trai2l]
-n.ÊÔ£¬ÊÔÑé£»ÉóÅĞ
+n.è¯•ï¼Œè¯•éªŒï¼›å®¡åˆ¤
 4233. triangle['trai9ngl]
-n.Èı½Ç(ĞÎ)
+n.ä¸‰è§’(å½¢)
 4234. tribe[traib]
-n.²¿Âä£¬×Ú×å
+n.éƒ¨è½ï¼Œå®—æ—
 4235. trick[trik]
-n.¹î¼Æ£»ÇÏÃÅ vt.ºåÆ­
+n.è¯¡è®¡ï¼›çªé—¨ vt.å“„éª—
 4236. trifle['traifl]
-n.Ğ¡ÊÂ£¬ËöÊÂ£»ÉÙĞí
+n.å°äº‹ï¼Œçäº‹ï¼›å°‘è®¸
 4237. trim[trim]
-a.ÕûÆëµÄ vt.Ê¹ÕûÆë
+a.æ•´é½çš„ vt.ä½¿æ•´é½
 4238. trip[trip]
-vi.°í£»Ê§×ã vt .°íµ¹
+vi.ç»Šï¼›å¤±è¶³ vt .ç»Šå€’
 4239. triumph['trai2mf]
-n.¿­Ğı£»Ê¤Àû vi.³É¹¦
+n.å‡¯æ—‹ï¼›èƒœåˆ© vi.æˆåŠŸ
 4240. troop[tru:p]
-n.¾ü¶Ó£»Ò»Èº£¬´óÁ¿
+n.å†›é˜Ÿï¼›ä¸€ç¾¤ï¼Œå¤§é‡
 4241. tropical['tr0pik2l]
-a.ÈÈ´øµÄ
+a.çƒ­å¸¦çš„
 4242. trouble['tr3bl]
-n.·³ÄÕ£»À§ÄÑ vi.·³ÄÕ
+n.çƒ¦æ¼ï¼›å›°éš¾ vi.çƒ¦æ¼
 4243. troublesome['tr3bls2m]
-a.ÁîÈË·³ÄÕµÄ£»Âé·³µÄ
+a.ä»¤äººçƒ¦æ¼çš„ï¼›éº»çƒ¦çš„
 4244. trousers['trauz2z]
-n.¿ã×Ó£¬³¤¿ã
+n.è£¤å­ï¼Œé•¿è£¤
 4245. truck[tr3k]
-n.¿¨³µ£¬ÔØÖØÆû³µ
+n.å¡è½¦ï¼Œè½½é‡æ±½è½¦
 4246. true[tru:]
-a.ÕæµÄ£»ÖÒÊµµÄ
+a.çœŸçš„ï¼›å¿ å®çš„
 4247. truly['tru:li]
-ad.ÕæÕıµØ£»ÖÒÊµµØ
+ad.çœŸæ­£åœ°ï¼›å¿ å®åœ°
 4248. trumpet['tr3mpit]
-n.À®°È£¬Ğ¡ºÅ
+n.å–‡å­ï¼Œå°å·
 4249. trunk[tr38k]
-n.Ê÷¸É£»´óÒÂÏä£¬Æ¤Ïä
+n.æ ‘å¹²ï¼›å¤§è¡£ç®±ï¼Œçš®ç®±
 4250. trust[tr3st]
-n.ĞÅÈÎ vt.ÏàĞÅ£»Î¯ÍĞ
+n.ä¿¡ä»» vt.ç›¸ä¿¡ï¼›å§”æ‰˜
 4251. truth[tru:4]
-n.ÕæÀí£»ÕæÊµ£»ÕæÊµĞÔ
+n.çœŸç†ï¼›çœŸå®ï¼›çœŸå®æ€§
 4252. try[trai]
-vt.ÊÔ£»ÉóÎÊ vi.³¢ÊÔ
+vt.è¯•ï¼›å®¡é—® vi.å°è¯•
 4253. tub[t3b]
-n.Í°£¬Åè£¬Ô¡¸×£¬Ô¡Åè
+n.æ¡¶ï¼Œç›†ï¼Œæµ´ç¼¸ï¼Œæµ´ç›†
 4254. tube[tju:b]
-n.¹Ü£»µç×Ó¹Ü£¬ÏÔÏñ¹Ü
+n.ç®¡ï¼›ç”µå­ç®¡ï¼Œæ˜¾åƒç®¡
 4255. tuck[t3k]
-vt.ÕÛ¶Ì£¬¾íÆğ£»Èû
+vt.æŠ˜çŸ­ï¼Œå·èµ·ï¼›å¡
 4256. Tuesday['tju:zdi]
-n.ĞÇÆÚ¶ş
+n.æ˜ŸæœŸäºŒ
 4257. tuition[tju:'i62n]
-n.½Ì£¬½Ì»å£»Ñ§·Ñ
+n.æ•™ï¼Œæ•™è¯²ï¼›å­¦è´¹
 4258. tumble['t3mbl]
-vi.Ë¤µ¹£¬µøµ¹£»´ò¹ö
+vi.æ‘”å€’ï¼Œè·Œå€’ï¼›æ‰“æ»š
 4259. tune[tju:n]
-n.µ÷×Ó£»ºÍĞ³ vt.µ÷Ğ³
+n.è°ƒå­ï¼›å’Œè° vt.è°ƒè°
 4260. tunnel['t3nl]
-n.ËíµÀ£¬¿ÓµÀ£¬µØµÀ
+n.éš§é“ï¼Œå‘é“ï¼Œåœ°é“
 4261. turbine['t2:bin]
-n.Ò¶ÂÖ»ú£¬ÆûÂÖ»ú
+n.å¶è½®æœºï¼Œæ±½è½®æœº
 4262. turbulent['t2:bjul2nt]
-a.É§¶¯µÄ£¬É§ÂÒµÄ
+a.éªšåŠ¨çš„ï¼Œéªšä¹±çš„
 4263. turkey['t2:ki]
-n.»ğ¼¦£»»ğ¼¦Èâ
+n.ç«é¸¡ï¼›ç«é¸¡è‚‰
 4264. turn[t2:n]
-vt.×ª£»·­ vi.×ª¶¯
+vt.è½¬ï¼›ç¿» vi.è½¬åŠ¨
 4265. turning['t2:ni8]
-n.Ğı×ª£»±äÏò£»×ªÍä´¦
+n.æ—‹è½¬ï¼›å˜å‘ï¼›è½¬å¼¯å¤„
 4266. turnip['t2:nip]
-n.ÂÜ²·£¬Îßİ¼
+n.èåœï¼ŒèŠœè
 4267. tutor['tju:t2]
-n.¼ÒÍ¥½ÌÊ¦£»µ¼Ê¦
+n.å®¶åº­æ•™å¸ˆï¼›å¯¼å¸ˆ
 4268. twelfth[twelf4]
-num.µÚÊ®¶ş
+num.ç¬¬åäºŒ
 4269. twelve[twelv]
-num.Ê®¶ş£¬Ê®¶ş¸ö
+num.åäºŒï¼ŒåäºŒä¸ª
 4270. twentieth['twentii4]
-num.µÚ¶şÊ®
+num.ç¬¬äºŒå
 4271. twenty['twenti]
-num.¶şÊ®£¬¶şÊ®¸ö
+num.äºŒåï¼ŒäºŒåä¸ª
 4272. twice[twais]
-ad.Á½´Î£¬Á½±¶
+ad.ä¸¤æ¬¡ï¼Œä¸¤å€
 4273. twin[twin]
-a.ÂÏÉúµÄ n.ÂÏÉú¶ù
+a.å­ªç”Ÿçš„ n.å­ªç”Ÿå„¿
 4274. twinkle['twi8kl]
-vi.ÉÁË¸£¬ÉÁÒ«
+vi.é—ªçƒï¼Œé—ªè€€
 4275. twist[twist]
-vt.Äí£»Å¡ vi.&n.Å¤Íä
+vt.æ»ï¼›æ‹§ vi.&n.æ‰­å¼¯
 4276. two[tu:]
-num.¶ş£¬Á½¸ö
+num.äºŒï¼Œä¸¤ä¸ª
 4277. type[taip]
-n.ĞÍ£¬ÀàĞÍ vi.´ò×Ö
+n.å‹ï¼Œç±»å‹ vi.æ‰“å­—
 4278. typewriter['taiprait2]
-n.´ò×Ö»ú
+n.æ‰“å­—æœº
 4279. typhoon[tai'fu:n]
-n.Ì¨·ç
+n.å°é£
 4280. typical['tipik2l]
-a.µäĞÍµÄ£¬´ú±íĞÔµÄ
+a.å…¸å‹çš„ï¼Œä»£è¡¨æ€§çš„
 4281. typist['taipist]
-n.´ò×ÖÔ±
+n.æ‰“å­—å‘˜
 4282. tyre['tai2]
-n.ÂÖÌ¥£¬³µÌ¥
+n.è½®èƒï¼Œè½¦èƒ
 4283. ugly['3gli]
-a.³óÂªµÄ£»¿ÉÅÂµÄ
+a.ä¸‘é™‹çš„ï¼›å¯æ€•çš„
 4284. ultimate['3ltimit]
-a.×îºóµÄ£¬×îÖÕµÄ
+a.æœ€åçš„ï¼Œæœ€ç»ˆçš„
 4285. ultimately['3ltimitli]
-ad.×îÖÕ£¬×îºó
+ad.æœ€ç»ˆï¼Œæœ€å
 4286. umbrella[3m'brel2]
-n.É¡£¬ÓêÉ¡
+n.ä¼ï¼Œé›¨ä¼
 4287. unable['3n'eibl]
-a.²»ÄÜµÄ£¬²»»áµÄ
+a.ä¸èƒ½çš„ï¼Œä¸ä¼šçš„
 4288. unbearable[3n'b/2r2bl]
-a.ÄÑ¿°µÄ£¬ÈÌÊÜ²»ÁËµÄ
+a.éš¾å ªçš„ï¼Œå¿å—ä¸äº†çš„
 4289. uncertain[3n's2:tn]
-a.ÎŞ³£µÄ£»²»È·¶¨µÄ
+a.æ— å¸¸çš„ï¼›ä¸ç¡®å®šçš„
 4290. uncle['38kl]
-n.²®¸¸£¬Êå¸¸£¬¾Ë¸¸
+n.ä¼¯çˆ¶ï¼Œå”çˆ¶ï¼Œèˆ…çˆ¶
 4291. uncomfortable[3n'k3mf2t2bl]
-a.²»Êæ·şµÄ£»²»×ÔÔÚµÄ
+a.ä¸èˆ’æœçš„ï¼›ä¸è‡ªåœ¨çš„
 4292. unconscious[3n'k062s]
-a.²»Ê¡ÈËÊÂµÄ
+a.ä¸çœäººäº‹çš„
 4293. uncover[3n'k3v2]
-vt.½Ò¿ª¡­µÄ¸Ç×Ó
+vt.æ­å¼€â€¦çš„ç›–å­
 4294. under['3nd2]
-prep.ÔÚ¡­ÏÂÃæ£»µÍÓÚ.
+prep.åœ¨â€¦ä¸‹é¢ï¼›ä½äº.
 4295. undergo[3nd2'g2u]
-vt.¾­Àú£¬¾­ÊÜ£¬ÈÌÊÜ
+vt.ç»å†ï¼Œç»å—ï¼Œå¿å—
 4296. undergraduate[3nd2'gr9djuit]
-n.´óÑ§ËÁÒµÉú
+n.å¤§å­¦è‚†ä¸šç”Ÿ
 4297. underground['3nd2graund]
-a.µØÏÂµÄ£»ÃØÃÜµÄ
+a.åœ°ä¸‹çš„ï¼›ç§˜å¯†çš„
 4298. underline[3nd2'lain]
-vt.»®ÏßÓÚ¡­Ö®ÏÂ
+vt.åˆ’çº¿äºâ€¦ä¹‹ä¸‹
 4299. underneath[3nd2'ni:4]
-ad.ÔÚÏÂÃæ£¬ÔÚµ×ÏÂ
+ad.åœ¨ä¸‹é¢ï¼Œåœ¨åº•ä¸‹
 4300. understand[3nd2'st9nd]
-vt.¶®£»»ñÏ¤ vi.¶®µÃ
+vt.æ‡‚ï¼›è·æ‚‰ vi.æ‡‚å¾—
 4301. understanding[3nd2'st9ndi8]
-n.Àí½â£»Àí½âÁ¦£»Ğ­¶¨
+n.ç†è§£ï¼›ç†è§£åŠ›ï¼›åå®š
 4302. undertake[3nd2'teik]
-vt.´ÓÊÂ£»³Ğµ££»±£Ö¤
+vt.ä»äº‹ï¼›æ‰¿æ‹…ï¼›ä¿è¯
 4303. undertaking[3nd2'teiki8]
-n.ÈÎÎñ£¬ÊÂÒµ£»ĞíÅµ
+n.ä»»åŠ¡ï¼Œäº‹ä¸šï¼›è®¸è¯º
 4304. undo['3n'du:]
-vt.½â¿ª£¬´ò¿ª£»È¡Ïû
+vt.è§£å¼€ï¼Œæ‰“å¼€ï¼›å–æ¶ˆ
 4305. undoubtedly[3n'dautidli]
-ad.ÎŞÈİÖÃÒÉ£¬¿Ï¶¨µØ
+ad.æ— å®¹ç½®ç–‘ï¼Œè‚¯å®šåœ°
 4306. uneasy[3n'i:zi]
-a.ĞÄÉñ²»°²µÄ£¬ÓÇÂÇµÄ
+a.å¿ƒç¥ä¸å®‰çš„ï¼Œå¿§è™‘çš„
 4307. unexpected['3niks'pektid]
-a.Ïë²»µ½µÄ£¬ÒâÍâµÄ
+a.æƒ³ä¸åˆ°çš„ï¼Œæ„å¤–çš„
 4308. unfair['3n'f/2]
-a.²»¹«Æ½µÄ£¬²»¹«ÕıµÄ
+a.ä¸å…¬å¹³çš„ï¼Œä¸å…¬æ­£çš„
 4309. unfortunate[3n'f0:t62nit]
-a.²»ĞÒµÄ£»¿ÉÈ¡µÄ
+a.ä¸å¹¸çš„ï¼›å¯å–çš„
 4310. unfortunately[3n'f0:t62nitli]
-ad.²»ĞÒµØ
+ad.ä¸å¹¸åœ°
 4311. unhappy[3n'h9pi]
-a.²»ĞÒ¸£µÄ£¬²»¿ìÀÖµÄ
+a.ä¸å¹¸ç¦çš„ï¼Œä¸å¿«ä¹çš„
 4312. uniform['ju:nif0:m]
-a.Ò»ÑùµÄ n.ÖÆ·ş
+a.ä¸€æ ·çš„ n.åˆ¶æœ
 4313. union['ju:nj2n]
-n.ÁªºÏ£»ÍÅ½á£»Ğ­»á
+n.è”åˆï¼›å›¢ç»“ï¼›åä¼š
 4314. unique[ju:'ni:k]
-a.Î¨Ò»µÄ£¬¶ÀÒ»ÎŞ¶şµÄ
+a.å”¯ä¸€çš„ï¼Œç‹¬ä¸€æ— äºŒçš„
 4315. unit['ju:nit]
-n.µ¥Î»£»µ¥Ôª£»²¿¼ş
+n.å•ä½ï¼›å•å…ƒï¼›éƒ¨ä»¶
 4316. unite[ju'nait]
-vi.ÁªºÏ vt.Ê¹ÁªºÏ
+vi.è”åˆ vt.ä½¿è”åˆ
 4317. unity['ju:niti]
-n.µ¥Ò»£»Í³Ò»£»ÍÅ½á
+n.å•ä¸€ï¼›ç»Ÿä¸€ï¼›å›¢ç»“
 4318. universal[ju:ni'v2:s2l]
-a.ÓîÖæµÄ£»ÆÕ±éµÄ
+a.å®‡å®™çš„ï¼›æ™®éçš„
 4319. universe['ju:niv2:s]
-n.ÓîÖæ£¬ÊÀ½ç
+n.å®‡å®™ï¼Œä¸–ç•Œ
 4320. university[ju:ni'v2:siti]
-n.´óÑ§£¬×ÛºÏĞÔ´óÑ§
+n.å¤§å­¦ï¼Œç»¼åˆæ€§å¤§å­¦
 4321. unjust['3n'd73st]
-a.·ÇÕıÒåµÄ£»²»¹«Æ½µÄ
+a.éæ­£ä¹‰çš„ï¼›ä¸å…¬å¹³çš„
 4322. unkind[3n'kaind]
-a.²»ÈÊ´ÈµÄ£¬²»ºÍÉÆµÄ
+a.ä¸ä»æ…ˆçš„ï¼Œä¸å’Œå–„çš„
 4323. unknown['3n'n2un]
-a.²»ÖªµÀµÄ£»Î´ÖªµÄ
+a.ä¸çŸ¥é“çš„ï¼›æœªçŸ¥çš„
 4324. unless['3n'les]
-conj.³ı·Ç£¬Èç¹û²»
+conj.é™¤éï¼Œå¦‚æœä¸
 4325. unlike['3n'laik]
-a.²»Í¬µÄ prep.²»Ïó¡­
+a.ä¸åŒçš„ prep.ä¸è±¡â€¦
 4326. unlikely[3n'laikli]
-a.Î´±ØµÄ£¬Î´±Ø¿ÉÄÜµÄ
+a.æœªå¿…çš„ï¼Œæœªå¿…å¯èƒ½çš„
 4327. unload[3n'l2ud]
-vt.Ğ¶(»õ) vi.Ğ¶»õ
+vt.å¸(è´§) vi.å¸è´§
 4328. unlucky[3n'l3ki]
-a.²»ĞÒµÄ£»²»¼ªµÄ
+a.ä¸å¹¸çš„ï¼›ä¸å‰çš„
 4329. unnecessary[3n'nesis2ri]
-a.²»±ØÒªµÄ£¬¶àÓàµÄ
+a.ä¸å¿…è¦çš„ï¼Œå¤šä½™çš„
 4330. unpleasant[3n'pleznt]
-a.ÁîÈË²»¿ìµÄ£¬ÌÖÑáµÄ
+a.ä»¤äººä¸å¿«çš„ï¼Œè®¨åŒçš„
 4331. unsatisfactory['3ns9tis'f9kt2ri]
-a.²»ÄÜÁîÈËÂúÒâµÄ
+a.ä¸èƒ½ä»¤äººæ»¡æ„çš„
 4332. unstable[3n'steibl]
-a.²»ÎÈ¹ÌµÄ£»²»ÎÈ¶¨µÄ
+a.ä¸ç¨³å›ºçš„ï¼›ä¸ç¨³å®šçš„
 4333. unsuitable['3n'sju:t2bl]
-a.²»ºÏÊÊµÄ£¬²»ÊÊÒËµÄ
+a.ä¸åˆé€‚çš„ï¼Œä¸é€‚å®œçš„
 4334. until[2n'til]
-prep&conj.Ö±µ½¡­ÎªÖ¹
+prep&conj.ç›´åˆ°â€¦ä¸ºæ­¢
 4335. unusual[3n'ju:7u2l]
-a.²»Æ½³£µÄ£»¶ÀÌØµÄ
+a.ä¸å¹³å¸¸çš„ï¼›ç‹¬ç‰¹çš„
 4336. unusually[3n'ju:7u2li]
-a.²»Æ½³£µØ£¬·Ç³£
+a.ä¸å¹³å¸¸åœ°ï¼Œéå¸¸
 4337. unwilling['3n'wili8]
-a.²»Ô¸ÒâµÄ
+a.ä¸æ„¿æ„çš„
 4338. up[3p]
-ad.ÏòÉÏ£»Æğ´²£¬ÆğÀ´
+ad.å‘ä¸Šï¼›èµ·åºŠï¼Œèµ·æ¥
 4339. upon[2'p0n]
-prep.ÔÚ¡­ÉÏ£»ÔÚ¡­ÅÔ
+prep.åœ¨â€¦ä¸Šï¼›åœ¨â€¦æ—
 4340. upper['3p2]
-a.ÉÏÃæµÄ£»µØÎ»½Ï¸ßµÄ
+a.ä¸Šé¢çš„ï¼›åœ°ä½è¾ƒé«˜çš„
 4341. upright['3prait]
-a.´¹Ö±µÄ£»ÕıÖ±µÄ
+a.å‚ç›´çš„ï¼›æ­£ç›´çš„
 4342. upset[3p'set]
-vt.Åª·­£¬´ò·­£¬Çã¸²
+vt.å¼„ç¿»ï¼Œæ‰“ç¿»ï¼Œå€¾è¦†
 4343. upside-down['3psaid'daun]
-a.µßµ¹µÄ£¬ÂÒÆß°ËÔãµÄ
+a.é¢ å€’çš„ï¼Œä¹±ä¸ƒå…«ç³Ÿçš„
 4344. upstairs[3p'st/2z]
-ad.ÔÚÂ¥ÉÏ a.Â¥ÉÏµÄ
+ad.åœ¨æ¥¼ä¸Š a.æ¥¼ä¸Šçš„
 4345. up-to-date['3pt2'deit]
-a.Ö±µ½×î½üµÄ£¬ÏÖ´úµÄ
+a.ç›´åˆ°æœ€è¿‘çš„ï¼Œç°ä»£çš„
 4346. upward['3pw2d]
-a.ÏòÉÏµÄ£¬ÉÏÉıµÄ
+a.å‘ä¸Šçš„ï¼Œä¸Šå‡çš„
 4347. upwards['3pw2dz]
-ad.Ç÷ÏòÉÏÉı£»ÒÔÉÏ
+ad.è¶‹å‘ä¸Šå‡ï¼›ä»¥ä¸Š
 4348. urge[2:d7]
-vt.ÍÆ½ø£»´ß´Ù n.³å¶¯
+vt.æ¨è¿›ï¼›å‚¬ä¿ƒ n.å†²åŠ¨
 4349. urgent['2:d72nt]
-a.½ô¼±µÄ£»Ç¿ÇóµÄ
+a.ç´§æ€¥çš„ï¼›å¼ºæ±‚çš„
 4350. us[3s. 2s]
-pron.(±ö¸ñ)ÎÒÃÇ
+pron.(å®¾æ ¼)æˆ‘ä»¬
 4351. usage['ju:zid7]
-n.Ê¹ÓÃ£¬¶Ô´ı£»¹ßÓÃ·¨
+n.ä½¿ç”¨ï¼Œå¯¹å¾…ï¼›æƒ¯ç”¨æ³•
 4352. use[ju:z. ju:s]
-vt.ÓÃ£»ºÄ·Ñ n.ÓÃ
+vt.ç”¨ï¼›è€—è´¹ n.ç”¨
 4353. used[ju:zd. ju:st]
-vi.¹ıÈ¥³£³£
+vi.è¿‡å»å¸¸å¸¸
 4354. used[ju:zd. ju:st]
-a.¾ÉµÄ£»Ï°¹ßÓÚ¡­µÄ
+a.æ—§çš„ï¼›ä¹ æƒ¯äºâ€¦çš„
 4355. useful['ju:zful]
-a.ÓĞÓÃµÄ£¬ÓĞÒæµÄ
+a.æœ‰ç”¨çš„ï¼Œæœ‰ç›Šçš„
 4356. useless['ju:zlis]
-a.ÎŞÓÃµÄ£¬ÎŞ¼ÛÖµµÄ
+a.æ— ç”¨çš„ï¼Œæ— ä»·å€¼çš„
 4357. user['ju:z2]
-n.ÓÃ»§£¬Ê¹ÓÃÕß
+n.ç”¨æˆ·ï¼Œä½¿ç”¨è€…
 4358. usual['ju:7u2l]
-a.Í¨³£µÄ£»Æ½³£µÄ
+a.é€šå¸¸çš„ï¼›å¹³å¸¸çš„
 4359. usually['ju:7u2li]
-ad.Í¨³£
+ad.é€šå¸¸
 4360. utility[ju:'tiliti]
-n.Ğ§ÓÃ£¬ÓĞÓÃ£¬ÊµÓÃ
+n.æ•ˆç”¨ï¼Œæœ‰ç”¨ï¼Œå®ç”¨
 4361. utilize['ju:tilaiz]
-vt.ÀûÓÃ
+vt.åˆ©ç”¨
 4362. utmost['3tm2ust]
-a.×îÔ¶µÄ n.¼«ÏŞ
+a.æœ€è¿œçš„ n.æé™
 4363. utter['3t2]
-a.ÍêÈ«µÄ£¬³¹µ×µÄ
+a.å®Œå…¨çš„ï¼Œå½»åº•çš„
 4364. utter['3t2]
-vt.·¢³ö£¬Ëµ£¬½²
+vt.å‘å‡ºï¼Œè¯´ï¼Œè®²
 4365. vacant['veik2nt]
-a.¿ÕµÄ£»Î´±»Õ¼ÓÃµÄ
+a.ç©ºçš„ï¼›æœªè¢«å ç”¨çš„
 4366. vacation[v2'kei62n]
-n.¼ÙÆÚ£¬Ğİ¼Ù
+n.å‡æœŸï¼Œä¼‘å‡
 4367. vacuum['v9kju2m]
-n.Õæ¿Õ£»Õæ¿ÕÎü³¾Æ÷
+n.çœŸç©ºï¼›çœŸç©ºå¸å°˜å™¨
 4368. vague[veig]
-a.Ä£ºıµÄ£¬º¬ºıµÄ
+a.æ¨¡ç³Šçš„ï¼Œå«ç³Šçš„
 4369. vain[vein]
-a.Í½ÀÍµÄ£»×Ô¸ºµÄ
+a.å¾’åŠ³çš„ï¼›è‡ªè´Ÿçš„
 4370. valid['v9lid]
-a.ÓĞĞ§µÄ£»Õıµ±µÄ
+a.æœ‰æ•ˆçš„ï¼›æ­£å½“çš„
 4371. valley['v9li]
-n.(É½)¹È£¬Ïª¹È£»Á÷Óò
+n.(å±±)è°·ï¼Œæºªè°·ï¼›æµåŸŸ
 4372. valuable['v9lju2bl]
-a.ÖµÇ®µÄ£»ÓĞ¼ÛÖµµÄ
+a.å€¼é’±çš„ï¼›æœ‰ä»·å€¼çš„
 4373. value['v9lju:]
-n.¼ÛÖµ£»¼Û¸ñ vt.ÆÀ¼Û
+n.ä»·å€¼ï¼›ä»·æ ¼ vt.è¯„ä»·
 4374. van[v9n]
-n.´óÅñ³µ£¬ÔË»õ³µ
+n.å¤§ç¯·è½¦ï¼Œè¿è´§è½¦
 4375. vanish['v9ni6]
-vi.Í»È»²»¼û£¬ÏûÊ§
+vi.çªç„¶ä¸è§ï¼Œæ¶ˆå¤±
 4376. vanity['v9niti]
-n.ĞéÈÙĞÄ£¬Ğé¿ä
+n.è™šè£å¿ƒï¼Œè™šå¤¸
 4377. vapour['veip2]
-n.Æû£¬ÕôÆø
+n.æ±½ï¼Œè’¸æ°”
 4378. variable['v/2ri2bl]
-a.Ò×±äµÄ n.±äÁ¿
+a.æ˜“å˜çš„ n.å˜é‡
 4379. variation[v/2ri'ei62n]
-n.±ä»¯£¬±ä¶¯£»±äÒì
+n.å˜åŒ–ï¼Œå˜åŠ¨ï¼›å˜å¼‚
 4380. variety[v2'rai2ti]
-n.¶àÑù»¯£»ÖÖÀà£»±äÖÖ
+n.å¤šæ ·åŒ–ï¼›ç§ç±»ï¼›å˜ç§
 4381. various['v/2ri2s]
-a.¸÷ÖÖ¸÷ÑùµÄ£¬²»Í¬µÄ
+a.å„ç§å„æ ·çš„ï¼Œä¸åŒçš„
 4382. vary['v/2ri]
-vt.¸Ä±ä£»Ê¹¶àÑù»¯
+vt.æ”¹å˜ï¼›ä½¿å¤šæ ·åŒ–
 4383. vase[va:z]
-n.Æ¿£¬»¨Æ¿
+n.ç“¶ï¼ŒèŠ±ç“¶
 4384. vast[va:st]
-a.¾Ş´óµÄ£»´óÁ¿µÄ
+a.å·¨å¤§çš„ï¼›å¤§é‡çš„
 4385. vegetable['ved7it2bl]
-n.Ö²Îï£»Êß²Ë
+n.æ¤ç‰©ï¼›è”¬èœ
 4386. vehicle['vi:ikl]
-n.³µÁ¾£¬»ú¶¯³µ
+n.è½¦è¾†ï¼ŒæœºåŠ¨è½¦
 4387. veil[veil]
-n.ÃæÉ´£¬ÃæÕÖ£»ÕÚ±ÎÎï
+n.é¢çº±ï¼Œé¢ç½©ï¼›é®è”½ç‰©
 4388. velocity[vi'l0siti]
-n.ËÙ¶È£¬ËÙÂÊ
+n.é€Ÿåº¦ï¼Œé€Ÿç‡
 4389. velvet['velvit]
-n.Ë¿ÈŞ£¬Ìì¶ìÈŞ
+n.ä¸ç»’ï¼Œå¤©é¹…ç»’
 4390. venture['vent62]
-n.&vi.Ã°ÏÕ vt.¸ÒÓÚ
+n.&vi.å†’é™© vt.æ•¢äº
 4391. verb[v2:b]
-n.¶¯´Ê
+n.åŠ¨è¯
 4392. verify['verifai]
-vt.Ö¤Êµ£¬²éÖ¤£»Ö¤Ã÷
+vt.è¯å®ï¼ŒæŸ¥è¯ï¼›è¯æ˜
 4393. version['v2:62n]
-n.ÒëÎÄ£»Ëµ·¨£»¸ÄĞ´±¾
+n.è¯‘æ–‡ï¼›è¯´æ³•ï¼›æ”¹å†™æœ¬
 4394. vertical['v2:tik2l]
-a.´¹Ö±µÄ£¬ÊúÊ½µÄ
+a.å‚ç›´çš„ï¼Œç«–å¼çš„
 4395. very['veri]
-ad.ºÜ£»ÍêÈ« a.ÕæµÄ
+ad.å¾ˆï¼›å®Œå…¨ a.çœŸçš„
 4396. vessel['vesl]
-n.ÈİÆ÷£»´¬£¬·É´¬£»¹Ü
+n.å®¹å™¨ï¼›èˆ¹ï¼Œé£èˆ¹ï¼›ç®¡
 4397. vest[vest]
-n.º¹ÉÀ£»±³ĞÄ£»ÄÚÒÂ
+n.æ±—è¡«ï¼›èƒŒå¿ƒï¼›å†…è¡£
 4398. veteran['vet2r2n]
-n.ÀÏ±ø£¬ÀÏÊÖ
+n.è€å…µï¼Œè€æ‰‹
 4399. vex[veks]
-vt.Ê¹·³ÄÕ£¬Ê¹ÄÕ»ğ
+vt.ä½¿çƒ¦æ¼ï¼Œä½¿æ¼ç«
 4400. via['vai2]
-prep.¾­¹ı£»Í¨¹ı
+prep.ç»è¿‡ï¼›é€šè¿‡
 4401. vibrate[vai'breit]
-vt.Ê¹²ü¶¯ vi.²ü¶¯
+vt.ä½¿é¢¤åŠ¨ vi.é¢¤åŠ¨
 4402. vibration[vai'brei62n]
-n.²ü¶¯£¬Õñ¶¯£»°Ú¶¯
+n.é¢¤åŠ¨ï¼ŒæŒ¯åŠ¨ï¼›æ‘†åŠ¨
 4403. vice[vais]
-n.×ï¶ñ£»¶ñÏ°£»È±µã
+n.ç½ªæ¶ï¼›æ¶ä¹ ï¼›ç¼ºç‚¹
 4404. vice[vais]
-n.(ÀÏ)»¢Ç¯
+n.(è€)è™é’³
 4405. victim['viktim]
-n.ÎşÉüÕß£¬ÊÜº¦Õß
+n.ç‰ºç‰²è€…ï¼Œå—å®³è€…
 4406. victorious[vik't0:ri2s]
-a.Ê¤ÀûµÄ£¬µÃÊ¤µÄ
+a.èƒœåˆ©çš„ï¼Œå¾—èƒœçš„
 4407. victory['vikt2ri]
-n.Ê¤Àû£¬Õ½Ê¤
+n.èƒœåˆ©ï¼Œæˆ˜èƒœ
 4408. video['vidi2u]
-a.µçÊÓµÄ n.µçÊÓ
+a.ç”µè§†çš„ n.ç”µè§†
 4409. view[vju:]
-n.¿´£»ÊÓÁ¦£»·ç¾°
+n.çœ‹ï¼›è§†åŠ›ï¼›é£æ™¯
 4410. viewpoint['vju:p0int]
-n.¹Ûµã£¬¿´·¨£¬¼û½â
+n.è§‚ç‚¹ï¼Œçœ‹æ³•ï¼Œè§è§£
 4411. vigorous['vig2r2s]
-a.³¯ÆøÅî²ªµÄ
+a.æœæ°”è“¬å‹ƒçš„
 4412. village['vilid7]
-n.Ïç´å£¬´å×¯
+n.ä¹¡æ‘ï¼Œæ‘åº„
 4413. vine[vain]
-n.ÆÏÌÑÊ÷
+n.è‘¡è„æ ‘
 4414. vinegar['vinig2]
-n.´×
+n.é†‹
 4415. violence['vai2l2ns]
-n.ÃÍÁÒ£¬¼¤ÁÒ£»±©Á¦
+n.çŒ›çƒˆï¼Œæ¿€çƒˆï¼›æš´åŠ›
 4416. violent['vai2l2nt]
-a.ÃÍÁÒµÄ£»¿ñ±©µÄ
+a.çŒ›çƒˆçš„ï¼›ç‹‚æš´çš„
 4417. violet['vai2lit]
-n.×ÏÂŞÀ¼
+n.ç´«ç½—å…°
 4418. violin[vai2'lin]
-n.Ğ¡ÌáÇÙ
+n.å°æç´
 4419. virtually['v2:tju2li]
-ad.Êµ¼ÊÉÏ£¬ÊÂÊµÉÏ
+ad.å®é™…ä¸Šï¼Œäº‹å®ä¸Š
 4420. virtue['v2:tju:]
-n.ÉÆ£»ÃÀµÂ£»ÓÅµã
+n.å–„ï¼›ç¾å¾·ï¼›ä¼˜ç‚¹
 4421. visible['viz2bl]
-a.¿É¼ûµÄ£¬¿´µÃ¼ûµÄ
+a.å¯è§çš„ï¼Œçœ‹å¾—è§çš„
 4422. vision['vi72n]
-n.ÊÓ£»ÏëÏóÁ¦£»ÃÎ»Ã
+n.è§†ï¼›æƒ³è±¡åŠ›ï¼›æ¢¦å¹»
 4423. visit['vizit]
-vt.&n.·ÃÎÊ£¬²Î¹Û
+vt.&n.è®¿é—®ï¼Œå‚è§‚
 4424. visitor['vizit2]
-n.·ÃÎÊÕß£»ÓÎ¿Í
+n.è®¿é—®è€…ï¼›æ¸¸å®¢
 4425. visual['vizju2l]
-a.¿´µÄ£»¿´µÃ¼ûµÄ
+a.çœ‹çš„ï¼›çœ‹å¾—è§çš„
 4426. vital['vaitl]
-a.ÉúÃüµÄ£»ÓĞÉúÃüÁ¦µÄ
+a.ç”Ÿå‘½çš„ï¼›æœ‰ç”Ÿå‘½åŠ›çš„
 4427. vitamin['vit2min]
-n.Î¬ÉúËØ£¬Î¬ËûÃü
+n.ç»´ç”Ÿç´ ï¼Œç»´ä»–å‘½
 4428. vivid['vivid]
-a.ÏÊÑŞµÄ£»Éú¶¯µÄ
+a.é²œè‰³çš„ï¼›ç”ŸåŠ¨çš„
 4429. vocabulary[v2'k9bjul2ri]
-n.´Ê»ã±í£»´Ê»ã£¬Óï»ã
+n.è¯æ±‡è¡¨ï¼›è¯æ±‡ï¼Œè¯­æ±‡
 4430. voice[v0is]
-n.Ëµ»°Éù£»Òâ¼û£»ÓïÌ¬
+n.è¯´è¯å£°ï¼›æ„è§ï¼›è¯­æ€
 4431. volcano[v0l'kein2u]
-n.»ğÉ½
+n.ç«å±±
 4432. volleyball['v0lib0:l]
-n.ÅÅÇò£¬ÅÅÇòÔË¶¯
+n.æ’çƒï¼Œæ’çƒè¿åŠ¨
 4433. volt[v2ult]
-n.·üÌØ£¬·ü
+n.ä¼ç‰¹ï¼Œä¼
 4434. voltage['vaultid7]
-n.µçÑ¹
+n.ç”µå‹
 4435. volume['v0ljum]
-n.¾í£¬²á£»Èİ»ı£»ÒôÁ¿
+n.å·ï¼Œå†Œï¼›å®¹ç§¯ï¼›éŸ³é‡
 4436. voluntary['v0l2nt2ri]
-a.×ÔÔ¸µÄ£¬Ö¾Ô¸µÄ
+a.è‡ªæ„¿çš„ï¼Œå¿—æ„¿çš„
 4437. vote[v2ut]
-n.Ñ¡¾Ù£¬Í¶Æ±£¬±í¾ö
+n.é€‰ä¸¾ï¼ŒæŠ•ç¥¨ï¼Œè¡¨å†³
 4438. voyage[v0id7]
-n.&vi.º½º££¬º½¿Õ
+n.&vi.èˆªæµ·ï¼Œèˆªç©º
 4439. wage[weid7]
-n.¹¤×Ê£¬±¨³ê
+n.å·¥èµ„ï¼ŒæŠ¥é…¬
 4440. wage[weid7]
-vt.¿ªÕ¹(ÔË¶¯)
+vt.å¼€å±•(è¿åŠ¨)
 4441. waggon['w9g2n]
-n.ËÄÂÖÔË»õÂí³µ
+n.å››è½®è¿è´§é©¬è½¦
 4442. waist[weist]
-n.Ñü£¬Ñü²¿
+n.è…°ï¼Œè…°éƒ¨
 4443. wait[weit]
-vi.µÈ£¬µÈºò n.µÈ´ı
+vi.ç­‰ï¼Œç­‰å€™ n.ç­‰å¾…
 4444. waiter['weit2]
-n.ÊÌÕß£¬·şÎñÔ±
+n.ä¾è€…ï¼ŒæœåŠ¡å‘˜
 4445. wake[weik]
-vi.ĞÑ£¬ĞÑÀ´ vt.»½ĞÑ
+vi.é†’ï¼Œé†’æ¥ vt.å”¤é†’
 4446. waken['weik2n]
-vi.ĞÑÀ´ vt.ÅªĞÑ
+vi.é†’æ¥ vt.å¼„é†’
 4447. walk[w0:k]
-vi.&n.×ß£¬²½ĞĞ
+vi.&n.èµ°ï¼Œæ­¥è¡Œ
 4448. wall[w0:l]
-n.Ç½£¬±Ú£¬Î§Ç½£¬³ÇÇ½
+n.å¢™ï¼Œå£ï¼Œå›´å¢™ï¼ŒåŸå¢™
 4449. wallet['w0lit]
-n.Ç®°ü£¬Æ¤¼Ğ×Ó
+n.é’±åŒ…ï¼Œçš®å¤¹å­
 4450. wander['w0nd2]
-vi.ÂşÓÎ£»ÃÔÂ·£»ÀëÌâ
+vi.æ¼«æ¸¸ï¼›è¿·è·¯ï¼›ç¦»é¢˜
 4451. want[w0nt]
-vt.Òª n.ĞèÒª£»È±·¦
+vt.è¦ n.éœ€è¦ï¼›ç¼ºä¹
 4452. war[w0:]
-n.Õ½Õù£»³åÍ»£¬¶·Õù
+n.æˆ˜äº‰ï¼›å†²çªï¼Œæ–—äº‰
 4453. warm[w0:m]
-a.ÎÂÅ¯µÄ£»ÈÈÁÒµÄ
+a.æ¸©æš–çš„ï¼›çƒ­çƒˆçš„
 4454. warmth[w0:m4]
-n.Å¯ºÍ£¬ÎÂÅ¯£»ÈÈÁÒ
+n.æš–å’Œï¼Œæ¸©æš–ï¼›çƒ­çƒˆ
 4455. warn[w0:n]
-vt.¾¯¸æ vi.·¢Éú¾¯¸æ
+vt.è­¦å‘Š vi.å‘ç”Ÿè­¦å‘Š
 4456. wash[w06]
-vt.Ï´£»³å³ö vi.Ï´µÓ
+vt.æ´—ï¼›å†²å‡º vi.æ´—æ¶¤
 4457. waste[weist]
-n.ÀË·Ñ£»·ÏÎï£»À¬»ø
+n.æµªè´¹ï¼›åºŸç‰©ï¼›åƒåœ¾
 4458. watch[w0t6]
-vt.&vi.¹Û¿´ n.ÊÖ±í
+vt.&vi.è§‚çœ‹ n.æ‰‹è¡¨
 4459. water['w0:t2]
-n.Ë® vt.Ê¹Êª£¬¹à¸È
+n.æ°´ vt.ä½¿æ¹¿ï¼ŒçŒæº‰
 4460. waterfall['w0:t2f0:l]
-n.ÆÙ²¼
+n.ç€‘å¸ƒ
 4461. waterproof['w0:t2pru:f]
-a.²»Í¸Ë®µÄ£¬·ÀË®µÄ
+a.ä¸é€æ°´çš„ï¼Œé˜²æ°´çš„
 4462. wave[weiv]
-n.²¨£»²¨ÌÎ vi.²¨¶¯
+n.æ³¢ï¼›æ³¢æ¶› vi.æ³¢åŠ¨
 4463. wavelength['weivle84]
-n.²¨³¤
+n.æ³¢é•¿
 4464. wax[w9ks]
-n.À¯£¬·äÀ¯
+n.èœ¡ï¼Œèœ‚èœ¡
 4465. way[wei]
-n.Â·£»Â·Ïß£»·½Ïò
+n.è·¯ï¼›è·¯çº¿ï¼›æ–¹å‘
 4466. we[wi:]
-pron.(Ö÷¸ñ)ÎÒÃÇ
+pron.(ä¸»æ ¼)æˆ‘ä»¬
 4467. weak[wi:k]
-a.ÈõµÄ£»ÈíÈõµÄ
+a.å¼±çš„ï¼›è½¯å¼±çš„
 4468. weaken['wi:k2n]
-vt.Ï÷Èõ vi.±äÈõ
+vt.å‰Šå¼± vi.å˜å¼±
 4469. weakness['wi:knis]
-n.ĞéÈõ£¬ÈíÈõ£»Èõµã
+n.è™šå¼±ï¼Œè½¯å¼±ï¼›å¼±ç‚¹
 4470. wealth[wel4]
-n.²Æ¸»£¬²Æ²ú£»·á¸»
+n.è´¢å¯Œï¼Œè´¢äº§ï¼›ä¸°å¯Œ
 4471. wealthy['wel4i]
-a.¸»µÄ£¬¸»Ô£µÄ
+a.å¯Œçš„ï¼Œå¯Œè£•çš„
 4472. weapon['wep2n]
-n.ÎäÆ÷£¬±øÆ÷
+n.æ­¦å™¨ï¼Œå…µå™¨
 4473. wear[w/2]
-vt.´©×Å£¬´÷£»Ä¥Ëğ
+vt.ç©¿ç€ï¼Œæˆ´ï¼›ç£¨æŸ
 4474. weary['wi2ri]
-a.Æ£¾ëµÄ vt.Ê¹Æ£·¦
+a.ç–²å€¦çš„ vt.ä½¿ç–²ä¹
 4475. weather['we52]
-n.ÌìÆø
+n.å¤©æ°”
 4476. weave['wi:v]
-vt.Ö¯£¬±à vi.·ÄÖ¯
+vt.ç»‡ï¼Œç¼– vi.çººç»‡
 4477. wedding['wedi8]
-n.»éÀñ
+n.å©šç¤¼
 4478. Wednesday['wenzdi]
-n.ĞÇÆÚÈı
+n.æ˜ŸæœŸä¸‰
 4479. weed[wi:d]
-n.ÔÓ²İ£¬Ò°²İ vi.³ı²İ
+n.æ‚è‰ï¼Œé‡è‰ vi.é™¤è‰
 4480. week[wi:k]
-n.ĞÇÆÚ£¬ÖÜ
+n.æ˜ŸæœŸï¼Œå‘¨
 4481. weekday['wi:kdei]
-n.ÖÜÈÕ£¬¹¤×÷ÈÕ
+n.å‘¨æ—¥ï¼Œå·¥ä½œæ—¥
 4482. weekend['wi:kend]
-n.ÖÜÄ©£¬ÖÜÄ©¼ÙÆÚ
+n.å‘¨æœ«ï¼Œå‘¨æœ«å‡æœŸ
 4483. weekly['wi:kli]
-a.Ã¿ÖÜµÄ ad.Ã¿ÖÜ
+a.æ¯å‘¨çš„ ad.æ¯å‘¨
 4484. weep[wi:p]
-vi.¿ŞÆü£¬Á÷Àá
+vi.å“­æ³£ï¼Œæµæ³ª
 4485. weigh[wei]
-vt.³Æ¡­µÄÖØÁ¿£»µàÁ¿
+vt.ç§°â€¦çš„é‡é‡ï¼›æ‚é‡
 4486. weight[weit]
-n.ÖØ£»íÀÂë£»ÖØµ£
+n.é‡ï¼›ç ç ï¼›é‡æ‹…
 4487. welcome['welk2m]
-int.&n.&vt.»¶Ó­
+int.&n.&vt.æ¬¢è¿
 4488. weld[weld]
-vt.&n.º¸½Ó£¬ÈÛ½Ó
+vt.&n.ç„Šæ¥ï¼Œç†”æ¥
 4489. welfare['welf/2]
-n.ĞÒ¸££¬¸£Àû
+n.å¹¸ç¦ï¼Œç¦åˆ©
 4490. well[wel]
-n.¾®
+n.äº•
 4491. well[wel]
-ad.ºÃ£»ÍêÈ«µØ int.ºÙ
+ad.å¥½ï¼›å®Œå…¨åœ° int.å˜¿
 4492. well-known['wel'n2un]
-a.ÖÚËùÖÜÖªµÄ£¬³öÃûµÄ
+a.ä¼—æ‰€å‘¨çŸ¥çš„ï¼Œå‡ºåçš„
 4493. west[west]
-n.Î÷£»Î÷Ñó a.Î÷·½µÄ
+n.è¥¿ï¼›è¥¿æ´‹ a.è¥¿æ–¹çš„
 4494. western['west2n]
-a.Î÷·½µÄ£¬Î÷²¿µÄ
+a.è¥¿æ–¹çš„ï¼Œè¥¿éƒ¨çš„
 4495. westward['westw2d]
-a.ÏòÎ÷µÄ ad.ÏòÎ÷
+a.å‘è¥¿çš„ ad.å‘è¥¿
 4496. wet[wet]
-a.ÊªµÄ£»ÏÂÓêµÄ
+a.æ¹¿çš„ï¼›ä¸‹é›¨çš„
 4497. what[w0t]
-pron.Ê²Ã´ a.Ê²Ã´
+pron.ä»€ä¹ˆ a.ä»€ä¹ˆ
 4498. whatever[w0t'ev2]
-pron.ÎŞÂÛÊ²Ã´
+pron.æ— è®ºä»€ä¹ˆ
 4499. wheat[wi:t]
-n.Ğ¡Âó
+n.å°éº¦
 4500. wheel[wi:l]
-n.ÂÖ£¬³µÂÖ
+n.è½®ï¼Œè½¦è½®
 4501. when[wen]
-ad.Ê²Ã´Ê±ºò£»µ±¡­Ê±
+ad.ä»€ä¹ˆæ—¶å€™ï¼›å½“â€¦æ—¶
 4502. whenever[wen'ev2]
-conj.ÎŞÂÛºÎÊ±£¬Ã¿µ±
+conj.æ— è®ºä½•æ—¶ï¼Œæ¯å½“
 4503. where[w/2]
-ad.ÔÚÄÄÀï pron.ÄÄÀï
+ad.åœ¨å“ªé‡Œ pron.å“ªé‡Œ
 4504. wherever[w/2r'ev2]
-ad.¾¿¾¹ÔÚÄÄÀï
+ad.ç©¶ç«Ÿåœ¨å“ªé‡Œ
 4505. whether['we52]
-conj.ÊÇ·ñ
+conj.æ˜¯å¦
 4506. which['wit6]
-pron.ÄÄÒ»¸ö a.ÄÄÒ»¸ö
+pron.å“ªä¸€ä¸ª a.å“ªä¸€ä¸ª
 4507. whichever[wit6'ev2]
-a.ÎŞÂÛÄÄ¸ö£¬ÎŞÂÛÄÄĞ©
+a.æ— è®ºå“ªä¸ªï¼Œæ— è®ºå“ªäº›
 4508. while[wail]
-conj.µ±¡­µÄÊ±ºò£»¶ø
+conj.å½“â€¦çš„æ—¶å€™ï¼›è€Œ
 4509. whilst['wailst]
-conj.&n.µ±¡­µÄÊ±ºò
+conj.&n.å½“â€¦çš„æ—¶å€™
 4510. whip[wip]
-vt.±Şó×£»½Á´ò n.±Ş×Ó
+vt.é­ç¬ï¼›æ…æ‰“ n.é­å­
 4511. whirl[w2:l]
-vt.Ê¹»ØĞı vi.&n.»ØĞı
+vt.ä½¿å›æ—‹ vi.&n.å›æ—‹
 4512. whisky['wiski]
-n.ÍşÊ¿¼É¾Æ
+n.å¨å£«å¿Œé…’
 4513. whisper['wisp2]
-vt.µÍÉùµØ½² vi.µÍÓï
+vt.ä½å£°åœ°è®² vi.ä½è¯­
 4514. whistle['wisl]
-n.¿ÚÉÚ vi.´µ¿ÚÉÚ
+n.å£å“¨ vi.å¹å£å“¨
 4515. white[wait]
-a.°×µÄ n.°×É«
+a.ç™½çš„ n.ç™½è‰²
 4516. whitewash['waitw06]
-vt.·ÛË¢£¬Í¿°×
+vt.ç²‰åˆ·ï¼Œæ¶‚ç™½
 4517. who[hu:]
-pron.Ë­£»¡­µÄÈË
+pron.è°ï¼›â€¦çš„äºº
 4518. whoever[hu:'ev2]
-pron.Ë­£»ÎŞÂÛË­
+pron.è°ï¼›æ— è®ºè°
 4519. whole[h2ul]
-a.ÍêÕûµÄ n.È«²¿
+a.å®Œæ•´çš„ n.å…¨éƒ¨
 4520. wholly['h2uli]
-ad.ÍêÈ«µØ£¬È«²¿
+ad.å®Œå…¨åœ°ï¼Œå…¨éƒ¨
 4521. whom[hu:m]
-pron.(±ö¸ñ)Ë­
+pron.(å®¾æ ¼)è°
 4522. whose[hu:z]
-pron.Ë­µÄ£»ÄÄ¸öÈËµÄ
+pron.è°çš„ï¼›å“ªä¸ªäººçš„
 4523. why[wai]
-ad.ÎªÊ²Ã´
+ad.ä¸ºä»€ä¹ˆ
 4524. wicked['wikid]
-a.»µµÄ£»ÁîÈËÑá¶ñµÄ
+a.åçš„ï¼›ä»¤äººåŒæ¶çš„
 4525. wide[waid]
-a.¿íÀ«µÄ ad.È«²¿µØ
+a.å®½é˜”çš„ ad.å…¨éƒ¨åœ°
 4526. widely['waidli]
-ad.¹ã£¬¹ã·º
+ad.å¹¿ï¼Œå¹¿æ³›
 4527. widen['waidn]
-vt.¼Ó¿í vi.±ä¿í
+vt.åŠ å®½ vi.å˜å®½
 4528. widespread['waidspred]
-a.·Ö²¼¹ãµÄ£¬ÆÕ±éµÄ
+a.åˆ†å¸ƒå¹¿çš„ï¼Œæ™®éçš„
 4529. widow['wid2u]
-n.¹Ñ¸¾
+n.å¯¡å¦‡
 4530. width[wid4]
-n.¿íÀ«£¬¹ãÀ«£»¿í¶È
+n.å®½é˜”ï¼Œå¹¿é˜”ï¼›å®½åº¦
 4531. wife[waif]
-n.ÆŞ×Ó
+n.å¦»å­
 4532. wild[waild]
-a.Ò°ÉúµÄ£»Ò°ÂùµÄ
+a.é‡ç”Ÿçš„ï¼›é‡è›®çš„
 4533. will[wil]
-aux.v.½«Òª£¬»á£»Ô¸
+aux.v.å°†è¦ï¼Œä¼šï¼›æ„¿
 4534. willing['wili8]
-a.Ô¸ÒâµÄ£¬ĞÄ¸ÊÇéÔ¸µÄ
+a.æ„¿æ„çš„ï¼Œå¿ƒç”˜æƒ…æ„¿çš„
 4535. win[win]
-vi.»ñÊ¤£¬Ó® vt.Ó®µÃ
+vi.è·èƒœï¼Œèµ¢ vt.èµ¢å¾—
 4536. wind[wind. waind]
-n.·ç£»ÆøÏ¢£¬ºôÎü
+n.é£ï¼›æ°”æ¯ï¼Œå‘¼å¸
 4537. wind[wind. waind]
-vt.ÈÆ£¬²øÈÆ vi.¾íÇú
+vt.ç»•ï¼Œç¼ ç»• vi.å·æ›²
 4538. window['wind2u]
-n.´°×Ó£¬´°»§£¬´°¿Ú
+n.çª—å­ï¼Œçª—æˆ·ï¼Œçª—å£
 4539. wine[wain]
-n.ÆÏÌÑ¾Æ£¬¹û¾Æ
+n.è‘¡è„é…’ï¼Œæœé…’
 4540. wing[wi8]
-n.Òí£¬³á°ò£¬³á
+n.ç¿¼ï¼Œç¿…è†€ï¼Œç¿…
 4541. winner['win2]
-n.»ñÊ¤Õß£¬ÓÅÊ¤Õß
+n.è·èƒœè€…ï¼Œä¼˜èƒœè€…
 4542. winter['wint2]
-n.¶¬Ìì£¬¶¬¼¾
+n.å†¬å¤©ï¼Œå†¬å­£
 4543. wipe[waip]
-vt.&n.¿«£¬²Á
+vt.&n.æ©ï¼Œæ“¦
 4544. wire['wai2]
-n.½ğÊôÏß£»µçÀÂ£»µçĞÅ
+n.é‡‘å±çº¿ï¼›ç”µç¼†ï¼›ç”µä¿¡
 4545. wireless['wai2lis]
-a.²»ÓÃµçÏßµÄ£¬ÎŞÏßµÄ
+a.ä¸ç”¨ç”µçº¿çš„ï¼Œæ— çº¿çš„
 4546. wisdom['wizd2m]
-n.ÖÇ»Û£¬²ÅÖÇ£»ÃûÑÔ
+n.æ™ºæ…§ï¼Œæ‰æ™ºï¼›åè¨€
 4547. wise[waiz]
-a.ÓĞÖÇ»ÛµÄ£¬´ÏÃ÷µÄ
+a.æœ‰æ™ºæ…§çš„ï¼Œèªæ˜çš„
 4548. wish[wi6]
-vt.×££»ÏëÒª n.Ï£Íû
+vt.ç¥ï¼›æƒ³è¦ n.å¸Œæœ›
 4549. wit[wit]
-n.ÖÇÁ¦£¬²ÅÖÇ£¬ÖÇÄÜ
+n.æ™ºåŠ›ï¼Œæ‰æ™ºï¼Œæ™ºèƒ½
 4550. with[wi5]
-prep.ºÍ¡­Ò»Æğ£»¾ßÓĞ
+prep.å’Œâ€¦ä¸€èµ·ï¼›å…·æœ‰
 4551. withdraw[wi5'dr0:]
-vt.ÊÕ»Ø£»³·»Øvi.³·ÍË
+vt.æ”¶å›ï¼›æ’¤å›vi.æ’¤é€€
 4552. within[wi'5in]
-prep.ÔÚ¡­ÀïÃæ
+prep.åœ¨â€¦é‡Œé¢
 4553. without[wi5'aut]
-prep.ÎŞ£¬Ã»ÓĞ£¬²»
+prep.æ— ï¼Œæ²¡æœ‰ï¼Œä¸
 4554. withstand[wi5'st9nd]
-vt.µÖµ²£¬·´¿¹
+vt.æŠµæŒ¡ï¼ŒåæŠ—
 4555. witness['witnis]
-n.Ö¤¾İ£»Ö¤ÈË vt.Ä¿»÷
+n.è¯æ®ï¼›è¯äºº vt.ç›®å‡»
 4556. wolf[wulf]
-n.ÀÇ
+n.ç‹¼
 4557. woman['wum2n]
-n.¸¾Å®£¬Å®ÈË£¬Å®ĞÔ
+n.å¦‡å¥³ï¼Œå¥³äººï¼Œå¥³æ€§
 4558. wonder['w3nd2]
-n.¾ªÒì£¬¾ªÆæ£»Ææ¼£
+n.æƒŠå¼‚ï¼ŒæƒŠå¥‡ï¼›å¥‡è¿¹
 4559. wonderful['w3nd2ful]
-a.¾ªÈËµÄ£»¼«ºÃµÄ
+a.æƒŠäººçš„ï¼›æå¥½çš„
 4560. wood[wud]
-n.Ê÷ÁÖ£¬É­ÁÖ£»Ä¾Í·
+n.æ ‘æ—ï¼Œæ£®æ—ï¼›æœ¨å¤´
 4561. wooden['wudn]
-a.Ä¾ÖÆµÄ£»´ô°åµÄ
+a.æœ¨åˆ¶çš„ï¼›å‘†æ¿çš„
 4562. wool[wul]
-n.ÑòÃ«£»Ã«Ïß£¬ÈŞÏß
+n.ç¾Šæ¯›ï¼›æ¯›çº¿ï¼Œç»’çº¿
 4563. woollen['wul2n]
-a.ÑòÃ«ÖÆµÄ£¬Ã«ÏßµÄ
+a.ç¾Šæ¯›åˆ¶çš„ï¼Œæ¯›çº¿çš„
 4564. word[w2:d]
-n.´Ê£»»°£»ÏûÏ¢£»ÓïÑÔ
+n.è¯ï¼›è¯ï¼›æ¶ˆæ¯ï¼›è¯­è¨€
 4565. work[w2:k]
-n.¹¤×÷£»Ö°Òµ vi.¹¤×÷
+n.å·¥ä½œï¼›èŒä¸š vi.å·¥ä½œ
 4566. worker['w2:k2]
-n.¹¤ÈË£»¹¤×÷Õß£¬ÈËÔ±
+n.å·¥äººï¼›å·¥ä½œè€…ï¼Œäººå‘˜
 4567. workman['w2:km2n]
-n.¹¤ÈË£¬ÀÍ¶¯Õß£¬¹¤½³
+n.å·¥äººï¼ŒåŠ³åŠ¨è€…ï¼Œå·¥åŒ 
 4568. workshop['w2:k60p]
-n.³µ¼ä£¬¹¤³¡£»´´×÷ÊÒ
+n.è½¦é—´ï¼Œå·¥åœºï¼›åˆ›ä½œå®¤
 4569. world[w2:ld]
-n.ÊÀ½ç£»ÊÀÈË£»ÊÀ¼ä
+n.ä¸–ç•Œï¼›ä¸–äººï¼›ä¸–é—´
 4570. world-wide['w2:ldwaid]
-a.±é¼°È«ÇòµÄ
+a.éåŠå…¨çƒçš„
 4571. worm[w2:m]
-n.³æ£¬Èä³æ
+n.è™«ï¼Œè •è™«
 4572. worry['w3ri]
-vt.Ê¹·³ÄÕ vi.·¢³î
+vt.ä½¿çƒ¦æ¼ vi.å‘æ„
 4573. worse[w2:s]
-a.¸ü»µµÄ ad.¸ü»µ
+a.æ›´åçš„ ad.æ›´å
 4574. worship['w2:6ip]
-n.Àñ°İ£»³ç°İ vt.³ç°İ
+n.ç¤¼æ‹œï¼›å´‡æ‹œ vt.å´‡æ‹œ
 4575. worst[w2:st]
-a.×î»µµÄ ad.×î»µµØ
+a.æœ€åçš„ ad.æœ€ååœ°
 4576. worth[w2:4]
-a.Öµ¡­µÄ n.¼ÛÖµ
+a.å€¼â€¦çš„ n.ä»·å€¼
 4577. worthless['w2:4lis]
-a.ÎŞ¼ÛÖµµÄ£¬ÎŞÓÃµÄ
+a.æ— ä»·å€¼çš„ï¼Œæ— ç”¨çš„
 4578. worthwhile['w2:4'wail]
-a.ÖµµÃ»¨Ê±¼äµÄ
+a.å€¼å¾—èŠ±æ—¶é—´çš„
 4579. worthy['w2:5i]
-a.ÓĞ¼ÛÖµµÄ£»ÖµµÃµÄ
+a.æœ‰ä»·å€¼çš„ï¼›å€¼å¾—çš„
 4580. would[wud. w2d]
-aux.v.½«£»Ô¸£»×ÜÊÇ
+aux.v.å°†ï¼›æ„¿ï¼›æ€»æ˜¯
 4581. wound[wu:nd]
-n.´´ÉË£¬ÉË vt.Ê¹ÊÜÉË
+n.åˆ›ä¼¤ï¼Œä¼¤ vt.ä½¿å—ä¼¤
 4582. wrap[r9p]
-vt.¹ü£¬°ü£¬À¦ n.Åû¼ç
+vt.è£¹ï¼ŒåŒ…ï¼Œæ† n.æŠ«è‚©
 4583. wreath[ri:4]
-n.»¨»·£¬»¨È¦£¬»¨¹Ú
+n.èŠ±ç¯ï¼ŒèŠ±åœˆï¼ŒèŠ±å† 
 4584. wreck[rek]
-n.Ê§ÊÂ£»²Ğº¡ vt.ÆÆ»µ
+n.å¤±äº‹ï¼›æ®‹éª¸ vt.ç ´å
 4585. wrist[rist]
-n.Íó£¬Íó¹Ø½Ú
+n.è…•ï¼Œè…•å…³èŠ‚
 4586. write[rait]
-vt.ÊéĞ´£»Ğ´ vi.Ğ´
+vt.ä¹¦å†™ï¼›å†™ vi.å†™
 4587. writer['rait2]
-n.×÷Õß£¬×÷¼Ò£¬ÎÄÑ§¼Ò
+n.ä½œè€…ï¼Œä½œå®¶ï¼Œæ–‡å­¦å®¶
 4588. writing['raiti8]
-n.ÊéĞ´£¬Ğ´£»Öø×÷
+n.ä¹¦å†™ï¼Œå†™ï¼›è‘—ä½œ
 4589. wrong[r08]
-a.´íÎóµÄ ad.´í£¬²»¶Ô
+a.é”™è¯¯çš„ ad.é”™ï¼Œä¸å¯¹
 4590. X-ray['eks'rei]
-n.XÉäÏß£¬X¹â
+n.Xå°„çº¿ï¼ŒXå…‰
 4591. yard[ja:d]
-n.Ôº×Ó£¬Í¥Ôº£»³¡µØ
+n.é™¢å­ï¼Œåº­é™¢ï¼›åœºåœ°
 4592. yard[ja:d]
-n.Âë
+n.ç 
 4593. yawn[j0:n]
-vi.´òºÇÇ· n.ºÇÇ·
+vi.æ‰“å‘µæ¬  n.å‘µæ¬ 
 4594. year[j2:. ji2]
-n.Äê£»ÄêÄê
+n.å¹´ï¼›å¹´å¹´
 4595. yearly['j2:li]
-a.Ã¿ÄêµÄ ad.Ò»ÄêÒ»¶È
+a.æ¯å¹´çš„ ad.ä¸€å¹´ä¸€åº¦
 4596. yell[jel]
-vi.½Ğº°
+vi.å«å–Š
 4597. yellow['jel2u]
-a.»Æ(É«)µÄ n.»Æ(É«)
+a.é»„(è‰²)çš„ n.é»„(è‰²)
 4598. yes[jes]
-ad.ÊÇ£¬ÊÇµÄ
+ad.æ˜¯ï¼Œæ˜¯çš„
 4599. yesterday['jest2di]
-n.&ad.×òÌì£¬×òÈÕ
+n.&ad.æ˜¨å¤©ï¼Œæ˜¨æ—¥
 4600. yet[jet]
-ad.»¹£»ÒÑ¾­ conj.¶ø
+ad.è¿˜ï¼›å·²ç» conj.è€Œ
 4601. yield[ji:ld]
-vt.&vi.³ö²ú n.²úÁ¿
+vt.&vi.å‡ºäº§ n.äº§é‡
 4602. you[ju:. ju]
-pron.Äã£¬ÄãÃÇ
+pron.ä½ ï¼Œä½ ä»¬
 4603. young[j38]
-a.ÄêÇáµÄ n.ÇàÄêÃÇ
+a.å¹´è½»çš„ n.é’å¹´ä»¬
 4604. your[j0:]
-pron.ÄãµÄ£¬ÄãÃÇµÄ
+pron.ä½ çš„ï¼Œä½ ä»¬çš„
 4605. yours[j0:z]
-pron.ÄãÃÇµÄ(¶«Î÷)
+pron.ä½ ä»¬çš„(ä¸œè¥¿)
 4606. yourself[j0:'self]
-pron.Äã×Ô¼º£»ÄãÇ××Ô
+pron.ä½ è‡ªå·±ï¼›ä½ äº²è‡ª
 4607. youth[ju:4]
-n.Çà´º£»ÇàÄêÃÇ£»ÇàÄê
+n.é’æ˜¥ï¼›é’å¹´ä»¬ï¼›é’å¹´
 4608. youthful['ju:4ful]
-a.ÄêÇáµÄ£¬ÇàÄêµÄ
+a.å¹´è½»çš„ï¼Œé’å¹´çš„
 4609. zeal[zi:l]
-n.ÈÈĞÄ£¬ÈÈÇé£¬ÈÈ³À
+n.çƒ­å¿ƒï¼Œçƒ­æƒ…ï¼Œçƒ­å¿±
 4610. zealous['zel2s]
-a.ÈÈĞÄµÄ£¬ÈÈÇéµÄ
+a.çƒ­å¿ƒçš„ï¼Œçƒ­æƒ…çš„
 4611. zebra['zi:br2]
-n.°ßÂí
+n.æ–‘é©¬
 4612. zero['zi2r2u]
-n.Áã£»Áãµã£¬Áã¶È
+n.é›¶ï¼›é›¶ç‚¹ï¼Œé›¶åº¦
 4613. zone[z2un]
-n.µØÇø£¬ÇøÓò£¬·¶Î§
+n.åœ°åŒºï¼ŒåŒºåŸŸï¼ŒèŒƒå›´
 4614. zoo[zu:]
-n.¶¯ÎïÔ°
+n.åŠ¨ç‰©å›­
 
